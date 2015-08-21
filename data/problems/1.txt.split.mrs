@@ -1,0 +1,74 @@
+SENT: There were 28 bales of hay in the barn.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _be_v_there_rel<6:10> LBL: h1 ARG0: e2 ARG1: x4 [ x PERS: 3 NUM: pl GEND: n IND: + ] ]
+ [ udef_q_rel<11:13> LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]
+ [ card_rel<11:13> LBL: h8 CARG: "28" ARG0: e10 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x4 ]
+ [ "_bale_n_1_rel"<14:19> LBL: h8 ARG0: x4 ]
+ [ _of_p_rel<20:22> LBL: h8 ARG0: e11 [ e SF: prop ] ARG1: x4 ARG2: x12 [ x PERS: 3 NUM: sg GEND: n IND: - ] ]
+ [ udef_q_rel<23:39> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
+ [ "_hay_n_1_rel"<23:26> LBL: h16 ARG0: x12 ]
+ [ _in_p_rel<27:29> LBL: h16 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x12 ARG2: x18 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<30:33> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ "_barn_n_1_rel"<34:39> LBL: h22 ARG0: x18 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 h14 qeq h16 h20 qeq h22 > ]
+
+
+SENT: Tim stacked more bales in the barn today.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:3> LBL: h7 CARG: "Tim" ARG0: x3 ]
+ [ "_stack_v_1_rel"<4:11> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<12:22> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ much-many_a_rel<12:16> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ comp_rel<12:16> LBL: h13 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 ARG2: u16 ]
+ [ "_bale_n_1_rel"<17:22> LBL: h13 ARG0: x9 ]
+ [ _in_p_rel<23:25> LBL: h1 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x18 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<26:29> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ "_barn_n_1_rel"<30:34> LBL: h22 ARG0: x18 ]
+ [ loc_nonsp_rel<35:41> LBL: h1 ARG0: e23 [ e SF: prop ] ARG1: e2 ARG2: x24 [ x PERS: 3 NUM: sg ] ]
+ [ time_n_rel<35:41> LBL: h25 ARG0: x24 ]
+ [ def_implicit_q_rel<35:41> LBL: h26 ARG0: x24 RSTR: h27 BODY: h28 ]
+ [ _today_a_1_rel<35:41> LBL: h25 ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x24 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h20 qeq h22 h27 qeq h25 > ]
+
+
+SENT: There are now 54 bales of hay in the barn.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _be_v_there_rel<6:9> LBL: h1 ARG0: e2 ARG1: x4 [ x PERS: 3 NUM: pl GEND: n IND: + ] ]
+ [ temp_loc_x_rel<10:13> LBL: h1 ARG0: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: i6 ]
+ [ time_n_rel<10:13> LBL: h7 ARG0: i6 ]
+ [ def_implicit_q_rel<10:13> LBL: h8 ARG0: i6 RSTR: h9 BODY: h10 ]
+ [ _now_a_1_rel<10:13> LBL: h7 ARG0: i11 ARG1: i6 ]
+ [ udef_q_rel<14:16> LBL: h12 ARG0: x4 RSTR: h13 BODY: h14 ]
+ [ card_rel<14:16> LBL: h15 CARG: "54" ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x4 ]
+ [ "_bale_n_1_rel"<17:22> LBL: h15 ARG0: x4 ]
+ [ _of_p_rel<23:25> LBL: h15 ARG0: e18 [ e SF: prop ] ARG1: x4 ARG2: x19 [ x PERS: 3 NUM: sg GEND: n IND: - ] ]
+ [ udef_q_rel<26:42> LBL: h20 ARG0: x19 RSTR: h21 BODY: h22 ]
+ [ "_hay_n_1_rel"<26:29> LBL: h23 ARG0: x19 ]
+ [ _in_p_rel<30:32> LBL: h23 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x19 ARG2: x25 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<33:36> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
+ [ "_barn_n_1_rel"<37:42> LBL: h29 ARG0: x25 ] >
+HCONS: < h0 qeq h1 h9 qeq h7 h13 qeq h15 h21 qeq h23 h27 qeq h29 > ]
+
+
+SENT: How many bales did he store in the barn ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_bale_n_1_rel"<9:14> LBL: h13 ARG0: x5 ]
+ [ pron_rel<19:21> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m PT: std ] ]
+ [ pronoun_q_rel<19:21> LBL: h17 ARG0: x3 RSTR: h18 BODY: h19 ]
+ [ "_store_v_cause_rel"<22:27> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ _in_p_rel<28:30> LBL: h1 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x21 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<31:34> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ "_barn_n_1_rel"<35:41> LBL: h25 ARG0: x21 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h16 h23 qeq h25 > ]
+
+
