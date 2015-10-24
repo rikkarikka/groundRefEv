@@ -1,0 +1,55 @@
+SENT: A construction company ordered 0.16666666666666666 ton of concrete , 0.16666666666666666 ton of bricks , and 0.5 ton of stone .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _a_q_rel<0:1> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg ] RSTR: h5 BODY: h6 ]
+ [ compound_rel<2:22> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 ]
+ [ udef_q_rel<2:14> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ "_construction_n_of_rel"<2:14> LBL: h13 ARG0: x9 ARG1: i14 ]
+ [ "_company_n_of_rel"<15:22> LBL: h7 ARG0: x3 ARG1: i15 ]
+ [ "_order_v_1_rel"<23:30> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x16 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<31:127> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ card_rel<31:50> LBL: h20 CARG: "1" ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x16 ]
+ [ "_ton_n_1_rel"<51:54> LBL: h20 ARG0: x16 ]
+ [ _of_p_rel<55:57> LBL: h20 ARG0: e23 [ e SF: prop ] ARG1: x16 ARG2: x24 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<58:127> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ udef_q_rel<58:68> LBL: h28 ARG0: x29 [ x PERS: 3 NUM: sg GEND: n IND: - ] RSTR: h30 BODY: h31 ]
+ [ "_concrete_n_1_rel"<58:68> LBL: h32 ARG0: x29 ]
+ [ udef_q_rel<69:127> LBL: h33 ARG0: x34 [ x PERS: 3 NUM: pl ] RSTR: h35 BODY: h36 ]
+ [ implicit_conj_rel<69:127> LBL: h37 ARG0: x24 L-INDEX: x29 R-INDEX: x34 ]
+ [ udef_q_rel<69:104> LBL: h38 ARG0: x39 [ x PERS: 3 NUM: sg IND: + ] RSTR: h40 BODY: h41 ]
+ [ card_rel<69:88> LBL: h42 CARG: "1" ARG0: e44 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x39 ]
+ [ "_ton_n_1_rel"<89:92> LBL: h42 ARG0: x39 ]
+ [ _of_p_rel<93:95> LBL: h42 ARG0: e45 [ e SF: prop ] ARG1: x39 ARG2: x46 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<96:104> LBL: h47 ARG0: x46 RSTR: h48 BODY: h49 ]
+ [ "_brick_n_1_rel"<96:104> LBL: h50 ARG0: x46 ]
+ [ _and_c_rel<105:108> LBL: h51 ARG0: x34 L-INDEX: x39 R-INDEX: x52 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<109:127> LBL: h53 ARG0: x52 RSTR: h54 BODY: h55 ]
+ [ card_rel<109:112> LBL: h56 CARG: "1" ARG0: e58 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x52 ]
+ [ "_ton_n_1_rel"<113:116> LBL: h56 ARG0: x52 ]
+ [ _of_p_rel<117:119> LBL: h56 ARG0: e59 [ e SF: prop ] ARG1: x52 ARG2: x60 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<120:127> LBL: h61 ARG0: x60 RSTR: h62 BODY: h63 ]
+ [ "_stone_n_1_rel"<120:127> LBL: h64 ARG0: x60 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h18 qeq h20 h26 qeq h37 h30 qeq h32 h35 qeq h51 h40 qeq h42 h48 qeq h50 h54 qeq h56 h62 qeq h64 > ]
+
+
+SENT: How many tons of material did the company order in all ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:25> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_ton_n_1_rel"<9:13> LBL: h13 ARG0: x5 ]
+ [ _of_p_rel<14:16> LBL: h13 ARG0: e16 [ e SF: prop ] ARG1: x5 ARG2: x17 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<17:25> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ "_material_n_1_rel"<17:25> LBL: h21 ARG0: x17 ]
+ [ _the_q_rel<30:33> LBL: h22 ARG0: x3 [ x PERS: 3 NUM: sg ] RSTR: h23 BODY: h24 ]
+ [ "_company_n_of_rel"<34:41> LBL: h25 ARG0: x3 ARG1: i26 ]
+ [ "_order_v_1_rel"<42:47> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ _in_p_rel<48:50> LBL: h1 ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x28 [ x PERS: 3 ] ]
+ [ _all_q_rel<51:56> LBL: h29 ARG0: x28 RSTR: h30 BODY: h31 ]
+ [ generic_entity_rel<51:56> LBL: h32 ARG0: x28 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h19 qeq h21 h23 qeq h25 h30 qeq h32 > ]
+
+

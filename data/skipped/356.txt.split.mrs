@@ -1,0 +1,49 @@
+SENT: Professor Ellison weighed two pieces of metal for an experiment.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:17> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ compound_name_rel<0:17> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<0:9> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ named_rel<0:9> LBL: h13 CARG: "Professor" ARG0: x9 ]
+ [ named_rel<10:17> LBL: h7 CARG: "Ellison" ARG0: x3 ]
+ [ "_weigh_v_1_rel"<18:25> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x16 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<26:29> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ card_rel<26:29> LBL: h20 CARG: "2" ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x16 ]
+ [ "_piece_n_of_rel"<30:36> LBL: h20 ARG0: x16 ARG1: x23 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<40:45> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ "_metal_n_1_rel"<40:45> LBL: h27 ARG0: x23 ]
+ [ _for_p_rel<46:49> LBL: h1 ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x29 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<50:52> LBL: h30 ARG0: x29 RSTR: h31 BODY: h32 ]
+ [ "_experiment_n_1_rel"<53:64> LBL: h33 ARG0: x29 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h18 qeq h20 h25 qeq h27 h31 qeq h33 > ]
+
+
+SENT: The piece of iron weighed 11.166666666666666 pounds and the piece of aluminum weighed 0.8333333333333334 of a pound.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg IND: + ] RSTR: h6 BODY: h7 ]
+ [ "_piece_n_of_rel"<4:9> LBL: h8 ARG0: x5 ARG1: x9 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<13:17> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ "_iron_n_1_rel"<13:17> LBL: h13 ARG0: x9 ]
+ [ "_weigh_v_1_rel"<18:25> LBL: h14 ARG0: e15 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x5 ARG2: x16 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<26:51> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ card_rel<26:44> LBL: h20 CARG: "11.166666666666666" ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x16 ]
+ [ "_pound_n_1_rel"<45:51> LBL: h20 ARG0: x16 ]
+ [ _and_c_rel<52:55> LBL: h1 ARG0: e2 L-INDEX: e15 R-INDEX: e23 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h24 R-HNDL: h25 ]
+ [ _the_q_rel<56:59> LBL: h26 ARG0: x27 [ x PERS: 3 NUM: sg IND: + ] RSTR: h28 BODY: h29 ]
+ [ "_piece_n_of_rel"<60:65> LBL: h30 ARG0: x27 ARG1: x31 [ x PERS: 3 NUM: sg GEND: n IND: - ] ]
+ [ udef_q_rel<69:77> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ "_aluminum_n_1_rel"<69:77> LBL: h35 ARG0: x31 ]
+ [ "_weigh_v_1_rel"<78:85> LBL: h36 ARG0: e23 ARG1: x27 ARG2: x37 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<86:104> LBL: h38 ARG0: x37 ARG1: x39 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<86:104> LBL: h40 ARG0: x37 RSTR: h41 BODY: h42 ]
+ [ card_rel<86:104> LBL: h38 CARG: "0.8333333333333334" ARG0: e44 [ e SF: prop ] ARG1: x37 ]
+ [ udef_q_rel<108:116> LBL: h45 ARG0: x39 RSTR: h46 BODY: h47 ]
+ [ card_rel<108:109> LBL: h48 CARG: "1" ARG0: e50 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x39 ]
+ [ "_pound_n_1_rel"<110:116> LBL: h48 ARG0: x39 ] >
+HCONS: < h0 qeq h1 h24 qeq h14 h6 qeq h8 h11 qeq h13 h18 qeq h20 h25 qeq h36 h28 qeq h30 h33 qeq h35 h41 qeq h38 h46 qeq h48 > ]
+
+
+SKIP: How much more did the piece of iron weigh than the piece of aluminum?
+
+

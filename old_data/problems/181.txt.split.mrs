@@ -1,0 +1,58 @@
+SENT: Hannah 's Vegetarian Restaurant bought 0.3333333333333333 pound of green peppers and 0.3333333333333333 pound of red peppers .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:6> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg IND: + ] RSTR: h6 BODY: h7 ]
+ [ named_rel<0:6> LBL: h8 CARG: "Hannah" ARG0: x5 ]
+ [ def_explicit_q_rel<7:9> LBL: h10 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
+ [ poss_rel<7:9> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x5 ]
+ [ "_vegetarian_a_1_rel"<10:20> LBL: h13 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ]
+ [ "_restaurant_n_1_rel"<21:31> LBL: h13 ARG0: x3 ]
+ [ "_buy_v_1_rel"<32:38> LBL: h1 ARG0: e2 ARG1: x3 ARG2: p16 ]
+ [ loc_nonsp_rel<39:80> LBL: h17 ARG0: e18 [ e SF: prop ] ARG1: e2 ARG2: x19 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<39:80> LBL: h20 ARG0: x19 RSTR: h21 BODY: h22 ]
+ [ card_rel<39:57> LBL: h23 CARG: "1" ARG0: e25 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x19 ]
+ [ "_pound_n_1_rel"<58:63> LBL: h23 ARG0: x19 ]
+ [ _of_p_rel<64:66> LBL: h23 ARG0: e26 [ e SF: prop ] ARG1: x19 ARG2: x27 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<67:80> LBL: h28 ARG0: x27 RSTR: h29 BODY: h30 ]
+ [ "_green_a_2_rel"<67:72> LBL: h31 ARG0: e32 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x27 ]
+ [ "_pepper_n_1_rel"<73:80> LBL: h31 ARG0: x27 ]
+ [ _and_c_rel<81:84> LBL: h1 ARG0: e33 [ e SF: prop ] L-INDEX: e18 R-INDEX: e34 [ e SF: prop ] L-HNDL: h17 R-HNDL: h35 ]
+ [ loc_nonsp_rel<85:126> LBL: h35 ARG0: e34 ARG1: e2 ARG2: x36 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<85:126> LBL: h37 ARG0: x36 RSTR: h38 BODY: h39 ]
+ [ card_rel<85:103> LBL: h40 CARG: "1" ARG0: e42 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x36 ]
+ [ "_pound_n_1_rel"<104:109> LBL: h40 ARG0: x36 ]
+ [ _of_p_rel<110:112> LBL: h40 ARG0: e43 [ e SF: prop ] ARG1: x36 ARG2: x44 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<113:126> LBL: h45 ARG0: x44 RSTR: h46 BODY: h47 ]
+ [ "_red_a_1_rel"<113:116> LBL: h48 ARG0: e49 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x44 ]
+ [ "_pepper_n_1_rel"<117:126> LBL: h48 ARG0: x44 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 h11 qeq h13 h21 qeq h23 h29 qeq h31 h38 qeq h40 h46 qeq h48 > ]
+
+
+SENT: How many pounds of peppers did Hannah 's Vegetarian Restaurant buy in all ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:26> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ abstr_deg_rel<0:3> LBL: h7 ARG0: i8 ]
+ [ which_q_rel<0:3> LBL: h9 ARG0: i8 RSTR: h10 BODY: h11 ]
+ [ measure_rel<0:3> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG2: i8 ]
+ [ much-many_a_rel<4:8> LBL: h12 ARG0: e14 ARG1: x3 ]
+ [ "_pound_n_1_rel"<9:15> LBL: h12 ARG0: x3 ]
+ [ _of_p_rel<16:18> LBL: h12 ARG0: e15 [ e SF: prop ] ARG1: x3 ARG2: x16 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<19:26> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_pepper_n_1_rel"<19:26> LBL: h20 ARG0: x16 ]
+ [ "_do_v_1_rel"<27:30> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x21 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<31:37> LBL: h22 ARG0: x23 [ x PERS: 3 NUM: sg IND: + ] RSTR: h24 BODY: h25 ]
+ [ named_rel<31:37> LBL: h26 CARG: "Hannah" ARG0: x23 ]
+ [ def_explicit_q_rel<38:40> LBL: h28 ARG0: x21 RSTR: h29 BODY: h30 ]
+ [ poss_rel<38:40> LBL: h31 ARG0: e32 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x21 ARG2: x23 ]
+ [ "_vegetarian_a_1_rel"<41:51> LBL: h31 ARG0: e33 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x21 ]
+ [ compound_rel<52:66> LBL: h31 ARG0: e34 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x21 ARG2: x35 [ x IND: + ] ]
+ [ proper_q_rel<52:62> LBL: h36 ARG0: x35 RSTR: h37 BODY: h38 ]
+ [ named_rel<52:62> LBL: h39 CARG: "Restaurant" ARG0: x35 ]
+ [ "_buy_n_1_rel"<63:66> LBL: h31 ARG0: x21 ]
+ [ _in_p_rel<67:69> LBL: h1 ARG0: e41 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x42 [ x PERS: 3 ] ]
+ [ _all_q_rel<70:75> LBL: h43 ARG0: x42 RSTR: h44 BODY: h45 ]
+ [ generic_entity_rel<70:75> LBL: h46 ARG0: x42 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 h18 qeq h20 h24 qeq h26 h29 qeq h31 h37 qeq h39 h44 qeq h46 > ]
+
+

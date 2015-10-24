@@ -1,0 +1,52 @@
+SENT: Gordon bought 3.42 pounds of fruit for a class party.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:6> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:6> LBL: h7 CARG: "Gordon" ARG0: x3 ]
+ [ "_buy_v_1_rel"<7:13> LBL: h1 ARG0: e2 ARG1: x3 ARG2: p9 ]
+ [ loc_nonsp_rel<14:53> LBL: h1 ARG0: e10 [ e SF: prop ] ARG1: e2 ARG2: x11 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<14:53> LBL: h12 ARG0: x11 RSTR: h13 BODY: h14 ]
+ [ card_rel<14:18> LBL: h15 CARG: "3.42" ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x11 ]
+ [ "_pound_n_1_rel"<19:25> LBL: h15 ARG0: x11 ]
+ [ _of_p_rel<26:28> LBL: h15 ARG0: e18 [ e SF: prop ] ARG1: x11 ARG2: x19 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<29:53> LBL: h20 ARG0: x19 RSTR: h21 BODY: h22 ]
+ [ "_fruit_n_1_rel"<29:34> LBL: h23 ARG0: x19 ]
+ [ _for_p_rel<35:38> LBL: h23 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x19 ARG2: x25 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<39:40> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
+ [ compound_rel<41:53> LBL: h29 ARG0: e30 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x25 ARG2: x31 ]
+ [ udef_q_rel<41:46> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ "_class_n_of_rel"<41:46> LBL: h35 ARG0: x31 ARG1: i36 ]
+ [ "_party_n_of-to_rel"<47:53> LBL: h29 ARG0: x25 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h13 qeq h15 h21 qeq h23 h27 qeq h29 h33 qeq h35 > ]
+
+
+SENT: The class ate 2.2 pounds of the fruit.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg ] RSTR: h5 BODY: h6 ]
+ [ "_class_n_of_rel"<4:9> LBL: h7 ARG0: x3 ARG1: i8 ]
+ [ "_eat_v_1_rel"<10:13> LBL: h1 ARG0: e2 ARG1: x3 ARG2: p9 ]
+ [ loc_nonsp_rel<14:38> LBL: h1 ARG0: e10 [ e SF: prop ] ARG1: e2 ARG2: x11 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<14:38> LBL: h12 ARG0: x11 RSTR: h13 BODY: h14 ]
+ [ card_rel<14:17> LBL: h15 CARG: "2.2" ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x11 ]
+ [ "_pound_n_1_rel"<18:24> LBL: h15 ARG0: x11 ]
+ [ _of_p_rel<25:27> LBL: h15 ARG0: e18 [ e SF: prop ] ARG1: x11 ARG2: x19 [ x PERS: 3 NUM: sg ] ]
+ [ _the_q_rel<28:31> LBL: h20 ARG0: x19 RSTR: h21 BODY: h22 ]
+ [ "_fruit_n_1_rel"<32:38> LBL: h23 ARG0: x19 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h13 qeq h15 h21 qeq h23 > ]
+
+
+SENT: How much fruit is left?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg ] RSTR: h5 BODY: h6 ]
+ [ abstr_deg_rel<0:3> LBL: h7 ARG0: i8 ]
+ [ which_q_rel<0:3> LBL: h9 ARG0: i8 RSTR: h10 BODY: h11 ]
+ [ measure_rel<0:3> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i8 ]
+ [ much-many_a_rel<4:8> LBL: h12 ARG0: e14 ARG1: x3 ]
+ [ "_fruit_n_1_rel"<9:14> LBL: h12 ARG0: x3 ]
+ [ "_leave_v_1_rel"<18:23> LBL: h1 ARG0: e2 ARG1: i15 ARG2: x3 ]
+ [ parg_d_rel<18:23> LBL: h1 ARG0: e16 [ e SF: prop ] ARG1: e2 ARG2: x3 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 > ]
+
+

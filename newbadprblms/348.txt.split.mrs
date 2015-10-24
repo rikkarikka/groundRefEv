@@ -1,0 +1,72 @@
+SENT: Dan 's cat had kittens and 5 had spots .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:3> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg IND: + ] RSTR: h6 BODY: h7 ]
+ [ named_rel<0:3> LBL: h8 CARG: "Dan" ARG0: x5 ]
+ [ def_explicit_q_rel<4:6> LBL: h10 ARG0: x11 [ x PERS: 3 NUM: sg IND: + ] RSTR: h12 BODY: h13 ]
+ [ poss_rel<4:6> LBL: h14 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x11 ARG2: x5 ]
+ [ "_cat_n_1_rel"<7:10> LBL: h14 ARG0: x11 ]
+ [ "_have_v_1_rel"<11:14> LBL: h16 ARG0: e17 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x11 ARG2: x18 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<15:22> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ "_kitten_n_1_rel"<15:22> LBL: h22 ARG0: x18 ]
+ [ _and_c_rel<23:26> LBL: h1 ARG0: e2 L-INDEX: e17 R-INDEX: e23 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h24 R-HNDL: h25 ]
+ [ generic_entity_rel<27:28> LBL: h26 ARG0: x27 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<27:28> LBL: h28 ARG0: x27 RSTR: h29 BODY: h30 ]
+ [ card_rel<27:28> LBL: h26 CARG: "5" ARG0: e32 [ e SF: prop ] ARG1: x27 ]
+ [ "_have_v_1_rel"<29:32> LBL: h33 ARG0: e23 ARG1: x27 ARG2: x34 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<33:40> LBL: h35 ARG0: x34 RSTR: h36 BODY: h37 ]
+ [ "_spot_n_of_rel"<33:40> LBL: h38 ARG0: x34 ARG1: i39 ] >
+HCONS: < h0 qeq h1 h24 qeq h16 h6 qeq h8 h12 qeq h14 h20 qeq h22 h25 qeq h33 h29 qeq h26 h36 qeq h38 > ]
+
+
+SENT: He gave 7 to Tim and 4 to Jason .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:2> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<0:2> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_give_v_1_rel"<3:7> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: sg ] ARG3: x9 [ x PERS: 3 NUM: pl ] ]
+ [ number_q_rel<8:9> LBL: h10 ARG0: x8 RSTR: h11 BODY: h12 ]
+ [ card_rel<8:9> LBL: h13 CARG: "7" ARG0: x8 ARG1: i15 ]
+ [ udef_q_rel<13:33> LBL: h16 ARG0: x9 RSTR: h17 BODY: h18 ]
+ [ proper_q_rel<13:16> LBL: h19 ARG0: x20 [ x PERS: 3 NUM: sg IND: + ] RSTR: h21 BODY: h22 ]
+ [ named_rel<13:16> LBL: h23 CARG: "Tim" ARG0: x20 ]
+ [ _and_c_rel<17:20> LBL: h25 ARG0: x9 L-INDEX: x20 R-INDEX: x26 [ x PERS: 3 NUM: pl ] ]
+ [ generic_entity_rel<21:22> LBL: h27 ARG0: x26 ]
+ [ udef_q_rel<21:22> LBL: h28 ARG0: x26 RSTR: h29 BODY: h30 ]
+ [ card_rel<21:22> LBL: h27 CARG: "4" ARG0: e32 [ e SF: prop ] ARG1: x26 ]
+ [ _to_p_rel<23:25> LBL: h27 ARG0: e33 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x26 ARG2: x34 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<26:33> LBL: h35 ARG0: x34 RSTR: h36 BODY: h37 ]
+ [ named_rel<26:33> LBL: h38 CARG: "Jason" ARG0: x34 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h11 qeq h13 h17 qeq h25 h21 qeq h23 h29 qeq h27 h36 qeq h38 > ]
+
+
+SENT: He now has 5 kittens .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:2> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<0:2> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_now_a_1_rel"<3:6> LBL: h1 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ]
+ [ "_have_v_1_rel"<7:10> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<11:12> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<11:12> LBL: h13 CARG: "5" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_kitten_n_1_rel"<13:22> LBL: h13 ARG0: x9 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h11 qeq h13 > ]
+
+
+SENT: How many kittens did he have to start with ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:16> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_kitten_n_1_rel"<9:16> LBL: h13 ARG0: x5 ]
+ [ pron_rel<21:23> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<21:23> LBL: h17 ARG0: x3 RSTR: h18 BODY: h19 ]
+ [ "_have_v_qmodal_rel"<24:28> LBL: h1 ARG0: e2 ARG1: h20 ]
+ [ "_start_v_1_rel"<32:37> LBL: h21 ARG0: e22 [ e SF: prop-or-ques TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
+ [ _with_p_rel<38:44> LBL: h21 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e22 ARG2: x5 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h16 h20 qeq h21 > ]
+
+

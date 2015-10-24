@@ -1,0 +1,40 @@
+SENT: It snowed 0.32 inches on Monday and 0.21 inches on Tuesday .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ "_snow_v_1_rel"<3:9> LBL: h1 ARG0: e2 ]
+ [ loc_nonsp_rel<10:60> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: x5 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<10:60> LBL: h6 ARG0: x5 RSTR: h7 BODY: h8 ]
+ [ card_rel<10:14> LBL: h9 CARG: "0.32" ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x5 ]
+ [ "_inch_n_1_rel"<15:21> LBL: h9 ARG0: x5 ]
+ [ _on_p_temp_rel<22:24> LBL: h9 ARG0: e12 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x5 ARG2: x13 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<25:60> LBL: h14 ARG0: x13 RSTR: h15 BODY: h16 ]
+ [ proper_q_rel<25:31> LBL: h17 ARG0: x18 [ x PERS: 3 NUM: sg IND: + ] RSTR: h19 BODY: h20 ]
+ [ dofw_rel<25:31> LBL: h21 CARG: "Mon" ARG0: x18 ]
+ [ _and_c_rel<32:35> LBL: h23 ARG0: x13 L-INDEX: x18 R-INDEX: x24 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<36:40> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ card_rel<36:40> LBL: h28 CARG: "0.21" ARG0: e30 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x24 ]
+ [ "_inch_n_1_rel"<41:47> LBL: h28 ARG0: x24 ]
+ [ _on_p_temp_rel<48:50> LBL: h28 ARG0: e31 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x24 ARG2: x32 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<51:60> LBL: h33 ARG0: x32 RSTR: h34 BODY: h35 ]
+ [ dofw_rel<51:60> LBL: h36 CARG: "Tue" ARG0: x32 ] >
+HCONS: < h0 qeq h1 h7 qeq h9 h15 qeq h23 h19 qeq h21 h26 qeq h28 h34 qeq h36 > ]
+
+
+SENT: How much did it snow on Monday and Tuesday combined ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ abstr_deg_rel<0:3> LBL: h4 ARG0: i5 ]
+ [ which_q_rel<0:3> LBL: h6 ARG0: i5 RSTR: h7 BODY: h8 ]
+ [ measure_rel<0:3> LBL: h9 ARG0: e10 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: i11 ARG2: i5 ]
+ [ "_much_a_1_rel"<4:8> LBL: h9 ARG0: e12 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e13 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ] ]
+ [ "_snow_v_1_rel"<16:20> LBL: h9 ARG0: e13 ]
+ [ _on_p_temp_rel<21:23> LBL: h9 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e13 ARG2: x15 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<24:30> LBL: h16 ARG0: x15 RSTR: h17 BODY: h18 ]
+ [ dofw_rel<24:30> LBL: h19 CARG: "Mon" ARG0: x15 ]
+ [ _and_c_rel<31:34> LBL: h1 ARG0: e2 L-INDEX: e13 R-INDEX: e21 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h22 R-HNDL: h23 ]
+ [ proper_q_rel<35:42> LBL: h24 ARG0: x25 [ x PERS: 3 NUM: sg IND: + ] RSTR: h26 BODY: h27 ]
+ [ dofw_rel<35:42> LBL: h28 CARG: "Tue" ARG0: x25 ]
+ [ "_combine_v_1_rel"<43:53> LBL: h30 ARG0: e21 ARG1: x25 ] >
+HCONS: < h0 qeq h1 h22 qeq h9 h7 qeq h4 h17 qeq h19 h23 qeq h30 h26 qeq h28 > ]
+
+

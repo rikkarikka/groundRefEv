@@ -1,0 +1,63 @@
+SENT: Mrs.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop ]
+RELS: < [ unknown_rel<0:4> LBL: h1 ARG0: e2 ARG: x4 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<0:4> LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]
+ [ "_mister_n_1_rel"<0:4> LBL: h8 ARG0: x4 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 > ]
+
+
+SENT: Hilt is baking bread.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: + PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Hilt" ARG0: x3 ]
+ [ "_bake_v_cause_rel"<8:14> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<15:21> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ "_bread_n_1_rel"<15:21> LBL: h13 ARG0: x9 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
+
+
+SENT: She needs 5 cups of flour to bake 2 loaves of bread.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_need_v_1_rel"<4:9> LBL: h1 ARG0: e2 ARG1: x3 ARG2: h8 ]
+ [ udef_q_rel<10:11> LBL: h9 ARG0: x10 [ x PERS: 3 NUM: pl IND: + ] RSTR: h11 BODY: h12 ]
+ [ card_rel<10:11> LBL: h13 CARG: "5" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x10 ]
+ [ "_cup_n_of_rel"<12:16> LBL: h13 ARG0: x10 ARG1: x16 [ x PERS: 3 NUM: sg GEND: n IND: - ] ]
+ [ udef_q_rel<20:25> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_flour_n_1_rel"<20:25> LBL: h20 ARG0: x16 ]
+ [ "_bake_v_cause_rel"<29:33> LBL: h21 ARG0: e22 [ e SF: prop-or-ques TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x10 ARG2: x23 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<34:35> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ card_rel<34:35> LBL: h27 CARG: "2" ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x23 ]
+ [ "_loaf_n_1_rel"<36:42> LBL: h27 ARG0: x23 ]
+ [ _of_p_rel<43:45> LBL: h27 ARG0: e30 [ e SF: prop ] ARG1: x23 ARG2: x31 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<46:52> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ "_bread_n_1_rel"<46:52> LBL: h35 ARG0: x31 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h8 qeq h21 h11 qeq h13 h18 qeq h20 h25 qeq h27 h33 qeq h35 > ]
+
+
+SENT: How much flour will she need to make one loaf of bread?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: fut MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg GEND: n IND: - ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_flour_n_1_rel"<9:14> LBL: h13 ARG0: x5 ]
+ [ pron_rel<20:23> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<20:23> LBL: h17 ARG0: x3 RSTR: h18 BODY: h19 ]
+ [ "_need_v_1_rel"<24:28> LBL: h20 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ "_in+order+to_x_rel"<29:31> LBL: h1 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h22 ARG2: h23 ]
+ [ "_make_v_of_rel"<32:36> LBL: h24 ARG0: e25 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x26 [ x PERS: 3 NUM: sg IND: + ] ARG3: x27 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<37:40> LBL: h28 ARG0: x26 RSTR: h29 BODY: h30 ]
+ [ card_rel<37:40> LBL: h31 CARG: "1" ARG0: e33 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x26 ]
+ [ "_loaf_n_1_rel"<41:45> LBL: h31 ARG0: x26 ]
+ [ udef_q_rel<49:55> LBL: h34 ARG0: x27 RSTR: h35 BODY: h36 ]
+ [ "_bread_n_1_rel"<49:55> LBL: h37 ARG0: x27 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h16 h22 qeq h20 h23 qeq h24 h29 qeq h31 h35 qeq h37 > ]
+
+

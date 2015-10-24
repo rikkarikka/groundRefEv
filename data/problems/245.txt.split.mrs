@@ -1,0 +1,70 @@
+SENT: Some insects called aphids attack a large farm.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _some_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_insect_n_1_rel"<5:12> LBL: h7 ARG0: x3 ]
+ [ "_call_v_1_rel"<13:19> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: i9 ARG2: x3 ]
+ [ parg_d_rel<13:19> LBL: h7 ARG0: e10 [ e SF: prop ] ARG1: e8 ARG2: x3 ]
+ [ "_aphids/RB_u_unknown_rel"<20:26> LBL: h7 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e8 ]
+ [ "_attack_v_1_rel"<27:33> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x12 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<34:35> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
+ [ "_large_a_1_rel"<36:41> LBL: h16 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x12 ]
+ [ "_farm_n_1_rel"<42:47> LBL: h16 ARG0: x12 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h14 qeq h16 > ]
+
+
+SENT: In response, the farmer releases ladybugs onto the fields.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ focus_d_rel<0:58> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
+ [ _in_p_state_rel<0:2> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<3:12> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
+ [ "_response_n_to_rel"<3:12> LBL: h10 ARG0: x6 ]
+ [ _the_q_rel<13:16> LBL: h11 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h12 BODY: h13 ]
+ [ "_farmer_n_1_rel"<17:23> LBL: h14 ARG0: x3 ]
+ [ "_release_v_1_rel"<24:32> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x15 [ x PERS: 3 NUM: pl IND: + ] ARG3: h16 ]
+ [ udef_q_rel<33:41> LBL: h17 ARG0: x15 RSTR: h18 BODY: h19 ]
+ [ "_ladybug_n_1_rel"<33:41> LBL: h20 ARG0: x15 ]
+ [ _onto_p_rel<42:46> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x15 ARG2: x23 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ _the_q_rel<47:50> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ "_field_n_of_rel"<51:58> LBL: h27 ARG0: x23 ARG1: i28 ] >
+HCONS: < h0 qeq h1 h8 qeq h10 h12 qeq h14 h16 qeq h21 h18 qeq h20 h25 qeq h27 > ]
+
+
+SENT: There are 12,170 ladybugs with spots and 54,912 ladybugs without spots.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _be_v_there_rel<6:9> LBL: h1 ARG0: e2 ARG1: x4 [ x PERS: 3 NUM: pl GEND: n IND: + ] ]
+ [ udef_q_rel<10:16> LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]
+ [ card_rel<10:16> LBL: h8 CARG: "12,170" ARG0: e10 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x4 ]
+ [ "_ladybug_n_1_rel"<17:25> LBL: h8 ARG0: x4 ]
+ [ _with_p_rel<26:30> LBL: h8 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x4 ARG2: x12 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<31:71> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
+ [ udef_q_rel<31:36> LBL: h16 ARG0: x17 [ x PERS: 3 NUM: pl IND: + ] RSTR: h18 BODY: h19 ]
+ [ "_spot_n_of_rel"<31:36> LBL: h20 ARG0: x17 ARG1: i21 ]
+ [ _and_c_rel<37:40> LBL: h22 ARG0: x12 L-INDEX: x17 R-INDEX: x23 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<41:47> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ card_rel<41:47> LBL: h27 CARG: "54,912" ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x23 ]
+ [ "_ladybug_n_1_rel"<48:56> LBL: h27 ARG0: x23 ]
+ [ _without_p_rel<57:64> LBL: h27 ARG0: e30 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x23 ARG2: x31 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<65:71> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ "_spot_n_of_rel"<65:71> LBL: h35 ARG0: x31 ARG1: i36 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 h14 qeq h22 h18 qeq h20 h25 qeq h27 h33 qeq h35 > ]
+
+
+SENT: How many ladybugs are there in all?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:17> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl GEND: n IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_ladybug_n_1_rel"<9:17> LBL: h13 ARG0: x5 ]
+ [ _be_v_there_rel<18:21> LBL: h1 ARG0: e2 ARG1: x5 ]
+ [ _in_p_rel<28:30> LBL: h1 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x17 [ x PERS: 3 ] ]
+ [ _all_q_rel<31:35> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ generic_entity_rel<31:35> LBL: h21 ARG0: x17 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h19 qeq h21 > ]
+
+

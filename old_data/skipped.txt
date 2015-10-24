@@ -1,0 +1,52 @@
+problems/0.txt.split.mrs:SKIP: She has 27 seashell .
+problems/115.txt.split.mrs:SKIP: Tom has 30 violet balloons , he gave Fred 16 of the balloons .
+problems/135.txt.split.mrs:SKIP: Before December , customers buy 1346 ear muffs from the mall .
+problems/139.txt.split.mrs:SKIP: How many yen do they have ?
+problems/142.txt.split.mrs:SKIP: The weather is perfect during the growing season , so he harvests 684 bushels of wheat than expected .
+problems/173.txt.split.mrs:SKIP: How much longer is Oscar 's bus ride than Charlie 's ?
+problems/174.txt.split.mrs:SKIP: Karen added 0.25 cup of walnuts to a batch of trail mix .
+problems/174.txt.split.mrs:SKIP: Later , she added 0.25 cup of almonds .
+problems/176.txt.split.mrs:SKIP: How much more pie did Erik eat than Frank ?
+problems/177.txt.split.mrs:SKIP: How much more did the tailor cut off the skirt than the pants ?
+problems/179.txt.split.mrs:SKIP: Darnel sprinted 0.875 lap and then took a break by jogging 0.75 lap .
+problems/179.txt.split.mrs:SKIP: How much farther did Darnel sprint than jog ?
+problems/186.txt.split.mrs:SKIP: In Mr.
+problems/187.txt.split.mrs:SKIP: There is 0.16666666666666666 cup of oil in Scarlett 's measuring cup .
+problems/189.txt.split.mrs:SKIP: How much farther did Stanley run than walk ?
+problems/192.txt.split.mrs:SKIP: How much farther did Jenny run than walk ?
+problems/196.txt.split.mrs:SKIP: How much longer is Vince 's bus ride than Zachary 's ?
+problems/200.txt.split.mrs:SKIP: How much taller was Miki 's sandcastle than her sister 's ?
+problems/201.txt.split.mrs:SKIP: Michelle began her pizza delivery route with 0.5 tank of gas in her car .
+problems/204.txt.split.mrs:SKIP: How many more acres did Greg harvest than Sharon ?
+problems/207.txt.split.mrs:SKIP: How much farther did Eve run than walk ?
+problems/208.txt.split.mrs:SKIP: Jonah added 0.3 cup of yellow raisins and 0.4 cup of black raisins to a batch of trail mix .
+problems/209.txt.split.mrs:SKIP: When Jake had 1 cat , he needed to serve 0.5 can of cat food each day .
+problems/210.txt.split.mrs:SKIP: In Yardley it snowed 0.125 inch in the morning and 0.5 inch in the afternoon .
+problems/215.txt.split.mrs:SKIP: Altogether , how many bottles of mustard does the waitress find ?
+problems/218.txt.split.mrs:SKIP: How many pounds of trail mix did Brandy make ?
+problems/220.txt.split.mrs:SKIP: Altogether , how many bins would the canned food take up ?
+problems/236.txt.split.mrs:SKIP: How much farther did Craig ride than walk ?
+problems/237.txt.split.mrs:SKIP: How much more does the chemistry textbook weigh than the geometry textbook ?
+problems/242.txt.split.mrs:SKIP: At a pizza party , Mason and his friends drank 2.6666666666666665 bottles of lemon-lime soda and 2.6666666666666665 bottles of cola .
+problems/243.txt.split.mrs:SKIP: How much more did the piece of iron weigh than the piece of aluminum ?
+problems/246.txt.split.mrs:SKIP: How much taller was Janet 's sandcastle than her sister 's ?
+problems/247.txt.split.mrs:SKIP: How much longer was the green caterpillar than the orange caterpillar ?
+problems/250.txt.split.mrs:SKIP: How much taller is the new lamp than the old lamp ?
+problems/251.txt.split.mrs:SKIP: How much longer was the white line than the blue line ?
+problems/253.txt.split.mrs:SKIP: How much farther did Wendy run than walk ?
+problems/254.txt.split.mrs:SKIP: How much more did the yellow block weigh than the green block ?
+problems/259.txt.split.mrs:SKIP: In March it rained 0.81 inches .
+problems/259.txt.split.mrs:SKIP: It rained 0.35 inches less in April than in March .
+problems/262.txt.split.mrs:SKIP: On Tuesday , it rained 0.7 inches less than on Monday .
+problems/299.txt.split.mrs:SKIP: There were a total of 8 football games this year , 4 are played at night .
+problems/317.txt.split.mrs:SKIP: He bought a clarinet for $ 130.30 , and a song book which was $ 11.24 .
+problems/320.txt.split.mrs:SKIP: For his car , Mike spent $ 118.54 on speakers and $ 106.33 on new tires .
+problems/335.txt.split.mrs:SKIP: She has 28 seashell .
+problems/374.txt.split.mrs:SKIP: He had 32 dollars over , how much did he spent on the baseball gear ?
+problems/380.txt.split.mrs:SKIP: She has 62 seashell .
+problems/43.txt.split.mrs:SKIP: Joan has 40 blue balloons Melanie has 41 blue balloons .
+problems/58.txt.split.mrs:SKIP: He has 22 seashell .
+problems/60.txt.split.mrs:SKIP: He had 33 dollars over , how much did he spent on the baseball gear ?
+problems/80.txt.split.mrs:SKIP: Dan has 64 violet marbles , he gave Mary 14 of the marbles .
+problems/92.txt.split.mrs:SKIP: Fred has 709 green balloons , he gave Sandy 221 of the balloons .
+problems/95.txt.split.mrs:SKIP: Mike has 8 orange marbles , he gave Sam 4 of the marbles .

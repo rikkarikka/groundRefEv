@@ -1,0 +1,53 @@
+SENT: Brenda’s mother made cookies for 5.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:6> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg IND: + ] RSTR: h6 BODY: h7 ]
+ [ named_rel<0:6> LBL: h8 CARG: "Brenda" ARG0: x5 ]
+ [ def_explicit_q_rel<6:8> LBL: h10 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
+ [ poss_rel<6:8> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x5 ]
+ [ "_mother_n_of_rel"<9:15> LBL: h13 ARG0: x3 ARG1: i15 ]
+ [ "_make_v_1_rel"<16:20> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x16 [ x PERS: 3 NUM: pl IND: + ] ARG3: u17 ]
+ [ udef_q_rel<21:35> LBL: h18 ARG0: x16 RSTR: h19 BODY: h20 ]
+ [ "_cookie_n_1_rel"<21:28> LBL: h21 ARG0: x16 ]
+ [ _for_p_rel<29:32> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x16 ARG2: x23 [ x PERS: 3 NUM: sg ] ]
+ [ number_q_rel<33:35> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ card_rel<33:35> LBL: h27 CARG: "5" ARG0: x23 ARG1: i29 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 h11 qeq h13 h19 qeq h21 h25 qeq h27 > ]
+
+
+SENT: If she prepared 35 cookies and each of them had the same number of cookies, how many did each of them have?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ARG2: h6 ]
+ [ pron_rel<3:6> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<3:6> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ "_prepare_v_1_rel"<7:15> LBL: h12 ARG0: e13 [ e SF: prop TENSE: past MOOD: indicative ] ARG1: x8 ARG2: x14 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<16:18> LBL: h15 ARG0: x14 RSTR: h16 BODY: h17 ]
+ [ card_rel<16:18> LBL: h18 CARG: "35" ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x14 ]
+ [ "_cookie_n_1_rel"<19:26> LBL: h18 ARG0: x14 ]
+ [ _and_c_rel<27:30> LBL: h21 ARG0: e22 [ e SF: prop TENSE: past MOOD: indicative ] L-INDEX: e13 R-INDEX: e23 [ e SF: prop TENSE: past MOOD: indicative ] L-HNDL: h24 R-HNDL: h25 ]
+ [ _each_q_rel<31:35> LBL: h26 ARG0: x27 [ x PERS: 3 ] RSTR: h28 BODY: h29 ]
+ [ part_of_rel<31:35> LBL: h30 ARG0: x27 ARG1: x31 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+ [ pron_rel<39:43> LBL: h32 ARG0: x31 ]
+ [ pronoun_q_rel<39:43> LBL: h33 ARG0: x31 RSTR: h34 BODY: h35 ]
+ [ "_have_v_1_rel"<44:47> LBL: h36 ARG0: e23 ARG1: x27 ARG2: x37 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<48:51> LBL: h38 ARG0: x37 RSTR: h39 BODY: h40 ]
+ [ "_same_a_as_rel"<52:56> LBL: h41 ARG0: e42 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x37 ]
+ [ comp_equal_rel<52:56> LBL: h41 ARG0: e43 [ e SF: prop ] ARG1: e42 ARG2: u44 ]
+ [ "_number_n_of_rel"<57:63> LBL: h41 ARG0: x37 ARG1: x45 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<67:75> LBL: h46 ARG0: x45 RSTR: h47 BODY: h48 ]
+ [ "_cookie_n_1_rel"<67:75> LBL: h49 ARG0: x45 ]
+ [ generic_entity_rel<76:84> LBL: h50 ARG0: x51 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<76:84> LBL: h52 ARG0: x51 RSTR: h53 BODY: h54 ]
+ [ abstr_deg_rel<76:79> LBL: h55 ARG0: i56 ]
+ [ which_q_rel<76:79> LBL: h57 ARG0: i56 RSTR: h58 BODY: h59 ]
+ [ measure_rel<76:79> LBL: h50 ARG0: e60 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e61 [ e SF: prop ] ARG2: i56 ]
+ [ much-many_a_rel<80:84> LBL: h50 ARG0: e61 ARG1: x51 ]
+ [ _each_q_rel<89:93> LBL: h62 ARG0: x3 [ x PERS: 3 ] RSTR: h63 BODY: h64 ]
+ [ part_of_rel<89:93> LBL: h65 ARG0: x3 ARG1: x66 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+ [ pron_rel<97:101> LBL: h67 ARG0: x66 ]
+ [ pronoun_q_rel<97:101> LBL: h68 ARG0: x66 RSTR: h69 BODY: h70 ]
+ [ "_have_v_1_rel"<102:107> LBL: h71 ARG0: e2 ARG1: x3 ARG2: x51 ] >
+HCONS: < h0 qeq h1 h5 qeq h71 h6 qeq h21 h24 qeq h12 h10 qeq h7 h16 qeq h18 h25 qeq h36 h28 qeq h30 h34 qeq h32 h39 qeq h41 h47 qeq h49 h53 qeq h50 h58 qeq h55 h63 qeq h65 h69 qeq h67 > ]
+
+

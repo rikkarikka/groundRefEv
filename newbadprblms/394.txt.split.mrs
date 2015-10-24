@@ -1,0 +1,62 @@
+SENT: There are 37 short bushes and 30 tall trees currently in the park .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _be_v_there_rel<6:9> LBL: h1 ARG0: e2 ARG1: x4 [ x PERS: 3 NUM: pl GEND: n ] ]
+ [ udef_q_rel<10:67> LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]
+ [ udef_q_rel<10:12> LBL: h8 ARG0: x9 [ x PERS: 3 NUM: pl IND: + ] RSTR: h10 BODY: h11 ]
+ [ card_rel<10:12> LBL: h12 CARG: "37" ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_short_a_of_rel"<13:18> LBL: h12 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ARG2: i16 ]
+ [ "_bush_n_1_rel"<19:25> LBL: h12 ARG0: x9 ]
+ [ _and_c_rel<26:29> LBL: h17 ARG0: x4 L-INDEX: x9 R-INDEX: x18 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<30:32> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ card_rel<30:32> LBL: h22 CARG: "30" ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x18 ]
+ [ "_tall_a_1_rel"<33:37> LBL: h22 ARG0: e25 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x18 ]
+ [ "_tree_n_of_rel"<38:43> LBL: h22 ARG0: x18 ARG1: i26 ]
+ [ "_currently_x_deg_rel"<44:53> LBL: h22 ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e28 [ e SF: prop TENSE: untensed MOOD: indicative ] ]
+ [ _in_p_rel<54:56> LBL: h22 ARG0: e28 ARG1: x18 ARG2: x29 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<57:60> LBL: h30 ARG0: x29 RSTR: h31 BODY: h32 ]
+ [ "_park_n_1_rel"<61:67> LBL: h33 ARG0: x29 ] >
+HCONS: < h0 qeq h1 h6 qeq h17 h10 qeq h12 h20 qeq h22 h31 qeq h33 > ]
+
+
+SENT: Park workers will plant 20 short bushes today .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: fut MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:12> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ compound_rel<0:12> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 [ x IND: + ] ]
+ [ udef_q_rel<0:4> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ "_park_n_1_rel"<0:4> LBL: h13 ARG0: x9 ]
+ [ "_worker_n_1_rel"<5:12> LBL: h7 ARG0: x3 ]
+ [ "_plant_v_1_rel"<18:23> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x14 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<24:26> LBL: h15 ARG0: x14 RSTR: h16 BODY: h17 ]
+ [ card_rel<24:26> LBL: h18 CARG: "20" ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x14 ]
+ [ "_short_a_of_rel"<27:32> LBL: h18 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x14 ARG2: i22 ]
+ [ "_bush_n_1_rel"<33:39> LBL: h18 ARG0: x14 ]
+ [ loc_nonsp_rel<40:47> LBL: h1 ARG0: e23 [ e SF: prop ] ARG1: e2 ARG2: x24 [ x PERS: 3 NUM: sg ] ]
+ [ time_n_rel<40:47> LBL: h25 ARG0: x24 ]
+ [ def_implicit_q_rel<40:47> LBL: h26 ARG0: x24 RSTR: h27 BODY: h28 ]
+ [ _today_a_1_rel<40:47> LBL: h25 ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x24 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h16 qeq h18 h27 qeq h25 > ]
+
+
+SENT: How many short bushes will the park have when the workers are finished ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: fut MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:21> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_short_a_of_rel"<9:14> LBL: h13 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x5 ARG2: i17 ]
+ [ "_bush_n_1_rel"<15:21> LBL: h13 ARG0: x5 ]
+ [ _the_q_rel<27:30> LBL: h18 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h19 BODY: h20 ]
+ [ "_park_n_1_rel"<31:35> LBL: h21 ARG0: x3 ]
+ [ "_have_v_1_rel"<36:40> LBL: h22 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ "_when_x_subord_rel"<41:45> LBL: h1 ARG0: e23 [ e SF: ques TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h24 ARG2: h25 ]
+ [ _the_q_rel<46:49> LBL: h26 ARG0: x27 [ x PERS: 3 NUM: pl IND: + ] RSTR: h28 BODY: h29 ]
+ [ "_worker_n_1_rel"<50:57> LBL: h30 ARG0: x27 ]
+ [ "_finish_v_1_rel"<62:72> LBL: h31 ARG0: e32 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: i33 ARG2: x27 ]
+ [ parg_d_rel<62:72> LBL: h31 ARG0: e34 [ e SF: prop ] ARG1: e32 ARG2: x27 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h19 qeq h21 h24 qeq h22 h25 qeq h31 h28 qeq h30 > ]
+
+

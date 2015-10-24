@@ -1,0 +1,47 @@
+SENT: Carefully following a recipe , Kenny used exactly 0.16666666666666666 cup of oil and 1.1666666666666667 cups of water .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ subord_rel<0:30> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ARG2: h6 ]
+ [ "_careful_a_with-about-of_rel"<0:9> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e9 [ e SF: prop TENSE: untensed MOOD: indicative PROG: + PERF: - ] ]
+ [ "_follow_v_1_rel"<10:19> LBL: h7 ARG0: e9 ARG1: i10 ARG2: x11 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<20:21> LBL: h12 ARG0: x11 RSTR: h13 BODY: h14 ]
+ [ "_recipe_n_1_rel"<22:30> LBL: h15 ARG0: x11 ]
+ [ proper_q_rel<31:36> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h17 BODY: h18 ]
+ [ named_rel<31:36> LBL: h19 CARG: "Kenny" ARG0: x3 ]
+ [ "_use_v_1_rel"<37:41> LBL: h21 ARG0: e2 ARG1: x3 ARG2: x22 [ x PERS: 3 ] ]
+ [ "_exactly_x_deg_rel"<42:49> LBL: h23 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e25 [ e SF: prop TENSE: untensed MOOD: indicative ] ]
+ [ udef_q_rel<50:69> LBL: h26 ARG0: x22 RSTR: h27 BODY: h28 ]
+ [ card_rel<50:69> LBL: h23 CARG: "0.16666666666666666" ARG0: e25 ARG1: x22 ]
+ [ udef_q_rel<70:80> LBL: h30 ARG0: x31 [ x PERS: 3 NUM: sg IND: + ] RSTR: h32 BODY: h33 ]
+ [ "_cup_n_of_rel"<70:73> LBL: h34 ARG0: x31 ARG1: x35 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<77:80> LBL: h36 ARG0: x35 RSTR: h37 BODY: h38 ]
+ [ "_oil_n_1_rel"<77:80> LBL: h39 ARG0: x35 ]
+ [ udef_q_rel<81:119> LBL: h40 ARG0: x41 [ x PERS: 3 NUM: pl IND: + ] RSTR: h42 BODY: h43 ]
+ [ _and_c_rel<81:84> LBL: h23 ARG0: x22 L-INDEX: x31 R-INDEX: x41 ]
+ [ card_rel<85:103> LBL: h44 CARG: "1.1666666666666667" ARG0: e46 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x41 ]
+ [ "_cup_n_of_rel"<104:108> LBL: h44 ARG0: x41 ARG1: x47 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<112:119> LBL: h48 ARG0: x47 RSTR: h49 BODY: h50 ]
+ [ "_water_n_1_rel"<112:119> LBL: h51 ARG0: x47 ] >
+HCONS: < h0 qeq h1 h5 qeq h21 h6 qeq h7 h13 qeq h15 h17 qeq h19 h27 qeq h23 h32 qeq h34 h37 qeq h39 h42 qeq h44 h49 qeq h51 > ]
+
+
+SENT: How many cups of liquid did Kenny use in all ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:23> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_cup_n_of_rel"<9:13> LBL: h13 ARG0: x5 ARG1: x16 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<17:23> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_liquid_n_1_rel"<17:23> LBL: h20 ARG0: x16 ]
+ [ proper_q_rel<28:33> LBL: h21 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h22 BODY: h23 ]
+ [ named_rel<28:33> LBL: h24 CARG: "Kenny" ARG0: x3 ]
+ [ "_use_v_1_rel"<34:37> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ _in_p_rel<38:40> LBL: h1 ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x27 [ x PERS: 3 ] ]
+ [ _all_q_rel<41:46> LBL: h28 ARG0: x27 RSTR: h29 BODY: h30 ]
+ [ generic_entity_rel<41:46> LBL: h31 ARG0: x27 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h20 h22 qeq h24 h29 qeq h31 > ]
+
+

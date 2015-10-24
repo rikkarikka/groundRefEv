@@ -1,0 +1,37 @@
+SENT: Joan has saved 6 quarters from washing cars.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: + ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Joan" ARG0: x3 ]
+ [ "_save_v_1_rel"<9:14> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<15:16> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<15:16> LBL: h13 CARG: "6" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_quarter_n_of_rel"<17:25> LBL: h13 ARG0: x9 ARG1: i16 ]
+ [ _from_p_rel<26:30> LBL: h13 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ARG2: x18 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<31:44> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ compound_rel<31:44> LBL: h22 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x18 ARG2: x24 ]
+ [ udef_q_rel<31:38> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ "_washing_n_1_rel"<31:38> LBL: h28 ARG0: x24 ]
+ [ "_car_n_1_rel"<39:44> LBL: h22 ARG0: x18 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h20 qeq h22 h26 qeq h28 > ]
+
+
+SENT: How many cents does Joan have ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: + ]
+RELS: < [ loc_nonsp_rel<0:14> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x5 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<0:14> LBL: h6 ARG0: x5 RSTR: h7 BODY: h8 ]
+ [ abstr_deg_rel<0:3> LBL: h9 ARG0: i10 ]
+ [ which_q_rel<0:3> LBL: h11 ARG0: i10 RSTR: h12 BODY: h13 ]
+ [ measure_rel<0:3> LBL: h14 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e16 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG2: i10 ]
+ [ much-many_a_rel<4:8> LBL: h14 ARG0: e16 ARG1: x5 ]
+ [ "_cent_n_1_rel"<9:14> LBL: h14 ARG0: x5 ]
+ [ appos_rel<15:24> LBL: h1 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x18 [ x PERS: 3 NUM: pl IND: + ] ARG2: x19 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<15:19> LBL: h20 ARG0: x18 RSTR: h21 BODY: h22 ]
+ [ "_doe_n_1_rel"<15:19> LBL: h23 ARG0: x18 ]
+ [ proper_q_rel<20:24> LBL: h24 ARG0: x19 RSTR: h25 BODY: h26 ]
+ [ named_rel<20:24> LBL: h27 CARG: "Joan" ARG0: x19 ]
+ [ ellipsis_ref_rel<25:31> LBL: h1 ARG0: e2 ARG1: x18 ] >
+HCONS: < h0 qeq h1 h7 qeq h14 h12 qeq h9 h21 qeq h23 h25 qeq h27 > ]
+
+

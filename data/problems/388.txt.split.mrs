@@ -1,0 +1,58 @@
+SENT: The Ferris wheel in Paradise Park has 14 seats.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ compound_rel<4:16> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 [ x IND: + ] ]
+ [ proper_q_rel<4:10> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ named_rel<4:10> LBL: h13 CARG: "Ferris" ARG0: x9 ]
+ [ "_wheel_n_1_rel"<11:16> LBL: h7 ARG0: x3 ]
+ [ _in_p_rel<17:19> LBL: h7 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ARG2: x16 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<20:33> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ named_rel<20:28> LBL: h20 CARG: "Paradise" ARG0: x16 ]
+ [ "_park_n_1_rel"<29:33> LBL: h22 ARG0: x23 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<29:33> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ compound_name_rel<29:33> LBL: h20 ARG0: i27 ARG1: x16 ARG2: x23 ]
+ [ "_have_v_1_rel"<34:37> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x28 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<38:40> LBL: h29 ARG0: x28 RSTR: h30 BODY: h31 ]
+ [ card_rel<38:40> LBL: h32 CARG: "14" ARG0: e34 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x28 ]
+ [ "_seat_n_1_rel"<41:47> LBL: h32 ARG0: x28 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h18 qeq h20 h25 qeq h22 h30 qeq h32 > ]
+
+
+SENT: Each seat can hold 6 people.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative ]
+RELS: < [ _each_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_seat_n_1_rel"<5:9> LBL: h7 ARG0: x3 ]
+ [ _can_v_modal_rel<10:13> LBL: h1 ARG0: e2 ARG1: h8 ]
+ [ "_hold_v_1_rel"<14:18> LBL: h9 ARG0: e10 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x11 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<19:20> LBL: h12 ARG0: x11 RSTR: h13 BODY: h14 ]
+ [ card_rel<19:20> LBL: h15 CARG: "6" ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x11 ]
+ [ "_people_n_of_rel"<21:28> LBL: h15 ARG0: x11 ARG1: i18 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h8 qeq h9 h13 qeq h15 > ]
+
+
+SENT: How many people can ride the Ferris wheel at the same time?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative ]
+RELS: < [ udef_q_rel<0:15> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ abstr_deg_rel<0:3> LBL: h7 ARG0: i8 ]
+ [ which_q_rel<0:3> LBL: h9 ARG0: i8 RSTR: h10 BODY: h11 ]
+ [ measure_rel<0:3> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i8 ]
+ [ much-many_a_rel<4:8> LBL: h12 ARG0: e14 ARG1: x3 ]
+ [ "_people_n_of_rel"<9:15> LBL: h12 ARG0: x3 ARG1: i15 ]
+ [ _can_v_modal_rel<16:19> LBL: h1 ARG0: e2 ARG1: h16 ]
+ [ "_ride_v_1_rel"<20:24> LBL: h17 ARG0: e18 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x19 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<25:28> LBL: h20 ARG0: x19 RSTR: h21 BODY: h22 ]
+ [ compound_rel<29:41> LBL: h23 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x19 ARG2: x25 [ x IND: + ] ]
+ [ proper_q_rel<29:35> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
+ [ named_rel<29:35> LBL: h29 CARG: "Ferris" ARG0: x25 ]
+ [ "_wheel_n_1_rel"<36:41> LBL: h23 ARG0: x19 ]
+ [ _at_p_temp_rel<42:44> LBL: h17 ARG0: e31 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e18 ARG2: x32 [ x PERS: 3 NUM: sg GEND: n IND: - ] ]
+ [ _the_q_rel<45:48> LBL: h33 ARG0: x32 RSTR: h34 BODY: h35 ]
+ [ "_same_a_as_rel"<49:53> LBL: h36 ARG0: e37 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x32 ]
+ [ comp_equal_rel<49:53> LBL: h36 ARG0: e38 [ e SF: prop ] ARG1: e37 ARG2: u39 ]
+ [ "_time_n_of_rel"<54:59> LBL: h36 ARG0: x32 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 h16 qeq h17 h21 qeq h23 h27 qeq h29 h34 qeq h36 > ]
+
+

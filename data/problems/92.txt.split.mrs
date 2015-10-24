@@ -1,0 +1,54 @@
+SENT: Sally had 760 quarters in her bank.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:5> LBL: h7 CARG: "Sally" ARG0: x3 ]
+ [ "_have_v_1_rel"<6:9> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<10:13> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<10:13> LBL: h13 CARG: "760" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_quarter_n_of_rel"<14:22> LBL: h13 ARG0: x9 ARG1: i16 ]
+ [ _in_p_rel<23:25> LBL: h1 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x18 [ x PERS: 3 NUM: sg ] ]
+ [ def_explicit_q_rel<26:29> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ poss_rel<26:29> LBL: h22 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x18 ARG2: x24 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<26:29> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ pron_rel<26:29> LBL: h28 ARG0: x24 ]
+ [ "_bank_n_of_rel"<30:35> LBL: h22 ARG0: x18 ARG1: i29 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h20 qeq h22 h26 qeq h28 > ]
+
+
+SENT: She spent 418 of her quarters.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_spend_v_1_rel"<4:9> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<10:13> LBL: h9 ARG0: x8 ARG1: x10 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<10:13> LBL: h11 ARG0: x8 RSTR: h12 BODY: h13 ]
+ [ card_rel<10:13> LBL: h9 CARG: "418" ARG0: e15 [ e SF: prop ] ARG1: x8 ]
+ [ def_explicit_q_rel<17:20> LBL: h16 ARG0: x10 RSTR: h17 BODY: h18 ]
+ [ poss_rel<17:20> LBL: h19 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x10 ARG2: x21 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<17:20> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ pron_rel<17:20> LBL: h25 ARG0: x21 ]
+ [ "_quarter_n_of_rel"<21:30> LBL: h19 ARG0: x10 ARG1: i26 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h12 qeq h9 h17 qeq h19 h23 qeq h25 > ]
+
+
+SENT: How many quarters does she have now ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:17> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_quarter_n_of_rel"<9:17> LBL: h13 ARG0: x5 ARG1: i16 ]
+ [ pron_rel<23:26> LBL: h17 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<23:26> LBL: h18 ARG0: x3 RSTR: h19 BODY: h20 ]
+ [ "_have_v_1_rel"<27:31> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ loc_nonsp_rel<32:37> LBL: h1 ARG0: e21 [ e SF: prop ] ARG1: e2 ARG2: x22 [ x PERS: 3 NUM: sg ] ]
+ [ time_n_rel<32:37> LBL: h23 ARG0: x22 ]
+ [ def_implicit_q_rel<32:37> LBL: h24 ARG0: x22 RSTR: h25 BODY: h26 ]
+ [ _now_a_1_rel<32:37> LBL: h23 ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x22 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h19 qeq h17 h25 qeq h23 > ]
+
+

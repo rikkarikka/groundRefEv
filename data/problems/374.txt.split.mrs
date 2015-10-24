@@ -1,0 +1,42 @@
+SENT: A bee colony produced 0.36 pounds of honey, but bears ate 0.05 pounds of it.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _a_q_rel<0:1> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg IND: + ] RSTR: h6 BODY: h7 ]
+ [ compound_rel<2:12> LBL: h8 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x5 ARG2: x10 [ x IND: + ] ]
+ [ udef_q_rel<2:5> LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]
+ [ "_bee_n_1_rel"<2:5> LBL: h14 ARG0: x10 ]
+ [ "_colony_n_1_rel"<6:12> LBL: h8 ARG0: x5 ]
+ [ "_produce_v_1_rel"<13:21> LBL: h15 ARG0: e16 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x5 ARG2: x17 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<22:43> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ card_rel<22:26> LBL: h21 CARG: "0.36" ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ]
+ [ "_pound_n_1_rel"<27:33> LBL: h21 ARG0: x17 ]
+ [ _of_p_rel<34:36> LBL: h21 ARG0: e24 [ e SF: prop ] ARG1: x17 ARG2: x25 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<37:43> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
+ [ named_rel<37:43> LBL: h29 CARG: "Honey" ARG0: x25 ]
+ [ _but_c_rel<44:47> LBL: h1 ARG0: e2 L-INDEX: e16 R-INDEX: e31 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h32 R-HNDL: h33 ]
+ [ udef_q_rel<48:53> LBL: h34 ARG0: x35 [ x PERS: 3 NUM: pl IND: + ] RSTR: h36 BODY: h37 ]
+ [ "_bear_n_1_rel"<48:53> LBL: h38 ARG0: x35 ]
+ [ "_eat_v_1_rel"<54:57> LBL: h39 ARG0: e31 ARG1: x35 ARG2: p40 ]
+ [ loc_nonsp_rel<58:76> LBL: h39 ARG0: e41 [ e SF: prop ] ARG1: e31 ARG2: x42 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<58:76> LBL: h43 ARG0: x42 RSTR: h44 BODY: h45 ]
+ [ card_rel<58:62> LBL: h46 CARG: "0.05" ARG0: e48 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x42 ]
+ [ "_pound_n_1_rel"<63:69> LBL: h46 ARG0: x42 ]
+ [ _of_p_rel<70:72> LBL: h46 ARG0: e49 [ e SF: prop ] ARG1: x42 ARG2: x50 [ x PERS: 3 NUM: sg GEND: n PRONTYPE: std_pron ] ]
+ [ pron_rel<73:76> LBL: h51 ARG0: x50 ]
+ [ pronoun_q_rel<73:76> LBL: h52 ARG0: x50 RSTR: h53 BODY: h54 ] >
+HCONS: < h0 qeq h1 h32 qeq h15 h6 qeq h8 h12 qeq h14 h19 qeq h21 h27 qeq h29 h33 qeq h39 h36 qeq h38 h44 qeq h46 h53 qeq h51 > ]
+
+
+SENT: How much honey remains?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: n IND: - ] RSTR: h5 BODY: h6 ]
+ [ abstr_deg_rel<0:3> LBL: h7 ARG0: i8 ]
+ [ which_q_rel<0:3> LBL: h9 ARG0: i8 RSTR: h10 BODY: h11 ]
+ [ measure_rel<0:3> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i8 ]
+ [ much-many_a_rel<4:8> LBL: h12 ARG0: e14 ARG1: x3 ]
+ [ "_honey_n_1_rel"<9:14> LBL: h12 ARG0: x3 ]
+ [ "_remain_v_1_rel"<15:23> LBL: h1 ARG0: e2 ARG1: x3 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 > ]
+
+

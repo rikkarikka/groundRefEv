@@ -1,0 +1,55 @@
+SENT: Last week Tom had 74 dollars .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:13> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ compound_name_rel<0:13> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<0:9> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ "_last_a_1_rel"<0:4> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_week_n_1_rel"<5:9> LBL: h13 ARG0: x9 ]
+ [ named_rel<10:13> LBL: h7 CARG: "Tom" ARG0: x3 ]
+ [ "_have_v_1_rel"<14:17> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x16 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<18:30> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ card_rel<18:20> LBL: h20 CARG: "74" ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x16 ]
+ [ "_dollar_n_1_rel"<21:30> LBL: h20 ARG0: x16 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h18 qeq h20 > ]
+
+
+SENT: He washed cars over the weekend and now has 86 dollars .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:2> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<0:2> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_wash_v_1_rel"<3:9> LBL: h8 ARG0: e9 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x10 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<10:31> LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]
+ [ "_car_n_1_rel"<10:14> LBL: h14 ARG0: x10 ]
+ [ _over_p_rel<15:19> LBL: h14 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x10 ARG2: x16 [ x PERS: 3 NUM: sg GEND: n ] ]
+ [ _the_q_rel<20:23> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_weekend_n_of_rel"<24:31> LBL: h20 ARG0: x16 ]
+ [ _and_c_rel<32:35> LBL: h1 ARG0: e2 L-INDEX: e9 R-INDEX: e21 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] L-HNDL: h8 R-HNDL: h22 ]
+ [ "_now_a_1_rel"<36:39> LBL: h22 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e21 ]
+ [ "_have_v_1_rel"<40:43> LBL: h22 ARG0: e21 ARG1: x3 ARG2: x24 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<44:56> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ card_rel<44:46> LBL: h28 CARG: "86" ARG0: e30 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x24 ]
+ [ "_dollar_n_1_rel"<47:56> LBL: h28 ARG0: x24 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h12 qeq h14 h18 qeq h20 h26 qeq h28 > ]
+
+
+SENT: How much money did he make washing cars ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_money_n_1_rel"<9:14> LBL: h13 ARG0: x5 ]
+ [ pron_rel<19:21> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<19:21> LBL: h17 ARG0: x3 RSTR: h18 BODY: h19 ]
+ [ "_make_v_1_rel"<22:26> LBL: h20 ARG0: e2 ARG1: x3 ARG2: x5 ARG3: u21 ]
+ [ subord_rel<27:41> LBL: h1 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h23 ARG2: h24 ]
+ [ "_wash_v_1_rel"<27:34> LBL: h25 ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative PROG: + PERF: - ] ARG1: i27 ARG2: x28 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<35:41> LBL: h29 ARG0: x28 RSTR: h30 BODY: h31 ]
+ [ "_car_n_1_rel"<35:41> LBL: h32 ARG0: x28 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h16 h23 qeq h20 h24 qeq h25 h30 qeq h32 > ]
+
+

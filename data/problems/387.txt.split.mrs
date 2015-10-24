@@ -1,0 +1,32 @@
+SENT: How many cookies would you have if you had 37 bags of cookies with 19 cookies in each bag?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative ]
+RELS: < [ udef_q_rel<0:16> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_cookie_n_1_rel"<9:16> LBL: h13 ARG0: x5 ]
+ [ _would_v_modal_rel<17:22> LBL: h16 ARG0: e2 ARG1: h17 ]
+ [ pron_rel<23:26> LBL: h18 ARG0: x3 [ x PERS: 2 PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<23:26> LBL: h19 ARG0: x3 RSTR: h20 BODY: h21 ]
+ [ "_have_v_1_rel"<27:31> LBL: h22 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x5 ]
+ [ "_if_x_then_rel"<32:34> LBL: h1 ARG0: e24 [ e SF: ques TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h25 ARG2: h26 ]
+ [ pron_rel<35:38> LBL: h27 ARG0: x28 [ x PERS: 2 PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<35:38> LBL: h29 ARG0: x28 RSTR: h30 BODY: h31 ]
+ [ "_have_v_1_rel"<39:42> LBL: h32 ARG0: e33 [ e SF: prop TENSE: past MOOD: indicative ] ARG1: x28 ARG2: x34 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<43:45> LBL: h35 ARG0: x34 RSTR: h36 BODY: h37 ]
+ [ card_rel<43:45> LBL: h38 CARG: "37" ARG0: e40 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x34 ]
+ [ "_bag_n_of_rel"<46:50> LBL: h38 ARG0: x34 ARG1: x41 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<54:90> LBL: h42 ARG0: x41 RSTR: h43 BODY: h44 ]
+ [ "_cookie_n_1_rel"<54:61> LBL: h45 ARG0: x41 ]
+ [ _with_p_rel<62:66> LBL: h45 ARG0: e46 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x41 ARG2: x47 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<67:69> LBL: h48 ARG0: x47 RSTR: h49 BODY: h50 ]
+ [ card_rel<67:69> LBL: h51 CARG: "19" ARG0: e53 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x47 ]
+ [ "_cookie_n_1_rel"<70:77> LBL: h51 ARG0: x47 ]
+ [ _in_p_rel<78:80> LBL: h51 ARG0: e54 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x47 ARG2: x55 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _each_q_rel<81:85> LBL: h56 ARG0: x55 RSTR: h57 BODY: h58 ]
+ [ "_bag_n_of_rel"<86:90> LBL: h59 ARG0: x55 ARG1: i60 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h17 qeq h22 h20 qeq h18 h25 qeq h16 h26 qeq h32 h30 qeq h27 h36 qeq h38 h43 qeq h45 h49 qeq h51 h57 qeq h59 > ]
+
+

@@ -1,0 +1,47 @@
+SENT: Lucy has an aquarium with 212 fish.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Lucy" ARG0: x3 ]
+ [ "_have_v_1_rel"<5:8> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<9:11> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ "_aquarium_n_1_rel"<12:20> LBL: h13 ARG0: x9 ]
+ [ _with_p_rel<21:25> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ARG2: x15 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<26:29> LBL: h16 ARG0: x15 RSTR: h17 BODY: h18 ]
+ [ card_rel<26:29> LBL: h19 CARG: "212" ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x15 ]
+ [ "_fish_n_1_rel"<30:35> LBL: h19 ARG0: x15 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h17 qeq h19 > ]
+
+
+SENT: Lucy wants to buy 68 more fish.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Lucy" ARG0: x3 ]
+ [ "_want_v_1_rel"<5:10> LBL: h1 ARG0: e2 ARG1: x3 ARG2: h9 ]
+ [ "_buy_v_1_rel"<14:17> LBL: h10 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x12 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<18:31> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
+ [ card_rel<18:20> LBL: h16 CARG: "68" ARG0: i18 ARG1: e19 [ e SF: prop ] ]
+ [ much-many_a_rel<21:25> LBL: h16 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x12 ]
+ [ comp_rel<21:25> LBL: h16 ARG0: e19 ARG1: e20 ARG2: u21 ]
+ [ "_fish_n_1_rel"<26:31> LBL: h16 ARG0: x12 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h9 qeq h10 h14 qeq h16 > ]
+
+
+SENT: How many fish would Lucy have then?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative ]
+RELS: < [ udef_q_rel<0:13> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_fish_n_1_rel"<9:13> LBL: h13 ARG0: x5 ]
+ [ _would_v_modal_rel<14:19> LBL: h16 ARG0: e2 ARG1: h17 ]
+ [ proper_q_rel<20:24> LBL: h18 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h19 BODY: h20 ]
+ [ named_rel<20:24> LBL: h21 CARG: "Lucy" ARG0: x3 ]
+ [ "_have_v_1_rel"<25:29> LBL: h23 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x5 ]
+ [ "_then_a_1_rel"<30:35> LBL: h1 ARG0: e25 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h26 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h17 qeq h23 h19 qeq h21 h26 qeq h16 > ]
+
+

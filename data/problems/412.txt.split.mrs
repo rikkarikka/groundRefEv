@@ -1,0 +1,56 @@
+SENT: Christian’s mother prepared lemonade.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:9> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg IND: + ] RSTR: h6 BODY: h7 ]
+ [ named_rel<0:9> LBL: h8 CARG: "Christian" ARG0: x5 ]
+ [ def_explicit_q_rel<9:11> LBL: h10 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
+ [ poss_rel<9:11> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x5 ]
+ [ "_mother_n_of_rel"<12:18> LBL: h13 ARG0: x3 ARG1: i15 ]
+ [ "_prepare_v_1_rel"<19:27> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x16 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<28:37> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_lemonade_n_1_rel"<28:37> LBL: h20 ARG0: x16 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 h11 qeq h13 h18 qeq h20 > ]
+
+
+SENT: Every pitcher of lemonade can serve 5 glasses.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative ]
+RELS: < [ _every_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_pitcher_n_of_rel"<6:13> LBL: h7 ARG0: x3 ARG1: x8 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<17:25> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ "_lemonade_n_1_rel"<17:25> LBL: h12 ARG0: x8 ]
+ [ _can_v_modal_rel<26:29> LBL: h1 ARG0: e2 ARG1: h13 ]
+ [ "_serve_v_as_rel"<30:35> LBL: h14 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x16 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<36:37> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ card_rel<36:37> LBL: h20 CARG: "5" ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x16 ]
+ [ "_glass_n_of_rel"<38:46> LBL: h20 ARG0: x16 ARG1: i23 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h10 qeq h12 h13 qeq h14 h18 qeq h20 > ]
+
+
+SENT: If she was able to serve 30 glasses of lemonade, how many pitchers of lemonade did she prepare?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ARG2: h6 ]
+ [ pron_rel<3:6> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<3:6> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ _able_a_1_rel<11:15> LBL: h12 ARG0: e13 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: h14 ]
+ [ "_serve_v_as_rel"<19:24> LBL: h15 ARG0: e16 [ e SF: prop-or-ques TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: x17 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<25:27> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ card_rel<25:27> LBL: h21 CARG: "30" ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x17 ]
+ [ "_glass_n_of_rel"<28:35> LBL: h21 ARG0: x17 ARG1: x24 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<39:48> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ "_lemonade_n_1_rel"<39:48> LBL: h28 ARG0: x24 ]
+ [ udef_q_rel<49:78> LBL: h29 ARG0: x30 [ x PERS: 3 NUM: pl IND: + ] RSTR: h31 BODY: h32 ]
+ [ abstr_deg_rel<49:52> LBL: h33 ARG0: i34 ]
+ [ which_q_rel<49:52> LBL: h35 ARG0: i34 RSTR: h36 BODY: h37 ]
+ [ measure_rel<49:52> LBL: h38 ARG0: e39 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e40 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i34 ]
+ [ much-many_a_rel<53:57> LBL: h38 ARG0: e40 ARG1: x30 ]
+ [ "_pitcher_n_of_rel"<58:66> LBL: h38 ARG0: x30 ARG1: x41 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<70:78> LBL: h42 ARG0: x41 RSTR: h43 BODY: h44 ]
+ [ "_lemonade_n_1_rel"<70:78> LBL: h45 ARG0: x41 ]
+ [ pron_rel<83:86> LBL: h46 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<83:86> LBL: h47 ARG0: x3 RSTR: h48 BODY: h49 ]
+ [ "_prepare_v_1_rel"<87:95> LBL: h50 ARG0: e2 ARG1: x3 ARG2: x30 ] >
+HCONS: < h0 qeq h1 h5 qeq h50 h6 qeq h12 h10 qeq h7 h14 qeq h15 h19 qeq h21 h26 qeq h28 h31 qeq h38 h36 qeq h33 h43 qeq h45 h48 qeq h46 > ]
+
+

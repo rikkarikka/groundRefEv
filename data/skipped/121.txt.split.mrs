@@ -1,0 +1,18 @@
+SENT: Mike has 48 books.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Mike" ARG0: x3 ]
+ [ "_have_v_1_rel"<5:8> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<9:11> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<9:11> LBL: h13 CARG: "48" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_book_n_of_rel"<12:18> LBL: h13 ARG0: x9 ARG1: i16 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
+
+
+SKIP: Alyssa has 8 times more books than Mike.
+
+
+SKIP: How many dozen books does Alyssa have?
+
+

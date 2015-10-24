@@ -1,0 +1,38 @@
+SENT: There are 4 dozen calories in a candy bar.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _be_v_there_rel<6:9> LBL: h1 ARG0: e2 ARG1: x4 [ x PERS: 3 NUM: pl GEND: n IND: + ] ]
+ [ udef_q_rel<10:17> LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]
+ [ card_rel<10:11> LBL: h8 CARG: "4" ARG0: i10 ARG1: i11 ]
+ [ card_rel<12:17> LBL: h12 CARG: "12" ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x4 ]
+ [ times_rel<12:17> LBL: h15 ARG0: i16 ARG1: i11 ARG2: h8 ARG3: h12 ]
+ [ "_calorie_n_1_rel"<18:26> LBL: h15 ARG0: x4 ]
+ [ _in_p_rel<27:29> LBL: h15 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x4 ARG2: x18 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<30:31> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ compound_rel<32:42> LBL: h22 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x18 ARG2: x24 ]
+ [ udef_q_rel<32:37> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ "_candy_n_1_rel"<32:37> LBL: h28 ARG0: x24 ]
+ [ "_bar_n_1_rel"<38:42> LBL: h22 ARG0: x18 ] >
+HCONS: < h0 qeq h1 h6 qeq h15 h20 qeq h22 h26 qeq h28 > ]
+
+
+SENT: How many calories are there in 42 candy bars ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:17> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl GEND: n IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_calorie_n_1_rel"<9:17> LBL: h13 ARG0: x5 ]
+ [ _be_v_there_rel<18:21> LBL: h1 ARG0: e2 ARG1: x5 ]
+ [ _in_p_rel<28:30> LBL: h1 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x17 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<31:33> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ card_rel<31:33> LBL: h21 CARG: "42" ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x17 ]
+ [ compound_rel<34:46> LBL: h21 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ARG2: x25 ]
+ [ udef_q_rel<34:39> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
+ [ "_candy_n_1_rel"<34:39> LBL: h29 ARG0: x25 ]
+ [ "_bar_n_1_rel"<40:46> LBL: h21 ARG0: x17 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h19 qeq h21 h27 qeq h29 > ]
+
+

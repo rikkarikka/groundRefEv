@@ -1,0 +1,64 @@
+SENT: Tom had 27 pennies and 15 dimes in his bank .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:3> LBL: h7 CARG: "Tom" ARG0: x3 ]
+ [ "_have_v_1_rel"<4:7> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<8:45> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ udef_q_rel<8:18> LBL: h13 ARG0: x14 [ x PERS: 3 NUM: pl IND: + ] RSTR: h15 BODY: h16 ]
+ [ card_rel<8:10> LBL: h17 CARG: "27" ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x14 ]
+ [ "_penny_n_1_rel"<11:18> LBL: h17 ARG0: x14 ]
+ [ _and_c_rel<19:22> LBL: h20 ARG0: x9 L-INDEX: x14 R-INDEX: x21 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<23:25> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ card_rel<23:25> LBL: h25 CARG: "15" ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x21 ]
+ [ "_dime_n_1_rel"<26:31> LBL: h25 ARG0: x21 ]
+ [ _in_p_rel<32:34> LBL: h25 ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x21 ARG2: x29 [ x PERS: 3 NUM: sg ] ]
+ [ def_explicit_q_rel<35:38> LBL: h30 ARG0: x29 RSTR: h31 BODY: h32 ]
+ [ poss_rel<35:38> LBL: h33 ARG0: e34 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x29 ARG2: x35 [ x PERS: 3 NUM: sg GEND: m PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<35:38> LBL: h36 ARG0: x35 RSTR: h37 BODY: h38 ]
+ [ pron_rel<35:38> LBL: h39 ARG0: x35 ]
+ [ "_bank_n_of_rel"<39:45> LBL: h33 ARG0: x29 ARG1: i40 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h20 h15 qeq h17 h23 qeq h25 h31 qeq h33 h37 qeq h39 > ]
+
+
+SENT: His dad gave him 33 dimes and 49 nickels .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ def_explicit_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ poss_rel<0:3> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: sg GEND: m PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<0:3> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ pron_rel<0:3> LBL: h13 ARG0: x9 ]
+ [ "_dad_n_1_rel"<4:7> LBL: h7 ARG0: x3 ]
+ [ "_give_v_1_rel"<8:12> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x14 [ x PERS: 3 NUM: pl ] ARG3: x15 [ x PERS: 3 NUM: sg GEND: m PRONTYPE: std_pron ] ]
+ [ pron_rel<13:16> LBL: h16 ARG0: x15 ]
+ [ pronoun_q_rel<13:16> LBL: h17 ARG0: x15 RSTR: h18 BODY: h19 ]
+ [ udef_q_rel<17:42> LBL: h20 ARG0: x14 RSTR: h21 BODY: h22 ]
+ [ udef_q_rel<17:19> LBL: h23 ARG0: x24 [ x PERS: 3 NUM: pl IND: + ] RSTR: h25 BODY: h26 ]
+ [ card_rel<17:19> LBL: h27 CARG: "33" ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x24 ]
+ [ "_dime_n_1_rel"<20:25> LBL: h27 ARG0: x24 ]
+ [ _and_c_rel<26:29> LBL: h30 ARG0: x14 L-INDEX: x24 R-INDEX: x31 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<30:32> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ card_rel<30:32> LBL: h35 CARG: "49" ARG0: e37 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x31 ]
+ [ "_nickel_n_1_rel"<33:42> LBL: h35 ARG0: x31 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h18 qeq h16 h21 qeq h30 h25 qeq h27 h33 qeq h35 > ]
+
+
+SENT: How many dimes does he have now ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_dime_n_1_rel"<9:14> LBL: h13 ARG0: x5 ]
+ [ pron_rel<20:22> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<20:22> LBL: h17 ARG0: x3 RSTR: h18 BODY: h19 ]
+ [ "_have_v_1_rel"<23:27> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ loc_nonsp_rel<28:33> LBL: h1 ARG0: e20 [ e SF: prop ] ARG1: e2 ARG2: x21 [ x PERS: 3 NUM: sg ] ]
+ [ time_n_rel<28:33> LBL: h22 ARG0: x21 ]
+ [ def_implicit_q_rel<28:33> LBL: h23 ARG0: x21 RSTR: h24 BODY: h25 ]
+ [ _now_a_1_rel<28:33> LBL: h22 ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x21 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h16 h24 qeq h22 > ]
+
+

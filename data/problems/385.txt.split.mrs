@@ -1,0 +1,45 @@
+SENT: Tori was 4.4 feet tall.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Tori" ARG0: x3 ]
+ [ measure_rel<9:17> LBL: h1 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x10 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<9:17> LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]
+ [ card_rel<9:12> LBL: h14 CARG: "4.4" ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x10 ]
+ [ "_foot_n_1_rel"<13:17> LBL: h14 ARG0: x10 ]
+ [ "_tall_a_1_rel"<18:23> LBL: h1 ARG0: e2 ARG1: x3 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h12 qeq h14 > ]
+
+
+SENT: Then she grew 2.86 feet taller.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ "_then_a_1_rel"<0:4> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ]
+ [ pron_rel<5:8> LBL: h6 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<5:8> LBL: h7 ARG0: x3 RSTR: h8 BODY: h9 ]
+ [ "_grow_v_to_rel"<9:13> LBL: h10 ARG0: e2 ARG1: x3 ARG2: h11 ARG3: i12 ]
+ [ measure_rel<14:23> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e15 [ e SF: prop ] ARG2: x16 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<14:23> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ card_rel<14:18> LBL: h20 CARG: "2.86" ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x16 ]
+ [ "_foot_n_1_rel"<19:23> LBL: h20 ARG0: x16 ]
+ [ "_tall_a_1_rel"<24:31> LBL: h13 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ]
+ [ comp_rel<24:31> LBL: h13 ARG0: e15 ARG1: e23 ARG2: u24 ] >
+HCONS: < h0 qeq h1 h5 qeq h10 h8 qeq h6 h11 qeq h13 h18 qeq h20 > ]
+
+
+SENT: How tall is Tori now?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ abstr_deg_rel<0:3> LBL: h4 ARG0: i5 ]
+ [ which_q_rel<0:3> LBL: h6 ARG0: i5 RSTR: h7 BODY: h8 ]
+ [ measure_rel<0:3> LBL: h1 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: i5 ]
+ [ "_tall_a_1_rel"<4:8> LBL: h1 ARG0: e2 ARG1: x3 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<12:16> LBL: h10 ARG0: x3 RSTR: h11 BODY: h12 ]
+ [ named_rel<12:16> LBL: h13 CARG: "Tori" ARG0: x3 ]
+ [ loc_nonsp_rel<17:21> LBL: h1 ARG0: e15 [ e SF: prop ] ARG1: e2 ARG2: x16 [ x PERS: 3 NUM: sg ] ]
+ [ time_n_rel<17:21> LBL: h17 ARG0: x16 ]
+ [ def_implicit_q_rel<17:21> LBL: h18 ARG0: x16 RSTR: h19 BODY: h20 ]
+ [ _now_a_1_rel<17:21> LBL: h17 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x16 ] >
+HCONS: < h0 qeq h1 h7 qeq h4 h11 qeq h13 h19 qeq h17 > ]
+
+

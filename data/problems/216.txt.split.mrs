@@ -1,0 +1,65 @@
+SENT: Keith loves trading cards.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:5> LBL: h7 CARG: "Keith" ARG0: x3 ]
+ [ "_love_v_1_rel"<6:11> LBL: h1 ARG0: e2 ARG1: x3 ARG2: h9 ]
+ [ "_trade_v_1_rel"<12:19> LBL: h10 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: + PERF: - ] ARG1: x3 ARG2: x12 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<20:26> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
+ [ "_card_n_1_rel"<20:26> LBL: h16 ARG0: x12 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h9 qeq h10 h14 qeq h16 > ]
+
+
+SENT: She bought 4 packs of Digimon cards for $4.45 each, and a deck of baseball cards for $6.06.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_buy_v_1_rel"<4:10> LBL: h8 ARG0: e9 [ e SF: prop-or-ques TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x10 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<11:12> LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]
+ [ card_rel<11:12> LBL: h14 CARG: "4" ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x10 ]
+ [ "_pack_n_of_rel"<13:18> LBL: h14 ARG0: x10 ARG1: x17 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<22:35> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ compound_rel<22:35> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ARG2: x23 [ x IND: + ] ]
+ [ proper_q_rel<22:29> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ named_rel<22:29> LBL: h27 CARG: "Digimon" ARG0: x23 ]
+ [ "_card_n_1_rel"<30:35> LBL: h21 ARG0: x17 ]
+ [ _for_p_rel<36:39> LBL: h8 ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e9 ARG2: x30 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<40:51> LBL: h31 ARG0: x30 RSTR: h32 BODY: h33 ]
+ [ "_dollar_n_1_rel"<40:41> LBL: h34 ARG0: x30 ]
+ [ card_rel<41:45> LBL: h34 CARG: "4.45" ARG0: e36 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x30 ]
+ [ _each_p_rel<46:51> LBL: h34 ARG0: e37 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x30 ]
+ [ _and_c_rel<52:55> LBL: h1 ARG0: e2 L-INDEX: e9 R-INDEX: e38 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h8 R-HNDL: h39 ]
+ [ _a_q_rel<56:57> LBL: h40 ARG0: x41 [ x PERS: 3 NUM: sg IND: + ] RSTR: h42 BODY: h43 ]
+ [ "_deck_n_1_rel"<58:62> LBL: h44 ARG0: x41 ]
+ [ _of_p_rel<63:65> LBL: h44 ARG0: e45 [ e SF: prop ] ARG1: x41 ARG2: x46 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<66:74> LBL: h47 ARG0: x46 RSTR: h48 BODY: h49 ]
+ [ "_baseball_n_1_rel"<66:74> LBL: h50 ARG0: x46 ]
+ [ udef_q_rel<75:91> LBL: h51 ARG0: x52 [ x PERS: 3 NUM: pl IND: + ] RSTR: h53 BODY: h54 ]
+ [ "_card_n_1_rel"<75:80> LBL: h55 ARG0: x52 ]
+ [ _for_p_rel<81:84> LBL: h55 ARG0: e56 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x52 ARG2: x57 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<85:91> LBL: h58 ARG0: x57 RSTR: h59 BODY: h60 ]
+ [ "_dollar_n_1_rel"<85:86> LBL: h61 ARG0: x57 ]
+ [ card_rel<86:91> LBL: h61 CARG: "6.06" ARG0: e63 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x57 ]
+ [ "_buy_v_1_rel"<52:55> LBL: h39 ARG0: e38 ARG1: x41 ARG2: x52 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h12 qeq h14 h19 qeq h21 h25 qeq h27 h32 qeq h34 h42 qeq h44 h48 qeq h50 h53 qeq h55 h59 qeq h61 > ]
+
+
+SENT: How much did Keith spend on cards?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ generic_entity_rel<0:8> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<0:8> LBL: h6 ARG0: x5 RSTR: h7 BODY: h8 ]
+ [ abstr_deg_rel<0:3> LBL: h9 ARG0: i10 ]
+ [ which_q_rel<0:3> LBL: h11 ARG0: i10 RSTR: h12 BODY: h13 ]
+ [ measure_rel<0:3> LBL: h4 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop ] ARG2: i10 ]
+ [ much-many_a_rel<4:8> LBL: h4 ARG0: e15 ARG1: x5 ]
+ [ proper_q_rel<13:18> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h17 BODY: h18 ]
+ [ named_rel<13:18> LBL: h19 CARG: "Keith" ARG0: x3 ]
+ [ "_spend_v_1_rel"<19:24> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ARG3: h21 ]
+ [ _on_p_rel<25:27> LBL: h22 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x5 ARG2: x24 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<28:34> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ "_card_n_1_rel"<28:34> LBL: h28 ARG0: x24 ] >
+HCONS: < h0 qeq h1 h7 qeq h4 h12 qeq h9 h17 qeq h19 h21 qeq h22 h26 qeq h28 > ]
+
+

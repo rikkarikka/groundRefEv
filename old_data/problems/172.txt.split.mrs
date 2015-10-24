@@ -1,0 +1,72 @@
+SENT: Milford Lake was originally blue because it only had 809 algae plants .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:12> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:7> LBL: h7 CARG: "Milford" ARG0: x3 ]
+ [ "_lake_n_1_rel"<8:12> LBL: h9 ARG0: x10 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<8:12> LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]
+ [ compound_name_rel<8:12> LBL: h7 ARG0: i14 ARG1: x3 ARG2: x10 ]
+ [ "_original_a_1_rel"<17:27> LBL: h15 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ]
+ [ "_blue_a_1_rel"<28:32> LBL: h15 ARG0: e2 ARG1: x3 ]
+ [ "_because_x_rel"<33:40> LBL: h1 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h18 ARG2: h19 ]
+ [ pron_rel<41:43> LBL: h20 ARG0: x21 [ x PERS: 3 NUM: sg GEND: n PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<41:43> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ "_only_a_1_rel"<44:48> LBL: h25 ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h27 ]
+ [ "_have_v_1_rel"<49:52> LBL: h28 ARG0: e29 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x21 ARG2: x30 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<53:56> LBL: h31 ARG0: x30 RSTR: h32 BODY: h33 ]
+ [ card_rel<53:56> LBL: h34 CARG: "809" ARG0: e36 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x30 ]
+ [ compound_rel<57:71> LBL: h34 ARG0: e37 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x30 ARG2: x38 ]
+ [ udef_q_rel<57:62> LBL: h39 ARG0: x38 RSTR: h40 BODY: h41 ]
+ [ "_algae_n_1_rel"<57:62> LBL: h42 ARG0: x38 ]
+ [ "_plant_n_1_rel"<63:71> LBL: h34 ARG0: x30 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h12 qeq h9 h18 qeq h15 h19 qeq h25 h23 qeq h20 h27 qeq h28 h32 qeq h34 h40 qeq h42 > ]
+
+
+SENT: Now there are 3263 algae plants , and the lake has turned green .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ "_now_a_1_rel"<0:3> LBL: h4 ARG0: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h6 ]
+ [ _be_v_there_rel<10:13> LBL: h7 ARG0: e8 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x9 [ x PERS: 3 NUM: pl GEND: n IND: + ] ]
+ [ udef_q_rel<14:18> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<14:18> LBL: h13 CARG: "3263" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ compound_rel<19:33> LBL: h13 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x9 ARG2: x17 ]
+ [ udef_q_rel<19:24> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ "_algae_n_1_rel"<19:24> LBL: h21 ARG0: x17 ]
+ [ "_plant_n_1_rel"<25:33> LBL: h13 ARG0: x9 ]
+ [ _and_c_rel<34:37> LBL: h1 ARG0: e2 L-INDEX: e8 R-INDEX: e22 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: + ] L-HNDL: h23 R-HNDL: h24 ]
+ [ _the_q_rel<38:41> LBL: h25 ARG0: x26 [ x PERS: 3 NUM: sg IND: + ] RSTR: h27 BODY: h28 ]
+ [ "_lake_n_1_rel"<42:46> LBL: h29 ARG0: x26 ]
+ [ "_turn_v_1_rel"<51:57> LBL: h30 ARG0: e22 ARG1: x26 ARG2: x31 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<58:65> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ "_green_a_2_rel"<58:65> LBL: h35 ARG0: x31 ARG1: *top* ] >
+HCONS: < h0 qeq h1 h23 qeq h4 h6 qeq h7 h11 qeq h13 h19 qeq h21 h24 qeq h30 h27 qeq h29 h33 qeq h35 > ]
+
+
+SENT: How many more algae plants are in Milford Lake now ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques ]
+RELS: < [ unknown_rel<0:52> LBL: h1 ARG0: e2 ARG: x4 [ x PERS: 3 NUM: sg ] ]
+ [ free_relative_q_rel<0:3> LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]
+ [ manner_rel<0:3> LBL: h8 ARG0: x4 ]
+ [ unspec_manner_rel<0:3> LBL: h8 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e10 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG2: x4 ]
+ [ udef_q_rel<4:26> LBL: h11 ARG0: x12 [ x PERS: 3 NUM: pl IND: + ] RSTR: h13 BODY: h14 ]
+ [ "_many_x_deg_rel"<4:8> LBL: h15 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e17 [ e SF: prop ] ]
+ [ much-many_a_rel<9:13> LBL: h15 ARG0: e18 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x12 ]
+ [ comp_rel<9:13> LBL: h15 ARG0: e17 ARG1: e18 ARG2: u19 ]
+ [ compound_rel<14:26> LBL: h15 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x12 ARG2: x21 ]
+ [ udef_q_rel<14:19> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ "_algae_n_1_rel"<14:19> LBL: h25 ARG0: x21 ]
+ [ "_plant_n_1_rel"<20:26> LBL: h15 ARG0: x12 ]
+ [ _in_p_rel<31:33> LBL: h8 ARG0: e10 ARG1: x12 ARG2: x26 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<34:46> LBL: h27 ARG0: x26 RSTR: h28 BODY: h29 ]
+ [ named_rel<34:41> LBL: h30 CARG: "Milford" ARG0: x26 ]
+ [ "_lake_n_1_rel"<42:46> LBL: h32 ARG0: x33 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<42:46> LBL: h34 ARG0: x33 RSTR: h35 BODY: h36 ]
+ [ compound_name_rel<42:46> LBL: h30 ARG0: i37 ARG1: x26 ARG2: x33 ]
+ [ loc_nonsp_rel<47:52> LBL: h8 ARG0: e38 [ e SF: prop ] ARG1: e10 ARG2: x39 [ x PERS: 3 NUM: sg ] ]
+ [ time_n_rel<47:52> LBL: h40 ARG0: x39 ]
+ [ def_implicit_q_rel<47:52> LBL: h41 ARG0: x39 RSTR: h42 BODY: h43 ]
+ [ _now_a_1_rel<47:52> LBL: h40 ARG0: e44 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x39 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 h13 qeq h15 h23 qeq h25 h28 qeq h30 h35 qeq h32 h42 qeq h40 > ]
+
+

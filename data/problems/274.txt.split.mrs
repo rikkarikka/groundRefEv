@@ -1,0 +1,73 @@
+SENT: Paula's aunt gave her $109 to spend on clothes at the mall.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg IND: + ] RSTR: h6 BODY: h7 ]
+ [ named_rel<0:5> LBL: h8 CARG: "Paula" ARG0: x5 ]
+ [ def_explicit_q_rel<5:7> LBL: h10 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
+ [ poss_rel<5:7> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x5 ]
+ [ "_aunt_n_of_rel"<8:12> LBL: h13 ARG0: x3 ARG1: i15 ]
+ [ "_give_v_1_rel"<13:17> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x16 [ x PERS: 3 NUM: pl IND: + ] ARG3: x17 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pron_rel<18:21> LBL: h18 ARG0: x17 ]
+ [ pronoun_q_rel<18:21> LBL: h19 ARG0: x17 RSTR: h20 BODY: h21 ]
+ [ udef_q_rel<22:59> LBL: h22 ARG0: x16 RSTR: h23 BODY: h24 ]
+ [ "_dollar_n_1_rel"<22:23> LBL: h25 ARG0: x16 ]
+ [ card_rel<23:26> LBL: h25 CARG: "109" ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x16 ]
+ [ "_spend_v_1_rel"<30:35> LBL: h25 ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: i29 ARG2: x16 ARG3: h30 ]
+ [ _on_p_rel<36:38> LBL: h31 ARG0: e32 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x16 ARG2: x33 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<39:46> LBL: h34 ARG0: x33 RSTR: h35 BODY: h36 ]
+ [ "_clothes_n_1_rel"<39:46> LBL: h37 ARG0: x33 ]
+ [ _at_p_rel<47:49> LBL: h25 ARG0: e38 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e28 ARG2: x39 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<50:53> LBL: h40 ARG0: x39 RSTR: h41 BODY: h42 ]
+ [ "_mall_n_1_rel"<54:59> LBL: h43 ARG0: x39 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 h11 qeq h13 h20 qeq h18 h23 qeq h25 h30 qeq h31 h35 qeq h37 h41 qeq h43 > ]
+
+
+SENT: She bought 2 shirts that cost $11 each and a pair of pants that cost $13.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_buy_v_1_rel"<4:10> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<11:12> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ card_rel<11:12> LBL: h12 CARG: "2" ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x8 ]
+ [ "_shirt_n_1_rel"<13:19> LBL: h12 ARG0: x8 ]
+ [ "_cost_v_1_rel"<25:29> LBL: h12 ARG0: e15 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: x16 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<30:73> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ udef_q_rel<30:38> LBL: h20 ARG0: x21 [ x PERS: 3 NUM: pl IND: + ] RSTR: h22 BODY: h23 ]
+ [ "_dollar_n_1_rel"<30:31> LBL: h24 ARG0: x21 ]
+ [ card_rel<31:33> LBL: h24 CARG: "11" ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x21 ]
+ [ _each_p_rel<34:38> LBL: h24 ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x21 ]
+ [ _and_c_rel<39:42> LBL: h28 ARG0: x16 L-INDEX: x21 R-INDEX: x29 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<43:44> LBL: h30 ARG0: x29 RSTR: h31 BODY: h32 ]
+ [ "_pair_n_of_rel"<45:49> LBL: h33 ARG0: x29 ARG1: x34 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<53:58> LBL: h35 ARG0: x34 RSTR: h36 BODY: h37 ]
+ [ "_pants_n_1_rel"<53:58> LBL: h38 ARG0: x34 ]
+ [ "_cost_v_1_rel"<64:68> LBL: h33 ARG0: e39 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x29 ARG2: x40 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<69:73> LBL: h41 ARG0: x40 RSTR: h42 BODY: h43 ]
+ [ "_dollar_n_1_rel"<69:70> LBL: h44 ARG0: x40 ]
+ [ card_rel<70:73> LBL: h44 CARG: "13" ARG0: e46 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x40 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h10 qeq h12 h18 qeq h28 h22 qeq h24 h31 qeq h33 h36 qeq h38 h42 qeq h44 > ]
+
+
+SENT: How much money does Paula have left to buy more clothes?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_money_n_1_rel"<9:14> LBL: h13 ARG0: x5 ]
+ [ proper_q_rel<20:25> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h17 BODY: h18 ]
+ [ named_rel<20:25> LBL: h19 CARG: "Paula" ARG0: x3 ]
+ [ "_have_v_prd_rel"<26:30> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ARG3: h21 ]
+ [ "_leave_v_1_rel"<31:35> LBL: h22 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: i24 ARG2: x5 ARG3: h25 ]
+ [ parg_d_rel<31:35> LBL: h22 ARG0: e26 [ e SF: prop ] ARG1: e23 ARG2: x5 ]
+ [ "_buy_v_1_rel"<39:42> LBL: h27 ARG0: e28 [ e SF: prop-or-ques TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x5 ARG2: x29 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<43:56> LBL: h30 ARG0: x29 RSTR: h31 BODY: h32 ]
+ [ much-many_a_rel<43:47> LBL: h33 ARG0: e34 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x29 ]
+ [ comp_rel<43:47> LBL: h33 ARG0: e35 [ e SF: prop ] ARG1: e34 ARG2: u36 ]
+ [ "_clothes_n_1_rel"<48:56> LBL: h33 ARG0: x29 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h17 qeq h19 h21 qeq h22 h25 qeq h27 h31 qeq h33 > ]
+
+

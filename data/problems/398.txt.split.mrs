@@ -1,0 +1,70 @@
+SENT: Lewis saved checking on the grapevines for his last stop.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:5> LBL: h7 CARG: "Lewis" ARG0: x3 ]
+ [ "_save_v_1_rel"<6:11> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: sg GEND: n ] ]
+ [ udef_q_rel<12:38> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ nominalization_rel<12:38> LBL: h13 ARG0: x9 ARG1: h14 ]
+ [ "_check_v_on_rel"<12:20> LBL: h14 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: + PERF: - ] ARG1: i16 ARG2: x17 [ x PERS: 3 NUM: pl ] ]
+ [ _the_q_rel<24:27> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ "_grapevines/NNS_u_unknown_rel"<28:38> LBL: h21 ARG0: x17 ]
+ [ _for_p_rel<39:42> LBL: h1 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x23 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ def_explicit_q_rel<43:46> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ poss_rel<43:46> LBL: h27 ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x23 ARG2: x29 [ x PERS: 3 NUM: sg GEND: m PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<43:46> LBL: h30 ARG0: x29 RSTR: h31 BODY: h32 ]
+ [ pron_rel<43:46> LBL: h33 ARG0: x29 ]
+ [ "_last_a_1_rel"<47:51> LBL: h27 ARG0: e34 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x23 ]
+ [ "_stop_n_1_rel"<52:57> LBL: h27 ARG0: x23 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h19 qeq h21 h25 qeq h27 h31 qeq h33 > ]
+
+
+SENT: He was told by one of the pickers that they fill 324 drums of grapes per day.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:2> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<0:2> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_tell_v_1_rel"<7:11> LBL: h1 ARG0: e2 ARG1: x8 [ x PERS: 3 NUM: sg ] ARG2: x3 ARG3: h9 ]
+ [ parg_d_rel<7:11> LBL: h1 ARG0: e10 [ e SF: prop ] ARG1: e2 ARG2: x3 ]
+ [ part_of_rel<15:18> LBL: h11 ARG0: x8 ARG1: x12 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<15:18> LBL: h13 ARG0: x8 RSTR: h14 BODY: h15 ]
+ [ card_rel<15:18> LBL: h11 CARG: "1" ARG0: e17 [ e SF: prop ] ARG1: x8 ]
+ [ _the_q_rel<22:25> LBL: h18 ARG0: x12 RSTR: h19 BODY: h20 ]
+ [ "_picker_n_1_rel"<26:33> LBL: h21 ARG0: x12 ]
+ [ pron_rel<39:43> LBL: h22 ARG0: x23 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<39:43> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ "_fill_v_cause_rel"<44:48> LBL: h27 ARG0: e28 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x23 ARG2: x29 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<49:52> LBL: h30 ARG0: x29 RSTR: h31 BODY: h32 ]
+ [ card_rel<49:52> LBL: h33 CARG: "324" ARG0: e35 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x29 ]
+ [ "_drum_n_1_rel"<53:58> LBL: h33 ARG0: x29 ]
+ [ _of_p_rel<59:61> LBL: h33 ARG0: e36 [ e SF: prop ] ARG1: x29 ARG2: x37 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<62:77> LBL: h38 ARG0: x37 RSTR: h39 BODY: h40 ]
+ [ "_grape_n_1_rel"<62:68> LBL: h41 ARG0: x37 ]
+ [ _per_p_rel<69:72> LBL: h41 ARG0: e42 [ e SF: prop ] ARG1: x37 ARG2: x43 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<69:72> LBL: h44 ARG0: x43 RSTR: h45 BODY: h46 ]
+ [ "_day_n_of_rel"<73:77> LBL: h47 ARG0: x43 ARG1: i48 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h9 qeq h27 h14 qeq h11 h19 qeq h21 h25 qeq h22 h31 qeq h33 h39 qeq h41 h45 qeq h47 > ]
+
+
+SENT: How many drums of grapes would be filled in 9 days?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative ]
+RELS: < [ udef_q_rel<0:24> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ abstr_deg_rel<0:3> LBL: h7 ARG0: i8 ]
+ [ which_q_rel<0:3> LBL: h9 ARG0: i8 RSTR: h10 BODY: h11 ]
+ [ measure_rel<0:3> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i8 ]
+ [ much-many_a_rel<4:8> LBL: h12 ARG0: e14 ARG1: x3 ]
+ [ "_drum_n_1_rel"<9:14> LBL: h12 ARG0: x3 ]
+ [ _of_p_rel<15:17> LBL: h12 ARG0: e15 [ e SF: prop ] ARG1: x3 ARG2: x16 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<18:24> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_grape_n_1_rel"<18:24> LBL: h20 ARG0: x16 ]
+ [ _would_v_modal_rel<25:30> LBL: h1 ARG0: e2 ARG1: h21 ]
+ [ "_fill_v_cause_rel"<34:40> LBL: h22 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: i24 ARG2: x3 ]
+ [ parg_d_rel<34:40> LBL: h22 ARG0: e25 [ e SF: prop ] ARG1: e23 ARG2: x3 ]
+ [ _in_p_rel<41:43> LBL: h22 ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e23 ARG2: x27 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<44:51> LBL: h28 ARG0: x27 RSTR: h29 BODY: h30 ]
+ [ card_rel<44:45> LBL: h31 CARG: "9" ARG0: e33 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x27 ]
+ [ "_day_n_of_rel"<46:51> LBL: h31 ARG0: x27 ARG1: i34 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 h18 qeq h20 h21 qeq h22 h29 qeq h31 > ]
+
+

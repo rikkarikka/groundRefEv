@@ -1,0 +1,56 @@
+SENT: A carpenter bought a piece of wood that was 8.9 centimeters long.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _a_q_rel<0:1> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_carpenter_n_1_rel"<2:11> LBL: h7 ARG0: x3 ]
+ [ "_buy_v_1_rel"<12:18> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<19:20> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ "_piece_n_of_rel"<21:26> LBL: h12 ARG0: x8 ARG1: x13 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<30:34> LBL: h14 ARG0: x13 RSTR: h15 BODY: h16 ]
+ [ "_wood_n_1_rel"<30:34> LBL: h17 ARG0: x13 ]
+ [ measure_rel<44:59> LBL: h12 ARG0: e18 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e19 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG2: x20 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<44:59> LBL: h21 ARG0: x20 RSTR: h22 BODY: h23 ]
+ [ card_rel<44:47> LBL: h24 CARG: "8.9" ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x20 ]
+ [ "_centimeter_n_1_rel"<48:59> LBL: h24 ARG0: x20 ]
+ [ "_long_a_1_rel"<60:65> LBL: h12 ARG0: e19 ARG1: x8 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h10 qeq h12 h15 qeq h17 h22 qeq h24 > ]
+
+
+SENT: Then he sawed 2.3 centimeters off the end.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ "_then_a_1_rel"<0:4> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ]
+ [ pron_rel<5:7> LBL: h6 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<5:7> LBL: h7 ARG0: x3 RSTR: h8 BODY: h9 ]
+ [ "_saw_v_1_rel"<8:13> LBL: h10 ARG0: e2 ARG1: x3 ARG2: p11 ]
+ [ loc_nonsp_rel<14:42> LBL: h10 ARG0: e12 [ e SF: prop ] ARG1: e2 ARG2: x13 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<14:42> LBL: h14 ARG0: x13 RSTR: h15 BODY: h16 ]
+ [ card_rel<14:17> LBL: h17 CARG: "2.3" ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x13 ]
+ [ "_centimeter_n_1_rel"<18:29> LBL: h17 ARG0: x13 ]
+ [ _off_p_rel<30:33> LBL: h17 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x13 ARG2: x21 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<34:37> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ "_end_n_of_rel"<38:42> LBL: h25 ARG0: x21 ] >
+HCONS: < h0 qeq h1 h5 qeq h10 h8 qeq h6 h15 qeq h17 h23 qeq h25 > ]
+
+
+SENT: How long is the piece of wood now?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ loc_nonsp_rel<0:8> LBL: h1 ARG0: e2 ARG1: x3 [ x PERS: 3 NUM: sg IND: + ] ARG2: x4 [ x PERS: 3 NUM: sg ] ]
+ [ abstr_deg_rel<0:3> LBL: h5 ARG0: i6 ]
+ [ which_q_rel<0:3> LBL: h7 ARG0: i6 RSTR: h8 BODY: h9 ]
+ [ measure_rel<0:3> LBL: h10 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x4 ARG2: i6 ]
+ [ time_n_rel<4:8> LBL: h10 ARG0: x4 ]
+ [ def_implicit_q_rel<4:8> LBL: h12 ARG0: x4 RSTR: h13 BODY: h14 ]
+ [ _long_a_1_rel<4:8> LBL: h10 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x4 ]
+ [ _the_q_rel<12:15> LBL: h16 ARG0: x3 RSTR: h17 BODY: h18 ]
+ [ "_piece_n_of_rel"<16:21> LBL: h19 ARG0: x3 ARG1: x20 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<25:29> LBL: h21 ARG0: x20 RSTR: h22 BODY: h23 ]
+ [ "_wood_n_1_rel"<25:29> LBL: h24 ARG0: x20 ]
+ [ loc_nonsp_rel<30:34> LBL: h1 ARG0: e25 [ e SF: prop ] ARG1: e2 ARG2: x26 [ x PERS: 3 NUM: sg ] ]
+ [ time_n_rel<30:34> LBL: h27 ARG0: x26 ]
+ [ def_implicit_q_rel<30:34> LBL: h28 ARG0: x26 RSTR: h29 BODY: h30 ]
+ [ _now_a_1_rel<30:34> LBL: h27 ARG0: e31 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x26 ] >
+HCONS: < h0 qeq h1 h8 qeq h5 h13 qeq h10 h17 qeq h19 h22 qeq h24 h29 qeq h27 > ]
+
+

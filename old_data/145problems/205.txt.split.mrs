@@ -1,0 +1,58 @@
+SENT: At the hardware store , 0.25 the nails are size 2d and 0.5 the nails are size 4d .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ focus_d_rel<0:82> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
+ [ _at_p_rel<0:2> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<3:6> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
+ [ compound_rel<7:23> LBL: h10 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x6 ARG2: x12 [ x PERS: 3 NUM: sg IND: - ] ]
+ [ udef_q_rel<7:15> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
+ [ "_hardware_n_1_rel"<7:15> LBL: h16 ARG0: x12 ]
+ [ "_store_n_1_rel"<16:23> LBL: h10 ARG0: x6 ]
+ [ appos_rel<24:68> LBL: h1 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 [ x PERS: 3 NUM: pl ] ARG2: x18 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ appos_rel<24:58> LBL: h1 ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x20 [ x PERS: 3 NUM: pl ] ]
+ [ generic_entity_rel<24:28> LBL: h21 ARG0: x3 ]
+ [ udef_q_rel<24:28> LBL: h22 ARG0: x3 RSTR: h23 BODY: h24 ]
+ [ card_rel<24:28> LBL: h21 CARG: "0.25" ARG0: e26 [ e SF: prop ] ARG1: x3 ]
+ [ _the_q_rel<29:32> LBL: h27 ARG0: x28 [ x PERS: 3 NUM: pl IND: + ] RSTR: h29 BODY: h30 ]
+ [ "_nail_n_1_rel"<33:38> LBL: h31 ARG0: x28 ]
+ [ _be_v_id_rel<39:42> LBL: h21 ARG0: e32 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x28 ARG2: x3 ]
+ [ udef_q_rel<43:58> LBL: h33 ARG0: x20 RSTR: h34 BODY: h35 ]
+ [ proper_q_rel<43:50> LBL: h36 ARG0: x37 [ x PERS: 3 NUM: sg IND: + ] RSTR: h38 BODY: h39 ]
+ [ compound_name_rel<43:50> LBL: h40 ARG0: e41 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x37 ARG2: x42 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<43:47> LBL: h43 ARG0: x42 RSTR: h44 BODY: h45 ]
+ [ "_size_n_1_rel"<43:47> LBL: h46 ARG0: x42 ]
+ [ named_rel<48:50> LBL: h40 CARG: "2d" ARG0: x37 ]
+ [ _and_c_rel<51:54> LBL: h48 ARG0: x20 L-INDEX: x37 R-INDEX: x49 [ x PERS: 3 NUM: sg ] ]
+ [ number_q_rel<55:58> LBL: h50 ARG0: x49 RSTR: h51 BODY: h52 ]
+ [ card_rel<55:58> LBL: h53 CARG: "0.5" ARG0: x49 ARG1: i55 ]
+ [ _the_q_rel<59:62> LBL: h56 ARG0: x18 RSTR: h57 BODY: h58 ]
+ [ "_nail_n_1_rel"<63:68> LBL: h59 ARG0: x18 ]
+ [ _be_v_id_rel<69:72> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x60 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<73:82> LBL: h61 ARG0: x60 RSTR: h62 BODY: h63 ]
+ [ compound_name_rel<73:82> LBL: h64 ARG0: e65 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x60 ARG2: x66 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<73:77> LBL: h67 ARG0: x66 RSTR: h68 BODY: h69 ]
+ [ "_size_n_1_rel"<73:77> LBL: h70 ARG0: x66 ]
+ [ named_rel<78:82> LBL: h64 CARG: "4d" ARG0: x60 ] >
+HCONS: < h0 qeq h1 h8 qeq h10 h14 qeq h16 h23 qeq h21 h29 qeq h31 h34 qeq h48 h38 qeq h40 h44 qeq h46 h51 qeq h53 h57 qeq h59 h62 qeq h64 h68 qeq h70 > ]
+
+
+SENT: What fraction of the nails are either size 2d or 4d ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _which_q_rel<0:4> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg IND: + ] RSTR: h6 BODY: h7 ]
+ [ "_fraction_n_of_rel"<5:13> LBL: h8 ARG0: x5 ARG1: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ _the_q_rel<17:20> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ "_nail_n_1_rel"<21:26> LBL: h13 ARG0: x9 ]
+ [ _be_v_id_rel<27:30> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ udef_q_rel<31:53> LBL: h14 ARG0: x3 RSTR: h15 BODY: h16 ]
+ [ proper_q_rel<38:45> LBL: h17 ARG0: x18 [ x PERS: 3 NUM: sg IND: + ] RSTR: h19 BODY: h20 ]
+ [ compound_name_rel<38:45> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x18 ARG2: x23 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<38:42> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ "_size_n_1_rel"<38:42> LBL: h27 ARG0: x23 ]
+ [ named_rel<43:45> LBL: h21 CARG: "2d" ARG0: x18 ]
+ [ _or_c_rel<46:48> LBL: h29 ARG0: x3 L-INDEX: x18 R-INDEX: x30 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<49:53> LBL: h31 ARG0: x30 RSTR: h32 BODY: h33 ]
+ [ named_rel<49:53> LBL: h34 CARG: "4d" ARG0: x30 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 h11 qeq h13 h15 qeq h29 h19 qeq h21 h25 qeq h27 h32 qeq h34 > ]
+
+

@@ -1,0 +1,25 @@
+SENT: Eve ran 0.7 of a mile and walked 0.6 of a mile.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:3> LBL: h7 CARG: "Eve" ARG0: x3 ]
+ [ "_run_v_1_rel"<4:7> LBL: h9 ARG0: e10 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x11 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<8:11> LBL: h12 ARG0: x11 ARG1: x13 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<8:11> LBL: h14 ARG0: x11 RSTR: h15 BODY: h16 ]
+ [ card_rel<8:11> LBL: h12 CARG: "0.7" ARG0: e18 [ e SF: prop ] ARG1: x11 ]
+ [ _a_q_rel<15:16> LBL: h19 ARG0: x13 RSTR: h20 BODY: h21 ]
+ [ "_mile_n_1_rel"<17:21> LBL: h22 ARG0: x13 ]
+ [ _and_c_rel<22:25> LBL: h1 ARG0: e2 L-INDEX: e10 R-INDEX: e23 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h9 R-HNDL: h24 ]
+ [ "_walk_v_1_rel"<26:32> LBL: h24 ARG0: e23 ARG1: x3 ARG2: x25 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<33:36> LBL: h26 ARG0: x25 ARG1: x27 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<33:36> LBL: h28 ARG0: x25 RSTR: h29 BODY: h30 ]
+ [ card_rel<33:36> LBL: h26 CARG: "0.6" ARG0: e32 [ e SF: prop ] ARG1: x25 ]
+ [ udef_q_rel<40:47> LBL: h33 ARG0: x27 RSTR: h34 BODY: h35 ]
+ [ card_rel<40:41> LBL: h36 CARG: "1" ARG0: e38 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x27 ]
+ [ "_mile_n_1_rel"<42:47> LBL: h36 ARG0: x27 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h15 qeq h12 h20 qeq h22 h29 qeq h26 h34 qeq h36 > ]
+
+
+SKIP: How much farther did Eve run than walk?
+
+

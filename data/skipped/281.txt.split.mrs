@@ -1,0 +1,44 @@
+SENT: Your class is having a pizza party.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: + PERF: - ]
+RELS: < [ def_explicit_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg ] RSTR: h5 BODY: h6 ]
+ [ poss_rel<0:4> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 [ x PERS: 2 PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<0:4> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ pron_rel<0:4> LBL: h13 ARG0: x9 ]
+ [ "_class_n_of_rel"<5:10> LBL: h7 ARG0: x3 ARG1: i14 ]
+ [ "_have_v_1_rel"<14:20> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x15 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<21:22> LBL: h16 ARG0: x15 RSTR: h17 BODY: h18 ]
+ [ compound_rel<23:35> LBL: h19 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x15 ARG2: x21 ]
+ [ udef_q_rel<23:28> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ "_pizza_n_1_rel"<23:28> LBL: h25 ARG0: x21 ]
+ [ "_party_n_of-to_rel"<29:35> LBL: h19 ARG0: x15 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h17 qeq h19 h23 qeq h25 > ]
+
+
+SENT: You buy 5 pizzas.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 2 PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_buy_v_1_rel"<4:7> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<8:9> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ card_rel<8:9> LBL: h12 CARG: "5" ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x8 ]
+ [ "_pizza_n_1_rel"<10:17> LBL: h12 ARG0: x8 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h10 qeq h12 > ]
+
+
+SENT: Each pizza has 4 slices.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _each_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg ] RSTR: h5 BODY: h6 ]
+ [ "_pizza_n_1_rel"<5:10> LBL: h7 ARG0: x3 ]
+ [ "_have_v_1_rel"<11:14> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<15:16> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ card_rel<15:16> LBL: h12 CARG: "4" ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x8 ]
+ [ "_slice_n_1_rel"<17:24> LBL: h12 ARG0: x8 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h10 qeq h12 > ]
+
+
+SKIP: How many slices is that altogether?
+
+

@@ -1,0 +1,60 @@
+SENT: Fred has 5 yellow balloons , Sam has 6 yellow balloons , and Mary has 7 yellow balloons .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg IND: + ] RSTR: h6 BODY: h7 ]
+ [ named_rel<0:4> LBL: h8 CARG: "Fred" ARG0: x5 ]
+ [ "_have_v_1_rel"<5:8> LBL: h10 ARG0: e11 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x5 ARG2: x12 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<9:10> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
+ [ card_rel<9:10> LBL: h16 CARG: "5" ARG0: e18 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x12 ]
+ [ "_yellow_a_1_rel"<11:17> LBL: h16 ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x12 ]
+ [ "_balloon_n_1_rel"<18:28> LBL: h16 ARG0: x12 ]
+ [ implicit_conj_rel<29:89> LBL: h1 ARG0: e2 L-INDEX: e11 R-INDEX: e20 [ e SF: prop ] L-HNDL: h21 R-HNDL: h22 ]
+ [ proper_q_rel<29:32> LBL: h23 ARG0: x24 [ x PERS: 3 NUM: sg IND: + ] RSTR: h25 BODY: h26 ]
+ [ named_rel<29:32> LBL: h27 CARG: "Sam" ARG0: x24 ]
+ [ "_have_v_1_rel"<33:36> LBL: h29 ARG0: e30 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x24 ARG2: x31 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<37:38> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ card_rel<37:38> LBL: h35 CARG: "6" ARG0: e37 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x31 ]
+ [ "_yellow_a_1_rel"<39:45> LBL: h35 ARG0: e38 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x31 ]
+ [ "_balloon_n_1_rel"<46:56> LBL: h35 ARG0: x31 ]
+ [ _and_c_rel<57:60> LBL: h22 ARG0: e20 L-INDEX: e30 R-INDEX: e39 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] L-HNDL: h40 R-HNDL: h41 ]
+ [ proper_q_rel<61:65> LBL: h42 ARG0: x43 [ x PERS: 3 NUM: sg IND: + ] RSTR: h44 BODY: h45 ]
+ [ named_rel<61:65> LBL: h46 CARG: "Mary" ARG0: x43 ]
+ [ "_have_v_1_rel"<66:69> LBL: h48 ARG0: e39 ARG1: x43 ARG2: x49 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<70:71> LBL: h50 ARG0: x49 RSTR: h51 BODY: h52 ]
+ [ card_rel<70:71> LBL: h53 CARG: "7" ARG0: e55 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x49 ]
+ [ "_yellow_a_1_rel"<72:78> LBL: h53 ARG0: e56 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x49 ]
+ [ "_balloon_n_1_rel"<79:89> LBL: h53 ARG0: x49 ] >
+HCONS: < h0 qeq h1 h21 qeq h10 h6 qeq h8 h14 qeq h16 h40 qeq h29 h25 qeq h27 h33 qeq h35 h41 qeq h48 h44 qeq h46 h51 qeq h53 > ]
+
+
+SENT: The balloons cost 5 dollars .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_balloon_n_1_rel"<4:12> LBL: h7 ARG0: x3 ]
+ [ "_cost_v_1_rel"<13:17> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<18:29> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ card_rel<18:19> LBL: h12 CARG: "5" ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x8 ]
+ [ "_dollar_n_1_rel"<20:29> LBL: h12 ARG0: x8 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h10 qeq h12 > ]
+
+
+SENT: How many yellow balloons do they have in total ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:24> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_yellow_a_1_rel"<9:15> LBL: h13 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x5 ]
+ [ "_balloon_n_1_rel"<16:24> LBL: h13 ARG0: x5 ]
+ [ pron_rel<28:32> LBL: h17 ARG0: x3 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<28:32> LBL: h18 ARG0: x3 RSTR: h19 BODY: h20 ]
+ [ "_have_v_prd_rel"<33:37> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ARG3: h21 ]
+ [ _in_p_rel<38:40> LBL: h22 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x5 ARG2: x24 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ idiom_q_i_rel<41:48> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ "_total_n_of_rel"<41:48> LBL: h28 ARG0: x24 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h19 qeq h17 h21 qeq h22 h26 qeq h28 > ]
+
+

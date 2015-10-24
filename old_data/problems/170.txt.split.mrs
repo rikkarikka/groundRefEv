@@ -1,0 +1,62 @@
+SENT: While playing a video game , Paul scored 3103 points .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative ]
+RELS: < [ focus_d_rel<0:54> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
+ [ _while_x_rel<0:5> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg GEND: n ] ]
+ [ udef_q_rel<6:28> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
+ [ nominalization_rel<6:28> LBL: h10 ARG0: x6 ARG1: h11 ]
+ [ "_play_v_1_rel"<6:13> LBL: h11 ARG0: e12 [ e SF: prop TENSE: untensed MOOD: indicative PROG: + PERF: - ] ARG1: i13 ARG2: x14 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<14:15> LBL: h15 ARG0: x14 RSTR: h16 BODY: h17 ]
+ [ compound_rel<16:28> LBL: h18 ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x14 ARG2: x20 ]
+ [ udef_q_rel<16:21> LBL: h21 ARG0: x20 RSTR: h22 BODY: h23 ]
+ [ "_video_n_of_rel"<16:21> LBL: h24 ARG0: x20 ARG1: i25 ]
+ [ "_game_n_1_rel"<22:28> LBL: h18 ARG0: x14 ]
+ [ proper_q_rel<29:33> LBL: h26 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h27 BODY: h28 ]
+ [ named_rel<29:33> LBL: h29 CARG: "Paul" ARG0: x3 ]
+ [ "_score_v_1_rel"<34:40> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x31 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<41:45> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ card_rel<41:45> LBL: h35 CARG: "3103" ARG0: e37 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x31 ]
+ [ "_point_n_of_rel"<46:54> LBL: h35 ARG0: x31 ] >
+HCONS: < h0 qeq h1 h8 qeq h10 h16 qeq h18 h22 qeq h24 h27 qeq h29 h33 qeq h35 > ]
+
+
+SENT: He and his cousin together have a total of 5816 points .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:26> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl ] RSTR: h5 BODY: h6 ]
+ [ pron_rel<0:2> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: sg GEND: m PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<0:2> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ _and_c_rel<3:6> LBL: h12 ARG0: x3 L-INDEX: x8 R-INDEX: x13 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ def_explicit_q_rel<7:10> LBL: h14 ARG0: x13 RSTR: h15 BODY: h16 ]
+ [ poss_rel<7:10> LBL: h17 ARG0: e18 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x13 ARG2: x19 [ x PERS: 3 NUM: sg GEND: m PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<7:10> LBL: h20 ARG0: x19 RSTR: h21 BODY: h22 ]
+ [ pron_rel<7:10> LBL: h23 ARG0: x19 ]
+ [ "_cousin_n_of_rel"<11:17> LBL: h17 ARG0: x13 ARG1: i24 ]
+ [ _together_p_rel<18:26> LBL: h17 ARG0: e25 [ e SF: prop ] ARG1: x13 ]
+ [ "_have_v_1_rel"<27:31> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x26 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<32:33> LBL: h27 ARG0: x26 RSTR: h28 BODY: h29 ]
+ [ "_total_n_of_rel"<34:39> LBL: h30 ARG0: x26 ARG1: x31 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<43:47> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ card_rel<43:47> LBL: h35 CARG: "5816" ARG0: e37 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x31 ]
+ [ "_point_n_of_rel"<48:56> LBL: h35 ARG0: x31 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 h15 qeq h17 h21 qeq h23 h28 qeq h30 h33 qeq h35 > ]
+
+
+SENT: How many points does Paul 's cousin have ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:15> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_point_n_of_rel"<9:15> LBL: h13 ARG0: x5 ]
+ [ proper_q_rel<21:25> LBL: h16 ARG0: x17 [ x PERS: 3 NUM: sg IND: + ] RSTR: h18 BODY: h19 ]
+ [ named_rel<21:25> LBL: h20 CARG: "Paul" ARG0: x17 ]
+ [ def_explicit_q_rel<26:28> LBL: h22 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h23 BODY: h24 ]
+ [ poss_rel<26:28> LBL: h25 ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x17 ]
+ [ "_cousin_n_of_rel"<29:35> LBL: h25 ARG0: x3 ARG1: i27 ]
+ [ "_have_v_1_rel"<36:42> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h20 h23 qeq h25 > ]
+
+

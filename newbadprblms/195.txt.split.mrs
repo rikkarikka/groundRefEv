@@ -1,0 +1,51 @@
+SENT: Scarlett made a fruit salad with 0.25 pound of melon and 0.375 pound of berries .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:8> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:8> LBL: h7 CARG: "Scarlett" ARG0: x3 ]
+ [ "_make_v_of_rel"<53:56> LBL: h9 ARG0: e10 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x11 [ x PERS: 3 NUM: sg IND: + ] ARG3: x12 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ "_make_v_of_rel"<9:13> LBL: h13 ARG0: e14 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x15 [ x PERS: 3 NUM: sg ] ARG3: x16 [ x PERS: 3 NUM: sg ] ]
+ [ _a_q_rel<14:15> LBL: h17 ARG0: x15 RSTR: h18 BODY: h19 ]
+ [ compound_rel<16:27> LBL: h20 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x15 ARG2: x22 ]
+ [ udef_q_rel<16:21> LBL: h23 ARG0: x22 RSTR: h24 BODY: h25 ]
+ [ "_fruit_n_1_rel"<16:21> LBL: h26 ARG0: x22 ]
+ [ "_salad_n_1_rel"<22:27> LBL: h20 ARG0: x15 ]
+ [ _with_p_rel<28:32> LBL: h20 ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x15 ARG2: x28 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<33:43> LBL: h29 ARG0: x28 RSTR: h30 BODY: h31 ]
+ [ card_rel<33:37> LBL: h32 CARG: "1" ARG0: e34 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x28 ]
+ [ "_pound_n_1_rel"<38:43> LBL: h32 ARG0: x28 ]
+ [ udef_q_rel<47:52> LBL: h35 ARG0: x16 RSTR: h36 BODY: h37 ]
+ [ "_melon_n_1_rel"<47:52> LBL: h38 ARG0: x16 ]
+ [ _and_c_rel<53:56> LBL: h1 ARG0: e2 L-INDEX: e14 R-INDEX: e10 L-HNDL: h13 R-HNDL: h9 ]
+ [ udef_q_rel<57:68> LBL: h39 ARG0: x11 RSTR: h40 BODY: h41 ]
+ [ card_rel<57:62> LBL: h42 CARG: "1" ARG0: e44 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x11 ]
+ [ "_pound_n_1_rel"<63:68> LBL: h42 ARG0: x11 ]
+ [ udef_q_rel<72:81> LBL: h45 ARG0: x12 RSTR: h46 BODY: h47 ]
+ [ "_berry_n_1_rel"<72:81> LBL: h48 ARG0: x12 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h18 qeq h20 h24 qeq h26 h30 qeq h32 h36 qeq h38 h40 qeq h42 h46 qeq h48 > ]
+
+
+SENT: How many pounds of fruit did Scarlett use in all ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:24> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ abstr_deg_rel<0:3> LBL: h7 ARG0: i8 ]
+ [ which_q_rel<0:3> LBL: h9 ARG0: i8 RSTR: h10 BODY: h11 ]
+ [ measure_rel<0:3> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG2: i8 ]
+ [ much-many_a_rel<4:8> LBL: h12 ARG0: e14 ARG1: x3 ]
+ [ "_pound_n_1_rel"<9:15> LBL: h12 ARG0: x3 ]
+ [ _of_p_rel<16:18> LBL: h12 ARG0: e15 [ e SF: prop ] ARG1: x3 ARG2: x16 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<19:24> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_fruit_n_1_rel"<19:24> LBL: h20 ARG0: x16 ]
+ [ "_do_v_1_rel"<25:28> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x21 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<29:41> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ compound_rel<29:41> LBL: h25 ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x21 ARG2: x27 [ x IND: + ] ]
+ [ proper_q_rel<29:37> LBL: h28 ARG0: x27 RSTR: h29 BODY: h30 ]
+ [ named_rel<29:37> LBL: h31 CARG: "Scarlett" ARG0: x27 ]
+ [ "_use_n_of_rel"<38:41> LBL: h25 ARG0: x21 ARG1: i33 ]
+ [ _in_p_rel<42:44> LBL: h1 ARG0: e34 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x35 [ x PERS: 3 ] ]
+ [ _all_q_rel<45:50> LBL: h36 ARG0: x35 RSTR: h37 BODY: h38 ]
+ [ generic_entity_rel<45:50> LBL: h39 ARG0: x35 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 h18 qeq h20 h23 qeq h25 h29 qeq h31 h37 qeq h39 > ]
+
+

@@ -1,0 +1,48 @@
+SENT: A restaurant made 9 hamburgers and 4 hot dogs to serve during lunch .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _a_q_rel<0:1> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_restaurant_n_1_rel"<2:12> LBL: h7 ARG0: x3 ]
+ [ "_make_v_1_rel"<13:17> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl ] ARG3: u9 ]
+ [ udef_q_rel<18:69> LBL: h10 ARG0: x8 RSTR: h11 BODY: h12 ]
+ [ udef_q_rel<18:19> LBL: h13 ARG0: x14 [ x PERS: 3 NUM: pl IND: + ] RSTR: h15 BODY: h16 ]
+ [ card_rel<18:19> LBL: h17 CARG: "9" ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x14 ]
+ [ "_hamburger_n_1_rel"<20:30> LBL: h17 ARG0: x14 ]
+ [ _and_c_rel<31:34> LBL: h20 ARG0: x8 L-INDEX: x14 R-INDEX: x21 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<35:36> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ card_rel<35:36> LBL: h25 CARG: "4" ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x21 ]
+ [ "_hot_a_1_rel"<37:40> LBL: h25 ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x21 ]
+ [ "_dog_n_1_rel"<41:45> LBL: h25 ARG0: x21 ]
+ [ "_serve_v_as_rel"<49:54> LBL: h25 ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: i30 ARG2: x21 ]
+ [ _during_p_rel<55:61> LBL: h25 ARG0: e31 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e29 ARG2: x32 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<62:69> LBL: h33 ARG0: x32 RSTR: h34 BODY: h35 ]
+ [ "_lunch_n_1_rel"<62:69> LBL: h36 ARG0: x32 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h20 h15 qeq h17 h23 qeq h25 h34 qeq h36 > ]
+
+
+SENT: Only 3 hamburgers were actually served .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ "_only_x_deg_rel"<0:4> LBL: h4 ARG0: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e6 [ e SF: prop TENSE: untensed MOOD: indicative ] ]
+ [ udef_q_rel<5:6> LBL: h7 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h8 BODY: h9 ]
+ [ card_rel<5:6> LBL: h4 CARG: "3" ARG0: e6 ARG1: x3 ]
+ [ "_hamburger_n_1_rel"<7:17> LBL: h4 ARG0: x3 ]
+ [ "_actual_a_1_rel"<23:31> LBL: h1 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h12 ]
+ [ "_serve_v_as_rel"<32:40> LBL: h13 ARG0: e2 ARG1: i14 ARG2: x3 ]
+ [ parg_d_rel<32:40> LBL: h13 ARG0: e15 [ e SF: prop ] ARG1: e2 ARG2: x3 ] >
+HCONS: < h0 qeq h1 h8 qeq h4 h12 qeq h13 > ]
+
+
+SENT: How many hamburgers were over ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:19> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ abstr_deg_rel<0:3> LBL: h7 ARG0: i8 ]
+ [ which_q_rel<0:3> LBL: h9 ARG0: i8 RSTR: h10 BODY: h11 ]
+ [ measure_rel<0:3> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i8 ]
+ [ much-many_a_rel<4:8> LBL: h12 ARG0: e14 ARG1: x3 ]
+ [ "_hamburger_n_1_rel"<9:19> LBL: h12 ARG0: x3 ]
+ [ _over_p_dir_rel<25:31> LBL: h1 ARG0: e2 ARG1: x3 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 > ]
+
+

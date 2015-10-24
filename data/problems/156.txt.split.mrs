@@ -1,0 +1,59 @@
+SENT: Melanie goes fishing with Tom.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:7> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:7> LBL: h7 CARG: "Melanie" ARG0: x3 ]
+ [ "_go_v_ing_rel"<8:12> LBL: h1 ARG0: e2 ARG1: x3 ARG2: h9 ]
+ [ "_fish_v_1_rel"<13:20> LBL: h10 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: + PERF: - ] ARG1: x3 ARG2: p12 ]
+ [ _with_p_rel<21:25> LBL: h10 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e11 ARG2: x14 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<26:30> LBL: h15 ARG0: x14 RSTR: h16 BODY: h17 ]
+ [ named_rel<26:30> LBL: h18 CARG: "Tom" ARG0: x14 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h9 qeq h10 h16 qeq h18 > ]
+
+
+SENT: Melanie catches 8 trout.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:7> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:7> LBL: h7 CARG: "Melanie" ARG0: x3 ]
+ [ "_catch_v_1_rel"<8:15> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<16:17> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<16:17> LBL: h13 CARG: "8" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_trout_n_1_rel"<18:24> LBL: h13 ARG0: x9 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
+
+
+SENT: Tom catches 2 times as many trout as Melanie.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:3> LBL: h7 CARG: "Tom" ARG0: x3 ]
+ [ "_catch_v_1_rel"<4:11> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<12:19> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<12:13> LBL: h13 CARG: "2" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x9 ]
+ [ "_time_n_of_rel"<14:19> LBL: h13 ARG0: x9 ]
+ [ _as_p_rel<20:22> LBL: h1 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x17 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<23:33> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ much-many_a_rel<23:27> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x17 ]
+ [ "_trout_n_1_rel"<28:33> LBL: h21 ARG0: x17 ]
+ [ _as_p_rel<34:36> LBL: h1 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x24 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<37:45> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ named_rel<37:45> LBL: h28 CARG: "Melanie" ARG0: x24 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h19 qeq h21 h26 qeq h28 > ]
+
+
+SENT: How many trout did Tom catch ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_trout_n_1_rel"<9:14> LBL: h13 ARG0: x5 ]
+ [ proper_q_rel<19:22> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h17 BODY: h18 ]
+ [ named_rel<19:22> LBL: h19 CARG: "Tom" ARG0: x3 ]
+ [ "_catch_v_1_rel"<23:30> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h17 qeq h19 > ]
+
+

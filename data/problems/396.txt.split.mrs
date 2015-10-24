@@ -1,0 +1,44 @@
+SENT: The farmers reported that they harvest 45 sacks of apples from each of the 8 sections of the orchard daily.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_farmer_n_1_rel"<4:11> LBL: h7 ARG0: x3 ]
+ [ "_report_v_to_rel"<12:20> LBL: h1 ARG0: e2 ARG1: x3 ARG2: h8 ARG3: i9 ]
+ [ pron_rel<26:30> LBL: h10 ARG0: x11 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<26:30> LBL: h12 ARG0: x11 RSTR: h13 BODY: h14 ]
+ [ "_harvest_v_1_rel"<31:38> LBL: h15 ARG0: e16 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x11 ARG2: x17 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<39:41> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ card_rel<39:41> LBL: h21 CARG: "45" ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x17 ]
+ [ "_sack_n_1_rel"<42:47> LBL: h21 ARG0: x17 ]
+ [ _of_p_rel<48:50> LBL: h21 ARG0: e24 [ e SF: prop ] ARG1: x17 ARG2: x25 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<51:100> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
+ [ "_apple_n_1_rel"<51:57> LBL: h29 ARG0: x25 ]
+ [ _from_p_rel<58:62> LBL: h29 ARG0: e30 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x25 ARG2: x31 [ x PERS: 3 ] ]
+ [ _each_q_rel<63:67> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ part_of_rel<63:67> LBL: h35 ARG0: x31 ARG1: x36 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ _the_q_rel<71:74> LBL: h37 ARG0: x36 RSTR: h38 BODY: h39 ]
+ [ card_rel<75:76> LBL: h40 CARG: "8" ARG0: e42 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x36 ]
+ [ "_section_n_of_rel"<77:85> LBL: h40 ARG0: x36 ARG1: x43 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<89:92> LBL: h44 ARG0: x43 RSTR: h45 BODY: h46 ]
+ [ "_orchard_n_1_rel"<93:100> LBL: h47 ARG0: x43 ]
+ [ "_daily_a_1_rel"<101:107> LBL: h15 ARG0: e48 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e16 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h8 qeq h15 h13 qeq h10 h19 qeq h21 h27 qeq h29 h33 qeq h35 h38 qeq h40 h45 qeq h47 > ]
+
+
+SENT: How many sacks are harvested every day?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ abstr_deg_rel<0:3> LBL: h7 ARG0: i8 ]
+ [ which_q_rel<0:3> LBL: h9 ARG0: i8 RSTR: h10 BODY: h11 ]
+ [ measure_rel<0:3> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i8 ]
+ [ much-many_a_rel<4:8> LBL: h12 ARG0: e14 ARG1: x3 ]
+ [ "_sack_n_1_rel"<9:14> LBL: h12 ARG0: x3 ]
+ [ "_harvest_v_1_rel"<19:28> LBL: h1 ARG0: e2 ARG1: i15 ARG2: x3 ]
+ [ parg_d_rel<19:28> LBL: h1 ARG0: e16 [ e SF: prop ] ARG1: e2 ARG2: x3 ]
+ [ loc_nonsp_rel<29:39> LBL: h1 ARG0: e17 [ e SF: prop ] ARG1: e2 ARG2: x18 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _every_q_rel<29:34> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ "_day_n_of_rel"<35:39> LBL: h22 ARG0: x18 ARG1: i23 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 h20 qeq h22 > ]
+
+

@@ -1,0 +1,15 @@
+Sara's high school played 12 basketball games this year.
+The team won most of their games.
+They were defeated during 4 games.
+How many games did they win ?
+
+COREF
+1 (The team) -> 0 (Sara's high school [basketball team])
+2 (They) -> 1 (The team)
+3 (they) -> 1 (The team)
+3 (games) < 0 (12 basketball games)
+1 (most of their games) < 0 (12 basketball games)
+2 (4 games) < 0 (12 basketball games) 
+1 (their) -> 1 (The team)
+1 (their games) -> 0 (12 basketball games)
+3 (games) -> 1 (most of their games)

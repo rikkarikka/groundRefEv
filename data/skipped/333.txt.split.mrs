@@ -1,0 +1,62 @@
+SENT: During a canned food drive, items were sorted into bins.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ focus_d_rel<0:56> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
+ [ _during_p_rel<0:6> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg ] ]
+ [ _a_q_rel<7:8> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
+ [ "_can_v_1_rel"<9:15> LBL: h10 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: i12 ARG2: x6 ]
+ [ parg_d_rel<9:15> LBL: h10 ARG0: e13 [ e SF: prop ] ARG1: e11 ARG2: x6 ]
+ [ compound_rel<16:27> LBL: h10 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x6 ARG2: x15 ]
+ [ udef_q_rel<16:20> LBL: h16 ARG0: x15 RSTR: h17 BODY: h18 ]
+ [ "_food_n_1_rel"<16:20> LBL: h19 ARG0: x15 ]
+ [ "_drive_n_1_rel"<21:27> LBL: h10 ARG0: x6 ]
+ [ udef_q_rel<28:33> LBL: h20 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h21 BODY: h22 ]
+ [ "_item_n_of_rel"<28:33> LBL: h23 ARG0: x3 ARG1: i24 ]
+ [ "_sort_v_1_rel"<39:45> LBL: h1 ARG0: e2 ARG1: i25 ARG2: x3 ]
+ [ parg_d_rel<39:45> LBL: h1 ARG0: e26 [ e SF: prop ] ARG1: e2 ARG2: x3 ]
+ [ _into_p_rel<46:50> LBL: h1 ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x28 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<51:56> LBL: h29 ARG0: x28 RSTR: h30 BODY: h31 ]
+ [ "_bin_n_1_rel"<51:56> LBL: h32 ARG0: x28 ] >
+HCONS: < h0 qeq h1 h8 qeq h10 h17 qeq h19 h21 qeq h23 h30 qeq h32 > ]
+
+
+SENT: The drive resulted in 0.125 of a bin of soup, 0.125 of a bin of vegetables, and 0.5 of a bin of pasta.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg ] RSTR: h5 BODY: h6 ]
+ [ "_drive_n_1_rel"<4:9> LBL: h7 ARG0: x3 ]
+ [ "_result_v_in_rel"<10:18> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<22:27> LBL: h9 ARG0: x8 ARG1: x10 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<22:27> LBL: h11 ARG0: x8 RSTR: h12 BODY: h13 ]
+ [ card_rel<22:27> LBL: h9 CARG: "0.125" ARG0: e15 [ e SF: prop ] ARG1: x8 ]
+ [ _a_q_rel<31:32> LBL: h16 ARG0: x10 RSTR: h17 BODY: h18 ]
+ [ "_bin_n_1_rel"<33:36> LBL: h19 ARG0: x10 ]
+ [ _of_p_rel<37:39> LBL: h19 ARG0: e20 [ e SF: prop ] ARG1: x10 ARG2: x21 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<40:102> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ udef_q_rel<40:45> LBL: h25 ARG0: x26 [ x PERS: 3 NUM: sg ] RSTR: h27 BODY: h28 ]
+ [ "_soup_n_1_rel"<40:45> LBL: h29 ARG0: x26 ]
+ [ udef_q_rel<46:102> LBL: h30 ARG0: x31 [ x PERS: 3 NUM: pl ] RSTR: h32 BODY: h33 ]
+ [ implicit_conj_rel<46:102> LBL: h34 ARG0: x21 L-INDEX: x26 R-INDEX: x31 ]
+ [ part_of_rel<46:51> LBL: h35 ARG0: x36 [ x PERS: 3 NUM: pl ] ARG1: x37 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<46:51> LBL: h38 ARG0: x36 RSTR: h39 BODY: h40 ]
+ [ card_rel<46:51> LBL: h35 CARG: "0.125" ARG0: e42 [ e SF: prop ] ARG1: x36 ]
+ [ _a_q_rel<55:56> LBL: h43 ARG0: x37 RSTR: h44 BODY: h45 ]
+ [ "_bin_n_1_rel"<57:60> LBL: h46 ARG0: x37 ]
+ [ _of_p_rel<61:63> LBL: h46 ARG0: e47 [ e SF: prop ] ARG1: x37 ARG2: x48 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<64:75> LBL: h49 ARG0: x48 RSTR: h50 BODY: h51 ]
+ [ "_vegetable_n_1_rel"<64:75> LBL: h52 ARG0: x48 ]
+ [ _and_c_rel<76:79> LBL: h53 ARG0: x31 L-INDEX: x36 R-INDEX: x54 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<80:83> LBL: h55 ARG0: x54 ARG1: x56 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<80:83> LBL: h57 ARG0: x54 RSTR: h58 BODY: h59 ]
+ [ card_rel<80:83> LBL: h55 CARG: "0.5" ARG0: e61 [ e SF: prop ] ARG1: x54 ]
+ [ _a_q_rel<87:88> LBL: h62 ARG0: x56 RSTR: h63 BODY: h64 ]
+ [ "_bin_n_1_rel"<89:92> LBL: h65 ARG0: x56 ]
+ [ _of_p_rel<93:95> LBL: h65 ARG0: e66 [ e SF: prop ] ARG1: x56 ARG2: x67 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<96:102> LBL: h68 ARG0: x67 RSTR: h69 BODY: h70 ]
+ [ "_pasta_n_1_rel"<96:102> LBL: h71 ARG0: x67 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h12 qeq h9 h17 qeq h19 h23 qeq h34 h27 qeq h29 h32 qeq h53 h39 qeq h35 h44 qeq h46 h50 qeq h52 h58 qeq h55 h63 qeq h65 h69 qeq h71 > ]
+
+
+SKIP: Altogether, how many bins would the canned food take up?
+
+

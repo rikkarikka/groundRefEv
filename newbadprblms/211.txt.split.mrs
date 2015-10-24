@@ -1,0 +1,49 @@
+SENT: While making pastries , a bakery used 0.2 bag of wheat flour and 0.1 bag of white flour .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ "_while_x_rel"<0:5> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ARG2: h6 ]
+ [ "_make_v_1_rel"<6:12> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: + PERF: - ] ARG1: i9 ARG2: x10 [ x PERS: 3 NUM: pl ] ARG3: u11 ]
+ [ udef_q_rel<13:23> LBL: h12 ARG0: x10 RSTR: h13 BODY: h14 ]
+ [ "_pastry_n_1_rel"<13:23> LBL: h15 ARG0: x10 ]
+ [ _a_q_rel<24:25> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h17 BODY: h18 ]
+ [ "_bakery_n_1_rel"<26:32> LBL: h19 ARG0: x3 ]
+ [ "_use_v_1_rel"<33:37> LBL: h20 ARG0: e2 ARG1: x3 ARG2: x21 [ x PERS: 3 ] ]
+ [ udef_q_rel<38:41> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ card_rel<38:41> LBL: h25 CARG: "0.2" ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x21 ]
+ [ udef_q_rel<42:60> LBL: h28 ARG0: x29 [ x PERS: 3 NUM: sg IND: + ] RSTR: h30 BODY: h31 ]
+ [ "_bag_n_of_rel"<42:45> LBL: h32 ARG0: x29 ARG1: x33 [ x PERS: 3 NUM: sg GEND: n IND: - ] ]
+ [ udef_q_rel<49:60> LBL: h34 ARG0: x33 RSTR: h35 BODY: h36 ]
+ [ "_wheat_a_1_rel"<49:54> LBL: h37 ARG0: e38 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x33 ]
+ [ "_flour_n_1_rel"<55:60> LBL: h37 ARG0: x33 ]
+ [ udef_q_rel<61:89> LBL: h39 ARG0: x40 [ x PERS: 3 NUM: sg IND: + ] RSTR: h41 BODY: h42 ]
+ [ _and_c_rel<61:64> LBL: h25 ARG0: x21 L-INDEX: x29 R-INDEX: x40 ]
+ [ compound_rel<65:72> LBL: h43 ARG0: e44 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x40 ARG2: x45 [ x IND: + ] ]
+ [ proper_q_rel<65:68> LBL: h46 ARG0: x45 RSTR: h47 BODY: h48 ]
+ [ named_rel<65:68> LBL: h49 CARG: "0.1" ARG0: x45 ]
+ [ "_bag_n_of_rel"<69:72> LBL: h43 ARG0: x40 ARG1: x51 [ x PERS: 3 NUM: sg GEND: n IND: - ] ]
+ [ udef_q_rel<76:89> LBL: h52 ARG0: x51 RSTR: h53 BODY: h54 ]
+ [ "_white_a_1_rel"<76:81> LBL: h55 ARG0: e56 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x51 ]
+ [ "_flour_n_1_rel"<82:89> LBL: h55 ARG0: x51 ] >
+HCONS: < h0 qeq h1 h5 qeq h20 h6 qeq h7 h13 qeq h15 h17 qeq h19 h23 qeq h25 h30 qeq h32 h35 qeq h37 h41 qeq h43 h47 qeq h49 h53 qeq h55 > ]
+
+
+SENT: How many bags of flour did the bakery use in all ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:22> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_bag_n_of_rel"<9:13> LBL: h13 ARG0: x5 ARG1: x16 [ x PERS: 3 NUM: sg GEND: n IND: - ] ]
+ [ udef_q_rel<17:22> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_flour_n_1_rel"<17:22> LBL: h20 ARG0: x16 ]
+ [ _the_q_rel<27:30> LBL: h21 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h22 BODY: h23 ]
+ [ "_bakery_n_1_rel"<31:37> LBL: h24 ARG0: x3 ]
+ [ "_use_v_1_rel"<38:41> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ _in_p_rel<42:44> LBL: h1 ARG0: e25 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x26 [ x PERS: 3 ] ]
+ [ _all_q_rel<45:50> LBL: h27 ARG0: x26 RSTR: h28 BODY: h29 ]
+ [ generic_entity_rel<45:50> LBL: h30 ARG0: x26 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h20 h22 qeq h24 h28 qeq h30 > ]
+
+

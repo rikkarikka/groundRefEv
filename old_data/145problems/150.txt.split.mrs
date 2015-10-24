@@ -1,0 +1,40 @@
+SENT: A multi-national corporation has 2041 part-time employees and 63093 full-time employees .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _a_q_rel<0:1> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_multi_a_1_rel"<2:16> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e9 [ e SF: prop TENSE: untensed MOOD: indicative ] ]
+ [ "_national_a_1_rel"<2:16> LBL: h7 ARG0: e9 ARG1: x3 ]
+ [ "_corporation_n_1_rel"<17:28> LBL: h7 ARG0: x3 ]
+ [ "_have_v_1_rel"<29:32> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x10 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<33:89> LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]
+ [ udef_q_rel<33:37> LBL: h14 ARG0: x15 [ x PERS: 3 NUM: pl IND: + ] RSTR: h16 BODY: h17 ]
+ [ card_rel<33:37> LBL: h18 CARG: "2041" ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x15 ]
+ [ "_part-time_a_1_rel"<38:47> LBL: h18 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x15 ]
+ [ "_employee_n_of_rel"<48:57> LBL: h18 ARG0: x15 ARG1: i22 ]
+ [ _and_c_rel<58:61> LBL: h23 ARG0: x10 L-INDEX: x15 R-INDEX: x24 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<62:67> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ card_rel<62:67> LBL: h28 CARG: "63093" ARG0: e30 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x24 ]
+ [ compound_rel<68:89> LBL: h28 ARG0: e31 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x24 ARG2: x32 [ x PERS: 3 NUM: sg IND: - ] ]
+ [ udef_q_rel<68:77> LBL: h33 ARG0: x32 RSTR: h34 BODY: h35 ]
+ [ "_full_a_of_rel"<68:77> LBL: h36 ARG0: e37 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x32 ARG2: i38 ]
+ [ "_time_n_of_rel"<68:77> LBL: h36 ARG0: x32 ]
+ [ "_employee_n_of_rel"<78:89> LBL: h28 ARG0: x24 ARG1: i39 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h12 qeq h23 h16 qeq h18 h26 qeq h28 h34 qeq h36 > ]
+
+
+SENT: How many employees work for the corporation ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:18> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ abstr_deg_rel<0:3> LBL: h7 ARG0: i8 ]
+ [ which_q_rel<0:3> LBL: h9 ARG0: i8 RSTR: h10 BODY: h11 ]
+ [ measure_rel<0:3> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i8 ]
+ [ much-many_a_rel<4:8> LBL: h12 ARG0: e14 ARG1: x3 ]
+ [ "_employee_n_of_rel"<9:18> LBL: h12 ARG0: x3 ARG1: i15 ]
+ [ "_work_v_1_rel"<19:23> LBL: h1 ARG0: e2 ARG1: x3 ARG2: p16 ]
+ [ _for_p_rel<24:27> LBL: h1 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x18 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<28:31> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ "_corporation_n_1_rel"<32:45> LBL: h22 ARG0: x18 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 h20 qeq h22 > ]
+
+

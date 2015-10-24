@@ -1,0 +1,10 @@
+Data Preperation Method
+
+If dataset is in the TACL 15 paper format, first run 
+python3 splitDS.py <dataset>
+
+Next, to split dataset into questions, and then questions into one sentence per line, run
+./splitProblems.sh q.txt
+
+Finally, to parse each question, run
+./aceParse.sh

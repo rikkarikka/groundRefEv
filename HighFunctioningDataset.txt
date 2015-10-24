@@ -1,0 +1,435 @@
+There were 28 bales of hay in the barn . Tim stacked bales in the barn today . There are now 54 bales of hay in the barn . How many bales did he store in the barn ?
+X = 54 - 28
+26
+Sam had 9 dimes in his bank . His dad gave him 7 dimes . How many dimes does Sam have now ?
+X = 9 + 7
+16
+Mary had 7 nickels in her bank . Her dad gave her 5 nickels . How many nickels does Mary have now ?
+X = 7 + 5
+12
+Keith grew 6 turnips . Alyssa grew 9 turnips . How many turnips did they grow in all ?
+X = 6 + 9
+15
+Mary has 9 yellow marbles Joan has 3 yellow marbles . How many yellow marbles do they have in all ?
+X = 9 + 3
+12
+Sally grew 6 carrots . Fred grew 4 carrots . How many carrots did they grow in all ?
+X = 6 + 4
+10
+Tom found 5 seashells on the beach . he gave Jessica 2 of the seashells . How many seashells does he now have ?
+X = 5 - 2
+3
+Fred has 5 baseball cards . Melanie bought 3 of Fred 's baseball cards . How many baseball cards does Fred have now ?
+X = 5 - 3
+2
+Mary had 8 potatoes in the garden . The rabbits ate 3 of the potatoes . How many potatoes does Mary now have ?
+X = 8 - 3
+5
+Jessica had 8 quarters in her bank . Her sister borrowed 3 of her quarters . How many quarters does Jessica have now ?
+X = 8 - 3
+5
+Alyssa 's dog had puppies . She gave 7 to her friends . She now has 5 puppies . How many puppies did she have to start with ?
+X = 7 + 5
+12
+Dan picked 9 limes and gave Sara 4 of the limes . How many limes does Dan have now ?
+X = 9 - 4
+5
+Fred has 40 baseball cards . Keith bought 22 of Fred 's baseball cards . How many baseball cards does Fred have now ?
+X = 40 - 22
+18
+Fred found 47 seashells on the beach , he gave Jessica 25 of the seashells . How many seashells does he now have ?
+X = 47 - 25
+22
+Sara grew 43 pumpkins , but the rabbits ate 23 pumpkins . How many pumpkins does Sara have ?
+X = 43 - 23
+20
+Joan decided to sell all of her old books . She gathered up 33 books to sell . She sold 26 books in a yard sale . How many books does Joan now have ?
+X = 33 - 26
+7
+Joan purchased a basketball game for $ 5.20 , and a racing game for $ 4.23 . How much did Joan spend on video games ?
+X = 5.20 + 4.23
+9.43
+Mike joined his school 's band . He bought a trumpet for $ 145.16 , and a song book which was $ 5.84 . How much did Mike spend at the music store ?
+X = 145.16 + 5.84
+151
+Alyssa bought some toys . She bought a football for $ 5.71 , and spent $ 6.59 on marbles . In total , how much did Alyssa spend on toys ?
+X = 5.71 + 6.59
+12.3
+Jessica spent $ 10.22 on a cat toy , and a cage cost her $ 11.73 . What was the total cost of Jessica 's purchases ?
+X = 10.22 + 11.73
+21.95
+Sara got fast food for lunch . Sara spent $ 5.36 on a hotdog and $ 5.10 on a salad . What was the total of the lunch bill ?
+X = 5.36 + 5.10
+10.46
+Jason went to the mall on Saturday to buy clothes . He spent $ 14.28 on shorts and $ 4.74 on a jacket . In total , how much money did Jason spend on clothing ?
+X = 14.28 + 4.74
+19.02
+Alyssa loves eating fruits . Alyssa paid $ 12.08 for grapes , and $ 9.85 for cherries . In total , how much money did Alyssa spend ?
+X = 12.08 + 9.85
+21.93
+Mary loves eating fruits . Mary paid $ 11.08 for berries , $ 14.33 for apples , and $ 9.31 for peaches . In total , how much money did she spend ?
+X = 11.08 + 14.33 + 9.31
+34.72
+There are 2 pencils in the drawer . Tim placed 3 pencils in the drawer . How many pencils are now there in total ?
+X = 2 + 3
+5
+Sandy went to the mall to buy clothes . She spent $ 13.99 on shorts , $ 12.14 on a shirt , and $ 7.43 on a jacket . How much money did Sandy spend on clothes ?
+X = 13.99 + 12.14 + 7.43
+33.56
+Jason joined his school 's band . He bought a flute for $ 142.46 , a music tool for $ 8.89 , and a song book for $ 7 . How much did Jason spend at the music store ?
+X = 142.46 + 8.89 + 7
+158.35
+Tom purchased a football game for $ 14.02 , a strategy game for $ 9.46 , and a Batman game for $ 12.04 . How much did Tom spend on video games ?
+X = 14.02 + 9.46 + 12.04
+35.52
+Mike bought some toys . He bought marbles for $ 9.05 , a football for $ 4.95 , and spent $ 6.52 on a baseball . In total , how much did Mike spend on toys ?
+X = 9.05 + 4.95 + 6.52
+20.52
+A ship is filled with 5973 tons of cargo . It stops in the Bahamas , where sailors load 8723 tons of cargo onboard . How many tons of cargo does the ship hold now ?
+X = 5973.0 + 8723.0
+14696.0
+Diane is a beekeeper . Last year , she harvested 2479 pounds of honey . This year , she bought some new hives and increased her honey harvest by 6085 pounds . How many pounds of honey did Diane harvest this year ?
+X = 2479.0 + 6085.0
+8564.0
+An oil pipe in the sea broke . Before engineers started to fix the pipe , 6522 liters of oil leaked into the water . While the engineers worked , the pipe leaked 5165 liters of oil . In all , how many liters of oil leaked into the water ?
+X = 6522.0 + 5165.0
+11687.0
+A car company produced 3884 cars in North America and 2871 cars in Europe . How many cars is that in all ?
+X = 3884.0 + 2871.0
+6755.0
+Joan found 6 seashells and Jessica found 8 seashells on the beach . How many seashells did they find together ?
+X = 6 + 8
+14
+There are 1986 books in Oak Grove 's public library . In addition , there are 5106 books in its school libraries . How many books do the libraries in Oak Grove have overall ?
+X = 1986.0 + 5106.0
+7092.0
+There were originally 20817 houses in Lincoln County . During a housing boom , developers built 97741 . How many houses are there now in Lincoln County ?
+X = 20817.0 + 97741.0
+118558.0
+Christina just transferred $ 69 out of her bank account . As a result , the account now has $ 26935 in it . How much money was in the account before the transfer ?
+X = 69.0 + 26935.0
+27004.0
+Last year at Newberg 's airport , 14507 passengers landed on time . Unfortunately , 213 passengers landed late . In all , how many passengers landed in Newberg last year ?
+X = 14507.0 + 213.0
+14720.0
+Some insects called aphids attack a large farm . In response , the farmer releases ladybugs onto the fields . There are 12170 ladybugs with spots and 54912 ladybugs without spots . How many ladybugs are there in all ?
+X = 12170.0 + 54912.0
+67082.0
+Last year , 90171 people were born in a country , and 16320 people immigrated to it . How many new people began living in the country last year ?
+X = 90171.0 + 16320.0
+106491.0
+A ship full of grain crashes into a coral reef . By the time the ship is fixed , 49952 tons of grain have spilled into the water . Only 918 tons of grain remain onboard . How many tons of grain did the ship originally contain ?
+X = 49952.0 + 918.0
+50870.0
+To fill an order , the factory dyed 61921 yards of silk green and 49500 yards pink . How many yards of silk did it dye for that order ?
+X = 61921.0 + 49500.0
+111421.0
+Sandy grew 6 carrots . Sam grew 3 carrots . How many carrots did they grow in total ?
+X = 6 + 3
+9
+A multi-national corporation has 2041 part-time employees and 63093 full-time employees . How many employees work for the corporation ?
+X = 2041.0 + 63093.0
+65134.0
+Each year , salmon travel upstream , going from the ocean to the rivers where they were born . This year , 712261 male and 259378 female salmon returned to their rivers . How many salmon made the trip ?
+X = 712261.0 + 259378.0
+971639.0
+A bathing suit manufacturer has a supply of 14797 bathing suits for men . In addition , it has 4969 bathing suits for women . How many bathing suits are available overall ?
+X = 14797.0 + 4969.0
+19766.0
+Before the recent housing boom , there were 1426 houses in Lawrence County . Now , there are 2000 houses . How many houses did developers build during the housing boom ?
+X = 2000.0 - 1426.0
+574.0
+So far , an orchard has sold a combined total of 9792 pounds of fresh and frozen fruit this season . If they have sold 3513 pounds of frozen fruit , how many pounds of fresh fruit have been sold so far ?
+X = 9792.0 - 3513.0
+6279.0
+Recently , the value of Kate 's retirement fund decreased by $ 12 . If her fund was worth $ 1472 before , how much is it worth now ?
+X = 1472.0 - 12.0
+1460.0
+Benny picked 2 apples and Dan picked 9 apples from the apple tree . How many apples were picked in total ?
+X = 2 + 9
+11
+Students at Arcadia schools are participating in a coat drive . 9437 coats have been collected so far . 6922 coats were collected from the high schools , and the rest from the elementary schools . How many coats were collected at the elementary schools ?
+X = 9437.0 - 6922.0
+2515.0
+The Silvergrove Public Library used a grant to purchase 2647 books . Now the library has a total of 8582 books . How many books did the library have before the grant ?
+X = 8582.0 - 2647.0
+5935.0
+A cell phone company has a total of 7422 customers across the world . If 723 of its customers live in the United States , how many of its customers live in other countries ?
+X = 7422.0 - 723.0
+6699.0
+Last year , egg producers in Douglas County produced 1416 eggs . This year , those same farms produced 4636 eggs . How many more eggs did the farms produce this year ?
+X = 4636.0 - 1416.0
+3220.0
+A treasure hunter discovered a buried treasure chest filled with a total of 5155 gems . 45 of the gems were diamonds , and the rest were rubies . How many of the gems were rubies ?
+X = 5155.0 - 45.0
+5110.0
+Sally found 9 seashells , Tom found 7 seashells , and Jessica found 5 seashells on the beach . How many seashells did they find together ?
+X = 9 + 7 + 5
+21
+While playing a video game , Paul scored 3103 points . He and his cousin together have a total of 5816 points . How many points does Paul 's cousin have ?
+X = 5816.0 - 3103.0
+2713.0
+A construction company is repaving a damaged road . So far , they have repaved a total of 4938 inches of the road . Today , they repaved 805 inches of the road . How many inches of the road had they repaved before today ?
+X = 4938.0 - 805.0
+4133.0
+Milford Lake was originally blue because it only had 809 algae plants . Now there are 3263 algae plants , and the lake has turned green . How many more algae plants are in Milford Lake now ?
+X = 3263.0 - 809.0
+2454.0
+At Lindsey 's Vacation Wear , 0.375 the garments are bikinis and 0.25 are trunks . What fraction of the garments are either bikinis or trunks ?
+X = 0.375 + 0.25
+0.625
+Tim 's cat had kittens . He gave 3 to Jessica and 6 to Sara . He now has 9 kittens . How many kittens did he have to start with ?
+X = 3 + 6 + 9
+18
+The Montoya family spends 0.6 their budget on groceries and another 0.2 going out to eat . Altogether , what fraction of their budget does the Montoya family spend on food ?
+X = 0.6 + 0.2
+0.8
+Joan has 9 blue balloons , Sally has 5 blue balloons , and Jessica has 2 blue balloons . How many blue balloons do they have in total ?
+X = 9 + 5 + 2
+16
+0.5 the students in the band are in the trumpet section . 0.125 the students in the band are in the trombone section . What fraction of the students in the band are in either the trumpet section or the trombone section ?
+X = 0.5 + 0.125
+0.625
+Mary is baking a cake . The recipe wants 8 cups of flour . She already put in 2 cups . How many cups does she need to add ?
+X = 8 - 2
+6
+Melanie had 7 dimes in her bank . Her dad gave her 8 dimes and her mother gave her 4 dimes . How many dimes does Melanie have now ?
+X = 7 + 8 + 4
+19
+At the hardware store , 0.25 the nails are size 2d and 0.5 the nails are size 4d . What fraction of the nails are either size 2d or 4d ?
+X = 0.25 + 0.5
+0.75
+Melanie picked 4 plums , Dan picked 9 plums , and Sally picked 3 plums from the plum tree . How many plums were picked in total ?
+X = 4 + 9 + 3
+16
+There are 7 dogwood trees currently in the park . Park workers will plant 3 dogwood trees today and 2 dogwood trees tomorrow . How many dogwood trees will the park have when the workers are finished ?
+X = 7 + 3 + 2
+12
+Dale 's Vegetarian Restaurant bought 2.8333333333333335 pounds of green peppers and 2.8333333333333335 pounds of red peppers . How many pounds of peppers did Dale 's Vegetarian Restaurant buy in all ?
+X = 2.8333333333333335 + 2.8333333333333335
+5.666666666666667
+Roadster 's Paving Company used 10 tons of cement to pave Lexi 's street and 5.1 tons of cement to pave Tess 's street . How much cement did Roadster 's Paving Company use in all ?
+X = 10.0 + 5.1
+15.1
+On a hot day , Sam poured 1 bucket of water into a plastic wading pool . A few minutes later he added another 8.8 buckets . How much water did Sam pour into the pool ?
+X = 1.0 + 8.8
+9.8
+Sara grew 4 onions , Sally grew 5 onions , and Fred grew 9 onions . How many onions did they grow in all ?
+X = 4 + 5 + 9
+18
+Kyle jogged 1.125 laps in P.E. class and 2.125 laps during track practice . How many laps did Kyle jog in all ?
+X = 1.125 + 2.125
+3.25
+A bucket contains 3 gallons of water . If Derek adds 6.8 gallons more , how many gallons will there be in all ?
+X = 3.0 + 6.8
+9.8
+As part of a lesson on earthquakes , a science class is researching the movement of a nearby fault line . The fault line moved 1.25 inches during the past year and 5.25 inches the year before . How far did the fault line move in all ?
+X = 1.25 + 5.25
+6.5
+There are 7.75 gallons of water in Becky 's fish tank . If Becky adds 7 gallons more , how many gallons will there be in all ?
+X = 7.75 + 7.0
+14.75
+Terrell hiked 8.2 miles on Saturday . Then , on Sunday , he hiked another 1.6 miles . How far did Terrell hike all together ?
+X = 8.2 + 1.6
+9.8
+Kelly bought 0.1 pounds of peanuts and 0.4 pounds of raisins . How many pounds of snacks did she buy in all ?
+X = 0.1 + 0.4
+0.5
+Sam found 18 seashells and Mary found 47 seashells on the beach . How many seashells did they find together ?
+X = 18 + 47
+65
+A bee colony produced 0.36 pounds of honey , but bears ate 0.05 pounds of it . How much honey remains ?
+X = 0.36 - 0.05
+0.31
+It snowed 0.32 inches on Monday and 0.21 inches on Tuesday . How much did it snow on Monday and Tuesday combined ?
+X = 0.32 = 0.21
+0.53
+It rained 0.2 inches on Saturday and 0.4 inches on Sunday . How much did it rain on Saturday and Sunday combined ?
+X = 0.2 + 0.4
+0.6
+A chef bought 0.14 kilograms of almonds and 0.38 kilograms of pecans . How many kilograms of nuts did the chef buy in all ?
+X = 0.14 + 0.38
+0.52
+Tori was 4.4 feet tall . Then she grew 2.86 feet taller . How tall is Tori now ?
+X = 4.4 + 2.86
+7.26
+Sara picked 45 pears and Sally picked 11 pears from the pear tree . How many pears were picked in total ?
+X = 45 + 11
+56
+Sara 's high school played 12 basketball games this year . The team won most of their games . They were defeated during 4 games . How many games did they win ?
+X = 12 - 4
+8
+Keith has 20 books . Jason has 21 books . How many books do they have together ?
+X = 20 + 21
+41
+Jason had 49 quarters in his bank . His dad gave him 25 quarters . How many quarters does he have now ?
+X = 49 + 25
+74
+Dan spent $ 11.76 on a snake toy , and a cage cost him $ 14.54 . Dan also found a dollar bill on the ground . What was the total cost of Dan 's purchases ?
+X = 11.76 + 14.54
+26.3
+There are 33 walnut trees currently in the park . Park workers will plant 44 walnut trees today . How many walnut trees will the park have when the workers are finished ?
+X = 33 + 44
+77
+There are 22 walnut trees currently in the park . Park workers will plant walnut trees today . When the workers are finished there will be 55 walnut trees in the park . How many walnut trees did the workers plant today ?
+X = 55 - 22
+33
+Sara had 21 quarters in her bank . Her dad gave her 49 quarters . How many quarters does she have now ?
+X = 21 + 49
+70
+There are 41 pencils in the drawer . Mike placed 30 pencils in the drawer . How many pencils are now there in total ?
+X = 41 + 30
+71
+Joan has 10 books . Tom has 38 books . How many books do they have together ?
+X = 10 + 38
+48
+Fred grew 38 cantelopes . Tim grew 44 cantelopes . How many cantelopes did they grow in total ?
+X = 38 + 44
+82
+Sam went to 14 football games this year . He went to 29 games last year . How many football games did Sam go to in all ?
+X = 14 + 29
+43
+Mary found 18 seashells and Jessica found 41 seashells on the beach . How many seashells did they find together ?
+X = 18 + 41
+59
+There are 39 dogwood trees currently in the park . Park workers will plant 41 dogwood trees today and 20 dogwood trees tomorrow . How many dogwood trees will the park have when the workers are finished ?
+X = 39 + 41 + 20
+100
+Sandy has 10 books , Benny has 24 books , and Tim has 33 books . How many books do they have together ?
+X = 10 + 24 + 33
+67
+Jason picked 46 pears , Keith picked 47 pears , and Mike picked 12 pears from the pear tree . How many pears were picked in total ?
+X = 46 + 47 + 12
+105
+Keith grew 29 cantelopes , Fred grew 16 cantelopes , and Jason grew 20 cantelopes . How many cantelopes did they grow in total ?
+X = 29 + 16 + 20
+65
+Melanie had 19 dimes in her bank . Her dad gave her 39 dimes and her mother gave her 25 dimes . How many dimes does Melanie have now ?
+X = 19 + 39 + 25
+83
+Alyssa has 37 blue balloons , Sandy has 28 blue balloons , and Sally has 39 blue balloons . How many blue balloons do they have in all ?
+X = 37 + 28 + 39
+104
+Sally had 27 Pokemon cards . Dan gave her 41 new Pokemon cards . Sally bought 20 Pokemon cards . How many Pokemon cards does Sally have now ?
+X = 27 + 41 + 20
+88
+Jason went to 11 football games this month . He went to 17 games last month , and plans to go to 16 games next month . How many games will he attend in all ?
+X = 11 + 17 + 16
+44
+There are 43 pencils in the drawer and 19 pencils on the desk . Dan placed 16 pencils on the desk . How many pencils are now there in total ?
+X = 43 + 19 + 16
+78
+There are 53 maple trees currently in the park . Park workers will plant maple trees today . When the workers are finished there will be 64 maple trees in the park . How many maple trees did the workers plant today ?
+53 + X = 64
+11
+There were 6 roses in the vase . Mary cut some roses from her flower garden . There are now 16 roses in the vase . How many roses did she cut ?
+X = 16 - 6
+10
+There were 3 roses in the vase . Alyssa cut some roses from her flower garden . There are now 14 roses in the vase . How many roses did she cut ?
+3 + X = 14
+11
+There were 73 bales of hay in the barn . Jason stacked bales in the barn today . There are now 96 bales of hay in the barn . How many bales did he store in the barn ?
+73 + X = 96
+23
+Nancy grew 6 potatoes . Sandy grew 7 potatoes . How many potatoes did they grow in total ?
+X = 6 + 7
+13
+There are 9 crayons in the drawer . Benny placed 3 crayons in the drawer . How many crayons are now there in total ?
+X = 9 + 3
+12
+There are 5 oak trees currently in the park . Park workers will plant 4 oak trees today . How many oak trees will the park have when the workers are finished ?
+X = 5 + 4
+9
+Tom found 7 seashells but 4 were broken . How many unbroken seashells did Tom find ?
+X = 7 - 4
+3
+Sally picked 7 lemons and Mary picked 9 lemons from the lemon tree . How many lemons were picked in total ?
+X = 7 + 9
+16
+Joan went to 4 football games this year . She went to 9 games last year . How many football games did Joan go to in all ?
+X = 4 + 9
+13
+Fred had 7 dimes in his bank . His sister borrowed 3 of his dimes . How many dimes does Fred have now ?
+X = 7 - 3
+4
+Joan 's cat had 8 kittens . She gave 2 to her friends . How many kittens does she have now ?
+X = 8 - 2
+6
+There are 34 dogwood trees currently in the park . Park workers will plant 49 dogwood trees today . How many dogwood trees will the park have when the workers are finished ?
+X = 34 + 49
+83
+There are 27 pencils in the drawer . Nancy placed 45 pencils in the drawer . How many pencils are now there in total ?
+X = 27 + 45
+72
+Sam found 35 seashells on the beach , he gave Joan 18 of the seashells . How many seashells does he now have ?
+X = 35 - 18
+17
+Tim has 22 books . Mike has 20 books . How many books do they have together ?
+X = 22 + 20
+42
+Mike has 87 baseball cards . Sam bought 13 of Mike 's baseball cards . How many baseball cards does Mike have now ?
+X = 87 - 13
+74
+Sandy grew 51 pumpkins . Mike grew 23 pumpkins . How many pumpkins did they grow in total ?
+X = 51 + 23
+74
+Tim has 44 books . Sam has 52 books . How many books do they have together ?
+X = 44 + 52
+96
+Tom has 9 yellow balloons Sara has 8 yellow balloons . How many yellow balloons do they have in total ?
+X = 9 + 8
+17
+There are 25 popular trees currently in the park . Park workers will plant 73 popular trees today . How many popular trees will the park have when the workers are finished ?
+X = 25 + 73
+98
+There are 54 scissors in the drawer . Keith placed 22 scissors in the drawer . How many scissors are now there in all ?
+X = 54 + 22
+76
+Alyssa picked 42 pears and Nancy picked 17 pears from the pear tree . How many pears were picked in all ?
+X = 42 + 17
+59
+Sam had 98 pennies in his bank . He spent 93 of his pennies . How many pennies does he have now ?
+X = 98 - 93
+5
+Joan found 79 seashells on the beach , she gave Mike 63 of the seashells . How many seashells does she now have ?
+X = 79 - 63
+16
+Sam has 110 books . Joan has 102 books . How many books do they have together ?
+X = 110 + 102
+212
+Mary picked 122 oranges and Jason picked 105 oranges from the orange tree . How many oranges were picked in total ?
+X = 122 + 105
+227
+Sally had 760 quarters in her bank . She spent 418 of her quarters . How many quarters does she have now ?
+X = 760 - 418
+342
+Melanie grew 139 turnips . Benny grew 113 turnips . How many turnips did they grow in all ?
+X = 139 + 113
+252
+There are 4 walnut trees currently in the park . Park workers will plant 6 walnut trees today . How many walnut trees will the park have when the workers are finished ?
+X = 4 + 6
+10
+Jason has 676 Pokemon cards . Alyssa bought 224 of Jason 's Pokemon cards . How many Pokemon cards does Jason have now ?
+X = 676 - 224
+452
+There are 107 walnut trees currently in the park . Park workers will plant 104 walnut trees today . How many walnut trees will the park have when the workers are finished ?
+X = 107 + 104
+211
+There are 115 pencils in the drawer . Sara placed 100 pencils in the drawer . How many pencils are now there in all ?
+X = 115 + 100
+215
+Jason has 3 Pokemon cards . Benny bought 2 of Jason 's Pokemon cards . How many Pokemon cards does Jason have now ?
+X = 3 - 2
+1
+Joan had 5 dimes in her bank . She spent 2 of her dimes . How many dimes does she have now ?
+X = 5 - 2
+3
+There are 2 orchid bushes currently in the park . Park workers will plant 4 orchid bushes today . How many orchid bushes will the park have when the workers are finished ?
+X = 2 + 4
+6
+Sara picked 6 pears and Tim picked 5 pears from the pear tree . How many pears were picked in total ?
+X = 6 + 5
+11
+Sam grew 4 watermelons , but the rabbits ate 3 watermelons . How many watermelons does Sam have ?
+X = 4 - 3
+1

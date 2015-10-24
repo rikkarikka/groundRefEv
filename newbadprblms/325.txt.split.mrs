@@ -1,0 +1,72 @@
+SENT: Keith spent $ 6.51 on a rabbit toy , $ 5.79 on pet food , and a cage cost him $ 12.51 .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg IND: + ] RSTR: h6 BODY: h7 ]
+ [ named_rel<0:5> LBL: h8 CARG: "Keith" ARG0: x5 ]
+ [ "_spend_v_1_rel"<6:11> LBL: h10 ARG0: e11 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x5 ARG2: x12 [ x PERS: 3 NUM: pl IND: + ] ARG3: h13 ]
+ [ udef_q_rel<12:18> LBL: h14 ARG0: x12 RSTR: h15 BODY: h16 ]
+ [ "_dollar_n_1_rel"<12:13> LBL: h17 ARG0: x12 ]
+ [ card_rel<14:18> LBL: h17 CARG: "6.51" ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x12 ]
+ [ _on_p_rel<19:21> LBL: h20 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x12 ARG2: x22 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<22:23> LBL: h23 ARG0: x22 RSTR: h24 BODY: h25 ]
+ [ compound_rel<24:36> LBL: h26 ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x22 ARG2: x28 [ x IND: + ] ]
+ [ udef_q_rel<24:30> LBL: h29 ARG0: x28 RSTR: h30 BODY: h31 ]
+ [ "_rabbit_n_1_rel"<24:30> LBL: h32 ARG0: x28 ]
+ [ "_toy_n_1_rel"<31:36> LBL: h26 ARG0: x22 ]
+ [ loc_nonsp_rel<37:57> LBL: h10 ARG0: e33 [ e SF: prop ] ARG1: e11 ARG2: x34 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<37:57> LBL: h35 ARG0: x34 RSTR: h36 BODY: h37 ]
+ [ "_dollar_n_1_rel"<37:38> LBL: h38 ARG0: x34 ]
+ [ card_rel<39:43> LBL: h38 CARG: "5.79" ARG0: e40 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x34 ]
+ [ _on_p_rel<44:46> LBL: h38 ARG0: e41 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x34 ARG2: x42 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<47:57> LBL: h43 ARG0: x42 RSTR: h44 BODY: h45 ]
+ [ compound_rel<47:57> LBL: h46 ARG0: e47 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x42 ARG2: x48 [ x IND: + ] ]
+ [ udef_q_rel<47:50> LBL: h49 ARG0: x48 RSTR: h50 BODY: h51 ]
+ [ "_pet_n_1_rel"<47:50> LBL: h52 ARG0: x48 ]
+ [ "_food_n_1_rel"<51:57> LBL: h46 ARG0: x42 ]
+ [ _and_c_rel<58:61> LBL: h1 ARG0: e2 L-INDEX: e11 R-INDEX: e53 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h54 R-HNDL: h55 ]
+ [ _a_q_rel<62:63> LBL: h56 ARG0: x57 [ x PERS: 3 NUM: sg IND: + ] RSTR: h58 BODY: h59 ]
+ [ "_cage_n_1_rel"<64:68> LBL: h60 ARG0: x57 ]
+ [ "_cost_v_1_rel"<69:73> LBL: h61 ARG0: e53 ARG1: x57 ARG2: x62 [ x PERS: 3 NUM: pl IND: + ] ARG3: x63 [ x PERS: 3 NUM: sg GEND: m PRONTYPE: std_pron ] ]
+ [ pron_rel<74:77> LBL: h64 ARG0: x63 ]
+ [ pronoun_q_rel<74:77> LBL: h65 ARG0: x63 RSTR: h66 BODY: h67 ]
+ [ udef_q_rel<78:87> LBL: h68 ARG0: x62 RSTR: h69 BODY: h70 ]
+ [ "_dollar_n_1_rel"<78:79> LBL: h71 ARG0: x62 ]
+ [ card_rel<80:87> LBL: h71 CARG: "12.51" ARG0: e73 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x62 ] >
+HCONS: < h0 qeq h1 h54 qeq h10 h6 qeq h8 h13 qeq h20 h15 qeq h17 h24 qeq h26 h30 qeq h32 h36 qeq h38 h44 qeq h46 h50 qeq h52 h55 qeq h61 h58 qeq h60 h66 qeq h64 h69 qeq h71 > ]
+
+
+SENT: He found a dollar bill on the ground .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:2> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<0:2> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_find_v_1_rel"<3:8> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<9:10> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ compound_rel<11:22> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: x14 [ x IND: + ] ]
+ [ udef_q_rel<11:17> LBL: h15 ARG0: x14 RSTR: h16 BODY: h17 ]
+ [ "_dollar_n_1_rel"<11:17> LBL: h18 ARG0: x14 ]
+ [ "_bill_n_of_rel"<18:22> LBL: h12 ARG0: x8 ARG1: i19 ]
+ [ _on_p_rel<23:25> LBL: h12 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x8 ARG2: x21 [ x PERS: 3 NUM: sg ] ]
+ [ _the_q_rel<26:29> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ "_ground_n_1_rel"<30:38> LBL: h25 ARG0: x21 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h10 qeq h12 h16 qeq h18 h23 qeq h25 > ]
+
+
+SENT: What was the total cost of Keith 's purchases ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ thing_rel<0:4> LBL: h4 ARG0: x5 ]
+ [ which_q_rel<0:4> LBL: h6 ARG0: x5 RSTR: h7 BODY: h8 ]
+ [ _be_v_id_rel<5:8> LBL: h1 ARG0: e2 ARG1: x3 [ x PERS: 3 NUM: sg ] ARG2: x5 ]
+ [ _the_q_rel<9:12> LBL: h9 ARG0: x3 RSTR: h10 BODY: h11 ]
+ [ "_total_a_1_rel"<13:18> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ]
+ [ "_cost_n_1_rel"<19:23> LBL: h12 ARG0: x3 ]
+ [ _of_p_rel<24:26> LBL: h12 ARG0: e14 [ e SF: prop ] ARG1: x3 ARG2: x15 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ proper_q_rel<27:32> LBL: h16 ARG0: x17 [ x PERS: 3 NUM: sg IND: + ] RSTR: h18 BODY: h19 ]
+ [ named_rel<27:32> LBL: h20 CARG: "Keith" ARG0: x17 ]
+ [ def_explicit_q_rel<33:35> LBL: h22 ARG0: x15 RSTR: h23 BODY: h24 ]
+ [ poss_rel<33:35> LBL: h25 ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x15 ARG2: x17 ]
+ [ "_purchase_n_of_rel"<36:47> LBL: h25 ARG0: x15 ARG1: i27 ] >
+HCONS: < h0 qeq h1 h7 qeq h4 h10 qeq h12 h18 qeq h20 h23 qeq h25 > ]
+
+

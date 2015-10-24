@@ -1,0 +1,36 @@
+SENT: A pet supply store has 600 bags of dog food and 327 bags of cat food.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _a_q_rel<0:1> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ compound_rel<2:18> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 ]
+ [ udef_q_rel<2:12> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ compound_rel<2:12> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x9 ARG2: x15 [ x IND: + ] ]
+ [ udef_q_rel<2:5> LBL: h16 ARG0: x15 RSTR: h17 BODY: h18 ]
+ [ "_pet_n_1_rel"<2:5> LBL: h19 ARG0: x15 ]
+ [ "_supply_n_1_rel"<6:12> LBL: h13 ARG0: x9 ]
+ [ "_store_n_1_rel"<13:18> LBL: h7 ARG0: x3 ]
+ [ "_have_v_1_rel"<19:22> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x20 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<23:69> LBL: h21 ARG0: x20 RSTR: h22 BODY: h23 ]
+ [ udef_q_rel<23:26> LBL: h24 ARG0: x25 [ x PERS: 3 NUM: pl IND: + ] RSTR: h26 BODY: h27 ]
+ [ card_rel<23:26> LBL: h28 CARG: "600" ARG0: e30 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x25 ]
+ [ "_bag_n_of_rel"<27:31> LBL: h28 ARG0: x25 ARG1: x31 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<35:43> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ compound_rel<35:43> LBL: h35 ARG0: e36 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x31 ARG2: x37 [ x IND: + ] ]
+ [ udef_q_rel<35:38> LBL: h38 ARG0: x37 RSTR: h39 BODY: h40 ]
+ [ "_dog_n_1_rel"<35:38> LBL: h41 ARG0: x37 ]
+ [ "_food_n_1_rel"<39:43> LBL: h35 ARG0: x31 ]
+ [ _and_c_rel<44:47> LBL: h42 ARG0: x20 L-INDEX: x25 R-INDEX: x43 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<48:51> LBL: h44 ARG0: x43 RSTR: h45 BODY: h46 ]
+ [ card_rel<48:51> LBL: h47 CARG: "327" ARG0: e49 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x43 ]
+ [ "_bag_n_of_rel"<52:56> LBL: h47 ARG0: x43 ARG1: x50 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<60:69> LBL: h51 ARG0: x50 RSTR: h52 BODY: h53 ]
+ [ compound_rel<60:69> LBL: h54 ARG0: e55 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x50 ARG2: x56 [ x IND: + ] ]
+ [ udef_q_rel<60:63> LBL: h57 ARG0: x56 RSTR: h58 BODY: h59 ]
+ [ "_cat_n_1_rel"<60:63> LBL: h60 ARG0: x56 ]
+ [ "_food_n_1_rel"<64:69> LBL: h54 ARG0: x50 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h17 qeq h19 h22 qeq h42 h26 qeq h28 h33 qeq h35 h39 qeq h41 h45 qeq h47 h52 qeq h54 h58 qeq h60 > ]
+
+
+SKIP: How many more bags of dog food are there than cat food?
+
+

@@ -1,0 +1,40 @@
+SENT: Kelly has 121 Nintendo games.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:5> LBL: h7 CARG: "Kelly" ARG0: x3 ]
+ [ "_have_v_1_rel"<6:9> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<10:13> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<10:13> LBL: h13 CARG: "121" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ compound_rel<14:29> LBL: h13 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x9 ARG2: x17 [ x IND: + ] ]
+ [ proper_q_rel<14:22> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ named_rel<14:22> LBL: h21 CARG: "Nintendo" ARG0: x17 ]
+ [ "_game_n_1_rel"<23:29> LBL: h13 ARG0: x9 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h19 qeq h21 > ]
+
+
+SENT: How many does Kelly need to give away so that Kelly will have 22 games left?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ generic_entity_rel<0:8> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<0:8> LBL: h6 ARG0: x5 RSTR: h7 BODY: h8 ]
+ [ abstr_deg_rel<0:3> LBL: h9 ARG0: i10 ]
+ [ which_q_rel<0:3> LBL: h11 ARG0: i10 RSTR: h12 BODY: h13 ]
+ [ measure_rel<0:3> LBL: h4 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop ] ARG2: i10 ]
+ [ much-many_a_rel<4:8> LBL: h4 ARG0: e15 ARG1: x5 ]
+ [ proper_q_rel<14:19> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h17 BODY: h18 ]
+ [ named_rel<14:19> LBL: h19 CARG: "Kelly" ARG0: x3 ]
+ [ "_need_v_1_rel"<20:24> LBL: h21 ARG0: e2 ARG1: x3 ARG2: h22 ]
+ [ "_give_v_away_rel"<28:32> LBL: h23 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x5 ]
+ [ "_so+that_x_rel"<38:45> LBL: h1 ARG0: e25 [ e SF: ques TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h26 ARG2: h27 ]
+ [ proper_q_rel<46:51> LBL: h28 ARG0: x29 [ x PERS: 3 NUM: sg IND: + ] RSTR: h30 BODY: h31 ]
+ [ named_rel<46:51> LBL: h32 CARG: "Kelly" ARG0: x29 ]
+ [ "_have_v_prd_rel"<57:61> LBL: h34 ARG0: e35 [ e SF: prop TENSE: fut MOOD: indicative PROG: - PERF: - ] ARG1: x29 ARG2: x36 [ x PERS: 3 NUM: pl IND: + ] ARG3: h37 ]
+ [ udef_q_rel<62:64> LBL: h38 ARG0: x36 RSTR: h39 BODY: h40 ]
+ [ card_rel<62:64> LBL: h41 CARG: "22" ARG0: e43 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x36 ]
+ [ "_game_n_1_rel"<65:70> LBL: h41 ARG0: x36 ]
+ [ "_leave_v_1_rel"<71:76> LBL: h44 ARG0: e45 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: i46 ARG2: x36 ]
+ [ parg_d_rel<71:76> LBL: h44 ARG0: e47 [ e SF: prop ] ARG1: e45 ARG2: x36 ] >
+HCONS: < h0 qeq h1 h7 qeq h4 h12 qeq h9 h17 qeq h19 h22 qeq h23 h26 qeq h21 h27 qeq h34 h30 qeq h32 h37 qeq h44 h39 qeq h41 > ]
+
+

@@ -1,0 +1,58 @@
+SENT: Lewis then went to see the oranges being harvested.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:5> LBL: h7 CARG: "Lewis" ARG0: x3 ]
+ [ "_then_a_1_rel"<6:10> LBL: h1 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ]
+ [ "_go_v_1_rel"<11:15> LBL: h10 ARG0: e2 ARG1: x3 ]
+ [ "_in+order+to_x_rel"<16:18> LBL: h1 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h12 ARG2: h13 ]
+ [ "_see_v_1_rel"<19:22> LBL: h14 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x16 [ x PERS: 3 NUM: pl ] ]
+ [ _the_q_rel<23:26> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_orange_n_1_rel"<27:34> LBL: h20 ARG0: x16 ]
+ [ "_harvest_v_1_rel"<41:51> LBL: h20 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative PROG: + PERF: - ] ARG1: i22 ARG2: x16 ]
+ [ parg_d_rel<41:51> LBL: h20 ARG0: e23 [ e SF: prop ] ARG1: e21 ARG2: x16 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h12 qeq h10 h13 qeq h14 h18 qeq h20 > ]
+
+
+SENT: Lewis found out that they harvest 83 sacks per day.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:5> LBL: h7 CARG: "Lewis" ARG0: x3 ]
+ [ "_find_v_out_rel"<6:11> LBL: h1 ARG0: e2 ARG1: x3 ARG2: h9 ]
+ [ pron_rel<21:25> LBL: h10 ARG0: x11 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<21:25> LBL: h12 ARG0: x11 RSTR: h13 BODY: h14 ]
+ [ "_harvest_v_1_rel"<26:33> LBL: h15 ARG0: e16 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x11 ARG2: x17 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<34:36> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ card_rel<34:36> LBL: h21 CARG: "83" ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x17 ]
+ [ "_sack_n_1_rel"<37:42> LBL: h21 ARG0: x17 ]
+ [ _per_p_rel<43:46> LBL: h21 ARG0: e24 [ e SF: prop ] ARG1: x17 ARG2: x25 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<43:46> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
+ [ "_day_n_of_rel"<47:51> LBL: h29 ARG0: x25 ARG1: i30 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h9 qeq h15 h13 qeq h10 h19 qeq h21 h27 qeq h29 > ]
+
+
+SENT: How many sacks of oranges will they have after 6 days of harvest?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: fut MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:25> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_sack_n_1_rel"<9:14> LBL: h13 ARG0: x5 ]
+ [ _of_p_rel<15:17> LBL: h13 ARG0: e16 [ e SF: prop ] ARG1: x5 ARG2: x17 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<18:25> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ "_orange_n_1_rel"<18:25> LBL: h21 ARG0: x17 ]
+ [ pron_rel<31:35> LBL: h22 ARG0: x3 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<31:35> LBL: h23 ARG0: x3 RSTR: h24 BODY: h25 ]
+ [ "_have_v_prd_rel"<36:40> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ARG3: h26 ]
+ [ _after_p_rel<41:46> LBL: h27 ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x5 ARG2: x29 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<47:48> LBL: h30 ARG0: x29 RSTR: h31 BODY: h32 ]
+ [ card_rel<47:48> LBL: h33 CARG: "6" ARG0: e35 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x29 ]
+ [ "_day_n_of_rel"<49:53> LBL: h33 ARG0: x29 ARG1: x36 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<57:65> LBL: h37 ARG0: x36 RSTR: h38 BODY: h39 ]
+ [ "_harvest_n_1_rel"<57:65> LBL: h40 ARG0: x36 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h19 qeq h21 h24 qeq h22 h26 qeq h27 h31 qeq h33 h38 qeq h40 > ]
+
+

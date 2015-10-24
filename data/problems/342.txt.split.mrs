@@ -1,0 +1,71 @@
+SENT: Ellen made smoothies in the blender.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:5> LBL: h7 CARG: "Ellen" ARG0: x3 ]
+ [ "_make_v_1_rel"<6:10> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl ] ARG3: u10 ]
+ [ udef_q_rel<11:36> LBL: h11 ARG0: x9 RSTR: h12 BODY: h13 ]
+ [ "_smoothies/NNS_u_unknown_rel"<11:20> LBL: h14 ARG0: x9 ]
+ [ _in_p_rel<21:23> LBL: h14 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ARG2: x16 [ x PERS: 3 NUM: sg ] ]
+ [ _the_q_rel<24:27> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_blender/NN_u_unknown_rel"<28:36> LBL: h20 ARG0: x16 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h12 qeq h14 h18 qeq h20 > ]
+
+
+SENT: She used 0.2 of a cup of strawberries, 0.1 of a cup of yogurt, and 0.2 of a cup of orange juice.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_use_v_1_rel"<4:8> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<9:12> LBL: h9 ARG0: x8 ARG1: x10 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<9:12> LBL: h11 ARG0: x8 RSTR: h12 BODY: h13 ]
+ [ card_rel<9:12> LBL: h9 CARG: "0.2" ARG0: e15 [ e SF: prop ] ARG1: x8 ]
+ [ _a_q_rel<16:17> LBL: h16 ARG0: x10 RSTR: h17 BODY: h18 ]
+ [ "_cup_n_of_rel"<18:21> LBL: h19 ARG0: x10 ARG1: x20 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<25:96> LBL: h21 ARG0: x20 RSTR: h22 BODY: h23 ]
+ [ udef_q_rel<25:38> LBL: h24 ARG0: x25 [ x PERS: 3 NUM: pl ] RSTR: h26 BODY: h27 ]
+ [ "_strawberry_n_1_rel"<25:38> LBL: h28 ARG0: x25 ]
+ [ udef_q_rel<39:96> LBL: h29 ARG0: x30 [ x PERS: 3 NUM: pl ] RSTR: h31 BODY: h32 ]
+ [ implicit_conj_rel<39:96> LBL: h33 ARG0: x20 L-INDEX: x25 R-INDEX: x30 ]
+ [ part_of_rel<39:42> LBL: h34 ARG0: x35 [ x PERS: 3 NUM: pl ] ARG1: x36 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<39:42> LBL: h37 ARG0: x35 RSTR: h38 BODY: h39 ]
+ [ card_rel<39:42> LBL: h34 CARG: "0.1" ARG0: e41 [ e SF: prop ] ARG1: x35 ]
+ [ _a_q_rel<46:47> LBL: h42 ARG0: x36 RSTR: h43 BODY: h44 ]
+ [ "_cup_n_of_rel"<48:51> LBL: h45 ARG0: x36 ARG1: x46 [ x PERS: 3 NUM: sg GEND: n IND: - ] ]
+ [ udef_q_rel<55:62> LBL: h47 ARG0: x46 RSTR: h48 BODY: h49 ]
+ [ "_yogurt_n_1_rel"<55:62> LBL: h50 ARG0: x46 ]
+ [ _and_c_rel<63:66> LBL: h51 ARG0: x30 L-INDEX: x35 R-INDEX: x52 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<67:70> LBL: h53 ARG0: x52 ARG1: x54 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<67:70> LBL: h55 ARG0: x52 RSTR: h56 BODY: h57 ]
+ [ card_rel<67:70> LBL: h53 CARG: "0.2" ARG0: e59 [ e SF: prop ] ARG1: x52 ]
+ [ _a_q_rel<74:75> LBL: h60 ARG0: x54 RSTR: h61 BODY: h62 ]
+ [ "_cup_n_of_rel"<76:79> LBL: h63 ARG0: x54 ARG1: x64 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<83:96> LBL: h65 ARG0: x64 RSTR: h66 BODY: h67 ]
+ [ compound_rel<83:96> LBL: h68 ARG0: e69 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x64 ARG2: x70 ]
+ [ udef_q_rel<83:89> LBL: h71 ARG0: x70 RSTR: h72 BODY: h73 ]
+ [ "_orange_n_1_rel"<83:89> LBL: h74 ARG0: x70 ]
+ [ "_juice_n_1_rel"<90:96> LBL: h68 ARG0: x64 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h12 qeq h9 h17 qeq h19 h22 qeq h33 h26 qeq h28 h31 qeq h51 h38 qeq h34 h43 qeq h45 h48 qeq h50 h56 qeq h53 h61 qeq h63 h66 qeq h68 h72 qeq h74 > ]
+
+
+SENT: How many cups of ingredients did Ellen use for the smoothies?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:28> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_cup_n_of_rel"<9:13> LBL: h13 ARG0: x5 ARG1: x16 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<17:28> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_ingredient_n_1_rel"<17:28> LBL: h20 ARG0: x16 ]
+ [ proper_q_rel<33:38> LBL: h21 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h22 BODY: h23 ]
+ [ named_rel<33:38> LBL: h24 CARG: "Ellen" ARG0: x3 ]
+ [ "_use_v_1_rel"<39:42> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ _for_p_rel<43:46> LBL: h1 ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x27 [ x PERS: 3 NUM: pl ] ]
+ [ _the_q_rel<47:50> LBL: h28 ARG0: x27 RSTR: h29 BODY: h30 ]
+ [ "_smoothies/NNS_u_unknown_rel"<51:61> LBL: h31 ARG0: x27 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h20 h22 qeq h24 h29 qeq h31 > ]
+
+

@@ -1,0 +1,51 @@
+SENT: Marta picked 2 pumpkins .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:5> LBL: h7 CARG: "Marta" ARG0: x3 ]
+ [ "_pick_v_1_rel"<6:12> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<13:14> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<13:14> LBL: h13 CARG: "2" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_pumpkin_n_1_rel"<15:25> LBL: h13 ARG0: x9 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
+
+
+SENT: The first pumpkin weighed 4 pounds , and the second pumpkin weighed 8.7 pounds .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg ] RSTR: h6 BODY: h7 ]
+ [ ord_rel<4:9> LBL: h8 CARG: "1" ARG0: e10 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x5 ]
+ [ "_pumpkin_n_1_rel"<10:17> LBL: h8 ARG0: x5 ]
+ [ "_weigh_v_1_rel"<18:25> LBL: h11 ARG0: e12 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x5 ARG2: x13 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<26:36> LBL: h14 ARG0: x13 RSTR: h15 BODY: h16 ]
+ [ card_rel<26:27> LBL: h17 CARG: "4" ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x13 ]
+ [ "_pound_n_1_rel"<28:36> LBL: h17 ARG0: x13 ]
+ [ _and_c_rel<37:40> LBL: h1 ARG0: e2 L-INDEX: e12 R-INDEX: e20 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h21 R-HNDL: h22 ]
+ [ _the_q_rel<41:44> LBL: h23 ARG0: x24 [ x PERS: 3 NUM: sg ] RSTR: h25 BODY: h26 ]
+ [ ord_rel<45:51> LBL: h27 CARG: "2" ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x24 ]
+ [ "_pumpkin_n_1_rel"<52:59> LBL: h27 ARG0: x24 ]
+ [ "_weigh_v_1_rel"<60:67> LBL: h30 ARG0: e20 ARG1: x24 ARG2: x31 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<68:80> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ card_rel<68:71> LBL: h35 CARG: "8.7" ARG0: e37 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x31 ]
+ [ "_pound_n_1_rel"<72:80> LBL: h35 ARG0: x31 ] >
+HCONS: < h0 qeq h1 h21 qeq h11 h6 qeq h8 h15 qeq h17 h22 qeq h30 h25 qeq h27 h33 qeq h35 > ]
+
+
+SENT: How much did the 2 pumpkins weigh all together ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ generic_entity_rel<0:8> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<0:8> LBL: h6 ARG0: x5 RSTR: h7 BODY: h8 ]
+ [ abstr_deg_rel<0:3> LBL: h9 ARG0: i10 ]
+ [ which_q_rel<0:3> LBL: h11 ARG0: i10 RSTR: h12 BODY: h13 ]
+ [ measure_rel<0:3> LBL: h4 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop ] ARG2: i10 ]
+ [ much-many_a_rel<4:8> LBL: h4 ARG0: e15 ARG1: x5 ]
+ [ _the_q_rel<13:16> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: pl ] RSTR: h17 BODY: h18 ]
+ [ card_rel<17:18> LBL: h19 CARG: "2" ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ]
+ [ "_pumpkin_n_1_rel"<19:27> LBL: h19 ARG0: x3 ]
+ [ "_weigh_v_1_rel"<28:33> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ "_all_x_deg_rel"<34:37> LBL: h1 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e23 [ e SF: prop ] ]
+ [ _together_p_rel<38:48> LBL: h1 ARG0: e23 ARG1: e2 ] >
+HCONS: < h0 qeq h1 h7 qeq h4 h12 qeq h9 h17 qeq h19 > ]
+
+

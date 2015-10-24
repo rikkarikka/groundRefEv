@@ -1,0 +1,47 @@
+SENT: Dan grew 42 turnips and 38 cantelopes.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:3> LBL: h7 CARG: "Dan" ARG0: x3 ]
+ [ "_grow_v_cause_rel"<4:8> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<9:38> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ udef_q_rel<9:11> LBL: h13 ARG0: x14 [ x PERS: 3 NUM: pl IND: + ] RSTR: h15 BODY: h16 ]
+ [ card_rel<9:11> LBL: h17 CARG: "42" ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x14 ]
+ [ "_turnip_n_1_rel"<12:19> LBL: h17 ARG0: x14 ]
+ [ _and_c_rel<20:23> LBL: h20 ARG0: x9 L-INDEX: x14 R-INDEX: x21 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<24:26> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ card_rel<24:26> LBL: h25 CARG: "38" ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x21 ]
+ [ "_cantelopes/NNS_u_unknown_rel"<27:38> LBL: h25 ARG0: x21 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h20 h15 qeq h17 h23 qeq h25 > ]
+
+
+SENT: Jessica grew 47 turnips.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:7> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:7> LBL: h7 CARG: "Jessica" ARG0: x3 ]
+ [ "_grow_v_cause_rel"<8:12> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<13:15> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<13:15> LBL: h13 CARG: "47" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_turnip_n_1_rel"<16:24> LBL: h13 ARG0: x9 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
+
+
+SENT: How many turnips did they grow in total ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:16> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_turnip_n_1_rel"<9:16> LBL: h13 ARG0: x5 ]
+ [ pron_rel<21:25> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<21:25> LBL: h17 ARG0: x3 RSTR: h18 BODY: h19 ]
+ [ "_grow_v_cause_rel"<26:30> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ _in_p_rel<31:33> LBL: h1 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x21 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ idiom_q_i_rel<34:41> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ "_total_n_of_rel"<34:41> LBL: h25 ARG0: x21 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h16 h23 qeq h25 > ]
+
+

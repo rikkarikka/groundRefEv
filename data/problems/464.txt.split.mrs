@@ -1,0 +1,34 @@
+SENT: Lisa rented 4 DVDs for $4.80.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Lisa" ARG0: x3 ]
+ [ "_rent_v_1_rel"<5:11> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<12:13> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<12:13> LBL: h13 CARG: "4" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_dvd_n_1_rel"<14:18> LBL: h13 ARG0: x9 ]
+ [ _for_p_rel<19:22> LBL: h1 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x17 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<23:29> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ "_dollar_n_1_rel"<23:24> LBL: h21 ARG0: x17 ]
+ [ card_rel<24:29> LBL: h21 CARG: "4.80" ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h19 qeq h21 > ]
+
+
+SENT: How much did each DVD cost to rent?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ generic_entity_rel<0:8> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<0:8> LBL: h6 ARG0: x5 RSTR: h7 BODY: h8 ]
+ [ abstr_deg_rel<0:3> LBL: h9 ARG0: i10 ]
+ [ which_q_rel<0:3> LBL: h11 ARG0: i10 RSTR: h12 BODY: h13 ]
+ [ measure_rel<0:3> LBL: h4 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop ] ARG2: i10 ]
+ [ much-many_a_rel<4:8> LBL: h4 ARG0: e15 ARG1: x5 ]
+ [ _each_q_rel<13:17> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h17 BODY: h18 ]
+ [ "_dvd_n_1_rel"<18:21> LBL: h19 ARG0: x3 ]
+ [ "_cost_v_1_rel"<22:26> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ _to_p_rel<27:29> LBL: h1 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x21 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<30:35> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ "_rent_n_1_rel"<30:35> LBL: h25 ARG0: x21 ] >
+HCONS: < h0 qeq h1 h7 qeq h4 h12 qeq h9 h17 qeq h19 h23 qeq h25 > ]
+
+

@@ -1,0 +1,42 @@
+SENT: White t-shirts can be purchased in packages of 6.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_white_a_1_rel"<0:5> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ]
+ [ "_tee+shirt_n_1_rel"<6:14> LBL: h7 ARG0: x3 ]
+ [ _can_v_modal_rel<15:18> LBL: h1 ARG0: e2 ARG1: h9 ]
+ [ "_purchase_v_1_rel"<22:31> LBL: h10 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: i12 ARG2: x3 ]
+ [ parg_d_rel<22:31> LBL: h10 ARG0: e13 [ e SF: prop ] ARG1: e11 ARG2: x3 ]
+ [ _in_p_rel<32:34> LBL: h10 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e11 ARG2: x15 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<35:49> LBL: h16 ARG0: x15 RSTR: h17 BODY: h18 ]
+ [ "_package_n_of_rel"<35:43> LBL: h19 ARG0: x15 ARG1: x20 [ x PERS: 3 NUM: sg ] ]
+ [ number_q_rel<47:49> LBL: h21 ARG0: x20 RSTR: h22 BODY: h23 ]
+ [ card_rel<47:49> LBL: h24 CARG: "6" ARG0: x20 ARG1: i26 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h9 qeq h10 h17 qeq h19 h22 qeq h24 > ]
+
+
+SENT: If Mom buys 71 packages, how many white t-shirts will Mom have?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: fut MOOD: indicative PROG: - PERF: - ]
+RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ARG2: h6 ]
+ [ proper_q_rel<3:6> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: sg IND: + ] RSTR: h9 BODY: h10 ]
+ [ named_rel<3:6> LBL: h11 CARG: "Mom" ARG0: x8 ]
+ [ "_buy_v_1_rel"<7:11> LBL: h13 ARG0: e14 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: x15 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<12:14> LBL: h16 ARG0: x15 RSTR: h17 BODY: h18 ]
+ [ card_rel<12:14> LBL: h19 CARG: "71" ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x15 ]
+ [ "_package_n_of_rel"<15:24> LBL: h19 ARG0: x15 ARG1: i22 ]
+ [ udef_q_rel<25:48> LBL: h23 ARG0: x24 [ x PERS: 3 NUM: pl IND: + ] RSTR: h25 BODY: h26 ]
+ [ abstr_deg_rel<25:28> LBL: h27 ARG0: i28 ]
+ [ which_q_rel<25:28> LBL: h29 ARG0: i28 RSTR: h30 BODY: h31 ]
+ [ measure_rel<25:28> LBL: h32 ARG0: e33 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e34 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i28 ]
+ [ much-many_a_rel<29:33> LBL: h32 ARG0: e34 ARG1: x24 ]
+ [ compound_rel<34:48> LBL: h32 ARG0: e35 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x24 ARG2: x36 [ x IND: + ] ]
+ [ udef_q_rel<34:39> LBL: h37 ARG0: x36 RSTR: h38 BODY: h39 ]
+ [ "_white_n_1_rel"<34:39> LBL: h40 ARG0: x36 ]
+ [ "_tee+shirt_n_1_rel"<40:48> LBL: h32 ARG0: x24 ]
+ [ proper_q_rel<54:57> LBL: h41 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h42 BODY: h43 ]
+ [ named_rel<54:57> LBL: h44 CARG: "Mom" ARG0: x3 ]
+ [ "_have_v_1_rel"<58:63> LBL: h46 ARG0: e2 ARG1: x3 ARG2: x24 ] >
+HCONS: < h0 qeq h1 h5 qeq h46 h6 qeq h13 h9 qeq h11 h17 qeq h19 h25 qeq h32 h30 qeq h27 h38 qeq h40 h42 qeq h44 > ]
+
+

@@ -1,0 +1,55 @@
+SENT: One evening, a restaurant served a total of 0.2 of a loaf of wheat bread and 0.4 of a loaf of white bread.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative ]
+RELS: < [ focus_d_rel<0:106> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
+ [ loc_nonsp_rel<0:12> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<0:3> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
+ [ card_rel<0:3> LBL: h10 CARG: "1" ARG0: e12 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x6 ]
+ [ "_evening_n_of_rel"<4:12> LBL: h10 ARG0: x6 ]
+ [ _a_q_rel<13:14> LBL: h13 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h14 BODY: h15 ]
+ [ "_restaurant_n_1_rel"<15:25> LBL: h16 ARG0: x3 ]
+ [ "_serve_v_as_rel"<26:32> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x17 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<33:34> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ "_total_n_of_rel"<35:40> LBL: h21 ARG0: x17 ARG1: x22 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<44:47> LBL: h23 ARG0: x22 ARG1: x24 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<44:47> LBL: h25 ARG0: x22 RSTR: h26 BODY: h27 ]
+ [ card_rel<44:47> LBL: h23 CARG: "0.2" ARG0: e29 [ e SF: prop ] ARG1: x22 ]
+ [ _a_q_rel<51:52> LBL: h30 ARG0: x24 RSTR: h31 BODY: h32 ]
+ [ "_loaf_n_1_rel"<53:57> LBL: h33 ARG0: x24 ]
+ [ _of_p_rel<58:60> LBL: h33 ARG0: e34 [ e SF: prop ] ARG1: x24 ARG2: x35 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<61:106> LBL: h36 ARG0: x35 RSTR: h37 BODY: h38 ]
+ [ udef_q_rel<61:72> LBL: h39 ARG0: x40 [ x PERS: 3 NUM: sg ] RSTR: h41 BODY: h42 ]
+ [ compound_rel<61:72> LBL: h43 ARG0: e44 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x40 ARG2: x45 ]
+ [ udef_q_rel<61:66> LBL: h46 ARG0: x45 RSTR: h47 BODY: h48 ]
+ [ "_wheat_n_1_rel"<61:66> LBL: h49 ARG0: x45 ]
+ [ "_bread_n_1_rel"<67:72> LBL: h43 ARG0: x40 ]
+ [ _and_c_rel<73:76> LBL: h50 ARG0: x35 L-INDEX: x40 R-INDEX: x51 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<77:80> LBL: h52 ARG0: x51 ARG1: x53 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<77:80> LBL: h54 ARG0: x51 RSTR: h55 BODY: h56 ]
+ [ card_rel<77:80> LBL: h52 CARG: "0.4" ARG0: e58 [ e SF: prop ] ARG1: x51 ]
+ [ _a_q_rel<84:85> LBL: h59 ARG0: x53 RSTR: h60 BODY: h61 ]
+ [ "_loaf_n_1_rel"<86:90> LBL: h62 ARG0: x53 ]
+ [ _of_p_rel<91:93> LBL: h62 ARG0: e63 [ e SF: prop ] ARG1: x53 ARG2: x64 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<94:106> LBL: h65 ARG0: x64 RSTR: h66 BODY: h67 ]
+ [ "_white_a_1_rel"<94:99> LBL: h68 ARG0: e69 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x64 ]
+ [ "_bread_n_1_rel"<100:106> LBL: h68 ARG0: x64 ] >
+HCONS: < h0 qeq h1 h8 qeq h10 h14 qeq h16 h19 qeq h21 h26 qeq h23 h31 qeq h33 h37 qeq h50 h41 qeq h43 h47 qeq h49 h55 qeq h52 h60 qeq h62 h66 qeq h68 > ]
+
+
+SENT: How many loaves were served in all?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:15> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ abstr_deg_rel<0:3> LBL: h7 ARG0: i8 ]
+ [ which_q_rel<0:3> LBL: h9 ARG0: i8 RSTR: h10 BODY: h11 ]
+ [ measure_rel<0:3> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i8 ]
+ [ much-many_a_rel<4:8> LBL: h12 ARG0: e14 ARG1: x3 ]
+ [ "_loaf_n_1_rel"<9:15> LBL: h12 ARG0: x3 ]
+ [ "_serve_v_as_rel"<21:27> LBL: h1 ARG0: e2 ARG1: i15 ARG2: x3 ]
+ [ parg_d_rel<21:27> LBL: h1 ARG0: e16 [ e SF: prop ] ARG1: e2 ARG2: x3 ]
+ [ _in_p_rel<28:30> LBL: h1 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x18 [ x PERS: 3 ] ]
+ [ _all_q_rel<31:35> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ generic_entity_rel<31:35> LBL: h22 ARG0: x18 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 h20 qeq h22 > ]
+
+

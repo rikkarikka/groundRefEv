@@ -1,0 +1,35 @@
+SENT: Connie has 2315 red markers and 1028 blue markers.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:6> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:6> LBL: h7 CARG: "Connie" ARG0: x3 ]
+ [ "_have_v_1_rel"<7:10> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<11:50> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ udef_q_rel<11:15> LBL: h13 ARG0: x14 [ x PERS: 3 NUM: pl IND: + ] RSTR: h15 BODY: h16 ]
+ [ card_rel<11:15> LBL: h17 CARG: "2315" ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x14 ]
+ [ "_red_a_1_rel"<16:19> LBL: h17 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x14 ]
+ [ "_marker_n_1_rel"<20:27> LBL: h17 ARG0: x14 ]
+ [ _and_c_rel<28:31> LBL: h21 ARG0: x9 L-INDEX: x14 R-INDEX: x22 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<32:36> LBL: h23 ARG0: x22 RSTR: h24 BODY: h25 ]
+ [ card_rel<32:36> LBL: h26 CARG: "1028" ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x22 ]
+ [ "_blue_a_1_rel"<37:41> LBL: h26 ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x22 ]
+ [ "_marker_n_1_rel"<42:50> LBL: h26 ARG0: x22 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h21 h15 qeq h17 h24 qeq h26 > ]
+
+
+SENT: How many markers does Connie have altogether?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:16> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_marker_n_1_rel"<9:16> LBL: h13 ARG0: x5 ]
+ [ proper_q_rel<22:28> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h17 BODY: h18 ]
+ [ named_rel<22:28> LBL: h19 CARG: "Connie" ARG0: x3 ]
+ [ "_have_v_1_rel"<29:33> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ "_altogether_a_1_rel"<34:45> LBL: h1 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h17 qeq h19 > ]
+
+

@@ -1,0 +1,59 @@
+SENT: Sandy sold lemonade in her neighborhood.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:5> LBL: h7 CARG: "Sandy" ARG0: x3 ]
+ [ "_sell_v_1_rel"<6:10> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<11:40> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ "_lemonade_n_1_rel"<11:19> LBL: h13 ARG0: x9 ]
+ [ _in_p_rel<20:22> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ARG2: x15 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ def_explicit_q_rel<23:26> LBL: h16 ARG0: x15 RSTR: h17 BODY: h18 ]
+ [ poss_rel<23:26> LBL: h19 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x15 ARG2: x21 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<23:26> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ pron_rel<23:26> LBL: h25 ARG0: x21 ]
+ [ "_neighborhood_n_of_rel"<27:40> LBL: h19 ARG0: x15 ARG1: i26 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h17 qeq h19 h23 qeq h25 > ]
+
+
+SENT: She got 17 half-dollars on Saturday and 6 half-dollars on Sunday.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_get_v_1_rel"<4:7> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<8:65> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ udef_q_rel<8:10> LBL: h12 ARG0: x13 [ x PERS: 3 NUM: pl IND: + ] RSTR: h14 BODY: h15 ]
+ [ card_rel<8:10> LBL: h16 CARG: "17" ARG0: e18 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x13 ]
+ [ compound_rel<11:23> LBL: h16 ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x13 ARG2: x20 [ x IND: + ] ]
+ [ udef_q_rel<11:23> LBL: h21 ARG0: x20 RSTR: h22 BODY: h23 ]
+ [ "_half_n_of_rel"<11:23> LBL: h24 ARG0: x20 ARG1: i25 ]
+ [ "_dollar_n_1_rel"<11:23> LBL: h16 ARG0: x13 ]
+ [ _on_p_temp_rel<24:26> LBL: h16 ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x13 ARG2: x27 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<27:35> LBL: h28 ARG0: x27 RSTR: h29 BODY: h30 ]
+ [ dofw_rel<27:35> LBL: h31 CARG: "Sat" ARG0: x27 ]
+ [ _and_c_rel<36:39> LBL: h33 ARG0: x8 L-INDEX: x13 R-INDEX: x34 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<40:41> LBL: h35 ARG0: x34 RSTR: h36 BODY: h37 ]
+ [ card_rel<40:41> LBL: h38 CARG: "6" ARG0: e40 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x34 ]
+ [ compound_rel<42:54> LBL: h38 ARG0: e41 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x34 ARG2: x42 [ x IND: + ] ]
+ [ udef_q_rel<42:54> LBL: h43 ARG0: x42 RSTR: h44 BODY: h45 ]
+ [ "_half_n_of_rel"<42:54> LBL: h46 ARG0: x42 ARG1: i47 ]
+ [ "_dollar_n_1_rel"<42:54> LBL: h38 ARG0: x34 ]
+ [ _on_p_temp_rel<55:57> LBL: h38 ARG0: e48 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x34 ARG2: x49 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<58:65> LBL: h50 ARG0: x49 RSTR: h51 BODY: h52 ]
+ [ dofw_rel<58:65> LBL: h53 CARG: "Sun" ARG0: x49 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h10 qeq h33 h14 qeq h16 h22 qeq h24 h29 qeq h31 h36 qeq h38 h44 qeq h46 h51 qeq h53 > ]
+
+
+SENT: What amount of money did Sandy receive?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _which_q_rel<0:4> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg IND: + ] RSTR: h6 BODY: h7 ]
+ [ "_amount_n_of_rel"<5:11> LBL: h8 ARG0: x5 ARG1: x9 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<15:20> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ "_money_n_1_rel"<15:20> LBL: h13 ARG0: x9 ]
+ [ proper_q_rel<25:30> LBL: h14 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h15 BODY: h16 ]
+ [ named_rel<25:30> LBL: h17 CARG: "Sandy" ARG0: x3 ]
+ [ "_receive_v_1_rel"<31:39> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 h11 qeq h13 h15 qeq h17 > ]
+
+

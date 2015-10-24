@@ -1,0 +1,70 @@
+SENT: Elizabeth went to the salon and had 0.375 inch of hair cut off .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:9> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:9> LBL: h7 CARG: "Elizabeth" ARG0: x3 ]
+ [ "_go_v_1_rel"<10:14> LBL: h9 ARG0: e10 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
+ [ _to_p_rel<15:17> LBL: h9 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e10 ARG2: x12 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<18:21> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
+ [ "_salon_n_1_rel"<22:27> LBL: h16 ARG0: x12 ]
+ [ _and_c_rel<28:31> LBL: h1 ARG0: e2 L-INDEX: e10 R-INDEX: e17 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h9 R-HNDL: h18 ]
+ [ "_have_v_prd_rel"<32:35> LBL: h18 ARG0: e17 ARG1: x3 ARG2: x19 [ x PERS: 3 NUM: sg IND: + ] ARG3: h20 ]
+ [ udef_q_rel<36:54> LBL: h21 ARG0: x19 RSTR: h22 BODY: h23 ]
+ [ card_rel<36:41> LBL: h24 CARG: "1" ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x19 ]
+ [ "_inch_n_1_rel"<42:46> LBL: h24 ARG0: x19 ]
+ [ _of_p_rel<47:49> LBL: h24 ARG0: e27 [ e SF: prop ] ARG1: x19 ARG2: x28 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<50:54> LBL: h29 ARG0: x28 RSTR: h30 BODY: h31 ]
+ [ "_hair_n_1_rel"<50:54> LBL: h32 ARG0: x28 ]
+ [ "_cut_v_off_rel"<55:58> LBL: h33 ARG0: e34 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: i35 ARG2: x19 ]
+ [ parg_d_rel<55:58> LBL: h33 ARG0: e36 [ e SF: prop ] ARG1: e34 ARG2: x19 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h14 qeq h16 h20 qeq h33 h22 qeq h24 h30 qeq h32 > ]
+
+
+SENT: The next day she went back and asked for another 0.5 inch to be cut off .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop ]
+RELS: < [ unknown_rel<0:73> LBL: h1 ARG0: e2 ARG: x4 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<0:3> LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]
+ [ "_next_a_1_rel"<4:8> LBL: h8 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x4 ]
+ [ "_day_n_of_rel"<9:12> LBL: h8 ARG0: x4 ARG1: i10 ]
+ [ loc_nonsp_rel<13:73> LBL: h11 ARG0: e12 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e13 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG2: x4 ]
+ [ pron_rel<13:16> LBL: h14 ARG0: x15 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<13:16> LBL: h16 ARG0: x15 RSTR: h17 BODY: h18 ]
+ [ "_go_v_1_rel"<17:21> LBL: h19 ARG0: e20 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x15 ]
+ [ loc_nonsp_rel<22:26> LBL: h19 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e20 ARG2: x22 [ x PERS: 3 NUM: sg ] ]
+ [ place_n_rel<22:26> LBL: h23 ARG0: x22 ]
+ [ def_implicit_q_rel<22:26> LBL: h24 ARG0: x22 RSTR: h25 BODY: h26 ]
+ [ _back_p_rel<22:26> LBL: h23 ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x22 ]
+ [ _and_c_rel<27:30> LBL: h11 ARG0: e13 L-INDEX: e20 R-INDEX: e28 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h19 R-HNDL: h29 ]
+ [ "_ask_v_for_rel"<31:36> LBL: h29 ARG0: e28 ARG1: x15 ARG2: p30 ARG3: x31 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _another_q_rel<41:48> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ compound_rel<49:57> LBL: h35 ARG0: e36 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x31 ARG2: x37 [ x IND: + ] ]
+ [ proper_q_rel<49:52> LBL: h38 ARG0: x37 RSTR: h39 BODY: h40 ]
+ [ named_rel<49:52> LBL: h41 CARG: "0.5" ARG0: x37 ]
+ [ "_inch_n_1_rel"<53:57> LBL: h35 ARG0: x31 ]
+ [ "_in+order+to_x_rel"<58:60> LBL: h8 ARG0: e43 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h44 ARG2: h45 ]
+ [ "_cut_v_off_rel"<64:67> LBL: h46 ARG0: e47 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: i48 ARG2: x15 ]
+ [ parg_d_rel<64:67> LBL: h46 ARG0: e49 [ e SF: prop ] ARG1: e47 ARG2: x15 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 h17 qeq h14 h25 qeq h23 h33 qeq h35 h39 qeq h41 h44 qeq h11 h45 qeq h46 > ]
+
+
+SENT: How much hair did she have cut off in all ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:13> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_hair_n_1_rel"<9:13> LBL: h13 ARG0: x5 ]
+ [ pron_rel<18:21> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<18:21> LBL: h17 ARG0: x3 RSTR: h18 BODY: h19 ]
+ [ "_have_v_prd_rel"<22:26> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ARG3: h20 ]
+ [ "_cut_v_off_rel"<27:30> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: i23 ARG2: x5 ]
+ [ parg_d_rel<27:30> LBL: h21 ARG0: e24 [ e SF: prop ] ARG1: e22 ARG2: x5 ]
+ [ _in_p_rel<35:37> LBL: h1 ARG0: e25 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x26 [ x PERS: 3 ] ]
+ [ _all_q_rel<38:43> LBL: h27 ARG0: x26 RSTR: h28 BODY: h29 ]
+ [ generic_entity_rel<38:43> LBL: h30 ARG0: x26 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h16 h20 qeq h21 h28 qeq h30 > ]
+
+

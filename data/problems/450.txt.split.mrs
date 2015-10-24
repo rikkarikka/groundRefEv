@@ -1,0 +1,56 @@
+SENT: Connie had some marbles.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:6> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:6> LBL: h7 CARG: "Connie" ARG0: x3 ]
+ [ "_have_v_1_rel"<7:10> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl ] ]
+ [ _some_q_rel<11:15> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ "_marble_n_1_rel"<16:24> LBL: h13 ARG0: x9 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
+
+
+SENT: Connie gave 183 to Juan.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:6> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:6> LBL: h7 CARG: "Connie" ARG0: x3 ]
+ [ "_give_v_1_rel"<7:11> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: sg IND: + ] ARG3: x10 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<12:15> LBL: h11 ARG0: x9 RSTR: h12 BODY: h13 ]
+ [ yofc_rel<12:15> LBL: h14 CARG: "183" ARG0: x9 ]
+ [ proper_q_rel<19:24> LBL: h16 ARG0: x10 RSTR: h17 BODY: h18 ]
+ [ named_rel<19:24> LBL: h19 CARG: "Juan" ARG0: x10 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h12 qeq h14 h17 qeq h19 > ]
+
+
+SENT: Now Connie has 593 marbles left.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ "_now_a_1_rel"<0:3> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ]
+ [ proper_q_rel<4:10> LBL: h6 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h7 BODY: h8 ]
+ [ named_rel<4:10> LBL: h9 CARG: "Connie" ARG0: x3 ]
+ [ "_have_v_prd_rel"<11:14> LBL: h11 ARG0: e2 ARG1: x3 ARG2: x12 [ x PERS: 3 NUM: pl ] ARG3: h13 ]
+ [ udef_q_rel<15:18> LBL: h14 ARG0: x12 RSTR: h15 BODY: h16 ]
+ [ card_rel<15:18> LBL: h17 CARG: "593" ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x12 ]
+ [ "_marble_n_1_rel"<19:26> LBL: h17 ARG0: x12 ]
+ [ "_leave_v_1_rel"<27:32> LBL: h20 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: i22 ARG2: x12 ]
+ [ parg_d_rel<27:32> LBL: h20 ARG0: e23 [ e SF: prop ] ARG1: e21 ARG2: x12 ] >
+HCONS: < h0 qeq h1 h5 qeq h11 h7 qeq h9 h13 qeq h20 h15 qeq h17 > ]
+
+
+SENT: How many did Connie have to start with?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ generic_entity_rel<0:8> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<0:8> LBL: h6 ARG0: x5 RSTR: h7 BODY: h8 ]
+ [ abstr_deg_rel<0:3> LBL: h9 ARG0: i10 ]
+ [ which_q_rel<0:3> LBL: h11 ARG0: i10 RSTR: h12 BODY: h13 ]
+ [ measure_rel<0:3> LBL: h4 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop ] ARG2: i10 ]
+ [ much-many_a_rel<4:8> LBL: h4 ARG0: e15 ARG1: x5 ]
+ [ proper_q_rel<13:19> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h17 BODY: h18 ]
+ [ named_rel<13:19> LBL: h19 CARG: "Connie" ARG0: x3 ]
+ [ "_have_v_qmodal_rel"<20:24> LBL: h1 ARG0: e2 ARG1: h21 ]
+ [ "_start_v_1_rel"<28:33> LBL: h22 ARG0: e23 [ e SF: prop-or-ques TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
+ [ _with_p_rel<34:39> LBL: h22 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e23 ARG2: x5 ] >
+HCONS: < h0 qeq h1 h7 qeq h4 h12 qeq h9 h17 qeq h19 h21 qeq h22 > ]
+
+

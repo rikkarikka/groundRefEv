@@ -1,0 +1,66 @@
+SENT: 0.5 the students in the band are in the trumpet section .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop ]
+RELS: < [ implicit_conj_rel<0:57> LBL: h1 ARG0: e2 L-INDEX: x4 [ x PERS: 3 NUM: sg ] R-INDEX: e5 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] L-HNDL: u6 R-HNDL: h7 ]
+ [ number_q_rel<0:3> LBL: h8 ARG0: x4 RSTR: h9 BODY: h10 ]
+ [ card_rel<0:3> LBL: h11 CARG: "0.5" ARG0: x4 ARG1: i13 ]
+ [ _the_q_rel<4:7> LBL: h14 ARG0: x15 [ x PERS: 3 NUM: pl IND: + ] RSTR: h16 BODY: h17 ]
+ [ "_student_n_of_rel"<8:16> LBL: h18 ARG0: x15 ARG1: i19 ]
+ [ _in_p_rel<17:19> LBL: h18 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x15 ARG2: x21 [ x PERS: 3 NUM: sg ] ]
+ [ _the_q_rel<20:23> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ "_band_n_1_rel"<24:28> LBL: h25 ARG0: x21 ]
+ [ _in_p_rel<33:35> LBL: h26 ARG0: e5 ARG1: x15 ARG2: x27 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<36:39> LBL: h28 ARG0: x27 RSTR: h29 BODY: h30 ]
+ [ compound_rel<40:57> LBL: h31 ARG0: e32 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x27 ARG2: x33 ]
+ [ udef_q_rel<40:47> LBL: h34 ARG0: x33 RSTR: h35 BODY: h36 ]
+ [ "_trumpet_n_1_rel"<40:47> LBL: h37 ARG0: x33 ]
+ [ "_section_n_of_rel"<48:57> LBL: h31 ARG0: x27 ARG1: i38 ] >
+HCONS: < h0 qeq h1 h7 qeq h26 h9 qeq h11 h16 qeq h18 h23 qeq h25 h29 qeq h31 h35 qeq h37 > ]
+
+
+SENT: 0.125 the students in the band are in the trombone section .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop ]
+RELS: < [ implicit_conj_rel<0:60> LBL: h1 ARG0: e2 L-INDEX: x4 [ x PERS: 3 NUM: sg ] R-INDEX: e5 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] L-HNDL: u6 R-HNDL: h7 ]
+ [ number_q_rel<0:5> LBL: h8 ARG0: x4 RSTR: h9 BODY: h10 ]
+ [ card_rel<0:5> LBL: h11 CARG: "0.125" ARG0: x4 ARG1: i13 ]
+ [ _the_q_rel<6:9> LBL: h14 ARG0: x15 [ x PERS: 3 NUM: pl IND: + ] RSTR: h16 BODY: h17 ]
+ [ "_student_n_of_rel"<10:18> LBL: h18 ARG0: x15 ARG1: i19 ]
+ [ _in_p_rel<19:21> LBL: h18 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x15 ARG2: x21 [ x PERS: 3 NUM: sg ] ]
+ [ _the_q_rel<22:25> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ "_band_n_1_rel"<26:30> LBL: h25 ARG0: x21 ]
+ [ _in_p_rel<35:37> LBL: h26 ARG0: e5 ARG1: x15 ARG2: x27 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<38:41> LBL: h28 ARG0: x27 RSTR: h29 BODY: h30 ]
+ [ compound_rel<42:60> LBL: h31 ARG0: e32 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x27 ARG2: x33 ]
+ [ udef_q_rel<42:50> LBL: h34 ARG0: x33 RSTR: h35 BODY: h36 ]
+ [ "_trombone_n_1_rel"<42:50> LBL: h37 ARG0: x33 ]
+ [ "_section_n_of_rel"<51:60> LBL: h31 ARG0: x27 ARG1: i38 ] >
+HCONS: < h0 qeq h1 h7 qeq h26 h9 qeq h11 h16 qeq h18 h23 qeq h25 h29 qeq h31 h35 qeq h37 > ]
+
+
+SENT: What fraction of the students in the band are in either the trumpet section or the trombone section ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _which_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_fraction_n_of_rel"<5:13> LBL: h7 ARG0: x3 ARG1: x8 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ _the_q_rel<17:20> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ "_student_n_of_rel"<21:29> LBL: h12 ARG0: x8 ARG1: i13 ]
+ [ _in_p_rel<30:32> LBL: h12 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x8 ARG2: x15 [ x PERS: 3 NUM: sg ] ]
+ [ _the_q_rel<33:36> LBL: h16 ARG0: x15 RSTR: h17 BODY: h18 ]
+ [ "_band_n_1_rel"<37:41> LBL: h19 ARG0: x15 ]
+ [ _in_p_rel<46:48> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x20 ]
+ [ udef_q_rel<49:101> LBL: h21 ARG0: x20 RSTR: h22 BODY: h23 ]
+ [ _the_q_rel<56:59> LBL: h24 ARG0: x25 [ x PERS: 3 NUM: sg IND: + ] RSTR: h26 BODY: h27 ]
+ [ compound_rel<60:75> LBL: h28 ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x25 ARG2: x30 ]
+ [ udef_q_rel<60:67> LBL: h31 ARG0: x30 RSTR: h32 BODY: h33 ]
+ [ "_trumpet_n_1_rel"<60:67> LBL: h34 ARG0: x30 ]
+ [ "_section_n_of_rel"<68:75> LBL: h28 ARG0: x25 ARG1: i35 ]
+ [ _or_c_rel<76:78> LBL: h36 ARG0: x20 L-INDEX: x25 R-INDEX: x37 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<79:82> LBL: h38 ARG0: x37 RSTR: h39 BODY: h40 ]
+ [ compound_rel<83:101> LBL: h41 ARG0: e42 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x37 ARG2: x43 ]
+ [ udef_q_rel<83:91> LBL: h44 ARG0: x43 RSTR: h45 BODY: h46 ]
+ [ "_trombone_n_1_rel"<83:91> LBL: h47 ARG0: x43 ]
+ [ "_section_n_of_rel"<92:101> LBL: h41 ARG0: x37 ARG1: i48 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h10 qeq h12 h17 qeq h19 h22 qeq h36 h26 qeq h28 h32 qeq h34 h39 qeq h41 h45 qeq h47 > ]
+
+

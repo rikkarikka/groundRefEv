@@ -1,0 +1,73 @@
+SENT: Alyssa went to 11 soccer games this year , but missed 12 .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:6> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:6> LBL: h7 CARG: "Alyssa" ARG0: x3 ]
+ [ "_go_v_1_rel"<7:11> LBL: h9 ARG0: e10 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
+ [ _to_p_rel<12:14> LBL: h9 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e10 ARG2: x12 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<15:17> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
+ [ card_rel<15:17> LBL: h16 CARG: "11" ARG0: e18 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x12 ]
+ [ compound_rel<18:30> LBL: h16 ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x12 ARG2: x20 [ x PERS: 3 NUM: sg IND: - ] ]
+ [ udef_q_rel<18:24> LBL: h21 ARG0: x20 RSTR: h22 BODY: h23 ]
+ [ "_soccer_n_1_rel"<18:24> LBL: h24 ARG0: x20 ]
+ [ "_game_n_1_rel"<25:30> LBL: h16 ARG0: x12 ]
+ [ loc_nonsp_rel<31:42> LBL: h9 ARG0: e25 [ e SF: prop ] ARG1: e10 ARG2: x26 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _this_q_dem_rel<31:35> LBL: h27 ARG0: x26 RSTR: h28 BODY: h29 ]
+ [ "_year_n_1_rel"<36:42> LBL: h30 ARG0: x26 ]
+ [ _but_c_rel<43:46> LBL: h1 ARG0: e2 L-INDEX: e10 R-INDEX: e31 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h9 R-HNDL: h32 ]
+ [ "_miss_v_1_rel"<47:53> LBL: h32 ARG0: e31 ARG1: x3 ARG2: x33 [ x PERS: 3 NUM: sg ] ]
+ [ number_q_rel<54:58> LBL: h34 ARG0: x33 RSTR: h35 BODY: h36 ]
+ [ card_rel<54:58> LBL: h37 CARG: "12" ARG0: x33 ARG1: i39 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h14 qeq h16 h22 qeq h24 h28 qeq h30 h35 qeq h37 > ]
+
+
+SENT: She went to 13 games last year and plans to go to 15 games next year .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_go_v_1_rel"<4:8> LBL: h8 ARG0: e9 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
+ [ _to_p_rel<9:11> LBL: h8 ARG0: e10 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e9 ARG2: x11 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<12:14> LBL: h12 ARG0: x11 RSTR: h13 BODY: h14 ]
+ [ card_rel<12:14> LBL: h15 CARG: "13" ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x11 ]
+ [ "_game_n_1_rel"<15:20> LBL: h15 ARG0: x11 ]
+ [ loc_nonsp_rel<21:30> LBL: h8 ARG0: e18 [ e SF: prop ] ARG1: e9 ARG2: x19 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ def_implicit_q_rel<21:25> LBL: h20 ARG0: x19 RSTR: h21 BODY: h22 ]
+ [ "_last_a_1_rel"<21:25> LBL: h23 ARG0: i24 ARG1: x19 ]
+ [ "_year_n_1_rel"<26:30> LBL: h23 ARG0: x19 ]
+ [ _and_c_rel<31:34> LBL: h1 ARG0: e2 L-INDEX: e9 R-INDEX: e25 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] L-HNDL: h8 R-HNDL: h26 ]
+ [ "_plan_v_1_rel"<35:40> LBL: h26 ARG0: e25 ARG1: x3 ARG2: h27 ]
+ [ "_go_v_1_rel"<44:46> LBL: h28 ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
+ [ _to_p_rel<47:49> LBL: h28 ARG0: e30 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e29 ARG2: x31 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<50:52> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ card_rel<50:52> LBL: h35 CARG: "15" ARG0: e37 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x31 ]
+ [ "_game_n_1_rel"<53:58> LBL: h35 ARG0: x31 ]
+ [ loc_nonsp_rel<59:70> LBL: h28 ARG0: e38 [ e SF: prop ] ARG1: e29 ARG2: x39 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ def_implicit_q_rel<59:63> LBL: h40 ARG0: x39 RSTR: h41 BODY: h42 ]
+ [ "_next_a_1_rel"<59:63> LBL: h43 ARG0: i44 ARG1: x39 ]
+ [ "_year_n_1_rel"<64:70> LBL: h43 ARG0: x39 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h13 qeq h15 h21 qeq h23 h27 qeq h28 h33 qeq h35 h41 qeq h43 > ]
+
+
+SENT: How many soccer games will Alyssa go to in all ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: fut MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:21> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ compound_rel<9:21> LBL: h13 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x5 ARG2: x17 [ x PERS: 3 NUM: sg IND: - ] ]
+ [ udef_q_rel<9:15> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ "_soccer_n_1_rel"<9:15> LBL: h21 ARG0: x17 ]
+ [ "_game_n_1_rel"<16:21> LBL: h13 ARG0: x5 ]
+ [ proper_q_rel<27:33> LBL: h22 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h23 BODY: h24 ]
+ [ named_rel<27:33> LBL: h25 CARG: "Alyssa" ARG0: x3 ]
+ [ "_go_v_1_rel"<34:36> LBL: h1 ARG0: e2 ARG1: x3 ]
+ [ _to_p_rel<37:39> LBL: h1 ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x5 ]
+ [ _in_p_rel<40:42> LBL: h1 ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x29 [ x PERS: 3 ] ]
+ [ _all_q_rel<43:48> LBL: h30 ARG0: x29 RSTR: h31 BODY: h32 ]
+ [ generic_entity_rel<43:48> LBL: h33 ARG0: x29 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h19 qeq h21 h23 qeq h25 h31 qeq h33 > ]
+
+

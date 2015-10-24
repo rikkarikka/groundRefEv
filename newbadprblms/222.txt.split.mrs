@@ -1,0 +1,77 @@
+SENT: Nina did a running drill to get in shape for soccer season .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Nina" ARG0: x3 ]
+ [ "_do_v_1_rel"<5:8> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: sg ] ARG3: x10 [ x PERS: 3 NUM: sg ] ]
+ [ _a_q_rel<9:10> LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]
+ [ compound_rel<11:24> LBL: h14 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x10 ARG2: x16 [ x PERS: 3 NUM: sg GEND: n ] ]
+ [ udef_q_rel<11:18> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_run_v_1_rel"<11:18> LBL: h20 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative PROG: + PERF: - ] ARG1: i22 ]
+ [ nominalization_rel<11:18> LBL: h23 ARG0: x16 ARG1: h20 ]
+ [ "_drill_n_1_rel"<19:24> LBL: h14 ARG0: x10 ]
+ [ eventuality_rel<25:34> LBL: h14 ARG0: e24 [ e SF: prop ] ARG1: h25 ]
+ [ "_get_v_state_rel"<28:31> LBL: h25 ARG0: e26 [ e SF: prop-or-ques TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x10 ARG2: h27 ]
+ [ _in_p_dir_rel<32:34> LBL: h28 ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x10 ]
+ [ udef_q_rel<35:60> LBL: h30 ARG0: x9 RSTR: h31 BODY: h32 ]
+ [ "_shape_n_1_rel"<35:40> LBL: h33 ARG0: x9 ]
+ [ _for_p_rel<41:44> LBL: h33 ARG0: e34 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ARG2: x35 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ idiom_q_i_rel<45:60> LBL: h36 ARG0: x35 RSTR: h37 BODY: h38 ]
+ [ compound_rel<45:60> LBL: h39 ARG0: e40 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x35 ARG2: x41 [ x PERS: 3 NUM: sg IND: - ] ]
+ [ udef_q_rel<45:51> LBL: h42 ARG0: x41 RSTR: h43 BODY: h44 ]
+ [ "_soccer_n_1_rel"<45:51> LBL: h45 ARG0: x41 ]
+ [ "_season_n_1_rel"<52:60> LBL: h39 ARG0: x35 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h12 qeq h14 h18 qeq h23 h27 qeq h28 h31 qeq h33 h37 qeq h39 h43 qeq h45 > ]
+
+
+SENT: First , Nina ran 0.08333333333333333 mile .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative ]
+RELS: < [ focus_d_rel<0:43> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: i5 ]
+ [ "_first_a_1_rel"<0:7> LBL: h1 ARG0: e6 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ]
+ [ proper_q_rel<8:12> LBL: h7 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h8 BODY: h9 ]
+ [ named_rel<8:12> LBL: h10 CARG: "Nina" ARG0: x3 ]
+ [ "_run_v_1_rel"<13:16> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x12 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<17:43> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
+ [ card_rel<17:36> LBL: h16 CARG: "1" ARG0: e18 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x12 ]
+ [ "_mile_n_1_rel"<37:43> LBL: h16 ARG0: x12 ] >
+HCONS: < h0 qeq h1 h8 qeq h10 h14 qeq h16 > ]
+
+
+SENT: Then she ran 0.08333333333333333 mile and 0.6666666666666666 mile .
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ "_then_a_1_rel"<0:4> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ]
+ [ pron_rel<5:8> LBL: h6 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<5:8> LBL: h7 ARG0: x3 RSTR: h8 BODY: h9 ]
+ [ "_run_v_1_rel"<9:12> LBL: h10 ARG0: e2 ARG1: x3 ARG2: x11 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<13:67> LBL: h12 ARG0: x11 RSTR: h13 BODY: h14 ]
+ [ udef_q_rel<13:37> LBL: h15 ARG0: x16 [ x PERS: 3 NUM: sg IND: + ] RSTR: h17 BODY: h18 ]
+ [ card_rel<13:32> LBL: h19 CARG: "1" ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x16 ]
+ [ "_mile_n_1_rel"<33:37> LBL: h19 ARG0: x16 ]
+ [ _and_c_rel<38:41> LBL: h22 ARG0: x11 L-INDEX: x16 R-INDEX: x23 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<42:67> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ card_rel<42:60> LBL: h27 CARG: "1" ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x23 ]
+ [ "_mile_n_1_rel"<61:67> LBL: h27 ARG0: x23 ] >
+HCONS: < h0 qeq h1 h5 qeq h10 h8 qeq h6 h13 qeq h22 h17 qeq h19 h25 qeq h27 > ]
+
+
+SENT: How many miles did Nina run in total ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ loc_nonsp_rel<0:14> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x5 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<0:14> LBL: h6 ARG0: x5 RSTR: h7 BODY: h8 ]
+ [ abstr_deg_rel<0:3> LBL: h9 ARG0: i10 ]
+ [ which_q_rel<0:3> LBL: h11 ARG0: i10 RSTR: h12 BODY: h13 ]
+ [ measure_rel<0:3> LBL: h14 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i10 ]
+ [ much-many_a_rel<4:8> LBL: h14 ARG0: e16 ARG1: x5 ]
+ [ "_mile_n_1_rel"<9:14> LBL: h14 ARG0: x5 ]
+ [ proper_q_rel<19:23> LBL: h17 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h18 BODY: h19 ]
+ [ named_rel<19:23> LBL: h20 CARG: "Nina" ARG0: x3 ]
+ [ "_run_v_1_rel"<24:27> LBL: h1 ARG0: e2 ARG1: x3 ]
+ [ _in_p_rel<28:30> LBL: h1 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x23 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ idiom_q_i_rel<31:38> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ "_total_n_of_rel"<31:38> LBL: h27 ARG0: x23 ] >
+HCONS: < h0 qeq h1 h7 qeq h14 h12 qeq h9 h18 qeq h20 h25 qeq h27 > ]
+
+

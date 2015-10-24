@@ -1,0 +1,22 @@
+SENT: Mike has 45 dollars in 5 dollar bills.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Mike" ARG0: x3 ]
+ [ "_have_v_1_rel"<5:8> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<9:19> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<9:11> LBL: h13 CARG: "45" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x9 ]
+ [ "_dollar_n_1_rel"<12:19> LBL: h13 ARG0: x9 ]
+ [ _in_p_rel<20:22> LBL: h1 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x17 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<23:38> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ compound_rel<23:38> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ARG2: x23 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<23:31> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ card_rel<23:24> LBL: h27 CARG: "5" ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x23 ]
+ [ "_dollar_n_1_rel"<25:31> LBL: h27 ARG0: x23 ]
+ [ "_bill_n_of_rel"<32:38> LBL: h21 ARG0: x17 ARG1: i30 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h19 qeq h21 h25 qeq h27 > ]
+
+
+SKIP: How many five dollars bills does he have ?
+
+

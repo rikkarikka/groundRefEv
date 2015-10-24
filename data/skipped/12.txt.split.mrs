@@ -1,0 +1,36 @@
+SENT: Sam had 79 dollars to spend on 9 books.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:3> LBL: h7 CARG: "Sam" ARG0: x3 ]
+ [ "_have_v_prd_rel"<4:7> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ARG3: h10 ]
+ [ udef_q_rel<8:18> LBL: h11 ARG0: x9 RSTR: h12 BODY: h13 ]
+ [ card_rel<8:10> LBL: h14 CARG: "79" ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x9 ]
+ [ "_dollar_n_1_rel"<11:18> LBL: h14 ARG0: x9 ]
+ [ "_spend_v_1_rel"<22:27> LBL: h17 ARG0: e18 [ e SF: prop-or-ques TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 ARG3: h19 ]
+ [ _on_p_rel<28:30> LBL: h20 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x9 ARG2: x22 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<31:32> LBL: h23 ARG0: x22 RSTR: h24 BODY: h25 ]
+ [ card_rel<31:32> LBL: h26 CARG: "9" ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x22 ]
+ [ "_book_n_of_rel"<33:39> LBL: h26 ARG0: x22 ARG1: i29 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h10 qeq h17 h12 qeq h14 h19 qeq h20 h24 qeq h26 > ]
+
+
+SKIP: After buying them he had 16 dollars.
+
+
+SENT: How much did each book cost ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ generic_entity_rel<0:8> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<0:8> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h4 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h4 ARG0: e14 ARG1: x3 ]
+ [ "_each_p_rel"<13:17> LBL: h1 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ]
+ [ "_book_v_1_rel"<18:22> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x16 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<23:29> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_cost_n_1_rel"<23:29> LBL: h20 ARG0: x16 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h11 qeq h8 h18 qeq h20 > ]
+
+

@@ -1,0 +1,68 @@
+SENT: For his long distance phone service Milan pays a 2 dollars monthly fee plus 12 cents per minute.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop ]
+RELS: < [ unknown_rel<0:96> LBL: h4 ARG0: e2 ARG: u5 ]
+ [ "_for_x_cause_rel"<0:3> LBL: h1 ARG0: e6 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h7 ARG2: h8 ]
+ [ appos_rel<4:41> LBL: h9 ARG0: e10 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x11 [ x PERS: 3 NUM: sg ] ARG2: x12 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ def_explicit_q_rel<4:7> LBL: h13 ARG0: x11 RSTR: h14 BODY: h15 ]
+ [ poss_rel<4:7> LBL: h16 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x11 ARG2: x18 [ x PERS: 3 NUM: sg GEND: m PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<4:7> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ pron_rel<4:7> LBL: h22 ARG0: x18 ]
+ [ "_long_a_1_rel"<8:12> LBL: h16 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x11 ]
+ [ compound_rel<13:35> LBL: h16 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x11 ARG2: x25 [ x IND: + ] ]
+ [ udef_q_rel<13:27> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
+ [ compound_rel<13:27> LBL: h29 ARG0: e30 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x25 ARG2: x31 ]
+ [ udef_q_rel<13:21> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ "_distance_n_1_rel"<13:21> LBL: h35 ARG0: x31 ]
+ [ "_phone_n_1_rel"<22:27> LBL: h29 ARG0: x25 ]
+ [ "_service_n_1_rel"<28:35> LBL: h16 ARG0: x11 ]
+ [ proper_q_rel<36:41> LBL: h36 ARG0: x12 RSTR: h37 BODY: h38 ]
+ [ named_rel<36:41> LBL: h39 CARG: "Milan" ARG0: x12 ]
+ [ "_pay_v_for_rel"<42:46> LBL: h9 ARG0: e41 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x11 ARG2: i42 ARG3: x43 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ appos_rel<47:75> LBL: h9 ARG0: e44 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x43 ARG2: x45 [ x PERS: 3 NUM: sg ] ]
+ [ _a_q_rel<47:48> LBL: h46 ARG0: x43 RSTR: h47 BODY: h48 ]
+ [ card_rel<49:50> LBL: h49 CARG: "2" ARG0: e51 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x43 ]
+ [ "_dollar_n_1_rel"<51:58> LBL: h49 ARG0: x43 ]
+ [ number_q_rel<59:75> LBL: h52 ARG0: x45 RSTR: h53 BODY: h54 ]
+ [ "_monthly_a_1_rel"<59:66> LBL: h55 ARG0: e56 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x45 ]
+ [ compound_rel<67:75> LBL: h55 ARG0: e57 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x45 ARG2: x58 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<67:70> LBL: h59 ARG0: x58 RSTR: h60 BODY: h61 ]
+ [ "_fee_n_1_rel"<67:70> LBL: h62 ARG0: x58 ]
+ [ card_rel<71:75> LBL: h55 CARG: "plus" ARG0: x45 ARG1: i64 ]
+ [ loc_nonsp_rel<76:96> LBL: h9 ARG0: e65 [ e SF: prop ] ARG1: e41 ARG2: x66 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<76:96> LBL: h67 ARG0: x66 RSTR: h68 BODY: h69 ]
+ [ card_rel<76:78> LBL: h70 CARG: "12" ARG0: e72 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x66 ]
+ [ "_cent_n_1_rel"<79:84> LBL: h70 ARG0: x66 ]
+ [ _per_p_rel<85:88> LBL: h70 ARG0: e73 [ e SF: prop ] ARG1: x66 ARG2: x74 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<85:88> LBL: h75 ARG0: x74 RSTR: h76 BODY: h77 ]
+ [ "_minute_n_1_rel"<89:96> LBL: h78 ARG0: x74 ] >
+HCONS: < h0 qeq h1 h7 qeq h4 h8 qeq h9 h14 qeq h16 h20 qeq h22 h27 qeq h29 h33 qeq h35 h37 qeq h39 h47 qeq h49 h53 qeq h55 h60 qeq h62 h68 qeq h70 h76 qeq h78 > ]
+
+
+SENT: Last month , Milan 's long distance bill was 23.36 dollars.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ focus_d_rel<0:59> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
+ [ loc_nonsp_rel<0:12> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ def_implicit_q_rel<0:4> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
+ [ "_last_a_1_rel"<0:4> LBL: h10 ARG0: i11 ARG1: x6 ]
+ [ "_month_n_1_rel"<5:12> LBL: h10 ARG0: x6 ]
+ [ proper_q_rel<13:18> LBL: h12 ARG0: x13 [ x PERS: 3 NUM: sg IND: + ] RSTR: h14 BODY: h15 ]
+ [ named_rel<13:18> LBL: h16 CARG: "Milan" ARG0: x13 ]
+ [ def_explicit_q_rel<19:21> LBL: h18 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h19 BODY: h20 ]
+ [ poss_rel<19:21> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x13 ]
+ [ "_long_a_1_rel"<22:26> LBL: h21 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ]
+ [ compound_rel<27:40> LBL: h21 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x25 ]
+ [ udef_q_rel<27:35> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
+ [ "_distance_n_1_rel"<27:35> LBL: h29 ARG0: x25 ]
+ [ "_bill_n_of_rel"<36:40> LBL: h21 ARG0: x3 ARG1: i30 ]
+ [ _be_v_id_rel<41:44> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x31 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<45:59> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ card_rel<45:50> LBL: h35 CARG: "23.36" ARG0: e37 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x31 ]
+ [ "_dollar_n_1_rel"<51:59> LBL: h35 ARG0: x31 ] >
+HCONS: < h0 qeq h1 h8 qeq h10 h14 qeq h16 h19 qeq h21 h27 qeq h29 h33 qeq h35 > ]
+
+
+SKIP: For how many minutes was Milan billed for ?
+
+

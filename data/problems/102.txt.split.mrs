@@ -1,0 +1,50 @@
+SENT: Sandy worked 45 hours in the last 5 days.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:5> LBL: h7 CARG: "Sandy" ARG0: x3 ]
+ [ "_work_v_1_rel"<6:12> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<13:15> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<13:15> LBL: h13 CARG: "45" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_hour_n_1_rel"<16:21> LBL: h13 ARG0: x9 ]
+ [ _in_p_temp_rel<22:24> LBL: h1 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x17 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ _the_q_rel<25:28> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ "_last_a_1_rel"<29:33> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x17 ]
+ [ card_rel<34:35> LBL: h21 CARG: "5" ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x17 ]
+ [ "_day_n_of_rel"<36:41> LBL: h21 ARG0: x17 ARG1: i25 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h19 qeq h21 > ]
+
+
+SENT: Assuming that she worked the same amount of hours each day, how long did she work each day ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ subord_rel<0:59> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ARG2: h6 ]
+ [ "_assume_v_1_rel"<0:8> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: + PERF: - ] ARG1: i9 ARG2: h10 ]
+ [ pron_rel<14:17> LBL: h11 ARG0: x12 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<14:17> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
+ [ "_work_v_1_rel"<18:24> LBL: h16 ARG0: e17 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x12 ARG2: x18 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<25:28> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ "_same_a_as_rel"<29:33> LBL: h22 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x18 ]
+ [ comp_equal_rel<29:33> LBL: h22 ARG0: e24 [ e SF: prop ] ARG1: e23 ARG2: u25 ]
+ [ "_amount_n_of_rel"<34:40> LBL: h22 ARG0: x18 ARG1: x26 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<44:49> LBL: h27 ARG0: x26 RSTR: h28 BODY: h29 ]
+ [ "_hour_n_1_rel"<44:49> LBL: h30 ARG0: x26 ]
+ [ loc_nonsp_rel<50:59> LBL: h16 ARG0: e31 [ e SF: prop ] ARG1: e17 ARG2: x32 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _each_q_rel<50:54> LBL: h33 ARG0: x32 RSTR: h34 BODY: h35 ]
+ [ "_day_n_of_rel"<55:59> LBL: h36 ARG0: x32 ARG1: i37 ]
+ [ loc_nonsp_rel<60:68> LBL: h38 ARG0: e39 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x40 [ x PERS: 3 NUM: sg ] ]
+ [ abstr_deg_rel<60:63> LBL: h41 ARG0: i42 ]
+ [ which_q_rel<60:63> LBL: h43 ARG0: i42 RSTR: h44 BODY: h45 ]
+ [ measure_rel<60:63> LBL: h46 ARG0: e47 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x40 ARG2: i42 ]
+ [ time_n_rel<64:68> LBL: h46 ARG0: x40 ]
+ [ def_implicit_q_rel<64:68> LBL: h48 ARG0: x40 RSTR: h49 BODY: h50 ]
+ [ _long_a_1_rel<64:68> LBL: h46 ARG0: e51 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x40 ]
+ [ pron_rel<73:76> LBL: h52 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<73:76> LBL: h53 ARG0: x3 RSTR: h54 BODY: h55 ]
+ [ "_work_v_1_rel"<77:81> LBL: h38 ARG0: e2 ARG1: x3 ARG2: p56 ]
+ [ loc_nonsp_rel<82:92> LBL: h38 ARG0: e57 [ e SF: prop ] ARG1: e2 ARG2: x58 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _each_q_rel<82:86> LBL: h59 ARG0: x58 RSTR: h60 BODY: h61 ]
+ [ "_day_n_of_rel"<87:92> LBL: h62 ARG0: x58 ARG1: i63 ] >
+HCONS: < h0 qeq h1 h5 qeq h38 h6 qeq h7 h10 qeq h16 h14 qeq h11 h20 qeq h22 h28 qeq h30 h34 qeq h36 h44 qeq h41 h49 qeq h46 h54 qeq h52 h60 qeq h62 > ]
+
+

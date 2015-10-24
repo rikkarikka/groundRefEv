@@ -1,0 +1,69 @@
+SENT: A farmer estimates that he will harvest 48,097 bushels of wheat.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _a_q_rel<0:1> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_farmer_n_1_rel"<2:8> LBL: h7 ARG0: x3 ]
+ [ "_estimate_v_at_rel"<9:18> LBL: h1 ARG0: e2 ARG1: x3 ARG2: h8 ]
+ [ pron_rel<24:26> LBL: h9 ARG0: x10 [ x PERS: 3 NUM: sg GEND: m PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<24:26> LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]
+ [ "_harvest_v_1_rel"<32:39> LBL: h14 ARG0: e15 [ e SF: prop TENSE: fut MOOD: indicative PROG: - PERF: - ] ARG1: x10 ARG2: x16 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<40:46> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ card_rel<40:46> LBL: h20 CARG: "48,097" ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x16 ]
+ [ "_bushel_n_1_rel"<47:54> LBL: h20 ARG0: x16 ]
+ [ _of_p_rel<55:57> LBL: h20 ARG0: e23 [ e SF: prop ] ARG1: x16 ARG2: x24 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<58:64> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ "_wheat_n_1_rel"<58:64> LBL: h28 ARG0: x24 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h8 qeq h14 h12 qeq h9 h18 qeq h20 h26 qeq h28 > ]
+
+
+SENT: The weather is perfect during the growing season, so he harvests 684 more bushels of wheat than expected.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: n IND: - ] RSTR: h5 BODY: h6 ]
+ [ "_weather_n_1_rel"<4:11> LBL: h7 ARG0: x3 ]
+ [ "_perfect_a_1_rel"<15:22> LBL: h8 ARG0: e2 ARG1: x3 ]
+ [ _during_p_rel<23:29> LBL: h8 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x10 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<30:33> LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]
+ [ "_grow_v_1_rel"<34:41> LBL: h14 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: + PERF: - ] ARG1: x10 ]
+ [ season_rel<42:49> LBL: h14 CARG: "season" ARG0: x10 ]
+ [ "_so_x_rel"<50:52> LBL: h1 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h18 ARG2: h19 ]
+ [ pron_rel<53:55> LBL: h20 ARG0: x21 [ x PERS: 3 NUM: sg GEND: m PRONTYPE: std_pron ] ]
+ [ pronoun_q_rel<53:55> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ "_harvest_v_1_rel"<56:64> LBL: h25 ARG0: e26 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x21 ARG2: x27 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<65:68> LBL: h28 ARG0: x27 RSTR: h29 BODY: h30 ]
+ [ yofc_rel<65:68> LBL: h31 CARG: "684" ARG0: x27 ]
+ [ loc_nonsp_rel<69:105> LBL: h25 ARG0: e33 [ e SF: prop ] ARG1: e26 ARG2: x34 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<69:105> LBL: h35 ARG0: x34 RSTR: h36 BODY: h37 ]
+ [ much-many_a_rel<69:73> LBL: h38 ARG0: e39 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x34 ]
+ [ comp_rel<69:73> LBL: h38 ARG0: e40 [ e SF: prop ] ARG1: e39 ARG2: h41 ]
+ [ "_bushel_n_1_rel"<74:81> LBL: h38 ARG0: x34 ]
+ [ _of_p_rel<82:84> LBL: h38 ARG0: e42 [ e SF: prop ] ARG1: x34 ARG2: x43 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<85:90> LBL: h44 ARG0: x43 RSTR: h45 BODY: h46 ]
+ [ "_wheat_n_1_rel"<85:90> LBL: h47 ARG0: x43 ]
+ [ udef_q_rel<91:95> LBL: h48 ARG0: x49 RSTR: h50 BODY: h51 ]
+ [ generic_entity_rel<91:95> LBL: h52 ARG0: x49 ]
+ [ "_expect_v_1_rel"<96:105> LBL: h41 ARG0: e53 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x49 ARG2: p54 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h12 qeq h14 h18 qeq h8 h19 qeq h25 h23 qeq h20 h29 qeq h31 h36 qeq h38 h45 qeq h47 h50 qeq h52 > ]
+
+
+SENT: How many bushels of wheat does the farmer harvest?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:25> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ abstr_deg_rel<0:3> LBL: h7 ARG0: i8 ]
+ [ which_q_rel<0:3> LBL: h9 ARG0: i8 RSTR: h10 BODY: h11 ]
+ [ measure_rel<0:3> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG2: i8 ]
+ [ much-many_a_rel<4:8> LBL: h12 ARG0: e14 ARG1: x3 ]
+ [ "_bushel_n_1_rel"<9:16> LBL: h12 ARG0: x3 ]
+ [ _of_p_rel<17:19> LBL: h12 ARG0: e15 [ e SF: prop ] ARG1: x3 ARG2: x16 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<20:25> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_wheat_n_1_rel"<20:25> LBL: h20 ARG0: x16 ]
+ [ "_do_v_1_rel"<26:30> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x21 [ x PERS: 3 NUM: sg ] ]
+ [ _the_q_rel<31:34> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ compound_rel<35:50> LBL: h25 ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x21 ARG2: x27 [ x IND: + ] ]
+ [ udef_q_rel<35:41> LBL: h28 ARG0: x27 RSTR: h29 BODY: h30 ]
+ [ "_farmer_n_1_rel"<35:41> LBL: h31 ARG0: x27 ]
+ [ "_harvest_n_1_rel"<42:50> LBL: h25 ARG0: x21 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 h18 qeq h20 h23 qeq h25 h29 qeq h31 > ]
+
+

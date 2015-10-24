@@ -1,0 +1,48 @@
+SENT: At Lindsey's Vacation Wear, 0.375 of the garments are bikinis and 0.25 are trunks.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ focus_d_rel<0:61> LBL: h4 ARG0: e5 [ e SF: prop ] ARG1: e6 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG2: e7 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
+ [ _at_p_rel<0:2> LBL: h4 ARG0: e7 ARG1: e6 ARG2: x8 [ x PERS: 3 NUM: sg GEND: n IND: - ] ]
+ [ proper_q_rel<3:10> LBL: h9 ARG0: x10 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
+ [ named_rel<3:10> LBL: h13 CARG: "Lindsey" ARG0: x10 ]
+ [ def_explicit_q_rel<10:12> LBL: h15 ARG0: x8 RSTR: h16 BODY: h17 ]
+ [ poss_rel<10:12> LBL: h18 ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: x10 ]
+ [ compound_rel<13:27> LBL: h18 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: x21 ]
+ [ udef_q_rel<13:21> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ "_vacation_n_1_rel"<13:21> LBL: h25 ARG0: x21 ]
+ [ "_wear_n_1_rel"<22:27> LBL: h18 ARG0: x8 ]
+ [ part_of_rel<28:33> LBL: h26 ARG0: x27 [ x PERS: 3 NUM: pl ] ARG1: x28 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<28:33> LBL: h29 ARG0: x27 RSTR: h30 BODY: h31 ]
+ [ card_rel<28:33> LBL: h26 CARG: "0.375" ARG0: e33 [ e SF: prop ] ARG1: x27 ]
+ [ _the_q_rel<37:40> LBL: h34 ARG0: x28 RSTR: h35 BODY: h36 ]
+ [ "_garment_n_1_rel"<41:49> LBL: h37 ARG0: x28 ]
+ [ _be_v_id_rel<50:53> LBL: h4 ARG0: e6 ARG1: x27 ARG2: x38 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<54:61> LBL: h39 ARG0: x38 RSTR: h40 BODY: h41 ]
+ [ "_bikini_n_1_rel"<54:61> LBL: h42 ARG0: x38 ]
+ [ _and_c_rel<62:65> LBL: h1 ARG0: e2 L-INDEX: e6 R-INDEX: e43 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] L-HNDL: h44 R-HNDL: h45 ]
+ [ generic_entity_rel<66:70> LBL: h46 ARG0: x47 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<66:70> LBL: h48 ARG0: x47 RSTR: h49 BODY: h50 ]
+ [ card_rel<66:70> LBL: h46 CARG: "0.25" ARG0: e52 [ e SF: prop ] ARG1: x47 ]
+ [ _be_v_id_rel<71:74> LBL: h53 ARG0: e43 ARG1: x47 ARG2: x54 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<75:82> LBL: h55 ARG0: x54 RSTR: h56 BODY: h57 ]
+ [ "_trunk_n_1_rel"<75:82> LBL: h58 ARG0: x54 ] >
+HCONS: < h0 qeq h1 h44 qeq h4 h11 qeq h13 h16 qeq h18 h23 qeq h25 h30 qeq h26 h35 qeq h37 h40 qeq h42 h45 qeq h53 h49 qeq h46 h56 qeq h58 > ]
+
+
+SENT: What fraction of the garments are either bikinis or trunks?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _which_q_rel<0:4> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg IND: + ] RSTR: h6 BODY: h7 ]
+ [ "_fraction_n_of_rel"<5:13> LBL: h8 ARG0: x5 ARG1: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ _the_q_rel<17:20> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ "_garment_n_1_rel"<21:29> LBL: h13 ARG0: x9 ]
+ [ _be_v_id_rel<30:33> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ udef_q_rel<34:59> LBL: h14 ARG0: x3 RSTR: h15 BODY: h16 ]
+ [ udef_q_rel<41:48> LBL: h17 ARG0: x18 [ x PERS: 3 NUM: pl IND: + ] RSTR: h19 BODY: h20 ]
+ [ "_bikini_n_1_rel"<41:48> LBL: h21 ARG0: x18 ]
+ [ _or_c_rel<49:51> LBL: h22 ARG0: x3 L-INDEX: x18 R-INDEX: x23 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<52:59> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ "_trunk_n_1_rel"<52:59> LBL: h27 ARG0: x23 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 h11 qeq h13 h15 qeq h22 h19 qeq h21 h25 qeq h27 > ]
+
+
