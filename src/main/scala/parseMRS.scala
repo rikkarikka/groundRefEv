@@ -63,11 +63,11 @@ object parseQuestion {
             
         }
 
-	def ILPOut() {
+	def ILPout() {
 
             val probdir = "data/problems/"
             val dir = new File(probdir)
-            val problems = dir.list filter (_.endsWith("mrs"))
+            val problems = dir.list filter (_.endsWith("mrs")) filter (_ contains "146")
             //produce training vectors for each problem
             problems foreach { x => 
                 println(x)
@@ -81,12 +81,19 @@ object parseQuestion {
                 val w = parseStory(sentences)
 
 
-		    val numbers = w.numbers map (_.card)
-		    val entities = w.numbers map (_.cannonicalName)
-		    for(var i <- range(1,numbers.length) {
-			print(i,numbers(i),entities(i))
+		w.EntityID foreach {x => x._2.print()}
+		    val numbers = "constants : " + (w.numbers map (x => "%s " format x.card.toString)).mkString //_.card) toList
+
+		    //val entities = w.numbers map (_.mentions(0)._1) toList
+		    var i = 0
+		    println(numbers)
+		    /*
+		    while (i < numbers.length) {
+			print(i);print(numbers(i));print(entities(i))
 			println()
+			i+=1
 		    }
+		    */
 	    }
 	}
 	    

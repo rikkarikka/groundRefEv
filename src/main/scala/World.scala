@@ -70,7 +70,7 @@ class World() {
             if (e.rel contains "card_rel"){
                 toFloat(e.carg) match {
                     case Some(i) => ent.card = i
-                    case None => {}
+                    case None => {println("CARD_REL CASE NON")}
                 }
                 //ent.card = e.carg
             }
@@ -85,6 +85,10 @@ class World() {
         for (e <- sEnts) {
             var argidx = e.args.indexOf(idx)
             if (e.rel contains "card_rel"){
+                toFloat(e.carg) match {
+                    case Some(i) => ent.card = i
+                    case None => {println("CARD_REL CASE NON")}
+		}
             /*
                 if (ent.card != None) {
                     if (ent.card != e.carg) {
@@ -129,7 +133,7 @@ class World() {
     }
     */
 
-    def numbers = EntityID map (_._2) filter (_.card != 0.0) //filter (_.card.asInstanceOf[String].charAt(0).isDigit) map (_.card.asInstanceOf[String].toFloat)
+    def numbers = EntityID.toList sortWith (_._1 < _._1) map (_._2) filter (_.card != 0.0) 
 
     def update(objs:List[MRS]) {
         this.myobjs = objs
