@@ -63,6 +63,34 @@ object parseQuestion {
             
         }
 
+	def ILPOut() {
+
+            val probdir = "data/problems/"
+            val dir = new File(probdir)
+            val problems = dir.list filter (_.endsWith("mrs"))
+            //produce training vectors for each problem
+            problems foreach { x => 
+                println(x)
+
+                //this reads the MRSes of each problem
+		var fi = Source.fromFile(probdir+x)
+		var sentences = fi.mkString.split("\n\n") filter (! _.trim.isEmpty)
+		fi.close()
+
+                // create a World from MRSes of problem statement sentences
+                val w = parseStory(sentences)
+
+
+		    val numbers = w.numbers map (_.card)
+		    val entities = w.numbers map (_.cannonicalName)
+		    for(var i <- range(1,numbers.length) {
+			print(i,numbers(i),entities(i))
+			println()
+		    }
+	    }
+	}
+	    
+
 
         def rel_list(w:World) {
             val numbers = w.numbers //w.EntityID map (_._2) filter (_.card != None) filter (_.card.asInstanceOf[String].charAt(0).isDigit)
@@ -146,6 +174,9 @@ object parseQuestion {
             var devFlag = false 
             var files = new Array[String](0)
             args(0) match {
+		case "ILP" => {
+		    ILPout()
+		}
                 case "split" => {
                     split()
                 }
