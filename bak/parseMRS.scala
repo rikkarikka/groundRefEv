@@ -55,11 +55,20 @@ object parseQuestion {
         def solveProblem(w:World, a:Float, e:String): Int = {
             val numbers = w.numbers map (_.card)//w.EntityID map (_._2) filter (_.card != None) filter (_.card.asInstanceOf[String].charAt(0).isDigit) map (_.card.asInstanceOf[String].toFloat)
             val variables = w.variables()
-            val eqValues = parseEquation(e)
-            println(e)
-            eqValues foreach println
+            val eqValues = parseEquation(e) filter (_.charAt(0).isDigit)
+	    var good = true
+	    for (x <- eqValues) {
+		if (!(numbers contains x.toFloat)){
+			//println(x); 
+
+			good = false
+		}
+	    }
+            if (!good) { println("bad"); return 0 }
+            //println(e)
+            //eqValues foreach println
             //numbers foreach println
-            return 1
+	    return 1
             
         }
 
@@ -67,7 +76,7 @@ object parseQuestion {
 
             val probdir = "data/problems/"
             val dir = new File(probdir)
-            val problems = dir.list filter (_.endsWith("mrs")) filter (_ contains "146")
+            val problems = dir.list filter (_.endsWith("mrs")) // filter (_ contains "146")
             //produce training vectors for each problem
             problems foreach { x => 
                 println(x)
@@ -81,7 +90,7 @@ object parseQuestion {
                 val w = parseStory(sentences)
 
 
-		w.EntityID foreach {x => x._2.print()}
+		//w.EntityID foreach {x => x._2.print()}
 		    val numbers = "constants : " + (w.numbers map (x => "%s " format x.card.toString)).mkString //_.card) toList
 
 		    //val entities = w.numbers map (_.mentions(0)._1) toList
@@ -149,6 +158,7 @@ object parseQuestion {
             var answers = Source.fromFile("data/a.txt").mkString.split("\n") map (_.toFloat)
             var equations = Source.fromFile("data/eq.txt").mkString.split("\n")
 
+	    var goodones = 0
             //produce training vectors for each problem
             problems foreach { x => 
                 println(x)
@@ -167,9 +177,11 @@ object parseQuestion {
                 var e = equations(pidx)
 
                 val s = solveProblem(w,a,e)
+		if (s==1) goodones+=1
                 //w.vectorize(REL_LIST,s)
                 //rel_list(w)
             }
+	    print(goodones)
 
         }
 	
