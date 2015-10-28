@@ -4,6 +4,9 @@ import scala.collection.mutable.ListBuffer
 import java.io._
 import libsvm.svm._
 
+object rels {
+        def REL_LIST= Source.fromFile("data/rel_list.txt").mkString.split("\n").distinct
+}
 
 object parseQuestion {
 	val VERBOSE = true
@@ -48,28 +51,31 @@ object parseQuestion {
 	}
     
         def parseEquation(e:String): List[String] = {
-            var r = """(\d*\.?\d+|[+\-\*\/\=])""".r
-            return (r findAllIn e).toList //map (_.toFloat)
+            var r = """(\d*\.?\d+|[x+\-\*\/\=])""".r
+            return (r findAllIn e).toList map (_.toString)
         }
 
         def solveProblem(w:World, a:Float, e:String): Int = {
-            val numbers = w.numbers map (_.card)//w.EntityID map (_._2) filter (_.card != None) filter (_.card.asInstanceOf[String].charAt(0).isDigit) map (_.card.asInstanceOf[String].toFloat)
-            val variables = w.variables()
-            val eqValues = parseEquation(e) filter (_.charAt(0).isDigit)
-	    var good = true
-	    for (x <- eqValues) {
-		if (!(numbers contains x.toFloat)){
-			//println(x); 
-
-			good = false
-		}
+            //val numbers = w.numbers map (_.card)//w.EntityID map (_._2) filter (_.card != None) filter (_.card.asInstanceOf[String].charAt(0).isDigit) map (_.card.asInstanceOf[String].toFloat)
+            val eqValues = parseEquation(e) map (x=>if (x=="x") "0.0" else x)
+	    val op = eqValues filter (List("+","-","/","*") contains _)
+	    val opIdx = eqValues.indexOf(op(0))
+	    val lOperand = w.numbers filter (x => x.card == eqValues(opIdx-1).toFloat) 
+	    val rOperand = w.numbers filter (x => x.card == eqValues(opIdx+1).toFloat)
+	    val vec = w.vector(rels.REL_LIST,lOperand(0),rOperand(0))
+	    
+	    var j=1
+	    var opID = 0
+	    op(0) match {
+		    case "+" => opID = 0
+		    case "-" => opID = 1
+		    case "*" => opID = 2
+		    case "/" => opID = 3
 	    }
-            if (!good) { println("bad"); return 0 }
-            //println(e)
-            //eqValues foreach println
-            //numbers foreach println
+	    print(opID.toString + " ")
+            vec foreach {x => print(j.toString+":"+x.toString+" ");j+=1}
+	    println()
 	    return 1
-            
         }
 
 	def ILPout() {
@@ -158,10 +164,8 @@ object parseQuestion {
             var answers = Source.fromFile("data/a.txt").mkString.split("\n") map (_.toFloat)
             var equations = Source.fromFile("data/eq.txt").mkString.split("\n")
 
-	    var goodones = 0
             //produce training vectors for each problem
             problems foreach { x => 
-                println(x)
 
                 //this reads the MRSes of each problem
 		var fi = Source.fromFile(probdir+x)
@@ -176,12 +180,13 @@ object parseQuestion {
                 var a = answers(pidx)
                 var e = equations(pidx)
 
-                val s = solveProblem(w,a,e)
-		if (s==1) goodones+=1
+		try {
+			val s = solveProblem(w,a,e)
+            } catch {case _ : Throwable => println(x)}
                 //w.vectorize(REL_LIST,s)
                 //rel_list(w)
             }
-	    print(goodones)
+
 
         }
 	
@@ -190,7 +195,6 @@ object parseQuestion {
             val REL_LIST= Source.fromFile("data/rel_list.txt").mkString.split("\n").distinct
             //REL_LIST foreach {x => println(x)}
             val dir = new File(probdir)
-            var devFlag = false 
             var files = new Array[String](0)
             args(0) match {
 		case "ILP" => {
@@ -207,9 +211,9 @@ object parseQuestion {
                     files = dir.list filter (_.endsWith("mrs")) filter { x => (test contains x)}
                 }
                 case "dev" => {
-                    val dev = Source.fromFile("data/dev.indexes").mkString.split("\n").toList
-                    files = dir.list filter (_.endsWith("mrs")) filter { x => (dev contains x)}
-                    devFlag = true
+			dev()
+
+
                 }
                 case "parse" => {
                     files = dir.list filter (_.endsWith("mrs"))
@@ -219,48 +223,5 @@ object parseQuestion {
                 }
             }
 
-
-
-            /*
-            //split(files);System.exit(0)
-            var sum = 0
-            var mm = 0
-            var o = 0
-            var missing = new ListBuffer[String]
-            var answers = Source.fromFile("data/a.txt").mkString.split("\n") map (_.toFloat)
-            var right = 0
-            files foreach { x => 
-                //try {
-                println(x)
-		var fi = Source.fromFile(probdir+x)
-                var m = libsvm.svm.svm_load_model("data/simple.m")
-
-                var pidx = x.split("\\.")(0).toInt
-		var sentences = fi.mkString.split("\n\n") filter (! _.trim.isEmpty)
-		fi.close()
-                val w = parseStory(sentences)
-                if (devFlag) {
-                    right += dev_results(m,w,answers(pidx),REL_LIST)
-                }
-                else {
-                val s = solveProblem(w,answers(pidx))
-                s match {
-                    case 1 => {sum+=1;}// w.EntityID filter (_._2.card != None) foreach {_._2.print()};}
-
-                    case 0 => mm+=1
-                    case -1 => {
-                        o+=1; //print(x,"\n")
-                        w.numbers
-                    }
-                }
-                //w.vectorize(REL_LIST,s)
-                //rel_list(w)
-                }
-            //} catch {case _ : Throwable => print(x)}
-            }
-            println(f"$sum%d ,$mm%d ,$o%d")
-            println(right)
-            println(files.length)
-            */
 	}	
 }

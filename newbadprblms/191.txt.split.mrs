@@ -1,56 +1,46 @@
-SENT: Each day , the polar bear at Richmond 's zoo eats 0.2 bucket of trout and 0.4 bucket of salmon .
+SENT: A restaurant made 9 hamburgers to serve during lunch.
 [ LTOP: h0
-INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
-RELS: < [ focus_d_rel<0:96> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
- [ loc_nonsp_rel<0:10> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg IND: + ] ]
- [ _each_q_rel<0:4> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
- [ "_day_n_of_rel"<5:10> LBL: h10 ARG0: x6 ARG1: i11 ]
- [ _the_q_rel<11:14> LBL: h12 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h13 BODY: h14 ]
- [ "_polar_a_1_rel"<15:20> LBL: h15 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ]
- [ "_bear_n_1_rel"<21:25> LBL: h15 ARG0: x3 ]
- [ _at_p_rel<26:28> LBL: h15 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ARG2: x18 [ x PERS: 3 NUM: sg IND: + ] ]
- [ proper_q_rel<29:37> LBL: h19 ARG0: x20 [ x PERS: 3 NUM: sg IND: + ] RSTR: h21 BODY: h22 ]
- [ named_rel<29:37> LBL: h23 CARG: "Richmond" ARG0: x20 ]
- [ def_explicit_q_rel<38:40> LBL: h25 ARG0: x18 RSTR: h26 BODY: h27 ]
- [ poss_rel<38:40> LBL: h28 ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x18 ARG2: x20 ]
- [ "_zoo_n_1_rel"<41:44> LBL: h28 ARG0: x18 ]
- [ "_eat_v_1_rel"<45:49> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x30 [ x PERS: 3 ] ]
- [ udef_q_rel<50:53> LBL: h31 ARG0: x30 RSTR: h32 BODY: h33 ]
- [ card_rel<50:53> LBL: h34 CARG: "0.2" ARG0: e36 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x30 ]
- [ udef_q_rel<54:69> LBL: h37 ARG0: x38 [ x PERS: 3 NUM: sg IND: + ] RSTR: h39 BODY: h40 ]
- [ "_bucket_n_1_rel"<54:60> LBL: h41 ARG0: x38 ]
- [ _of_p_rel<61:63> LBL: h41 ARG0: e42 [ e SF: prop ] ARG1: x38 ARG2: x43 [ x PERS: 3 NUM: pl IND: + ] ]
- [ udef_q_rel<64:69> LBL: h44 ARG0: x43 RSTR: h45 BODY: h46 ]
- [ "_trout_n_1_rel"<64:69> LBL: h47 ARG0: x43 ]
- [ udef_q_rel<70:84> LBL: h48 ARG0: x49 [ x PERS: 3 NUM: sg IND: + ] RSTR: h50 BODY: h51 ]
- [ _and_c_rel<70:73> LBL: h34 ARG0: x30 L-INDEX: x38 R-INDEX: x49 ]
- [ compound_rel<74:84> LBL: h52 ARG0: e53 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x49 ARG2: x54 [ x IND: + ] ]
- [ proper_q_rel<74:77> LBL: h55 ARG0: x54 RSTR: h56 BODY: h57 ]
- [ named_rel<74:77> LBL: h58 CARG: "0.4" ARG0: x54 ]
- [ "_bucket_n_1_rel"<78:84> LBL: h52 ARG0: x49 ]
- [ _of_p_rel<85:87> LBL: h34 ARG0: e60 [ e SF: prop ] ARG1: x30 ARG2: x61 [ x PERS: 3 NUM: sg ] ]
- [ udef_q_rel<88:96> LBL: h62 ARG0: x61 RSTR: h63 BODY: h64 ]
- [ "_salmon_n_1_rel"<88:96> LBL: h65 ARG0: x61 ] >
-HCONS: < h0 qeq h1 h8 qeq h10 h13 qeq h15 h21 qeq h23 h26 qeq h28 h32 qeq h34 h39 qeq h41 h45 qeq h47 h50 qeq h52 h56 qeq h58 h63 qeq h65 > ]
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _a_q_rel<0:1> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_restaurant_n_1_rel"<2:12> LBL: h7 ARG0: x3 ]
+ [ "_make_v_1_rel"<13:17> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl IND: + ] ARG3: u9 ]
+ [ udef_q_rel<18:19> LBL: h10 ARG0: x8 RSTR: h11 BODY: h12 ]
+ [ card_rel<18:19> LBL: h13 CARG: "9" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x8 ]
+ [ "_hamburger_n_1_rel"<20:30> LBL: h13 ARG0: x8 ]
+ [ "_serve_v_as_rel"<34:39> LBL: h13 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: i17 ARG2: x8 ]
+ [ _during_p_rel<40:46> LBL: h13 ARG0: e18 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e16 ARG2: x19 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<47:53> LBL: h20 ARG0: x19 RSTR: h21 BODY: h22 ]
+ [ "_lunch_n_1_rel"<47:53> LBL: h23 ARG0: x19 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h21 qeq h23 > ]
 
 
-SENT: How many buckets of fish does the polar bear eat daily ?
+SENT: Only 3 were actually served.
 [ LTOP: h0
-INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
-RELS: < [ udef_q_rel<0:24> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
- [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
- [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
- [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
- [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
- [ "_bucket_n_1_rel"<9:16> LBL: h13 ARG0: x5 ]
- [ _of_p_rel<17:19> LBL: h13 ARG0: e16 [ e SF: prop ] ARG1: x5 ARG2: x17 [ x PERS: 3 NUM: sg ] ]
- [ udef_q_rel<20:24> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
- [ "_fish_n_1_rel"<20:24> LBL: h21 ARG0: x17 ]
- [ _the_q_rel<30:33> LBL: h22 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h23 BODY: h24 ]
- [ "_polar_a_1_rel"<34:39> LBL: h25 ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ]
- [ "_bear_n_1_rel"<40:44> LBL: h25 ARG0: x3 ]
- [ "_eat_v_1_rel"<45:48> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
- [ "_daily_a_1_rel"<49:56> LBL: h1 ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ] >
-HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h19 qeq h21 h23 qeq h25 > ]
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ "_only_x_deg_rel"<0:4> LBL: h4 ARG0: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: u6 ]
+ [ generic_entity_rel<5:6> LBL: h7 ARG0: x3 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<5:6> LBL: h4 ARG0: x3 RSTR: h8 BODY: h9 ]
+ [ card_rel<5:6> LBL: h7 CARG: "3" ARG0: e11 [ e SF: prop ] ARG1: x3 ]
+ [ "_actual_a_1_rel"<12:20> LBL: h1 ARG0: e12 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h13 ]
+ [ "_serve_v_as_rel"<21:28> LBL: h14 ARG0: e2 ARG1: i15 ARG2: x3 ]
+ [ parg_d_rel<21:28> LBL: h14 ARG0: e16 [ e SF: prop ] ARG1: e2 ARG2: x3 ] >
+HCONS: < h0 qeq h1 h8 qeq h7 h13 qeq h14 > ]
+
+
+SENT: How many hamburgers were left over from lunch ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:19> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ abstr_deg_rel<0:3> LBL: h7 ARG0: i8 ]
+ [ which_q_rel<0:3> LBL: h9 ARG0: i8 RSTR: h10 BODY: h11 ]
+ [ measure_rel<0:3> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i8 ]
+ [ much-many_a_rel<4:8> LBL: h12 ARG0: e14 ARG1: x3 ]
+ [ "_hamburger_n_1_rel"<9:19> LBL: h12 ARG0: x3 ]
+ [ "_leave_v_over_rel"<25:29> LBL: h1 ARG0: e2 ARG1: i15 ARG2: x3 ]
+ [ parg_d_rel<25:29> LBL: h1 ARG0: e16 [ e SF: prop ] ARG1: e2 ARG2: x3 ]
+ [ _from_p_rel<35:39> LBL: h1 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x18 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<40:47> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ "_lunch_n_1_rel"<40:47> LBL: h22 ARG0: x18 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 h20 qeq h22 > ]
 
 

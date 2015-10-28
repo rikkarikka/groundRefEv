@@ -53,7 +53,7 @@ class World() {
 
     def toFloat(x: String): Option[Float] = {
         try {
-            Some(java.text.NumberFormat.getNumberInstance(java.util.Locale.US).parse(x.trim).floatValue)
+            Some(x.trim.toFloat)
         } catch {
             case e : Throwable => None
         }
@@ -62,11 +62,9 @@ class World() {
     def associate(id: String, ent: Entity) {
         val ids = for (m <- ent.mentions) yield m._2.idx
         val lbls = for (m <- ent.mentions) yield m._2.lbl
-	var tospl = "x"
-	if (id contains "i") tospl = "i"
-        var spl = id split(tospl)
+        var spl = id split("x")
         var s = spl(0)
-        var idx = tospl + spl(1)
+        var idx = "x" + spl(1)
         val sameLbl = myobjs filter (_.idx.startsWith(s)) filter (lbls contains _.lbl)
         for (e <- sameLbl) {
             if (e.rel contains "card_rel"){
@@ -135,12 +133,12 @@ class World() {
     }
     */
 
-   def numbers = EntityID.toList sortWith (_._1 < _._1) map (_._2) filter (x=>((x.card != 0.0)||x.has_rel("much-many_a_rel")))
+    def numbers = EntityID.toList sortWith (_._1 < _._1) map (_._2) filter (_.card != 0.0) 
 
     def update(objs:List[MRS]) {
         this.myobjs = objs
         this.myobjs foreach {x => x.idx = if (x.args.length>0) sidx.toString + x.args(0) else "None" }
-	for (o <- objs filter (x=>(x.args(0).startsWith("x")||x.args(0).startsWith("i"))) filter (x => ! (x.rel contains "_q_"))) {
+        for (o <- objs filter (_.args(0).startsWith("x")) filter (x => ! (x.rel contains "_q_"))) {
             // this is an entity
             // we need to put in in the entities map
             // but we wanna make sure it's not coreferential w/ somethin in the map first
