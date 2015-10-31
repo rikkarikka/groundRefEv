@@ -8,8 +8,8 @@ RELS: < [ _be_v_there_rel<6:9> LBL: h1 ARG0: e2 ARG1: x4 [ x PERS: 3 NUM: pl GEN
  [ udef_q_rel<12:15> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
  [ "_oak_n_1_rel"<12:15> LBL: h16 ARG0: x12 ]
  [ "_tree_n_of_rel"<16:21> LBL: h8 ARG0: x4 ARG1: i17 ]
- [ "_current_a_1_rel"<22:31> LBL: h1 ARG0: e18 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ]
- [ _in_p_rel<32:34> LBL: h1 ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x20 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ "_currently_x_deg_rel"<22:31> LBL: h8 ARG0: e18 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e19 [ e SF: prop TENSE: untensed MOOD: indicative ] ]
+ [ _in_p_rel<32:34> LBL: h8 ARG0: e19 ARG1: x4 ARG2: x20 [ x PERS: 3 NUM: sg IND: + ] ]
  [ _the_q_rel<35:38> LBL: h21 ARG0: x20 RSTR: h22 BODY: h23 ]
  [ "_park_n_1_rel"<39:44> LBL: h24 ARG0: x20 ] >
 HCONS: < h0 qeq h1 h6 qeq h8 h14 qeq h16 h22 qeq h24 > ]

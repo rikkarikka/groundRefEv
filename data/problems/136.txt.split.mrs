@@ -31,7 +31,7 @@ RELS: < [ udef_q_rel<0:16> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h
  [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
  [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
  [ "_turnip_n_1_rel"<9:16> LBL: h13 ARG0: x5 ]
- [ pron_rel<21:25> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+ [ pron_rel<21:25> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: pl PT: std ] ]
  [ pronoun_q_rel<21:25> LBL: h17 ARG0: x3 RSTR: h18 BODY: h19 ]
  [ "_grow_v_cause_rel"<26:30> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
  [ _in_p_rel<31:33> LBL: h1 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x21 [ x PERS: 3 ] ]

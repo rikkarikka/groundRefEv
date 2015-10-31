@@ -15,14 +15,15 @@ SENT: Kenya has 48 more than Jose.
 INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
 RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
  [ named_rel<0:5> LBL: h7 CARG: "Kenya" ARG0: x3 ]
- [ "_have_v_1_rel"<6:9> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl ] ]
- [ generic_entity_rel<10:12> LBL: h10 ARG0: x9 ]
- [ udef_q_rel<10:12> LBL: h11 ARG0: x9 RSTR: h12 BODY: h13 ]
- [ card_rel<10:12> LBL: h10 CARG: "48" ARG0: e15 [ e SF: prop ] ARG1: x9 ]
- [ _more+than_p_rel<13:22> LBL: h10 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ARG2: x17 [ x PERS: 3 NUM: sg IND: + ] ]
- [ proper_q_rel<23:28> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
- [ named_rel<23:28> LBL: h21 CARG: "Jose" ARG0: x17 ] >
-HCONS: < h0 qeq h1 h5 qeq h7 h12 qeq h10 h19 qeq h21 > ]
+ [ "_have_v_1_rel"<6:9> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 ]
+ [ generic_entity_rel<10:28> LBL: h10 ARG0: x9 ]
+ [ udef_q_rel<10:28> LBL: h11 ARG0: x9 RSTR: h12 BODY: h13 ]
+ [ card_rel<10:12> LBL: h10 CARG: "48" ARG0: i15 ARG1: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ]
+ [ much-many_a_rel<13:17> LBL: h10 ARG0: e17 [ e SF: prop ] ARG1: x9 ]
+ [ comp_rel<13:17> LBL: h10 ARG0: e16 ARG1: e17 ARG2: x18 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<23:28> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ named_rel<23:28> LBL: h22 CARG: "Jose" ARG0: x18 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h12 qeq h10 h20 qeq h22 > ]
 
 
 SENT: How many peanuts does Kenya have?

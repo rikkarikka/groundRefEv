@@ -48,7 +48,7 @@ RELS: < [ "_while_x_rel"<0:5> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD
  [ "_leak_v_1_rel"<37:43> LBL: h19 ARG0: e2 ARG1: x3 ]
  [ loc_nonsp_rel<44:69> LBL: h19 ARG0: e20 [ e SF: prop ] ARG1: e2 ARG2: x21 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<44:69> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
- [ card_rel<44:49> LBL: h25 CARG: "5,165" ARG0: i27 ARG1: e28 [ e SF: prop ] ]
+ [ card_rel<44:49> LBL: h25 CARG: "5,165" ARG0: i27 ARG1: e28 [ e SF: prop TENSE: untensed MOOD: indicative ] ]
  [ much-many_a_rel<50:54> LBL: h25 ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x21 ]
  [ comp_rel<50:54> LBL: h25 ARG0: e28 ARG1: e29 ARG2: u30 ]
  [ "_liter_n_1_rel"<55:61> LBL: h25 ARG0: x21 ]
@@ -60,7 +60,7 @@ HCONS: < h0 qeq h1 h5 qeq h19 h6 qeq h12 h9 qeq h11 h16 qeq h18 h23 qeq h25 h34 
 
 SENT: In all, how many liters of oil leaked into the water?
 [ LTOP: h0
-INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative ]
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
 RELS: < [ focus_d_rel<0:53> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
  [ _in_p_state_rel<0:2> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 ] ]
  [ _all_q_rel<3:7> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]

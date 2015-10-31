@@ -29,7 +29,7 @@ RELS: < [ unknown_rel<0:34> LBL: h1 ARG0: e2 ARG: x4 [ x PERS: 3 NUM: sg ] ]
  [ udef_q_rel<9:14> LBL: h17 ARG0: x18 [ x PERS: 3 NUM: pl IND: + ] RSTR: h19 BODY: h20 ]
  [ card_rel<9:14> LBL: h21 CARG: "12" ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x18 ]
  [ "_egg_n_1_rel"<15:19> LBL: h21 ARG0: x18 ]
- [ "_do_v_1_rel"<20:23> LBL: h11 ARG0: e24 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x18 ARG2: x12 ARG3: x25 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ "_do_v_1_rel"<20:23> LBL: h11 ARG0: e24 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x18 ARG2: x25 [ x PERS: 3 NUM: sg IND: + ] ARG3: x12 ]
  [ proper_q_rel<24:29> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
  [ named_rel<24:29> LBL: h29 CARG: "Keith" ARG0: x25 ]
  [ "_buy_v_1_rel"<30:34> LBL: h8 ARG0: e10 ARG1: x12 ARG2: p31 ] >

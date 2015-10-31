@@ -2,7 +2,7 @@ SENT: Professor Ellison weighed two pieces of metal for an experiment.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
 RELS: < [ proper_q_rel<0:17> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
- [ compound_name_rel<0:17> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ compound_rel<0:17> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: sg IND: + ] ]
  [ proper_q_rel<0:9> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
  [ named_rel<0:9> LBL: h13 CARG: "Professor" ARG0: x9 ]
  [ named_rel<10:17> LBL: h7 CARG: "Ellison" ARG0: x3 ]
@@ -38,8 +38,7 @@ RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg IND: + ] RSTR: h6
  [ part_of_rel<86:104> LBL: h38 ARG0: x37 ARG1: x39 [ x PERS: 3 NUM: sg IND: + ] ]
  [ udef_q_rel<86:104> LBL: h40 ARG0: x37 RSTR: h41 BODY: h42 ]
  [ card_rel<86:104> LBL: h38 CARG: "0.8333333333333334" ARG0: e44 [ e SF: prop ] ARG1: x37 ]
- [ udef_q_rel<108:116> LBL: h45 ARG0: x39 RSTR: h46 BODY: h47 ]
- [ card_rel<108:109> LBL: h48 CARG: "1" ARG0: e50 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x39 ]
+ [ _a_q_rel<108:109> LBL: h45 ARG0: x39 RSTR: h46 BODY: h47 ]
  [ "_pound_n_1_rel"<110:116> LBL: h48 ARG0: x39 ] >
 HCONS: < h0 qeq h1 h24 qeq h14 h6 qeq h8 h11 qeq h13 h18 qeq h20 h25 qeq h36 h28 qeq h30 h33 qeq h35 h41 qeq h38 h46 qeq h48 > ]
 

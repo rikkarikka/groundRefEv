@@ -8,7 +8,7 @@ RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: 
  [ _all_q_rel<21:24> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
  [ part_of_rel<21:24> LBL: h16 ARG0: x12 ARG1: x17 [ x PERS: 3 NUM: pl IND: + ] ]
  [ def_explicit_q_rel<28:31> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
- [ poss_rel<28:31> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ARG2: x23 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ poss_rel<28:31> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ARG2: x23 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<28:31> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
  [ pron_rel<28:31> LBL: h27 ARG0: x23 ]
  [ "_old_a_1_rel"<32:35> LBL: h21 ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x17 ]
@@ -19,7 +19,7 @@ HCONS: < h0 qeq h1 h5 qeq h7 h9 qeq h10 h14 qeq h16 h19 qeq h21 h25 qeq h27 > ]
 SENT: She gathered up 33 books to sell.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_gather_v_up_rel"<4:12> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<16:18> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
@@ -32,7 +32,7 @@ HCONS: < h0 qeq h1 h6 qeq h4 h10 qeq h12 > ]
 SENT: She sold 26 books in a yard sale.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_sell_v_1_rel"<4:8> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<9:11> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]

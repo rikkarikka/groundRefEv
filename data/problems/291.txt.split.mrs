@@ -32,17 +32,17 @@ HCONS: < h0 qeq h1 h44 qeq h4 h11 qeq h13 h16 qeq h18 h23 qeq h25 h30 qeq h26 h3
 SENT: What fraction of the garments are either bikinis or trunks?
 [ LTOP: h0
 INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
-RELS: < [ _which_q_rel<0:4> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg IND: + ] RSTR: h6 BODY: h7 ]
- [ "_fraction_n_of_rel"<5:13> LBL: h8 ARG0: x5 ARG1: x9 [ x PERS: 3 NUM: pl IND: + ] ]
- [ _the_q_rel<17:20> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
- [ "_garment_n_1_rel"<21:29> LBL: h13 ARG0: x9 ]
- [ _be_v_id_rel<30:33> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
- [ udef_q_rel<34:59> LBL: h14 ARG0: x3 RSTR: h15 BODY: h16 ]
+RELS: < [ _which_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_fraction_n_of_rel"<5:13> LBL: h7 ARG0: x3 ARG1: x8 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ _the_q_rel<17:20> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ "_garment_n_1_rel"<21:29> LBL: h12 ARG0: x8 ]
+ [ _be_v_id_rel<30:33> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x13 ]
+ [ udef_q_rel<34:59> LBL: h14 ARG0: x13 RSTR: h15 BODY: h16 ]
  [ udef_q_rel<41:48> LBL: h17 ARG0: x18 [ x PERS: 3 NUM: pl IND: + ] RSTR: h19 BODY: h20 ]
  [ "_bikini_n_1_rel"<41:48> LBL: h21 ARG0: x18 ]
- [ _or_c_rel<49:51> LBL: h22 ARG0: x3 L-INDEX: x18 R-INDEX: x23 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ _or_c_rel<49:51> LBL: h22 ARG0: x13 L-INDEX: x18 R-INDEX: x23 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<52:59> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
  [ "_trunk_n_1_rel"<52:59> LBL: h27 ARG0: x23 ] >
-HCONS: < h0 qeq h1 h6 qeq h8 h11 qeq h13 h15 qeq h22 h19 qeq h21 h25 qeq h27 > ]
+HCONS: < h0 qeq h1 h5 qeq h7 h10 qeq h12 h15 qeq h22 h19 qeq h21 h25 qeq h27 > ]
 
 

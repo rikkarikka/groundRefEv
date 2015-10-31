@@ -9,7 +9,7 @@ RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: 
  [ "_magazine_n_1_rel"<13:22> LBL: h13 ARG0: x9 ]
  [ _in_p_rel<23:25> LBL: h1 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x17 [ x PERS: 3 NUM: sg IND: + ] ]
  [ def_explicit_q_rel<26:29> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
- [ poss_rel<26:29> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ARG2: x23 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ poss_rel<26:29> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ARG2: x23 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<26:29> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
  [ pron_rel<26:29> LBL: h27 ARG0: x23 ]
  [ "_cabinet_n_1_rel"<30:38> LBL: h21 ARG0: x17 ] >
@@ -19,10 +19,10 @@ HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h19 qeq h21 h25 qeq h27 > ]
 SENT: She plans to send it to the recycling office in their area.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_plan_v_1_rel"<4:9> LBL: h1 ARG0: e2 ARG1: x3 ARG2: h8 ]
- [ "_send_v_1_rel"<13:17> LBL: h9 ARG0: e10 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x11 [ x PERS: 3 NUM: sg GEND: n PRONTYPE: std_pron ] ARG3: h12 ]
+ [ "_send_v_1_rel"<13:17> LBL: h9 ARG0: e10 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x11 [ x PERS: 3 NUM: sg GEND: n PT: std ] ARG3: h12 ]
  [ pron_rel<18:20> LBL: h13 ARG0: x11 ]
  [ pronoun_q_rel<18:20> LBL: h14 ARG0: x11 RSTR: h15 BODY: h16 ]
  [ _to_p_rel<21:23> LBL: h17 ARG0: e18 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x11 ARG2: x19 [ x PERS: 3 NUM: sg IND: + ] ]
@@ -34,7 +34,7 @@ RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: s
  [ "_office_n_of_rel"<38:44> LBL: h23 ARG0: x19 ARG1: i34 ]
  [ _in_p_rel<45:47> LBL: h23 ARG0: e35 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x19 ARG2: x36 [ x PERS: 3 NUM: sg ] ]
  [ def_explicit_q_rel<48:53> LBL: h37 ARG0: x36 RSTR: h38 BODY: h39 ]
- [ poss_rel<48:53> LBL: h40 ARG0: e41 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x36 ARG2: x42 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+ [ poss_rel<48:53> LBL: h40 ARG0: e41 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x36 ARG2: x42 [ x PERS: 3 NUM: pl PT: std ] ]
  [ pronoun_q_rel<48:53> LBL: h43 ARG0: x42 RSTR: h44 BODY: h45 ]
  [ pron_rel<48:53> LBL: h46 ARG0: x42 ]
  [ "_area_n_of_rel"<54:59> LBL: h40 ARG0: x36 ARG1: i47 ] >
@@ -45,9 +45,9 @@ SENT: If she places it in boxes which can contain 9 magazines, how many boxes wi
 [ LTOP: h0
 INDEX: e2 [ e SF: ques TENSE: fut MOOD: indicative PROG: - PERF: - ]
 RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ARG2: h6 ]
- [ pron_rel<3:6> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pron_rel<3:6> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<3:6> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
- [ "_place_v_1_rel"<7:13> LBL: h12 ARG0: e13 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: x14 [ x PERS: 3 NUM: sg GEND: n PRONTYPE: std_pron ] ARG3: h15 ]
+ [ "_place_v_1_rel"<7:13> LBL: h12 ARG0: e13 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: x14 [ x PERS: 3 NUM: sg GEND: n PT: std ] ARG3: h15 ]
  [ pron_rel<14:16> LBL: h16 ARG0: x14 ]
  [ pronoun_q_rel<14:16> LBL: h17 ARG0: x14 RSTR: h18 BODY: h19 ]
  [ _in_p_rel<17:19> LBL: h20 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x14 ARG2: x22 [ x PERS: 3 NUM: pl IND: + ] ]

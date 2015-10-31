@@ -18,7 +18,7 @@ HCONS: < h0 qeq h1 h5 qeq h7 h14 qeq h16 h22 qeq h24 > ]
 SENT: It stops in the Bahamas, where sailors load 8,723 more tons of cargo onboard.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:2> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: n PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:2> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: n PT: std ] ]
  [ pronoun_q_rel<0:2> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_stop_v_1_rel"<3:8> LBL: h1 ARG0: e2 ARG1: x3 ARG2: p8 ]
  [ _in_p_rel<9:11> LBL: h1 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x10 [ x PERS: 3 NUM: sg IND: + ] ]
@@ -29,7 +29,7 @@ RELS: < [ pron_rel<0:2> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: n PRONTYPE: s
  [ "_sailor_n_1_rel"<31:38> LBL: h23 ARG0: x20 ]
  [ "_load_v_cause_rel"<39:43> LBL: h16 ARG0: e18 ARG1: x20 ARG2: x24 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<44:68> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
- [ card_rel<44:49> LBL: h28 CARG: "8,723" ARG0: i30 ARG1: e31 [ e SF: prop ] ]
+ [ card_rel<44:49> LBL: h28 CARG: "8,723" ARG0: i30 ARG1: e31 [ e SF: prop TENSE: untensed MOOD: indicative ] ]
  [ much-many_a_rel<50:54> LBL: h28 ARG0: e32 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x24 ]
  [ comp_rel<50:54> LBL: h28 ARG0: e31 ARG1: e32 ARG2: u33 ]
  [ "_ton_n_1_rel"<55:59> LBL: h28 ARG0: x24 ]

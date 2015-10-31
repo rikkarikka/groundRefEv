@@ -34,7 +34,7 @@ RELS: < [ _each_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h
  [ udef_q_rel<14:16> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
  [ card_rel<14:16> LBL: h13 CARG: "17" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
  [ "_chapter_n_1_rel"<17:25> LBL: h13 ARG0: x9 ]
- [ _in_p_rel<26:28> LBL: h1 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x17 [ x PERS: 3 NUM: sg GEND: n PRONTYPE: std_pron ] ]
+ [ _in_p_rel<26:28> LBL: h1 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x17 [ x PERS: 3 NUM: sg GEND: n PT: std ] ]
  [ pron_rel<29:32> LBL: h18 ARG0: x17 ]
  [ pronoun_q_rel<29:32> LBL: h19 ARG0: x17 RSTR: h20 BODY: h21 ] >
 HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h20 qeq h18 > ]

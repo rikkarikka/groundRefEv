@@ -21,7 +21,7 @@ HCONS: < h0 qeq h1 h6 qeq h8 h11 qeq h13 h18 qeq h20 h24 qeq h26 h30 qeq h32 > ]
 SENT: They recorded 0.16666666666666666 of a centimeter of rain on Monday, 0.4166666666666667 of a centimeter of rain on Tuesday, and 0.08333333333333333 of a centimeter of rain on Wednesday.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl PT: std ] ]
  [ pronoun_q_rel<0:4> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_record_v_1_rel"<5:13> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl ] ]
  [ part_of_rel<14:33> LBL: h9 ARG0: x8 ARG1: x10 [ x PERS: 3 NUM: sg IND: + ] ]

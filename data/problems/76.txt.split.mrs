@@ -18,7 +18,7 @@ RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: 
  [ named_rel<0:5> LBL: h7 CARG: "Nancy" ARG0: x3 ]
  [ "_place_v_1_rel"<6:12> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<13:28> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
- [ card_rel<13:15> LBL: h13 CARG: "45" ARG0: i15 ARG1: e16 [ e SF: prop ] ]
+ [ card_rel<13:15> LBL: h13 CARG: "45" ARG0: i15 ARG1: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ]
  [ much-many_a_rel<16:20> LBL: h13 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
  [ comp_rel<16:20> LBL: h13 ARG0: e16 ARG1: e17 ARG2: u18 ]
  [ "_pencil_n_1_rel"<21:28> LBL: h13 ARG0: x9 ]

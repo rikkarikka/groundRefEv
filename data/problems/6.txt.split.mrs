@@ -1,0 +1,75 @@
+SENT: Mike had 34 peaches left at his roadside fruit stand.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Mike" ARG0: x3 ]
+ [ "_have_v_prd_rel"<5:8> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl ] ARG3: h10 ]
+ [ udef_q_rel<9:11> LBL: h11 ARG0: x9 RSTR: h12 BODY: h13 ]
+ [ card_rel<9:11> LBL: h14 CARG: "34" ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_peach_n_1_rel"<12:19> LBL: h14 ARG0: x9 ]
+ [ "_leave_v_1_rel"<20:24> LBL: h17 ARG0: e18 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: i19 ARG2: x9 ]
+ [ parg_d_rel<20:24> LBL: h17 ARG0: e20 [ e SF: prop ] ARG1: e18 ARG2: x9 ]
+ [ _at_p_rel<25:27> LBL: h17 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e18 ARG2: x22 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ def_explicit_q_rel<28:31> LBL: h23 ARG0: x22 RSTR: h24 BODY: h25 ]
+ [ poss_rel<28:31> LBL: h26 ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x22 ARG2: x28 [ x PERS: 3 NUM: sg GEND: m PT: std ] ]
+ [ pronoun_q_rel<28:31> LBL: h29 ARG0: x28 RSTR: h30 BODY: h31 ]
+ [ pron_rel<28:31> LBL: h32 ARG0: x28 ]
+ [ "_roadside_a_1_rel"<32:40> LBL: h26 ARG0: e33 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x22 ]
+ [ compound_rel<41:53> LBL: h26 ARG0: e34 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x22 ARG2: x35 ]
+ [ udef_q_rel<41:46> LBL: h36 ARG0: x35 RSTR: h37 BODY: h38 ]
+ [ "_fruit_n_1_rel"<41:46> LBL: h39 ARG0: x35 ]
+ [ "_stand_n_1_rel"<47:53> LBL: h26 ARG0: x22 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h10 qeq h17 h12 qeq h14 h24 qeq h26 h30 qeq h32 h37 qeq h39 > ]
+
+
+SENT: He went to the orchard and picked more peaches to stock up the stand.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:2> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m PT: std ] ]
+ [ pronoun_q_rel<0:2> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_go_v_1_rel"<3:7> LBL: h8 ARG0: e9 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]
+ [ _to_p_rel<8:10> LBL: h8 ARG0: e10 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e9 ARG2: x11 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<11:14> LBL: h12 ARG0: x11 RSTR: h13 BODY: h14 ]
+ [ "_orchard_n_1_rel"<15:22> LBL: h15 ARG0: x11 ]
+ [ _and_c_rel<23:26> LBL: h1 ARG0: e2 L-INDEX: e9 R-INDEX: e16 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h8 R-HNDL: h17 ]
+ [ "_pick_v_1_rel"<27:33> LBL: h17 ARG0: e16 ARG1: x3 ARG2: x18 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<34:46> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ much-many_a_rel<34:38> LBL: h22 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x18 ]
+ [ comp_rel<34:38> LBL: h22 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e23 ARG2: u25 ]
+ [ "_peach_n_1_rel"<39:46> LBL: h22 ARG0: x18 ]
+ [ _to_p_rel<47:49> LBL: h17 ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e16 ARG2: x27 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<50:55> LBL: h28 ARG0: x27 RSTR: h29 BODY: h30 ]
+ [ "_stock_n_1_rel"<50:55> LBL: h31 ARG0: x27 ]
+ [ _up_p_rel<56:58> LBL: h17 ARG0: e32 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e16 ARG2: x33 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<59:62> LBL: h34 ARG0: x33 RSTR: h35 BODY: h36 ]
+ [ "_stand_n_1_rel"<63:69> LBL: h37 ARG0: x33 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h13 qeq h15 h20 qeq h22 h29 qeq h31 h35 qeq h37 > ]
+
+
+SENT: There are now 86 peaches at the stand, how many did he pick ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques ]
+RELS: < [ implicit_conj_rel<0:61> LBL: h1 ARG0: e2 L-INDEX: e4 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] R-INDEX: e5 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h6 R-HNDL: h7 ]
+ [ _be_v_there_rel<6:9> LBL: h8 ARG0: e4 ARG1: x9 [ x PERS: 3 NUM: pl GEND: n ] ]
+ [ temp_loc_x_rel<10:13> LBL: h8 ARG0: e10 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e4 ARG2: i11 ]
+ [ time_n_rel<10:13> LBL: h12 ARG0: i11 ]
+ [ def_implicit_q_rel<10:13> LBL: h13 ARG0: i11 RSTR: h14 BODY: h15 ]
+ [ _now_a_1_rel<10:13> LBL: h12 ARG0: i16 ARG1: i11 ]
+ [ udef_q_rel<14:16> LBL: h17 ARG0: x9 RSTR: h18 BODY: h19 ]
+ [ card_rel<14:16> LBL: h20 CARG: "86" ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_peach_n_1_rel"<17:24> LBL: h20 ARG0: x9 ]
+ [ _at_p_rel<25:27> LBL: h20 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ARG2: x24 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<28:31> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ "_stand_n_1_rel"<32:38> LBL: h28 ARG0: x24 ]
+ [ generic_entity_rel<39:47> LBL: h29 ARG0: x30 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<39:47> LBL: h31 ARG0: x30 RSTR: h32 BODY: h33 ]
+ [ abstr_deg_rel<39:42> LBL: h34 ARG0: i35 ]
+ [ which_q_rel<39:42> LBL: h36 ARG0: i35 RSTR: h37 BODY: h38 ]
+ [ measure_rel<39:42> LBL: h29 ARG0: e39 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e40 [ e SF: prop ] ARG2: i35 ]
+ [ much-many_a_rel<43:47> LBL: h29 ARG0: e40 ARG1: x30 ]
+ [ pron_rel<52:54> LBL: h41 ARG0: x42 [ x PERS: 3 NUM: sg GEND: m PT: std ] ]
+ [ pronoun_q_rel<52:54> LBL: h43 ARG0: x42 RSTR: h44 BODY: h45 ]
+ [ "_pick_v_1_rel"<55:61> LBL: h46 ARG0: e5 ARG1: x42 ARG2: x30 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 h7 qeq h46 h14 qeq h12 h18 qeq h20 h26 qeq h28 h32 qeq h29 h37 qeq h34 h44 qeq h41 > ]
+
+

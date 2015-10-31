@@ -18,7 +18,7 @@ RELS: < [ focus_d_rel<0:75> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ 
  [ named_rel<59:67> LBL: h31 CARG: "Lawrence" ARG0: x27 ]
  [ "_county_n_of_rel"<68:75> LBL: h33 ARG0: x34 [ x PERS: 3 NUM: sg IND: + ] ]
  [ udef_q_rel<68:75> LBL: h35 ARG0: x34 RSTR: h36 BODY: h37 ]
- [ compound_name_rel<68:75> LBL: h31 ARG0: i38 ARG1: x27 ARG2: x34 ] >
+ [ compound_rel<68:75> LBL: h31 ARG0: i38 ARG1: x27 ARG2: x34 ] >
 HCONS: < h0 qeq h1 h8 qeq h10 h14 qeq h16 h20 qeq h22 h29 qeq h31 h36 qeq h33 > ]
 
 

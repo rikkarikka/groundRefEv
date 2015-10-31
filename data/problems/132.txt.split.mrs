@@ -27,7 +27,7 @@ RELS: < [ udef_q_rel<0:19> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h
  [ udef_q_rel<9:13> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
  [ "_golf_n_1_rel"<9:13> LBL: h21 ARG0: x17 ]
  [ "_ball_n_of_rel"<14:19> LBL: h13 ARG0: x5 ARG1: i22 ]
- [ pron_rel<25:28> LBL: h23 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pron_rel<25:28> LBL: h23 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<25:28> LBL: h24 ARG0: x3 RSTR: h25 BODY: h26 ]
  [ "_have_v_1_rel"<29:35> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ] >
 HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h19 qeq h21 h25 qeq h23 > ]

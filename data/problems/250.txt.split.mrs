@@ -18,7 +18,7 @@ RELS: < [ focus_d_rel<0:91> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ 
  [ _the_q_rel<59:62> LBL: h31 ARG0: x30 RSTR: h32 BODY: h33 ]
  [ "_river_n_of_rel"<63:69> LBL: h34 ARG0: x30 ARG1: i35 ]
  [ loc_nonsp_rel<70:75> LBL: h34 ARG0: i36 ARG1: e37 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG2: x30 ]
- [ pron_rel<76:80> LBL: h38 ARG0: x39 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+ [ pron_rel<76:80> LBL: h38 ARG0: x39 [ x PERS: 3 NUM: pl PT: std ] ]
  [ pronoun_q_rel<76:80> LBL: h40 ARG0: x39 RSTR: h41 BODY: h42 ]
  [ "_bear_v_2_rel"<86:91> LBL: h34 ARG0: e37 ARG1: u43 ARG2: x39 ]
  [ parg_d_rel<86:91> LBL: h34 ARG0: e44 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e37 ARG2: x39 ] >
@@ -27,7 +27,7 @@ HCONS: < h0 qeq h1 h9 qeq h11 h13 qeq h15 h18 qeq h6 h19 qeq h20 h26 qeq h28 h32
 
 SENT: This year, 712,261 male and 259,378 female salmon returned to their rivers.
 [ LTOP: h0
-INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative ]
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
 RELS: < [ focus_d_rel<0:75> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
  [ loc_nonsp_rel<0:10> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg IND: + ] ]
  [ _this_q_dem_rel<0:4> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
@@ -44,7 +44,7 @@ RELS: < [ focus_d_rel<0:75> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ 
  [ "_return_v_1_rel"<50:58> LBL: h1 ARG0: e2 ARG1: x3 ]
  [ _to_p_rel<59:61> LBL: h1 ARG0: e30 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x31 [ x PERS: 3 NUM: pl IND: + ] ]
  [ def_explicit_q_rel<62:67> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
- [ poss_rel<62:67> LBL: h35 ARG0: e36 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x31 ARG2: x37 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+ [ poss_rel<62:67> LBL: h35 ARG0: e36 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x31 ARG2: x37 [ x PERS: 3 NUM: pl PT: std ] ]
  [ pronoun_q_rel<62:67> LBL: h38 ARG0: x37 RSTR: h39 BODY: h40 ]
  [ pron_rel<62:67> LBL: h41 ARG0: x37 ]
  [ "_river_n_of_rel"<68:75> LBL: h35 ARG0: x31 ARG1: i42 ] >

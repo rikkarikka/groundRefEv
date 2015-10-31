@@ -1,7 +1,7 @@
 SENT: We ordered 21 pizzas.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:2> LBL: h4 ARG0: x3 [ x PERS: 1 NUM: pl PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:2> LBL: h4 ARG0: x3 [ x PERS: 1 NUM: pl PT: std ] ]
  [ pronoun_q_rel<0:2> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_order_v_1_rel"<3:10> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl ] ]
  [ udef_q_rel<11:13> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]

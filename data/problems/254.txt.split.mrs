@@ -31,7 +31,7 @@ SENT: If they have sold 3,513 pounds of frozen fruit, how many pounds of fresh f
 [ LTOP: h0
 INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
 RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ARG2: h6 ]
- [ pron_rel<3:7> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+ [ pron_rel<3:7> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: pl PT: std ] ]
  [ pronoun_q_rel<3:7> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
  [ "_sell_v_1_rel"<13:17> LBL: h12 ARG0: e13 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: + ] ARG1: x8 ARG2: x14 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<18:47> LBL: h15 ARG0: x14 RSTR: h16 BODY: h17 ]

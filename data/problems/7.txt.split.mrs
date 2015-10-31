@@ -23,7 +23,7 @@ RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: 
  [ "_rose_n_1_rel"<19:24> LBL: h13 ARG0: x9 ]
  [ _from_p_rel<25:29> LBL: h1 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x17 [ x PERS: 3 NUM: sg IND: + ] ]
  [ def_explicit_q_rel<30:33> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
- [ poss_rel<30:33> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ARG2: x23 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ poss_rel<30:33> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ARG2: x23 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<30:33> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
  [ pron_rel<30:33> LBL: h27 ARG0: x23 ]
  [ compound_rel<34:48> LBL: h21 ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ARG2: x29 [ x IND: + ] ]
@@ -59,7 +59,7 @@ RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h
  [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
  [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
  [ "_rose_n_1_rel"<9:14> LBL: h13 ARG0: x5 ]
- [ pron_rel<19:22> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pron_rel<19:22> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<19:22> LBL: h17 ARG0: x3 RSTR: h18 BODY: h19 ]
  [ "_cut_v_1_rel"<23:28> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ] >
 HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h16 > ]

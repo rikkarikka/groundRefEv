@@ -1,6 +1,6 @@
 SENT: While making desserts for a bake sale, Victor used 0.625 of a scoop of brown sugar as well as 0.25 of a scoop of white sugar.
 [ LTOP: h0
-INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative ]
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
 RELS: < [ focus_d_rel<0:125> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
  [ _while_x_rel<0:5> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg GEND: n ] ]
  [ udef_q_rel<6:38> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
@@ -25,7 +25,7 @@ RELS: < [ focus_d_rel<0:125> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [
  [ _of_p_rel<68:70> LBL: h50 ARG0: e51 [ e SF: prop ] ARG1: x41 ARG2: x52 ]
  [ udef_q_rel<71:125> LBL: h53 ARG0: x52 RSTR: h54 BODY: h55 ]
  [ proper_q_rel<71:82> LBL: h56 ARG0: x57 [ x PERS: 3 NUM: sg IND: + ] RSTR: h58 BODY: h59 ]
- [ compound_name_rel<71:82> LBL: h60 ARG0: e61 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x57 ARG2: x62 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ compound_rel<71:82> LBL: h60 ARG0: e61 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x57 ARG2: x62 [ x PERS: 3 NUM: sg IND: + ] ]
  [ proper_q_rel<71:76> LBL: h63 ARG0: x62 RSTR: h64 BODY: h65 ]
  [ named_rel<71:76> LBL: h66 CARG: "Brown" ARG0: x62 ]
  [ named_rel<77:82> LBL: h60 CARG: "Sugar" ARG0: x57 ]
@@ -50,15 +50,15 @@ RELS: < [ udef_q_rel<0:25> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: n IND: - ]
  [ which_q_rel<0:3> LBL: h9 ARG0: i8 RSTR: h10 BODY: h11 ]
  [ measure_rel<0:3> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i8 ]
  [ much-many_a_rel<4:8> LBL: h12 ARG0: e14 ARG1: x3 ]
- [ comp_rel<9:13> LBL: h12 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: u16 ARG2: u17 ]
- [ "_brown_a_1_rel"<14:19> LBL: h12 ARG0: e18 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ]
+ [ comp_rel<9:13> LBL: h12 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: u17 ]
+ [ "_brown_a_1_rel"<14:19> LBL: h12 ARG0: e16 ARG1: x3 ]
  [ "_sugar_n_1_rel"<20:25> LBL: h12 ARG0: x3 ]
- [ "_do_v_1_rel"<26:29> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x19 [ x PERS: 3 NUM: sg ] ]
- [ udef_q_rel<30:41> LBL: h20 ARG0: x19 RSTR: h21 BODY: h22 ]
- [ compound_rel<30:41> LBL: h23 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x19 ARG2: x25 [ x IND: + ] ]
- [ udef_q_rel<30:36> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
- [ "_victor_n_1_rel"<30:36> LBL: h29 ARG0: x25 ]
- [ "_use_n_of_rel"<37:41> LBL: h23 ARG0: x19 ARG1: i30 ] >
-HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 h21 qeq h23 h27 qeq h29 > ]
+ [ "_do_v_1_rel"<26:29> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x18 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<30:41> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ compound_rel<30:41> LBL: h22 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x18 ARG2: x24 [ x IND: + ] ]
+ [ udef_q_rel<30:36> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ "_victor_n_1_rel"<30:36> LBL: h28 ARG0: x24 ]
+ [ "_use_n_of_rel"<37:41> LBL: h22 ARG0: x18 ARG1: i29 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 h20 qeq h22 h26 qeq h28 > ]
 
 

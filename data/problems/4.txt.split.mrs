@@ -29,7 +29,7 @@ RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5
  [ _most_q_rel<13:17> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
  [ part_of_rel<13:17> LBL: h13 ARG0: x9 ARG1: x14 [ x PERS: 3 NUM: pl IND: + ] ]
  [ def_explicit_q_rel<21:26> LBL: h15 ARG0: x14 RSTR: h16 BODY: h17 ]
- [ poss_rel<21:26> LBL: h18 ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x14 ARG2: x20 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+ [ poss_rel<21:26> LBL: h18 ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x14 ARG2: x20 [ x PERS: 3 NUM: pl PT: std ] ]
  [ pronoun_q_rel<21:26> LBL: h21 ARG0: x20 RSTR: h22 BODY: h23 ]
  [ pron_rel<21:26> LBL: h24 ARG0: x20 ]
  [ "_game_n_1_rel"<27:33> LBL: h18 ARG0: x14 ] >
@@ -39,7 +39,7 @@ HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h16 qeq h18 h22 qeq h24 > ]
 SENT: They were defeated during 4 games.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl PT: std ] ]
  [ pronoun_q_rel<0:4> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_defeat_v_1_rel"<10:18> LBL: h1 ARG0: e2 ARG1: i8 ARG2: x3 ]
  [ parg_d_rel<10:18> LBL: h1 ARG0: e9 [ e SF: prop ] ARG1: e2 ARG2: x3 ]
@@ -59,7 +59,7 @@ RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h
  [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
  [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
  [ "_game_n_1_rel"<9:14> LBL: h13 ARG0: x5 ]
- [ pron_rel<19:23> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+ [ pron_rel<19:23> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: pl PT: std ] ]
  [ pronoun_q_rel<19:23> LBL: h17 ARG0: x3 RSTR: h18 BODY: h19 ]
  [ "_win_v_1_rel"<24:29> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ] >
 HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h16 > ]

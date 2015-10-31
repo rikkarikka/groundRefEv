@@ -23,7 +23,7 @@ HCONS: < h0 qeq h1 h6 qeq h8 h11 qeq h13 h18 qeq h20 h26 qeq h28 h32 qeq h34 > ]
 SENT: She attended 13 games.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_attend_v_1_rel"<4:12> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<13:15> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]

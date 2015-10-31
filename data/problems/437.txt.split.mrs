@@ -15,7 +15,7 @@ SENT: If you have 22 pages of stickers, how many stickers do you have?
 [ LTOP: h0
 INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
 RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ARG2: h6 ]
- [ pron_rel<3:6> LBL: h7 ARG0: x8 [ x PERS: 2 PRONTYPE: std_pron ] ]
+ [ pron_rel<3:6> LBL: h7 ARG0: x8 [ x PERS: 2 PT: std ] ]
  [ pronoun_q_rel<3:6> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
  [ "_have_v_1_rel"<7:11> LBL: h12 ARG0: e13 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: x14 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<12:14> LBL: h15 ARG0: x14 RSTR: h16 BODY: h17 ]
@@ -30,7 +30,7 @@ RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MO
  [ measure_rel<34:37> LBL: h36 ARG0: e37 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e38 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i32 ]
  [ much-many_a_rel<38:42> LBL: h36 ARG0: e38 ARG1: x28 ]
  [ "_sticker_n_1_rel"<43:51> LBL: h36 ARG0: x28 ]
- [ pron_rel<55:58> LBL: h39 ARG0: x3 [ x PERS: 2 PRONTYPE: std_pron ] ]
+ [ pron_rel<55:58> LBL: h39 ARG0: x3 [ x PERS: 2 PT: std ] ]
  [ pronoun_q_rel<55:58> LBL: h40 ARG0: x3 RSTR: h41 BODY: h42 ]
  [ "_have_v_1_rel"<59:64> LBL: h43 ARG0: e2 ARG1: x3 ARG2: x28 ] >
 HCONS: < h0 qeq h1 h5 qeq h43 h6 qeq h12 h10 qeq h7 h16 qeq h18 h24 qeq h26 h29 qeq h36 h34 qeq h31 h41 qeq h39 > ]

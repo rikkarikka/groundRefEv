@@ -20,7 +20,7 @@ HCONS: < h0 qeq h1 h5 qeq h7 h13 qeq h15 h19 qeq h21 h24 qeq h9 h25 qeq h26 h30 
 SENT: She paid $9.24 on pants and $8.25 on a shirt with a $20 bill.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_pay_v_for_rel"<4:8> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl IND: + ] ARG3: i9 ]
  [ udef_q_rel<9:61> LBL: h10 ARG0: x8 RSTR: h11 BODY: h12 ]

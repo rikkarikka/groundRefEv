@@ -19,7 +19,7 @@ RELS: < [ focus_d_rel<0:48> LBL: h4 ARG0: e5 [ e SF: prop ] ARG1: e6 [ e SF: pro
  [ card_rel<53:59> LBL: h38 CARG: "16,320" ARG0: e40 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x35 ]
  [ "_people_n_of_rel"<60:66> LBL: h38 ARG0: x35 ARG1: i41 ]
  [ "_immigrated/VBD_u_unknown_rel"<67:77> LBL: h42 ARG0: e31 ARG1: x35 ARG2: p43 ]
- [ _to_p_rel<78:80> LBL: h42 ARG0: e44 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e31 ARG2: x45 [ x PERS: 3 NUM: sg GEND: n PRONTYPE: std_pron ] ]
+ [ _to_p_rel<78:80> LBL: h42 ARG0: e44 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e31 ARG2: x45 [ x PERS: 3 NUM: sg GEND: n PT: std ] ]
  [ pron_rel<81:84> LBL: h46 ARG0: x45 ]
  [ pronoun_q_rel<81:84> LBL: h47 ARG0: x45 RSTR: h48 BODY: h49 ] >
 HCONS: < h0 qeq h1 h32 qeq h4 h10 qeq h12 h16 qeq h18 h27 qeq h29 h33 qeq h42 h36 qeq h38 h48 qeq h46 > ]

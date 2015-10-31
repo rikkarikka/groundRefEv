@@ -15,7 +15,7 @@ RELS: < [ focus_d_rel<0:52> LBL: h4 ARG0: e5 [ e SF: prop ] ARG1: e6 [ e SF: pro
  [ "_nail_n_1_rel"<35:40> LBL: h30 ARG0: x21 ]
  [ _be_v_id_rel<41:44> LBL: h4 ARG0: e6 ARG1: x20 ARG2: x31 [ x PERS: 3 NUM: sg IND: + ] ]
  [ proper_q_rel<45:52> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
- [ compound_name_rel<45:52> LBL: h35 ARG0: e36 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x31 ARG2: x37 [ x PERS: 3 NUM: sg ] ]
+ [ compound_rel<45:52> LBL: h35 ARG0: e36 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x31 ARG2: x37 [ x PERS: 3 NUM: sg ] ]
  [ udef_q_rel<45:49> LBL: h38 ARG0: x37 RSTR: h39 BODY: h40 ]
  [ "_size_n_1_rel"<45:49> LBL: h41 ARG0: x37 ]
  [ named_rel<50:52> LBL: h35 CARG: "2d" ARG0: x31 ]
@@ -27,7 +27,7 @@ RELS: < [ focus_d_rel<0:52> LBL: h4 ARG0: e5 [ e SF: prop ] ARG1: e6 [ e SF: pro
  [ "_nail_n_1_rel"<68:73> LBL: h57 ARG0: x48 ]
  [ _be_v_id_rel<74:77> LBL: h58 ARG0: e43 ARG1: x47 ARG2: x59 [ x PERS: 3 NUM: sg IND: + ] ]
  [ proper_q_rel<78:86> LBL: h60 ARG0: x59 RSTR: h61 BODY: h62 ]
- [ compound_name_rel<78:86> LBL: h63 ARG0: e64 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x59 ARG2: x65 [ x PERS: 3 NUM: sg ] ]
+ [ compound_rel<78:86> LBL: h63 ARG0: e64 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x59 ARG2: x65 [ x PERS: 3 NUM: sg ] ]
  [ udef_q_rel<78:82> LBL: h66 ARG0: x65 RSTR: h67 BODY: h68 ]
  [ "_size_n_1_rel"<78:82> LBL: h69 ARG0: x65 ]
  [ named_rel<83:86> LBL: h63 CARG: "4d" ARG0: x59 ] >
@@ -37,20 +37,20 @@ HCONS: < h0 qeq h1 h44 qeq h4 h10 qeq h12 h16 qeq h18 h23 qeq h19 h28 qeq h30 h3
 SENT: What fraction of the nails are either size 2d or 4d?
 [ LTOP: h0
 INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
-RELS: < [ _which_q_rel<0:4> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg IND: + ] RSTR: h6 BODY: h7 ]
- [ "_fraction_n_of_rel"<5:13> LBL: h8 ARG0: x5 ARG1: x9 [ x PERS: 3 NUM: pl IND: + ] ]
- [ _the_q_rel<17:20> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
- [ "_nail_n_1_rel"<21:26> LBL: h13 ARG0: x9 ]
- [ _be_v_id_rel<27:30> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
- [ udef_q_rel<31:52> LBL: h14 ARG0: x3 RSTR: h15 BODY: h16 ]
+RELS: < [ _which_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_fraction_n_of_rel"<5:13> LBL: h7 ARG0: x3 ARG1: x8 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ _the_q_rel<17:20> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ "_nail_n_1_rel"<21:26> LBL: h12 ARG0: x8 ]
+ [ _be_v_id_rel<27:30> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x13 ]
+ [ udef_q_rel<31:52> LBL: h14 ARG0: x13 RSTR: h15 BODY: h16 ]
  [ proper_q_rel<38:45> LBL: h17 ARG0: x18 [ x PERS: 3 NUM: sg IND: + ] RSTR: h19 BODY: h20 ]
- [ compound_name_rel<38:45> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x18 ARG2: x23 [ x PERS: 3 NUM: sg ] ]
+ [ compound_rel<38:45> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x18 ARG2: x23 [ x PERS: 3 NUM: sg ] ]
  [ udef_q_rel<38:42> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
  [ "_size_n_1_rel"<38:42> LBL: h27 ARG0: x23 ]
  [ named_rel<43:45> LBL: h21 CARG: "2d" ARG0: x18 ]
- [ _or_c_rel<46:48> LBL: h29 ARG0: x3 L-INDEX: x18 R-INDEX: x30 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _or_c_rel<46:48> LBL: h29 ARG0: x13 L-INDEX: x18 R-INDEX: x30 [ x PERS: 3 NUM: sg IND: + ] ]
  [ proper_q_rel<49:52> LBL: h31 ARG0: x30 RSTR: h32 BODY: h33 ]
  [ named_rel<49:52> LBL: h34 CARG: "4d" ARG0: x30 ] >
-HCONS: < h0 qeq h1 h6 qeq h8 h11 qeq h13 h15 qeq h29 h19 qeq h21 h25 qeq h27 h32 qeq h34 > ]
+HCONS: < h0 qeq h1 h5 qeq h7 h10 qeq h12 h15 qeq h29 h19 qeq h21 h25 qeq h27 h32 qeq h34 > ]
 
 

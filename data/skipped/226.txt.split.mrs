@@ -4,7 +4,7 @@ SKIP: On Saturday, Sara spent $10.62 each on 2 tickets to a movie theater.
 SENT: She also rented a movie for $1.59, and bought a movie for $13.95.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_also_a_1_rel"<4:8> LBL: h8 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h10 ]
  [ "_rent_v_1_rel"<9:15> LBL: h11 ARG0: e12 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x13 [ x PERS: 3 NUM: sg IND: + ] ]

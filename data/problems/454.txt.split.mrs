@@ -22,7 +22,7 @@ RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: 
  [ generic_entity_rel<12:16> LBL: h16 ARG0: x17 [ x PERS: 3 NUM: sg ] ]
  [ udef_q_rel<12:16> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
  [ much-many_a_rel<12:16> LBL: h16 ARG0: e21 [ e SF: prop ] ARG1: x17 ]
- [ comp_rel<12:16> LBL: h16 ARG0: e22 [ e SF: prop ] ARG1: e21 ARG2: u23 ]
+ [ comp_rel<12:16> LBL: h16 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e21 ARG2: u23 ]
  [ "_whistle_v_1_rel"<17:25> LBL: h10 ARG0: e24 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x17 ARG2: x9 ]
  [ _than_p_ind_rel<26:30> LBL: h10 ARG0: e25 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ARG2: x26 [ x PERS: 3 NUM: sg IND: + ] ]
  [ proper_q_rel<31:39> LBL: h27 ARG0: x26 RSTR: h28 BODY: h29 ]

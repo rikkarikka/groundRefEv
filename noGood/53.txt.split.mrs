@@ -1,0 +1,58 @@
+SENT: Sally had 27 cards.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:5> LBL: h7 CARG: "Sally" ARG0: x3 ]
+ [ "_have_v_1_rel"<6:9> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<10:12> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<10:12> LBL: h13 CARG: "27" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_card_n_1_rel"<13:19> LBL: h13 ARG0: x9 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
+
+
+SENT: Dan gave her 41 new cards.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:3> LBL: h7 CARG: "Dan" ARG0: x3 ]
+ [ "_give_v_1_rel"<4:8> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ARG3: x10 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
+ [ pron_rel<9:12> LBL: h11 ARG0: x10 ]
+ [ pronoun_q_rel<9:12> LBL: h12 ARG0: x10 RSTR: h13 BODY: h14 ]
+ [ udef_q_rel<13:15> LBL: h15 ARG0: x9 RSTR: h16 BODY: h17 ]
+ [ card_rel<13:15> LBL: h18 CARG: "41" ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_new_a_1_rel"<16:19> LBL: h18 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_card_n_1_rel"<20:26> LBL: h18 ARG0: x9 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h13 qeq h11 h16 qeq h18 > ]
+
+
+SENT: Sally bought 20 cards.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:5> LBL: h7 CARG: "Sally" ARG0: x3 ]
+ [ "_buy_v_1_rel"<6:12> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<13:15> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<13:15> LBL: h13 CARG: "20" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_card_n_1_rel"<16:22> LBL: h13 ARG0: x9 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
+
+
+SENT: How many cards does Sally have now ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_card_n_1_rel"<9:14> LBL: h13 ARG0: x5 ]
+ [ proper_q_rel<20:25> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h17 BODY: h18 ]
+ [ named_rel<20:25> LBL: h19 CARG: "Sally" ARG0: x3 ]
+ [ "_have_v_1_rel"<26:30> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ loc_nonsp_rel<31:36> LBL: h1 ARG0: e21 [ e SF: prop ] ARG1: e2 ARG2: x22 [ x PERS: 3 NUM: sg ] ]
+ [ time_n_rel<31:36> LBL: h23 ARG0: x22 ]
+ [ def_implicit_q_rel<31:36> LBL: h24 ARG0: x22 RSTR: h25 BODY: h26 ]
+ [ _now_a_1_rel<31:36> LBL: h23 ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x22 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h17 qeq h19 h25 qeq h23 > ]
+
+

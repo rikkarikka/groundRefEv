@@ -25,16 +25,16 @@ SENT: How much did it snow on Monday and Tuesday combined?
 INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
 RELS: < [ abstr_deg_rel<0:3> LBL: h4 ARG0: i5 ]
  [ which_q_rel<0:3> LBL: h6 ARG0: i5 RSTR: h7 BODY: h8 ]
- [ measure_rel<0:3> LBL: h9 ARG0: e10 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: i11 ARG2: i5 ]
- [ "_much_a_1_rel"<4:8> LBL: h9 ARG0: e12 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e13 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ] ]
- [ "_snow_v_1_rel"<16:20> LBL: h9 ARG0: e13 ]
- [ _on_p_temp_rel<21:23> LBL: h9 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e13 ARG2: x15 [ x PERS: 3 NUM: sg IND: + ] ]
- [ proper_q_rel<24:30> LBL: h16 ARG0: x15 RSTR: h17 BODY: h18 ]
- [ dofw_rel<24:30> LBL: h19 CARG: "Mon" ARG0: x15 ]
- [ _and_c_rel<31:34> LBL: h1 ARG0: e2 L-INDEX: e13 R-INDEX: e21 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h22 R-HNDL: h23 ]
- [ proper_q_rel<35:42> LBL: h24 ARG0: x25 [ x PERS: 3 NUM: sg IND: + ] RSTR: h26 BODY: h27 ]
- [ dofw_rel<35:42> LBL: h28 CARG: "Tue" ARG0: x25 ]
- [ "_combine_v_1_rel"<43:52> LBL: h30 ARG0: e21 ARG1: x25 ] >
-HCONS: < h0 qeq h1 h22 qeq h9 h7 qeq h4 h17 qeq h19 h23 qeq h30 h26 qeq h28 > ]
+ [ measure_rel<0:3> LBL: h9 ARG0: e10 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG2: i5 ]
+ [ "_much_a_1_rel"<4:8> LBL: h9 ARG0: e11 ARG1: e12 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ] ]
+ [ "_snow_v_1_rel"<16:20> LBL: h9 ARG0: e12 ]
+ [ _on_p_temp_rel<21:23> LBL: h9 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e12 ARG2: x14 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<24:30> LBL: h15 ARG0: x14 RSTR: h16 BODY: h17 ]
+ [ dofw_rel<24:30> LBL: h18 CARG: "Mon" ARG0: x14 ]
+ [ _and_c_rel<31:34> LBL: h1 ARG0: e2 L-INDEX: e12 R-INDEX: e20 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h21 R-HNDL: h22 ]
+ [ proper_q_rel<35:42> LBL: h23 ARG0: x24 [ x PERS: 3 NUM: sg IND: + ] RSTR: h25 BODY: h26 ]
+ [ dofw_rel<35:42> LBL: h27 CARG: "Tue" ARG0: x24 ]
+ [ "_combine_v_1_rel"<43:52> LBL: h29 ARG0: e20 ARG1: x24 ] >
+HCONS: < h0 qeq h1 h21 qeq h9 h7 qeq h4 h16 qeq h18 h22 qeq h29 h25 qeq h27 > ]
 
 

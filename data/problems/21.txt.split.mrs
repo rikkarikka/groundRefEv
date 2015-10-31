@@ -15,13 +15,13 @@ HCONS: < h0 qeq h1 h6 qeq h8 h11 qeq h13 h17 qeq h19 > ]
 SENT: She gave 7 to her friends.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_give_v_1_rel"<4:8> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: sg ] ARG3: x9 [ x PERS: 3 NUM: pl IND: + ] ]
  [ number_q_rel<9:10> LBL: h10 ARG0: x8 RSTR: h11 BODY: h12 ]
  [ card_rel<9:10> LBL: h13 CARG: "7" ARG0: x8 ARG1: i15 ]
  [ def_explicit_q_rel<14:17> LBL: h16 ARG0: x9 RSTR: h17 BODY: h18 ]
- [ poss_rel<14:17> LBL: h19 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x9 ARG2: x21 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ poss_rel<14:17> LBL: h19 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x9 ARG2: x21 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<14:17> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
  [ pron_rel<14:17> LBL: h25 ARG0: x21 ]
  [ "_friend_n_1_rel"<18:26> LBL: h19 ARG0: x9 ] >
@@ -31,7 +31,7 @@ HCONS: < h0 qeq h1 h6 qeq h4 h11 qeq h13 h17 qeq h19 h23 qeq h25 > ]
 SENT: She now has 5 puppies left.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_now_a_1_rel"<4:7> LBL: h1 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ]
  [ "_have_v_prd_rel"<8:11> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ARG3: h10 ]
@@ -52,7 +52,7 @@ RELS: < [ udef_q_rel<0:16> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h
  [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
  [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
  [ "_puppy_n_1_rel"<9:16> LBL: h13 ARG0: x5 ]
- [ pron_rel<21:24> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pron_rel<21:24> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<21:24> LBL: h17 ARG0: x3 RSTR: h18 BODY: h19 ]
  [ "_have_v_qmodal_rel"<25:29> LBL: h1 ARG0: e2 ARG1: h20 ]
  [ "_start_v_1_rel"<33:38> LBL: h21 ARG0: e22 [ e SF: prop-or-ques TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ]

@@ -1,6 +1,6 @@
 SENT: For the final act, the circus brought out dancing animals wearing crowns.
 [ LTOP: h0
-INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative ]
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
 RELS: < [ focus_d_rel<0:73> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
  [ _for_p_rel<0:3> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg IND: + ] ]
  [ _the_q_rel<4:7> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
@@ -34,7 +34,7 @@ RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MO
  [ compound_rel<29:46> LBL: h22 ARG0: e25 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x18 ARG2: x26 ]
  [ udef_q_rel<29:46> LBL: h27 ARG0: x26 RSTR: h28 BODY: h29 ]
  [ "_different_a_than-from_rel"<29:38> LBL: h30 ARG0: e31 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x26 ]
- [ comp_rel<29:38> LBL: h30 ARG0: e32 [ e SF: prop ] ARG1: e31 ARG2: u33 ]
+ [ comp_rel<29:38> LBL: h30 ARG0: e32 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e31 ARG2: u33 ]
  [ "_color_n_1_rel"<39:46> LBL: h30 ARG0: x26 ]
  [ "_feather_n_1_rel"<47:56> LBL: h22 ARG0: x18 ]
  [ udef_q_rel<57:74> LBL: h34 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h35 BODY: h36 ]

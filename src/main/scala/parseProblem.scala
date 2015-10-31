@@ -4,8 +4,17 @@ import scala.collection.mutable.ListBuffer
 import java.io._
 import libsvm.svm._
 
-object rels {
+object globals {
         def REL_LIST= Source.fromFile("data/rel_list.txt").mkString.split("\n").distinct
+        val probdir = "data/problems/"
+        val dir = new File(probdir)
+        val problems = dir.list filter (_.endsWith("mrs"))
+        var answers = Source.fromFile("data/a.txt").mkString.split("\n") map (_.toFloat)
+        var equations = Source.fromFile("data/eq.txt").mkString.split("\n")
+        def close(a:Float,b:Float,thresh:Double=0.001): Boolean = {
+            return Math.abs(a-b)<thresh
+        }
+
 }
 
 object parseQuestion {
@@ -49,6 +58,16 @@ object parseQuestion {
             return w
 
 	}
+
+        
+        def cannonicalize(l:Float,r:Float, a:Float): String = {
+            if (globals.close(l+r,a)) return "+"
+            if (globals.close(l-r,a)||globals.close(r-l,a)) return "-"
+            if (globals.close(l*r,a)) return "*"
+            if (globals.close(l/r,a)||globals.close(r/l,a)) return "/"
+            else return "fail"
+        }
+
     
         def parseEquation(e:String): List[String] = {
             var r = """(\d*\.?\d+|[x+\-\*\/\=])""".r
@@ -57,16 +76,24 @@ object parseQuestion {
 
         def solveProblem(w:World, a:Float, e:String): Int = {
             //val numbers = w.numbers map (_.card)//w.EntityID map (_._2) filter (_.card != None) filter (_.card.asInstanceOf[String].charAt(0).isDigit) map (_.card.asInstanceOf[String].toFloat)
+            val eqValues = parseEquation(e) filter (x=>(x.charAt(0).isDigit)&&(x != "0.0"))
+            var op = cannonicalize(eqValues(0).toFloat,eqValues(1).toFloat,a)
+            if (eqValues.toList.length>2) op = "fail"
+            /*
             val eqValues = parseEquation(e) map (x=>if (x=="x") "0.0" else x)
 	    val op = eqValues filter (List("+","-","/","*") contains _)
 	    val opIdx = eqValues.indexOf(op(0))
 	    val lOperand = w.numbers filter (x => x.card == eqValues(opIdx-1).toFloat) 
 	    val rOperand = w.numbers filter (x => x.card == eqValues(opIdx+1).toFloat)
-	    val vec = w.vector(rels.REL_LIST,lOperand(0),rOperand(0))
-	    
+	    */
+            //if (op=="fail") {print(eqValues);print(a)}
+	    val lOperand = w.numbers filter (x => x.card == eqValues(0).toFloat) 
+	    val rOperand = w.numbers filter (x => x.card == eqValues(1).toFloat)
+	    val vec = w.vector(globals.REL_LIST,lOperand(0),rOperand(0))
 	    var j=1
 	    var opID = 0
-	    op(0) match {
+	    //op(0) match {
+	    op match {
 		    case "+" => opID = 0
 		    case "-" => opID = 1
 		    case "*" => opID = 2
@@ -113,6 +140,17 @@ object parseQuestion {
 	}
 	    
 
+        def listRels() {
+            var rels = new ListBuffer[String]
+            globals.problems foreach { x => 
+                var fi = Source.fromFile(globals.probdir+x)
+		var sentences = fi.mkString.split("\n\n") filter (! _.trim.isEmpty)
+		fi.close()
+                val w = parseStory(sentences)
+                w.numbers foreach {x=>x.relations foreach {y=>rels += y.r}}
+            }
+            rels.distinct foreach println
+        }
 
         def rel_list(w:World) {
             val numbers = w.numbers //w.EntityID map (_._2) filter (_.card != None) filter (_.card.asInstanceOf[String].charAt(0).isDigit)
@@ -150,6 +188,27 @@ object parseQuestion {
             if (total == a) return 1
             else return 0
         }
+
+        def dev() {
+            val dev = Source.fromFile("data/dev.indexes").mkString.split("\n").toList 
+            val problems = globals.problems filter { x => (dev contains x)}
+            val m = libsvm.svm.svm_load_model("data/simple.m")
+            var right = 0
+            problems foreach { x =>
+                var fi = Source.fromFile(globals.probdir+x)
+
+                var pidx = x.split("\\.")(0).toInt
+		var sentences = fi.mkString.split("\n\n") filter (! _.trim.isEmpty)
+		fi.close()
+                val w = parseStory(sentences)
+                right += dev_results(m,w,globals.answers(pidx),globals.REL_LIST)
+            }
+            println(f"right $right%d ; total ${problems.length}%d ; acc ${right/problems.length}%2.2f")
+        }
+
+
+
+
 
         def train() {
 
@@ -197,6 +256,9 @@ object parseQuestion {
             val dir = new File(probdir)
             var files = new Array[String](0)
             args(0) match {
+                case "listRels" => {
+                    listRels()
+                }
 		case "ILP" => {
 		    ILPout()
 		}

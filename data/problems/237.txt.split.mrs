@@ -13,15 +13,18 @@ RELS: < [ _a_q_rel<0:1> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg ] RSTR: h5 BODY: h6
  [ _in_p_rel<34:36> LBL: h1 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x23 [ x PERS: 3 NUM: pl ] ]
  [ udef_q_rel<37:76> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
  [ proper_q_rel<37:50> LBL: h27 ARG0: x28 [ x PERS: 3 NUM: sg IND: + ] RSTR: h29 BODY: h30 ]
- [ named_rel<37:50> LBL: h31 CARG: "North_America" ARG0: x28 ]
- [ _and_c_rel<51:54> LBL: h33 ARG0: x23 L-INDEX: x28 R-INDEX: x34 [ x PERS: 3 NUM: pl IND: + ] ]
- [ udef_q_rel<55:60> LBL: h35 ARG0: x34 RSTR: h36 BODY: h37 ]
- [ card_rel<55:60> LBL: h38 CARG: "2,871" ARG0: e40 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x34 ]
- [ "_car_n_1_rel"<61:65> LBL: h38 ARG0: x34 ]
- [ _in_p_rel<66:68> LBL: h38 ARG0: e41 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x34 ARG2: x42 [ x PERS: 3 NUM: sg IND: + ] ]
- [ proper_q_rel<69:76> LBL: h43 ARG0: x42 RSTR: h44 BODY: h45 ]
- [ named_rel<69:76> LBL: h46 CARG: "Europe" ARG0: x42 ] >
-HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h17 qeq h19 h25 qeq h33 h29 qeq h31 h36 qeq h38 h44 qeq h46 > ]
+ [ compound_rel<37:50> LBL: h31 ARG0: e32 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x28 ARG2: x33 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<37:42> LBL: h34 ARG0: x33 RSTR: h35 BODY: h36 ]
+ [ named_rel<37:42> LBL: h37 CARG: "North" ARG0: x33 ]
+ [ named_rel<43:50> LBL: h31 CARG: "America" ARG0: x28 ]
+ [ _and_c_rel<51:54> LBL: h40 ARG0: x23 L-INDEX: x28 R-INDEX: x41 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<55:60> LBL: h42 ARG0: x41 RSTR: h43 BODY: h44 ]
+ [ card_rel<55:60> LBL: h45 CARG: "2,871" ARG0: e47 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x41 ]
+ [ "_car_n_1_rel"<61:65> LBL: h45 ARG0: x41 ]
+ [ _in_p_rel<66:68> LBL: h45 ARG0: e48 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x41 ARG2: x49 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<69:76> LBL: h50 ARG0: x49 RSTR: h51 BODY: h52 ]
+ [ named_rel<69:76> LBL: h53 CARG: "Europe" ARG0: x49 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h17 qeq h19 h25 qeq h40 h29 qeq h31 h35 qeq h37 h43 qeq h45 h51 qeq h53 > ]
 
 
 SENT: How many cars is that in all?

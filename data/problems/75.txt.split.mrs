@@ -25,7 +25,7 @@ RELS: < [ udef_q_rel<0:12> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h
  [ "_worker_n_1_rel"<5:12> LBL: h7 ARG0: x3 ]
  [ "_plant_v_1_rel"<18:23> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x14 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<24:45> LBL: h15 ARG0: x14 RSTR: h16 BODY: h17 ]
- [ card_rel<24:26> LBL: h18 CARG: "49" ARG0: i20 ARG1: e21 [ e SF: prop ] ]
+ [ card_rel<24:26> LBL: h18 CARG: "49" ARG0: i20 ARG1: e21 [ e SF: prop TENSE: untensed MOOD: indicative ] ]
  [ much-many_a_rel<27:31> LBL: h18 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x14 ]
  [ comp_rel<27:31> LBL: h18 ARG0: e21 ARG1: e22 ARG2: u23 ]
  [ compound_rel<32:45> LBL: h18 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x14 ARG2: x25 ]

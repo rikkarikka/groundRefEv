@@ -1,0 +1,74 @@
+SENT: Logan recorded the snowfall every day during a snowstorm.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:5> LBL: h7 CARG: "Logan" ARG0: x3 ]
+ [ "_record_v_1_rel"<6:14> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: sg ] ]
+ [ _the_q_rel<15:18> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ "_snowfall_n_1_rel"<19:27> LBL: h13 ARG0: x9 ]
+ [ loc_nonsp_rel<28:37> LBL: h1 ARG0: e14 [ e SF: prop ] ARG1: e2 ARG2: x15 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _every_q_rel<28:33> LBL: h16 ARG0: x15 RSTR: h17 BODY: h18 ]
+ [ "_day_n_of_rel"<34:37> LBL: h19 ARG0: x15 ARG1: i20 ]
+ [ _during_p_rel<38:44> LBL: h1 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x22 [ x PERS: 3 NUM: sg ] ]
+ [ _a_q_rel<45:46> LBL: h23 ARG0: x22 RSTR: h24 BODY: h25 ]
+ [ "_snowstorm/NN_u_unknown_rel"<47:57> LBL: h26 ARG0: x22 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h17 qeq h19 h24 qeq h26 > ]
+
+
+SENT: He recorded 0.3333333333333333 of a centimeter on Wednesday, 0.3333333333333333 of a centimeter on Thursday, and 0.2222222222222222 of a centimeter on Friday.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:2> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m PT: std ] ]
+ [ pronoun_q_rel<0:2> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_record_v_1_rel"<3:11> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<12:30> LBL: h9 ARG0: x8 ARG1: x10 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<12:30> LBL: h11 ARG0: x8 RSTR: h12 BODY: h13 ]
+ [ card_rel<12:30> LBL: h9 CARG: "0.3333333333333333" ARG0: e15 [ e SF: prop ] ARG1: x8 ]
+ [ _a_q_rel<34:35> LBL: h16 ARG0: x10 RSTR: h17 BODY: h18 ]
+ [ "_centimeter_n_1_rel"<36:46> LBL: h19 ARG0: x10 ]
+ [ _on_p_temp_rel<47:49> LBL: h19 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x10 ARG2: x21 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<50:158> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ proper_q_rel<50:60> LBL: h25 ARG0: x26 [ x PERS: 3 NUM: sg IND: + ] RSTR: h27 BODY: h28 ]
+ [ dofw_rel<50:60> LBL: h29 CARG: "Wed" ARG0: x26 ]
+ [ udef_q_rel<61:158> LBL: h31 ARG0: x32 [ x PERS: 3 NUM: pl ] RSTR: h33 BODY: h34 ]
+ [ implicit_conj_rel<61:158> LBL: h35 ARG0: x21 L-INDEX: x26 R-INDEX: x32 ]
+ [ part_of_rel<61:79> LBL: h36 ARG0: x37 [ x PERS: 3 NUM: pl ] ARG1: x38 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<61:79> LBL: h39 ARG0: x37 RSTR: h40 BODY: h41 ]
+ [ card_rel<61:79> LBL: h36 CARG: "0.3333333333333333" ARG0: e43 [ e SF: prop ] ARG1: x37 ]
+ [ _a_q_rel<83:84> LBL: h44 ARG0: x38 RSTR: h45 BODY: h46 ]
+ [ "_centimeter_n_1_rel"<85:95> LBL: h47 ARG0: x38 ]
+ [ _on_p_temp_rel<96:98> LBL: h47 ARG0: e48 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x38 ARG2: x49 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<99:108> LBL: h50 ARG0: x49 RSTR: h51 BODY: h52 ]
+ [ dofw_rel<99:108> LBL: h53 CARG: "Thu" ARG0: x49 ]
+ [ _and_c_rel<109:112> LBL: h55 ARG0: x32 L-INDEX: x37 R-INDEX: x56 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<113:131> LBL: h57 ARG0: x56 ARG1: x58 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<113:131> LBL: h59 ARG0: x56 RSTR: h60 BODY: h61 ]
+ [ card_rel<113:131> LBL: h57 CARG: "0.2222222222222222" ARG0: e63 [ e SF: prop ] ARG1: x56 ]
+ [ _a_q_rel<135:136> LBL: h64 ARG0: x58 RSTR: h65 BODY: h66 ]
+ [ "_centimeter_n_1_rel"<137:147> LBL: h67 ARG0: x58 ]
+ [ _on_p_temp_rel<148:150> LBL: h67 ARG0: e68 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x58 ARG2: x69 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<151:158> LBL: h70 ARG0: x69 RSTR: h71 BODY: h72 ]
+ [ dofw_rel<151:158> LBL: h73 CARG: "Fri" ARG0: x69 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h12 qeq h9 h17 qeq h19 h23 qeq h35 h27 qeq h29 h33 qeq h55 h40 qeq h36 h45 qeq h47 h51 qeq h53 h60 qeq h57 h65 qeq h67 h71 qeq h73 > ]
+
+
+SENT: How many total centimeters of snow did Logan record?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ loc_nonsp_rel<0:34> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x5 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<0:34> LBL: h6 ARG0: x5 RSTR: h7 BODY: h8 ]
+ [ abstr_deg_rel<0:3> LBL: h9 ARG0: i10 ]
+ [ which_q_rel<0:3> LBL: h11 ARG0: i10 RSTR: h12 BODY: h13 ]
+ [ measure_rel<0:3> LBL: h14 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e16 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG2: i10 ]
+ [ much-many_a_rel<4:8> LBL: h14 ARG0: e16 ARG1: x5 ]
+ [ "_total_a_1_rel"<9:14> LBL: h14 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x5 ]
+ [ "_centimeter_n_1_rel"<15:26> LBL: h14 ARG0: x5 ]
+ [ _of_p_rel<27:29> LBL: h14 ARG0: e18 [ e SF: prop ] ARG1: x5 ARG2: x19 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<30:34> LBL: h20 ARG0: x19 RSTR: h21 BODY: h22 ]
+ [ "_snow_n_1_rel"<30:34> LBL: h23 ARG0: x19 ]
+ [ proper_q_rel<39:44> LBL: h24 ARG0: x25 [ x PERS: 3 NUM: sg IND: + ] RSTR: h26 BODY: h27 ]
+ [ named_rel<39:44> LBL: h28 CARG: "Logan" ARG0: x25 ]
+ [ "_record_v_1_rel"<45:52> LBL: h1 ARG0: e2 ARG1: x25 ARG2: p30 ] >
+HCONS: < h0 qeq h1 h7 qeq h14 h12 qeq h9 h21 qeq h23 h26 qeq h28 > ]
+
+

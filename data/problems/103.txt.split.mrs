@@ -14,7 +14,7 @@ RELS: < [ _be_v_there_rel<6:10> LBL: h1 ARG0: e2 ARG1: x4 [ x PERS: 3 NUM: sg IN
  [ _the_q_rel<45:48> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
  [ compound_rel<49:64> LBL: h27 ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x23 ARG2: x29 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<49:56> LBL: h30 ARG0: x29 RSTR: h31 BODY: h32 ]
- [ card_rel<49:50> LBL: h33 CARG: "3" ARG0: e35 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x29 ]
+ [ card_rel<49:50> LBL: h33 CARG: "3" ARG0: e35 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x29 ]
  [ "_month_n_1_rel"<51:56> LBL: h33 ARG0: x29 ]
  [ season_rel<57:64> LBL: h27 CARG: "season" ARG0: x23 ] >
 HCONS: < h0 qeq h1 h6 qeq h8 h11 qeq h13 h19 qeq h21 h25 qeq h27 h31 qeq h33 > ]

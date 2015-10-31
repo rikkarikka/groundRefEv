@@ -33,7 +33,7 @@ RELS: < [ proper_q_rel<0:6> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: 
  [ _in_p_rel<36:38> LBL: h20 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ARG2: x25 [ x PERS: 3 NUM: pl ] ]
  [ udef_q_rel<39:56> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
  [ "_different_a_than-from_rel"<39:48> LBL: h29 ARG0: e30 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x25 ]
- [ comp_rel<39:48> LBL: h29 ARG0: e31 [ e SF: prop ] ARG1: e30 ARG2: u32 ]
+ [ comp_rel<39:48> LBL: h29 ARG0: e31 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e30 ARG2: u32 ]
  [ "_color_n_1_rel"<49:56> LBL: h29 ARG0: x25 ] >
 HCONS: < h0 qeq h1 h5 qeq h7 h13 qeq h15 h18 qeq h20 h27 qeq h29 > ]
 
@@ -60,20 +60,20 @@ RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MO
  [ _of_p_rel<72:74> LBL: h43 ARG0: e44 [ e SF: prop ] ARG1: x39 ARG2: x45 [ x PERS: 3 NUM: sg ] ]
  [ udef_q_rel<75:80> LBL: h46 ARG0: x45 RSTR: h47 BODY: h48 ]
  [ "_paint_n_1_rel"<75:80> LBL: h49 ARG0: x45 ]
- [ "_use_v_1_rel"<81:86> LBL: h43 ARG0: e50 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: i51 ARG2: x39 ]
- [ parg_d_rel<81:86> LBL: h43 ARG0: e52 [ e SF: prop ] ARG1: e50 ARG2: x39 ]
- [ udef_q_rel<87:102> LBL: h53 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h54 BODY: h55 ]
- [ abstr_deg_rel<87:90> LBL: h56 ARG0: i57 ]
- [ which_q_rel<87:90> LBL: h58 ARG0: i57 RSTR: h59 BODY: h60 ]
- [ measure_rel<87:90> LBL: h61 ARG0: e62 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e63 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i57 ]
- [ much-many_a_rel<91:95> LBL: h61 ARG0: e63 ARG1: x3 ]
- [ "_color_n_1_rel"<96:102> LBL: h61 ARG0: x3 ]
+ [ udef_q_rel<81:102> LBL: h50 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h51 BODY: h52 ]
+ [ "_use_v_1_rel"<81:86> LBL: h53 ARG0: e54 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: i55 ARG2: x3 ]
+ [ parg_d_rel<81:86> LBL: h53 ARG0: e56 [ e SF: prop ] ARG1: e54 ARG2: x3 ]
+ [ abstr_deg_rel<87:90> LBL: h57 ARG0: i58 ]
+ [ which_q_rel<87:90> LBL: h59 ARG0: i58 RSTR: h60 BODY: h61 ]
+ [ measure_rel<87:90> LBL: h53 ARG0: e62 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e63 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i58 ]
+ [ much-many_a_rel<91:95> LBL: h53 ARG0: e63 ARG1: x3 ]
+ [ "_color_n_1_rel"<96:102> LBL: h53 ARG0: x3 ]
  [ "_do_v_1_rel"<103:106> LBL: h64 ARG0: e2 ARG1: x3 ARG2: x65 [ x PERS: 3 NUM: sg ] ]
  [ udef_q_rel<107:118> LBL: h66 ARG0: x65 RSTR: h67 BODY: h68 ]
  [ compound_rel<107:118> LBL: h69 ARG0: e70 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x65 ARG2: x71 [ x IND: + ] ]
  [ proper_q_rel<107:113> LBL: h72 ARG0: x71 RSTR: h73 BODY: h74 ]
  [ named_rel<107:113> LBL: h75 CARG: "Shiela" ARG0: x71 ]
  [ "_use_n_of_rel"<114:118> LBL: h69 ARG0: x65 ARG1: i77 ] >
-HCONS: < h0 qeq h1 h5 qeq h64 h6 qeq h25 h28 qeq h13 h9 qeq h11 h17 qeq h19 h29 qeq h30 h33 qeq h35 h41 qeq h43 h47 qeq h49 h54 qeq h61 h59 qeq h56 h67 qeq h69 h73 qeq h75 > ]
+HCONS: < h0 qeq h1 h5 qeq h64 h6 qeq h25 h28 qeq h13 h9 qeq h11 h17 qeq h19 h29 qeq h30 h33 qeq h35 h41 qeq h43 h47 qeq h49 h51 qeq h53 h60 qeq h57 h67 qeq h69 h73 qeq h75 > ]
 
 

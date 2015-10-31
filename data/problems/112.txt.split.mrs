@@ -10,7 +10,7 @@ RELS: < [ _be_v_there_rel<6:10> LBL: h1 ARG0: e2 ARG1: x4 [ x PERS: 3 NUM: sg IN
  [ udef_q_rel<26:34> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
  [ "_football_n_1_rel"<26:34> LBL: h21 ARG0: x17 ]
  [ "_game_n_1_rel"<35:40> LBL: h13 ARG0: x9 ]
- [ _in_p_temp_rel<41:43> LBL: h1 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x23 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _in_p_temp_rel<41:43> LBL: h1 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x4 ARG2: x23 [ x PERS: 3 NUM: sg IND: + ] ]
  [ _the_q_rel<44:47> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
  [ season_rel<48:55> LBL: h27 CARG: "season" ARG0: x23 ] >
 HCONS: < h0 qeq h1 h6 qeq h8 h11 qeq h13 h19 qeq h21 h25 qeq h27 > ]
@@ -53,7 +53,7 @@ RELS: < [ udef_q_rel<0:23> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h
  [ "_have_v_1_rel"<62:65> LBL: h38 ARG0: e39 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x34 ARG2: x40 [ x PERS: 3 NUM: sg IND: + ] ]
  [ _the_q_rel<66:69> LBL: h41 ARG0: x40 RSTR: h42 BODY: h43 ]
  [ "_same_a_as_rel"<70:74> LBL: h44 ARG0: e45 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x40 ]
- [ comp_equal_rel<70:74> LBL: h44 ARG0: e46 [ e SF: prop ] ARG1: e45 ARG2: u47 ]
+ [ comp_equal_rel<70:74> LBL: h44 ARG0: e46 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e45 ARG2: u47 ]
  [ "_number_n_of_rel"<75:81> LBL: h44 ARG0: x40 ARG1: x48 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<85:91> LBL: h49 ARG0: x48 RSTR: h50 BODY: h51 ]
  [ "_game_n_1_rel"<85:91> LBL: h52 ARG0: x48 ] >

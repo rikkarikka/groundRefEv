@@ -20,7 +20,7 @@ SENT: If she works for 12 hours, how much money will she make ?
 [ LTOP: h0
 INDEX: e2 [ e SF: ques TENSE: fut MOOD: indicative PROG: - PERF: - ]
 RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ARG2: h6 ]
- [ pron_rel<3:6> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pron_rel<3:6> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<3:6> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
  [ "_work_v_1_rel"<7:12> LBL: h12 ARG0: e13 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: p14 ]
  [ _for_p_rel<13:16> LBL: h12 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e13 ARG2: x16 [ x PERS: 3 NUM: pl IND: + ] ]
@@ -33,7 +33,7 @@ RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MO
  [ measure_rel<27:30> LBL: h32 ARG0: e33 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e34 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i28 ]
  [ much-many_a_rel<31:35> LBL: h32 ARG0: e34 ARG1: x24 ]
  [ "_money_n_1_rel"<36:41> LBL: h32 ARG0: x24 ]
- [ pron_rel<47:50> LBL: h35 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pron_rel<47:50> LBL: h35 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<47:50> LBL: h36 ARG0: x3 RSTR: h37 BODY: h38 ]
  [ "_make_v_1_rel"<51:57> LBL: h39 ARG0: e2 ARG1: x3 ARG2: x24 ARG3: u40 ] >
 HCONS: < h0 qeq h1 h5 qeq h39 h6 qeq h12 h10 qeq h7 h18 qeq h20 h25 qeq h32 h30 qeq h27 h37 qeq h35 > ]

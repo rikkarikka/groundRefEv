@@ -58,7 +58,7 @@ RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: 
  [ "_concert_n_1_rel"<22:30> LBL: h14 ARG0: x10 ]
  [ "_have_v_1_rel"<37:40> LBL: h14 ARG0: e17 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x10 ARG2: x18 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<41:71> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
- [ card_rel<41:44> LBL: h22 CARG: "119" ARG0: i24 ARG1: e25 [ e SF: prop ] ]
+ [ card_rel<41:44> LBL: h22 CARG: "119" ARG0: i24 ARG1: e25 [ e SF: prop TENSE: untensed MOOD: indicative ] ]
  [ much-many_a_rel<45:49> LBL: h22 ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x18 ]
  [ comp_rel<45:49> LBL: h22 ARG0: e25 ARG1: e26 ARG2: u27 ]
  [ "_people_n_of_rel"<50:56> LBL: h22 ARG0: x18 ARG1: i28 ]

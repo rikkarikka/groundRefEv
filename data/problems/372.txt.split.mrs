@@ -1,0 +1,48 @@
+SENT: In March it rained 0.81 inches.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ focus_d_rel<0:31> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
+ [ _in_p_temp_rel<0:2> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<3:8> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
+ [ mofy_rel<3:8> LBL: h10 CARG: "Mar" ARG0: x6 ]
+ [ "_rain_v_1_rel"<12:18> LBL: h1 ARG0: e2 ]
+ [ loc_nonsp_rel<19:31> LBL: h1 ARG0: e12 [ e SF: prop ] ARG1: e2 ARG2: x13 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<19:31> LBL: h14 ARG0: x13 RSTR: h15 BODY: h16 ]
+ [ card_rel<19:23> LBL: h17 CARG: "0.81" ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x13 ]
+ [ "_inch_n_1_rel"<24:31> LBL: h17 ARG0: x13 ] >
+HCONS: < h0 qeq h1 h8 qeq h10 h15 qeq h17 > ]
+
+
+SENT: It rained 0.35 inches less in April than in March.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ "_rain_v_1_rel"<3:9> LBL: h1 ARG0: e2 ]
+ [ loc_nonsp_rel<10:50> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: x5 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<10:50> LBL: h6 ARG0: x5 RSTR: h7 BODY: h8 ]
+ [ card_rel<10:14> LBL: h9 CARG: "0.35" ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x5 ]
+ [ "_inch_n_1_rel"<15:21> LBL: h9 ARG0: x5 ]
+ [ little-few_a_rel<22:26> LBL: h9 ARG0: e12 [ e SF: prop ] ARG1: x5 ]
+ [ comp_rel<22:26> LBL: h9 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e12 ARG2: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ]
+ [ _in_p_temp_rel<27:29> LBL: h9 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e12 ARG2: x16 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<30:35> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ mofy_rel<30:35> LBL: h20 CARG: "Apr" ARG0: x16 ]
+ [ _in_p_temp_rel<41:43> LBL: h9 ARG0: e14 ARG1: u22 ARG2: x23 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<44:50> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ mofy_rel<44:50> LBL: h27 CARG: "Mar" ARG0: x23 ] >
+HCONS: < h0 qeq h1 h7 qeq h9 h18 qeq h20 h25 qeq h27 > ]
+
+
+SENT: How much did it rain in April?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ abstr_deg_rel<0:3> LBL: h4 ARG0: i5 ]
+ [ which_q_rel<0:3> LBL: h6 ARG0: i5 RSTR: h7 BODY: h8 ]
+ [ measure_rel<0:3> LBL: h1 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e10 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG2: i5 ]
+ [ "_much_a_1_rel"<4:8> LBL: h1 ARG0: e10 ARG1: e2 ]
+ [ "_rain_v_1_rel"<16:20> LBL: h1 ARG0: e2 ]
+ [ _in_p_temp_rel<21:23> LBL: h1 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x12 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<24:30> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
+ [ mofy_rel<24:30> LBL: h16 CARG: "Apr" ARG0: x12 ] >
+HCONS: < h0 qeq h1 h7 qeq h4 h14 qeq h16 > ]
+
+

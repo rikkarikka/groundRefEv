@@ -5,7 +5,7 @@ RELS: < [ _be_v_there_rel<6:9> LBL: h1 ARG0: e2 ARG1: x4 [ x PERS: 3 NUM: pl GEN
  [ udef_q_rel<10:14> LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]
  [ card_rel<10:14> LBL: h8 CARG: "1110" ARG0: e10 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x4 ]
  [ "_student_n_of_rel"<15:23> LBL: h8 ARG0: x4 ARG1: i11 ]
- [ _at_p_rel<24:26> LBL: h1 ARG0: e12 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x13 [ x PERS: 3 NUM: sg ] ]
+ [ _at_p_rel<24:26> LBL: h8 ARG0: e12 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x4 ARG2: x13 [ x PERS: 3 NUM: sg ] ]
  [ _a_q_rel<27:28> LBL: h14 ARG0: x13 RSTR: h15 BODY: h16 ]
  [ "_school_n_1_rel"<29:36> LBL: h17 ARG0: x13 ] >
 HCONS: < h0 qeq h1 h6 qeq h8 h15 qeq h17 > ]

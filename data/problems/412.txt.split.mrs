@@ -31,7 +31,7 @@ SENT: If she was able to serve 30 glasses of lemonade, how many pitchers of lemo
 [ LTOP: h0
 INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
 RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ARG2: h6 ]
- [ pron_rel<3:6> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pron_rel<3:6> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<3:6> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
  [ _able_a_1_rel<11:15> LBL: h12 ARG0: e13 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: h14 ]
  [ "_serve_v_as_rel"<19:24> LBL: h15 ARG0: e16 [ e SF: prop-or-ques TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: x17 [ x PERS: 3 NUM: pl ] ]
@@ -48,7 +48,7 @@ RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MO
  [ "_pitcher_n_of_rel"<58:66> LBL: h38 ARG0: x30 ARG1: x41 [ x PERS: 3 NUM: sg ] ]
  [ udef_q_rel<70:78> LBL: h42 ARG0: x41 RSTR: h43 BODY: h44 ]
  [ "_lemonade_n_1_rel"<70:78> LBL: h45 ARG0: x41 ]
- [ pron_rel<83:86> LBL: h46 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pron_rel<83:86> LBL: h46 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<83:86> LBL: h47 ARG0: x3 RSTR: h48 BODY: h49 ]
  [ "_prepare_v_1_rel"<87:95> LBL: h50 ARG0: e2 ARG1: x3 ARG2: x30 ] >
 HCONS: < h0 qeq h1 h5 qeq h50 h6 qeq h12 h10 qeq h7 h14 qeq h15 h19 qeq h21 h26 qeq h28 h31 qeq h38 h36 qeq h33 h43 qeq h45 h48 qeq h46 > ]

@@ -17,7 +17,7 @@ RELS: < [ subord_rel<0:44> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: i
  [ "_name_n_of_rel"<61:66> LBL: h37 ARG0: x33 ARG1: i38 ]
  [ _from_p_rel<67:71> LBL: h37 ARG0: e39 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x33 ARG2: x40 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<72:76> LBL: h41 ARG0: x40 RSTR: h42 BODY: h43 ]
- [ basic_card_rel<72:76> LBL: h44 CARG: *top* ARG0: e46 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x40 ]
+ [ card_rel<72:76> LBL: h44 CARG: "10.2" ARG0: e46 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x40 ]
  [ "_page_n_1_rel"<77:82> LBL: h44 ARG0: x40 ]
  [ _of_p_rel<83:85> LBL: h44 ARG0: e47 [ e SF: prop ] ARG1: x40 ARG2: x48 [ x PERS: 3 NUM: sg IND: + ] ]
  [ _the_q_rel<86:89> LBL: h49 ARG0: x48 RSTR: h50 BODY: h51 ]
@@ -34,12 +34,12 @@ HCONS: < h0 qeq h1 h5 qeq h32 h6 qeq h7 h10 qeq h11 h17 qeq h19 h24 qeq h26 h28 
 
 SENT: This week, she called the people listed on another 8.6 pages of the same phone book.
 [ LTOP: h0
-INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative ]
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
 RELS: < [ focus_d_rel<0:84> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
  [ loc_nonsp_rel<0:10> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg IND: + ] ]
  [ _this_q_dem_rel<0:4> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
  [ "_week_n_1_rel"<5:10> LBL: h10 ARG0: x6 ]
- [ pron_rel<11:14> LBL: h11 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pron_rel<11:14> LBL: h11 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<11:14> LBL: h12 ARG0: x3 RSTR: h13 BODY: h14 ]
  [ "_call_v_1_rel"<15:21> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x15 [ x PERS: 3 NUM: sg IND: + ] ARG3: x16 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<15:21> LBL: h17 ARG0: x15 RSTR: h18 BODY: h19 ]
@@ -55,7 +55,7 @@ RELS: < [ focus_d_rel<0:84> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ 
  [ _of_p_rel<61:63> LBL: h23 ARG0: e37 [ e SF: prop ] ARG1: x16 ARG2: x38 [ x PERS: 3 NUM: sg IND: + ] ]
  [ _the_q_rel<64:67> LBL: h39 ARG0: x38 RSTR: h40 BODY: h41 ]
  [ "_same_a_as_rel"<68:72> LBL: h42 ARG0: e43 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x38 ]
- [ comp_equal_rel<68:72> LBL: h42 ARG0: e44 [ e SF: prop ] ARG1: e43 ARG2: u45 ]
+ [ comp_equal_rel<68:72> LBL: h42 ARG0: e44 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e43 ARG2: u45 ]
  [ "_phone_n_1_rel"<73:78> LBL: h42 ARG0: x38 ]
  [ "_book_n_of_rel"<79:84> LBL: h46 ARG0: x15 ARG1: i47 ] >
 HCONS: < h0 qeq h1 h8 qeq h10 h13 qeq h11 h18 qeq h46 h21 qeq h23 h34 qeq h30 h40 qeq h42 > ]

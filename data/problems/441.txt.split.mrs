@@ -22,7 +22,7 @@ RELS: < [ proper_q_rel<0:7> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: 
  [ generic_entity_rel<16:20> LBL: h16 ARG0: x17 [ x PERS: 3 NUM: sg ] ]
  [ udef_q_rel<16:20> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
  [ much-many_a_rel<16:20> LBL: h16 ARG0: e21 [ e SF: prop ] ARG1: x17 ]
- [ comp_rel<16:20> LBL: h16 ARG0: e22 [ e SF: prop ] ARG1: e21 ARG2: u23 ]
+ [ comp_rel<16:20> LBL: h16 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e21 ARG2: u23 ]
  [ "_stamp_v_1_rel"<21:27> LBL: h10 ARG0: e24 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x17 ARG2: x9 ]
  [ _than_p_ind_rel<28:32> LBL: h10 ARG0: e25 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ARG2: x26 [ x PERS: 3 NUM: sg IND: + ] ]
  [ proper_q_rel<33:41> LBL: h27 ARG0: x26 RSTR: h28 BODY: h29 ]

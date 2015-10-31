@@ -59,7 +59,7 @@ RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MO
  [ _at_p_temp_rel<38:40> LBL: h13 ARG0: e31 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 ARG2: x32 [ x PERS: 3 NUM: sg GEND: n IND: - ] ]
  [ _the_q_rel<41:44> LBL: h33 ARG0: x32 RSTR: h34 BODY: h35 ]
  [ "_same_a_as_rel"<45:49> LBL: h36 ARG0: e37 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x32 ]
- [ comp_equal_rel<45:49> LBL: h36 ARG0: e38 [ e SF: prop ] ARG1: e37 ARG2: u39 ]
+ [ comp_equal_rel<45:49> LBL: h36 ARG0: e38 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e37 ARG2: u39 ]
  [ "_time_n_of_rel"<50:55> LBL: h36 ARG0: x32 ]
  [ thing_rel<56:60> LBL: h40 ARG0: x41 ]
  [ which_q_rel<56:60> LBL: h42 ARG0: x41 RSTR: h43 BODY: h44 ]

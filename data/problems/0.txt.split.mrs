@@ -16,7 +16,7 @@ HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h19 qeq h21 > ]
 SENT: she gave Sam some of her seashells.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_give_v_1_rel"<4:8> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl ] ARG3: x9 [ x PERS: 3 NUM: sg IND: + ] ]
  [ proper_q_rel<9:12> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
@@ -24,7 +24,7 @@ RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: s
  [ _some_q_rel<13:17> LBL: h15 ARG0: x8 RSTR: h16 BODY: h17 ]
  [ part_of_rel<13:17> LBL: h18 ARG0: x8 ARG1: x19 [ x PERS: 3 NUM: pl IND: + ] ]
  [ def_explicit_q_rel<21:24> LBL: h20 ARG0: x19 RSTR: h21 BODY: h22 ]
- [ poss_rel<21:24> LBL: h23 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x19 ARG2: x25 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ poss_rel<21:24> LBL: h23 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x19 ARG2: x25 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<21:24> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
  [ pron_rel<21:24> LBL: h29 ARG0: x25 ]
  [ "_seashell_n_1_rel"<25:35> LBL: h23 ARG0: x19 ] >
@@ -34,7 +34,7 @@ HCONS: < h0 qeq h1 h6 qeq h4 h11 qeq h13 h16 qeq h18 h21 qeq h23 h27 qeq h29 > ]
 SENT: She has 27 seashell left.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_have_v_prd_rel"<4:7> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: sg ] ARG3: h9 ]
  [ number_q_rel<8:10> LBL: h10 ARG0: x8 RSTR: h11 BODY: h12 ]
@@ -56,7 +56,7 @@ RELS: < [ udef_q_rel<0:18> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h
  [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
  [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
  [ "_seashell_n_1_rel"<9:18> LBL: h13 ARG0: x5 ]
- [ pron_rel<23:26> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pron_rel<23:26> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<23:26> LBL: h17 ARG0: x3 RSTR: h18 BODY: h19 ]
  [ "_give_v_1_rel"<27:31> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ARG3: x20 [ x PERS: 3 NUM: sg IND: + ] ]
  [ proper_q_rel<35:40> LBL: h21 ARG0: x20 RSTR: h22 BODY: h23 ]

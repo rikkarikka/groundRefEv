@@ -1,6 +1,6 @@
 SENT: One evening, a restaurant served a total of 0.2 of a loaf of wheat bread and 0.4 of a loaf of white bread.
 [ LTOP: h0
-INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative ]
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
 RELS: < [ focus_d_rel<0:106> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
  [ loc_nonsp_rel<0:12> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg IND: + ] ]
  [ udef_q_rel<0:3> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]

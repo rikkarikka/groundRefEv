@@ -21,7 +21,7 @@ SENT: Her mom placed the balls in bags for children in foster homes.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
 RELS: < [ def_explicit_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
- [ poss_rel<0:3> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ poss_rel<0:3> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<0:3> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
  [ pron_rel<0:3> LBL: h13 ARG0: x9 ]
  [ "_mom_n_1_rel"<4:7> LBL: h7 ARG0: x3 ]

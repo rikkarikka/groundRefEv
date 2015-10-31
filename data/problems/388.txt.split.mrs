@@ -11,7 +11,7 @@ RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5
  [ named_rel<20:28> LBL: h20 CARG: "Paradise" ARG0: x16 ]
  [ "_park_n_1_rel"<29:33> LBL: h22 ARG0: x23 [ x PERS: 3 NUM: sg IND: + ] ]
  [ udef_q_rel<29:33> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
- [ compound_name_rel<29:33> LBL: h20 ARG0: i27 ARG1: x16 ARG2: x23 ]
+ [ compound_rel<29:33> LBL: h20 ARG0: i27 ARG1: x16 ARG2: x23 ]
  [ "_have_v_1_rel"<34:37> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x28 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<38:40> LBL: h29 ARG0: x28 RSTR: h30 BODY: h31 ]
  [ card_rel<38:40> LBL: h32 CARG: "14" ARG0: e34 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x28 ]
@@ -51,7 +51,7 @@ RELS: < [ udef_q_rel<0:15> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h
  [ _at_p_temp_rel<42:44> LBL: h17 ARG0: e31 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e18 ARG2: x32 [ x PERS: 3 NUM: sg GEND: n IND: - ] ]
  [ _the_q_rel<45:48> LBL: h33 ARG0: x32 RSTR: h34 BODY: h35 ]
  [ "_same_a_as_rel"<49:53> LBL: h36 ARG0: e37 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x32 ]
- [ comp_equal_rel<49:53> LBL: h36 ARG0: e38 [ e SF: prop ] ARG1: e37 ARG2: u39 ]
+ [ comp_equal_rel<49:53> LBL: h36 ARG0: e38 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e37 ARG2: u39 ]
  [ "_time_n_of_rel"<54:59> LBL: h36 ARG0: x32 ] >
 HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 h16 qeq h17 h21 qeq h23 h27 qeq h29 h34 qeq h36 > ]
 

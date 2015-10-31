@@ -20,7 +20,7 @@ HCONS: < h0 qeq h1 h5 qeq h7 h12 qeq h14 h20 qeq h22 h26 qeq h28 > ]
 SENT: She went to 9 football games last year.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_go_v_1_rel"<4:8> LBL: h1 ARG0: e2 ARG1: x3 ]
  [ _to_p_rel<9:11> LBL: h1 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]

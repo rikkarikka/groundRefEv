@@ -2,7 +2,7 @@ SENT: My car gets 20 miles per gallon of gas.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
 RELS: < [ def_explicit_q_rel<0:2> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
- [ poss_rel<0:2> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 [ x PERS: 1 NUM: sg PRONTYPE: std_pron ] ]
+ [ poss_rel<0:2> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 [ x PERS: 1 NUM: sg PT: std ] ]
  [ pronoun_q_rel<0:2> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
  [ pron_rel<0:2> LBL: h13 ARG0: x9 ]
  [ "_car_n_1_rel"<3:6> LBL: h7 ARG0: x3 ]
@@ -29,16 +29,16 @@ RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h
  [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
  [ "_mile_n_1_rel"<9:14> LBL: h13 ARG0: x5 ]
  [ _can_v_modal_rel<15:18> LBL: h1 ARG0: e2 ARG1: h16 ]
- [ pron_rel<19:20> LBL: h17 ARG0: x3 [ x PERS: 1 NUM: sg PRONTYPE: std_pron ] ]
+ [ pron_rel<19:20> LBL: h17 ARG0: x3 [ x PERS: 1 NUM: sg PT: std ] ]
  [ pronoun_q_rel<19:20> LBL: h18 ARG0: x3 RSTR: h19 BODY: h20 ]
- [ "_drive_v_1_rel"<21:26> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x5 ARG3: h23 ]
- [ _on_p_rel<27:29> LBL: h24 ARG0: e25 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x5 ARG2: x26 [ x PERS: 3 NUM: pl IND: + ] ]
- [ udef_q_rel<30:47> LBL: h27 ARG0: x26 RSTR: h28 BODY: h29 ]
- [ card_rel<30:31> LBL: h30 CARG: "5" ARG0: e32 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x26 ]
- [ "_gallon_n_1_rel"<32:39> LBL: h30 ARG0: x26 ]
- [ _of_p_rel<40:42> LBL: h30 ARG0: e33 [ e SF: prop ] ARG1: x26 ARG2: x34 [ x PERS: 3 NUM: sg ] ]
- [ udef_q_rel<43:47> LBL: h35 ARG0: x34 RSTR: h36 BODY: h37 ]
- [ "_gas_n_1_rel"<43:47> LBL: h38 ARG0: x34 ] >
-HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h16 qeq h21 h19 qeq h17 h23 qeq h24 h28 qeq h30 h36 qeq h38 > ]
+ [ "_drive_v_1_rel"<21:26> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x5 ]
+ [ _on_p_rel<27:29> LBL: h21 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e22 ARG2: x24 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<30:31> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ card_rel<30:31> LBL: h28 CARG: "5" ARG0: e30 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x24 ]
+ [ "_gallon_n_1_rel"<32:39> LBL: h28 ARG0: x24 ]
+ [ _of_p_rel<40:42> LBL: h28 ARG0: e31 [ e SF: prop ] ARG1: x24 ARG2: x32 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<43:47> LBL: h33 ARG0: x32 RSTR: h34 BODY: h35 ]
+ [ "_gas_n_1_rel"<43:47> LBL: h36 ARG0: x32 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h16 qeq h21 h19 qeq h17 h26 qeq h28 h34 qeq h36 > ]
 
 

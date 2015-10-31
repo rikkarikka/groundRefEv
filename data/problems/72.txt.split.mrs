@@ -12,7 +12,7 @@ RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: 
  [ "_balloon_n_1_rel"<18:26> LBL: h15 ARG0: x11 ]
  [ _but_c_rel<27:30> LBL: h1 ARG0: e2 L-INDEX: e10 R-INDEX: e24 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h9 R-HNDL: h25 ]
  [ "_lose_v_1_rel"<31:35> LBL: h25 ARG0: e24 ARG1: x3 ARG2: x26 [ x PERS: 3 NUM: pl ] ]
- [ part_of_rel<36:37> LBL: h27 ARG0: x26 ARG1: x28 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+ [ part_of_rel<36:37> LBL: h27 ARG0: x26 ARG1: x28 [ x PERS: 3 NUM: pl PT: std ] ]
  [ udef_q_rel<36:37> LBL: h29 ARG0: x26 RSTR: h30 BODY: h31 ]
  [ card_rel<36:37> LBL: h27 CARG: "2" ARG0: e33 [ e SF: prop ] ARG1: x26 ]
  [ pron_rel<41:46> LBL: h34 ARG0: x28 ]

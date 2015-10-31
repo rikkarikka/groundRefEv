@@ -10,7 +10,7 @@ RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: 
  [ "_balloon_n_1_rel"<16:24> LBL: h15 ARG0: x11 ]
  [ _but_c_rel<25:28> LBL: h1 ARG0: e2 L-INDEX: e10 R-INDEX: e19 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h9 R-HNDL: h20 ]
  [ "_lose_v_1_rel"<29:33> LBL: h20 ARG0: e19 ARG1: x3 ARG2: x21 [ x PERS: 3 NUM: pl ] ]
- [ part_of_rel<34:35> LBL: h22 ARG0: x21 ARG1: x23 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+ [ part_of_rel<34:35> LBL: h22 ARG0: x21 ARG1: x23 [ x PERS: 3 NUM: pl PT: std ] ]
  [ udef_q_rel<34:35> LBL: h24 ARG0: x21 RSTR: h25 BODY: h26 ]
  [ card_rel<34:35> LBL: h22 CARG: "2" ARG0: e28 [ e SF: prop ] ARG1: x21 ]
  [ pron_rel<39:44> LBL: h29 ARG0: x23 ]

@@ -40,21 +40,21 @@ HCONS: < h0 qeq h1 h53 qeq h4 h11 qeq h13 h16 qeq h18 h23 qeq h25 h31 qeq h27 h3
 SENT: What fraction of the apartments are either one- or two-bedroom apartments?
 [ LTOP: h0
 INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
-RELS: < [ _which_q_rel<0:4> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg IND: + ] RSTR: h6 BODY: h7 ]
- [ "_fraction_n_of_rel"<5:13> LBL: h8 ARG0: x5 ARG1: x9 [ x PERS: 3 NUM: pl IND: + ] ]
- [ _the_q_rel<17:20> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
- [ "_apartment_n_1_rel"<21:31> LBL: h13 ARG0: x9 ]
- [ _be_v_id_rel<32:35> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
- [ udef_q_rel<36:74> LBL: h14 ARG0: x3 RSTR: h15 BODY: h16 ]
+RELS: < [ _which_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_fraction_n_of_rel"<5:13> LBL: h7 ARG0: x3 ARG1: x8 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ _the_q_rel<17:20> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ "_apartment_n_1_rel"<21:31> LBL: h12 ARG0: x8 ]
+ [ _be_v_id_rel<32:35> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x13 ]
+ [ udef_q_rel<36:74> LBL: h14 ARG0: x13 RSTR: h15 BODY: h16 ]
  [ "_one_n_1_rel"<43:47> LBL: h17 ARG0: x18 [ x PERS: 3 NUM: sg GEND: m-or-f ] ]
  [ pronoun_q_rel<43:47> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
- [ _or_c_rel<48:50> LBL: h22 ARG0: x3 L-INDEX: x18 R-INDEX: x23 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ _or_c_rel<48:50> LBL: h22 ARG0: x13 L-INDEX: x18 R-INDEX: x23 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<51:74> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
  [ compound_rel<51:74> LBL: h27 ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x23 ARG2: x29 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<51:62> LBL: h30 ARG0: x29 RSTR: h31 BODY: h32 ]
  [ card_rel<51:62> LBL: h33 CARG: "2" ARG0: e35 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x29 ]
  [ "_bedroom_n_1_rel"<51:62> LBL: h33 ARG0: x29 ]
  [ "_apartment_n_1_rel"<63:74> LBL: h27 ARG0: x23 ] >
-HCONS: < h0 qeq h1 h6 qeq h8 h11 qeq h13 h15 qeq h22 h20 qeq h17 h25 qeq h27 h31 qeq h33 > ]
+HCONS: < h0 qeq h1 h5 qeq h7 h10 qeq h12 h15 qeq h22 h20 qeq h17 h25 qeq h27 h31 qeq h33 > ]
 
 

@@ -7,7 +7,7 @@ RELS: < [ _a_q_rel<0:1> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 B
  [ udef_q_rel<20:21> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
  [ card_rel<20:21> LBL: h12 CARG: "9" ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x8 ]
  [ "_pizza_n_1_rel"<22:28> LBL: h12 ARG0: x8 ]
- [ _during_p_rel<29:35> LBL: h12 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x8 ARG2: x16 [ x PERS: 3 NUM: pl ] ]
+ [ _during_p_rel<29:35> LBL: h1 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x16 [ x PERS: 3 NUM: pl ] ]
  [ udef_q_rel<36:47> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
  [ udef_q_rel<36:41> LBL: h20 ARG0: x21 [ x PERS: 3 NUM: sg ] RSTR: h22 BODY: h23 ]
  [ "_lunch_n_1_rel"<36:41> LBL: h24 ARG0: x21 ]

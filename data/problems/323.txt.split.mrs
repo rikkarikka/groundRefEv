@@ -1,0 +1,44 @@
+SENT: In Yardley it snowed 0.125 of an inch in the morning and 0.5 of an inch in the afternoon.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ focus_d_rel<0:89> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
+ [ _in_p_state_rel<0:2> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<3:10> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
+ [ named_rel<3:10> LBL: h10 CARG: "Yardley" ARG0: x6 ]
+ [ "_snow_v_1_rel"<14:20> LBL: h1 ARG0: e2 ]
+ [ loc_nonsp_rel<21:71> LBL: h1 ARG0: e12 [ e SF: prop ] ARG1: e2 ARG2: x13 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<21:71> LBL: h14 ARG0: x13 RSTR: h15 BODY: h16 ]
+ [ number_q_rel<21:52> LBL: h17 ARG0: x18 [ x PERS: 3 NUM: sg ] RSTR: h19 BODY: h20 ]
+ [ card_rel<21:26> LBL: h21 CARG: "0.125" ARG0: x18 ARG1: i23 ]
+ [ _of_p_rel<27:29> LBL: h21 ARG0: e24 [ e SF: prop ] ARG1: x18 ARG2: x25 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<30:32> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
+ [ "_inch_n_1_rel"<33:37> LBL: h29 ARG0: x25 ]
+ [ _in_p_temp_rel<38:40> LBL: h21 ARG0: e30 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x18 ARG2: x31 [ x PERS: 3 NUM: sg GEND: n ] ]
+ [ _the_q_rel<41:44> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ "_morning_n_of_rel"<45:52> LBL: h35 ARG0: x31 ]
+ [ _and_c_rel<53:56> LBL: h36 ARG0: x13 L-INDEX: x18 R-INDEX: x37 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<57:60> LBL: h38 ARG0: x37 ARG1: x39 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<57:60> LBL: h40 ARG0: x37 RSTR: h41 BODY: h42 ]
+ [ card_rel<57:60> LBL: h38 CARG: "0.5" ARG0: e44 [ e SF: prop ] ARG1: x37 ]
+ [ _a_q_rel<64:66> LBL: h45 ARG0: x39 RSTR: h46 BODY: h47 ]
+ [ "_inch_n_1_rel"<67:71> LBL: h48 ARG0: x39 ]
+ [ _in_p_temp_rel<72:74> LBL: h1 ARG0: e49 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x50 [ x PERS: 3 NUM: sg GEND: n ] ]
+ [ _the_q_rel<75:78> LBL: h51 ARG0: x50 RSTR: h52 BODY: h53 ]
+ [ "_afternoon_n_of_rel"<79:89> LBL: h54 ARG0: x50 ] >
+HCONS: < h0 qeq h1 h8 qeq h10 h15 qeq h36 h19 qeq h21 h27 qeq h29 h33 qeq h35 h41 qeq h38 h46 qeq h48 h52 qeq h54 > ]
+
+
+SENT: What was the total amount of snowfall?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ thing_rel<0:4> LBL: h4 ARG0: x5 ]
+ [ which_q_rel<0:4> LBL: h6 ARG0: x5 RSTR: h7 BODY: h8 ]
+ [ _be_v_id_rel<5:8> LBL: h1 ARG0: e2 ARG1: x3 [ x PERS: 3 NUM: sg IND: + ] ARG2: x5 ]
+ [ _the_q_rel<9:12> LBL: h9 ARG0: x3 RSTR: h10 BODY: h11 ]
+ [ "_total_a_1_rel"<13:18> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ]
+ [ "_amount_n_of_rel"<19:25> LBL: h12 ARG0: x3 ARG1: x14 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<29:38> LBL: h15 ARG0: x14 RSTR: h16 BODY: h17 ]
+ [ "_snowfall_n_1_rel"<29:38> LBL: h18 ARG0: x14 ] >
+HCONS: < h0 qeq h1 h7 qeq h4 h10 qeq h12 h16 qeq h18 > ]
+
+

@@ -1,7 +1,7 @@
 SENT: I have 648 pencils.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:1> LBL: h4 ARG0: x3 [ x PERS: 1 NUM: sg PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:1> LBL: h4 ARG0: x3 [ x PERS: 1 NUM: sg PT: std ] ]
  [ pronoun_q_rel<0:1> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_have_v_1_rel"<2:6> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<7:10> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
@@ -14,7 +14,7 @@ SENT: If I put 4 pencils in each pencil box, how many pencil boxes will I fill?
 [ LTOP: h0
 INDEX: e2 [ e SF: ques TENSE: fut MOOD: indicative PROG: - PERF: - ]
 RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ARG2: h6 ]
- [ pron_rel<3:4> LBL: h7 ARG0: x8 [ x PERS: 1 NUM: sg PRONTYPE: std_pron ] ]
+ [ pron_rel<3:4> LBL: h7 ARG0: x8 [ x PERS: 1 NUM: sg PT: std ] ]
  [ pronoun_q_rel<3:4> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
  [ "_put_v_1_rel"<5:8> LBL: h12 ARG0: e13 [ e SF: prop TENSE: past MOOD: indicative ] ARG1: x8 ARG2: x14 [ x PERS: 3 NUM: pl IND: + ] ARG3: h15 ]
  [ udef_q_rel<9:10> LBL: h16 ARG0: x14 RSTR: h17 BODY: h18 ]
@@ -35,7 +35,7 @@ RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MO
  [ udef_q_rel<48:54> LBL: h50 ARG0: x49 RSTR: h51 BODY: h52 ]
  [ "_pencil_n_1_rel"<48:54> LBL: h53 ARG0: x49 ]
  [ "_box_n_of_rel"<55:60> LBL: h45 ARG0: x37 ARG1: i54 ]
- [ pron_rel<66:67> LBL: h55 ARG0: x3 [ x PERS: 1 NUM: sg PRONTYPE: std_pron ] ]
+ [ pron_rel<66:67> LBL: h55 ARG0: x3 [ x PERS: 1 NUM: sg PT: std ] ]
  [ pronoun_q_rel<66:67> LBL: h56 ARG0: x3 RSTR: h57 BODY: h58 ]
  [ "_fill_v_cause_rel"<68:73> LBL: h59 ARG0: e2 ARG1: x3 ARG2: x37 ] >
 HCONS: < h0 qeq h1 h5 qeq h59 h6 qeq h12 h10 qeq h7 h15 qeq h22 h17 qeq h19 h26 qeq h28 h32 qeq h34 h38 qeq h45 h43 qeq h40 h51 qeq h53 h57 qeq h55 > ]

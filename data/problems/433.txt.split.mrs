@@ -1,6 +1,6 @@
 SENT: For dessert, Jane’s mom prepared 12 pieces of bite-size cinnamon swirls.
 [ LTOP: h0
-INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative ]
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
 RELS: < [ focus_d_rel<0:72> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
  [ _for_p_rel<0:3> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg ] ]
  [ udef_q_rel<4:12> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
@@ -30,7 +30,7 @@ SENT: If the 3 of them ate an equal number of pieces of cinnamon swirls, how man
 INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
 RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ARG2: h6 ]
  [ _the_q_rel<3:6> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: pl ] RSTR: h9 BODY: h10 ]
- [ part_of_rel<7:8> LBL: h11 ARG0: x8 ARG1: x12 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+ [ part_of_rel<7:8> LBL: h11 ARG0: x8 ARG1: x12 [ x PERS: 3 NUM: pl PT: std ] ]
  [ card_rel<7:8> LBL: h11 CARG: "3" ARG0: e14 [ e SF: prop ] ARG1: x8 ]
  [ pron_rel<12:16> LBL: h15 ARG0: x12 ]
  [ pronoun_q_rel<12:16> LBL: h16 ARG0: x12 RSTR: h17 BODY: h18 ]

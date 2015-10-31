@@ -32,7 +32,7 @@ HCONS: < h0 qeq h1 h8 qeq h10 h13 qeq h4 h20 qeq h22 h29 qeq h31 h35 qeq h37 h39
 SENT: They were placed in shelves that can contain 8 wood carvings at a time.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl PT: std ] ]
  [ pronoun_q_rel<0:4> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_place_v_1_rel"<10:16> LBL: h1 ARG0: e2 ARG1: i8 ARG2: x3 ARG3: h9 ]
  [ parg_d_rel<10:16> LBL: h1 ARG0: e10 [ e SF: prop ] ARG1: e2 ARG2: x3 ]

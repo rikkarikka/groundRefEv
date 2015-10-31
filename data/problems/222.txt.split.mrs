@@ -17,7 +17,7 @@ HCONS: < h0 qeq h1 h5 qeq h7 h13 qeq h15 h17 qeq h9 h18 qeq h19 h23 qeq h25 > ]
 SENT: She spent $13.99 on shorts, $12.14 on a shirt, and $7.43 on a jacket.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_spend_v_1_rel"<4:9> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl IND: + ] ARG3: h9 ]
  [ udef_q_rel<10:56> LBL: h10 ARG0: x8 RSTR: h11 BODY: h12 ]

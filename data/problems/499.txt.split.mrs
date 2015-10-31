@@ -29,7 +29,7 @@ RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg ] RSTR: h5 BODY: 
  [ thing_rel<83:87> LBL: h56 ARG0: x57 ]
  [ which_q_rel<83:87> LBL: h58 ARG0: x57 RSTR: h59 BODY: h60 ]
  [ def_explicit_q_rel<88:91> LBL: h61 ARG0: x62 [ x PERS: 3 NUM: sg ] RSTR: h63 BODY: h64 ]
- [ poss_rel<88:91> LBL: h65 ARG0: e66 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x62 ARG2: x67 [ x PERS: 3 NUM: sg GEND: n PRONTYPE: std_pron ] ]
+ [ poss_rel<88:91> LBL: h65 ARG0: e66 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x62 ARG2: x67 [ x PERS: 3 NUM: sg GEND: n PT: std ] ]
  [ pronoun_q_rel<88:91> LBL: h68 ARG0: x67 RSTR: h69 BODY: h70 ]
  [ pron_rel<88:91> LBL: h71 ARG0: x67 ]
  [ "_value_n_1_rel"<92:97> LBL: h65 ARG0: x62 ]

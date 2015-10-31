@@ -1,6 +1,6 @@
 SENT: At a pie-eating contest, Erik got through 0.6666666666666666 of a pie before time was called; Frank finished just 0.3333333333333333 of a pie.
 [ LTOP: h0
-INDEX: e2 [ e SF: prop ]
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
 RELS: < [ implicit_conj_rel<0:142> LBL: h1 ARG0: e2 L-INDEX: e4 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] R-INDEX: e5 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h6 R-HNDL: h7 ]
  [ focus_d_rel<0:93> LBL: h8 ARG0: e9 [ e SF: prop ] ARG1: e4 ARG2: e10 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
  [ _at_p_rel<0:2> LBL: h11 ARG0: e10 ARG1: e4 ARG2: x12 [ x PERS: 3 NUM: sg IND: + ] ]

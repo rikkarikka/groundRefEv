@@ -1,0 +1,56 @@
+SENT: Mary loves eating fruits.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Mary" ARG0: x3 ]
+ [ "_love_v_1_rel"<5:10> LBL: h1 ARG0: e2 ARG1: x3 ARG2: h9 ]
+ [ "_eat_v_1_rel"<11:17> LBL: h10 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: + PERF: - ] ARG1: x3 ARG2: x12 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<18:25> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
+ [ "_fruit_n_1_rel"<18:25> LBL: h16 ARG0: x12 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h9 qeq h10 h14 qeq h16 > ]
+
+
+SENT: Mary paid $7.19 for berries, and $6.83 for peaches with a $20 bill.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Mary" ARG0: x3 ]
+ [ "_pay_v_for_rel"<5:9> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl ] ARG3: i10 ARG4: x11 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<10:38> LBL: h12 ARG0: x9 RSTR: h13 BODY: h14 ]
+ [ udef_q_rel<10:28> LBL: h15 ARG0: x16 [ x PERS: 3 NUM: pl IND: + ] RSTR: h17 BODY: h18 ]
+ [ "_dollar_n_1_rel"<10:11> LBL: h19 ARG0: x16 ]
+ [ card_rel<11:15> LBL: h19 CARG: "7.19" ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x16 ]
+ [ _for_p_rel<16:19> LBL: h19 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x16 ARG2: x23 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<20:28> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ "_berry_n_1_rel"<20:28> LBL: h27 ARG0: x23 ]
+ [ _and_c_rel<29:32> LBL: h28 ARG0: x9 L-INDEX: x16 R-INDEX: x29 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<33:38> LBL: h30 ARG0: x29 RSTR: h31 BODY: h32 ]
+ [ "_dollar_n_1_rel"<33:34> LBL: h33 ARG0: x29 ]
+ [ card_rel<34:38> LBL: h33 CARG: "6.83" ARG0: e35 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x29 ]
+ [ udef_q_rel<43:67> LBL: h36 ARG0: x11 RSTR: h37 BODY: h38 ]
+ [ "_peach_n_1_rel"<43:50> LBL: h39 ARG0: x11 ]
+ [ _with_p_rel<51:55> LBL: h39 ARG0: e40 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x11 ARG2: x41 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<56:57> LBL: h42 ARG0: x41 RSTR: h43 BODY: h44 ]
+ [ compound_rel<58:67> LBL: h45 ARG0: e46 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x41 ARG2: x47 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<58:61> LBL: h48 ARG0: x47 RSTR: h49 BODY: h50 ]
+ [ "_dollar_n_1_rel"<58:59> LBL: h51 ARG0: x47 ]
+ [ card_rel<59:61> LBL: h51 CARG: "20" ARG0: e53 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x47 ]
+ [ "_bill_n_of_rel"<62:67> LBL: h45 ARG0: x41 ARG1: i54 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h13 qeq h28 h17 qeq h19 h25 qeq h27 h31 qeq h33 h37 qeq h39 h43 qeq h45 h49 qeq h51 > ]
+
+
+SENT: How much change did Mary receive?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:15> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_change_n_of_rel"<9:15> LBL: h13 ARG0: x5 ARG1: i16 ]
+ [ proper_q_rel<20:24> LBL: h17 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h18 BODY: h19 ]
+ [ named_rel<20:24> LBL: h20 CARG: "Mary" ARG0: x3 ]
+ [ "_receive_v_1_rel"<25:33> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h20 > ]
+
+

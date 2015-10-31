@@ -35,7 +35,7 @@ RELS: < [ loc_nonsp_rel<0:25> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD
  [ _of_p_rel<16:18> LBL: h14 ARG0: e17 [ e SF: prop ] ARG1: x5 ARG2: x18 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<19:25> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
  [ "_snack_n_1_rel"<19:25> LBL: h22 ARG0: x18 ]
- [ pron_rel<30:33> LBL: h23 ARG0: x24 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pron_rel<30:33> LBL: h23 ARG0: x24 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<30:33> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
  [ "_buy_v_1_rel"<34:37> LBL: h1 ARG0: e2 ARG1: x24 ARG2: p28 ]
  [ _in_p_rel<38:40> LBL: h1 ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x30 [ x PERS: 3 ] ]

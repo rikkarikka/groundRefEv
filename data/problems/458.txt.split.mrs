@@ -17,11 +17,10 @@ RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MO
  [ _must_v_modal_rel<35:39> LBL: h34 ARG0: e2 ARG1: h35 ]
  [ proper_q_rel<40:45> LBL: h36 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h37 BODY: h38 ]
  [ named_rel<40:45> LBL: h39 CARG: "Kyoko" ARG0: x3 ]
- [ "_pay_v_for_rel"<46:49> LBL: h41 ARG0: e42 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x23 ARG3: i43 ]
- [ _for_p_rel<50:53> LBL: h41 ARG0: e44 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e42 ARG2: x45 [ x PERS: 3 NUM: pl IND: + ] ]
- [ udef_q_rel<54:55> LBL: h46 ARG0: x45 RSTR: h47 BODY: h48 ]
- [ card_rel<54:55> LBL: h49 CARG: "3" ARG0: e51 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x45 ]
- [ "_ball_n_of_rel"<56:62> LBL: h49 ARG0: x45 ARG1: i52 ] >
-HCONS: < h0 qeq h1 h5 qeq h34 h6 qeq h13 h9 qeq h11 h17 qeq h19 h25 qeq h22 h30 qeq h27 h35 qeq h41 h37 qeq h39 h47 qeq h49 > ]
+ [ "_pay_v_for_rel"<46:49> LBL: h41 ARG0: e42 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x23 ARG3: i43 ARG4: x44 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<54:55> LBL: h45 ARG0: x44 RSTR: h46 BODY: h47 ]
+ [ card_rel<54:55> LBL: h48 CARG: "3" ARG0: e50 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x44 ]
+ [ "_ball_n_of_rel"<56:62> LBL: h48 ARG0: x44 ARG1: i51 ] >
+HCONS: < h0 qeq h1 h5 qeq h34 h6 qeq h13 h9 qeq h11 h17 qeq h19 h25 qeq h22 h30 qeq h27 h35 qeq h41 h37 qeq h39 h46 qeq h48 > ]
 
 

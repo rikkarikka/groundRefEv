@@ -18,7 +18,7 @@ RELS: < [ proper_q_rel<0:7> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg IND: + ] RSTR: 
  [ "_cage_n_1_rel"<41:45> LBL: h38 ARG0: x35 ]
  [ "_cost_v_1_rel"<46:50> LBL: h39 ARG0: e31 ARG1: x35 ARG2: x40 [ x PERS: 3 NUM: pl IND: + ] ]
  [ def_explicit_q_rel<51:54> LBL: h41 ARG0: x40 RSTR: h42 BODY: h43 ]
- [ poss_rel<51:54> LBL: h44 ARG0: e45 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x40 ARG2: x46 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ poss_rel<51:54> LBL: h44 ARG0: e45 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x40 ARG2: x46 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<51:54> LBL: h47 ARG0: x46 RSTR: h48 BODY: h49 ]
  [ pron_rel<51:54> LBL: h50 ARG0: x46 ]
  [ "_dollar_n_1_rel"<55:56> LBL: h44 ARG0: x40 ]

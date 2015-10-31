@@ -16,7 +16,7 @@ RELS: < [ proper_q_rel<0:6> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: 
  [ "_caterpillar/NN_u_unknown_rel"<47:58> LBL: h29 ARG0: x25 ]
  [ _in_p_rel<59:61> LBL: h29 ARG0: e31 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x25 ARG2: x32 [ x PERS: 3 NUM: sg IND: + ] ]
  [ def_explicit_q_rel<62:65> LBL: h33 ARG0: x32 RSTR: h34 BODY: h35 ]
- [ poss_rel<62:65> LBL: h36 ARG0: e37 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x32 ARG2: x38 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ poss_rel<62:65> LBL: h36 ARG0: e37 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x32 ARG2: x38 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<62:65> LBL: h39 ARG0: x38 RSTR: h40 BODY: h41 ]
  [ pron_rel<62:65> LBL: h42 ARG0: x38 ]
  [ "_backyard_n_1_rel"<66:75> LBL: h36 ARG0: x32 ] >

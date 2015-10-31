@@ -21,7 +21,7 @@ RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: 
  [ "_want_v_1_rel"<5:10> LBL: h1 ARG0: e2 ARG1: x3 ARG2: h9 ]
  [ "_buy_v_1_rel"<14:17> LBL: h10 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x12 [ x PERS: 3 NUM: pl ] ]
  [ udef_q_rel<18:31> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
- [ card_rel<18:20> LBL: h16 CARG: "68" ARG0: i18 ARG1: e19 [ e SF: prop ] ]
+ [ card_rel<18:20> LBL: h16 CARG: "68" ARG0: i18 ARG1: e19 [ e SF: prop TENSE: untensed MOOD: indicative ] ]
  [ much-many_a_rel<21:25> LBL: h16 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x12 ]
  [ comp_rel<21:25> LBL: h16 ARG0: e19 ARG1: e20 ARG2: u21 ]
  [ "_fish_n_1_rel"<26:31> LBL: h16 ARG0: x12 ] >

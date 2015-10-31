@@ -21,7 +21,7 @@ HCONS: < h0 qeq h1 h5 qeq h7 h10 qeq h12 h16 qeq h18 h23 qeq h25 h29 qeq h31 > ]
 SENT: They took 6 vans and 8 buses.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl PT: std ] ]
  [ pronoun_q_rel<0:4> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_take_v_1_rel"<5:9> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl ] ARG3: u9 ]
  [ udef_q_rel<10:29> LBL: h10 ARG0: x8 RSTR: h11 BODY: h12 ]
@@ -38,22 +38,22 @@ HCONS: < h0 qeq h1 h6 qeq h4 h11 qeq h20 h15 qeq h17 h23 qeq h25 > ]
 SENT: There were 6 people in each van and 18 people in each bus.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
-RELS: < [ _be_v_there_rel<6:10> LBL: h1 ARG0: e2 ARG1: x4 [ x PERS: 3 NUM: pl GEND: n IND: + ] ]
- [ udef_q_rel<11:12> LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]
- [ card_rel<11:12> LBL: h8 CARG: "6" ARG0: e10 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x4 ]
- [ "_people_n_of_rel"<13:19> LBL: h8 ARG0: x4 ARG1: i11 ]
- [ _in_p_rel<20:22> LBL: h1 ARG0: e12 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x4 ARG2: x13 [ x PERS: 3 NUM: pl ] ]
- [ udef_q_rel<23:58> LBL: h14 ARG0: x13 RSTR: h15 BODY: h16 ]
- [ _each_q_rel<23:27> LBL: h17 ARG0: x18 [ x PERS: 3 NUM: sg IND: + ] RSTR: h19 BODY: h20 ]
- [ "_van_n_1_rel"<28:31> LBL: h21 ARG0: x18 ]
- [ _and_c_rel<32:35> LBL: h22 ARG0: x13 L-INDEX: x18 R-INDEX: x23 [ x PERS: 3 NUM: pl IND: + ] ]
+RELS: < [ _be_v_there_rel<6:10> LBL: h1 ARG0: e2 ARG1: x4 [ x PERS: 3 NUM: pl GEND: n ] ]
+ [ udef_q_rel<11:58> LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]
+ [ udef_q_rel<11:12> LBL: h8 ARG0: x9 [ x PERS: 3 NUM: pl IND: + ] RSTR: h10 BODY: h11 ]
+ [ card_rel<11:12> LBL: h12 CARG: "6" ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_people_n_of_rel"<13:19> LBL: h12 ARG0: x9 ARG1: i15 ]
+ [ _in_p_rel<20:22> LBL: h12 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ARG2: x17 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _each_q_rel<23:27> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ "_van_n_1_rel"<28:31> LBL: h21 ARG0: x17 ]
+ [ _and_c_rel<32:35> LBL: h22 ARG0: x4 L-INDEX: x9 R-INDEX: x23 [ x PERS: 3 NUM: pl IND: + ] ]
  [ udef_q_rel<36:38> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
  [ card_rel<36:38> LBL: h27 CARG: "18" ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x23 ]
  [ "_people_n_of_rel"<39:45> LBL: h27 ARG0: x23 ARG1: i30 ]
  [ _in_p_rel<46:48> LBL: h27 ARG0: e31 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x23 ARG2: x32 [ x PERS: 3 NUM: sg IND: + ] ]
  [ _each_q_rel<49:53> LBL: h33 ARG0: x32 RSTR: h34 BODY: h35 ]
  [ "_bus_n_1_rel"<54:58> LBL: h36 ARG0: x32 ] >
-HCONS: < h0 qeq h1 h6 qeq h8 h15 qeq h22 h19 qeq h21 h25 qeq h27 h34 qeq h36 > ]
+HCONS: < h0 qeq h1 h6 qeq h22 h10 qeq h12 h19 qeq h21 h25 qeq h27 h34 qeq h36 > ]
 
 
 SENT: How many people went on the field trip?

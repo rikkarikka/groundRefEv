@@ -1,0 +1,36 @@
+SENT: Each bag contains 23 pounds of oranges.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _each_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_bag_n_of_rel"<5:8> LBL: h7 ARG0: x3 ARG1: i8 ]
+ [ "_contain_v_1_rel"<9:17> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<18:39> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<18:20> LBL: h13 CARG: "23" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x9 ]
+ [ "_pound_n_1_rel"<21:27> LBL: h13 ARG0: x9 ]
+ [ _of_p_rel<28:30> LBL: h13 ARG0: e16 [ e SF: prop ] ARG1: x9 ARG2: x17 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<31:39> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ "_orange_n_1_rel"<31:39> LBL: h21 ARG0: x17 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h19 qeq h21 > ]
+
+
+SENT: How many pounds of oranges are in 45 bags?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative ]
+RELS: < [ loc_nonsp_rel<0:15> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x5 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<0:15> LBL: h6 ARG0: x5 RSTR: h7 BODY: h8 ]
+ [ abstr_deg_rel<0:3> LBL: h9 ARG0: i10 ]
+ [ which_q_rel<0:3> LBL: h11 ARG0: i10 RSTR: h12 BODY: h13 ]
+ [ measure_rel<0:3> LBL: h14 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e16 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG2: i10 ]
+ [ much-many_a_rel<4:8> LBL: h14 ARG0: e16 ARG1: x5 ]
+ [ "_pound_n_1_rel"<9:15> LBL: h14 ARG0: x5 ]
+ [ _of_p_rel<16:18> LBL: h1 ARG0: e2 ARG1: x17 [ x PERS: 3 NUM: pl IND: + ] ARG2: x18 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<19:26> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ "_orange_n_1_rel"<19:26> LBL: h22 ARG0: x18 ]
+ [ _in_p_rel<31:33> LBL: h1 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x24 [ x PERS: 3 NUM: sg ] ]
+ [ number_q_rel<34:36> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ card_rel<34:36> LBL: h28 CARG: "45" ARG0: x24 ARG1: i30 ]
+ [ udef_q_rel<37:42> LBL: h31 ARG0: x17 RSTR: h32 BODY: h33 ]
+ [ "_bag_n_of_rel"<37:42> LBL: h34 ARG0: x17 ARG1: i35 ] >
+HCONS: < h0 qeq h1 h7 qeq h14 h12 qeq h9 h20 qeq h22 h26 qeq h28 h32 qeq h34 > ]
+
+

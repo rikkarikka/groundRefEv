@@ -1,9 +1,0 @@
-There were 6 roses in the vase.
-Mary cut some more roses from her flower garden.
-There are now 16 roses in the vase.
-How many roses did she cut ?
-
-COREF
-0 (6 roses) < 2 (16 roses)
-1 (more roses) < 2 (16 roses)
-3 (roses) -> 1 (more roses)

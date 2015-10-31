@@ -22,7 +22,7 @@ SENT: If she has 54 sunflower seeds and there are 9 cans, how many seeds will be
 [ LTOP: h0
 INDEX: e2 [ e SF: ques TENSE: fut MOOD: indicative PROG: - PERF: - ]
 RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ARG2: h6 ]
- [ pron_rel<3:6> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pron_rel<3:6> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<3:6> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
  [ "_have_v_1_rel"<7:10> LBL: h12 ARG0: e13 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: x14 [ x PERS: 3 NUM: pl ] ]
  [ udef_q_rel<11:13> LBL: h15 ARG0: x14 RSTR: h16 BODY: h17 ]
@@ -48,7 +48,7 @@ RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MO
  [ _each_q_rel<85:89> LBL: h58 ARG0: x57 RSTR: h59 BODY: h60 ]
  [ "_can_n_1_rel"<90:93> LBL: h61 ARG0: x57 ]
  [ "_if_x_then_rel"<94:96> LBL: h62 ARG0: e63 [ e SF: ques TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h64 ARG2: h65 ]
- [ pron_rel<97:100> LBL: h66 ARG0: x67 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+ [ pron_rel<97:100> LBL: h66 ARG0: x67 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<97:100> LBL: h68 ARG0: x67 RSTR: h69 BODY: h70 ]
  [ "_place_v_1_rel"<101:107> LBL: h71 ARG0: e72 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x67 ARG2: x73 [ x PERS: 3 NUM: sg IND: + ] ]
  [ _a_q_rel<108:110> LBL: h74 ARG0: x73 RSTR: h75 BODY: h76 ]

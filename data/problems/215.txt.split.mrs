@@ -12,7 +12,7 @@ HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
 SENT: She bought a football for $5.71, and spent $6.59 on marbles.
 [ LTOP: h0
 INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
-RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PRONTYPE: std_pron ] ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
  [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
  [ "_buy_v_1_rel"<4:10> LBL: h8 ARG0: e9 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x10 [ x PERS: 3 NUM: sg ] ]
  [ _a_q_rel<11:12> LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]
