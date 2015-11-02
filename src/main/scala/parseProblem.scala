@@ -3,6 +3,7 @@ import scala.util.Random
 import scala.collection.mutable.ListBuffer
 import java.io._
 import libsvm.svm._
+import breeze.linalg._
 
 object globals {
         def REL_LIST= Source.fromFile("data/rel_list.txt").mkString.split("\n").distinct
@@ -68,6 +69,66 @@ object parseQuestion {
             else return "fail"
         }
 
+
+        def removeProblems() {
+
+            val probdir = "data/problems/"
+            val dir = new File(probdir)
+
+            val problems = dir.list filter (_.endsWith("mrs")) 
+
+            //load answers and equations
+            var answers = Source.fromFile("data/a.txt").mkString.split("\n") map (_.toFloat)
+            var equations = Source.fromFile("data/eq.txt").mkString.split("\n")
+
+            //produce training vectors for each problem
+            problems foreach { x => 
+
+                //this reads the MRSes of each problem
+		var fi = Source.fromFile(probdir+x)
+		var sentences = fi.mkString.split("\n\n") filter (! _.trim.isEmpty)
+		fi.close()
+
+                // create a World from MRSes of problem statement sentences
+                val w = parseStory(sentences)
+
+                //this gets the associated answer and equation
+                var pidx = x.split("\\.")(0).toInt
+                var a = answers(pidx)
+                var e = equations(pidx)
+
+		try {
+			val s = nonWorking(w,a,e)
+            } catch {case _ : Throwable => println(x)}
+            }
+        }
+	
+        def nonWorking(w:World, a:Float, e:String): Int = {
+            val eqValues = parseEquation(e) filter (x=>(x.charAt(0).isDigit)&&(x != "0.0"))
+            var op = cannonicalize(eqValues(0).toFloat,eqValues(1).toFloat,a)
+            if (eqValues.toList.length>2) op = "fail"
+            /*
+            val eqValues = parseEquation(e) map (x=>if (x=="x") "0.0" else x)
+	    val op = eqValues filter (List("+","-","/","*") contains _)
+	    val opIdx = eqValues.indexOf(op(0))
+	    val lOperand = w.numbers filter (x => x.card == eqValues(opIdx-1).toFloat) 
+	    val rOperand = w.numbers filter (x => x.card == eqValues(opIdx+1).toFloat)
+	    */
+            //if (op=="fail") {print(eqValues);print(a)}
+	    val lOperand = w.numbers filter (x => x.card == eqValues(0).toFloat) 
+	    val rOperand = w.numbers filter (x => x.card == eqValues(1).toFloat)
+	    val vec = w.vector(globals.REL_LIST,lOperand(0),rOperand(0))
+	    var j=1
+	    var opID = 0
+	    op match {
+		    case "+" => opID = 0
+		    case "-" => opID = 1
+		    case "*" => opID = 2
+		    case "/" => opID = 3
+	    }
+            return 1
+        }
+
     
         def parseEquation(e:String): List[String] = {
             var r = """(\d*\.?\d+|[x+\-\*\/\=])""".r
@@ -104,6 +165,78 @@ object parseQuestion {
 	    println()
 	    return 1
         }
+
+        def getVector(w:World, a:Float, e:String): DenseVector[Double] = {
+            val eqValues = parseEquation(e) filter (x=>(x.charAt(0).isDigit)&&(x != "0.0"))
+            var op = cannonicalize(eqValues(0).toFloat,eqValues(1).toFloat,a)
+            if (eqValues.toList.length>2) op = "fail"
+	    val lOperand = w.numbers filter (x => x.card == eqValues(0).toFloat) 
+	    val rOperand = w.numbers filter (x => x.card == eqValues(1).toFloat)
+	    val vec = w.bVector(globals.REL_LIST,lOperand(0),rOperand(0))
+            return vec
+        }
+
+        def getOp(w:World, a:Float, e:String): Int = {
+            val eqValues = parseEquation(e) filter (x=>(x.charAt(0).isDigit)&&(x != "0.0"))
+            var op = cannonicalize(eqValues(0).toFloat,eqValues(1).toFloat,a)
+	    var opID = 0
+            op match {
+                    case "+" => opID = 0
+                    case "-" => opID = 1
+                    case "*" => opID = 2
+                    case "/" => opID = 3
+            }
+            return opID
+        }
+
+        def doPCA() {
+            val probdir = "data/problems/"
+            val dir = new File(probdir)
+
+            //Dont train on the dev or test sets
+            val dontrain = Source.fromFile("data/dev.indexes").mkString.split("\n").toList ++ Source.fromFile("data/test.indexes").mkString.split("\n").toList
+            val problems = dir.list filter (_.endsWith("mrs")) filter { x => !(dontrain contains x)}
+
+            //load answers and equations
+            var answers = Source.fromFile("data/a.txt").mkString.split("\n") map (_.toFloat)
+            var equations = Source.fromFile("data/eq.txt").mkString.split("\n")
+
+            var matrix = DenseMatrix.zeros[Double](globals.REL_LIST.length*2,problems.length)
+            var i = 0
+            var ops = new ListBuffer[Int]
+            //produce training vectors for each problem
+            problems foreach { x => 
+
+                //this reads the MRSes of each problem
+		var fi = Source.fromFile(probdir+x)
+		var sentences = fi.mkString.split("\n\n") filter (! _.trim.isEmpty)
+		fi.close()
+
+                // create a World from MRSes of problem statement sentences
+                val w = parseStory(sentences)
+
+                //this gets the associated answer and equation
+                var pidx = x.split("\\.")(0).toInt
+                var a = answers(pidx)
+                var e = equations(pidx)
+
+                val v = getVector(w,a,e)
+                ops += getOp(w,a,e)
+                matrix(::, i) := v
+                i+=1
+            }
+            var PCA = princomp(matrix.t)
+            var FirstNine = PCA.scores(::,0 to 99)
+            i = 0
+            while (i < problems.length) {
+                var j = 0
+                print(ops(i).toString + " ")
+                0 to 99 foreach {x => print(j.toString+":"+FirstNine(i,x).toString+" ");j+=1}
+                println()
+                i += 1
+            }
+        }
+
 
 	def ILPout() {
 
@@ -245,8 +378,6 @@ object parseQuestion {
                 //w.vectorize(REL_LIST,s)
                 //rel_list(w)
             }
-
-
         }
 	
 	def main(args:Array[String]) {
@@ -256,6 +387,12 @@ object parseQuestion {
             val dir = new File(probdir)
             var files = new Array[String](0)
             args(0) match {
+                case "PCA" => {
+                    doPCA()
+                }
+                case "rm" => {
+                    removeProblems()
+                }
                 case "listRels" => {
                     listRels()
                 }

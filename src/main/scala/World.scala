@@ -1,4 +1,5 @@
 import scala.collection.mutable.ListBuffer
+import breeze.linalg._
 
 class World() {
     var EntityNames = Map[String,String]()
@@ -247,6 +248,13 @@ class World() {
         return vecs.toList
     }
 
+
+    def bVector(REL_LIST:Array[String],e1:Entity,e2:Entity): DenseVector[Double] = {
+        val vec = DenseVector.zeros[Double](REL_LIST.length*2)
+        e1.relations foreach {x => vec(REL_LIST.indexOf(x.r))=1}
+        e2.relations foreach {x => vec(REL_LIST.length + REL_LIST.indexOf(x.r))=1}
+        return vec
+    }
 
 
     def vector(REL_LIST:Array[String],e1:Entity,e2:Entity): List[Int] = {
