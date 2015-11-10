@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 0.875 | 1.33333333333333 | 0.375=(0.5/x) | 0.375 0.5 x / = | 0.375:inch 0.5:inch x:hair /:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 0.875 | 0.75 | 0.375=(x*0.5) | 0.375 x 0.5 * = | 0.375:inch x:hair 0.5:inch *:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 0.875 | 0.75 | 0.375=(0.5*x) | 0.375 0.5 x * = | 0.375:inch 0.5:inch x:hair *:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 0.875 | 1.33333333333333 | (x*0.375)=0.5 | x 0.375 * 0.5 = | x:hair 0.375:inch *:inch 0.5:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 0.875 | 1.33333333333333 | (0.375*x)=0.5 | 0.375 x * 0.5 = | 0.375:inch x:hair *:inch 0.5:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 0.875 | 0.75 | (0.375/x)=0.5 | 0.375 x / 0.5 = | 0.375:inch x:hair /:inch 0.5:inch =:inch
+EXPR: 0 | POS | FRA | 10 | 0.875 | 0.1875 | (0.375*0.5)=x | 0.375 0.5 * x = | 0.375:inch 0.5:hair *:hair x:hair =:hair
+EXPR: 1 | POS | FRA | 10 | 0.875 | 0.875 | (0.375+0.5)=x | 0.375 0.5 + x = | 0.375:inch 0.5:inch +:inch x:inch =:inch
+EXPR: 0 | POS | FRA | 10 | 0.875 | 0.1875 | x=(0.375*0.5) | x 0.375 0.5 * = | x:hair 0.375:inch 0.5:hair *:hair =:hair
+EXPR: 1 | POS | FRA | 10 | 0.875 | 0.875 | x=(0.375+0.5) | x 0.375 0.5 + = | x:inch 0.375:inch 0.5:inch +:inch =:inch
+EXPR: 0 | POS | FRA | 10 | 0.875 | 0.75 | x=(0.375/0.5) | x 0.375 0.5 / = | x:hair 0.375:hair 0.5:inch /:hair =:hair
+EXPR: 0 | POS | FRA | 10 | 0.875 | 0.75 | (0.375/0.5)=x | 0.375 0.5 / x = | 0.375:hair 0.5:inch /:hair x:hair =:hair
+EXPR: 0 | POS | FRA | 12 | 0.875 | 0.75 | 0.5=(0.375/x) | 0.5 0.375 x / = | 0.5:inch 0.375:inch x:hair /:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.875 | 0.75 | (x*0.5)=0.375 | x 0.5 * 0.375 = | x:hair 0.5:inch *:inch 0.375:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.875 | 0.1875 | 0.375=(x/0.5) | 0.375 x 0.5 / = | 0.375:hair x:hair 0.5:inch /:hair =:hair
+EXPR: 0 | POS | FRA | 12 | 0.875 | 1.33333333333333 | 0.5=(0.375*x) | 0.5 0.375 x * = | 0.5:inch 0.375:inch x:hair *:inch =:inch
+EXPR: 1 | POS | FRA | 12 | 0.875 | 0.875 | 0.375=(x-0.5) | 0.375 x 0.5 - = | 0.375:inch x:inch 0.5:inch -:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.875 | 1.33333333333333 | 0.5=(x*0.375) | 0.5 x 0.375 * = | 0.5:inch x:hair 0.375:inch *:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.875 | 0.125 | 0.375=(0.5-x) | 0.375 0.5 x - = | 0.375:inch 0.5:inch x:inch -:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.875 | 0.75 | (0.5*x)=0.375 | 0.5 x * 0.375 = | 0.5:inch x:hair *:inch 0.375:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.875 | 1.33333333333333 | (0.5/x)=0.375 | 0.5 x / 0.375 = | 0.5:inch x:hair /:inch 0.375:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.875 | 0.125 | (x+0.375)=0.5 | x 0.375 + 0.5 = | x:inch 0.375:inch +:inch 0.5:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.875 | 0.125 | (0.375+x)=0.5 | 0.375 x + 0.5 = | 0.375:inch x:inch +:inch 0.5:inch =:inch
+EXPR: 1 | POS | FRA | 12 | 0.875 | 0.875 | (x-0.375)=0.5 | x 0.375 - 0.5 = | x:inch 0.375:inch -:inch 0.5:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.875 | 0.1875 | (x/0.375)=0.5 | x 0.375 / 0.5 = | x:hair 0.375:inch /:hair 0.5:hair =:hair
+EXPR: 0 | POS | FRA | 20 | 0.875 | 1.33333333333333 | (0.5/0.375)=x | 0.5 0.375 / x = | 0.5:hair 0.375:inch /:hair x:hair =:hair
+EXPR: 0 | POS | FRA | 20 | 0.875 | 0.125 | x=(0.5-0.375) | x 0.5 0.375 - = | x:inch 0.5:inch 0.375:inch -:inch =:inch
+EXPR: 0 | POS | FRA | 20 | 0.875 | 0.125 | (0.5-0.375)=x | 0.5 0.375 - x = | 0.5:inch 0.375:inch -:inch x:inch =:inch
+EXPR: 0 | POS | FRA | 20 | 0.875 | 1.33333333333333 | x=(0.5/0.375) | x 0.5 0.375 / = | x:hair 0.5:hair 0.375:inch /:hair =:hair
+EXPR: 0 | POS | FRA | 22 | 0.875 | 0.125 | (0.5-x)=0.375 | 0.5 x - 0.375 = | 0.5:inch x:inch -:inch 0.375:inch =:inch
+EXPR: 0 | POS | FRA | 22 | 0.875 | 0.1875 | (x/0.5)=0.375 | x 0.5 / 0.375 = | x:hair 0.5:inch /:hair 0.375:hair =:hair
+EXPR: 1 | POS | FRA | 22 | 0.875 | 0.875 | (x-0.5)=0.375 | x 0.5 - 0.375 = | x:inch 0.5:inch -:inch 0.375:inch =:inch
+EXPR: 1 | POS | FRA | 22 | 0.875 | 0.875 | 0.5=(x-0.375) | 0.5 x 0.375 - = | 0.5:inch x:inch 0.375:inch -:inch =:inch
+EXPR: 0 | POS | FRA | 22 | 0.875 | 0.125 | 0.5=(x+0.375) | 0.5 x 0.375 + = | 0.5:inch x:inch 0.375:inch +:inch =:inch
+EXPR: 0 | POS | FRA | 22 | 0.875 | 0.125 | 0.5=(0.375+x) | 0.5 0.375 x + = | 0.5:inch 0.375:inch x:inch +:inch =:inch
+EXPR: 0 | POS | FRA | 22 | 0.875 | 0.1875 | 0.5=(x/0.375) | 0.5 x 0.375 / = | 0.5:hair x:hair 0.375:inch /:hair =:hair
+NET 36 unique, non-negative solutions found out of 136 total solutions

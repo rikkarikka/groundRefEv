@@ -1,0 +1,7 @@
+constants : 0.8 0.2
+unknowns : x
+operators : + - * / =
+objtypes : gallon water
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.6

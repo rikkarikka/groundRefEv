@@ -1,0 +1,7 @@
+constants : 0.08333333333333333 0.75 0.08333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : restaurant tart
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 0.9166666666666666

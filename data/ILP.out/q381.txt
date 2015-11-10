@@ -1,0 +1,7 @@
+constants : 3.42 2.2
+unknowns : x
+operators : + - * / =
+objtypes : pound fruit
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 1.22

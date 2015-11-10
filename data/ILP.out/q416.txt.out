@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 9 | 324 | x=(6*54) | x 6 54 * = | x:number 6:number 54:animal *:number =:number
+EXPR: 0 | POS | INT | 10 | 9 | 324 | (6*54)=x | 6 54 * x = | 6:neighbor 54:animal *:neighbor x:neighbor =:neighbor
+EXPR: 0 | POS | INT | 12 | 9 | 324 | 6=(x/54) | 6 x 54 / = | 6:number x:number 54:animal /:number =:number
+EXPR: 1 | POS | INT | 12 | 9 | 9 | (6*x)=54 | 6 x * 54 = | 6:neighbor x:number *:neighbor 54:neighbor =:neighbor
+EXPR: 0 | POS | INT | 12 | 9 | 324 | (x/6)=54 | x 6 / 54 = | x:number 6:neighbor /:number 54:number =:number
+EXPR: 1 | POS | INT | 12 | 9 | 9 | (x*6)=54 | x 6 * 54 = | x:animal 6:neighbor *:animal 54:animal =:animal
+EXPR: 1 | POS | INT | 12 | 9 | 9 | 6=(54/x) | 6 54 x / = | 6:neighbor 54:neighbor x:number /:neighbor =:neighbor
+EXPR: 0 | POS | INT | 20 | 9 | 60 | (6+54)=x | 6 54 + x = | 6:neighbor 54:neighbor +:neighbor x:neighbor =:neighbor
+EXPR: 0 | POS | INT | 20 | 9 | 60 | x=(6+54) | x 6 54 + = | x:animal 6:animal 54:animal +:animal =:animal
+EXPR: 1 | POS | INT | 20 | 9 | 9 | (54/6)=x | 54 6 / x = | 54:animal 6:neighbor /:animal x:animal =:animal
+EXPR: 1 | POS | INT | 20 | 9 | 9 | x=(54/6) | x 54 6 / = | x:animal 54:animal 6:neighbor /:animal =:animal
+EXPR: 0 | POS | INT | 22 | 9 | 60 | (x-6)=54 | x 6 - 54 = | x:animal 6:animal -:animal 54:animal =:animal
+EXPR: 0 | POS | INT | 22 | 9 | 324 | 54=(x/6) | 54 x 6 / = | 54:number x:number 6:neighbor /:number =:number
+EXPR: 1 | POS | INT | 22 | 9 | 9 | (54/x)=6 | 54 x / 6 = | 54:neighbor x:number /:neighbor 6:neighbor =:neighbor
+EXPR: 0 | POS | INT | 22 | 9 | 48 | 6=(54-x) | 6 54 x - = | 6:animal 54:animal x:animal -:animal =:animal
+EXPR: 0 | POS | INT | 22 | 9 | 48 | (6+x)=54 | 6 x + 54 = | 6:number x:number +:number 54:number =:number
+EXPR: 0 | POS | INT | 22 | 9 | 48 | (x+6)=54 | x 6 + 54 = | x:neighbor 6:neighbor +:neighbor 54:neighbor =:neighbor
+EXPR: 1 | POS | INT | 22 | 9 | 9 | 54=(x*6) | 54 x 6 * = | 54:animal x:animal 6:neighbor *:animal =:animal
+EXPR: 0 | POS | INT | 22 | 9 | 60 | 6=(x-54) | 6 x 54 - = | 6:number x:number 54:number -:number =:number
+EXPR: 1 | POS | INT | 22 | 9 | 9 | 54=(6*x) | 54 6 x * = | 54:number 6:neighbor x:number *:number =:number
+EXPR: 0 | POS | INT | 22 | 9 | 324 | (x/54)=6 | x 54 / 6 = | x:number 54:animal /:number 6:number =:number
+EXPR: 0 | POS | INT | 30 | 9 | 48 | x=(54-6) | x 54 6 - = | x:animal 54:animal 6:animal -:animal =:animal
+EXPR: 0 | POS | INT | 30 | 9 | 48 | (54-6)=x | 54 6 - x = | 54:number 6:number -:number x:number =:number
+EXPR: 0 | POS | INT | 32 | 9 | 60 | (x-54)=6 | x 54 - 6 = | x:animal 54:animal -:animal 6:animal =:animal
+EXPR: 0 | POS | INT | 32 | 9 | 48 | (54-x)=6 | 54 x - 6 = | 54:animal x:animal -:animal 6:animal =:animal
+EXPR: 0 | POS | INT | 32 | 9 | 48 | 54=(6+x) | 54 6 x + = | 54:animal 6:animal x:animal +:animal =:animal
+EXPR: 0 | POS | INT | 32 | 9 | 48 | 54=(x+6) | 54 x 6 + = | 54:animal x:animal 6:animal +:animal =:animal
+EXPR: 0 | POS | INT | 32 | 9 | 60 | 54=(x-6) | 54 x 6 - = | 54:animal x:animal 6:animal -:animal =:animal
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

@@ -1,0 +1,7 @@
+constants : 85 48
+unknowns : x
+operators : + - * / =
+objtypes : peanut
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 133

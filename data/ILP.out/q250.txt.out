@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 971639 | 184744833658 | x=(712261*259378) | x 712261 259378 * = | x:salmon 712261:male 259378:salmon *:salmon =:salmon
+EXPR: 0 | POS | INT | 0 | 971639 | 184744833658 | (712261*259378)=x | 712261 259378 * x = | 712261:male 259378:salmon *:salmon x:salmon =:salmon
+EXPR: 0 | POS | INT | 2 | 971639 | 184744833658 | (x/712261)=259378 | x 712261 / 259378 = | x:salmon 712261:male /:salmon 259378:salmon =:salmon
+EXPR: 1 | POS | INT | 10 | 971639 | 971639 | x=(712261+259378) | x 712261 259378 + = | x:salmon 712261:salmon 259378:salmon +:salmon =:salmon
+EXPR: 1 | POS | INT | 10 | 971639 | 971639 | (712261+259378)=x | 712261 259378 + x = | 712261:salmon 259378:salmon +:salmon x:salmon =:salmon
+EXPR: 0 | POS | INT | 10 | 971639 | 452883 | (712261-259378)=x | 712261 259378 - x = | 712261:salmon 259378:salmon -:salmon x:salmon =:salmon
+EXPR: 0 | POS | INT | 10 | 971639 | 452883 | x=(712261-259378) | x 712261 259378 - = | x:salmon 712261:salmon 259378:salmon -:salmon =:salmon
+EXPR: 0 | POS | INT | 12 | 971639 | 452883 | (712261-x)=259378 | 712261 x - 259378 = | 712261:salmon x:salmon -:salmon 259378:salmon =:salmon
+EXPR: 0 | POS | INT | 12 | 971639 | 452883 | 712261=(259378+x) | 712261 259378 x + = | 712261:salmon 259378:salmon x:salmon +:salmon =:salmon
+EXPR: 0 | POS | INT | 12 | 971639 | 184744833658 | 259378=(x/712261) | 259378 x 712261 / = | 259378:salmon x:salmon 712261:male /:salmon =:salmon
+EXPR: 1 | POS | INT | 12 | 971639 | 971639 | (x-712261)=259378 | x 712261 - 259378 = | x:salmon 712261:salmon -:salmon 259378:salmon =:salmon
+EXPR: 0 | POS | INT | 12 | 971639 | 452883 | 712261=(x+259378) | 712261 x 259378 + = | 712261:salmon x:salmon 259378:salmon +:salmon =:salmon
+EXPR: 1 | POS | INT | 12 | 971639 | 971639 | 712261=(x-259378) | 712261 x 259378 - = | 712261:salmon x:salmon 259378:salmon -:salmon =:salmon
+EXPR: 0 | POS | INT | 12 | 971639 | 184744833658 | 712261=(x/259378) | 712261 x 259378 / = | 712261:male x:male 259378:salmon /:male =:male
+EXPR: 0 | POS | INT | 22 | 971639 | 184744833658 | (x/259378)=712261 | x 259378 / 712261 = | x:male 259378:salmon /:male 712261:male =:male
+EXPR: 0 | POS | INT | 22 | 971639 | 452883 | 259378=(712261-x) | 259378 712261 x - = | 259378:salmon 712261:salmon x:salmon -:salmon =:salmon
+EXPR: 0 | POS | INT | 22 | 971639 | 452883 | (x+259378)=712261 | x 259378 + 712261 = | x:salmon 259378:salmon +:salmon 712261:salmon =:salmon
+EXPR: 1 | POS | INT | 22 | 971639 | 971639 | (x-259378)=712261 | x 259378 - 712261 = | x:salmon 259378:salmon -:salmon 712261:salmon =:salmon
+EXPR: 0 | POS | INT | 22 | 971639 | 452883 | (259378+x)=712261 | 259378 x + 712261 = | 259378:salmon x:salmon +:salmon 712261:salmon =:salmon
+EXPR: 1 | POS | INT | 22 | 971639 | 971639 | 259378=(x-712261) | 259378 x 712261 - = | 259378:salmon x:salmon 712261:salmon -:salmon =:salmon
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

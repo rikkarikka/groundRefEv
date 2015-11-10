@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 24 | 24 | x=(8*3) | x 8 3 * = | x:calorie 8:calorie 3:bar *:calorie =:calorie
+EXPR: 1 | POS | INT | 0 | 24 | 24 | (8*3)=x | 8 3 * x = | 8:calorie 3:bar *:calorie x:calorie =:calorie
+EXPR: 1 | POS | INT | 2 | 24 | 24 | 8=(x/3) | 8 x 3 / = | 8:calorie x:calorie 3:bar /:calorie =:calorie
+EXPR: 0 | POS | INT | 10 | 24 | 5 | (8-3)=x | 8 3 - x = | 8:calorie 3:calorie -:calorie x:calorie =:calorie
+EXPR: 0 | POS | INT | 10 | 24 | 11 | x=(8+3) | x 8 3 + = | x:calorie 8:calorie 3:calorie +:calorie =:calorie
+EXPR: 0 | POS | INT | 10 | 24 | 5 | x=(8-3) | x 8 3 - = | x:calorie 8:calorie 3:calorie -:calorie =:calorie
+EXPR: 0 | POS | INT | 10 | 24 | 11 | (8+3)=x | 8 3 + x = | 8:calorie 3:calorie +:calorie x:calorie =:calorie
+EXPR: 0 | POS | INT | 12 | 24 | 5 | 8=(x+3) | 8 x 3 + = | 8:calorie x:calorie 3:calorie +:calorie =:calorie
+EXPR: 0 | POS | INT | 12 | 24 | 11 | 8=(x-3) | 8 x 3 - = | 8:calorie x:calorie 3:calorie -:calorie =:calorie
+EXPR: 0 | POS | INT | 12 | 24 | 5 | 8=(3+x) | 8 3 x + = | 8:calorie 3:calorie x:calorie +:calorie =:calorie
+EXPR: 0 | POS | INT | 12 | 24 | 11 | (x-8)=3 | x 8 - 3 = | x:calorie 8:calorie -:calorie 3:calorie =:calorie
+EXPR: 0 | POS | INT | 12 | 24 | 5 | (8-x)=3 | 8 x - 3 = | 8:calorie x:calorie -:calorie 3:calorie =:calorie
+EXPR: 1 | POS | INT | 12 | 24 | 24 | (x/8)=3 | x 8 / 3 = | x:bar 8:calorie /:bar 3:bar =:bar
+EXPR: 1 | POS | INT | 12 | 24 | 24 | (x/3)=8 | x 3 / 8 = | x:calorie 3:bar /:calorie 8:calorie =:calorie
+EXPR: 0 | POS | INT | 22 | 24 | 5 | (x+3)=8 | x 3 + 8 = | x:calorie 3:calorie +:calorie 8:calorie =:calorie
+EXPR: 0 | POS | INT | 22 | 24 | 5 | (3+x)=8 | 3 x + 8 = | 3:calorie x:calorie +:calorie 8:calorie =:calorie
+EXPR: 0 | POS | INT | 22 | 24 | 11 | 3=(x-8) | 3 x 8 - = | 3:calorie x:calorie 8:calorie -:calorie =:calorie
+EXPR: 1 | POS | INT | 22 | 24 | 24 | 3=(x/8) | 3 x 8 / = | 3:bar x:bar 8:calorie /:bar =:bar
+EXPR: 0 | POS | INT | 22 | 24 | 5 | 3=(8-x) | 3 8 x - = | 3:calorie 8:calorie x:calorie -:calorie =:calorie
+EXPR: 0 | POS | INT | 22 | 24 | 11 | (x-3)=8 | x 3 - 8 = | x:calorie 3:calorie -:calorie 8:calorie =:calorie
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

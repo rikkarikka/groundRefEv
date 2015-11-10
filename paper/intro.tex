@@ -1,0 +1,65 @@
+\section{Introduction}
+Automatically solving math word problems is a
+
+long-standing challenge for AI (Bobrow, 1964;
+
+Charniak, 1969; Seo et al., 2015; Shi et al., 2015)
+
+A popular strain of current work focuses on solving
+
+algebra word problems which read like small narratives (Roy et al., 2015a; Roy et al., 2015b; Hos-
+seini et al., 2014; Kushman et al., 2014; Koncel-
+Kedziorski et al., 2015; Zhou et al., 2015). Unlike a child, an NLP system struggles to solve such
+
+problems not because of the mechanics of the al-
+gebraic manipulations involved, but rather due to
+
+the immense difficulty of understanding the narra-
+tive which occludes the equational form. These nar-
+ratives may draw from arbitrary aspects of human
+
+life with which school children are familiar, such
+
+as harvesting crops to trading Pokemon cards. The
+
+open-domain aspect of these problems compounds
+
+the difficult of automatically solving them.
+
+A recent line of work has focused on a semantics-
+based solution to the narrative understanding task presented by algebra word problems. Sets of relevant entities are extracted from the text of the problem and the algebraic relationships between these
+
+sets are learned from data. Hosseini et al. (2014)
+
+uses a state-based model of entities and containers
+
+and learns to determine state transitions based on
+
+verb categorization. Koncel-Kedziorski et al. (2015)
+
+deterministically extracts a recursive formal object
+
+called a Qset for each quantity from the dependency
+
+parse of a word problem. Qsets are constructed from
+
+a host of dependency relations deemed significant in
+
+the solving of math word problems. Learning then
+
+takes place over all properties of the Qsets combined
+
+by a given operator, as well as global properties of
+
+the problem.
+
+
+Both approaches, however, suffer from a number of scope limitations. Hosseini et al. (2014) can handle only addition, subtraction, and mixed addition subtraction problems. Koncel-Kedziorski et al. (2015) can handle addition, subtraction, multiplication, division, and mixed problems in one variable. However, template-based methods such as Kushman et al. (2014) and Zhou et al. (2015) can solve all these as well as problems involving simultaneous equations. Additionally, it’s difficult to see how either semantic-based method can be extended to solve other narrative understanding problems such as science or reading comprehension questions, or provide for general tasks like character representation or event sequencing.
+
+One reason the semantic-based approaches suffer these scope limitations is due to the “home-brewed” semantic representations used by each. Both works extract unique, domain-specific semantic representations of sets from the dependency parse structure of the problems. These representations significantly reduce the information provided in the text signal, making it difficult to learn the more complex set relationships necessary to solve harder problems.
+
+This paper explores the use of Minimal Recursion Semantics (Copestake et al., 2005) in the solving of algebra word problems. Minimal Recursion Semantics is a rich compositional semantic formalism that can be automatically induced for English sentences via the English Resource Grammar (Flickinger, 2000; Flickinger, 2011). The robustness of this formalism, if utilized well, should significantly reduce the information loss cited above.
+Moreover, the domain-independence of this semantic formalism will allow for the development of learning methods which can be extended to solve other narrative understanding problems (Bender et al., 2015).
+
+Our (preliminary) method utilizes the entities expressed in the MRS representation. The entities are then filtered by those which have been quantified with a cardinal number. Variables are those which are the argument of a much-many a rel predicate.
+We then learn from the predications that take these entities as arguments which operations obtain between them. 

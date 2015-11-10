@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 23 | 169 | x=(73+96) | x 73 96 + = | x:bale 73:bale 96:bale +:bale =:bale
+EXPR: 0 | POS | INT | 0 | 23 | 169 | (73+96)=x | 73 96 + x = | 73:bale 96:bale +:bale x:bale =:bale
+EXPR: 1 | POS | INT | 2 | 23 | 23 | (x+73)=96 | x 73 + 96 = | x:bale 73:bale +:bale 96:bale =:bale
+EXPR: 0 | POS | INT | 2 | 23 | 169 | (x-73)=96 | x 73 - 96 = | x:bale 73:bale -:bale 96:bale =:bale
+EXPR: 1 | POS | INT | 2 | 23 | 23 | (73+x)=96 | 73 x + 96 = | 73:bale x:bale +:bale 96:bale =:bale
+EXPR: 1 | POS | INT | 2 | 23 | 23 | 73=(96-x) | 73 96 x - = | 73:bale 96:bale x:bale -:bale =:bale
+EXPR: 0 | POS | INT | 2 | 23 | 169 | 73=(x-96) | 73 x 96 - = | 73:bale x:bale 96:bale -:bale =:bale
+EXPR: 1 | POS | INT | 10 | 23 | 23 | (96-73)=x | 96 73 - x = | 96:bale 73:bale -:bale x:bale =:bale
+EXPR: 1 | POS | INT | 10 | 23 | 23 | x=(96-73) | x 96 73 - = | x:bale 96:bale 73:bale -:bale =:bale
+EXPR: 0 | POS | INT | 12 | 23 | 169 | (x-96)=73 | x 96 - 73 = | x:bale 96:bale -:bale 73:bale =:bale
+EXPR: 1 | POS | INT | 12 | 23 | 23 | 96=(x+73) | 96 x 73 + = | 96:bale x:bale 73:bale +:bale =:bale
+EXPR: 1 | POS | INT | 12 | 23 | 23 | 96=(73+x) | 96 73 x + = | 96:bale 73:bale x:bale +:bale =:bale
+EXPR: 0 | POS | INT | 12 | 23 | 169 | 96=(x-73) | 96 x 73 - = | 96:bale x:bale 73:bale -:bale =:bale
+EXPR: 1 | POS | INT | 12 | 23 | 23 | (96-x)=73 | 96 x - 73 = | 96:bale x:bale -:bale 73:bale =:bale
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

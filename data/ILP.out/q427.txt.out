@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 6 | 384 | x=(48*8) | x 48 8 * = | x:bracelet 48:bracelet 8:type *:bracelet =:bracelet
+EXPR: 0 | POS | INT | 10 | 6 | 384 | (48*8)=x | 48 8 * x = | 48:stone 8:type *:stone x:stone =:stone
+EXPR: 1 | POS | INT | 10 | 6 | 6 | (48/8)=x | 48 8 / x = | 48:bracelet 8:type /:bracelet x:bracelet =:bracelet
+EXPR: 1 | POS | INT | 10 | 6 | 6 | x=(48/8) | x 48 8 / = | x:stone 48:stone 8:type /:stone =:stone
+EXPR: 1 | POS | INT | 12 | 6 | 6 | 48=(x*8) | 48 x 8 * = | 48:type x:bracelet 8:type *:type =:type
+EXPR: 0 | POS | INT | 12 | 6 | 384 | 48=(x/8) | 48 x 8 / = | 48:bracelet x:bracelet 8:type /:bracelet =:bracelet
+EXPR: 1 | POS | INT | 12 | 6 | 6 | 48=(8*x) | 48 8 x * = | 48:bracelet 8:type x:bracelet *:bracelet =:bracelet
+EXPR: 1 | POS | INT | 12 | 6 | 6 | (48/x)=8 | 48 x / 8 = | 48:stone x:bracelet /:stone 8:stone =:stone
+EXPR: 0 | POS | INT | 12 | 6 | 384 | (x/48)=8 | x 48 / 8 = | x:bracelet 48:stone /:bracelet 8:bracelet =:bracelet
+EXPR: 0 | POS | INT | 20 | 6 | 56 | (48+8)=x | 48 8 + x = | 48:stone 8:stone +:stone x:stone =:stone
+EXPR: 0 | POS | INT | 20 | 6 | 56 | x=(48+8) | x 48 8 + = | x:type 48:type 8:type +:type =:type
+EXPR: 0 | POS | INT | 20 | 6 | 40 | (48-8)=x | 48 8 - x = | 48:stone 8:stone -:stone x:stone =:stone
+EXPR: 0 | POS | INT | 20 | 6 | 40 | x=(48-8) | x 48 8 - = | x:bracelet 48:bracelet 8:bracelet -:bracelet =:bracelet
+EXPR: 0 | POS | INT | 22 | 6 | 56 | (x-48)=8 | x 48 - 8 = | x:type 48:type -:type 8:type =:type
+EXPR: 1 | POS | INT | 22 | 6 | 6 | (x*8)=48 | x 8 * 48 = | x:bracelet 8:type *:type 48:type =:type
+EXPR: 1 | POS | INT | 22 | 6 | 6 | (8*x)=48 | 8 x * 48 = | 8:stone x:bracelet *:stone 48:stone =:stone
+EXPR: 0 | POS | INT | 22 | 6 | 384 | 8=(x/48) | 8 x 48 / = | 8:bracelet x:bracelet 48:stone /:bracelet =:bracelet
+EXPR: 0 | POS | INT | 22 | 6 | 40 | 48=(8+x) | 48 8 x + = | 48:type 8:type x:type +:type =:type
+EXPR: 0 | POS | INT | 22 | 6 | 40 | (48-x)=8 | 48 x - 8 = | 48:bracelet x:bracelet -:bracelet 8:bracelet =:bracelet
+EXPR: 0 | POS | INT | 22 | 6 | 40 | 48=(x+8) | 48 x 8 + = | 48:bracelet x:bracelet 8:bracelet +:bracelet =:bracelet
+EXPR: 0 | POS | INT | 22 | 6 | 56 | 48=(x-8) | 48 x 8 - = | 48:bracelet x:bracelet 8:bracelet -:bracelet =:bracelet
+EXPR: 0 | POS | INT | 22 | 6 | 384 | (x/8)=48 | x 8 / 48 = | x:bracelet 8:type /:bracelet 48:bracelet =:bracelet
+EXPR: 1 | POS | INT | 22 | 6 | 6 | 8=(48/x) | 8 48 x / = | 8:type 48:type x:bracelet /:type =:type
+EXPR: 0 | POS | INT | 32 | 6 | 56 | (x-8)=48 | x 8 - 48 = | x:type 8:type -:type 48:type =:type
+EXPR: 0 | POS | INT | 32 | 6 | 40 | (8+x)=48 | 8 x + 48 = | 8:type x:type +:type 48:type =:type
+EXPR: 0 | POS | INT | 32 | 6 | 40 | (x+8)=48 | x 8 + 48 = | x:stone 8:stone +:stone 48:stone =:stone
+EXPR: 0 | POS | INT | 32 | 6 | 40 | 8=(48-x) | 8 48 x - = | 8:type 48:type x:type -:type =:type
+EXPR: 0 | POS | INT | 32 | 6 | 56 | 8=(x-48) | 8 x 48 - = | 8:type x:type 48:type -:type =:type
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

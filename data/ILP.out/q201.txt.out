@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 20 | 20 | (43-23)=x | 43 23 - x = | 43:pumpkin 23:pumpkin -:pumpkin x:pumpkin =:pumpkin
+EXPR: 0 | POS | INT | 0 | 20 | 66 | x=(43+23) | x 43 23 + = | x:pumpkin 43:pumpkin 23:pumpkin +:pumpkin =:pumpkin
+EXPR: 1 | POS | INT | 0 | 20 | 20 | x=(43-23) | x 43 23 - = | x:pumpkin 43:pumpkin 23:pumpkin -:pumpkin =:pumpkin
+EXPR: 0 | POS | INT | 0 | 20 | 66 | (43+23)=x | 43 23 + x = | 43:pumpkin 23:pumpkin +:pumpkin x:pumpkin =:pumpkin
+EXPR: 1 | POS | INT | 2 | 20 | 20 | 43=(23+x) | 43 23 x + = | 43:pumpkin 23:pumpkin x:pumpkin +:pumpkin =:pumpkin
+EXPR: 0 | POS | INT | 2 | 20 | 66 | (x-43)=23 | x 43 - 23 = | x:pumpkin 43:pumpkin -:pumpkin 23:pumpkin =:pumpkin
+EXPR: 1 | POS | INT | 2 | 20 | 20 | 43=(x+23) | 43 x 23 + = | 43:pumpkin x:pumpkin 23:pumpkin +:pumpkin =:pumpkin
+EXPR: 1 | POS | INT | 2 | 20 | 20 | (43-x)=23 | 43 x - 23 = | 43:pumpkin x:pumpkin -:pumpkin 23:pumpkin =:pumpkin
+EXPR: 0 | POS | INT | 2 | 20 | 66 | 43=(x-23) | 43 x 23 - = | 43:pumpkin x:pumpkin 23:pumpkin -:pumpkin =:pumpkin
+EXPR: 1 | POS | INT | 12 | 20 | 20 | (x+23)=43 | x 23 + 43 = | x:pumpkin 23:pumpkin +:pumpkin 43:pumpkin =:pumpkin
+EXPR: 0 | POS | INT | 12 | 20 | 66 | (x-23)=43 | x 23 - 43 = | x:pumpkin 23:pumpkin -:pumpkin 43:pumpkin =:pumpkin
+EXPR: 1 | POS | INT | 12 | 20 | 20 | (23+x)=43 | 23 x + 43 = | 23:pumpkin x:pumpkin +:pumpkin 43:pumpkin =:pumpkin
+EXPR: 0 | POS | INT | 12 | 20 | 66 | 23=(x-43) | 23 x 43 - = | 23:pumpkin x:pumpkin 43:pumpkin -:pumpkin =:pumpkin
+EXPR: 1 | POS | INT | 12 | 20 | 20 | 23=(43-x) | 23 43 x - = | 23:pumpkin 43:pumpkin x:pumpkin -:pumpkin =:pumpkin
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

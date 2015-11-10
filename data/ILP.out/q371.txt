@@ -1,0 +1,7 @@
+constants : 9.91 4.11
+unknowns : x
+operators : + - * / =
+objtypes : pound
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 14.02

@@ -1,0 +1,7 @@
+constants : 323 17
+unknowns : x
+operators : + - * / =
+objtypes : game month
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 19.0

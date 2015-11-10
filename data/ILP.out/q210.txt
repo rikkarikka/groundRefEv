@@ -1,0 +1,7 @@
+constants : 0.15 1.3 0.7 4.5
+unknowns : x
+operators : + - * / =
+objtypes : money
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 6.65

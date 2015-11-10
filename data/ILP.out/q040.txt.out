@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 70 | 70 | x=(21+49) | x 21 49 + = | x:quarter 21:quarter 49:quarter +:quarter =:quarter
+EXPR: 1 | POS | INT | 0 | 70 | 70 | (21+49)=x | 21 49 + x = | 21:quarter 49:quarter +:quarter x:quarter =:quarter
+EXPR: 0 | POS | INT | 2 | 70 | 28 | (x+21)=49 | x 21 + 49 = | x:quarter 21:quarter +:quarter 49:quarter =:quarter
+EXPR: 1 | POS | INT | 2 | 70 | 70 | (x-21)=49 | x 21 - 49 = | x:quarter 21:quarter -:quarter 49:quarter =:quarter
+EXPR: 0 | POS | INT | 2 | 70 | 28 | (21+x)=49 | 21 x + 49 = | 21:quarter x:quarter +:quarter 49:quarter =:quarter
+EXPR: 0 | POS | INT | 2 | 70 | 28 | 21=(49-x) | 21 49 x - = | 21:quarter 49:quarter x:quarter -:quarter =:quarter
+EXPR: 1 | POS | INT | 2 | 70 | 70 | 21=(x-49) | 21 x 49 - = | 21:quarter x:quarter 49:quarter -:quarter =:quarter
+EXPR: 0 | POS | INT | 10 | 70 | 28 | (49-21)=x | 49 21 - x = | 49:quarter 21:quarter -:quarter x:quarter =:quarter
+EXPR: 0 | POS | INT | 10 | 70 | 28 | x=(49-21) | x 49 21 - = | x:quarter 49:quarter 21:quarter -:quarter =:quarter
+EXPR: 1 | POS | INT | 12 | 70 | 70 | (x-49)=21 | x 49 - 21 = | x:quarter 49:quarter -:quarter 21:quarter =:quarter
+EXPR: 0 | POS | INT | 12 | 70 | 28 | 49=(x+21) | 49 x 21 + = | 49:quarter x:quarter 21:quarter +:quarter =:quarter
+EXPR: 0 | POS | INT | 12 | 70 | 28 | 49=(21+x) | 49 21 x + = | 49:quarter 21:quarter x:quarter +:quarter =:quarter
+EXPR: 1 | POS | INT | 12 | 70 | 70 | 49=(x-21) | 49 x 21 - = | 49:quarter x:quarter 21:quarter -:quarter =:quarter
+EXPR: 0 | POS | INT | 12 | 70 | 28 | (49-x)=21 | 49 x - 21 = | 49:quarter x:quarter -:quarter 21:quarter =:quarter
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

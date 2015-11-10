@@ -1,0 +1,7 @@
+constants : 8.2 1.6
+unknowns : x
+operators : + - * / =
+objtypes : mile DISTANCE
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 9.8

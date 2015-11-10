@@ -1,0 +1,7 @@
+constants : 10.2 8.6
+unknowns : x
+operators : + - * / =
+objtypes : page
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 18.8

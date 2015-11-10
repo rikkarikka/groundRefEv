@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 7 | 1008 | x=(12*84) | x 12 84 * = | x:cost 12:cost 84:cent *:cost =:cost
+EXPR: 0 | POS | INT | 10 | 7 | 1008 | (12*84)=x | 12 84 * x = | 12:ounce 84:cent *:ounce x:ounce =:ounce
+EXPR: 0 | POS | INT | 12 | 7 | 1008 | 12=(x/84) | 12 x 84 / = | 12:cost x:cost 84:cent /:cost =:cost
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (12*x)=84 | 12 x * 84 = | 12:ounce x:cost *:ounce 84:ounce =:ounce
+EXPR: 0 | POS | INT | 12 | 7 | 1008 | (x/12)=84 | x 12 / 84 = | x:cost 12:ounce /:cost 84:cost =:cost
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (x*12)=84 | x 12 * 84 = | x:cent 12:ounce *:cent 84:cent =:cent
+EXPR: 1 | POS | INT | 12 | 7 | 7 | 12=(84/x) | 12 84 x / = | 12:ounce 84:ounce x:cost /:ounce =:ounce
+EXPR: 0 | POS | INT | 20 | 7 | 96 | (12+84)=x | 12 84 + x = | 12:ounce 84:ounce +:ounce x:ounce =:ounce
+EXPR: 0 | POS | INT | 20 | 7 | 96 | x=(12+84) | x 12 84 + = | x:cent 12:cent 84:cent +:cent =:cent
+EXPR: 1 | POS | INT | 20 | 7 | 7 | (84/12)=x | 84 12 / x = | 84:cent 12:ounce /:cent x:cent =:cent
+EXPR: 1 | POS | INT | 20 | 7 | 7 | x=(84/12) | x 84 12 / = | x:cent 84:cent 12:ounce /:cent =:cent
+EXPR: 0 | POS | INT | 22 | 7 | 96 | (x-12)=84 | x 12 - 84 = | x:cent 12:cent -:cent 84:cent =:cent
+EXPR: 0 | POS | INT | 22 | 7 | 1008 | 84=(x/12) | 84 x 12 / = | 84:cost x:cost 12:ounce /:cost =:cost
+EXPR: 1 | POS | INT | 22 | 7 | 7 | (84/x)=12 | 84 x / 12 = | 84:ounce x:cost /:ounce 12:ounce =:ounce
+EXPR: 0 | POS | INT | 22 | 7 | 72 | 12=(84-x) | 12 84 x - = | 12:cent 84:cent x:cent -:cent =:cent
+EXPR: 0 | POS | INT | 22 | 7 | 72 | (12+x)=84 | 12 x + 84 = | 12:cost x:cost +:cost 84:cost =:cost
+EXPR: 0 | POS | INT | 22 | 7 | 72 | (x+12)=84 | x 12 + 84 = | x:ounce 12:ounce +:ounce 84:ounce =:ounce
+EXPR: 1 | POS | INT | 22 | 7 | 7 | 84=(x*12) | 84 x 12 * = | 84:cent x:cent 12:ounce *:cent =:cent
+EXPR: 0 | POS | INT | 22 | 7 | 96 | 12=(x-84) | 12 x 84 - = | 12:cost x:cost 84:cost -:cost =:cost
+EXPR: 1 | POS | INT | 22 | 7 | 7 | 84=(12*x) | 84 12 x * = | 84:cost 12:ounce x:cost *:cost =:cost
+EXPR: 0 | POS | INT | 22 | 7 | 1008 | (x/84)=12 | x 84 / 12 = | x:cost 84:cent /:cost 12:cost =:cost
+EXPR: 0 | POS | INT | 30 | 7 | 72 | x=(84-12) | x 84 12 - = | x:cent 84:cent 12:cent -:cent =:cent
+EXPR: 0 | POS | INT | 30 | 7 | 72 | (84-12)=x | 84 12 - x = | 84:cost 12:cost -:cost x:cost =:cost
+EXPR: 0 | POS | INT | 32 | 7 | 96 | (x-84)=12 | x 84 - 12 = | x:cent 84:cent -:cent 12:cent =:cent
+EXPR: 0 | POS | INT | 32 | 7 | 72 | (84-x)=12 | 84 x - 12 = | 84:cent x:cent -:cent 12:cent =:cent
+EXPR: 0 | POS | INT | 32 | 7 | 72 | 84=(12+x) | 84 12 x + = | 84:cent 12:cent x:cent +:cent =:cent
+EXPR: 0 | POS | INT | 32 | 7 | 72 | 84=(x+12) | 84 x 12 + = | 84:cent x:cent 12:cent +:cent =:cent
+EXPR: 0 | POS | INT | 32 | 7 | 96 | 84=(x-12) | 84 x 12 - = | 84:cent x:cent 12:cent -:cent =:cent
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

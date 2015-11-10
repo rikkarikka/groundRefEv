@@ -1,0 +1,7 @@
+constants : 21 4 8
+unknowns : x
+operators : + - * / =
+objtypes : carton
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 9.0

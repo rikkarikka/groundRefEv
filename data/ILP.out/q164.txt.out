@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 252 | 252 | x=(36*7) | x 36 7 * = | x:book 36:book 7:Alyssa *:book =:book
+EXPR: 1 | POS | INT | 0 | 252 | 252 | (36*7)=x | 36 7 * x = | 36:book 7:Alyssa *:book x:book =:book
+EXPR: 1 | POS | INT | 2 | 252 | 252 | 36=(x/7) | 36 x 7 / = | 36:book x:book 7:Alyssa /:book =:book
+EXPR: 0 | POS | INT | 10 | 252 | 29 | (36-7)=x | 36 7 - x = | 36:book 7:book -:book x:book =:book
+EXPR: 0 | POS | INT | 10 | 252 | 43 | x=(36+7) | x 36 7 + = | x:book 36:book 7:book +:book =:book
+EXPR: 0 | POS | INT | 10 | 252 | 29 | x=(36-7) | x 36 7 - = | x:book 36:book 7:book -:book =:book
+EXPR: 0 | POS | INT | 10 | 252 | 43 | (36+7)=x | 36 7 + x = | 36:book 7:book +:book x:book =:book
+EXPR: 0 | POS | INT | 12 | 252 | 29 | 36=(x+7) | 36 x 7 + = | 36:book x:book 7:book +:book =:book
+EXPR: 0 | POS | INT | 12 | 252 | 43 | 36=(x-7) | 36 x 7 - = | 36:book x:book 7:book -:book =:book
+EXPR: 0 | POS | INT | 12 | 252 | 29 | 36=(7+x) | 36 7 x + = | 36:book 7:book x:book +:book =:book
+EXPR: 0 | POS | INT | 12 | 252 | 43 | (x-36)=7 | x 36 - 7 = | x:book 36:book -:book 7:book =:book
+EXPR: 0 | POS | INT | 12 | 252 | 29 | (36-x)=7 | 36 x - 7 = | 36:book x:book -:book 7:book =:book
+EXPR: 1 | POS | INT | 12 | 252 | 252 | (x/36)=7 | x 36 / 7 = | x:Alyssa 36:book /:Alyssa 7:Alyssa =:Alyssa
+EXPR: 1 | POS | INT | 12 | 252 | 252 | (x/7)=36 | x 7 / 36 = | x:book 7:Alyssa /:book 36:book =:book
+EXPR: 0 | POS | INT | 22 | 252 | 29 | (x+7)=36 | x 7 + 36 = | x:book 7:book +:book 36:book =:book
+EXPR: 0 | POS | INT | 22 | 252 | 29 | (7+x)=36 | 7 x + 36 = | 7:book x:book +:book 36:book =:book
+EXPR: 0 | POS | INT | 22 | 252 | 43 | 7=(x-36) | 7 x 36 - = | 7:book x:book 36:book -:book =:book
+EXPR: 1 | POS | INT | 22 | 252 | 252 | 7=(x/36) | 7 x 36 / = | 7:Alyssa x:Alyssa 36:book /:Alyssa =:Alyssa
+EXPR: 0 | POS | INT | 22 | 252 | 29 | 7=(36-x) | 7 36 x - = | 7:book 36:book x:book -:book =:book
+EXPR: 0 | POS | INT | 22 | 252 | 43 | (x-7)=36 | x 7 - 36 = | x:book 7:book -:book 36:book =:book
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

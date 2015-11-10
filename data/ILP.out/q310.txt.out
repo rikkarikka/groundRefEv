@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 0.6 | 0.2 | 0.5=(0.1/x) | 0.5 0.1 x / = | 0.5:carton 0.1:carton x:milk /:carton =:carton
+EXPR: 0 | POS | INT | 2 | 0.6 | 5 | 0.5=(x*0.1) | 0.5 x 0.1 * = | 0.5:carton x:milk 0.1:carton *:carton =:carton
+EXPR: 0 | POS | INT | 2 | 0.6 | 5 | 0.5=(0.1*x) | 0.5 0.1 x * = | 0.5:carton 0.1:carton x:milk *:carton =:carton
+EXPR: 0 | POS | FRA | 2 | 0.6 | 0.2 | (x*0.5)=0.1 | x 0.5 * 0.1 = | x:milk 0.5:carton *:carton 0.1:carton =:carton
+EXPR: 0 | POS | FRA | 2 | 0.6 | 0.2 | (0.5*x)=0.1 | 0.5 x * 0.1 = | 0.5:carton x:milk *:carton 0.1:carton =:carton
+EXPR: 0 | POS | INT | 2 | 0.6 | 5 | (0.5/x)=0.1 | 0.5 x / 0.1 = | 0.5:carton x:milk /:carton 0.1:carton =:carton
+EXPR: 0 | POS | FRA | 10 | 0.6 | 0.05 | (0.5*0.1)=x | 0.5 0.1 * x = | 0.5:carton 0.1:milk *:milk x:milk =:milk
+EXPR: 1 | POS | FRA | 10 | 0.6 | 0.6 | (0.5+0.1)=x | 0.5 0.1 + x = | 0.5:carton 0.1:carton +:carton x:carton =:carton
+EXPR: 0 | POS | FRA | 10 | 0.6 | 0.4 | x=(0.5-0.1) | x 0.5 0.1 - = | x:carton 0.5:carton 0.1:carton -:carton =:carton
+EXPR: 0 | POS | FRA | 10 | 0.6 | 0.05 | x=(0.5*0.1) | x 0.5 0.1 * = | x:milk 0.5:carton 0.1:milk *:milk =:milk
+EXPR: 1 | POS | FRA | 10 | 0.6 | 0.6 | x=(0.5+0.1) | x 0.5 0.1 + = | x:carton 0.5:carton 0.1:carton +:carton =:carton
+EXPR: 0 | POS | FRA | 10 | 0.6 | 0.4 | (0.5-0.1)=x | 0.5 0.1 - x = | 0.5:carton 0.1:carton -:carton x:carton =:carton
+EXPR: 0 | POS | INT | 10 | 0.6 | 5 | x=(0.5/0.1) | x 0.5 0.1 / = | x:milk 0.5:milk 0.1:carton /:milk =:milk
+EXPR: 0 | POS | INT | 10 | 0.6 | 5 | (0.5/0.1)=x | 0.5 0.1 / x = | 0.5:milk 0.1:carton /:milk x:milk =:milk
+EXPR: 0 | POS | INT | 12 | 0.6 | 5 | 0.1=(0.5/x) | 0.1 0.5 x / = | 0.1:carton 0.5:carton x:milk /:carton =:carton
+EXPR: 0 | POS | INT | 12 | 0.6 | 5 | (x*0.1)=0.5 | x 0.1 * 0.5 = | x:milk 0.1:carton *:carton 0.5:carton =:carton
+EXPR: 0 | POS | FRA | 12 | 0.6 | 0.05 | 0.5=(x/0.1) | 0.5 x 0.1 / = | 0.5:milk x:milk 0.1:carton /:milk =:milk
+EXPR: 0 | POS | FRA | 12 | 0.6 | 0.2 | 0.1=(0.5*x) | 0.1 0.5 x * = | 0.1:carton 0.5:carton x:milk *:carton =:carton
+EXPR: 1 | POS | FRA | 12 | 0.6 | 0.6 | 0.5=(x-0.1) | 0.5 x 0.1 - = | 0.5:carton x:carton 0.1:carton -:carton =:carton
+EXPR: 0 | POS | FRA | 12 | 0.6 | 0.2 | 0.1=(x*0.5) | 0.1 x 0.5 * = | 0.1:carton x:milk 0.5:carton *:carton =:carton
+EXPR: 0 | POS | FRA | 12 | 0.6 | 0.4 | (0.5-x)=0.1 | 0.5 x - 0.1 = | 0.5:carton x:carton -:carton 0.1:carton =:carton
+EXPR: 0 | POS | INT | 12 | 0.6 | 5 | (0.1*x)=0.5 | 0.1 x * 0.5 = | 0.1:carton x:milk *:carton 0.5:carton =:carton
+EXPR: 0 | POS | FRA | 12 | 0.6 | 0.2 | (0.1/x)=0.5 | 0.1 x / 0.5 = | 0.1:carton x:milk /:carton 0.5:carton =:carton
+EXPR: 0 | POS | FRA | 12 | 0.6 | 0.4 | 0.5=(x+0.1) | 0.5 x 0.1 + = | 0.5:carton x:carton 0.1:carton +:carton =:carton
+EXPR: 0 | POS | FRA | 12 | 0.6 | 0.4 | 0.5=(0.1+x) | 0.5 0.1 x + = | 0.5:carton 0.1:carton x:carton +:carton =:carton
+EXPR: 1 | POS | FRA | 12 | 0.6 | 0.6 | (x-0.5)=0.1 | x 0.5 - 0.1 = | x:carton 0.5:carton -:carton 0.1:carton =:carton
+EXPR: 0 | POS | FRA | 12 | 0.6 | 0.05 | (x/0.5)=0.1 | x 0.5 / 0.1 = | x:milk 0.5:carton /:milk 0.1:milk =:milk
+EXPR: 0 | POS | FRA | 20 | 0.6 | 0.2 | (0.1/0.5)=x | 0.1 0.5 / x = | 0.1:milk 0.5:carton /:milk x:milk =:milk
+EXPR: 0 | POS | FRA | 20 | 0.6 | 0.2 | x=(0.1/0.5) | x 0.1 0.5 / = | x:milk 0.1:milk 0.5:carton /:milk =:milk
+EXPR: 0 | POS | FRA | 22 | 0.6 | 0.05 | (x/0.1)=0.5 | x 0.1 / 0.5 = | x:milk 0.1:carton /:milk 0.5:milk =:milk
+EXPR: 1 | POS | FRA | 22 | 0.6 | 0.6 | (x-0.1)=0.5 | x 0.1 - 0.5 = | x:carton 0.1:carton -:carton 0.5:carton =:carton
+EXPR: 0 | POS | FRA | 22 | 0.6 | 0.4 | (0.1+x)=0.5 | 0.1 x + 0.5 = | 0.1:carton x:carton +:carton 0.5:carton =:carton
+EXPR: 1 | POS | FRA | 22 | 0.6 | 0.6 | 0.1=(x-0.5) | 0.1 x 0.5 - = | 0.1:carton x:carton 0.5:carton -:carton =:carton
+EXPR: 0 | POS | FRA | 22 | 0.6 | 0.4 | (x+0.1)=0.5 | x 0.1 + 0.5 = | x:carton 0.1:carton +:carton 0.5:carton =:carton
+EXPR: 0 | POS | FRA | 22 | 0.6 | 0.05 | 0.1=(x/0.5) | 0.1 x 0.5 / = | 0.1:milk x:milk 0.5:carton /:milk =:milk
+EXPR: 0 | POS | FRA | 22 | 0.6 | 0.4 | 0.1=(0.5-x) | 0.1 0.5 x - = | 0.1:carton 0.5:carton x:carton -:carton =:carton
+NET 36 unique, non-negative solutions found out of 136 total solutions

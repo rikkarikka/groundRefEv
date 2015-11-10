@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 0.8 | 0.333333333333333 | 0.6=(0.2/x) | 0.6 0.2 x / = | 0.6:budget 0.2:budget x:UNKNOWN /:budget =:budget
+EXPR: 0 | POS | INT | 2 | 0.8 | 3 | 0.6=(x*0.2) | 0.6 x 0.2 * = | 0.6:budget x:UNKNOWN 0.2:budget *:budget =:budget
+EXPR: 0 | POS | INT | 2 | 0.8 | 3 | 0.6=(0.2*x) | 0.6 0.2 x * = | 0.6:budget 0.2:budget x:UNKNOWN *:budget =:budget
+EXPR: 0 | POS | FRA | 2 | 0.8 | 0.333333333333333 | (x*0.6)=0.2 | x 0.6 * 0.2 = | x:UNKNOWN 0.6:budget *:budget 0.2:budget =:budget
+EXPR: 0 | POS | FRA | 2 | 0.8 | 0.333333333333333 | (0.6*x)=0.2 | 0.6 x * 0.2 = | 0.6:budget x:UNKNOWN *:budget 0.2:budget =:budget
+EXPR: 0 | POS | INT | 2 | 0.8 | 3 | (0.6/x)=0.2 | 0.6 x / 0.2 = | 0.6:budget x:UNKNOWN /:budget 0.2:budget =:budget
+EXPR: 0 | POS | FRA | 10 | 0.8 | 0.12 | (0.6*0.2)=x | 0.6 0.2 * x = | 0.6:budget 0.2:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | FRA | 10 | 0.8 | 0.8 | (0.6+0.2)=x | 0.6 0.2 + x = | 0.6:budget 0.2:budget +:budget x:budget =:budget
+EXPR: 0 | POS | FRA | 10 | 0.8 | 0.4 | x=(0.6-0.2) | x 0.6 0.2 - = | x:budget 0.6:budget 0.2:budget -:budget =:budget
+EXPR: 0 | POS | FRA | 10 | 0.8 | 0.12 | x=(0.6*0.2) | x 0.6 0.2 * = | x:UNKNOWN 0.6:budget 0.2:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | FRA | 10 | 0.8 | 0.8 | x=(0.6+0.2) | x 0.6 0.2 + = | x:budget 0.6:budget 0.2:budget +:budget =:budget
+EXPR: 0 | POS | FRA | 10 | 0.8 | 0.4 | (0.6-0.2)=x | 0.6 0.2 - x = | 0.6:budget 0.2:budget -:budget x:budget =:budget
+EXPR: 0 | POS | INT | 10 | 0.8 | 3 | x=(0.6/0.2) | x 0.6 0.2 / = | x:UNKNOWN 0.6:UNKNOWN 0.2:budget /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 0.8 | 3 | (0.6/0.2)=x | 0.6 0.2 / x = | 0.6:UNKNOWN 0.2:budget /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 0.8 | 3 | 0.2=(0.6/x) | 0.2 0.6 x / = | 0.2:budget 0.6:budget x:UNKNOWN /:budget =:budget
+EXPR: 0 | POS | INT | 12 | 0.8 | 3 | (x*0.2)=0.6 | x 0.2 * 0.6 = | x:UNKNOWN 0.2:budget *:budget 0.6:budget =:budget
+EXPR: 0 | POS | FRA | 12 | 0.8 | 0.12 | 0.6=(x/0.2) | 0.6 x 0.2 / = | 0.6:UNKNOWN x:UNKNOWN 0.2:budget /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 0.8 | 0.333333333333333 | 0.2=(0.6*x) | 0.2 0.6 x * = | 0.2:budget 0.6:budget x:UNKNOWN *:budget =:budget
+EXPR: 1 | POS | FRA | 12 | 0.8 | 0.8 | 0.6=(x-0.2) | 0.6 x 0.2 - = | 0.6:budget x:budget 0.2:budget -:budget =:budget
+EXPR: 0 | POS | FRA | 12 | 0.8 | 0.333333333333333 | 0.2=(x*0.6) | 0.2 x 0.6 * = | 0.2:budget x:UNKNOWN 0.6:budget *:budget =:budget
+EXPR: 0 | POS | FRA | 12 | 0.8 | 0.4 | (0.6-x)=0.2 | 0.6 x - 0.2 = | 0.6:budget x:budget -:budget 0.2:budget =:budget
+EXPR: 0 | POS | INT | 12 | 0.8 | 3 | (0.2*x)=0.6 | 0.2 x * 0.6 = | 0.2:budget x:UNKNOWN *:budget 0.6:budget =:budget
+EXPR: 0 | POS | FRA | 12 | 0.8 | 0.333333333333333 | (0.2/x)=0.6 | 0.2 x / 0.6 = | 0.2:budget x:UNKNOWN /:budget 0.6:budget =:budget
+EXPR: 0 | POS | FRA | 12 | 0.8 | 0.4 | 0.6=(x+0.2) | 0.6 x 0.2 + = | 0.6:budget x:budget 0.2:budget +:budget =:budget
+EXPR: 0 | POS | FRA | 12 | 0.8 | 0.4 | 0.6=(0.2+x) | 0.6 0.2 x + = | 0.6:budget 0.2:budget x:budget +:budget =:budget
+EXPR: 1 | POS | FRA | 12 | 0.8 | 0.8 | (x-0.6)=0.2 | x 0.6 - 0.2 = | x:budget 0.6:budget -:budget 0.2:budget =:budget
+EXPR: 0 | POS | FRA | 12 | 0.8 | 0.12 | (x/0.6)=0.2 | x 0.6 / 0.2 = | x:UNKNOWN 0.6:budget /:UNKNOWN 0.2:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 20 | 0.8 | 0.333333333333333 | (0.2/0.6)=x | 0.2 0.6 / x = | 0.2:UNKNOWN 0.6:budget /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 20 | 0.8 | 0.333333333333333 | x=(0.2/0.6) | x 0.2 0.6 / = | x:UNKNOWN 0.2:UNKNOWN 0.6:budget /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 22 | 0.8 | 0.12 | (x/0.2)=0.6 | x 0.2 / 0.6 = | x:UNKNOWN 0.2:budget /:UNKNOWN 0.6:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | FRA | 22 | 0.8 | 0.8 | (x-0.2)=0.6 | x 0.2 - 0.6 = | x:budget 0.2:budget -:budget 0.6:budget =:budget
+EXPR: 0 | POS | FRA | 22 | 0.8 | 0.4 | (0.2+x)=0.6 | 0.2 x + 0.6 = | 0.2:budget x:budget +:budget 0.6:budget =:budget
+EXPR: 1 | POS | FRA | 22 | 0.8 | 0.8 | 0.2=(x-0.6) | 0.2 x 0.6 - = | 0.2:budget x:budget 0.6:budget -:budget =:budget
+EXPR: 0 | POS | FRA | 22 | 0.8 | 0.4 | (x+0.2)=0.6 | x 0.2 + 0.6 = | x:budget 0.2:budget +:budget 0.6:budget =:budget
+EXPR: 0 | POS | FRA | 22 | 0.8 | 0.12 | 0.2=(x/0.6) | 0.2 x 0.6 / = | 0.2:UNKNOWN x:UNKNOWN 0.6:budget /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 22 | 0.8 | 0.4 | 0.2=(0.6-x) | 0.2 0.6 x - = | 0.2:budget 0.6:budget x:budget -:budget =:budget
+NET 36 unique, non-negative solutions found out of 136 total solutions

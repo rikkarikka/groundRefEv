@@ -1,0 +1,7 @@
+constants : 4 6.06 4.45
+unknowns : x
+operators : + - * / =
+objtypes : pack dollar
+constantOrUnknownType : 0 1 1 1
+n : 7
+answer : 23.86

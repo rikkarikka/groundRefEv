@@ -1,0 +1,7 @@
+constants : 74 35 18 3
+unknowns : x
+operators : + - * / =
+objtypes : cent pencil cost
+constantOrUnknownType : 0 0 0 1 2
+n : 9
+answer : 7

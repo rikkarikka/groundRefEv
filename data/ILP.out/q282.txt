@@ -1,0 +1,7 @@
+constants : 20 5
+unknowns : x
+operators : + - * / =
+objtypes : mile gallon
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 100.0

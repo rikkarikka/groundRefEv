@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 5 | 5 | (8-3)=x | 8 3 - x = | 8:potato 3:potato -:potato x:potato =:potato
+EXPR: 0 | POS | INT | 0 | 5 | 11 | x=(8+3) | x 8 3 + = | x:potato 8:potato 3:potato +:potato =:potato
+EXPR: 1 | POS | INT | 0 | 5 | 5 | x=(8-3) | x 8 3 - = | x:potato 8:potato 3:potato -:potato =:potato
+EXPR: 0 | POS | INT | 0 | 5 | 11 | (8+3)=x | 8 3 + x = | 8:potato 3:potato +:potato x:potato =:potato
+EXPR: 1 | POS | INT | 2 | 5 | 5 | 8=(3+x) | 8 3 x + = | 8:potato 3:potato x:potato +:potato =:potato
+EXPR: 0 | POS | INT | 2 | 5 | 11 | (x-8)=3 | x 8 - 3 = | x:potato 8:potato -:potato 3:potato =:potato
+EXPR: 1 | POS | INT | 2 | 5 | 5 | 8=(x+3) | 8 x 3 + = | 8:potato x:potato 3:potato +:potato =:potato
+EXPR: 1 | POS | INT | 2 | 5 | 5 | (8-x)=3 | 8 x - 3 = | 8:potato x:potato -:potato 3:potato =:potato
+EXPR: 0 | POS | INT | 2 | 5 | 11 | 8=(x-3) | 8 x 3 - = | 8:potato x:potato 3:potato -:potato =:potato
+EXPR: 1 | POS | INT | 12 | 5 | 5 | (x+3)=8 | x 3 + 8 = | x:potato 3:potato +:potato 8:potato =:potato
+EXPR: 0 | POS | INT | 12 | 5 | 11 | (x-3)=8 | x 3 - 8 = | x:potato 3:potato -:potato 8:potato =:potato
+EXPR: 1 | POS | INT | 12 | 5 | 5 | (3+x)=8 | 3 x + 8 = | 3:potato x:potato +:potato 8:potato =:potato
+EXPR: 0 | POS | INT | 12 | 5 | 11 | 3=(x-8) | 3 x 8 - = | 3:potato x:potato 8:potato -:potato =:potato
+EXPR: 1 | POS | INT | 12 | 5 | 5 | 3=(8-x) | 3 8 x - = | 3:potato 8:potato x:potato -:potato =:potato
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

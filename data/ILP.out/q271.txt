@@ -1,0 +1,7 @@
+constants : 54 15 25
+unknowns : x
+operators : + - * / =
+objtypes : cupcake vanilla
+constantOrUnknownType : 0 0 1 0
+n : 7
+answer : 14.0

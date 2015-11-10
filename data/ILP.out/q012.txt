@@ -1,0 +1,7 @@
+constants : 79 9 16
+unknowns : x
+operators : + - * / =
+objtypes : dollar book
+constantOrUnknownType : 0 1 0 0
+n : 7
+answer : 7.0

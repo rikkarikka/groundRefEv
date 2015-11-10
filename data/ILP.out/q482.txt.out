@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 5 | 280 | x=(40*7) | x 40 7 * = | x:marker 40:marker 7:package *:marker =:marker
+EXPR: 0 | POS | INT | 0 | 5 | 280 | (40*7)=x | 40 7 * x = | 40:marker 7:package *:marker x:marker =:marker
+EXPR: 0 | POS | INT | 2 | 5 | 280 | 40=(x/7) | 40 x 7 / = | 40:marker x:marker 7:package /:marker =:marker
+EXPR: 0 | POS | INT | 10 | 5 | 33 | (40-7)=x | 40 7 - x = | 40:marker 7:marker -:marker x:marker =:marker
+EXPR: 0 | POS | INT | 10 | 5 | 47 | x=(40+7) | x 40 7 + = | x:marker 40:marker 7:marker +:marker =:marker
+EXPR: 0 | POS | INT | 10 | 5 | 33 | x=(40-7) | x 40 7 - = | x:marker 40:marker 7:marker -:marker =:marker
+EXPR: 0 | POS | INT | 10 | 5 | 47 | (40+7)=x | 40 7 + x = | 40:marker 7:marker +:marker x:marker =:marker
+EXPR: 0 | POS | INT | 12 | 5 | 33 | 40=(x+7) | 40 x 7 + = | 40:marker x:marker 7:marker +:marker =:marker
+EXPR: 0 | POS | INT | 12 | 5 | 47 | 40=(x-7) | 40 x 7 - = | 40:marker x:marker 7:marker -:marker =:marker
+EXPR: 0 | POS | INT | 12 | 5 | 33 | 40=(7+x) | 40 7 x + = | 40:marker 7:marker x:marker +:marker =:marker
+EXPR: 0 | POS | INT | 12 | 5 | 47 | (x-40)=7 | x 40 - 7 = | x:marker 40:marker -:marker 7:marker =:marker
+EXPR: 0 | POS | INT | 12 | 5 | 33 | (40-x)=7 | 40 x - 7 = | 40:marker x:marker -:marker 7:marker =:marker
+EXPR: 0 | POS | INT | 12 | 5 | 280 | (x/40)=7 | x 40 / 7 = | x:package 40:marker /:package 7:package =:package
+EXPR: 0 | POS | INT | 12 | 5 | 280 | (x/7)=40 | x 7 / 40 = | x:marker 7:package /:marker 40:marker =:marker
+EXPR: 0 | POS | INT | 22 | 5 | 33 | (x+7)=40 | x 7 + 40 = | x:marker 7:marker +:marker 40:marker =:marker
+EXPR: 0 | POS | INT | 22 | 5 | 33 | (7+x)=40 | 7 x + 40 = | 7:marker x:marker +:marker 40:marker =:marker
+EXPR: 0 | POS | INT | 22 | 5 | 47 | 7=(x-40) | 7 x 40 - = | 7:marker x:marker 40:marker -:marker =:marker
+EXPR: 0 | POS | INT | 22 | 5 | 280 | 7=(x/40) | 7 x 40 / = | 7:package x:package 40:marker /:package =:package
+EXPR: 0 | POS | INT | 22 | 5 | 33 | 7=(40-x) | 7 40 x - = | 7:marker 40:marker x:marker -:marker =:marker
+EXPR: 0 | POS | INT | 22 | 5 | 47 | (x-7)=40 | x 7 - 40 = | x:marker 7:marker -:marker 40:marker =:marker
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

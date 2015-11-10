@@ -1,0 +1,7 @@
+constants : 85.0 10 5.0
+unknowns : x
+operators : + - * / =
+objtypes : money book
+constantOrUnknownType : 0 1 0 0
+n : 7
+answer : 35.0

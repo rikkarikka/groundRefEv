@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 120 | 120 | x=(30*4) | x 30 4 * = | x:UNKNOWN 30:UNKNOWN 4:Hilt *:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | INT | 10 | 120 | 120 | (30*4)=x | 30 4 * x = | 30:foot 4:Hilt *:foot x:foot =:foot
+EXPR: 1 | POS | INT | 12 | 120 | 120 | 30=(x/4) | 30 x 4 / = | 30:UNKNOWN x:UNKNOWN 4:Hilt /:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | INT | 12 | 120 | 120 | (x/30)=4 | x 30 / 4 = | x:UNKNOWN 30:foot /:UNKNOWN 4:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 20 | 120 | 34 | (30+4)=x | 30 4 + x = | 30:foot 4:foot +:foot x:foot =:foot
+EXPR: 0 | POS | INT | 20 | 120 | 34 | x=(30+4) | x 30 4 + = | x:Hilt 30:Hilt 4:Hilt +:Hilt =:Hilt
+EXPR: 0 | POS | INT | 20 | 120 | 26 | (30-4)=x | 30 4 - x = | 30:foot 4:foot -:foot x:foot =:foot
+EXPR: 0 | POS | INT | 20 | 120 | 26 | x=(30-4) | x 30 4 - = | x:UNKNOWN 30:UNKNOWN 4:UNKNOWN -:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 22 | 120 | 34 | (x-30)=4 | x 30 - 4 = | x:Hilt 30:Hilt -:Hilt 4:Hilt =:Hilt
+EXPR: 1 | POS | INT | 22 | 120 | 120 | 4=(x/30) | 4 x 30 / = | 4:UNKNOWN x:UNKNOWN 30:foot /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 22 | 120 | 26 | 30=(4+x) | 30 4 x + = | 30:Hilt 4:Hilt x:Hilt +:Hilt =:Hilt
+EXPR: 0 | POS | INT | 22 | 120 | 26 | (30-x)=4 | 30 x - 4 = | 30:UNKNOWN x:UNKNOWN -:UNKNOWN 4:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 22 | 120 | 26 | 30=(x+4) | 30 x 4 + = | 30:UNKNOWN x:UNKNOWN 4:UNKNOWN +:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 22 | 120 | 34 | 30=(x-4) | 30 x 4 - = | 30:UNKNOWN x:UNKNOWN 4:UNKNOWN -:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | INT | 22 | 120 | 120 | (x/4)=30 | x 4 / 30 = | x:UNKNOWN 4:Hilt /:UNKNOWN 30:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 32 | 120 | 34 | (x-4)=30 | x 4 - 30 = | x:Hilt 4:Hilt -:Hilt 30:Hilt =:Hilt
+EXPR: 0 | POS | INT | 32 | 120 | 26 | (4+x)=30 | 4 x + 30 = | 4:Hilt x:Hilt +:Hilt 30:Hilt =:Hilt
+EXPR: 0 | POS | INT | 32 | 120 | 26 | (x+4)=30 | x 4 + 30 = | x:foot 4:foot +:foot 30:foot =:foot
+EXPR: 0 | POS | INT | 32 | 120 | 26 | 4=(30-x) | 4 30 x - = | 4:Hilt 30:Hilt x:Hilt -:Hilt =:Hilt
+EXPR: 0 | POS | INT | 32 | 120 | 34 | 4=(x-30) | 4 x 30 - = | 4:Hilt x:Hilt 30:Hilt -:Hilt =:Hilt
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

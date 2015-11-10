@@ -1,0 +1,7 @@
+constants : 2.6666666666666665 2.6666666666666665
+unknowns : x
+operators : + - * / =
+objtypes : bottle soda
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 5.333333333333333

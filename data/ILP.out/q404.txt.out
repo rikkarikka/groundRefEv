@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 3824 | 3824 | x=(8*478) | x 8 478 * = | x:page 8:book 478:page *:page =:page
+EXPR: 1 | POS | INT | 0 | 3824 | 3824 | (8*478)=x | 8 478 * x = | 8:book 478:page *:page x:page =:page
+EXPR: 1 | POS | INT | 2 | 3824 | 3824 | (x/8)=478 | x 8 / 478 = | x:page 8:book /:page 478:page =:page
+EXPR: 0 | POS | INT | 10 | 3824 | 486 | x=(8+478) | x 8 478 + = | x:page 8:page 478:page +:page =:page
+EXPR: 0 | POS | INT | 10 | 3824 | 486 | (8+478)=x | 8 478 + x = | 8:page 478:page +:page x:page =:page
+EXPR: 0 | POS | INT | 12 | 3824 | 470 | 8=(478-x) | 8 478 x - = | 8:page 478:page x:page -:page =:page
+EXPR: 1 | POS | INT | 12 | 3824 | 3824 | 478=(x/8) | 478 x 8 / = | 478:page x:page 8:book /:page =:page
+EXPR: 0 | POS | INT | 12 | 3824 | 470 | (x+8)=478 | x 8 + 478 = | x:page 8:page +:page 478:page =:page
+EXPR: 0 | POS | INT | 12 | 3824 | 486 | (x-8)=478 | x 8 - 478 = | x:page 8:page -:page 478:page =:page
+EXPR: 0 | POS | INT | 12 | 3824 | 470 | (8+x)=478 | 8 x + 478 = | 8:page x:page +:page 478:page =:page
+EXPR: 0 | POS | INT | 12 | 3824 | 486 | 8=(x-478) | 8 x 478 - = | 8:page x:page 478:page -:page =:page
+EXPR: 1 | POS | INT | 12 | 3824 | 3824 | 8=(x/478) | 8 x 478 / = | 8:book x:book 478:page /:book =:book
+EXPR: 0 | POS | INT | 20 | 3824 | 470 | x=(478-8) | x 478 8 - = | x:page 478:page 8:page -:page =:page
+EXPR: 0 | POS | INT | 20 | 3824 | 470 | (478-8)=x | 478 8 - x = | 478:page 8:page -:page x:page =:page
+EXPR: 0 | POS | INT | 22 | 3824 | 470 | (478-x)=8 | 478 x - 8 = | 478:page x:page -:page 8:page =:page
+EXPR: 1 | POS | INT | 22 | 3824 | 3824 | (x/478)=8 | x 478 / 8 = | x:book 478:page /:book 8:book =:book
+EXPR: 0 | POS | INT | 22 | 3824 | 470 | 478=(8+x) | 478 8 x + = | 478:page 8:page x:page +:page =:page
+EXPR: 0 | POS | INT | 22 | 3824 | 486 | (x-478)=8 | x 478 - 8 = | x:page 478:page -:page 8:page =:page
+EXPR: 0 | POS | INT | 22 | 3824 | 470 | 478=(x+8) | 478 x 8 + = | 478:page x:page 8:page +:page =:page
+EXPR: 0 | POS | INT | 22 | 3824 | 486 | 478=(x-8) | 478 x 8 - = | 478:page x:page 8:page -:page =:page
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

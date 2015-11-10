@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 5 | 45 | x=(15*3) | x 15 3 * = | x:bill 15:bill 3:person *:bill =:bill
+EXPR: 0 | POS | INT | 10 | 5 | 45 | (15*3)=x | 15 3 * x = | 15:dollar 3:person *:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 10 | 5 | 5 | (15/3)=x | 15 3 / x = | 15:bill 3:person /:bill x:bill =:bill
+EXPR: 1 | POS | INT | 10 | 5 | 5 | x=(15/3) | x 15 3 / = | x:dollar 15:dollar 3:person /:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 5 | 5 | 15=(x*3) | 15 x 3 * = | 15:person x:bill 3:person *:person =:person
+EXPR: 0 | POS | INT | 12 | 5 | 45 | 15=(x/3) | 15 x 3 / = | 15:bill x:bill 3:person /:bill =:bill
+EXPR: 1 | POS | INT | 12 | 5 | 5 | 15=(3*x) | 15 3 x * = | 15:bill 3:person x:bill *:bill =:bill
+EXPR: 1 | POS | INT | 12 | 5 | 5 | (15/x)=3 | 15 x / 3 = | 15:dollar x:bill /:dollar 3:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 5 | 45 | (x/15)=3 | x 15 / 3 = | x:bill 15:dollar /:bill 3:bill =:bill
+EXPR: 0 | POS | INT | 20 | 5 | 18 | (15+3)=x | 15 3 + x = | 15:dollar 3:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 5 | 18 | x=(15+3) | x 15 3 + = | x:person 15:person 3:person +:person =:person
+EXPR: 0 | POS | INT | 20 | 5 | 12 | (15-3)=x | 15 3 - x = | 15:dollar 3:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 5 | 12 | x=(15-3) | x 15 3 - = | x:bill 15:bill 3:bill -:bill =:bill
+EXPR: 0 | POS | INT | 22 | 5 | 18 | (x-15)=3 | x 15 - 3 = | x:person 15:person -:person 3:person =:person
+EXPR: 1 | POS | INT | 22 | 5 | 5 | (x*3)=15 | x 3 * 15 = | x:bill 3:person *:person 15:person =:person
+EXPR: 1 | POS | INT | 22 | 5 | 5 | (3*x)=15 | 3 x * 15 = | 3:dollar x:bill *:dollar 15:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 5 | 45 | 3=(x/15) | 3 x 15 / = | 3:bill x:bill 15:dollar /:bill =:bill
+EXPR: 0 | POS | INT | 22 | 5 | 12 | 15=(3+x) | 15 3 x + = | 15:person 3:person x:person +:person =:person
+EXPR: 0 | POS | INT | 22 | 5 | 12 | (15-x)=3 | 15 x - 3 = | 15:bill x:bill -:bill 3:bill =:bill
+EXPR: 0 | POS | INT | 22 | 5 | 12 | 15=(x+3) | 15 x 3 + = | 15:bill x:bill 3:bill +:bill =:bill
+EXPR: 0 | POS | INT | 22 | 5 | 18 | 15=(x-3) | 15 x 3 - = | 15:bill x:bill 3:bill -:bill =:bill
+EXPR: 0 | POS | INT | 22 | 5 | 45 | (x/3)=15 | x 3 / 15 = | x:bill 3:person /:bill 15:bill =:bill
+EXPR: 1 | POS | INT | 22 | 5 | 5 | 3=(15/x) | 3 15 x / = | 3:person 15:person x:bill /:person =:person
+EXPR: 0 | POS | INT | 32 | 5 | 18 | (x-3)=15 | x 3 - 15 = | x:person 3:person -:person 15:person =:person
+EXPR: 0 | POS | INT | 32 | 5 | 12 | (3+x)=15 | 3 x + 15 = | 3:person x:person +:person 15:person =:person
+EXPR: 0 | POS | INT | 32 | 5 | 12 | (x+3)=15 | x 3 + 15 = | x:dollar 3:dollar +:dollar 15:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 5 | 12 | 3=(15-x) | 3 15 x - = | 3:person 15:person x:person -:person =:person
+EXPR: 0 | POS | INT | 32 | 5 | 18 | 3=(x-15) | 3 x 15 - = | 3:person x:person 15:person -:person =:person
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

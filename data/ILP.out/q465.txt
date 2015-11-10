@@ -1,0 +1,7 @@
+constants : 3409 145
+unknowns : x
+operators : + - * / =
+objtypes : piece rest
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 3264

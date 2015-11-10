@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 0.3 | 0.3 | (0.4-0.1)=x | 0.4 0.1 - x = | 0.4:acre 0.1:acre -:acre x:acre =:acre
+EXPR: 0 | POS | FRA | 0 | 0.3 | 0.5 | x=(0.4+0.1) | x 0.4 0.1 + = | x:acre 0.4:acre 0.1:acre +:acre =:acre
+EXPR: 1 | POS | FRA | 0 | 0.3 | 0.3 | x=(0.4-0.1) | x 0.4 0.1 - = | x:acre 0.4:acre 0.1:acre -:acre =:acre
+EXPR: 0 | POS | FRA | 0 | 0.3 | 0.5 | (0.4+0.1)=x | 0.4 0.1 + x = | 0.4:acre 0.1:acre +:acre x:acre =:acre
+EXPR: 1 | POS | FRA | 2 | 0.3 | 0.3 | 0.4=(0.1+x) | 0.4 0.1 x + = | 0.4:acre 0.1:acre x:acre +:acre =:acre
+EXPR: 0 | POS | FRA | 2 | 0.3 | 0.5 | (x-0.4)=0.1 | x 0.4 - 0.1 = | x:acre 0.4:acre -:acre 0.1:acre =:acre
+EXPR: 1 | POS | FRA | 2 | 0.3 | 0.3 | 0.4=(x+0.1) | 0.4 x 0.1 + = | 0.4:acre x:acre 0.1:acre +:acre =:acre
+EXPR: 1 | POS | FRA | 2 | 0.3 | 0.3 | (0.4-x)=0.1 | 0.4 x - 0.1 = | 0.4:acre x:acre -:acre 0.1:acre =:acre
+EXPR: 0 | POS | FRA | 2 | 0.3 | 0.5 | 0.4=(x-0.1) | 0.4 x 0.1 - = | 0.4:acre x:acre 0.1:acre -:acre =:acre
+EXPR: 1 | POS | FRA | 12 | 0.3 | 0.3 | (x+0.1)=0.4 | x 0.1 + 0.4 = | x:acre 0.1:acre +:acre 0.4:acre =:acre
+EXPR: 0 | POS | FRA | 12 | 0.3 | 0.5 | (x-0.1)=0.4 | x 0.1 - 0.4 = | x:acre 0.1:acre -:acre 0.4:acre =:acre
+EXPR: 1 | POS | FRA | 12 | 0.3 | 0.3 | (0.1+x)=0.4 | 0.1 x + 0.4 = | 0.1:acre x:acre +:acre 0.4:acre =:acre
+EXPR: 0 | POS | FRA | 12 | 0.3 | 0.5 | 0.1=(x-0.4) | 0.1 x 0.4 - = | 0.1:acre x:acre 0.4:acre -:acre =:acre
+EXPR: 1 | POS | FRA | 12 | 0.3 | 0.3 | 0.1=(0.4-x) | 0.1 0.4 x - = | 0.1:acre 0.4:acre x:acre -:acre =:acre
+NET 14 unique, non-negative solutions found out of 28 total solutions

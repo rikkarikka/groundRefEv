@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 98 | 98 | x=(25+73) | x 25 73 + = | x:tree 25:tree 73:tree +:tree =:tree
+EXPR: 1 | POS | INT | 0 | 98 | 98 | (25+73)=x | 25 73 + x = | 25:tree 73:tree +:tree x:tree =:tree
+EXPR: 0 | POS | INT | 2 | 98 | 48 | (x+25)=73 | x 25 + 73 = | x:tree 25:tree +:tree 73:tree =:tree
+EXPR: 1 | POS | INT | 2 | 98 | 98 | (x-25)=73 | x 25 - 73 = | x:tree 25:tree -:tree 73:tree =:tree
+EXPR: 0 | POS | INT | 2 | 98 | 48 | (25+x)=73 | 25 x + 73 = | 25:tree x:tree +:tree 73:tree =:tree
+EXPR: 0 | POS | INT | 2 | 98 | 48 | 25=(73-x) | 25 73 x - = | 25:tree 73:tree x:tree -:tree =:tree
+EXPR: 1 | POS | INT | 2 | 98 | 98 | 25=(x-73) | 25 x 73 - = | 25:tree x:tree 73:tree -:tree =:tree
+EXPR: 0 | POS | INT | 10 | 98 | 48 | (73-25)=x | 73 25 - x = | 73:tree 25:tree -:tree x:tree =:tree
+EXPR: 0 | POS | INT | 10 | 98 | 48 | x=(73-25) | x 73 25 - = | x:tree 73:tree 25:tree -:tree =:tree
+EXPR: 1 | POS | INT | 12 | 98 | 98 | (x-73)=25 | x 73 - 25 = | x:tree 73:tree -:tree 25:tree =:tree
+EXPR: 0 | POS | INT | 12 | 98 | 48 | 73=(x+25) | 73 x 25 + = | 73:tree x:tree 25:tree +:tree =:tree
+EXPR: 0 | POS | INT | 12 | 98 | 48 | 73=(25+x) | 73 25 x + = | 73:tree 25:tree x:tree +:tree =:tree
+EXPR: 1 | POS | INT | 12 | 98 | 98 | 73=(x-25) | 73 x 25 - = | 73:tree x:tree 25:tree -:tree =:tree
+EXPR: 0 | POS | INT | 12 | 98 | 48 | (73-x)=25 | 73 x - 25 = | 73:tree x:tree -:tree 25:tree =:tree
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

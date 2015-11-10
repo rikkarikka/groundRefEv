@@ -1,0 +1,7 @@
+constants : 13 55
+unknowns : x
+operators : + - * / =
+objtypes : peach stand
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 42.0

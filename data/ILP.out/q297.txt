@@ -1,0 +1,7 @@
+constants : 0.6666666666666666 0.5
+unknowns : x
+operators : + - * / =
+objtypes : tablespoon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.16666666666666666

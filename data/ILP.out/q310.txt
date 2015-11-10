@@ -1,0 +1,7 @@
+constants : 0.5 0.1
+unknowns : x
+operators : + - * / =
+objtypes : carton milk
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.6

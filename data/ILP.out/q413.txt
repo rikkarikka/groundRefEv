@@ -1,0 +1,7 @@
+constants : 20 80
+unknowns : x
+operators : + - * / =
+objtypes : piece sack
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 4

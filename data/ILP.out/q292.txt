@@ -1,0 +1,7 @@
+constants : 0.875 0.75
+unknowns : x
+operators : + - * / =
+objtypes : lap jogging
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 0.125

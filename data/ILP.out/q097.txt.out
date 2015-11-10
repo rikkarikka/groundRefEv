@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 488 | 488 | (709-221)=x | 709 221 - x = | 709:balloon 221:balloon -:balloon x:balloon =:balloon
+EXPR: 0 | POS | INT | 0 | 488 | 930 | x=(709+221) | x 709 221 + = | x:balloon 709:balloon 221:balloon +:balloon =:balloon
+EXPR: 1 | POS | INT | 0 | 488 | 488 | x=(709-221) | x 709 221 - = | x:balloon 709:balloon 221:balloon -:balloon =:balloon
+EXPR: 0 | POS | INT | 0 | 488 | 930 | (709+221)=x | 709 221 + x = | 709:balloon 221:balloon +:balloon x:balloon =:balloon
+EXPR: 1 | POS | INT | 2 | 488 | 488 | 709=(221+x) | 709 221 x + = | 709:balloon 221:balloon x:balloon +:balloon =:balloon
+EXPR: 0 | POS | INT | 2 | 488 | 930 | (x-709)=221 | x 709 - 221 = | x:balloon 709:balloon -:balloon 221:balloon =:balloon
+EXPR: 1 | POS | INT | 2 | 488 | 488 | 709=(x+221) | 709 x 221 + = | 709:balloon x:balloon 221:balloon +:balloon =:balloon
+EXPR: 1 | POS | INT | 2 | 488 | 488 | (709-x)=221 | 709 x - 221 = | 709:balloon x:balloon -:balloon 221:balloon =:balloon
+EXPR: 0 | POS | INT | 2 | 488 | 930 | 709=(x-221) | 709 x 221 - = | 709:balloon x:balloon 221:balloon -:balloon =:balloon
+EXPR: 1 | POS | INT | 12 | 488 | 488 | (x+221)=709 | x 221 + 709 = | x:balloon 221:balloon +:balloon 709:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 488 | 930 | (x-221)=709 | x 221 - 709 = | x:balloon 221:balloon -:balloon 709:balloon =:balloon
+EXPR: 1 | POS | INT | 12 | 488 | 488 | (221+x)=709 | 221 x + 709 = | 221:balloon x:balloon +:balloon 709:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 488 | 930 | 221=(x-709) | 221 x 709 - = | 221:balloon x:balloon 709:balloon -:balloon =:balloon
+EXPR: 1 | POS | INT | 12 | 488 | 488 | 221=(709-x) | 221 709 x - = | 221:balloon 709:balloon x:balloon -:balloon =:balloon
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

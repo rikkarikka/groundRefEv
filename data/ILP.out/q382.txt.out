@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 0.52 | 0.52 | x=(0.14+0.38) | x 0.14 0.38 + = | x:kilogram 0.14:kilogram 0.38:kilogram +:kilogram =:kilogram
+EXPR: 1 | POS | FRA | 0 | 0.52 | 0.52 | (0.14+0.38)=x | 0.14 0.38 + x = | 0.14:kilogram 0.38:kilogram +:kilogram x:kilogram =:kilogram
+EXPR: 0 | POS | FRA | 2 | 0.52 | 0.24 | (x+0.14)=0.38 | x 0.14 + 0.38 = | x:kilogram 0.14:kilogram +:kilogram 0.38:kilogram =:kilogram
+EXPR: 1 | POS | FRA | 2 | 0.52 | 0.52 | (x-0.14)=0.38 | x 0.14 - 0.38 = | x:kilogram 0.14:kilogram -:kilogram 0.38:kilogram =:kilogram
+EXPR: 0 | POS | FRA | 2 | 0.52 | 0.24 | (0.14+x)=0.38 | 0.14 x + 0.38 = | 0.14:kilogram x:kilogram +:kilogram 0.38:kilogram =:kilogram
+EXPR: 0 | POS | FRA | 2 | 0.52 | 0.24 | 0.14=(0.38-x) | 0.14 0.38 x - = | 0.14:kilogram 0.38:kilogram x:kilogram -:kilogram =:kilogram
+EXPR: 1 | POS | FRA | 2 | 0.52 | 0.52 | 0.14=(x-0.38) | 0.14 x 0.38 - = | 0.14:kilogram x:kilogram 0.38:kilogram -:kilogram =:kilogram
+EXPR: 0 | POS | FRA | 10 | 0.52 | 0.24 | (0.38-0.14)=x | 0.38 0.14 - x = | 0.38:kilogram 0.14:kilogram -:kilogram x:kilogram =:kilogram
+EXPR: 0 | POS | FRA | 10 | 0.52 | 0.24 | x=(0.38-0.14) | x 0.38 0.14 - = | x:kilogram 0.38:kilogram 0.14:kilogram -:kilogram =:kilogram
+EXPR: 1 | POS | FRA | 12 | 0.52 | 0.52 | (x-0.38)=0.14 | x 0.38 - 0.14 = | x:kilogram 0.38:kilogram -:kilogram 0.14:kilogram =:kilogram
+EXPR: 0 | POS | FRA | 12 | 0.52 | 0.24 | 0.38=(x+0.14) | 0.38 x 0.14 + = | 0.38:kilogram x:kilogram 0.14:kilogram +:kilogram =:kilogram
+EXPR: 0 | POS | FRA | 12 | 0.52 | 0.24 | 0.38=(0.14+x) | 0.38 0.14 x + = | 0.38:kilogram 0.14:kilogram x:kilogram +:kilogram =:kilogram
+EXPR: 1 | POS | FRA | 12 | 0.52 | 0.52 | 0.38=(x-0.14) | 0.38 x 0.14 - = | 0.38:kilogram x:kilogram 0.14:kilogram -:kilogram =:kilogram
+EXPR: 0 | POS | FRA | 12 | 0.52 | 0.24 | (0.38-x)=0.14 | 0.38 x - 0.14 = | 0.38:kilogram x:kilogram -:kilogram 0.14:kilogram =:kilogram
+NET 14 unique, non-negative solutions found out of 28 total solutions

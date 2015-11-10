@@ -1,0 +1,7 @@
+constants : 45 225 450
+unknowns : x
+operators : + - * / =
+objtypes : dollar hour
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 5.0

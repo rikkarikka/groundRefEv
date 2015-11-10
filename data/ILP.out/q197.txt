@@ -1,0 +1,7 @@
+constants : 31 13
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 18.0

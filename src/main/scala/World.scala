@@ -1,4 +1,5 @@
 import scala.collection.mutable.ListBuffer
+import scala.collection.mutable.ArrayBuffer
 import breeze.linalg._
 
 class World() {
@@ -22,7 +23,8 @@ class World() {
         return List(spl(0),delim+spl(1))
     }
 
-    class Reln(val r:String, val idx:Int, val o:Any = None, val oidx:Any = None) {
+    class Reln(val r:String, val idx:Int, val o:Option[Entity] = None, val oidx:Any = None) {
+        //if (Some(o)) 
         def print() {
             println(r,idx,o,oidx)
         }
@@ -33,6 +35,10 @@ class World() {
         // relns are of the form Type, Arg, 
         var relations = new ListBuffer[Reln]
         var card: Float = 0
+        var det = ""
+        var n = ""
+        var v = new ListBuffer[String]
+        var adj = ""
         
         def carg(): String = {
             for (x<-mentions) if (x._2.carg != "None") return x._2.carg
@@ -43,9 +49,28 @@ class World() {
             return relations.filter(x => x.r == rel).length > 0
         }
 
+        def nvaap() {
+            var mention = mentions(0)
+            n = mention._2.rel.split("_n_")(0) filter {x => !("_\"" contains x)}
+            val verbs = relations filter (x=> x.r contains "_v_")
+            /*
+            if (verbs.length > 0) {
+                v = verbs map {y:Reln => y.r.split("_v_")(0) filter {x => !("_\"" contains x)}} flatten mkString " "
+                    //foldLeft("":String)((x:String,y:String)=>x+" "+y)
+            }
+            */
+            verbs foreach {x=>
+                v += x.r.split("_v_")(0) filter {y=> !("_\"" contains y)}
+            }
+   
+        }
+                
 
         def print() {
             println(cannonicalName)
+            println(n)
+            println(v)
+
             println(card)
             for (x<-mentions) println(x._1)
             relations foreach {_.print()}
@@ -102,11 +127,11 @@ class World() {
             */
             }
             else{
-                ent.relations += new Reln(e.rel,argidx)
+                ent.relations += new Reln(e.pRel,argidx)
                 for (oidx <- e.args filter (_.startsWith("x"))) {
                     if (oidx != idx) {
                         var oargidx = e.args.indexOf(oidx)
-                        ent.relations += new Reln(e.rel, argidx, IDtoID(s+oidx),oargidx)
+                        ent.relations += new Reln(e.rel, argidx, Some(EntityID(IDtoID(s+oidx))),oargidx)
                     }
                 }
             }
@@ -136,12 +161,13 @@ class World() {
     }
     */
 
-   def numbers = EntityID.toList sortWith (_._1 < _._1) map (_._2) filter (x=>((x.card != 0.0)||x.has_rel("much-many_a_rel")))
+    def numbers = EntityID.toList sortWith (_._1 < _._1) map (_._2) filter (x=>((x.card != 0.0)))//||x.has_rel("much-many_a_rel")))
 
     def update(objs:List[MRS]) {
         this.myobjs = objs
         this.myobjs foreach {x => x.idx = if (x.args.length>0) sidx.toString + x.args(0) else "None" }
-	for (o <- objs filter (x=>(x.args(0).startsWith("x")||x.args(0).startsWith("i"))) filter (x => ! (x.rel contains "_q_"))) {
+	//for (o <- objs filter (x=>(x.args(0).startsWith("x")||x.args(0).startsWith("i"))) filter (x => ! (x.rel contains "_q_"))) {
+	for (o <- objs filter (x=>(x.args(0).startsWith("x"))) filter (x => ! (x.rel contains "_q_"))) {
             // this is an entity
             // we need to put in in the entities map
             // but we wanna make sure it's not coreferential w/ somethin in the map first
@@ -177,7 +203,7 @@ class World() {
             }
             EntityList += ((name,id))
         }
-        EntityID foreach {case (k,v) => associate(k,v)}
+        EntityID foreach {case (k,v) => associate(k,v);v.nvaap()}
         //EntityID foreach {case (k,v) => v.print()}
 
     }
@@ -256,6 +282,29 @@ class World() {
         return vec
     }
 
+    /*
+    def lookup(i:String): Option[Entity] = {
+        return EntityID map (_._2) filter (x:Entity=>g.close(x.card,i)) (0)
+    }
+    */
+
+    def handmadeVector(m:Word2Vec,REL_LIST:Array[String],e1:Entity,e2:Entity): Array[Double] = {
+        var vec = new ArrayBuffer[Double]
+        //val e1nvec += if ( m.contains(e1.n) ) m.vector(e1.n) else new Array[Float](300)
+        //val e2nvec += if ( m.contains(e2.n) ) m.vector(e2.n) else new Array[Float](300)
+        //vec += e1nvec
+        //vec += e2nvec
+        //println(e1.n, e2.n, m vector (e1.n))
+        if ((m contains e1.n) && (m contains e2.n)) vec += m cosine (e1.n, e2.n); else vec+= -1
+        if ((e1.v.length>0) && (e2.v.length>0)) {
+            if ((m contains e1.v(0)) && (m contains e2.v(0))) vec += m cosine (e1.v(0), e2.v(0)); else vec+= -1
+        } else vec += -1
+        if ((e1.v.length>1) && (e2.v.length>1)) {
+            if ((m contains e1.v(1)) && (m contains e2.v(1))) vec += m cosine (e1.v(1), e2.v(1)); else vec+= -1
+        } else vec += -1
+        REL_LIST foreach {x => if (e1.relations map (_.r) contains x) vec += 1.0 ; else vec += 0.0 }
+        return vec.toArray
+    }
 
     def vector(REL_LIST:Array[String],e1:Entity,e2:Entity): List[Int] = {
         val vec = ListBuffer.fill(REL_LIST.length*2)(0)

@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 4 | 4 | (8-4)=x | 8 4 - x = | 8:marble 4:marble -:marble x:marble =:marble
+EXPR: 0 | POS | INT | 0 | 4 | 12 | x=(8+4) | x 8 4 + = | x:marble 8:marble 4:marble +:marble =:marble
+EXPR: 1 | POS | INT | 0 | 4 | 4 | x=(8-4) | x 8 4 - = | x:marble 8:marble 4:marble -:marble =:marble
+EXPR: 0 | POS | INT | 0 | 4 | 12 | (8+4)=x | 8 4 + x = | 8:marble 4:marble +:marble x:marble =:marble
+EXPR: 1 | POS | INT | 2 | 4 | 4 | 8=(4+x) | 8 4 x + = | 8:marble 4:marble x:marble +:marble =:marble
+EXPR: 0 | POS | INT | 2 | 4 | 12 | (x-8)=4 | x 8 - 4 = | x:marble 8:marble -:marble 4:marble =:marble
+EXPR: 1 | POS | INT | 2 | 4 | 4 | 8=(x+4) | 8 x 4 + = | 8:marble x:marble 4:marble +:marble =:marble
+EXPR: 1 | POS | INT | 2 | 4 | 4 | (8-x)=4 | 8 x - 4 = | 8:marble x:marble -:marble 4:marble =:marble
+EXPR: 0 | POS | INT | 2 | 4 | 12 | 8=(x-4) | 8 x 4 - = | 8:marble x:marble 4:marble -:marble =:marble
+EXPR: 1 | POS | INT | 12 | 4 | 4 | (x+4)=8 | x 4 + 8 = | x:marble 4:marble +:marble 8:marble =:marble
+EXPR: 0 | POS | INT | 12 | 4 | 12 | (x-4)=8 | x 4 - 8 = | x:marble 4:marble -:marble 8:marble =:marble
+EXPR: 1 | POS | INT | 12 | 4 | 4 | (4+x)=8 | 4 x + 8 = | 4:marble x:marble +:marble 8:marble =:marble
+EXPR: 0 | POS | INT | 12 | 4 | 12 | 4=(x-8) | 4 x 8 - = | 4:marble x:marble 8:marble -:marble =:marble
+EXPR: 1 | POS | INT | 12 | 4 | 4 | 4=(8-x) | 4 8 x - = | 4:marble 8:marble x:marble -:marble =:marble
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

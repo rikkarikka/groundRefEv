@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 12 | 12 | x=(48/4) | x 48 4 / = | x:doughnut 48:doughnut 4:box /:doughnut =:doughnut
+EXPR: 1 | POS | INT | 0 | 12 | 12 | (48/4)=x | 48 4 / x = | 48:doughnut 4:box /:doughnut x:doughnut =:doughnut
+EXPR: 0 | POS | INT | 0 | 12 | 192 | x=(48*4) | x 48 4 * = | x:doughnut 48:doughnut 4:box *:doughnut =:doughnut
+EXPR: 0 | POS | INT | 0 | 12 | 192 | (48*4)=x | 48 4 * x = | 48:doughnut 4:box *:doughnut x:doughnut =:doughnut
+EXPR: 1 | POS | INT | 2 | 12 | 12 | 48=(4*x) | 48 4 x * = | 48:doughnut 4:box x:doughnut *:doughnut =:doughnut
+EXPR: 0 | POS | INT | 2 | 12 | 192 | 48=(x/4) | 48 x 4 / = | 48:doughnut x:doughnut 4:box /:doughnut =:doughnut
+EXPR: 1 | POS | INT | 2 | 12 | 12 | 48=(x*4) | 48 x 4 * = | 48:doughnut x:doughnut 4:box *:doughnut =:doughnut
+EXPR: 0 | POS | INT | 10 | 12 | 44 | (48-4)=x | 48 4 - x = | 48:doughnut 4:doughnut -:doughnut x:doughnut =:doughnut
+EXPR: 0 | POS | INT | 10 | 12 | 52 | x=(48+4) | x 48 4 + = | x:doughnut 48:doughnut 4:doughnut +:doughnut =:doughnut
+EXPR: 0 | POS | INT | 10 | 12 | 44 | x=(48-4) | x 48 4 - = | x:doughnut 48:doughnut 4:doughnut -:doughnut =:doughnut
+EXPR: 0 | POS | INT | 10 | 12 | 52 | (48+4)=x | 48 4 + x = | 48:doughnut 4:doughnut +:doughnut x:doughnut =:doughnut
+EXPR: 0 | POS | INT | 12 | 12 | 44 | 48=(x+4) | 48 x 4 + = | 48:doughnut x:doughnut 4:doughnut +:doughnut =:doughnut
+EXPR: 1 | POS | INT | 12 | 12 | 12 | (48/x)=4 | 48 x / 4 = | 48:box x:doughnut /:box 4:box =:box
+EXPR: 1 | POS | INT | 12 | 12 | 12 | (4*x)=48 | 4 x * 48 = | 4:box x:doughnut *:doughnut 48:doughnut =:doughnut
+EXPR: 0 | POS | INT | 12 | 12 | 52 | 48=(x-4) | 48 x 4 - = | 48:doughnut x:doughnut 4:doughnut -:doughnut =:doughnut
+EXPR: 0 | POS | INT | 12 | 12 | 44 | 48=(4+x) | 48 4 x + = | 48:doughnut 4:doughnut x:doughnut +:doughnut =:doughnut
+EXPR: 0 | POS | INT | 12 | 12 | 52 | (x-48)=4 | x 48 - 4 = | x:doughnut 48:doughnut -:doughnut 4:doughnut =:doughnut
+EXPR: 0 | POS | INT | 12 | 12 | 44 | (48-x)=4 | 48 x - 4 = | 48:doughnut x:doughnut -:doughnut 4:doughnut =:doughnut
+EXPR: 0 | POS | INT | 12 | 12 | 192 | (x/48)=4 | x 48 / 4 = | x:box 48:doughnut /:box 4:box =:box
+EXPR: 0 | POS | INT | 12 | 12 | 192 | (x/4)=48 | x 4 / 48 = | x:doughnut 4:box /:doughnut 48:doughnut =:doughnut
+EXPR: 1 | POS | INT | 12 | 12 | 12 | (x*4)=48 | x 4 * 48 = | x:doughnut 4:box *:doughnut 48:doughnut =:doughnut
+EXPR: 0 | POS | INT | 22 | 12 | 44 | (x+4)=48 | x 4 + 48 = | x:doughnut 4:doughnut +:doughnut 48:doughnut =:doughnut
+EXPR: 1 | POS | INT | 22 | 12 | 12 | 4=(48/x) | 4 48 x / = | 4:box 48:box x:doughnut /:box =:box
+EXPR: 0 | POS | INT | 22 | 12 | 44 | (4+x)=48 | 4 x + 48 = | 4:doughnut x:doughnut +:doughnut 48:doughnut =:doughnut
+EXPR: 0 | POS | INT | 22 | 12 | 52 | 4=(x-48) | 4 x 48 - = | 4:doughnut x:doughnut 48:doughnut -:doughnut =:doughnut
+EXPR: 0 | POS | INT | 22 | 12 | 192 | 4=(x/48) | 4 x 48 / = | 4:box x:box 48:doughnut /:box =:box
+EXPR: 0 | POS | INT | 22 | 12 | 44 | 4=(48-x) | 4 48 x - = | 4:doughnut 48:doughnut x:doughnut -:doughnut =:doughnut
+EXPR: 0 | POS | INT | 22 | 12 | 52 | (x-4)=48 | x 4 - 48 = | x:doughnut 4:doughnut -:doughnut 48:doughnut =:doughnut
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

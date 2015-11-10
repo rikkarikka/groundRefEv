@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 14696 | 14696 | x=(5973+8723) | x 5973 8723 + = | x:ton 5973:ton 8723:ton +:ton =:ton
+EXPR: 1 | POS | INT | 0 | 14696 | 14696 | (5973+8723)=x | 5973 8723 + x = | 5973:ton 8723:ton +:ton x:ton =:ton
+EXPR: 0 | POS | INT | 2 | 14696 | 2750 | (x+5973)=8723 | x 5973 + 8723 = | x:ton 5973:ton +:ton 8723:ton =:ton
+EXPR: 1 | POS | INT | 2 | 14696 | 14696 | (x-5973)=8723 | x 5973 - 8723 = | x:ton 5973:ton -:ton 8723:ton =:ton
+EXPR: 0 | POS | INT | 2 | 14696 | 2750 | (5973+x)=8723 | 5973 x + 8723 = | 5973:ton x:ton +:ton 8723:ton =:ton
+EXPR: 0 | POS | INT | 2 | 14696 | 2750 | 5973=(8723-x) | 5973 8723 x - = | 5973:ton 8723:ton x:ton -:ton =:ton
+EXPR: 1 | POS | INT | 2 | 14696 | 14696 | 5973=(x-8723) | 5973 x 8723 - = | 5973:ton x:ton 8723:ton -:ton =:ton
+EXPR: 0 | POS | INT | 10 | 14696 | 2750 | (8723-5973)=x | 8723 5973 - x = | 8723:ton 5973:ton -:ton x:ton =:ton
+EXPR: 0 | POS | INT | 10 | 14696 | 2750 | x=(8723-5973) | x 8723 5973 - = | x:ton 8723:ton 5973:ton -:ton =:ton
+EXPR: 1 | POS | INT | 12 | 14696 | 14696 | (x-8723)=5973 | x 8723 - 5973 = | x:ton 8723:ton -:ton 5973:ton =:ton
+EXPR: 0 | POS | INT | 12 | 14696 | 2750 | 8723=(x+5973) | 8723 x 5973 + = | 8723:ton x:ton 5973:ton +:ton =:ton
+EXPR: 0 | POS | INT | 12 | 14696 | 2750 | 8723=(5973+x) | 8723 5973 x + = | 8723:ton 5973:ton x:ton +:ton =:ton
+EXPR: 1 | POS | INT | 12 | 14696 | 14696 | 8723=(x-5973) | 8723 x 5973 - = | 8723:ton x:ton 5973:ton -:ton =:ton
+EXPR: 0 | POS | INT | 12 | 14696 | 2750 | (8723-x)=5973 | 8723 x - 5973 = | 8723:ton x:ton -:ton 5973:ton =:ton
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

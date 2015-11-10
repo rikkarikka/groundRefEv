@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 9 | 729 | x=(81*9) | x 81 9 * = | x:paper 81:paper 9:box *:paper =:paper
+EXPR: 0 | POS | INT | 10 | 9 | 729 | (81*9)=x | 81 9 * x = | 81:clip 9:box *:clip x:clip =:clip
+EXPR: 1 | POS | INT | 10 | 9 | 9 | (81/9)=x | 81 9 / x = | 81:paper 9:box /:paper x:paper =:paper
+EXPR: 1 | POS | INT | 10 | 9 | 9 | x=(81/9) | x 81 9 / = | x:clip 81:clip 9:box /:clip =:clip
+EXPR: 1 | POS | INT | 12 | 9 | 9 | 81=(x*9) | 81 x 9 * = | 81:box x:paper 9:box *:box =:box
+EXPR: 0 | POS | INT | 12 | 9 | 729 | 81=(x/9) | 81 x 9 / = | 81:paper x:paper 9:box /:paper =:paper
+EXPR: 1 | POS | INT | 12 | 9 | 9 | 81=(9*x) | 81 9 x * = | 81:paper 9:box x:paper *:paper =:paper
+EXPR: 1 | POS | INT | 12 | 9 | 9 | (81/x)=9 | 81 x / 9 = | 81:clip x:paper /:clip 9:clip =:clip
+EXPR: 0 | POS | INT | 12 | 9 | 729 | (x/81)=9 | x 81 / 9 = | x:paper 81:clip /:paper 9:paper =:paper
+EXPR: 0 | POS | INT | 20 | 9 | 90 | (81+9)=x | 81 9 + x = | 81:clip 9:clip +:clip x:clip =:clip
+EXPR: 0 | POS | INT | 20 | 9 | 90 | x=(81+9) | x 81 9 + = | x:box 81:box 9:box +:box =:box
+EXPR: 0 | POS | INT | 20 | 9 | 72 | (81-9)=x | 81 9 - x = | 81:clip 9:clip -:clip x:clip =:clip
+EXPR: 0 | POS | INT | 20 | 9 | 72 | x=(81-9) | x 81 9 - = | x:paper 81:paper 9:paper -:paper =:paper
+EXPR: 0 | POS | INT | 22 | 9 | 90 | (x-81)=9 | x 81 - 9 = | x:box 81:box -:box 9:box =:box
+EXPR: 1 | POS | INT | 22 | 9 | 9 | (x*9)=81 | x 9 * 81 = | x:paper 9:box *:box 81:box =:box
+EXPR: 1 | POS | INT | 22 | 9 | 9 | (9*x)=81 | 9 x * 81 = | 9:clip x:paper *:clip 81:clip =:clip
+EXPR: 0 | POS | INT | 22 | 9 | 729 | 9=(x/81) | 9 x 81 / = | 9:paper x:paper 81:clip /:paper =:paper
+EXPR: 0 | POS | INT | 22 | 9 | 72 | 81=(9+x) | 81 9 x + = | 81:box 9:box x:box +:box =:box
+EXPR: 0 | POS | INT | 22 | 9 | 72 | (81-x)=9 | 81 x - 9 = | 81:paper x:paper -:paper 9:paper =:paper
+EXPR: 0 | POS | INT | 22 | 9 | 72 | 81=(x+9) | 81 x 9 + = | 81:paper x:paper 9:paper +:paper =:paper
+EXPR: 0 | POS | INT | 22 | 9 | 90 | 81=(x-9) | 81 x 9 - = | 81:paper x:paper 9:paper -:paper =:paper
+EXPR: 0 | POS | INT | 22 | 9 | 729 | (x/9)=81 | x 9 / 81 = | x:paper 9:box /:paper 81:paper =:paper
+EXPR: 1 | POS | INT | 22 | 9 | 9 | 9=(81/x) | 9 81 x / = | 9:box 81:box x:paper /:box =:box
+EXPR: 0 | POS | INT | 32 | 9 | 90 | (x-9)=81 | x 9 - 81 = | x:box 9:box -:box 81:box =:box
+EXPR: 0 | POS | INT | 32 | 9 | 72 | (9+x)=81 | 9 x + 81 = | 9:box x:box +:box 81:box =:box
+EXPR: 0 | POS | INT | 32 | 9 | 72 | (x+9)=81 | x 9 + 81 = | x:clip 9:clip +:clip 81:clip =:clip
+EXPR: 0 | POS | INT | 32 | 9 | 72 | 9=(81-x) | 9 81 x - = | 9:box 81:box x:box -:box =:box
+EXPR: 0 | POS | INT | 32 | 9 | 90 | 9=(x-81) | 9 x 81 - = | 9:box x:box 81:box -:box =:box
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

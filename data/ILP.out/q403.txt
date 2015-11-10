@@ -1,0 +1,7 @@
+constants : 934 7
+unknowns : x
+operators : + - * / =
+objtypes : crown feather
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 6538

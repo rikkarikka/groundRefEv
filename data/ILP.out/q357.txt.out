@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 6.5 | 4.2 | 1.25=(5.25/x) | 1.25 5.25 x / = | 1.25:inch 5.25:inch x:DISTANCE /:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 6.5 | 0.238095238095238 | 1.25=(x*5.25) | 1.25 x 5.25 * = | 1.25:inch x:DISTANCE 5.25:inch *:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 6.5 | 0.238095238095238 | 1.25=(5.25*x) | 1.25 5.25 x * = | 1.25:inch 5.25:inch x:DISTANCE *:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 6.5 | 4.2 | (x*1.25)=5.25 | x 1.25 * 5.25 = | x:DISTANCE 1.25:inch *:inch 5.25:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 6.5 | 4.2 | (1.25*x)=5.25 | 1.25 x * 5.25 = | 1.25:inch x:DISTANCE *:inch 5.25:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 6.5 | 0.238095238095238 | (1.25/x)=5.25 | 1.25 x / 5.25 = | 1.25:inch x:DISTANCE /:inch 5.25:inch =:inch
+EXPR: 0 | POS | FRA | 10 | 6.5 | 6.5625 | (1.25*5.25)=x | 1.25 5.25 * x = | 1.25:inch 5.25:DISTANCE *:DISTANCE x:DISTANCE =:DISTANCE
+EXPR: 1 | POS | FRA | 10 | 6.5 | 6.5 | (1.25+5.25)=x | 1.25 5.25 + x = | 1.25:inch 5.25:inch +:inch x:inch =:inch
+EXPR: 0 | POS | FRA | 10 | 6.5 | 6.5625 | x=(1.25*5.25) | x 1.25 5.25 * = | x:DISTANCE 1.25:inch 5.25:DISTANCE *:DISTANCE =:DISTANCE
+EXPR: 1 | POS | FRA | 10 | 6.5 | 6.5 | x=(1.25+5.25) | x 1.25 5.25 + = | x:inch 1.25:inch 5.25:inch +:inch =:inch
+EXPR: 0 | POS | FRA | 10 | 6.5 | 0.238095238095238 | x=(1.25/5.25) | x 1.25 5.25 / = | x:DISTANCE 1.25:DISTANCE 5.25:inch /:DISTANCE =:DISTANCE
+EXPR: 0 | POS | FRA | 10 | 6.5 | 0.238095238095238 | (1.25/5.25)=x | 1.25 5.25 / x = | 1.25:DISTANCE 5.25:inch /:DISTANCE x:DISTANCE =:DISTANCE
+EXPR: 0 | POS | FRA | 12 | 6.5 | 0.238095238095238 | 5.25=(1.25/x) | 5.25 1.25 x / = | 5.25:inch 1.25:inch x:DISTANCE /:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 6.5 | 0.238095238095238 | (x*5.25)=1.25 | x 5.25 * 1.25 = | x:DISTANCE 5.25:inch *:inch 1.25:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 6.5 | 6.5625 | 1.25=(x/5.25) | 1.25 x 5.25 / = | 1.25:DISTANCE x:DISTANCE 5.25:inch /:DISTANCE =:DISTANCE
+EXPR: 0 | POS | FRA | 12 | 6.5 | 4.2 | 5.25=(1.25*x) | 5.25 1.25 x * = | 5.25:inch 1.25:inch x:DISTANCE *:inch =:inch
+EXPR: 1 | POS | FRA | 12 | 6.5 | 6.5 | 1.25=(x-5.25) | 1.25 x 5.25 - = | 1.25:inch x:inch 5.25:inch -:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 6.5 | 4.2 | 5.25=(x*1.25) | 5.25 x 1.25 * = | 5.25:inch x:DISTANCE 1.25:inch *:inch =:inch
+EXPR: 0 | POS | INT | 12 | 6.5 | 4 | 1.25=(5.25-x) | 1.25 5.25 x - = | 1.25:inch 5.25:inch x:inch -:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 6.5 | 0.238095238095238 | (5.25*x)=1.25 | 5.25 x * 1.25 = | 5.25:inch x:DISTANCE *:inch 1.25:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 6.5 | 4.2 | (5.25/x)=1.25 | 5.25 x / 1.25 = | 5.25:inch x:DISTANCE /:inch 1.25:inch =:inch
+EXPR: 0 | POS | INT | 12 | 6.5 | 4 | (x+1.25)=5.25 | x 1.25 + 5.25 = | x:inch 1.25:inch +:inch 5.25:inch =:inch
+EXPR: 0 | POS | INT | 12 | 6.5 | 4 | (1.25+x)=5.25 | 1.25 x + 5.25 = | 1.25:inch x:inch +:inch 5.25:inch =:inch
+EXPR: 1 | POS | FRA | 12 | 6.5 | 6.5 | (x-1.25)=5.25 | x 1.25 - 5.25 = | x:inch 1.25:inch -:inch 5.25:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 6.5 | 6.5625 | (x/1.25)=5.25 | x 1.25 / 5.25 = | x:DISTANCE 1.25:inch /:DISTANCE 5.25:DISTANCE =:DISTANCE
+EXPR: 0 | POS | FRA | 20 | 6.5 | 4.2 | (5.25/1.25)=x | 5.25 1.25 / x = | 5.25:DISTANCE 1.25:inch /:DISTANCE x:DISTANCE =:DISTANCE
+EXPR: 0 | POS | INT | 20 | 6.5 | 4 | x=(5.25-1.25) | x 5.25 1.25 - = | x:inch 5.25:inch 1.25:inch -:inch =:inch
+EXPR: 0 | POS | INT | 20 | 6.5 | 4 | (5.25-1.25)=x | 5.25 1.25 - x = | 5.25:inch 1.25:inch -:inch x:inch =:inch
+EXPR: 0 | POS | FRA | 20 | 6.5 | 4.2 | x=(5.25/1.25) | x 5.25 1.25 / = | x:DISTANCE 5.25:DISTANCE 1.25:inch /:DISTANCE =:DISTANCE
+EXPR: 0 | POS | INT | 22 | 6.5 | 4 | (5.25-x)=1.25 | 5.25 x - 1.25 = | 5.25:inch x:inch -:inch 1.25:inch =:inch
+EXPR: 0 | POS | FRA | 22 | 6.5 | 6.5625 | (x/5.25)=1.25 | x 5.25 / 1.25 = | x:DISTANCE 5.25:inch /:DISTANCE 1.25:DISTANCE =:DISTANCE
+EXPR: 1 | POS | FRA | 22 | 6.5 | 6.5 | (x-5.25)=1.25 | x 5.25 - 1.25 = | x:inch 5.25:inch -:inch 1.25:inch =:inch
+EXPR: 1 | POS | FRA | 22 | 6.5 | 6.5 | 5.25=(x-1.25) | 5.25 x 1.25 - = | 5.25:inch x:inch 1.25:inch -:inch =:inch
+EXPR: 0 | POS | INT | 22 | 6.5 | 4 | 5.25=(x+1.25) | 5.25 x 1.25 + = | 5.25:inch x:inch 1.25:inch +:inch =:inch
+EXPR: 0 | POS | INT | 22 | 6.5 | 4 | 5.25=(1.25+x) | 5.25 1.25 x + = | 5.25:inch 1.25:inch x:inch +:inch =:inch
+EXPR: 0 | POS | FRA | 22 | 6.5 | 6.5625 | 5.25=(x/1.25) | 5.25 x 1.25 / = | 5.25:DISTANCE x:DISTANCE 1.25:inch /:DISTANCE =:DISTANCE
+NET 36 unique, non-negative solutions found out of 136 total solutions

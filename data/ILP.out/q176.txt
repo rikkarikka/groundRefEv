@@ -1,0 +1,7 @@
+constants : 3 12 4
+unknowns : x
+operators : + - * / =
+objtypes : dozen marble
+constantOrUnknownType : 0 1 0 1
+n : 7
+answer : 144.0

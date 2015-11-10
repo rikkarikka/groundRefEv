@@ -1,0 +1,7 @@
+constants : 5 3
+unknowns : x
+operators : + - * / =
+objtypes : card
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 2.0

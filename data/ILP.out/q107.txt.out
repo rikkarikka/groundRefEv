@@ -1,0 +1,28 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 288 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 8 | 96 | (96*1)=x | 96 1 * x = | 96:muffin 1:person *:person x:person =:person
+EXPR: 0 | POS | INT | 10 | 8 | 96 | x=(96*1) | x 96 1 * = | x:box 96:box 1:person *:box =:box
+EXPR: 0 | POS | INT | 12 | 8 | 96 | 96=(1*x) | 96 1 x * = | 96:muffin 1:muffin x:box *:muffin =:muffin
+EXPR: 0 | POS | INT | 12 | 8 | 96 | (96/x)=1 | 96 x / 1 = | 96:muffin x:box /:muffin 1:muffin =:muffin
+EXPR: 0 | POS | INT | 12 | 8 | 96 | 96=(x*1) | 96 x 1 * = | 96:muffin x:box 1:muffin *:muffin =:muffin
+EXPR: 0 | POS | INT | 12 | 8 | 96 | (x/96)=1 | x 96 / 1 = | x:person 96:muffin /:person 1:person =:person
+EXPR: 0 | POS | INT | 20 | 8 | 97 | (96+1)=x | 96 1 + x = | 96:box 1:box +:box x:box =:box
+EXPR: 0 | POS | INT | 20 | 8 | 95 | (96-1)=x | 96 1 - x = | 96:box 1:box -:box x:box =:box
+EXPR: 0 | POS | INT | 20 | 8 | 95 | x=(96-1) | x 96 1 - = | x:box 96:box 1:box -:box =:box
+EXPR: 0 | POS | INT | 20 | 8 | 97 | x=(96+1) | x 96 1 + = | x:muffin 96:muffin 1:muffin +:muffin =:muffin
+EXPR: 0 | POS | INT | 22 | 8 | 96 | (x*1)=96 | x 1 * 96 = | x:box 1:person *:box 96:box =:box
+EXPR: 0 | POS | INT | 22 | 8 | 97 | (x-96)=1 | x 96 - 1 = | x:muffin 96:muffin -:muffin 1:muffin =:muffin
+EXPR: 0 | POS | INT | 22 | 8 | 96 | 1=(96/x) | 1 96 x / = | 1:muffin 96:muffin x:box /:muffin =:muffin
+EXPR: 0 | POS | INT | 22 | 8 | 95 | (96-x)=1 | 96 x - 1 = | 96:person x:person -:person 1:person =:person
+EXPR: 0 | POS | INT | 22 | 8 | 96 | 1=(x/96) | 1 x 96 / = | 1:box x:box 96:muffin /:box =:box
+EXPR: 0 | POS | INT | 22 | 8 | 95 | 96=(x+1) | 96 x 1 + = | 96:box x:box 1:box +:box =:box
+EXPR: 0 | POS | INT | 22 | 8 | 97 | 96=(x-1) | 96 x 1 - = | 96:box x:box 1:box -:box =:box
+EXPR: 0 | POS | INT | 22 | 8 | 95 | 96=(1+x) | 96 1 x + = | 96:box 1:box x:box +:box =:box
+EXPR: 0 | POS | INT | 22 | 8 | 96 | (1*x)=96 | 1 x * 96 = | 1:muffin x:box *:muffin 96:muffin =:muffin
+EXPR: 0 | POS | INT | 32 | 8 | 95 | (1+x)=96 | 1 x + 96 = | 1:box x:box +:box 96:box =:box
+EXPR: 0 | POS | INT | 32 | 8 | 97 | (x-1)=96 | x 1 - 96 = | x:box 1:box -:box 96:box =:box
+EXPR: 0 | POS | INT | 32 | 8 | 95 | (x+1)=96 | x 1 + 96 = | x:box 1:box +:box 96:box =:box
+EXPR: 0 | POS | INT | 32 | 8 | 97 | 1=(x-96) | 1 x 96 - = | 1:box x:box 96:box -:box =:box
+EXPR: 0 | POS | INT | 32 | 8 | 95 | 1=(96-x) | 1 96 x - = | 1:muffin 96:muffin x:muffin -:muffin =:muffin
+NET 24 unique, non-negative, integer-valued solutions found out of 288 total solutions

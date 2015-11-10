@@ -1,0 +1,7 @@
+constants : 56 8
+unknowns : x
+operators : + - * / =
+objtypes : tomato jar
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7

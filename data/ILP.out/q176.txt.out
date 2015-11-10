@@ -1,0 +1,212 @@
+parameters: n=7 l=3 k=1 p=5 q=2 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 144 | 144 | ((3*12)*4)=x | 3 12 * 4 * x = | 3:dozen 12:marble *:marble 4:dozen *:marble x:marble =:marble
+EXPR: 1 | POS | INT | 0 | 144 | 144 | x=((3*12)*4) | x 3 12 * 4 * = | x:marble 3:dozen 12:marble *:marble 4:dozen *:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 6 | x=(3+(12/4)) | x 3 12 4 / + = | x:marble 3:marble 12:marble 4:dozen /:marble +:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 51 | x=(3+(12*4)) | x 3 12 4 * + = | x:marble 3:marble 12:marble 4:dozen *:marble +:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 84 | (12*(3+4))=x | 12 3 4 + * x = | 12:marble 3:dozen 4:dozen +:dozen *:marble x:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 24 | (3*(12-4))=x | 3 12 4 - * x = | 3:dozen 12:marble 4:marble -:marble *:marble x:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 48 | (3*(12+4))=x | 3 12 4 + * x = | 3:dozen 12:marble 4:marble +:marble *:marble x:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 84 | x=(12*(3+4)) | x 12 3 4 + * = | x:marble 12:marble 3:dozen 4:dozen +:dozen *:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 60 | x=((3+12)*4) | x 3 12 + 4 * = | x:marble 3:marble 12:marble +:marble 4:dozen *:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 40 | x=((3*12)+4) | x 3 12 * 4 + = | x:marble 3:dozen 12:marble *:marble 4:marble +:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 32 | x=((3*12)-4) | x 3 12 * 4 - = | x:marble 3:dozen 12:marble *:marble 4:marble -:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 51 | (3+(12*4))=x | 3 12 4 * + x = | 3:dozen 12:marble 4:dozen *:dozen +:dozen x:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 144 | 60 | ((3+12)*4)=x | 3 12 + 4 * x = | 3:marble 12:marble +:marble 4:dozen *:marble x:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 40 | ((3*12)+4)=x | 3 12 * 4 + x = | 3:dozen 12:marble *:dozen 4:dozen +:dozen x:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 144 | 84 | x=((3+4)*12) | x 3 4 + 12 * = | x:marble 3:dozen 4:dozen +:dozen 12:marble *:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 84 | ((3+4)*12)=x | 3 4 + 12 * x = | 3:dozen 4:dozen +:dozen 12:marble *:marble x:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 48 | x=(3*(12+4)) | x 3 12 4 + * = | x:marble 3:dozen 12:marble 4:marble +:marble *:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 32 | ((3*12)-4)=x | 3 12 * 4 - x = | 3:dozen 12:marble *:dozen 4:dozen -:dozen x:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 144 | 24 | x=(3*(12-4)) | x 3 12 4 - * = | x:marble 3:dozen 12:marble 4:marble -:marble *:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 |  | x=(3-(12/4)) | x 3 12 4 / - = | x:marble 3:marble 12:marble 4:dozen /:marble -:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 0 | (3-(12/4))=x | 3 12 4 / - x = | 3:marble 12:marble 4:dozen /:marble -:marble x:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 6 | (3+(12/4))=x | 3 12 4 / + x = | 3:marble 12:marble 4:dozen /:marble +:marble x:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 1 | 12=((x*3)*4) | 12 x 3 * 4 * = | 12:marble x:marble 3:dozen *:marble 4:dozen *:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 1 | ((3*x)*4)=12 | 3 x * 4 * 12 = | 3:dozen x:marble *:marble 4:dozen *:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 40 | (x-(3*12))=4 | x 3 12 * - 4 = | x:marble 3:dozen 12:marble *:marble -:marble 4:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 0 | 3=(x+(12/4)) | 3 x 12 4 / + = | 3:marble x:marble 12:marble 4:dozen /:marble +:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 6 | 3=(x-(12/4)) | 3 x 12 4 / - = | 3:marble x:marble 12:marble 4:dozen /:marble -:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 1 | ((x*3)*4)=12 | x 3 * 4 * 12 = | x:marble 3:dozen *:marble 4:dozen *:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 12 | (3+(x/12))=4 | 3 x 12 / + 4 = | 3:dozen x:dozen 12:marble /:dozen +:dozen 4:dozen =:dozen
+EXPR: 1 | POS | INT | 12 | 144 | 144 | (x/3)=(12*4) | x 3 / 12 4 * = | x:marble 3:dozen /:marble 12:marble 4:dozen *:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 45 | 3=((12*4)-x) | 3 12 4 * x - = | 3:dozen 12:marble 4:dozen *:dozen x:dozen -:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 144 | 36 | 3=(12-(x/4)) | 3 12 x 4 / - = | 3:marble 12:marble x:marble 4:dozen /:marble -:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 0 | 3=((12+x)/4) | 3 12 x + 4 / = | 3:marble 12:marble x:marble +:marble 4:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 16 | (x*3)=(12*4) | x 3 * 12 4 * = | x:marble 3:dozen *:dozen 12:marble 4:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 144 | 12 | (3+(12/x))=4 | 3 12 x / + 4 = | 3:dozen 12:dozen x:marble /:dozen +:dozen 4:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 144 | 1 | 12=((3*x)*4) | 12 3 x * 4 * = | 12:marble 3:dozen x:marble *:marble 4:dozen *:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 51 | 3=(x-(12*4)) | 3 x 12 4 * - = | 3:dozen x:dozen 12:marble 4:dozen *:dozen -:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 144 | 84 | (x/(3+4))=12 | x 3 4 + / 12 = | x:marble 3:dozen 4:dozen +:dozen /:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 84 | 12=(x/(3+4)) | 12 x 3 4 + / = | 12:marble x:marble 3:dozen 4:dozen +:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 51 | ((x-3)/12)=4 | x 3 - 12 / 4 = | x:dozen 3:dozen -:dozen 12:marble /:dozen 4:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 144 | 45 | ((x+3)/12)=4 | x 3 + 12 / 4 = | x:dozen 3:dozen +:dozen 12:marble /:dozen 4:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 144 | 0 | 3=((12/4)+x) | 3 12 4 / x + = | 3:marble 12:marble 4:dozen /:marble x:marble +:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 0 | 3=((12/4)-x) | 3 12 4 / x - = | 3:marble 12:marble 4:dozen /:marble x:marble -:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 16 | (3/12)=(4/x) | 3 12 / 4 x / = | 3:dozen 12:marble /:dozen 4:dozen x:marble /:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 144 | 48 | ((x/3)-12)=4 | x 3 / 12 - 4 = | x:marble 3:dozen /:marble 12:marble -:marble 4:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 1 | (x*3)=(12/4) | x 3 * 12 4 / = | x:marble 3:dozen *:marble 12:marble 4:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 0 | 3=((x+12)/4) | 3 x 12 + 4 / = | 3:marble x:marble 12:marble +:marble 4:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 9 | (3*12)=(4*x) | 3 12 * 4 x * = | 3:dozen 12:marble *:dozen 4:dozen x:marble *:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 144 | 45 | ((3+x)/12)=4 | 3 x + 12 / 4 = | 3:dozen x:dozen +:dozen 12:marble /:dozen 4:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 144 | 9 | (3*12)=(x*4) | 3 12 * x 4 * = | 3:dozen 12:marble *:marble x:marble 4:dozen *:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 84 | 3=((x/12)-4) | 3 x 12 / 4 - = | 3:dozen x:dozen 12:marble /:dozen 4:dozen -:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 144 | 16 | (3*x)=(12*4) | 3 x * 12 4 * = | 3:dozen x:marble *:marble 12:marble 4:dozen *:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 0 | 3=((12-x)/4) | 3 12 x - 4 / = | 3:marble 12:marble x:marble -:marble 4:dozen /:marble =:marble
+EXPR: 1 | POS | INT | 12 | 144 | 144 | (3*12)=(x/4) | 3 12 * x 4 / = | 3:dozen 12:marble *:marble x:marble 4:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 32 | ((3*12)-x)=4 | 3 12 * x - 4 = | 3:dozen 12:marble *:dozen x:dozen -:dozen 4:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 144 | 9 | (x/3)=(12/4) | x 3 / 12 4 / = | x:marble 3:dozen /:marble 12:marble 4:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 1 | (3*x)=(12/4) | 3 x * 12 4 / = | 3:dozen x:marble *:marble 12:marble 4:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 24 | 3=((x-12)/4) | 3 x 12 - 4 / = | 3:marble x:marble 12:marble -:marble 4:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 20 | 144 | 11 | x=((3+12)-4) | x 3 12 + 4 - = | x:dozen 3:dozen 12:dozen +:dozen 4:dozen -:dozen =:dozen
+EXPR: 0 | POS | INT | 20 | 144 | 11 | (3+(12-4))=x | 3 12 4 - + x = | 3:dozen 12:dozen 4:dozen -:dozen +:dozen x:dozen =:dozen
+EXPR: 0 | POS | INT | 20 | 144 | 19 | (3+(12+4))=x | 3 12 4 + + x = | 3:dozen 12:dozen 4:dozen +:dozen +:dozen x:dozen =:dozen
+EXPR: 0 | POS | INT | 20 | 144 | 24 | x=((3*4)+12) | x 3 4 * 12 + = | x:marble 3:dozen 4:marble *:marble 12:marble +:marble =:marble
+EXPR: 0 | POS | INT | 20 | 144 | 11 | x=(3+(12-4)) | x 3 12 4 - + = | x:dozen 3:dozen 12:dozen 4:dozen -:dozen +:dozen =:dozen
+EXPR: 0 | POS | INT | 20 | 144 | 19 | x=(3+(12+4)) | x 3 12 4 + + = | x:dozen 3:dozen 12:dozen 4:dozen +:dozen +:dozen =:dozen
+EXPR: 0 | POS | INT | 20 | 144 |  | x=((3*4)-12) | x 3 4 * 12 - = | x:marble 3:dozen 4:marble *:marble 12:marble -:marble =:marble
+EXPR: 0 | POS | INT | 20 | 144 | 8 | x=((12/3)+4) | x 12 3 / 4 + = | x:marble 12:marble 3:dozen /:marble 4:marble +:marble =:marble
+EXPR: 0 | POS | INT | 20 | 144 |  | x=((12/3)-4) | x 12 3 / 4 - = | x:marble 12:marble 3:dozen /:marble 4:marble -:marble =:marble
+EXPR: 0 | POS | INT | 20 | 144 | 19 | x=((3+12)+4) | x 3 12 + 4 + = | x:marble 3:marble 12:marble +:marble 4:marble +:marble =:marble
+EXPR: 0 | POS | INT | 20 | 144 | 24 | x=(12+(3*4)) | x 12 3 4 * + = | x:marble 12:marble 3:marble 4:dozen *:marble +:marble =:marble
+EXPR: 0 | POS | INT | 20 | 144 | 11 | ((3+12)-4)=x | 3 12 + 4 - x = | 3:dozen 12:dozen +:dozen 4:dozen -:dozen x:dozen =:dozen
+EXPR: 0 | POS | INT | 20 | 144 | 0 | ((3*4)-12)=x | 3 4 * 12 - x = | 3:marble 4:dozen *:marble 12:marble -:marble x:marble =:marble
+EXPR: 0 | POS | INT | 20 | 144 |  | x=(12-(3*4)) | x 12 3 4 * - = | x:marble 12:marble 3:marble 4:dozen *:marble -:marble =:marble
+EXPR: 1 | POS | INT | 20 | 144 | 144 | ((3*4)*12)=x | 3 4 * 12 * x = | 3:dozen 4:marble *:dozen 12:marble *:marble x:marble =:marble
+EXPR: 0 | POS | INT | 20 | 144 | 0 | (12-(3*4))=x | 12 3 4 * - x = | 12:marble 3:dozen 4:marble *:marble -:marble x:marble =:marble
+EXPR: 0 | POS | INT | 20 | 144 | 24 | (12+(3*4))=x | 12 3 4 * + x = | 12:marble 3:dozen 4:marble *:marble +:marble x:marble =:marble
+EXPR: 0 | POS | INT | 20 | 144 | 24 | ((3*4)+12)=x | 3 4 * 12 + x = | 3:dozen 4:marble *:marble 12:marble +:marble x:marble =:marble
+EXPR: 0 | POS | INT | 20 | 144 | 36 | ((12-3)*4)=x | 12 3 - 4 * x = | 12:marble 3:marble -:marble 4:dozen *:marble x:marble =:marble
+EXPR: 0 | POS | INT | 20 | 144 | 19 | ((3+12)+4)=x | 3 12 + 4 + x = | 3:dozen 12:dozen +:dozen 4:dozen +:dozen x:dozen =:dozen
+EXPR: 1 | POS | INT | 20 | 144 | 144 | x=((3*4)*12) | x 3 4 * 12 * = | x:marble 3:dozen 4:marble *:dozen 12:marble *:marble =:marble
+EXPR: 0 | POS | INT | 20 | 144 | 0 | ((12/3)-4)=x | 12 3 / 4 - x = | 12:marble 3:dozen /:marble 4:marble -:marble x:marble =:marble
+EXPR: 0 | POS | INT | 20 | 144 | 8 | ((12/3)+4)=x | 12 3 / 4 + x = | 12:marble 3:dozen /:marble 4:marble +:marble x:marble =:marble
+EXPR: 0 | POS | INT | 20 | 144 | 36 | x=((12-3)*4) | x 12 3 - 4 * = | x:marble 12:marble 3:marble -:marble 4:dozen *:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 |  | (x+(12/3))=4 | x 12 3 / + 4 = | x:marble 12:marble 3:dozen /:marble +:marble 4:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 8 | (x-(12/3))=4 | x 12 3 / - 4 = | x:marble 12:marble 3:dozen /:marble -:marble 4:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 24 | 12=((x/3)+4) | 12 x 3 / 4 + = | 12:marble x:marble 3:dozen /:marble 4:marble +:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 48 | 12=((x/3)-4) | 12 x 3 / 4 - = | 12:marble x:marble 3:dozen /:marble 4:marble -:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 13 | (x+(3-12))=4 | x 3 12 - + 4 = | x:dozen 3:dozen 12:dozen -:dozen +:dozen 4:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 1 | (12/3)=(x*4) | 12 3 / x 4 * = | 12:marble 3:dozen /:marble x:marble 4:dozen *:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 0 | 12=(3*(4+x)) | 12 3 4 x + * = | 12:marble 3:dozen 4:marble x:marble +:marble *:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 |  | ((3-x)*4)=12 | 3 x - 4 * 12 = | 3:marble x:marble -:marble 4:dozen *:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 48 | (x/3)=(12+4) | x 3 / 12 4 + = | x:marble 3:dozen /:marble 12:marble 4:marble +:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 5 | 3=(12-(4+x)) | 3 12 4 x + - = | 3:marble 12:marble 4:marble x:marble +:marble -:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 13 | 3=(12+(4-x)) | 3 12 4 x - + = | 3:marble 12:marble 4:marble x:marble -:marble +:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 24 | (x/3)=(12-4) | x 3 / 12 4 - = | x:marble 3:dozen /:marble 12:marble 4:marble -:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 24 | (12-(x/3))=4 | 12 x 3 / - 4 = | 12:marble x:marble 3:dozen /:marble -:marble 4:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 13 | 3=((12+4)-x) | 3 12 4 + x - = | 3:dozen 12:dozen 4:dozen +:dozen x:dozen -:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 13 | ((x+3)-12)=4 | x 3 + 12 - 4 = | x:dozen 3:dozen +:dozen 12:dozen -:dozen 4:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 45 | 12=((3+x)/4) | 12 3 x + 4 / = | 12:marble 3:marble x:marble +:marble 4:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 5 | 3=((12-4)-x) | 3 12 4 - x - = | 3:dozen 12:dozen 4:dozen -:dozen x:dozen -:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 51 | ((x-3)/4)=12 | x 3 - 4 / 12 = | x:marble 3:marble -:marble 4:dozen /:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 32 | 3=((4+x)/12) | 3 4 x + 12 / = | 3:dozen 4:dozen x:dozen +:dozen 12:marble /:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 45 | (3+x)=(12*4) | 3 x + 12 4 * = | 3:dozen x:dozen +:dozen 12:marble 4:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 0 | 12=(x+(3*4)) | 12 x 3 4 * + = | 12:marble x:marble 3:marble 4:dozen *:marble +:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 24 | 12=(x-(3*4)) | 12 x 3 4 * - = | 12:marble x:marble 3:marble 4:dozen *:marble -:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 13 | (3+(x-12))=4 | 3 x 12 - + 4 = | 3:dozen x:dozen 12:dozen -:dozen +:dozen 4:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 |  | (x+(3*4))=12 | x 3 4 * + 12 = | x:marble 3:dozen 4:marble *:marble +:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 0 | 12=((3*4)+x) | 12 3 4 * x + = | 12:marble 3:dozen 4:marble *:marble x:marble +:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 19 | 3=(x-(12+4)) | 3 x 12 4 + - = | 3:dozen x:dozen 12:dozen 4:dozen +:dozen -:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 0 | 3=(12/(4-x)) | 3 12 4 x - / = | 3:dozen 12:dozen 4:marble x:marble -:marble /:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 11 | (3-(x-12))=4 | 3 x 12 - - 4 = | 3:dozen x:dozen 12:dozen -:dozen -:dozen 4:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 0 | 3=(12/(4+x)) | 3 12 4 x + / = | 3:dozen 12:dozen 4:marble x:marble +:marble /:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 24 | (x-(3*4))=12 | x 3 4 * - 12 = | x:marble 3:marble 4:dozen *:marble -:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 12 | ((x/12)+3)=4 | x 12 / 3 + 4 = | x:dozen 12:marble /:dozen 3:dozen +:dozen 4:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 11 | 3=(x-(12-4)) | 3 x 12 4 - - = | 3:marble x:marble 12:marble 4:marble -:marble -:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 32 | 3=((x+4)/12) | 3 x 4 + 12 / = | 3:dozen x:dozen 4:dozen +:dozen 12:marble /:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 60 | (x/(3+12))=4 | x 3 12 + / 4 = | x:marble 3:dozen 12:dozen +:dozen /:marble 4:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 40 | 3=((x-4)/12) | 3 x 4 - 12 / = | 3:dozen x:dozen 4:dozen -:dozen 12:marble /:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 48 | 3=(x/(12+4)) | 3 x 12 4 + / = | 3:marble x:marble 12:dozen 4:dozen +:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 11 | ((3+12)-x)=4 | 3 12 + x - 4 = | 3:dozen 12:dozen +:dozen x:dozen -:dozen 4:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 0 | 12=((3*4)-x) | 12 3 4 * x - = | 12:marble 3:dozen 4:marble *:marble x:marble -:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 6 | ((x-3)*4)=12 | x 3 - 4 * 12 = | x:marble 3:marble -:marble 4:dozen *:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 |  | ((3*4)+x)=12 | 3 4 * x + 12 = | 3:marble 4:dozen *:marble x:marble +:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 24 | 3=(x/(12-4)) | 3 x 12 4 - / = | 3:dozen x:dozen 12:marble 4:marble -:marble /:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 1 | ((3*4)*x)=12 | 3 4 * x * 12 = | 3:marble 4:dozen *:dozen x:marble *:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 60 | 3=((x/4)-12) | 3 x 4 / 12 - = | 3:marble x:marble 4:dozen /:marble 12:marble -:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 5 | 3=(12-(x+4)) | 3 12 x 4 + - = | 3:marble 12:marble x:marble 4:marble +:marble -:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 9 | (3/x)=(4/12) | 3 x / 4 12 / = | 3:dozen x:marble /:dozen 4:dozen 12:marble /:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 24 | ((x/3)+4)=12 | x 3 / 4 + 12 = | x:marble 3:dozen /:marble 4:marble +:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 48 | ((x/3)-4)=12 | x 3 / 4 - 12 = | x:marble 3:dozen /:marble 4:marble -:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 24 | ((x-12)/3)=4 | x 12 - 3 / 4 = | x:marble 12:marble -:marble 3:dozen /:marble 4:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 36 | (3+(x/4))=12 | 3 x 4 / + 12 = | 3:marble x:marble 4:dozen /:marble +:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 84 | ((x/12)-3)=4 | x 12 / 3 - 4 = | x:dozen 12:marble /:dozen 3:dozen -:dozen 4:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 13 | 3=(12-(x-4)) | 3 12 x 4 - - = | 3:marble 12:marble x:marble 4:marble -:marble -:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 0 | 12=(3*(x+4)) | 12 3 x 4 + * = | 12:marble 3:dozen x:marble 4:marble +:marble *:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 |  | ((12-x)/3)=4 | 12 x - 3 / 4 = | 12:marble x:marble -:marble 3:dozen /:marble 4:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 8 | 12=(3*(x-4)) | 12 3 x 4 - * = | 12:marble 3:dozen x:marble 4:marble -:marble *:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 13 | 3=((12-x)+4) | 3 12 x - 4 + = | 3:dozen 12:dozen x:dozen -:dozen 4:dozen +:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 13 | ((3+x)-12)=4 | 3 x + 12 - 4 = | 3:dozen x:dozen +:dozen 12:dozen -:dozen 4:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 11 | 3=((x-12)+4) | 3 x 12 - 4 + = | 3:dozen x:dozen 12:dozen -:dozen 4:dozen +:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 32 | (3*12)=(4+x) | 3 12 * 4 x + = | 3:dozen 12:marble *:dozen 4:dozen x:dozen +:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 |  | ((3*4)-x)=12 | 3 4 * x - 12 = | 3:marble 4:dozen *:marble x:marble -:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 1 | 12=((3*4)*x) | 12 3 4 * x * = | 12:marble 3:marble 4:dozen *:dozen x:marble *:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 5 | 3=((12-x)-4) | 3 12 x - 4 - = | 3:dozen 12:dozen x:dozen -:dozen 4:dozen -:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 19 | (x-(3+12))=4 | x 3 12 + - 4 = | x:marble 3:marble 12:marble +:marble -:marble 4:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 |  | ((12+x)/3)=4 | 12 x + 3 / 4 = | 12:marble x:marble +:marble 3:dozen /:marble 4:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 |  | ((12/3)+x)=4 | 12 3 / x + 4 = | 12:marble 3:dozen /:marble x:marble +:marble 4:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 0 | 12=((3+x)*4) | 12 3 x + 4 * = | 12:marble 3:marble x:marble +:marble 4:dozen *:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 0 | 12=(3*(4-x)) | 12 3 4 x - * = | 12:marble 3:dozen 4:marble x:marble -:marble *:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 16 | (12/3)=(x/4) | 12 3 / x 4 / = | 12:marble 3:dozen /:marble x:marble 4:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 0 | 12=((x+3)*4) | 12 x 3 + 4 * = | 12:marble x:marble 3:marble +:marble 4:dozen *:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 19 | 3=((x-12)-4) | 3 x 12 - 4 - = | 3:dozen x:dozen 12:dozen -:dozen 4:dozen -:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 45 | ((3+x)/4)=12 | 3 x + 4 / 12 = | 3:marble x:marble +:marble 4:dozen /:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 45 | 12=((x+3)/4) | 12 x 3 + 4 / = | 12:marble x:marble 3:marble +:marble 4:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 |  | (3*(4+x))=12 | 3 4 x + * 12 = | 3:dozen 4:marble x:marble +:marble *:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 45 | ((x+3)/4)=12 | x 3 + 4 / 12 = | x:marble 3:marble +:marble 4:dozen /:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 |  | ((12/3)-x)=4 | 12 3 / x - 4 = | 12:marble 3:dozen /:marble x:marble -:marble 4:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 |  | ((3+x)*4)=12 | 3 x + 4 * 12 = | 3:marble x:marble +:marble 4:dozen *:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 0 | 3=(12/(x+4)) | 3 12 x 4 + / = | 3:marble 12:marble x:dozen 4:dozen +:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 |  | (3*(x+4))=12 | 3 x 4 + * 12 = | 3:dozen x:marble 4:marble +:marble *:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 36 | 12=(3+(x/4)) | 12 3 x 4 / + = | 12:marble 3:marble x:marble 4:dozen /:marble +:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 |  | ((x+3)*4)=12 | x 3 + 4 * 12 = | x:marble 3:marble +:marble 4:dozen *:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 1 | (12/3)=(4*x) | 12 3 / 4 x * = | 12:marble 3:dozen /:marble 4:dozen x:marble *:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 8 | 3=(12/(x-4)) | 3 12 x 4 - / = | 3:dozen 12:dozen x:marble 4:marble -:marble /:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 12 | ((12/x)+3)=4 | 12 x / 3 + 4 = | 12:dozen x:marble /:dozen 3:dozen +:dozen 4:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 32 | (3*12)=(x+4) | 3 12 * x 4 + = | 3:dozen 12:marble *:dozen x:dozen 4:dozen +:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 40 | (3*12)=(x-4) | 3 12 * x 4 - = | 3:dozen 12:marble *:dozen x:dozen 4:dozen -:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 45 | (x+3)=(12*4) | x 3 + 12 4 * = | x:dozen 3:dozen +:dozen 12:marble 4:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 12 | 3=(4-(x/12)) | 3 4 x 12 / - = | 3:dozen 4:dozen x:dozen 12:marble /:dozen -:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 |  | ((x+12)/3)=4 | x 12 + 3 / 4 = | x:marble 12:marble +:marble 3:dozen /:marble 4:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 19 | ((x-3)-12)=4 | x 3 - 12 - 4 = | x:marble 3:marble -:marble 12:marble -:marble 4:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 51 | (x-3)=(12*4) | x 3 - 12 4 * = | x:dozen 3:dozen -:dozen 12:marble 4:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 13 | (3-(12-x))=4 | 3 12 x - - 4 = | 3:dozen 12:dozen x:dozen -:dozen -:dozen 4:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 |  | (3+x)=(12/4) | 3 x + 12 4 / = | 3:marble x:marble +:marble 12:marble 4:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 |  | (x+3)=(12/4) | x 3 + 12 4 / = | x:marble 3:marble +:marble 12:marble 4:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 13 | ((3-12)+x)=4 | 3 12 - x + 4 = | 3:marble 12:marble -:marble x:marble +:marble 4:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 12 | 3=(4-(12/x)) | 3 4 12 x / - = | 3:dozen 4:dozen 12:dozen x:marble /:dozen -:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 144 | 60 | (3+12)=(x/4) | 3 12 + x 4 / = | 3:marble 12:marble +:marble x:marble 4:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 |  | (3-x)=(12/4) | 3 x - 12 4 / = | 3:marble x:marble -:marble 12:marble 4:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 8 | (3*(x-4))=12 | 3 x 4 - * 12 = | 3:dozen x:marble 4:marble -:marble *:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 11 | (3+(12-x))=4 | 3 12 x - + 4 = | 3:marble 12:marble x:marble -:marble +:marble 4:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 0 | 12=((3-x)*4) | 12 3 x - 4 * = | 12:marble 3:marble x:marble -:marble 4:dozen *:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 11 | ((3-x)+12)=4 | 3 x - 12 + 4 = | 3:marble x:marble -:marble 12:marble +:marble 4:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 6 | (x-3)=(12/4) | x 3 - 12 4 / = | x:marble 3:marble -:marble 12:marble 4:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 |  | (3*(4-x))=12 | 3 4 x - * 12 = | 3:dozen 4:marble x:marble -:marble *:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 51 | 12=((x-3)/4) | 12 x 3 - 4 / = | 12:marble x:marble 3:marble -:marble 4:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 6 | 12=((x-3)*4) | 12 x 3 - 4 * = | 12:marble x:marble 3:marble -:marble 4:dozen *:marble =:marble
+EXPR: 0 | POS | INT | 25 | 144 | 12 | ((4-3)*12)=x | 4 3 - 12 * x = | 4:dozen 3:dozen -:dozen 12:marble *:marble x:marble =:marble
+EXPR: 0 | POS | INT | 25 | 144 | 12 | x=(12/(4-3)) | x 12 4 3 - / = | x:marble 12:marble 4:dozen 3:dozen -:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 25 | 144 | 12 | x=(12*(4-3)) | x 12 4 3 - * = | x:marble 12:marble 4:dozen 3:dozen -:dozen *:marble =:marble
+EXPR: 1 | POS | INT | 25 | 144 | 144 | ((12*4)*3)=x | 12 4 * 3 * x = | 12:marble 4:dozen *:marble 3:dozen *:marble x:marble =:marble
+EXPR: 0 | POS | INT | 25 | 144 | 12 | (12*(4-3))=x | 12 4 3 - * x = | 12:marble 4:dozen 3:dozen -:dozen *:marble x:marble =:marble
+EXPR: 0 | POS | INT | 25 | 144 | 12 | x=((4-3)*12) | x 4 3 - 12 * = | x:marble 4:dozen 3:dozen -:dozen 12:marble *:marble =:marble
+EXPR: 1 | POS | INT | 25 | 144 | 144 | x=((12*4)*3) | x 12 4 * 3 * = | x:marble 12:marble 4:dozen *:marble 3:dozen *:marble =:marble
+EXPR: 0 | POS | INT | 25 | 144 | 12 | (12/(4-3))=x | 12 4 3 - / x = | 12:marble 4:dozen 3:dozen -:dozen /:marble x:marble =:marble
+EXPR: 0 | POS | INT | 27 | 144 | 1 | 12=((4*x)*3) | 12 4 x * 3 * = | 12:marble 4:dozen x:marble *:marble 3:dozen *:marble =:marble
+EXPR: 0 | POS | INT | 27 | 144 | 1 | 12=((x*4)*3) | 12 x 4 * 3 * = | 12:marble x:marble 4:dozen *:marble 3:dozen *:marble =:marble
+EXPR: 0 | POS | INT | 27 | 144 | 1 | ((4*x)*3)=12 | 4 x * 3 * 12 = | 4:dozen x:marble *:marble 3:dozen *:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 27 | 144 | 1 | ((x*4)*3)=12 | x 4 * 3 * 12 = | x:marble 4:dozen *:marble 3:dozen *:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 27 | 144 | 12 | 12=(x/(4-3)) | 12 x 4 3 - / = | 12:marble x:marble 4:dozen 3:dozen -:dozen /:marble =:marble
+EXPR: 0 | POS | INT | 27 | 144 | 12 | 12=(x*(4-3)) | 12 x 4 3 - * = | 12:marble x:marble 4:dozen 3:dozen -:dozen *:marble =:marble
+EXPR: 0 | POS | INT | 27 | 144 | 12 | ((4-3)*x)=12 | 4 3 - x * 12 = | 4:dozen 3:dozen -:dozen x:marble *:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 27 | 144 | 12 | (x/(4-3))=12 | x 4 3 - / 12 = | x:marble 4:dozen 3:dozen -:dozen /:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 27 | 144 | 12 | 12=((4-3)*x) | 12 4 3 - x * = | 12:marble 4:dozen 3:dozen -:dozen x:marble *:marble =:marble
+EXPR: 0 | POS | INT | 27 | 144 | 12 | (x*(4-3))=12 | x 4 3 - * 12 = | x:marble 4:dozen 3:dozen -:dozen *:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 30 | 144 | 19 | (12+(3+4))=x | 12 3 4 + + x = | 12:marble 3:marble 4:marble +:marble +:marble x:marble =:marble
+EXPR: 0 | POS | INT | 30 | 144 | 13 | x=((12-3)+4) | x 12 3 - 4 + = | x:dozen 12:dozen 3:dozen -:dozen 4:dozen +:dozen =:dozen
+EXPR: 0 | POS | INT | 30 | 144 | 11 | x=(3-(4-12)) | x 3 4 12 - - = | x:dozen 3:dozen 4:dozen 12:dozen -:dozen -:dozen =:dozen
+EXPR: 0 | POS | INT | 30 | 144 | 5 | (12-(3+4))=x | 12 3 4 + - x = | 12:dozen 3:dozen 4:dozen +:dozen -:dozen x:dozen =:dozen
+NET 208 unique, non-negative, integer-valued solutions found out of 1000 total solutions

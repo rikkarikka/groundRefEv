@@ -1,0 +1,7 @@
+constants : 16 14 5
+unknowns : x
+operators : + - * / =
+objtypes : pecan pie row
+constantOrUnknownType : 0 1 1 2
+n : 7
+answer : 6

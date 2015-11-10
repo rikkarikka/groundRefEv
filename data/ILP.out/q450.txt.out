@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 776 | 776 | x=(183+593) | x 183 593 + = | x:marble 183:marble 593:marble +:marble =:marble
+EXPR: 1 | POS | INT | 0 | 776 | 776 | (183+593)=x | 183 593 + x = | 183:marble 593:marble +:marble x:marble =:marble
+EXPR: 0 | POS | INT | 2 | 776 | 410 | (x+183)=593 | x 183 + 593 = | x:marble 183:marble +:marble 593:marble =:marble
+EXPR: 1 | POS | INT | 2 | 776 | 776 | (x-183)=593 | x 183 - 593 = | x:marble 183:marble -:marble 593:marble =:marble
+EXPR: 0 | POS | INT | 2 | 776 | 410 | (183+x)=593 | 183 x + 593 = | 183:marble x:marble +:marble 593:marble =:marble
+EXPR: 0 | POS | INT | 2 | 776 | 410 | 183=(593-x) | 183 593 x - = | 183:marble 593:marble x:marble -:marble =:marble
+EXPR: 1 | POS | INT | 2 | 776 | 776 | 183=(x-593) | 183 x 593 - = | 183:marble x:marble 593:marble -:marble =:marble
+EXPR: 0 | POS | INT | 10 | 776 | 410 | (593-183)=x | 593 183 - x = | 593:marble 183:marble -:marble x:marble =:marble
+EXPR: 0 | POS | INT | 10 | 776 | 410 | x=(593-183) | x 593 183 - = | x:marble 593:marble 183:marble -:marble =:marble
+EXPR: 1 | POS | INT | 12 | 776 | 776 | (x-593)=183 | x 593 - 183 = | x:marble 593:marble -:marble 183:marble =:marble
+EXPR: 0 | POS | INT | 12 | 776 | 410 | 593=(x+183) | 593 x 183 + = | 593:marble x:marble 183:marble +:marble =:marble
+EXPR: 0 | POS | INT | 12 | 776 | 410 | 593=(183+x) | 593 183 x + = | 593:marble 183:marble x:marble +:marble =:marble
+EXPR: 1 | POS | INT | 12 | 776 | 776 | 593=(x-183) | 593 x 183 - = | 593:marble x:marble 183:marble -:marble =:marble
+EXPR: 0 | POS | INT | 12 | 776 | 410 | (593-x)=183 | 593 x - 183 = | 593:marble x:marble -:marble 183:marble =:marble
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

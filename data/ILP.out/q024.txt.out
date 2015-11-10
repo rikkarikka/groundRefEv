@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 14 | 14 | x=(6+8) | x 6 8 + = | x:seashell 6:seashell 8:seashell +:seashell =:seashell
+EXPR: 1 | POS | INT | 0 | 14 | 14 | (6+8)=x | 6 8 + x = | 6:seashell 8:seashell +:seashell x:seashell =:seashell
+EXPR: 0 | POS | INT | 2 | 14 | 2 | (x+6)=8 | x 6 + 8 = | x:seashell 6:seashell +:seashell 8:seashell =:seashell
+EXPR: 1 | POS | INT | 2 | 14 | 14 | (x-6)=8 | x 6 - 8 = | x:seashell 6:seashell -:seashell 8:seashell =:seashell
+EXPR: 0 | POS | INT | 2 | 14 | 2 | (6+x)=8 | 6 x + 8 = | 6:seashell x:seashell +:seashell 8:seashell =:seashell
+EXPR: 0 | POS | INT | 2 | 14 | 2 | 6=(8-x) | 6 8 x - = | 6:seashell 8:seashell x:seashell -:seashell =:seashell
+EXPR: 1 | POS | INT | 2 | 14 | 14 | 6=(x-8) | 6 x 8 - = | 6:seashell x:seashell 8:seashell -:seashell =:seashell
+EXPR: 0 | POS | INT | 10 | 14 | 2 | (8-6)=x | 8 6 - x = | 8:seashell 6:seashell -:seashell x:seashell =:seashell
+EXPR: 0 | POS | INT | 10 | 14 | 2 | x=(8-6) | x 8 6 - = | x:seashell 8:seashell 6:seashell -:seashell =:seashell
+EXPR: 1 | POS | INT | 12 | 14 | 14 | (x-8)=6 | x 8 - 6 = | x:seashell 8:seashell -:seashell 6:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 14 | 2 | 8=(x+6) | 8 x 6 + = | 8:seashell x:seashell 6:seashell +:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 14 | 2 | 8=(6+x) | 8 6 x + = | 8:seashell 6:seashell x:seashell +:seashell =:seashell
+EXPR: 1 | POS | INT | 12 | 14 | 14 | 8=(x-6) | 8 x 6 - = | 8:seashell x:seashell 6:seashell -:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 14 | 2 | (8-x)=6 | 8 x - 6 = | 8:seashell x:seashell -:seashell 6:seashell =:seashell
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

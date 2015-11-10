@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 1.9 | 1.1 | (1.5-0.4)=x | 1.5 0.4 - x = | 1.5:money 0.4:money -:money x:money =:money
+EXPR: 1 | POS | FRA | 0 | 1.9 | 1.9 | x=(1.5+0.4) | x 1.5 0.4 + = | x:money 1.5:money 0.4:money +:money =:money
+EXPR: 0 | POS | FRA | 0 | 1.9 | 1.1 | x=(1.5-0.4) | x 1.5 0.4 - = | x:money 1.5:money 0.4:money -:money =:money
+EXPR: 1 | POS | FRA | 0 | 1.9 | 1.9 | (1.5+0.4)=x | 1.5 0.4 + x = | 1.5:money 0.4:money +:money x:money =:money
+EXPR: 0 | POS | FRA | 2 | 1.9 | 1.1 | 1.5=(0.4+x) | 1.5 0.4 x + = | 1.5:money 0.4:money x:money +:money =:money
+EXPR: 1 | POS | FRA | 2 | 1.9 | 1.9 | (x-1.5)=0.4 | x 1.5 - 0.4 = | x:money 1.5:money -:money 0.4:money =:money
+EXPR: 0 | POS | FRA | 2 | 1.9 | 1.1 | 1.5=(x+0.4) | 1.5 x 0.4 + = | 1.5:money x:money 0.4:money +:money =:money
+EXPR: 0 | POS | FRA | 2 | 1.9 | 1.1 | (1.5-x)=0.4 | 1.5 x - 0.4 = | 1.5:money x:money -:money 0.4:money =:money
+EXPR: 1 | POS | FRA | 2 | 1.9 | 1.9 | 1.5=(x-0.4) | 1.5 x 0.4 - = | 1.5:money x:money 0.4:money -:money =:money
+EXPR: 0 | POS | FRA | 12 | 1.9 | 1.1 | (x+0.4)=1.5 | x 0.4 + 1.5 = | x:money 0.4:money +:money 1.5:money =:money
+EXPR: 1 | POS | FRA | 12 | 1.9 | 1.9 | (x-0.4)=1.5 | x 0.4 - 1.5 = | x:money 0.4:money -:money 1.5:money =:money
+EXPR: 0 | POS | FRA | 12 | 1.9 | 1.1 | (0.4+x)=1.5 | 0.4 x + 1.5 = | 0.4:money x:money +:money 1.5:money =:money
+EXPR: 1 | POS | FRA | 12 | 1.9 | 1.9 | 0.4=(x-1.5) | 0.4 x 1.5 - = | 0.4:money x:money 1.5:money -:money =:money
+EXPR: 0 | POS | FRA | 12 | 1.9 | 1.1 | 0.4=(1.5-x) | 0.4 1.5 x - = | 0.4:money 1.5:money x:money -:money =:money
+NET 14 unique, non-negative solutions found out of 28 total solutions

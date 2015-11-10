@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 11 | 1 | (6-5)=x | 6 5 - x = | 6:pear 5:pear -:pear x:pear =:pear
+EXPR: 1 | POS | INT | 0 | 11 | 11 | x=(6+5) | x 6 5 + = | x:pear 6:pear 5:pear +:pear =:pear
+EXPR: 0 | POS | INT | 0 | 11 | 1 | x=(6-5) | x 6 5 - = | x:pear 6:pear 5:pear -:pear =:pear
+EXPR: 1 | POS | INT | 0 | 11 | 11 | (6+5)=x | 6 5 + x = | 6:pear 5:pear +:pear x:pear =:pear
+EXPR: 0 | POS | INT | 2 | 11 | 1 | 6=(5+x) | 6 5 x + = | 6:pear 5:pear x:pear +:pear =:pear
+EXPR: 1 | POS | INT | 2 | 11 | 11 | (x-6)=5 | x 6 - 5 = | x:pear 6:pear -:pear 5:pear =:pear
+EXPR: 0 | POS | INT | 2 | 11 | 1 | 6=(x+5) | 6 x 5 + = | 6:pear x:pear 5:pear +:pear =:pear
+EXPR: 0 | POS | INT | 2 | 11 | 1 | (6-x)=5 | 6 x - 5 = | 6:pear x:pear -:pear 5:pear =:pear
+EXPR: 1 | POS | INT | 2 | 11 | 11 | 6=(x-5) | 6 x 5 - = | 6:pear x:pear 5:pear -:pear =:pear
+EXPR: 0 | POS | INT | 12 | 11 | 1 | (x+5)=6 | x 5 + 6 = | x:pear 5:pear +:pear 6:pear =:pear
+EXPR: 1 | POS | INT | 12 | 11 | 11 | (x-5)=6 | x 5 - 6 = | x:pear 5:pear -:pear 6:pear =:pear
+EXPR: 0 | POS | INT | 12 | 11 | 1 | (5+x)=6 | 5 x + 6 = | 5:pear x:pear +:pear 6:pear =:pear
+EXPR: 1 | POS | INT | 12 | 11 | 11 | 5=(x-6) | 5 x 6 - = | 5:pear x:pear 6:pear -:pear =:pear
+EXPR: 0 | POS | INT | 12 | 11 | 1 | 5=(6-x) | 5 6 x - = | 5:pear 6:pear x:pear -:pear =:pear
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

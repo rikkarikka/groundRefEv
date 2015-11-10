@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 2.4e+06 | 1350000 | x=(1800000*0.75) | x 1800000 0.75 * = | x:UNKNOWN 1800000:UNKNOWN 0.75:demand *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 2.4e+06 | 1350000 | (1800000*0.75)=x | 1800000 0.75 * x = | 1800000:ton 0.75:demand *:ton x:ton =:ton
+EXPR: 1 | POS | INT | 10 | 2.4e+06 | 2400000 | (1800000/0.75)=x | 1800000 0.75 / x = | 1800000:UNKNOWN 0.75:demand /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | INT | 10 | 2.4e+06 | 2400000 | x=(1800000/0.75) | x 1800000 0.75 / = | x:ton 1800000:ton 0.75:demand /:ton =:ton
+EXPR: 1 | POS | INT | 12 | 2.4e+06 | 2400000 | 1800000=(x*0.75) | 1800000 x 0.75 * = | 1800000:demand x:UNKNOWN 0.75:demand *:demand =:demand
+EXPR: 0 | POS | INT | 12 | 2.4e+06 | 1350000 | 1800000=(x/0.75) | 1800000 x 0.75 / = | 1800000:UNKNOWN x:UNKNOWN 0.75:demand /:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | INT | 12 | 2.4e+06 | 2400000 | 1800000=(0.75*x) | 1800000 0.75 x * = | 1800000:UNKNOWN 0.75:demand x:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 2.4e+06 | 4.16666666666667e-7 | (1800000*x)=0.75 | 1800000 x * 0.75 = | 1800000:ton x:UNKNOWN *:ton 0.75:ton =:ton
+EXPR: 1 | POS | INT | 12 | 2.4e+06 | 2400000 | (1800000/x)=0.75 | 1800000 x / 0.75 = | 1800000:ton x:UNKNOWN /:ton 0.75:ton =:ton
+EXPR: 0 | POS | INT | 12 | 2.4e+06 | 1350000 | (x/1800000)=0.75 | x 1800000 / 0.75 = | x:UNKNOWN 1800000:ton /:UNKNOWN 0.75:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 2.4e+06 | 4.16666666666667e-7 | (x*1800000)=0.75 | x 1800000 * 0.75 = | x:demand 1800000:ton *:demand 0.75:demand =:demand
+EXPR: 0 | POS | INT | 12 | 2.4e+06 | 4.16666666666667e-7 | 1800000=(0.75/x) | 1800000 0.75 x / = | 1800000:ton 0.75:ton x:UNKNOWN /:ton =:ton
+EXPR: 0 | POS | FRA | 20 | 2.4e+06 | 1800000.75 | (1800000+0.75)=x | 1800000 0.75 + x = | 1800000:ton 0.75:ton +:ton x:ton =:ton
+EXPR: 0 | POS | FRA | 20 | 2.4e+06 | 1800000.75 | x=(1800000+0.75) | x 1800000 0.75 + = | x:demand 1800000:demand 0.75:demand +:demand =:demand
+EXPR: 0 | POS | FRA | 20 | 2.4e+06 | 1799999.25 | (1800000-0.75)=x | 1800000 0.75 - x = | 1800000:ton 0.75:ton -:ton x:ton =:ton
+EXPR: 0 | POS | FRA | 20 | 2.4e+06 | 1799999.25 | x=(1800000-0.75) | x 1800000 0.75 - = | x:UNKNOWN 1800000:UNKNOWN 0.75:UNKNOWN -:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 20 | 2.4e+06 | 4.16666666666667e-7 | (0.75/1800000)=x | 0.75 1800000 / x = | 0.75:demand 1800000:ton /:demand x:demand =:demand
+EXPR: 0 | POS | INT | 20 | 2.4e+06 | 4.16666666666667e-7 | x=(0.75/1800000) | x 0.75 1800000 / = | x:demand 0.75:demand 1800000:ton /:demand =:demand
+EXPR: 0 | POS | FRA | 22 | 2.4e+06 | 1800000.75 | (x-1800000)=0.75 | x 1800000 - 0.75 = | x:demand 1800000:demand -:demand 0.75:demand =:demand
+EXPR: 1 | POS | INT | 22 | 2.4e+06 | 2400000 | (x*0.75)=1800000 | x 0.75 * 1800000 = | x:UNKNOWN 0.75:demand *:demand 1800000:demand =:demand
+EXPR: 1 | POS | INT | 22 | 2.4e+06 | 2400000 | (0.75*x)=1800000 | 0.75 x * 1800000 = | 0.75:ton x:UNKNOWN *:ton 1800000:ton =:ton
+EXPR: 0 | POS | INT | 22 | 2.4e+06 | 1350000 | 0.75=(x/1800000) | 0.75 x 1800000 / = | 0.75:UNKNOWN x:UNKNOWN 1800000:ton /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 22 | 2.4e+06 | 4.16666666666667e-7 | (0.75/x)=1800000 | 0.75 x / 1800000 = | 0.75:ton x:UNKNOWN /:ton 1800000:ton =:ton
+EXPR: 0 | POS | FRA | 22 | 2.4e+06 | 1799999.25 | 1800000=(0.75+x) | 1800000 0.75 x + = | 1800000:demand 0.75:demand x:demand +:demand =:demand
+EXPR: 0 | POS | FRA | 22 | 2.4e+06 | 1799999.25 | (1800000-x)=0.75 | 1800000 x - 0.75 = | 1800000:UNKNOWN x:UNKNOWN -:UNKNOWN 0.75:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 22 | 2.4e+06 | 4.16666666666667e-7 | 0.75=(x*1800000) | 0.75 x 1800000 * = | 0.75:demand x:demand 1800000:ton *:demand =:demand
+EXPR: 0 | POS | FRA | 22 | 2.4e+06 | 1799999.25 | 1800000=(x+0.75) | 1800000 x 0.75 + = | 1800000:UNKNOWN x:UNKNOWN 0.75:UNKNOWN +:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 22 | 2.4e+06 | 1800000.75 | 1800000=(x-0.75) | 1800000 x 0.75 - = | 1800000:UNKNOWN x:UNKNOWN 0.75:UNKNOWN -:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 22 | 2.4e+06 | 4.16666666666667e-7 | 0.75=(1800000*x) | 0.75 1800000 x * = | 0.75:UNKNOWN 1800000:ton x:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 22 | 2.4e+06 | 1350000 | (x/0.75)=1800000 | x 0.75 / 1800000 = | x:UNKNOWN 0.75:demand /:UNKNOWN 1800000:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | INT | 22 | 2.4e+06 | 2400000 | 0.75=(1800000/x) | 0.75 1800000 x / = | 0.75:demand 1800000:demand x:UNKNOWN /:demand =:demand
+EXPR: 0 | POS | FRA | 32 | 2.4e+06 | 1800000.75 | (x-0.75)=1800000 | x 0.75 - 1800000 = | x:demand 0.75:demand -:demand 1800000:demand =:demand
+EXPR: 0 | POS | FRA | 32 | 2.4e+06 | 1799999.25 | (0.75+x)=1800000 | 0.75 x + 1800000 = | 0.75:demand x:demand +:demand 1800000:demand =:demand
+EXPR: 0 | POS | FRA | 32 | 2.4e+06 | 1799999.25 | (x+0.75)=1800000 | x 0.75 + 1800000 = | x:ton 0.75:ton +:ton 1800000:ton =:ton
+EXPR: 0 | POS | FRA | 32 | 2.4e+06 | 1799999.25 | 0.75=(1800000-x) | 0.75 1800000 x - = | 0.75:demand 1800000:demand x:demand -:demand =:demand
+EXPR: 0 | POS | FRA | 32 | 2.4e+06 | 1800000.75 | 0.75=(x-1800000) | 0.75 x 1800000 - = | 0.75:demand x:demand 1800000:demand -:demand =:demand
+NET 36 unique, non-negative solutions found out of 324 total solutions

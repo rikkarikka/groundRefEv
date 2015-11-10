@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 6 | 6 | 46=(276/x) | 46 276 x / = | 46:dollar 276:dollar x:home /:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 6 | 6 | (x*46)=276 | x 46 * 276 = | x:home 46:dollar *:dollar 276:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 6 | 6 | (46*x)=276 | 46 x * 276 = | 46:dollar x:home *:dollar 276:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 6 | 12696 | (46*276)=x | 46 276 * x = | 46:dollar 276:home *:home x:home =:home
+EXPR: 0 | POS | INT | 10 | 6 | 322 | (46+276)=x | 46 276 + x = | 46:dollar 276:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 6 | 12696 | x=(46*276) | x 46 276 * = | x:home 46:dollar 276:home *:home =:home
+EXPR: 0 | POS | INT | 10 | 6 | 322 | x=(46+276) | x 46 276 + = | x:dollar 46:dollar 276:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 6 | 12696 | 46=(x/276) | 46 x 276 / = | 46:home x:home 276:dollar /:home =:home
+EXPR: 1 | POS | INT | 12 | 6 | 6 | 276=(46*x) | 276 46 x * = | 276:dollar 46:dollar x:home *:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 6 | 322 | 46=(x-276) | 46 x 276 - = | 46:dollar x:dollar 276:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 6 | 6 | 276=(x*46) | 276 x 46 * = | 276:dollar x:home 46:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 6 | 230 | 46=(276-x) | 46 276 x - = | 46:dollar 276:dollar x:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 6 | 6 | (276/x)=46 | 276 x / 46 = | 276:dollar x:home /:dollar 46:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 6 | 230 | (x+46)=276 | x 46 + 276 = | x:dollar 46:dollar +:dollar 276:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 6 | 230 | (46+x)=276 | 46 x + 276 = | 46:dollar x:dollar +:dollar 276:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 6 | 322 | (x-46)=276 | x 46 - 276 = | x:dollar 46:dollar -:dollar 276:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 6 | 12696 | (x/46)=276 | x 46 / 276 = | x:home 46:dollar /:home 276:home =:home
+EXPR: 1 | POS | INT | 20 | 6 | 6 | (276/46)=x | 276 46 / x = | 276:home 46:dollar /:home x:home =:home
+EXPR: 0 | POS | INT | 20 | 6 | 230 | x=(276-46) | x 276 46 - = | x:dollar 276:dollar 46:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 6 | 230 | (276-46)=x | 276 46 - x = | 276:dollar 46:dollar -:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 20 | 6 | 6 | x=(276/46) | x 276 46 / = | x:home 276:home 46:dollar /:home =:home
+EXPR: 0 | POS | INT | 22 | 6 | 230 | (276-x)=46 | 276 x - 46 = | 276:dollar x:dollar -:dollar 46:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 6 | 12696 | (x/276)=46 | x 276 / 46 = | x:home 276:dollar /:home 46:home =:home
+EXPR: 0 | POS | INT | 22 | 6 | 322 | (x-276)=46 | x 276 - 46 = | x:dollar 276:dollar -:dollar 46:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 6 | 322 | 276=(x-46) | 276 x 46 - = | 276:dollar x:dollar 46:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 6 | 230 | 276=(x+46) | 276 x 46 + = | 276:dollar x:dollar 46:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 6 | 230 | 276=(46+x) | 276 46 x + = | 276:dollar 46:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 6 | 12696 | 276=(x/46) | 276 x 46 / = | 276:home x:home 46:dollar /:home =:home
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

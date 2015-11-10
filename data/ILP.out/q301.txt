@@ -1,0 +1,7 @@
+constants : 0.2 0.4
+unknowns : x
+operators : + - * / =
+objtypes : total loaf
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 0.6

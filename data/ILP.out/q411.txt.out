@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 60 | 2940 | x=(420*7) | x 420 7 * = | x:packet 420:packet 7:seed *:packet =:packet
+EXPR: 0 | POS | INT | 10 | 60 | 2940 | (420*7)=x | 420 7 * x = | 420:seedling 7:seed *:seedling x:seedling =:seedling
+EXPR: 1 | POS | INT | 10 | 60 | 60 | (420/7)=x | 420 7 / x = | 420:packet 7:seed /:packet x:packet =:packet
+EXPR: 1 | POS | INT | 10 | 60 | 60 | x=(420/7) | x 420 7 / = | x:seedling 420:seedling 7:seed /:seedling =:seedling
+EXPR: 1 | POS | INT | 12 | 60 | 60 | 420=(x*7) | 420 x 7 * = | 420:seed x:packet 7:seed *:seed =:seed
+EXPR: 0 | POS | INT | 12 | 60 | 2940 | 420=(x/7) | 420 x 7 / = | 420:packet x:packet 7:seed /:packet =:packet
+EXPR: 1 | POS | INT | 12 | 60 | 60 | 420=(7*x) | 420 7 x * = | 420:packet 7:seed x:packet *:packet =:packet
+EXPR: 1 | POS | INT | 12 | 60 | 60 | (420/x)=7 | 420 x / 7 = | 420:seedling x:packet /:seedling 7:seedling =:seedling
+EXPR: 0 | POS | INT | 12 | 60 | 2940 | (x/420)=7 | x 420 / 7 = | x:packet 420:seedling /:packet 7:packet =:packet
+EXPR: 0 | POS | INT | 20 | 60 | 427 | (420+7)=x | 420 7 + x = | 420:seedling 7:seedling +:seedling x:seedling =:seedling
+EXPR: 0 | POS | INT | 20 | 60 | 427 | x=(420+7) | x 420 7 + = | x:seed 420:seed 7:seed +:seed =:seed
+EXPR: 0 | POS | INT | 20 | 60 | 413 | (420-7)=x | 420 7 - x = | 420:seedling 7:seedling -:seedling x:seedling =:seedling
+EXPR: 0 | POS | INT | 20 | 60 | 413 | x=(420-7) | x 420 7 - = | x:packet 420:packet 7:packet -:packet =:packet
+EXPR: 0 | POS | INT | 22 | 60 | 427 | (x-420)=7 | x 420 - 7 = | x:seed 420:seed -:seed 7:seed =:seed
+EXPR: 1 | POS | INT | 22 | 60 | 60 | (x*7)=420 | x 7 * 420 = | x:packet 7:seed *:seed 420:seed =:seed
+EXPR: 1 | POS | INT | 22 | 60 | 60 | (7*x)=420 | 7 x * 420 = | 7:seedling x:packet *:seedling 420:seedling =:seedling
+EXPR: 0 | POS | INT | 22 | 60 | 2940 | 7=(x/420) | 7 x 420 / = | 7:packet x:packet 420:seedling /:packet =:packet
+EXPR: 0 | POS | INT | 22 | 60 | 413 | 420=(7+x) | 420 7 x + = | 420:seed 7:seed x:seed +:seed =:seed
+EXPR: 0 | POS | INT | 22 | 60 | 413 | (420-x)=7 | 420 x - 7 = | 420:packet x:packet -:packet 7:packet =:packet
+EXPR: 0 | POS | INT | 22 | 60 | 413 | 420=(x+7) | 420 x 7 + = | 420:packet x:packet 7:packet +:packet =:packet
+EXPR: 0 | POS | INT | 22 | 60 | 427 | 420=(x-7) | 420 x 7 - = | 420:packet x:packet 7:packet -:packet =:packet
+EXPR: 0 | POS | INT | 22 | 60 | 2940 | (x/7)=420 | x 7 / 420 = | x:packet 7:seed /:packet 420:packet =:packet
+EXPR: 1 | POS | INT | 22 | 60 | 60 | 7=(420/x) | 7 420 x / = | 7:seed 420:seed x:packet /:seed =:seed
+EXPR: 0 | POS | INT | 32 | 60 | 427 | (x-7)=420 | x 7 - 420 = | x:seed 7:seed -:seed 420:seed =:seed
+EXPR: 0 | POS | INT | 32 | 60 | 413 | (7+x)=420 | 7 x + 420 = | 7:seed x:seed +:seed 420:seed =:seed
+EXPR: 0 | POS | INT | 32 | 60 | 413 | (x+7)=420 | x 7 + 420 = | x:seedling 7:seedling +:seedling 420:seedling =:seedling
+EXPR: 0 | POS | INT | 32 | 60 | 413 | 7=(420-x) | 7 420 x - = | 7:seed 420:seed x:seed -:seed =:seed
+EXPR: 0 | POS | INT | 32 | 60 | 427 | 7=(x-420) | 7 x 420 - = | 7:seed x:seed 420:seed -:seed =:seed
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

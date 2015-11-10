@@ -1,0 +1,7 @@
+constants : 489 2778
+unknowns : x
+operators : + - * / =
+objtypes : marble
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 2289

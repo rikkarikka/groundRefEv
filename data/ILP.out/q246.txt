@@ -1,0 +1,7 @@
+constants : 90,171 16,320
+unknowns : x
+operators : + - * / =
+objtypes : people
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 106491.0

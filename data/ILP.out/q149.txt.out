@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 30 | 30 | x=(6*5) | x 6 5 * = | x:marble 6:marble 5:Benny *:marble =:marble
+EXPR: 1 | POS | INT | 0 | 30 | 30 | (6*5)=x | 6 5 * x = | 6:marble 5:Benny *:marble x:marble =:marble
+EXPR: 1 | POS | INT | 2 | 30 | 30 | 6=(x/5) | 6 x 5 / = | 6:marble x:marble 5:Benny /:marble =:marble
+EXPR: 0 | POS | INT | 10 | 30 | 1 | (6-5)=x | 6 5 - x = | 6:marble 5:marble -:marble x:marble =:marble
+EXPR: 0 | POS | INT | 10 | 30 | 11 | x=(6+5) | x 6 5 + = | x:marble 6:marble 5:marble +:marble =:marble
+EXPR: 0 | POS | INT | 10 | 30 | 1 | x=(6-5) | x 6 5 - = | x:marble 6:marble 5:marble -:marble =:marble
+EXPR: 0 | POS | INT | 10 | 30 | 11 | (6+5)=x | 6 5 + x = | 6:marble 5:marble +:marble x:marble =:marble
+EXPR: 0 | POS | INT | 12 | 30 | 1 | 6=(x+5) | 6 x 5 + = | 6:marble x:marble 5:marble +:marble =:marble
+EXPR: 0 | POS | INT | 12 | 30 | 11 | 6=(x-5) | 6 x 5 - = | 6:marble x:marble 5:marble -:marble =:marble
+EXPR: 0 | POS | INT | 12 | 30 | 1 | 6=(5+x) | 6 5 x + = | 6:marble 5:marble x:marble +:marble =:marble
+EXPR: 0 | POS | INT | 12 | 30 | 11 | (x-6)=5 | x 6 - 5 = | x:marble 6:marble -:marble 5:marble =:marble
+EXPR: 0 | POS | INT | 12 | 30 | 1 | (6-x)=5 | 6 x - 5 = | 6:marble x:marble -:marble 5:marble =:marble
+EXPR: 1 | POS | INT | 12 | 30 | 30 | (x/6)=5 | x 6 / 5 = | x:Benny 6:marble /:Benny 5:Benny =:Benny
+EXPR: 1 | POS | INT | 12 | 30 | 30 | (x/5)=6 | x 5 / 6 = | x:marble 5:Benny /:marble 6:marble =:marble
+EXPR: 0 | POS | INT | 22 | 30 | 1 | (x+5)=6 | x 5 + 6 = | x:marble 5:marble +:marble 6:marble =:marble
+EXPR: 0 | POS | INT | 22 | 30 | 1 | (5+x)=6 | 5 x + 6 = | 5:marble x:marble +:marble 6:marble =:marble
+EXPR: 0 | POS | INT | 22 | 30 | 11 | 5=(x-6) | 5 x 6 - = | 5:marble x:marble 6:marble -:marble =:marble
+EXPR: 1 | POS | INT | 22 | 30 | 30 | 5=(x/6) | 5 x 6 / = | 5:Benny x:Benny 6:marble /:Benny =:Benny
+EXPR: 0 | POS | INT | 22 | 30 | 1 | 5=(6-x) | 5 6 x - = | 5:marble 6:marble x:marble -:marble =:marble
+EXPR: 0 | POS | INT | 22 | 30 | 11 | (x-5)=6 | x 5 - 6 = | x:marble 5:marble -:marble 6:marble =:marble
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

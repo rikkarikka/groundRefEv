@@ -1,0 +1,7 @@
+constants : 122 105
+unknowns : x
+operators : + - * / =
+objtypes : orange
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 227.0

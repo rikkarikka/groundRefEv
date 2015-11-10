@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 574 | 3426 | x=(1426+2000) | x 1426 2000 + = | x:house 1426:house 2000:house +:house =:house
+EXPR: 0 | POS | INT | 0 | 574 | 3426 | (1426+2000)=x | 1426 2000 + x = | 1426:house 2000:house +:house x:house =:house
+EXPR: 1 | POS | INT | 2 | 574 | 574 | (x+1426)=2000 | x 1426 + 2000 = | x:house 1426:house +:house 2000:house =:house
+EXPR: 0 | POS | INT | 2 | 574 | 3426 | (x-1426)=2000 | x 1426 - 2000 = | x:house 1426:house -:house 2000:house =:house
+EXPR: 1 | POS | INT | 2 | 574 | 574 | (1426+x)=2000 | 1426 x + 2000 = | 1426:house x:house +:house 2000:house =:house
+EXPR: 1 | POS | INT | 2 | 574 | 574 | 1426=(2000-x) | 1426 2000 x - = | 1426:house 2000:house x:house -:house =:house
+EXPR: 0 | POS | INT | 2 | 574 | 3426 | 1426=(x-2000) | 1426 x 2000 - = | 1426:house x:house 2000:house -:house =:house
+EXPR: 1 | POS | INT | 10 | 574 | 574 | (2000-1426)=x | 2000 1426 - x = | 2000:house 1426:house -:house x:house =:house
+EXPR: 1 | POS | INT | 10 | 574 | 574 | x=(2000-1426) | x 2000 1426 - = | x:house 2000:house 1426:house -:house =:house
+EXPR: 0 | POS | INT | 12 | 574 | 3426 | (x-2000)=1426 | x 2000 - 1426 = | x:house 2000:house -:house 1426:house =:house
+EXPR: 1 | POS | INT | 12 | 574 | 574 | 2000=(x+1426) | 2000 x 1426 + = | 2000:house x:house 1426:house +:house =:house
+EXPR: 1 | POS | INT | 12 | 574 | 574 | 2000=(1426+x) | 2000 1426 x + = | 2000:house 1426:house x:house +:house =:house
+EXPR: 0 | POS | INT | 12 | 574 | 3426 | 2000=(x-1426) | 2000 x 1426 - = | 2000:house x:house 1426:house -:house =:house
+EXPR: 1 | POS | INT | 12 | 574 | 574 | (2000-x)=1426 | 2000 x - 1426 = | 2000:house x:house -:house 1426:house =:house
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

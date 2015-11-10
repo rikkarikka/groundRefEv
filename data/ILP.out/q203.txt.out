@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 21 | 21 | (46-25)=x | 46 25 - x = | 46:ruler 25:ruler -:ruler x:ruler =:ruler
+EXPR: 0 | POS | INT | 0 | 21 | 71 | x=(46+25) | x 46 25 + = | x:ruler 46:ruler 25:ruler +:ruler =:ruler
+EXPR: 1 | POS | INT | 0 | 21 | 21 | x=(46-25) | x 46 25 - = | x:ruler 46:ruler 25:ruler -:ruler =:ruler
+EXPR: 0 | POS | INT | 0 | 21 | 71 | (46+25)=x | 46 25 + x = | 46:ruler 25:ruler +:ruler x:ruler =:ruler
+EXPR: 1 | POS | INT | 2 | 21 | 21 | 46=(25+x) | 46 25 x + = | 46:ruler 25:ruler x:ruler +:ruler =:ruler
+EXPR: 0 | POS | INT | 2 | 21 | 71 | (x-46)=25 | x 46 - 25 = | x:ruler 46:ruler -:ruler 25:ruler =:ruler
+EXPR: 1 | POS | INT | 2 | 21 | 21 | 46=(x+25) | 46 x 25 + = | 46:ruler x:ruler 25:ruler +:ruler =:ruler
+EXPR: 1 | POS | INT | 2 | 21 | 21 | (46-x)=25 | 46 x - 25 = | 46:ruler x:ruler -:ruler 25:ruler =:ruler
+EXPR: 0 | POS | INT | 2 | 21 | 71 | 46=(x-25) | 46 x 25 - = | 46:ruler x:ruler 25:ruler -:ruler =:ruler
+EXPR: 1 | POS | INT | 12 | 21 | 21 | (x+25)=46 | x 25 + 46 = | x:ruler 25:ruler +:ruler 46:ruler =:ruler
+EXPR: 0 | POS | INT | 12 | 21 | 71 | (x-25)=46 | x 25 - 46 = | x:ruler 25:ruler -:ruler 46:ruler =:ruler
+EXPR: 1 | POS | INT | 12 | 21 | 21 | (25+x)=46 | 25 x + 46 = | 25:ruler x:ruler +:ruler 46:ruler =:ruler
+EXPR: 0 | POS | INT | 12 | 21 | 71 | 25=(x-46) | 25 x 46 - = | 25:ruler x:ruler 46:ruler -:ruler =:ruler
+EXPR: 1 | POS | INT | 12 | 21 | 21 | 25=(46-x) | 25 46 x - = | 25:ruler 46:ruler x:ruler -:ruler =:ruler
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

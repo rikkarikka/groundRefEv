@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 1.2 | 19.2 | x=(4*4.80) | x 4 4.80 * = | x:dollar 4:dvd 4.80:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 0 | 1.2 | 19.2 | (4*4.80)=x | 4 4.80 * x = | 4:dvd 4.80:dollar *:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 1.2 | 19.2 | (x/4)=4.80 | x 4 / 4.80 = | x:dollar 4:dvd /:dollar 4.80:dollar =:dollar
+EXPR: 1 | POS | FRA | 2 | 1.2 | 1.2 | (x*4)=4.80 | x 4 * 4.80 = | x:dollar 4:dvd *:dollar 4.80:dollar =:dollar
+EXPR: 1 | POS | FRA | 2 | 1.2 | 1.2 | (4*x)=4.80 | 4 x * 4.80 = | 4:dvd x:dollar *:dollar 4.80:dollar =:dollar
+EXPR: 1 | POS | FRA | 10 | 1.2 | 1.2 | (4.80/4)=x | 4.80 4 / x = | 4.80:dollar 4:dvd /:dollar x:dollar =:dollar
+EXPR: 1 | POS | FRA | 10 | 1.2 | 1.2 | x=(4.80/4) | x 4.80 4 / = | x:dollar 4.80:dollar 4:dvd /:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 1.2 | 0.833333333333333 | (4/4.80)=x | 4 4.80 / x = | 4:dvd 4.80:dollar /:dvd x:dvd =:dvd
+EXPR: 0 | POS | FRA | 10 | 1.2 | 8.8 | x=(4+4.80) | x 4 4.80 + = | x:dollar 4:dollar 4.80:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 1.2 | 8.8 | (4+4.80)=x | 4 4.80 + x = | 4:dollar 4.80:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 1.2 | 0.833333333333333 | x=(4/4.80) | x 4 4.80 / = | x:dvd 4:dvd 4.80:dollar /:dvd =:dvd
+EXPR: 0 | POS | FRA | 12 | 1.2 | 0.833333333333333 | 4=(x*4.80) | 4 x 4.80 * = | 4:dvd x:dollar 4.80:dvd *:dvd =:dvd
+EXPR: 0 | POS | FRA | 12 | 1.2 | 0.833333333333333 | 4=(4.80*x) | 4 4.80 x * = | 4:dvd 4.80:dvd x:dollar *:dvd =:dvd
+EXPR: 0 | POS | FRA | 12 | 1.2 | 0.833333333333333 | (4/x)=4.80 | 4 x / 4.80 = | 4:dvd x:dollar /:dvd 4.80:dvd =:dvd
+EXPR: 0 | POS | FRA | 12 | 1.2 | 0.8 | 4=(4.80-x) | 4 4.80 x - = | 4:dollar 4.80:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 1.2 | 19.2 | 4.80=(x/4) | 4.80 x 4 / = | 4.80:dollar x:dollar 4:dvd /:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 1.2 | 0.8 | (x+4)=4.80 | x 4 + 4.80 = | x:dollar 4:dollar +:dollar 4.80:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 1.2 | 8.8 | (x-4)=4.80 | x 4 - 4.80 = | x:dollar 4:dollar -:dollar 4.80:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 1.2 | 0.8 | (4+x)=4.80 | 4 x + 4.80 = | 4:dollar x:dollar +:dollar 4.80:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 1.2 | 1.2 | 4.80=(4*x) | 4.80 4 x * = | 4.80:dollar 4:dvd x:dollar *:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 1.2 | 1.2 | 4=(4.80/x) | 4 4.80 x / = | 4:dvd 4.80:dvd x:dollar /:dvd =:dvd
+EXPR: 1 | POS | FRA | 12 | 1.2 | 1.2 | 4.80=(x*4) | 4.80 x 4 * = | 4.80:dollar x:dollar 4:dvd *:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 1.2 | 8.8 | 4=(x-4.80) | 4 x 4.80 - = | 4:dollar x:dollar 4.80:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 1.2 | 19.2 | 4=(x/4.80) | 4 x 4.80 / = | 4:dvd x:dvd 4.80:dollar /:dvd =:dvd
+EXPR: 0 | POS | FRA | 20 | 1.2 | 0.8 | x=(4.80-4) | x 4.80 4 - = | x:dollar 4.80:dollar 4:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 1.2 | 0.8 | (4.80-4)=x | 4.80 4 - x = | 4.80:dollar 4:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 1.2 | 0.8 | (4.80-x)=4 | 4.80 x - 4 = | 4.80:dollar x:dollar -:dollar 4:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 1.2 | 19.2 | (x/4.80)=4 | x 4.80 / 4 = | x:dvd 4.80:dollar /:dvd 4:dvd =:dvd
+EXPR: 0 | POS | FRA | 22 | 1.2 | 0.8 | 4.80=(4+x) | 4.80 4 x + = | 4.80:dollar 4:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 1.2 | 0.833333333333333 | (x*4.80)=4 | x 4.80 * 4 = | x:dollar 4.80:dvd *:dvd 4:dvd =:dvd
+EXPR: 0 | POS | FRA | 22 | 1.2 | 0.833333333333333 | 4.80=(4/x) | 4.80 4 x / = | 4.80:dvd 4:dvd x:dollar /:dvd =:dvd
+EXPR: 1 | POS | FRA | 22 | 1.2 | 1.2 | (4.80/x)=4 | 4.80 x / 4 = | 4.80:dvd x:dollar /:dvd 4:dvd =:dvd
+EXPR: 0 | POS | FRA | 22 | 1.2 | 0.833333333333333 | (4.80*x)=4 | 4.80 x * 4 = | 4.80:dollar x:dvd *:dvd 4:dvd =:dvd
+EXPR: 0 | POS | FRA | 22 | 1.2 | 8.8 | (x-4.80)=4 | x 4.80 - 4 = | x:dollar 4.80:dollar -:dollar 4:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 1.2 | 0.8 | 4.80=(x+4) | 4.80 x 4 + = | 4.80:dollar x:dollar 4:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 1.2 | 8.8 | 4.80=(x-4) | 4.80 x 4 - = | 4.80:dollar x:dollar 4:dollar -:dollar =:dollar
+NET 36 unique, non-negative solutions found out of 136 total solutions

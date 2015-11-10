@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 3343 | 1287 | (2315-1028)=x | 2315 1028 - x = | 2315:marker 1028:marker -:marker x:marker =:marker
+EXPR: 1 | POS | INT | 0 | 3343 | 3343 | x=(2315+1028) | x 2315 1028 + = | x:marker 2315:marker 1028:marker +:marker =:marker
+EXPR: 0 | POS | INT | 0 | 3343 | 1287 | x=(2315-1028) | x 2315 1028 - = | x:marker 2315:marker 1028:marker -:marker =:marker
+EXPR: 1 | POS | INT | 0 | 3343 | 3343 | (2315+1028)=x | 2315 1028 + x = | 2315:marker 1028:marker +:marker x:marker =:marker
+EXPR: 0 | POS | INT | 2 | 3343 | 1287 | 2315=(1028+x) | 2315 1028 x + = | 2315:marker 1028:marker x:marker +:marker =:marker
+EXPR: 1 | POS | INT | 2 | 3343 | 3343 | (x-2315)=1028 | x 2315 - 1028 = | x:marker 2315:marker -:marker 1028:marker =:marker
+EXPR: 0 | POS | INT | 2 | 3343 | 1287 | 2315=(x+1028) | 2315 x 1028 + = | 2315:marker x:marker 1028:marker +:marker =:marker
+EXPR: 0 | POS | INT | 2 | 3343 | 1287 | (2315-x)=1028 | 2315 x - 1028 = | 2315:marker x:marker -:marker 1028:marker =:marker
+EXPR: 1 | POS | INT | 2 | 3343 | 3343 | 2315=(x-1028) | 2315 x 1028 - = | 2315:marker x:marker 1028:marker -:marker =:marker
+EXPR: 0 | POS | INT | 12 | 3343 | 1287 | (x+1028)=2315 | x 1028 + 2315 = | x:marker 1028:marker +:marker 2315:marker =:marker
+EXPR: 1 | POS | INT | 12 | 3343 | 3343 | (x-1028)=2315 | x 1028 - 2315 = | x:marker 1028:marker -:marker 2315:marker =:marker
+EXPR: 0 | POS | INT | 12 | 3343 | 1287 | (1028+x)=2315 | 1028 x + 2315 = | 1028:marker x:marker +:marker 2315:marker =:marker
+EXPR: 1 | POS | INT | 12 | 3343 | 3343 | 1028=(x-2315) | 1028 x 2315 - = | 1028:marker x:marker 2315:marker -:marker =:marker
+EXPR: 0 | POS | INT | 12 | 3343 | 1287 | 1028=(2315-x) | 1028 2315 x - = | 1028:marker 2315:marker x:marker -:marker =:marker
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

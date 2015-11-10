@@ -1,0 +1,7 @@
+constants : 140 7
+unknowns : x
+operators : + - * / =
+objtypes : nail station
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 20

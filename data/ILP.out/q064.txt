@@ -1,0 +1,7 @@
+constants : 73 96
+unknowns : x
+operators : + - * / =
+objtypes : bale
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 23.0

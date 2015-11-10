@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 0.08 | 0.804878048780488 | 0.41=(0.33/x) | 0.41 0.33 x / = | 0.41:meter 0.33:meter x:LENGTH /:meter =:meter
+EXPR: 0 | POS | FRA | 2 | 0.08 | 1.24242424242424 | 0.41=(x*0.33) | 0.41 x 0.33 * = | 0.41:meter x:LENGTH 0.33:meter *:meter =:meter
+EXPR: 0 | POS | FRA | 2 | 0.08 | 1.24242424242424 | 0.41=(0.33*x) | 0.41 0.33 x * = | 0.41:meter 0.33:meter x:LENGTH *:meter =:meter
+EXPR: 0 | POS | FRA | 2 | 0.08 | 0.804878048780488 | (x*0.41)=0.33 | x 0.41 * 0.33 = | x:LENGTH 0.41:meter *:meter 0.33:meter =:meter
+EXPR: 0 | POS | FRA | 2 | 0.08 | 0.804878048780488 | (0.41*x)=0.33 | 0.41 x * 0.33 = | 0.41:meter x:LENGTH *:meter 0.33:meter =:meter
+EXPR: 0 | POS | FRA | 2 | 0.08 | 1.24242424242424 | (0.41/x)=0.33 | 0.41 x / 0.33 = | 0.41:meter x:LENGTH /:meter 0.33:meter =:meter
+EXPR: 0 | POS | FRA | 10 | 0.08 | 0.1353 | (0.41*0.33)=x | 0.41 0.33 * x = | 0.41:meter 0.33:LENGTH *:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 10 | 0.08 | 0.74 | (0.41+0.33)=x | 0.41 0.33 + x = | 0.41:meter 0.33:meter +:meter x:meter =:meter
+EXPR: 1 | POS | FRA | 10 | 0.08 | 0.08 | x=(0.41-0.33) | x 0.41 0.33 - = | x:meter 0.41:meter 0.33:meter -:meter =:meter
+EXPR: 0 | POS | FRA | 10 | 0.08 | 0.1353 | x=(0.41*0.33) | x 0.41 0.33 * = | x:LENGTH 0.41:meter 0.33:LENGTH *:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 10 | 0.08 | 0.74 | x=(0.41+0.33) | x 0.41 0.33 + = | x:meter 0.41:meter 0.33:meter +:meter =:meter
+EXPR: 1 | POS | FRA | 10 | 0.08 | 0.08 | (0.41-0.33)=x | 0.41 0.33 - x = | 0.41:meter 0.33:meter -:meter x:meter =:meter
+EXPR: 0 | POS | FRA | 10 | 0.08 | 1.24242424242424 | x=(0.41/0.33) | x 0.41 0.33 / = | x:LENGTH 0.41:LENGTH 0.33:meter /:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 10 | 0.08 | 1.24242424242424 | (0.41/0.33)=x | 0.41 0.33 / x = | 0.41:LENGTH 0.33:meter /:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 12 | 0.08 | 1.24242424242424 | 0.33=(0.41/x) | 0.33 0.41 x / = | 0.33:meter 0.41:meter x:LENGTH /:meter =:meter
+EXPR: 0 | POS | FRA | 12 | 0.08 | 1.24242424242424 | (x*0.33)=0.41 | x 0.33 * 0.41 = | x:LENGTH 0.33:meter *:meter 0.41:meter =:meter
+EXPR: 0 | POS | FRA | 12 | 0.08 | 0.1353 | 0.41=(x/0.33) | 0.41 x 0.33 / = | 0.41:LENGTH x:LENGTH 0.33:meter /:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 12 | 0.08 | 0.804878048780488 | 0.33=(0.41*x) | 0.33 0.41 x * = | 0.33:meter 0.41:meter x:LENGTH *:meter =:meter
+EXPR: 0 | POS | FRA | 12 | 0.08 | 0.74 | 0.41=(x-0.33) | 0.41 x 0.33 - = | 0.41:meter x:meter 0.33:meter -:meter =:meter
+EXPR: 0 | POS | FRA | 12 | 0.08 | 0.804878048780488 | 0.33=(x*0.41) | 0.33 x 0.41 * = | 0.33:meter x:LENGTH 0.41:meter *:meter =:meter
+EXPR: 1 | POS | FRA | 12 | 0.08 | 0.08 | (0.41-x)=0.33 | 0.41 x - 0.33 = | 0.41:meter x:meter -:meter 0.33:meter =:meter
+EXPR: 0 | POS | FRA | 12 | 0.08 | 1.24242424242424 | (0.33*x)=0.41 | 0.33 x * 0.41 = | 0.33:meter x:LENGTH *:meter 0.41:meter =:meter
+EXPR: 0 | POS | FRA | 12 | 0.08 | 0.804878048780488 | (0.33/x)=0.41 | 0.33 x / 0.41 = | 0.33:meter x:LENGTH /:meter 0.41:meter =:meter
+EXPR: 1 | POS | FRA | 12 | 0.08 | 0.08 | 0.41=(x+0.33) | 0.41 x 0.33 + = | 0.41:meter x:meter 0.33:meter +:meter =:meter
+EXPR: 1 | POS | FRA | 12 | 0.08 | 0.08 | 0.41=(0.33+x) | 0.41 0.33 x + = | 0.41:meter 0.33:meter x:meter +:meter =:meter
+EXPR: 0 | POS | FRA | 12 | 0.08 | 0.74 | (x-0.41)=0.33 | x 0.41 - 0.33 = | x:meter 0.41:meter -:meter 0.33:meter =:meter
+EXPR: 0 | POS | FRA | 12 | 0.08 | 0.1353 | (x/0.41)=0.33 | x 0.41 / 0.33 = | x:LENGTH 0.41:meter /:LENGTH 0.33:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 20 | 0.08 | 0.804878048780488 | (0.33/0.41)=x | 0.33 0.41 / x = | 0.33:LENGTH 0.41:meter /:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 20 | 0.08 | 0.804878048780488 | x=(0.33/0.41) | x 0.33 0.41 / = | x:LENGTH 0.33:LENGTH 0.41:meter /:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 22 | 0.08 | 0.1353 | (x/0.33)=0.41 | x 0.33 / 0.41 = | x:LENGTH 0.33:meter /:LENGTH 0.41:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 22 | 0.08 | 0.74 | (x-0.33)=0.41 | x 0.33 - 0.41 = | x:meter 0.33:meter -:meter 0.41:meter =:meter
+EXPR: 1 | POS | FRA | 22 | 0.08 | 0.08 | (0.33+x)=0.41 | 0.33 x + 0.41 = | 0.33:meter x:meter +:meter 0.41:meter =:meter
+EXPR: 0 | POS | FRA | 22 | 0.08 | 0.74 | 0.33=(x-0.41) | 0.33 x 0.41 - = | 0.33:meter x:meter 0.41:meter -:meter =:meter
+EXPR: 1 | POS | FRA | 22 | 0.08 | 0.08 | (x+0.33)=0.41 | x 0.33 + 0.41 = | x:meter 0.33:meter +:meter 0.41:meter =:meter
+EXPR: 0 | POS | FRA | 22 | 0.08 | 0.1353 | 0.33=(x/0.41) | 0.33 x 0.41 / = | 0.33:LENGTH x:LENGTH 0.41:meter /:LENGTH =:LENGTH
+EXPR: 1 | POS | FRA | 22 | 0.08 | 0.08 | 0.33=(0.41-x) | 0.33 0.41 x - = | 0.33:meter 0.41:meter x:meter -:meter =:meter
+NET 36 unique, non-negative solutions found out of 136 total solutions

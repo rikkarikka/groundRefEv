@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 7 | 175 | x=(5*35) | x 5 35 * = | x:boy 5:boy 35:marble *:boy =:boy
+EXPR: 0 | POS | INT | 0 | 7 | 175 | (5*35)=x | 5 35 * x = | 5:boy 35:marble *:boy x:boy =:boy
+EXPR: 0 | POS | INT | 2 | 7 | 175 | 5=(x/35) | 5 x 35 / = | 5:boy x:boy 35:marble /:boy =:boy
+EXPR: 0 | POS | INT | 10 | 7 | 40 | x=(5+35) | x 5 35 + = | x:boy 5:boy 35:boy +:boy =:boy
+EXPR: 0 | POS | INT | 10 | 7 | 40 | (5+35)=x | 5 35 + x = | 5:boy 35:boy +:boy x:boy =:boy
+EXPR: 1 | POS | INT | 12 | 7 | 7 | 5=(35/x) | 5 35 x / = | 5:marble 35:marble x:boy /:marble =:marble
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (x*5)=35 | x 5 * 35 = | x:boy 5:marble *:marble 35:marble =:marble
+EXPR: 0 | POS | INT | 12 | 7 | 40 | 5=(x-35) | 5 x 35 - = | 5:boy x:boy 35:boy -:boy =:boy
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (5*x)=35 | 5 x * 35 = | 5:marble x:boy *:marble 35:marble =:marble
+EXPR: 0 | POS | INT | 12 | 7 | 30 | (x+5)=35 | x 5 + 35 = | x:boy 5:boy +:boy 35:boy =:boy
+EXPR: 0 | POS | INT | 12 | 7 | 40 | (x-5)=35 | x 5 - 35 = | x:boy 5:boy -:boy 35:boy =:boy
+EXPR: 0 | POS | INT | 12 | 7 | 30 | 5=(35-x) | 5 35 x - = | 5:boy 35:boy x:boy -:boy =:boy
+EXPR: 0 | POS | INT | 12 | 7 | 30 | (5+x)=35 | 5 x + 35 = | 5:boy x:boy +:boy 35:boy =:boy
+EXPR: 0 | POS | INT | 12 | 7 | 175 | (x/5)=35 | x 5 / 35 = | x:marble 5:boy /:marble 35:marble =:marble
+EXPR: 0 | POS | INT | 12 | 7 | 175 | (x/35)=5 | x 35 / 5 = | x:boy 35:marble /:boy 5:boy =:boy
+EXPR: 0 | POS | INT | 20 | 7 | 30 | (35-5)=x | 35 5 - x = | 35:boy 5:boy -:boy x:boy =:boy
+EXPR: 1 | POS | INT | 20 | 7 | 7 | (35/5)=x | 35 5 / x = | 35:marble 5:boy /:marble x:marble =:marble
+EXPR: 1 | POS | INT | 20 | 7 | 7 | x=(35/5) | x 35 5 / = | x:marble 35:marble 5:boy /:marble =:marble
+EXPR: 0 | POS | INT | 20 | 7 | 30 | x=(35-5) | x 35 5 - = | x:boy 35:boy 5:boy -:boy =:boy
+EXPR: 1 | POS | INT | 22 | 7 | 7 | 35=(x*5) | 35 x 5 * = | 35:marble x:marble 5:boy *:marble =:marble
+EXPR: 1 | POS | INT | 22 | 7 | 7 | 35=(5*x) | 35 5 x * = | 35:marble 5:marble x:boy *:marble =:marble
+EXPR: 0 | POS | INT | 22 | 7 | 30 | 35=(x+5) | 35 x 5 + = | 35:boy x:boy 5:boy +:boy =:boy
+EXPR: 1 | POS | INT | 22 | 7 | 7 | (35/x)=5 | 35 x / 5 = | 35:marble x:boy /:marble 5:marble =:marble
+EXPR: 0 | POS | INT | 22 | 7 | 30 | (35-x)=5 | 35 x - 5 = | 35:boy x:boy -:boy 5:boy =:boy
+EXPR: 0 | POS | INT | 22 | 7 | 40 | 35=(x-5) | 35 x 5 - = | 35:boy x:boy 5:boy -:boy =:boy
+EXPR: 0 | POS | INT | 22 | 7 | 175 | 35=(x/5) | 35 x 5 / = | 35:marble x:marble 5:boy /:marble =:marble
+EXPR: 0 | POS | INT | 22 | 7 | 30 | 35=(5+x) | 35 5 x + = | 35:boy 5:boy x:boy +:boy =:boy
+EXPR: 0 | POS | INT | 22 | 7 | 40 | (x-35)=5 | x 35 - 5 = | x:boy 35:boy -:boy 5:boy =:boy
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,7 @@
+constants : 378 6
+unknowns : x
+operators : + - * / =
+objtypes : juggler ball
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 2268

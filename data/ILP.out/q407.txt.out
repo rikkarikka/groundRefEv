@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 10 | 10 | 80=(x*8) | 80 x 8 * = | 80:crayon x:box 8:crayon *:crayon =:crayon
+EXPR: 1 | POS | INT | 2 | 10 | 10 | 80=(8*x) | 80 8 x * = | 80:crayon 8:crayon x:box *:crayon =:crayon
+EXPR: 1 | POS | INT | 2 | 10 | 10 | (80/x)=8 | 80 x / 8 = | 80:crayon x:box /:crayon 8:crayon =:crayon
+EXPR: 0 | POS | INT | 10 | 10 | 640 | (80*8)=x | 80 8 * x = | 80:crayon 8:box *:box x:box =:box
+EXPR: 0 | POS | INT | 10 | 10 | 88 | (80+8)=x | 80 8 + x = | 80:crayon 8:crayon +:crayon x:crayon =:crayon
+EXPR: 0 | POS | INT | 10 | 10 | 72 | x=(80-8) | x 80 8 - = | x:crayon 80:crayon 8:crayon -:crayon =:crayon
+EXPR: 0 | POS | INT | 10 | 10 | 640 | x=(80*8) | x 80 8 * = | x:box 80:crayon 8:box *:box =:box
+EXPR: 0 | POS | INT | 10 | 10 | 88 | x=(80+8) | x 80 8 + = | x:crayon 80:crayon 8:crayon +:crayon =:crayon
+EXPR: 0 | POS | INT | 10 | 10 | 72 | (80-8)=x | 80 8 - x = | 80:crayon 8:crayon -:crayon x:crayon =:crayon
+EXPR: 1 | POS | INT | 10 | 10 | 10 | x=(80/8) | x 80 8 / = | x:box 80:box 8:crayon /:box =:box
+EXPR: 1 | POS | INT | 10 | 10 | 10 | (80/8)=x | 80 8 / x = | 80:box 8:crayon /:box x:box =:box
+EXPR: 1 | POS | INT | 12 | 10 | 10 | 8=(80/x) | 8 80 x / = | 8:crayon 80:crayon x:box /:crayon =:crayon
+EXPR: 1 | POS | INT | 12 | 10 | 10 | (x*8)=80 | x 8 * 80 = | x:box 8:crayon *:crayon 80:crayon =:crayon
+EXPR: 0 | POS | INT | 12 | 10 | 640 | 80=(x/8) | 80 x 8 / = | 80:box x:box 8:crayon /:box =:box
+EXPR: 0 | POS | INT | 12 | 10 | 88 | 80=(x-8) | 80 x 8 - = | 80:crayon x:crayon 8:crayon -:crayon =:crayon
+EXPR: 0 | POS | INT | 12 | 10 | 72 | (80-x)=8 | 80 x - 8 = | 80:crayon x:crayon -:crayon 8:crayon =:crayon
+EXPR: 1 | POS | INT | 12 | 10 | 10 | (8*x)=80 | 8 x * 80 = | 8:crayon x:box *:crayon 80:crayon =:crayon
+EXPR: 0 | POS | INT | 12 | 10 | 72 | 80=(x+8) | 80 x 8 + = | 80:crayon x:crayon 8:crayon +:crayon =:crayon
+EXPR: 0 | POS | INT | 12 | 10 | 72 | 80=(8+x) | 80 8 x + = | 80:crayon 8:crayon x:crayon +:crayon =:crayon
+EXPR: 0 | POS | INT | 12 | 10 | 88 | (x-80)=8 | x 80 - 8 = | x:crayon 80:crayon -:crayon 8:crayon =:crayon
+EXPR: 0 | POS | INT | 12 | 10 | 640 | (x/80)=8 | x 80 / 8 = | x:box 80:crayon /:box 8:box =:box
+EXPR: 0 | POS | INT | 22 | 10 | 640 | (x/8)=80 | x 8 / 80 = | x:box 8:crayon /:box 80:box =:box
+EXPR: 0 | POS | INT | 22 | 10 | 88 | (x-8)=80 | x 8 - 80 = | x:crayon 8:crayon -:crayon 80:crayon =:crayon
+EXPR: 0 | POS | INT | 22 | 10 | 72 | (8+x)=80 | 8 x + 80 = | 8:crayon x:crayon +:crayon 80:crayon =:crayon
+EXPR: 0 | POS | INT | 22 | 10 | 88 | 8=(x-80) | 8 x 80 - = | 8:crayon x:crayon 80:crayon -:crayon =:crayon
+EXPR: 0 | POS | INT | 22 | 10 | 72 | (x+8)=80 | x 8 + 80 = | x:crayon 8:crayon +:crayon 80:crayon =:crayon
+EXPR: 0 | POS | INT | 22 | 10 | 640 | 8=(x/80) | 8 x 80 / = | 8:box x:box 80:crayon /:box =:box
+EXPR: 0 | POS | INT | 22 | 10 | 72 | 8=(80-x) | 8 80 x - = | 8:crayon 80:crayon x:crayon -:crayon =:crayon
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

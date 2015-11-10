@@ -1,0 +1,7 @@
+constants : 5,973 8,723
+unknowns : x
+operators : + - * / =
+objtypes : ton
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 14696.0

@@ -1,0 +1,7 @@
+constants : 72 12
+unknowns : x
+operators : + - * / =
+objtypes : egg dozen
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 6.0

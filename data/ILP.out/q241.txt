@@ -1,0 +1,7 @@
+constants : 48,097 684
+unknowns : x
+operators : + - * / =
+objtypes : bushel
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 48781.0

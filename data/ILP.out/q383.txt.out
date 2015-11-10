@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 12.7 | 2.175 | 4=(8.7/x) | 4 8.7 x / = | 4:pound 8.7:pound x:pumpkin /:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 12.7 | 0.459770114942529 | 4=(x*8.7) | 4 x 8.7 * = | 4:pound x:pumpkin 8.7:pound *:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 12.7 | 0.459770114942529 | 4=(8.7*x) | 4 8.7 x * = | 4:pound 8.7:pound x:pumpkin *:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 12.7 | 2.175 | (x*4)=8.7 | x 4 * 8.7 = | x:pumpkin 4:pound *:pound 8.7:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 12.7 | 2.175 | (4*x)=8.7 | 4 x * 8.7 = | 4:pound x:pumpkin *:pound 8.7:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 12.7 | 0.459770114942529 | (4/x)=8.7 | 4 x / 8.7 = | 4:pound x:pumpkin /:pound 8.7:pound =:pound
+EXPR: 0 | POS | FRA | 10 | 12.7 | 34.8 | (4*8.7)=x | 4 8.7 * x = | 4:pound 8.7:pumpkin *:pumpkin x:pumpkin =:pumpkin
+EXPR: 1 | POS | FRA | 10 | 12.7 | 12.7 | (4+8.7)=x | 4 8.7 + x = | 4:pound 8.7:pound +:pound x:pound =:pound
+EXPR: 0 | POS | FRA | 10 | 12.7 | 34.8 | x=(4*8.7) | x 4 8.7 * = | x:pumpkin 4:pound 8.7:pumpkin *:pumpkin =:pumpkin
+EXPR: 1 | POS | FRA | 10 | 12.7 | 12.7 | x=(4+8.7) | x 4 8.7 + = | x:pound 4:pound 8.7:pound +:pound =:pound
+EXPR: 0 | POS | FRA | 10 | 12.7 | 0.459770114942529 | x=(4/8.7) | x 4 8.7 / = | x:pumpkin 4:pumpkin 8.7:pound /:pumpkin =:pumpkin
+EXPR: 0 | POS | FRA | 10 | 12.7 | 0.459770114942529 | (4/8.7)=x | 4 8.7 / x = | 4:pumpkin 8.7:pound /:pumpkin x:pumpkin =:pumpkin
+EXPR: 0 | POS | FRA | 12 | 12.7 | 0.459770114942529 | 8.7=(4/x) | 8.7 4 x / = | 8.7:pound 4:pound x:pumpkin /:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 12.7 | 0.459770114942529 | (x*8.7)=4 | x 8.7 * 4 = | x:pumpkin 8.7:pound *:pound 4:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 12.7 | 34.8 | 4=(x/8.7) | 4 x 8.7 / = | 4:pumpkin x:pumpkin 8.7:pound /:pumpkin =:pumpkin
+EXPR: 0 | POS | FRA | 12 | 12.7 | 2.175 | 8.7=(4*x) | 8.7 4 x * = | 8.7:pound 4:pound x:pumpkin *:pound =:pound
+EXPR: 1 | POS | FRA | 12 | 12.7 | 12.7 | 4=(x-8.7) | 4 x 8.7 - = | 4:pound x:pound 8.7:pound -:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 12.7 | 2.175 | 8.7=(x*4) | 8.7 x 4 * = | 8.7:pound x:pumpkin 4:pound *:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 12.7 | 4.7 | 4=(8.7-x) | 4 8.7 x - = | 4:pound 8.7:pound x:pound -:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 12.7 | 0.459770114942529 | (8.7*x)=4 | 8.7 x * 4 = | 8.7:pound x:pumpkin *:pound 4:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 12.7 | 2.175 | (8.7/x)=4 | 8.7 x / 4 = | 8.7:pound x:pumpkin /:pound 4:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 12.7 | 4.7 | (x+4)=8.7 | x 4 + 8.7 = | x:pound 4:pound +:pound 8.7:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 12.7 | 4.7 | (4+x)=8.7 | 4 x + 8.7 = | 4:pound x:pound +:pound 8.7:pound =:pound
+EXPR: 1 | POS | FRA | 12 | 12.7 | 12.7 | (x-4)=8.7 | x 4 - 8.7 = | x:pound 4:pound -:pound 8.7:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 12.7 | 34.8 | (x/4)=8.7 | x 4 / 8.7 = | x:pumpkin 4:pound /:pumpkin 8.7:pumpkin =:pumpkin
+EXPR: 0 | POS | FRA | 20 | 12.7 | 2.175 | (8.7/4)=x | 8.7 4 / x = | 8.7:pumpkin 4:pound /:pumpkin x:pumpkin =:pumpkin
+EXPR: 0 | POS | FRA | 20 | 12.7 | 4.7 | x=(8.7-4) | x 8.7 4 - = | x:pound 8.7:pound 4:pound -:pound =:pound
+EXPR: 0 | POS | FRA | 20 | 12.7 | 4.7 | (8.7-4)=x | 8.7 4 - x = | 8.7:pound 4:pound -:pound x:pound =:pound
+EXPR: 0 | POS | FRA | 20 | 12.7 | 2.175 | x=(8.7/4) | x 8.7 4 / = | x:pumpkin 8.7:pumpkin 4:pound /:pumpkin =:pumpkin
+EXPR: 0 | POS | FRA | 22 | 12.7 | 4.7 | (8.7-x)=4 | 8.7 x - 4 = | 8.7:pound x:pound -:pound 4:pound =:pound
+EXPR: 0 | POS | FRA | 22 | 12.7 | 34.8 | (x/8.7)=4 | x 8.7 / 4 = | x:pumpkin 8.7:pound /:pumpkin 4:pumpkin =:pumpkin
+EXPR: 1 | POS | FRA | 22 | 12.7 | 12.7 | (x-8.7)=4 | x 8.7 - 4 = | x:pound 8.7:pound -:pound 4:pound =:pound
+EXPR: 1 | POS | FRA | 22 | 12.7 | 12.7 | 8.7=(x-4) | 8.7 x 4 - = | 8.7:pound x:pound 4:pound -:pound =:pound
+EXPR: 0 | POS | FRA | 22 | 12.7 | 4.7 | 8.7=(x+4) | 8.7 x 4 + = | 8.7:pound x:pound 4:pound +:pound =:pound
+EXPR: 0 | POS | FRA | 22 | 12.7 | 4.7 | 8.7=(4+x) | 8.7 4 x + = | 8.7:pound 4:pound x:pound +:pound =:pound
+EXPR: 0 | POS | FRA | 22 | 12.7 | 34.8 | 8.7=(x/4) | 8.7 x 4 / = | 8.7:pumpkin x:pumpkin 4:pound /:pumpkin =:pumpkin
+NET 36 unique, non-negative solutions found out of 136 total solutions

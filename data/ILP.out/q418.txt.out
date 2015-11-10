@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 10 | 250 | x=(5*50) | x 5 50 * = | x:LENGTH 5:LENGTH 50:ball *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 10 | 10 | 250 | (5*50)=x | 5 50 * x = | 5:member 50:ball *:member x:member =:member
+EXPR: 0 | POS | INT | 12 | 10 | 250 | 5=(x/50) | 5 x 50 / = | 5:LENGTH x:LENGTH 50:ball /:LENGTH =:LENGTH
+EXPR: 1 | POS | INT | 12 | 10 | 10 | (5*x)=50 | 5 x * 50 = | 5:member x:LENGTH *:member 50:member =:member
+EXPR: 0 | POS | INT | 12 | 10 | 250 | (x/5)=50 | x 5 / 50 = | x:LENGTH 5:member /:LENGTH 50:LENGTH =:LENGTH
+EXPR: 1 | POS | INT | 12 | 10 | 10 | (x*5)=50 | x 5 * 50 = | x:ball 5:member *:ball 50:ball =:ball
+EXPR: 1 | POS | INT | 12 | 10 | 10 | 5=(50/x) | 5 50 x / = | 5:member 50:member x:LENGTH /:member =:member
+EXPR: 0 | POS | INT | 20 | 10 | 55 | (5+50)=x | 5 50 + x = | 5:member 50:member +:member x:member =:member
+EXPR: 0 | POS | INT | 20 | 10 | 55 | x=(5+50) | x 5 50 + = | x:ball 5:ball 50:ball +:ball =:ball
+EXPR: 1 | POS | INT | 20 | 10 | 10 | (50/5)=x | 50 5 / x = | 50:ball 5:member /:ball x:ball =:ball
+EXPR: 1 | POS | INT | 20 | 10 | 10 | x=(50/5) | x 50 5 / = | x:ball 50:ball 5:member /:ball =:ball
+EXPR: 0 | POS | INT | 22 | 10 | 55 | (x-5)=50 | x 5 - 50 = | x:ball 5:ball -:ball 50:ball =:ball
+EXPR: 0 | POS | INT | 22 | 10 | 250 | 50=(x/5) | 50 x 5 / = | 50:LENGTH x:LENGTH 5:member /:LENGTH =:LENGTH
+EXPR: 1 | POS | INT | 22 | 10 | 10 | (50/x)=5 | 50 x / 5 = | 50:member x:LENGTH /:member 5:member =:member
+EXPR: 0 | POS | INT | 22 | 10 | 45 | 5=(50-x) | 5 50 x - = | 5:ball 50:ball x:ball -:ball =:ball
+EXPR: 0 | POS | INT | 22 | 10 | 45 | (5+x)=50 | 5 x + 50 = | 5:LENGTH x:LENGTH +:LENGTH 50:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 22 | 10 | 45 | (x+5)=50 | x 5 + 50 = | x:member 5:member +:member 50:member =:member
+EXPR: 1 | POS | INT | 22 | 10 | 10 | 50=(x*5) | 50 x 5 * = | 50:ball x:ball 5:member *:ball =:ball
+EXPR: 0 | POS | INT | 22 | 10 | 55 | 5=(x-50) | 5 x 50 - = | 5:LENGTH x:LENGTH 50:LENGTH -:LENGTH =:LENGTH
+EXPR: 1 | POS | INT | 22 | 10 | 10 | 50=(5*x) | 50 5 x * = | 50:LENGTH 5:member x:LENGTH *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 22 | 10 | 250 | (x/50)=5 | x 50 / 5 = | x:LENGTH 50:ball /:LENGTH 5:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 30 | 10 | 45 | x=(50-5) | x 50 5 - = | x:ball 50:ball 5:ball -:ball =:ball
+EXPR: 0 | POS | INT | 30 | 10 | 45 | (50-5)=x | 50 5 - x = | 50:LENGTH 5:LENGTH -:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 32 | 10 | 55 | (x-50)=5 | x 50 - 5 = | x:ball 50:ball -:ball 5:ball =:ball
+EXPR: 0 | POS | INT | 32 | 10 | 45 | (50-x)=5 | 50 x - 5 = | 50:ball x:ball -:ball 5:ball =:ball
+EXPR: 0 | POS | INT | 32 | 10 | 45 | 50=(5+x) | 50 5 x + = | 50:ball 5:ball x:ball +:ball =:ball
+EXPR: 0 | POS | INT | 32 | 10 | 45 | 50=(x+5) | 50 x 5 + = | 50:ball x:ball 5:ball +:ball =:ball
+EXPR: 0 | POS | INT | 32 | 10 | 55 | 50=(x-5) | 50 x 5 - = | 50:ball x:ball 5:ball -:ball =:ball
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

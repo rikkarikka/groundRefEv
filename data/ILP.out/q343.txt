@@ -1,0 +1,7 @@
+constants : 0.25 0.4166666666666667 0.25
+unknowns : x
+operators : + - * / =
+objtypes : pitcher
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.9166666666666666

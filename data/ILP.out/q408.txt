@@ -1,0 +1,7 @@
+constants : 700 100
+unknowns : x
+operators : + - * / =
+objtypes : sheet box
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7

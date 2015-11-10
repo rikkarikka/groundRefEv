@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 8 | 648 | x=(9*72) | x 9 72 * = | x:number 9:number 72:sticker *:number =:number
+EXPR: 0 | POS | INT | 10 | 8 | 648 | (9*72)=x | 9 72 * x = | 9:friend 72:sticker *:friend x:friend =:friend
+EXPR: 0 | POS | INT | 12 | 8 | 648 | 9=(x/72) | 9 x 72 / = | 9:number x:number 72:sticker /:number =:number
+EXPR: 1 | POS | INT | 12 | 8 | 8 | (9*x)=72 | 9 x * 72 = | 9:friend x:number *:friend 72:friend =:friend
+EXPR: 0 | POS | INT | 12 | 8 | 648 | (x/9)=72 | x 9 / 72 = | x:number 9:friend /:number 72:number =:number
+EXPR: 1 | POS | INT | 12 | 8 | 8 | (x*9)=72 | x 9 * 72 = | x:sticker 9:friend *:sticker 72:sticker =:sticker
+EXPR: 1 | POS | INT | 12 | 8 | 8 | 9=(72/x) | 9 72 x / = | 9:friend 72:friend x:number /:friend =:friend
+EXPR: 0 | POS | INT | 20 | 8 | 81 | (9+72)=x | 9 72 + x = | 9:friend 72:friend +:friend x:friend =:friend
+EXPR: 0 | POS | INT | 20 | 8 | 81 | x=(9+72) | x 9 72 + = | x:sticker 9:sticker 72:sticker +:sticker =:sticker
+EXPR: 1 | POS | INT | 20 | 8 | 8 | (72/9)=x | 72 9 / x = | 72:sticker 9:friend /:sticker x:sticker =:sticker
+EXPR: 1 | POS | INT | 20 | 8 | 8 | x=(72/9) | x 72 9 / = | x:sticker 72:sticker 9:friend /:sticker =:sticker
+EXPR: 0 | POS | INT | 22 | 8 | 81 | (x-9)=72 | x 9 - 72 = | x:sticker 9:sticker -:sticker 72:sticker =:sticker
+EXPR: 0 | POS | INT | 22 | 8 | 648 | 72=(x/9) | 72 x 9 / = | 72:number x:number 9:friend /:number =:number
+EXPR: 1 | POS | INT | 22 | 8 | 8 | (72/x)=9 | 72 x / 9 = | 72:friend x:number /:friend 9:friend =:friend
+EXPR: 0 | POS | INT | 22 | 8 | 63 | 9=(72-x) | 9 72 x - = | 9:sticker 72:sticker x:sticker -:sticker =:sticker
+EXPR: 0 | POS | INT | 22 | 8 | 63 | (9+x)=72 | 9 x + 72 = | 9:number x:number +:number 72:number =:number
+EXPR: 0 | POS | INT | 22 | 8 | 63 | (x+9)=72 | x 9 + 72 = | x:friend 9:friend +:friend 72:friend =:friend
+EXPR: 1 | POS | INT | 22 | 8 | 8 | 72=(x*9) | 72 x 9 * = | 72:sticker x:sticker 9:friend *:sticker =:sticker
+EXPR: 0 | POS | INT | 22 | 8 | 81 | 9=(x-72) | 9 x 72 - = | 9:number x:number 72:number -:number =:number
+EXPR: 1 | POS | INT | 22 | 8 | 8 | 72=(9*x) | 72 9 x * = | 72:number 9:friend x:number *:number =:number
+EXPR: 0 | POS | INT | 22 | 8 | 648 | (x/72)=9 | x 72 / 9 = | x:number 72:sticker /:number 9:number =:number
+EXPR: 0 | POS | INT | 30 | 8 | 63 | x=(72-9) | x 72 9 - = | x:sticker 72:sticker 9:sticker -:sticker =:sticker
+EXPR: 0 | POS | INT | 30 | 8 | 63 | (72-9)=x | 72 9 - x = | 72:number 9:number -:number x:number =:number
+EXPR: 0 | POS | INT | 32 | 8 | 81 | (x-72)=9 | x 72 - 9 = | x:sticker 72:sticker -:sticker 9:sticker =:sticker
+EXPR: 0 | POS | INT | 32 | 8 | 63 | (72-x)=9 | 72 x - 9 = | 72:sticker x:sticker -:sticker 9:sticker =:sticker
+EXPR: 0 | POS | INT | 32 | 8 | 63 | 72=(9+x) | 72 9 x + = | 72:sticker 9:sticker x:sticker +:sticker =:sticker
+EXPR: 0 | POS | INT | 32 | 8 | 63 | 72=(x+9) | 72 x 9 + = | 72:sticker x:sticker 9:sticker +:sticker =:sticker
+EXPR: 0 | POS | INT | 32 | 8 | 81 | 72=(x-9) | 72 x 9 - = | 72:sticker x:sticker 9:sticker -:sticker =:sticker
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

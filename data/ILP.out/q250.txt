@@ -1,0 +1,7 @@
+constants : 712,261 259,378
+unknowns : x
+operators : + - * / =
+objtypes : male salmon
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 971639.0

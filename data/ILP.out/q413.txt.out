@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 4 | 4 | 20=(80/x) | 20 80 x / = | 20:piece 80:piece x:sack /:piece =:piece
+EXPR: 1 | POS | INT | 2 | 4 | 4 | (x*20)=80 | x 20 * 80 = | x:sack 20:piece *:piece 80:piece =:piece
+EXPR: 1 | POS | INT | 2 | 4 | 4 | (20*x)=80 | 20 x * 80 = | 20:piece x:sack *:piece 80:piece =:piece
+EXPR: 0 | POS | INT | 10 | 4 | 1600 | (20*80)=x | 20 80 * x = | 20:piece 80:sack *:sack x:sack =:sack
+EXPR: 0 | POS | INT | 10 | 4 | 100 | (20+80)=x | 20 80 + x = | 20:piece 80:piece +:piece x:piece =:piece
+EXPR: 0 | POS | INT | 10 | 4 | 1600 | x=(20*80) | x 20 80 * = | x:sack 20:piece 80:sack *:sack =:sack
+EXPR: 0 | POS | INT | 10 | 4 | 100 | x=(20+80) | x 20 80 + = | x:piece 20:piece 80:piece +:piece =:piece
+EXPR: 0 | POS | INT | 12 | 4 | 1600 | 20=(x/80) | 20 x 80 / = | 20:sack x:sack 80:piece /:sack =:sack
+EXPR: 1 | POS | INT | 12 | 4 | 4 | 80=(20*x) | 80 20 x * = | 80:piece 20:piece x:sack *:piece =:piece
+EXPR: 0 | POS | INT | 12 | 4 | 100 | 20=(x-80) | 20 x 80 - = | 20:piece x:piece 80:piece -:piece =:piece
+EXPR: 1 | POS | INT | 12 | 4 | 4 | 80=(x*20) | 80 x 20 * = | 80:piece x:sack 20:piece *:piece =:piece
+EXPR: 0 | POS | INT | 12 | 4 | 60 | 20=(80-x) | 20 80 x - = | 20:piece 80:piece x:piece -:piece =:piece
+EXPR: 1 | POS | INT | 12 | 4 | 4 | (80/x)=20 | 80 x / 20 = | 80:piece x:sack /:piece 20:piece =:piece
+EXPR: 0 | POS | INT | 12 | 4 | 60 | (x+20)=80 | x 20 + 80 = | x:piece 20:piece +:piece 80:piece =:piece
+EXPR: 0 | POS | INT | 12 | 4 | 60 | (20+x)=80 | 20 x + 80 = | 20:piece x:piece +:piece 80:piece =:piece
+EXPR: 0 | POS | INT | 12 | 4 | 100 | (x-20)=80 | x 20 - 80 = | x:piece 20:piece -:piece 80:piece =:piece
+EXPR: 0 | POS | INT | 12 | 4 | 1600 | (x/20)=80 | x 20 / 80 = | x:sack 20:piece /:sack 80:sack =:sack
+EXPR: 1 | POS | INT | 20 | 4 | 4 | (80/20)=x | 80 20 / x = | 80:sack 20:piece /:sack x:sack =:sack
+EXPR: 0 | POS | INT | 20 | 4 | 60 | x=(80-20) | x 80 20 - = | x:piece 80:piece 20:piece -:piece =:piece
+EXPR: 0 | POS | INT | 20 | 4 | 60 | (80-20)=x | 80 20 - x = | 80:piece 20:piece -:piece x:piece =:piece
+EXPR: 1 | POS | INT | 20 | 4 | 4 | x=(80/20) | x 80 20 / = | x:sack 80:sack 20:piece /:sack =:sack
+EXPR: 0 | POS | INT | 22 | 4 | 60 | (80-x)=20 | 80 x - 20 = | 80:piece x:piece -:piece 20:piece =:piece
+EXPR: 0 | POS | INT | 22 | 4 | 1600 | (x/80)=20 | x 80 / 20 = | x:sack 80:piece /:sack 20:sack =:sack
+EXPR: 0 | POS | INT | 22 | 4 | 100 | (x-80)=20 | x 80 - 20 = | x:piece 80:piece -:piece 20:piece =:piece
+EXPR: 0 | POS | INT | 22 | 4 | 100 | 80=(x-20) | 80 x 20 - = | 80:piece x:piece 20:piece -:piece =:piece
+EXPR: 0 | POS | INT | 22 | 4 | 60 | 80=(x+20) | 80 x 20 + = | 80:piece x:piece 20:piece +:piece =:piece
+EXPR: 0 | POS | INT | 22 | 4 | 60 | 80=(20+x) | 80 20 x + = | 80:piece 20:piece x:piece +:piece =:piece
+EXPR: 0 | POS | INT | 22 | 4 | 1600 | 80=(x/20) | 80 x 20 / = | 80:sack x:sack 20:piece /:sack =:sack
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

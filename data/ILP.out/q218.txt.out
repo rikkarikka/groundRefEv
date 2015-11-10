@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 10.46 | 0.951492537313433 | 5.36=(5.10/x) | 5.36 5.10 x / = | 5.36:dollar 5.10:dollar x:total /:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 10.46 | 1.05098039215686 | 5.36=(x*5.10) | 5.36 x 5.10 * = | 5.36:dollar x:total 5.10:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 10.46 | 1.05098039215686 | 5.36=(5.10*x) | 5.36 5.10 x * = | 5.36:dollar 5.10:dollar x:total *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 10.46 | 0.951492537313433 | (x*5.36)=5.10 | x 5.36 * 5.10 = | x:total 5.36:dollar *:dollar 5.10:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 10.46 | 0.951492537313433 | (5.36*x)=5.10 | 5.36 x * 5.10 = | 5.36:dollar x:total *:dollar 5.10:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 10.46 | 1.05098039215686 | (5.36/x)=5.10 | 5.36 x / 5.10 = | 5.36:dollar x:total /:dollar 5.10:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 10.46 | 27.336 | (5.36*5.10)=x | 5.36 5.10 * x = | 5.36:dollar 5.10:total *:total x:total =:total
+EXPR: 1 | POS | FRA | 10 | 10.46 | 10.46 | (5.36+5.10)=x | 5.36 5.10 + x = | 5.36:dollar 5.10:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 10.46 | 0.260000000000001 | x=(5.36-5.10) | x 5.36 5.10 - = | x:dollar 5.36:dollar 5.10:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 10.46 | 27.336 | x=(5.36*5.10) | x 5.36 5.10 * = | x:total 5.36:dollar 5.10:total *:total =:total
+EXPR: 1 | POS | FRA | 10 | 10.46 | 10.46 | x=(5.36+5.10) | x 5.36 5.10 + = | x:dollar 5.36:dollar 5.10:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 10.46 | 0.260000000000001 | (5.36-5.10)=x | 5.36 5.10 - x = | 5.36:dollar 5.10:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 10.46 | 1.05098039215686 | x=(5.36/5.10) | x 5.36 5.10 / = | x:total 5.36:total 5.10:dollar /:total =:total
+EXPR: 0 | POS | FRA | 10 | 10.46 | 1.05098039215686 | (5.36/5.10)=x | 5.36 5.10 / x = | 5.36:total 5.10:dollar /:total x:total =:total
+EXPR: 0 | POS | FRA | 12 | 10.46 | 1.05098039215686 | 5.10=(5.36/x) | 5.10 5.36 x / = | 5.10:dollar 5.36:dollar x:total /:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 10.46 | 1.05098039215686 | (x*5.10)=5.36 | x 5.10 * 5.36 = | x:total 5.10:dollar *:dollar 5.36:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 10.46 | 27.336 | 5.36=(x/5.10) | 5.36 x 5.10 / = | 5.36:total x:total 5.10:dollar /:total =:total
+EXPR: 0 | POS | FRA | 12 | 10.46 | 0.951492537313433 | 5.10=(5.36*x) | 5.10 5.36 x * = | 5.10:dollar 5.36:dollar x:total *:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 10.46 | 10.46 | 5.36=(x-5.10) | 5.36 x 5.10 - = | 5.36:dollar x:dollar 5.10:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 10.46 | 0.951492537313433 | 5.10=(x*5.36) | 5.10 x 5.36 * = | 5.10:dollar x:total 5.36:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 10.46 | 0.260000000000001 | (5.36-x)=5.10 | 5.36 x - 5.10 = | 5.36:dollar x:dollar -:dollar 5.10:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 10.46 | 1.05098039215686 | (5.10*x)=5.36 | 5.10 x * 5.36 = | 5.10:dollar x:total *:dollar 5.36:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 10.46 | 0.951492537313433 | (5.10/x)=5.36 | 5.10 x / 5.36 = | 5.10:dollar x:total /:dollar 5.36:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 10.46 | 0.260000000000001 | 5.36=(x+5.10) | 5.36 x 5.10 + = | 5.36:dollar x:dollar 5.10:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 10.46 | 0.260000000000001 | 5.36=(5.10+x) | 5.36 5.10 x + = | 5.36:dollar 5.10:dollar x:dollar +:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 10.46 | 10.46 | (x-5.36)=5.10 | x 5.36 - 5.10 = | x:dollar 5.36:dollar -:dollar 5.10:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 10.46 | 27.336 | (x/5.36)=5.10 | x 5.36 / 5.10 = | x:total 5.36:dollar /:total 5.10:total =:total
+EXPR: 0 | POS | FRA | 20 | 10.46 | 0.951492537313433 | (5.10/5.36)=x | 5.10 5.36 / x = | 5.10:total 5.36:dollar /:total x:total =:total
+EXPR: 0 | POS | FRA | 20 | 10.46 | 0.951492537313433 | x=(5.10/5.36) | x 5.10 5.36 / = | x:total 5.10:total 5.36:dollar /:total =:total
+EXPR: 0 | POS | FRA | 22 | 10.46 | 27.336 | (x/5.10)=5.36 | x 5.10 / 5.36 = | x:total 5.10:dollar /:total 5.36:total =:total
+EXPR: 1 | POS | FRA | 22 | 10.46 | 10.46 | (x-5.10)=5.36 | x 5.10 - 5.36 = | x:dollar 5.10:dollar -:dollar 5.36:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 10.46 | 0.260000000000001 | (5.10+x)=5.36 | 5.10 x + 5.36 = | 5.10:dollar x:dollar +:dollar 5.36:dollar =:dollar
+EXPR: 1 | POS | FRA | 22 | 10.46 | 10.46 | 5.10=(x-5.36) | 5.10 x 5.36 - = | 5.10:dollar x:dollar 5.36:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 10.46 | 0.260000000000001 | (x+5.10)=5.36 | x 5.10 + 5.36 = | x:dollar 5.10:dollar +:dollar 5.36:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 10.46 | 27.336 | 5.10=(x/5.36) | 5.10 x 5.36 / = | 5.10:total x:total 5.36:dollar /:total =:total
+EXPR: 0 | POS | FRA | 22 | 10.46 | 0.260000000000001 | 5.10=(5.36-x) | 5.10 5.36 x - = | 5.10:dollar 5.36:dollar x:dollar -:dollar =:dollar
+NET 36 unique, non-negative solutions found out of 136 total solutions

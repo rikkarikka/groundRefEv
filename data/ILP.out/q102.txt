@@ -1,0 +1,7 @@
+constants : 45 5
+unknowns : x
+operators : + - * / =
+objtypes : hour day LENGTH
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 9.0

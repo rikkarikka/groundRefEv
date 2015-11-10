@@ -1,0 +1,7 @@
+constants : 4 14
+unknowns : x
+operators : + - * / =
+objtypes : half-dollar amount
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 9.0

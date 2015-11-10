@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 182 | 182 | x=(13*14) | x 13 14 * = | x:game 13:game 14:month *:game =:game
+EXPR: 1 | POS | INT | 0 | 182 | 182 | (13*14)=x | 13 14 * x = | 13:game 14:month *:game x:game =:game
+EXPR: 1 | POS | INT | 2 | 182 | 182 | 13=(x/14) | 13 x 14 / = | 13:game x:game 14:month /:game =:game
+EXPR: 0 | POS | INT | 10 | 182 | 27 | x=(13+14) | x 13 14 + = | x:game 13:game 14:game +:game =:game
+EXPR: 0 | POS | INT | 10 | 182 | 27 | (13+14)=x | 13 14 + x = | 13:game 14:game +:game x:game =:game
+EXPR: 0 | POS | INT | 12 | 182 | 27 | 13=(x-14) | 13 x 14 - = | 13:game x:game 14:game -:game =:game
+EXPR: 0 | POS | INT | 12 | 182 | 1 | (x+13)=14 | x 13 + 14 = | x:game 13:game +:game 14:game =:game
+EXPR: 0 | POS | INT | 12 | 182 | 27 | (x-13)=14 | x 13 - 14 = | x:game 13:game -:game 14:game =:game
+EXPR: 0 | POS | INT | 12 | 182 | 1 | 13=(14-x) | 13 14 x - = | 13:game 14:game x:game -:game =:game
+EXPR: 0 | POS | INT | 12 | 182 | 1 | (13+x)=14 | 13 x + 14 = | 13:game x:game +:game 14:game =:game
+EXPR: 1 | POS | INT | 12 | 182 | 182 | (x/13)=14 | x 13 / 14 = | x:month 13:game /:month 14:month =:month
+EXPR: 1 | POS | INT | 12 | 182 | 182 | (x/14)=13 | x 14 / 13 = | x:game 14:month /:game 13:game =:game
+EXPR: 0 | POS | INT | 20 | 182 | 1 | (14-13)=x | 14 13 - x = | 14:game 13:game -:game x:game =:game
+EXPR: 0 | POS | INT | 20 | 182 | 1 | x=(14-13) | x 14 13 - = | x:game 14:game 13:game -:game =:game
+EXPR: 0 | POS | INT | 22 | 182 | 1 | 14=(x+13) | 14 x 13 + = | 14:game x:game 13:game +:game =:game
+EXPR: 0 | POS | INT | 22 | 182 | 1 | (14-x)=13 | 14 x - 13 = | 14:game x:game -:game 13:game =:game
+EXPR: 0 | POS | INT | 22 | 182 | 27 | 14=(x-13) | 14 x 13 - = | 14:game x:game 13:game -:game =:game
+EXPR: 1 | POS | INT | 22 | 182 | 182 | 14=(x/13) | 14 x 13 / = | 14:month x:month 13:game /:month =:month
+EXPR: 0 | POS | INT | 22 | 182 | 1 | 14=(13+x) | 14 13 x + = | 14:game 13:game x:game +:game =:game
+EXPR: 0 | POS | INT | 22 | 182 | 27 | (x-14)=13 | x 14 - 13 = | x:game 14:game -:game 13:game =:game
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

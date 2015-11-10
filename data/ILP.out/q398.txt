@@ -1,0 +1,7 @@
+constants : 324 9
+unknowns : x
+operators : + - * / =
+objtypes : drum day
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 2916

@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 21.95 | 1.14774951076321 | 10.22=(11.73/x) | 10.22 11.73 x / = | 10.22:dollar 11.73:dollar x:cost /:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 21.95 | 0.871270247229327 | 10.22=(x*11.73) | 10.22 x 11.73 * = | 10.22:dollar x:cost 11.73:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 21.95 | 0.871270247229327 | 10.22=(11.73*x) | 10.22 11.73 x * = | 10.22:dollar 11.73:dollar x:cost *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 21.95 | 1.14774951076321 | (x*10.22)=11.73 | x 10.22 * 11.73 = | x:cost 10.22:dollar *:dollar 11.73:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 21.95 | 1.14774951076321 | (10.22*x)=11.73 | 10.22 x * 11.73 = | 10.22:dollar x:cost *:dollar 11.73:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 21.95 | 0.871270247229327 | (10.22/x)=11.73 | 10.22 x / 11.73 = | 10.22:dollar x:cost /:dollar 11.73:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 21.95 | 119.8806 | (10.22*11.73)=x | 10.22 11.73 * x = | 10.22:dollar 11.73:cost *:cost x:cost =:cost
+EXPR: 1 | POS | FRA | 10 | 21.95 | 21.95 | (10.22+11.73)=x | 10.22 11.73 + x = | 10.22:dollar 11.73:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 21.95 | 119.8806 | x=(10.22*11.73) | x 10.22 11.73 * = | x:cost 10.22:dollar 11.73:cost *:cost =:cost
+EXPR: 1 | POS | FRA | 10 | 21.95 | 21.95 | x=(10.22+11.73) | x 10.22 11.73 + = | x:dollar 10.22:dollar 11.73:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 21.95 | 0.871270247229327 | x=(10.22/11.73) | x 10.22 11.73 / = | x:cost 10.22:cost 11.73:dollar /:cost =:cost
+EXPR: 0 | POS | FRA | 10 | 21.95 | 0.871270247229327 | (10.22/11.73)=x | 10.22 11.73 / x = | 10.22:cost 11.73:dollar /:cost x:cost =:cost
+EXPR: 0 | POS | FRA | 12 | 21.95 | 0.871270247229327 | 11.73=(10.22/x) | 11.73 10.22 x / = | 11.73:dollar 10.22:dollar x:cost /:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.95 | 0.871270247229327 | (x*11.73)=10.22 | x 11.73 * 10.22 = | x:cost 11.73:dollar *:dollar 10.22:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.95 | 119.8806 | 10.22=(x/11.73) | 10.22 x 11.73 / = | 10.22:cost x:cost 11.73:dollar /:cost =:cost
+EXPR: 0 | POS | FRA | 12 | 21.95 | 1.14774951076321 | 11.73=(10.22*x) | 11.73 10.22 x * = | 11.73:dollar 10.22:dollar x:cost *:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 21.95 | 21.95 | 10.22=(x-11.73) | 10.22 x 11.73 - = | 10.22:dollar x:dollar 11.73:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.95 | 1.14774951076321 | 11.73=(x*10.22) | 11.73 x 10.22 * = | 11.73:dollar x:cost 10.22:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.95 | 1.51 | 10.22=(11.73-x) | 10.22 11.73 x - = | 10.22:dollar 11.73:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.95 | 0.871270247229327 | (11.73*x)=10.22 | 11.73 x * 10.22 = | 11.73:dollar x:cost *:dollar 10.22:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.95 | 1.14774951076321 | (11.73/x)=10.22 | 11.73 x / 10.22 = | 11.73:dollar x:cost /:dollar 10.22:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.95 | 1.51 | (x+10.22)=11.73 | x 10.22 + 11.73 = | x:dollar 10.22:dollar +:dollar 11.73:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.95 | 1.51 | (10.22+x)=11.73 | 10.22 x + 11.73 = | 10.22:dollar x:dollar +:dollar 11.73:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 21.95 | 21.95 | (x-10.22)=11.73 | x 10.22 - 11.73 = | x:dollar 10.22:dollar -:dollar 11.73:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.95 | 119.8806 | (x/10.22)=11.73 | x 10.22 / 11.73 = | x:cost 10.22:dollar /:cost 11.73:cost =:cost
+EXPR: 0 | POS | FRA | 20 | 21.95 | 1.14774951076321 | (11.73/10.22)=x | 11.73 10.22 / x = | 11.73:cost 10.22:dollar /:cost x:cost =:cost
+EXPR: 0 | POS | FRA | 20 | 21.95 | 1.51 | x=(11.73-10.22) | x 11.73 10.22 - = | x:dollar 11.73:dollar 10.22:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 21.95 | 1.51 | (11.73-10.22)=x | 11.73 10.22 - x = | 11.73:dollar 10.22:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 21.95 | 1.14774951076321 | x=(11.73/10.22) | x 11.73 10.22 / = | x:cost 11.73:cost 10.22:dollar /:cost =:cost
+EXPR: 0 | POS | FRA | 22 | 21.95 | 1.51 | (11.73-x)=10.22 | 11.73 x - 10.22 = | 11.73:dollar x:dollar -:dollar 10.22:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 21.95 | 119.8806 | (x/11.73)=10.22 | x 11.73 / 10.22 = | x:cost 11.73:dollar /:cost 10.22:cost =:cost
+EXPR: 1 | POS | FRA | 22 | 21.95 | 21.95 | (x-11.73)=10.22 | x 11.73 - 10.22 = | x:dollar 11.73:dollar -:dollar 10.22:dollar =:dollar
+EXPR: 1 | POS | FRA | 22 | 21.95 | 21.95 | 11.73=(x-10.22) | 11.73 x 10.22 - = | 11.73:dollar x:dollar 10.22:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 21.95 | 1.51 | 11.73=(x+10.22) | 11.73 x 10.22 + = | 11.73:dollar x:dollar 10.22:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 21.95 | 1.51 | 11.73=(10.22+x) | 11.73 10.22 x + = | 11.73:dollar 10.22:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 21.95 | 119.8806 | 11.73=(x/10.22) | 11.73 x 10.22 / = | 11.73:cost x:cost 10.22:dollar /:cost =:cost
+NET 36 unique, non-negative solutions found out of 136 total solutions

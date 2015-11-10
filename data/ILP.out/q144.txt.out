@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 72 | 72 | (6*12)=x | 6 12 * x = | 6:dozen 12:egg *:egg x:egg =:egg
+EXPR: 1 | POS | INT | 0 | 72 | 72 | x=(6*12) | x 6 12 * = | x:egg 6:dozen 12:egg *:egg =:egg
+EXPR: 1 | POS | INT | 2 | 72 | 72 | (x/6)=12 | x 6 / 12 = | x:egg 6:dozen /:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 2 | 72 | 2 | (x*6)=12 | x 6 * 12 = | x:egg 6:dozen *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 2 | 72 | 2 | (6*x)=12 | 6 x * 12 = | 6:dozen x:egg *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 10 | 72 | 2 | x=(12/6) | x 12 6 / = | x:egg 12:egg 6:dozen /:egg =:egg
+EXPR: 0 | POS | INT | 10 | 72 | 18 | (6+12)=x | 6 12 + x = | 6:egg 12:egg +:egg x:egg =:egg
+EXPR: 0 | POS | INT | 10 | 72 | 2 | (12/6)=x | 12 6 / x = | 12:egg 6:dozen /:egg x:egg =:egg
+EXPR: 0 | POS | INT | 10 | 72 | 18 | x=(6+12) | x 6 12 + = | x:egg 6:egg 12:egg +:egg =:egg
+EXPR: 1 | POS | INT | 12 | 72 | 72 | 12=(x/6) | 12 x 6 / = | 12:egg x:egg 6:dozen /:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 2 | 12=(x*6) | 12 x 6 * = | 12:egg x:egg 6:dozen *:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 18 | (x-6)=12 | x 6 - 12 = | x:egg 6:egg -:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 6 | (x+6)=12 | x 6 + 12 = | x:egg 6:egg +:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 6 | (6+x)=12 | 6 x + 12 = | 6:egg x:egg +:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 2 | 6=(12/x) | 6 12 x / = | 6:dozen 12:dozen x:egg /:dozen =:dozen
+EXPR: 1 | POS | INT | 12 | 72 | 72 | 6=(x/12) | 6 x 12 / = | 6:dozen x:dozen 12:egg /:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 72 | 6 | 6=(12-x) | 6 12 x - = | 6:egg 12:egg x:egg -:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 18 | 6=(x-12) | 6 x 12 - = | 6:egg x:egg 12:egg -:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 2 | 12=(6*x) | 12 6 x * = | 12:egg 6:dozen x:egg *:egg =:egg
+EXPR: 0 | POS | INT | 20 | 72 | 6 | x=(12-6) | x 12 6 - = | x:egg 12:egg 6:egg -:egg =:egg
+EXPR: 0 | POS | INT | 20 | 72 | 6 | (12-6)=x | 12 6 - x = | 12:egg 6:egg -:egg x:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 18 | (x-12)=6 | x 12 - 6 = | x:egg 12:egg -:egg 6:egg =:egg
+EXPR: 1 | POS | INT | 22 | 72 | 72 | (x/12)=6 | x 12 / 6 = | x:dozen 12:egg /:dozen 6:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 72 | 6 | (12-x)=6 | 12 x - 6 = | 12:egg x:egg -:egg 6:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 6 | 12=(6+x) | 12 6 x + = | 12:egg 6:egg x:egg +:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 18 | 12=(x-6) | 12 x 6 - = | 12:egg x:egg 6:egg -:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 2 | (12/x)=6 | 12 x / 6 = | 12:dozen x:egg /:dozen 6:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 72 | 6 | 12=(x+6) | 12 x 6 + = | 12:egg x:egg 6:egg +:egg =:egg
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

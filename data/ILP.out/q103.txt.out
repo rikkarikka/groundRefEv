@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 9 | 9 | x=(27/3) | x 27 3 / = | x:game 27:game 3:season /:game =:game
+EXPR: 1 | POS | INT | 0 | 9 | 9 | (27/3)=x | 27 3 / x = | 27:game 3:season /:game x:game =:game
+EXPR: 0 | POS | INT | 0 | 9 | 81 | x=(27*3) | x 27 3 * = | x:game 27:game 3:season *:game =:game
+EXPR: 0 | POS | INT | 0 | 9 | 81 | (27*3)=x | 27 3 * x = | 27:game 3:season *:game x:game =:game
+EXPR: 1 | POS | INT | 2 | 9 | 9 | 27=(3*x) | 27 3 x * = | 27:game 3:season x:game *:game =:game
+EXPR: 0 | POS | INT | 2 | 9 | 81 | 27=(x/3) | 27 x 3 / = | 27:game x:game 3:season /:game =:game
+EXPR: 1 | POS | INT | 2 | 9 | 9 | 27=(x*3) | 27 x 3 * = | 27:game x:game 3:season *:game =:game
+EXPR: 0 | POS | INT | 10 | 9 | 24 | (27-3)=x | 27 3 - x = | 27:game 3:game -:game x:game =:game
+EXPR: 0 | POS | INT | 10 | 9 | 30 | x=(27+3) | x 27 3 + = | x:game 27:game 3:game +:game =:game
+EXPR: 0 | POS | INT | 10 | 9 | 24 | x=(27-3) | x 27 3 - = | x:game 27:game 3:game -:game =:game
+EXPR: 0 | POS | INT | 10 | 9 | 30 | (27+3)=x | 27 3 + x = | 27:game 3:game +:game x:game =:game
+EXPR: 0 | POS | INT | 12 | 9 | 24 | 27=(x+3) | 27 x 3 + = | 27:game x:game 3:game +:game =:game
+EXPR: 1 | POS | INT | 12 | 9 | 9 | (27/x)=3 | 27 x / 3 = | 27:season x:game /:season 3:season =:season
+EXPR: 1 | POS | INT | 12 | 9 | 9 | (3*x)=27 | 3 x * 27 = | 3:season x:game *:game 27:game =:game
+EXPR: 0 | POS | INT | 12 | 9 | 30 | 27=(x-3) | 27 x 3 - = | 27:game x:game 3:game -:game =:game
+EXPR: 0 | POS | INT | 12 | 9 | 24 | 27=(3+x) | 27 3 x + = | 27:game 3:game x:game +:game =:game
+EXPR: 0 | POS | INT | 12 | 9 | 30 | (x-27)=3 | x 27 - 3 = | x:game 27:game -:game 3:game =:game
+EXPR: 0 | POS | INT | 12 | 9 | 24 | (27-x)=3 | 27 x - 3 = | 27:game x:game -:game 3:game =:game
+EXPR: 0 | POS | INT | 12 | 9 | 81 | (x/27)=3 | x 27 / 3 = | x:season 27:game /:season 3:season =:season
+EXPR: 0 | POS | INT | 12 | 9 | 81 | (x/3)=27 | x 3 / 27 = | x:game 3:season /:game 27:game =:game
+EXPR: 1 | POS | INT | 12 | 9 | 9 | (x*3)=27 | x 3 * 27 = | x:game 3:season *:game 27:game =:game
+EXPR: 0 | POS | INT | 22 | 9 | 24 | (x+3)=27 | x 3 + 27 = | x:game 3:game +:game 27:game =:game
+EXPR: 1 | POS | INT | 22 | 9 | 9 | 3=(27/x) | 3 27 x / = | 3:season 27:season x:game /:season =:season
+EXPR: 0 | POS | INT | 22 | 9 | 24 | (3+x)=27 | 3 x + 27 = | 3:game x:game +:game 27:game =:game
+EXPR: 0 | POS | INT | 22 | 9 | 30 | 3=(x-27) | 3 x 27 - = | 3:game x:game 27:game -:game =:game
+EXPR: 0 | POS | INT | 22 | 9 | 81 | 3=(x/27) | 3 x 27 / = | 3:season x:season 27:game /:season =:season
+EXPR: 0 | POS | INT | 22 | 9 | 24 | 3=(27-x) | 3 27 x - = | 3:game 27:game x:game -:game =:game
+EXPR: 0 | POS | INT | 22 | 9 | 30 | (x-3)=27 | x 3 - 27 = | x:game 3:game -:game 27:game =:game
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,7 @@
+constants : 1.25 5.25
+unknowns : x
+operators : + - * / =
+objtypes : inch DISTANCE
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 6.5

@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 11 | 17 | x=(3+14) | x 3 14 + = | x:rose 3:rose 14:rose +:rose =:rose
+EXPR: 0 | POS | INT | 0 | 11 | 17 | (3+14)=x | 3 14 + x = | 3:rose 14:rose +:rose x:rose =:rose
+EXPR: 1 | POS | INT | 2 | 11 | 11 | (x+3)=14 | x 3 + 14 = | x:rose 3:rose +:rose 14:rose =:rose
+EXPR: 0 | POS | INT | 2 | 11 | 17 | (x-3)=14 | x 3 - 14 = | x:rose 3:rose -:rose 14:rose =:rose
+EXPR: 1 | POS | INT | 2 | 11 | 11 | (3+x)=14 | 3 x + 14 = | 3:rose x:rose +:rose 14:rose =:rose
+EXPR: 1 | POS | INT | 2 | 11 | 11 | 3=(14-x) | 3 14 x - = | 3:rose 14:rose x:rose -:rose =:rose
+EXPR: 0 | POS | INT | 2 | 11 | 17 | 3=(x-14) | 3 x 14 - = | 3:rose x:rose 14:rose -:rose =:rose
+EXPR: 1 | POS | INT | 10 | 11 | 11 | (14-3)=x | 14 3 - x = | 14:rose 3:rose -:rose x:rose =:rose
+EXPR: 1 | POS | INT | 10 | 11 | 11 | x=(14-3) | x 14 3 - = | x:rose 14:rose 3:rose -:rose =:rose
+EXPR: 0 | POS | INT | 12 | 11 | 17 | (x-14)=3 | x 14 - 3 = | x:rose 14:rose -:rose 3:rose =:rose
+EXPR: 1 | POS | INT | 12 | 11 | 11 | 14=(x+3) | 14 x 3 + = | 14:rose x:rose 3:rose +:rose =:rose
+EXPR: 1 | POS | INT | 12 | 11 | 11 | 14=(3+x) | 14 3 x + = | 14:rose 3:rose x:rose +:rose =:rose
+EXPR: 0 | POS | INT | 12 | 11 | 17 | 14=(x-3) | 14 x 3 - = | 14:rose x:rose 3:rose -:rose =:rose
+EXPR: 1 | POS | INT | 12 | 11 | 11 | (14-x)=3 | 14 x - 3 = | 14:rose x:rose -:rose 3:rose =:rose
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

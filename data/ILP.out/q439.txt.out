@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 135 | 135 | (639-504)=x | 639 504 - x = | 639:crayon 504:crayon -:crayon x:crayon =:crayon
+EXPR: 0 | POS | INT | 0 | 135 | 1143 | x=(639+504) | x 639 504 + = | x:crayon 639:crayon 504:crayon +:crayon =:crayon
+EXPR: 1 | POS | INT | 0 | 135 | 135 | x=(639-504) | x 639 504 - = | x:crayon 639:crayon 504:crayon -:crayon =:crayon
+EXPR: 0 | POS | INT | 0 | 135 | 1143 | (639+504)=x | 639 504 + x = | 639:crayon 504:crayon +:crayon x:crayon =:crayon
+EXPR: 1 | POS | INT | 2 | 135 | 135 | 639=(504+x) | 639 504 x + = | 639:crayon 504:crayon x:crayon +:crayon =:crayon
+EXPR: 0 | POS | INT | 2 | 135 | 1143 | (x-639)=504 | x 639 - 504 = | x:crayon 639:crayon -:crayon 504:crayon =:crayon
+EXPR: 1 | POS | INT | 2 | 135 | 135 | 639=(x+504) | 639 x 504 + = | 639:crayon x:crayon 504:crayon +:crayon =:crayon
+EXPR: 1 | POS | INT | 2 | 135 | 135 | (639-x)=504 | 639 x - 504 = | 639:crayon x:crayon -:crayon 504:crayon =:crayon
+EXPR: 0 | POS | INT | 2 | 135 | 1143 | 639=(x-504) | 639 x 504 - = | 639:crayon x:crayon 504:crayon -:crayon =:crayon
+EXPR: 1 | POS | INT | 12 | 135 | 135 | (x+504)=639 | x 504 + 639 = | x:crayon 504:crayon +:crayon 639:crayon =:crayon
+EXPR: 0 | POS | INT | 12 | 135 | 1143 | (x-504)=639 | x 504 - 639 = | x:crayon 504:crayon -:crayon 639:crayon =:crayon
+EXPR: 1 | POS | INT | 12 | 135 | 135 | (504+x)=639 | 504 x + 639 = | 504:crayon x:crayon +:crayon 639:crayon =:crayon
+EXPR: 0 | POS | INT | 12 | 135 | 1143 | 504=(x-639) | 504 x 639 - = | 504:crayon x:crayon 639:crayon -:crayon =:crayon
+EXPR: 1 | POS | INT | 12 | 135 | 135 | 504=(639-x) | 504 639 x - = | 504:crayon 639:crayon x:crayon -:crayon =:crayon
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

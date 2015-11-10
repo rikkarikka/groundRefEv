@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 20 | 20 | x=(5*4) | x 5 4 * = | x:slice 5:pizza 4:slice *:slice =:slice
+EXPR: 1 | POS | INT | 0 | 20 | 20 | (5*4)=x | 5 4 * x = | 5:pizza 4:slice *:slice x:slice =:slice
+EXPR: 1 | POS | INT | 2 | 20 | 20 | (x/5)=4 | x 5 / 4 = | x:slice 5:pizza /:slice 4:slice =:slice
+EXPR: 0 | POS | INT | 10 | 20 | 9 | x=(5+4) | x 5 4 + = | x:slice 5:slice 4:slice +:slice =:slice
+EXPR: 0 | POS | INT | 10 | 20 | 9 | (5+4)=x | 5 4 + x = | 5:slice 4:slice +:slice x:slice =:slice
+EXPR: 0 | POS | INT | 10 | 20 | 1 | (5-4)=x | 5 4 - x = | 5:slice 4:slice -:slice x:slice =:slice
+EXPR: 0 | POS | INT | 10 | 20 | 1 | x=(5-4) | x 5 4 - = | x:slice 5:slice 4:slice -:slice =:slice
+EXPR: 0 | POS | INT | 12 | 20 | 1 | (5-x)=4 | 5 x - 4 = | 5:slice x:slice -:slice 4:slice =:slice
+EXPR: 0 | POS | INT | 12 | 20 | 1 | 5=(4+x) | 5 4 x + = | 5:slice 4:slice x:slice +:slice =:slice
+EXPR: 1 | POS | INT | 12 | 20 | 20 | 4=(x/5) | 4 x 5 / = | 4:slice x:slice 5:pizza /:slice =:slice
+EXPR: 0 | POS | INT | 12 | 20 | 9 | (x-5)=4 | x 5 - 4 = | x:slice 5:slice -:slice 4:slice =:slice
+EXPR: 0 | POS | INT | 12 | 20 | 1 | 5=(x+4) | 5 x 4 + = | 5:slice x:slice 4:slice +:slice =:slice
+EXPR: 0 | POS | INT | 12 | 20 | 9 | 5=(x-4) | 5 x 4 - = | 5:slice x:slice 4:slice -:slice =:slice
+EXPR: 1 | POS | INT | 12 | 20 | 20 | 5=(x/4) | 5 x 4 / = | 5:pizza x:pizza 4:slice /:pizza =:pizza
+EXPR: 1 | POS | INT | 22 | 20 | 20 | (x/4)=5 | x 4 / 5 = | x:pizza 4:slice /:pizza 5:pizza =:pizza
+EXPR: 0 | POS | INT | 22 | 20 | 1 | 4=(5-x) | 4 5 x - = | 4:slice 5:slice x:slice -:slice =:slice
+EXPR: 0 | POS | INT | 22 | 20 | 1 | (x+4)=5 | x 4 + 5 = | x:slice 4:slice +:slice 5:slice =:slice
+EXPR: 0 | POS | INT | 22 | 20 | 9 | (x-4)=5 | x 4 - 5 = | x:slice 4:slice -:slice 5:slice =:slice
+EXPR: 0 | POS | INT | 22 | 20 | 1 | (4+x)=5 | 4 x + 5 = | 4:slice x:slice +:slice 5:slice =:slice
+EXPR: 0 | POS | INT | 22 | 20 | 9 | 4=(x-5) | 4 x 5 - = | 4:slice x:slice 5:slice -:slice =:slice
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

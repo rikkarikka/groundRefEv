@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 13 | 1573 | x=(143*11) | x 143 11 * = | x:niece 143:sandwich 11:niece *:niece =:niece
+EXPR: 0 | POS | INT | 0 | 13 | 1573 | (143*11)=x | 143 11 * x = | 143:sandwich 11:niece *:niece x:niece =:niece
+EXPR: 0 | POS | INT | 2 | 13 | 1573 | (x/143)=11 | x 143 / 11 = | x:niece 143:sandwich /:niece 11:niece =:niece
+EXPR: 1 | POS | INT | 10 | 13 | 13 | (143/11)=x | 143 11 / x = | 143:sandwich 11:niece /:sandwich x:sandwich =:sandwich
+EXPR: 0 | POS | INT | 10 | 13 | 154 | x=(143+11) | x 143 11 + = | x:niece 143:niece 11:niece +:niece =:niece
+EXPR: 0 | POS | INT | 10 | 13 | 154 | (143+11)=x | 143 11 + x = | 143:niece 11:niece +:niece x:niece =:niece
+EXPR: 1 | POS | INT | 10 | 13 | 13 | x=(143/11) | x 143 11 / = | x:sandwich 143:sandwich 11:niece /:sandwich =:sandwich
+EXPR: 0 | POS | INT | 10 | 13 | 132 | (143-11)=x | 143 11 - x = | 143:niece 11:niece -:niece x:niece =:niece
+EXPR: 0 | POS | INT | 10 | 13 | 132 | x=(143-11) | x 143 11 - = | x:niece 143:niece 11:niece -:niece =:niece
+EXPR: 1 | POS | INT | 12 | 13 | 13 | 143=(x*11) | 143 x 11 * = | 143:sandwich x:niece 11:sandwich *:sandwich =:sandwich
+EXPR: 1 | POS | INT | 12 | 13 | 13 | 143=(11*x) | 143 11 x * = | 143:sandwich 11:sandwich x:niece *:sandwich =:sandwich
+EXPR: 1 | POS | INT | 12 | 13 | 13 | (143/x)=11 | 143 x / 11 = | 143:sandwich x:niece /:sandwich 11:sandwich =:sandwich
+EXPR: 0 | POS | INT | 12 | 13 | 132 | (143-x)=11 | 143 x - 11 = | 143:niece x:niece -:niece 11:niece =:niece
+EXPR: 0 | POS | INT | 12 | 13 | 132 | 143=(11+x) | 143 11 x + = | 143:niece 11:niece x:niece +:niece =:niece
+EXPR: 0 | POS | INT | 12 | 13 | 1573 | 11=(x/143) | 11 x 143 / = | 11:niece x:niece 143:sandwich /:niece =:niece
+EXPR: 0 | POS | INT | 12 | 13 | 154 | (x-143)=11 | x 143 - 11 = | x:niece 143:niece -:niece 11:niece =:niece
+EXPR: 0 | POS | INT | 12 | 13 | 132 | 143=(x+11) | 143 x 11 + = | 143:niece x:niece 11:niece +:niece =:niece
+EXPR: 0 | POS | INT | 12 | 13 | 154 | 143=(x-11) | 143 x 11 - = | 143:niece x:niece 11:niece -:niece =:niece
+EXPR: 0 | POS | INT | 12 | 13 | 1573 | 143=(x/11) | 143 x 11 / = | 143:sandwich x:sandwich 11:niece /:sandwich =:sandwich
+EXPR: 0 | POS | INT | 22 | 13 | 1573 | (x/11)=143 | x 11 / 143 = | x:sandwich 11:niece /:sandwich 143:sandwich =:sandwich
+EXPR: 0 | POS | INT | 22 | 13 | 132 | 11=(143-x) | 11 143 x - = | 11:niece 143:niece x:niece -:niece =:niece
+EXPR: 1 | POS | INT | 22 | 13 | 13 | (x*11)=143 | x 11 * 143 = | x:niece 11:sandwich *:sandwich 143:sandwich =:sandwich
+EXPR: 0 | POS | INT | 22 | 13 | 132 | (x+11)=143 | x 11 + 143 = | x:niece 11:niece +:niece 143:niece =:niece
+EXPR: 1 | POS | INT | 22 | 13 | 13 | 11=(143/x) | 11 143 x / = | 11:sandwich 143:sandwich x:niece /:sandwich =:sandwich
+EXPR: 1 | POS | INT | 22 | 13 | 13 | (11*x)=143 | 11 x * 143 = | 11:niece x:sandwich *:sandwich 143:sandwich =:sandwich
+EXPR: 0 | POS | INT | 22 | 13 | 154 | (x-11)=143 | x 11 - 143 = | x:niece 11:niece -:niece 143:niece =:niece
+EXPR: 0 | POS | INT | 22 | 13 | 132 | (11+x)=143 | 11 x + 143 = | 11:niece x:niece +:niece 143:niece =:niece
+EXPR: 0 | POS | INT | 22 | 13 | 154 | 11=(x-143) | 11 x 143 - = | 11:niece x:niece 143:niece -:niece =:niece
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

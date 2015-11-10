@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 2 | 2 | x=(10/5) | x 10 5 / = | x:game 10:game 5:month /:game =:game
+EXPR: 1 | POS | INT | 0 | 2 | 2 | (10/5)=x | 10 5 / x = | 10:game 5:month /:game x:game =:game
+EXPR: 0 | POS | INT | 0 | 2 | 50 | x=(10*5) | x 10 5 * = | x:game 10:game 5:month *:game =:game
+EXPR: 0 | POS | INT | 0 | 2 | 50 | (10*5)=x | 10 5 * x = | 10:game 5:month *:game x:game =:game
+EXPR: 1 | POS | INT | 2 | 2 | 2 | 10=(5*x) | 10 5 x * = | 10:game 5:month x:game *:game =:game
+EXPR: 0 | POS | INT | 2 | 2 | 50 | 10=(x/5) | 10 x 5 / = | 10:game x:game 5:month /:game =:game
+EXPR: 1 | POS | INT | 2 | 2 | 2 | 10=(x*5) | 10 x 5 * = | 10:game x:game 5:month *:game =:game
+EXPR: 0 | POS | INT | 10 | 2 | 5 | (10-5)=x | 10 5 - x = | 10:game 5:game -:game x:game =:game
+EXPR: 0 | POS | INT | 10 | 2 | 15 | x=(10+5) | x 10 5 + = | x:game 10:game 5:game +:game =:game
+EXPR: 0 | POS | INT | 10 | 2 | 5 | x=(10-5) | x 10 5 - = | x:game 10:game 5:game -:game =:game
+EXPR: 0 | POS | INT | 10 | 2 | 15 | (10+5)=x | 10 5 + x = | 10:game 5:game +:game x:game =:game
+EXPR: 0 | POS | INT | 12 | 2 | 5 | 10=(x+5) | 10 x 5 + = | 10:game x:game 5:game +:game =:game
+EXPR: 1 | POS | INT | 12 | 2 | 2 | (10/x)=5 | 10 x / 5 = | 10:month x:game /:month 5:month =:month
+EXPR: 1 | POS | INT | 12 | 2 | 2 | (5*x)=10 | 5 x * 10 = | 5:month x:game *:game 10:game =:game
+EXPR: 0 | POS | INT | 12 | 2 | 15 | 10=(x-5) | 10 x 5 - = | 10:game x:game 5:game -:game =:game
+EXPR: 0 | POS | INT | 12 | 2 | 5 | 10=(5+x) | 10 5 x + = | 10:game 5:game x:game +:game =:game
+EXPR: 0 | POS | INT | 12 | 2 | 15 | (x-10)=5 | x 10 - 5 = | x:game 10:game -:game 5:game =:game
+EXPR: 0 | POS | INT | 12 | 2 | 5 | (10-x)=5 | 10 x - 5 = | 10:game x:game -:game 5:game =:game
+EXPR: 0 | POS | INT | 12 | 2 | 50 | (x/10)=5 | x 10 / 5 = | x:month 10:game /:month 5:month =:month
+EXPR: 0 | POS | INT | 12 | 2 | 50 | (x/5)=10 | x 5 / 10 = | x:game 5:month /:game 10:game =:game
+EXPR: 1 | POS | INT | 12 | 2 | 2 | (x*5)=10 | x 5 * 10 = | x:game 5:month *:game 10:game =:game
+EXPR: 0 | POS | INT | 22 | 2 | 5 | (x+5)=10 | x 5 + 10 = | x:game 5:game +:game 10:game =:game
+EXPR: 1 | POS | INT | 22 | 2 | 2 | 5=(10/x) | 5 10 x / = | 5:month 10:month x:game /:month =:month
+EXPR: 0 | POS | INT | 22 | 2 | 5 | (5+x)=10 | 5 x + 10 = | 5:game x:game +:game 10:game =:game
+EXPR: 0 | POS | INT | 22 | 2 | 15 | 5=(x-10) | 5 x 10 - = | 5:game x:game 10:game -:game =:game
+EXPR: 0 | POS | INT | 22 | 2 | 50 | 5=(x/10) | 5 x 10 / = | 5:month x:month 10:game /:month =:month
+EXPR: 0 | POS | INT | 22 | 2 | 5 | 5=(10-x) | 5 10 x - = | 5:game 10:game x:game -:game =:game
+EXPR: 0 | POS | INT | 22 | 2 | 15 | (x-5)=10 | x 5 - 10 = | x:game 5:game -:game 10:game =:game
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 48 | 48 | x=(10+38) | x 10 38 + = | x:book 10:book 38:book +:book =:book
+EXPR: 1 | POS | INT | 0 | 48 | 48 | (10+38)=x | 10 38 + x = | 10:book 38:book +:book x:book =:book
+EXPR: 0 | POS | INT | 2 | 48 | 28 | (x+10)=38 | x 10 + 38 = | x:book 10:book +:book 38:book =:book
+EXPR: 1 | POS | INT | 2 | 48 | 48 | (x-10)=38 | x 10 - 38 = | x:book 10:book -:book 38:book =:book
+EXPR: 0 | POS | INT | 2 | 48 | 28 | (10+x)=38 | 10 x + 38 = | 10:book x:book +:book 38:book =:book
+EXPR: 0 | POS | INT | 2 | 48 | 28 | 10=(38-x) | 10 38 x - = | 10:book 38:book x:book -:book =:book
+EXPR: 1 | POS | INT | 2 | 48 | 48 | 10=(x-38) | 10 x 38 - = | 10:book x:book 38:book -:book =:book
+EXPR: 0 | POS | INT | 10 | 48 | 28 | (38-10)=x | 38 10 - x = | 38:book 10:book -:book x:book =:book
+EXPR: 0 | POS | INT | 10 | 48 | 28 | x=(38-10) | x 38 10 - = | x:book 38:book 10:book -:book =:book
+EXPR: 1 | POS | INT | 12 | 48 | 48 | (x-38)=10 | x 38 - 10 = | x:book 38:book -:book 10:book =:book
+EXPR: 0 | POS | INT | 12 | 48 | 28 | 38=(x+10) | 38 x 10 + = | 38:book x:book 10:book +:book =:book
+EXPR: 0 | POS | INT | 12 | 48 | 28 | 38=(10+x) | 38 10 x + = | 38:book 10:book x:book +:book =:book
+EXPR: 1 | POS | INT | 12 | 48 | 48 | 38=(x-10) | 38 x 10 - = | 38:book x:book 10:book -:book =:book
+EXPR: 0 | POS | INT | 12 | 48 | 28 | (38-x)=10 | 38 x - 10 = | 38:book x:book -:book 10:book =:book
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

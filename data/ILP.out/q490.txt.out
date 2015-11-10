@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 68 | 492 | x=(212+280) | x 212 280 + = | x:fish 212:fish 280:fish +:fish =:fish
+EXPR: 0 | POS | INT | 0 | 68 | 492 | (212+280)=x | 212 280 + x = | 212:fish 280:fish +:fish x:fish =:fish
+EXPR: 1 | POS | INT | 2 | 68 | 68 | (x+212)=280 | x 212 + 280 = | x:fish 212:fish +:fish 280:fish =:fish
+EXPR: 0 | POS | INT | 2 | 68 | 492 | (x-212)=280 | x 212 - 280 = | x:fish 212:fish -:fish 280:fish =:fish
+EXPR: 1 | POS | INT | 2 | 68 | 68 | (212+x)=280 | 212 x + 280 = | 212:fish x:fish +:fish 280:fish =:fish
+EXPR: 1 | POS | INT | 2 | 68 | 68 | 212=(280-x) | 212 280 x - = | 212:fish 280:fish x:fish -:fish =:fish
+EXPR: 0 | POS | INT | 2 | 68 | 492 | 212=(x-280) | 212 x 280 - = | 212:fish x:fish 280:fish -:fish =:fish
+EXPR: 1 | POS | INT | 10 | 68 | 68 | (280-212)=x | 280 212 - x = | 280:fish 212:fish -:fish x:fish =:fish
+EXPR: 1 | POS | INT | 10 | 68 | 68 | x=(280-212) | x 280 212 - = | x:fish 280:fish 212:fish -:fish =:fish
+EXPR: 0 | POS | INT | 12 | 68 | 492 | (x-280)=212 | x 280 - 212 = | x:fish 280:fish -:fish 212:fish =:fish
+EXPR: 1 | POS | INT | 12 | 68 | 68 | 280=(x+212) | 280 x 212 + = | 280:fish x:fish 212:fish +:fish =:fish
+EXPR: 1 | POS | INT | 12 | 68 | 68 | 280=(212+x) | 280 212 x + = | 280:fish 212:fish x:fish +:fish =:fish
+EXPR: 0 | POS | INT | 12 | 68 | 492 | 280=(x-212) | 280 x 212 - = | 280:fish x:fish 212:fish -:fish =:fish
+EXPR: 1 | POS | INT | 12 | 68 | 68 | (280-x)=212 | 280 x - 212 = | 280:fish x:fish -:fish 212:fish =:fish
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

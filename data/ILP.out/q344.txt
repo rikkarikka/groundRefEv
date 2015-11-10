@@ -1,0 +1,7 @@
+constants : 0.3333333333333333 0.3333333333333333 0.08333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : mile
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.75

@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 2.5 | 10 | x=(5*2) | x 5 2 * = | x:loaf 5:cup 2:loaf *:loaf =:loaf
+EXPR: 0 | POS | INT | 0 | 2.5 | 10 | (5*2)=x | 5 2 * x = | 5:cup 2:loaf *:loaf x:loaf =:loaf
+EXPR: 0 | POS | INT | 2 | 2.5 | 10 | (x/5)=2 | x 5 / 2 = | x:loaf 5:cup /:loaf 2:loaf =:loaf
+EXPR: 0 | POS | INT | 10 | 2.5 | 7 | x=(5+2) | x 5 2 + = | x:loaf 5:loaf 2:loaf +:loaf =:loaf
+EXPR: 0 | POS | INT | 10 | 2.5 | 7 | (5+2)=x | 5 2 + x = | 5:loaf 2:loaf +:loaf x:loaf =:loaf
+EXPR: 0 | POS | INT | 10 | 2.5 | 3 | (5-2)=x | 5 2 - x = | 5:loaf 2:loaf -:loaf x:loaf =:loaf
+EXPR: 0 | POS | INT | 10 | 2.5 | 3 | x=(5-2) | x 5 2 - = | x:loaf 5:loaf 2:loaf -:loaf =:loaf
+EXPR: 0 | POS | INT | 12 | 2.5 | 3 | (5-x)=2 | 5 x - 2 = | 5:loaf x:loaf -:loaf 2:loaf =:loaf
+EXPR: 0 | POS | INT | 12 | 2.5 | 3 | 5=(2+x) | 5 2 x + = | 5:loaf 2:loaf x:loaf +:loaf =:loaf
+EXPR: 0 | POS | INT | 12 | 2.5 | 10 | 2=(x/5) | 2 x 5 / = | 2:loaf x:loaf 5:cup /:loaf =:loaf
+EXPR: 0 | POS | INT | 12 | 2.5 | 7 | (x-5)=2 | x 5 - 2 = | x:loaf 5:loaf -:loaf 2:loaf =:loaf
+EXPR: 0 | POS | INT | 12 | 2.5 | 3 | 5=(x+2) | 5 x 2 + = | 5:loaf x:loaf 2:loaf +:loaf =:loaf
+EXPR: 0 | POS | INT | 12 | 2.5 | 7 | 5=(x-2) | 5 x 2 - = | 5:loaf x:loaf 2:loaf -:loaf =:loaf
+EXPR: 0 | POS | INT | 12 | 2.5 | 10 | 5=(x/2) | 5 x 2 / = | 5:cup x:cup 2:loaf /:cup =:cup
+EXPR: 0 | POS | INT | 22 | 2.5 | 10 | (x/2)=5 | x 2 / 5 = | x:cup 2:loaf /:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 22 | 2.5 | 3 | 2=(5-x) | 2 5 x - = | 2:loaf 5:loaf x:loaf -:loaf =:loaf
+EXPR: 0 | POS | INT | 22 | 2.5 | 3 | (x+2)=5 | x 2 + 5 = | x:loaf 2:loaf +:loaf 5:loaf =:loaf
+EXPR: 0 | POS | INT | 22 | 2.5 | 7 | (x-2)=5 | x 2 - 5 = | x:loaf 2:loaf -:loaf 5:loaf =:loaf
+EXPR: 0 | POS | INT | 22 | 2.5 | 3 | (2+x)=5 | 2 x + 5 = | 2:loaf x:loaf +:loaf 5:loaf =:loaf
+EXPR: 0 | POS | INT | 22 | 2.5 | 7 | 2=(x-5) | 2 x 5 - = | 2:loaf x:loaf 5:loaf -:loaf =:loaf
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

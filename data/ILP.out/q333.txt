@@ -1,0 +1,7 @@
+constants : 0.125 0.125 0.5
+unknowns : x
+operators : + - * / =
+objtypes : bin
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.75

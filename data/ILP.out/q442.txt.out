@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 426 | 426 | (6*71)=x | 6 71 * x = | 6:package 71:t-shirt *:t-shirt x:t-shirt =:t-shirt
+EXPR: 0 | POS | INT | 10 | 426 | 77 | (6+71)=x | 6 71 + x = | 6:package 71:package +:package x:package =:package
+EXPR: 1 | POS | INT | 10 | 426 | 426 | x=(6*71) | x 6 71 * = | x:t-shirt 6:package 71:t-shirt *:t-shirt =:t-shirt
+EXPR: 0 | POS | INT | 10 | 426 | 77 | x=(6+71) | x 6 71 + = | x:package 6:package 71:package +:package =:package
+EXPR: 1 | POS | INT | 12 | 426 | 426 | 6=(x/71) | 6 x 71 / = | 6:t-shirt x:t-shirt 71:package /:t-shirt =:t-shirt
+EXPR: 0 | POS | INT | 12 | 426 | 77 | 6=(x-71) | 6 x 71 - = | 6:package x:package 71:package -:package =:package
+EXPR: 0 | POS | INT | 12 | 426 | 65 | 6=(71-x) | 6 71 x - = | 6:package 71:package x:package -:package =:package
+EXPR: 0 | POS | INT | 12 | 426 | 65 | (x+6)=71 | x 6 + 71 = | x:package 6:package +:package 71:package =:package
+EXPR: 0 | POS | INT | 12 | 426 | 65 | (6+x)=71 | 6 x + 71 = | 6:package x:package +:package 71:package =:package
+EXPR: 0 | POS | INT | 12 | 426 | 77 | (x-6)=71 | x 6 - 71 = | x:package 6:package -:package 71:package =:package
+EXPR: 1 | POS | INT | 12 | 426 | 426 | (x/6)=71 | x 6 / 71 = | x:t-shirt 6:package /:t-shirt 71:t-shirt =:t-shirt
+EXPR: 0 | POS | INT | 20 | 426 | 65 | x=(71-6) | x 71 6 - = | x:package 71:package 6:package -:package =:package
+EXPR: 0 | POS | INT | 20 | 426 | 65 | (71-6)=x | 71 6 - x = | 71:package 6:package -:package x:package =:package
+EXPR: 0 | POS | INT | 22 | 426 | 65 | (71-x)=6 | 71 x - 6 = | 71:package x:package -:package 6:package =:package
+EXPR: 1 | POS | INT | 22 | 426 | 426 | (x/71)=6 | x 71 / 6 = | x:t-shirt 71:package /:t-shirt 6:t-shirt =:t-shirt
+EXPR: 0 | POS | INT | 22 | 426 | 77 | (x-71)=6 | x 71 - 6 = | x:package 71:package -:package 6:package =:package
+EXPR: 0 | POS | INT | 22 | 426 | 77 | 71=(x-6) | 71 x 6 - = | 71:package x:package 6:package -:package =:package
+EXPR: 0 | POS | INT | 22 | 426 | 65 | 71=(x+6) | 71 x 6 + = | 71:package x:package 6:package +:package =:package
+EXPR: 0 | POS | INT | 22 | 426 | 65 | 71=(6+x) | 71 6 x + = | 71:package 6:package x:package +:package =:package
+EXPR: 1 | POS | INT | 22 | 426 | 426 | 71=(x/6) | 71 x 6 / = | 71:t-shirt x:t-shirt 6:package /:t-shirt =:t-shirt
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

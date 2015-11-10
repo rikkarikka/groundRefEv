@@ -1,0 +1,7 @@
+constants : 0.3 0.4
+unknowns : x
+operators : + - * / =
+objtypes : cup
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.7

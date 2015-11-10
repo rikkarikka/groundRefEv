@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 26 | 82 | x=(28+54) | x 28 54 + = | x:bale 28:bale 54:bale +:bale =:bale
+EXPR: 0 | POS | INT | 0 | 26 | 82 | (28+54)=x | 28 54 + x = | 28:bale 54:bale +:bale x:bale =:bale
+EXPR: 1 | POS | INT | 2 | 26 | 26 | (x+28)=54 | x 28 + 54 = | x:bale 28:bale +:bale 54:bale =:bale
+EXPR: 0 | POS | INT | 2 | 26 | 82 | (x-28)=54 | x 28 - 54 = | x:bale 28:bale -:bale 54:bale =:bale
+EXPR: 1 | POS | INT | 2 | 26 | 26 | (28+x)=54 | 28 x + 54 = | 28:bale x:bale +:bale 54:bale =:bale
+EXPR: 1 | POS | INT | 2 | 26 | 26 | 28=(54-x) | 28 54 x - = | 28:bale 54:bale x:bale -:bale =:bale
+EXPR: 0 | POS | INT | 2 | 26 | 82 | 28=(x-54) | 28 x 54 - = | 28:bale x:bale 54:bale -:bale =:bale
+EXPR: 1 | POS | INT | 10 | 26 | 26 | (54-28)=x | 54 28 - x = | 54:bale 28:bale -:bale x:bale =:bale
+EXPR: 1 | POS | INT | 10 | 26 | 26 | x=(54-28) | x 54 28 - = | x:bale 54:bale 28:bale -:bale =:bale
+EXPR: 0 | POS | INT | 12 | 26 | 82 | (x-54)=28 | x 54 - 28 = | x:bale 54:bale -:bale 28:bale =:bale
+EXPR: 1 | POS | INT | 12 | 26 | 26 | 54=(x+28) | 54 x 28 + = | 54:bale x:bale 28:bale +:bale =:bale
+EXPR: 1 | POS | INT | 12 | 26 | 26 | 54=(28+x) | 54 28 x + = | 54:bale 28:bale x:bale +:bale =:bale
+EXPR: 0 | POS | INT | 12 | 26 | 82 | 54=(x-28) | 54 x 28 - = | 54:bale x:bale 28:bale -:bale =:bale
+EXPR: 1 | POS | INT | 12 | 26 | 26 | (54-x)=28 | 54 x - 28 = | 54:bale x:bale -:bale 28:bale =:bale
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

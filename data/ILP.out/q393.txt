@@ -1,0 +1,7 @@
+constants : 56 9
+unknowns : x
+operators : + - * / =
+objtypes : book bookshelf
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 504

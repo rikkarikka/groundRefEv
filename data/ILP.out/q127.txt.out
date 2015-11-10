@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 6 | 6 | x=(2+4) | x 2 4 + = | x:bush 2:bush 4:bush +:bush =:bush
+EXPR: 1 | POS | INT | 0 | 6 | 6 | (2+4)=x | 2 4 + x = | 2:bush 4:bush +:bush x:bush =:bush
+EXPR: 0 | POS | INT | 2 | 6 | 2 | (x+2)=4 | x 2 + 4 = | x:bush 2:bush +:bush 4:bush =:bush
+EXPR: 1 | POS | INT | 2 | 6 | 6 | (x-2)=4 | x 2 - 4 = | x:bush 2:bush -:bush 4:bush =:bush
+EXPR: 0 | POS | INT | 2 | 6 | 2 | (2+x)=4 | 2 x + 4 = | 2:bush x:bush +:bush 4:bush =:bush
+EXPR: 0 | POS | INT | 2 | 6 | 2 | 2=(4-x) | 2 4 x - = | 2:bush 4:bush x:bush -:bush =:bush
+EXPR: 1 | POS | INT | 2 | 6 | 6 | 2=(x-4) | 2 x 4 - = | 2:bush x:bush 4:bush -:bush =:bush
+EXPR: 0 | POS | INT | 10 | 6 | 2 | (4-2)=x | 4 2 - x = | 4:bush 2:bush -:bush x:bush =:bush
+EXPR: 0 | POS | INT | 10 | 6 | 2 | x=(4-2) | x 4 2 - = | x:bush 4:bush 2:bush -:bush =:bush
+EXPR: 1 | POS | INT | 12 | 6 | 6 | (x-4)=2 | x 4 - 2 = | x:bush 4:bush -:bush 2:bush =:bush
+EXPR: 0 | POS | INT | 12 | 6 | 2 | 4=(x+2) | 4 x 2 + = | 4:bush x:bush 2:bush +:bush =:bush
+EXPR: 0 | POS | INT | 12 | 6 | 2 | 4=(2+x) | 4 2 x + = | 4:bush 2:bush x:bush +:bush =:bush
+EXPR: 1 | POS | INT | 12 | 6 | 6 | 4=(x-2) | 4 x 2 - = | 4:bush x:bush 2:bush -:bush =:bush
+EXPR: 0 | POS | INT | 12 | 6 | 2 | (4-x)=2 | 4 x - 2 = | 4:bush x:bush -:bush 2:bush =:bush
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

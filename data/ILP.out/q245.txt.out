@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 67082 | 67082 | x=(12170+54912) | x 12170 54912 + = | x:ladybug 12170:ladybug 54912:ladybug +:ladybug =:ladybug
+EXPR: 1 | POS | INT | 0 | 67082 | 67082 | (12170+54912)=x | 12170 54912 + x = | 12170:ladybug 54912:ladybug +:ladybug x:ladybug =:ladybug
+EXPR: 0 | POS | INT | 2 | 67082 | 42742 | (x+12170)=54912 | x 12170 + 54912 = | x:ladybug 12170:ladybug +:ladybug 54912:ladybug =:ladybug
+EXPR: 1 | POS | INT | 2 | 67082 | 67082 | (x-12170)=54912 | x 12170 - 54912 = | x:ladybug 12170:ladybug -:ladybug 54912:ladybug =:ladybug
+EXPR: 0 | POS | INT | 2 | 67082 | 42742 | (12170+x)=54912 | 12170 x + 54912 = | 12170:ladybug x:ladybug +:ladybug 54912:ladybug =:ladybug
+EXPR: 0 | POS | INT | 2 | 67082 | 42742 | 12170=(54912-x) | 12170 54912 x - = | 12170:ladybug 54912:ladybug x:ladybug -:ladybug =:ladybug
+EXPR: 1 | POS | INT | 2 | 67082 | 67082 | 12170=(x-54912) | 12170 x 54912 - = | 12170:ladybug x:ladybug 54912:ladybug -:ladybug =:ladybug
+EXPR: 0 | POS | INT | 10 | 67082 | 42742 | (54912-12170)=x | 54912 12170 - x = | 54912:ladybug 12170:ladybug -:ladybug x:ladybug =:ladybug
+EXPR: 0 | POS | INT | 10 | 67082 | 42742 | x=(54912-12170) | x 54912 12170 - = | x:ladybug 54912:ladybug 12170:ladybug -:ladybug =:ladybug
+EXPR: 1 | POS | INT | 12 | 67082 | 67082 | (x-54912)=12170 | x 54912 - 12170 = | x:ladybug 54912:ladybug -:ladybug 12170:ladybug =:ladybug
+EXPR: 0 | POS | INT | 12 | 67082 | 42742 | 54912=(x+12170) | 54912 x 12170 + = | 54912:ladybug x:ladybug 12170:ladybug +:ladybug =:ladybug
+EXPR: 0 | POS | INT | 12 | 67082 | 42742 | 54912=(12170+x) | 54912 12170 x + = | 54912:ladybug 12170:ladybug x:ladybug +:ladybug =:ladybug
+EXPR: 1 | POS | INT | 12 | 67082 | 67082 | 54912=(x-12170) | 54912 x 12170 - = | 54912:ladybug x:ladybug 12170:ladybug -:ladybug =:ladybug
+EXPR: 0 | POS | INT | 12 | 67082 | 42742 | (54912-x)=12170 | 54912 x - 12170 = | 54912:ladybug x:ladybug -:ladybug 12170:ladybug =:ladybug
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

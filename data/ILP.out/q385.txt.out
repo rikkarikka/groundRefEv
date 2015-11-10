@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 7.26 | 0.65 | 4.4=(2.86/x) | 4.4 2.86 x / = | 4.4:foot 2.86:foot x:UNKNOWN /:foot =:foot
+EXPR: 0 | POS | FRA | 2 | 7.26 | 1.53846153846154 | 4.4=(x*2.86) | 4.4 x 2.86 * = | 4.4:foot x:UNKNOWN 2.86:foot *:foot =:foot
+EXPR: 0 | POS | FRA | 2 | 7.26 | 1.53846153846154 | 4.4=(2.86*x) | 4.4 2.86 x * = | 4.4:foot 2.86:foot x:UNKNOWN *:foot =:foot
+EXPR: 0 | POS | FRA | 2 | 7.26 | 0.65 | (x*4.4)=2.86 | x 4.4 * 2.86 = | x:UNKNOWN 4.4:foot *:foot 2.86:foot =:foot
+EXPR: 0 | POS | FRA | 2 | 7.26 | 0.65 | (4.4*x)=2.86 | 4.4 x * 2.86 = | 4.4:foot x:UNKNOWN *:foot 2.86:foot =:foot
+EXPR: 0 | POS | FRA | 2 | 7.26 | 1.53846153846154 | (4.4/x)=2.86 | 4.4 x / 2.86 = | 4.4:foot x:UNKNOWN /:foot 2.86:foot =:foot
+EXPR: 0 | POS | FRA | 10 | 7.26 | 12.584 | (4.4*2.86)=x | 4.4 2.86 * x = | 4.4:foot 2.86:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | FRA | 10 | 7.26 | 7.26 | (4.4+2.86)=x | 4.4 2.86 + x = | 4.4:foot 2.86:foot +:foot x:foot =:foot
+EXPR: 0 | POS | FRA | 10 | 7.26 | 1.54 | x=(4.4-2.86) | x 4.4 2.86 - = | x:foot 4.4:foot 2.86:foot -:foot =:foot
+EXPR: 0 | POS | FRA | 10 | 7.26 | 12.584 | x=(4.4*2.86) | x 4.4 2.86 * = | x:UNKNOWN 4.4:foot 2.86:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | FRA | 10 | 7.26 | 7.26 | x=(4.4+2.86) | x 4.4 2.86 + = | x:foot 4.4:foot 2.86:foot +:foot =:foot
+EXPR: 0 | POS | FRA | 10 | 7.26 | 1.54 | (4.4-2.86)=x | 4.4 2.86 - x = | 4.4:foot 2.86:foot -:foot x:foot =:foot
+EXPR: 0 | POS | FRA | 10 | 7.26 | 1.53846153846154 | x=(4.4/2.86) | x 4.4 2.86 / = | x:UNKNOWN 4.4:UNKNOWN 2.86:foot /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 10 | 7.26 | 1.53846153846154 | (4.4/2.86)=x | 4.4 2.86 / x = | 4.4:UNKNOWN 2.86:foot /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 7.26 | 1.53846153846154 | 2.86=(4.4/x) | 2.86 4.4 x / = | 2.86:foot 4.4:foot x:UNKNOWN /:foot =:foot
+EXPR: 0 | POS | FRA | 12 | 7.26 | 1.53846153846154 | (x*2.86)=4.4 | x 2.86 * 4.4 = | x:UNKNOWN 2.86:foot *:foot 4.4:foot =:foot
+EXPR: 0 | POS | FRA | 12 | 7.26 | 12.584 | 4.4=(x/2.86) | 4.4 x 2.86 / = | 4.4:UNKNOWN x:UNKNOWN 2.86:foot /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 7.26 | 0.65 | 2.86=(4.4*x) | 2.86 4.4 x * = | 2.86:foot 4.4:foot x:UNKNOWN *:foot =:foot
+EXPR: 1 | POS | FRA | 12 | 7.26 | 7.26 | 4.4=(x-2.86) | 4.4 x 2.86 - = | 4.4:foot x:foot 2.86:foot -:foot =:foot
+EXPR: 0 | POS | FRA | 12 | 7.26 | 0.65 | 2.86=(x*4.4) | 2.86 x 4.4 * = | 2.86:foot x:UNKNOWN 4.4:foot *:foot =:foot
+EXPR: 0 | POS | FRA | 12 | 7.26 | 1.54 | (4.4-x)=2.86 | 4.4 x - 2.86 = | 4.4:foot x:foot -:foot 2.86:foot =:foot
+EXPR: 0 | POS | FRA | 12 | 7.26 | 1.53846153846154 | (2.86*x)=4.4 | 2.86 x * 4.4 = | 2.86:foot x:UNKNOWN *:foot 4.4:foot =:foot
+EXPR: 0 | POS | FRA | 12 | 7.26 | 0.65 | (2.86/x)=4.4 | 2.86 x / 4.4 = | 2.86:foot x:UNKNOWN /:foot 4.4:foot =:foot
+EXPR: 0 | POS | FRA | 12 | 7.26 | 1.54 | 4.4=(x+2.86) | 4.4 x 2.86 + = | 4.4:foot x:foot 2.86:foot +:foot =:foot
+EXPR: 0 | POS | FRA | 12 | 7.26 | 1.54 | 4.4=(2.86+x) | 4.4 2.86 x + = | 4.4:foot 2.86:foot x:foot +:foot =:foot
+EXPR: 1 | POS | FRA | 12 | 7.26 | 7.26 | (x-4.4)=2.86 | x 4.4 - 2.86 = | x:foot 4.4:foot -:foot 2.86:foot =:foot
+EXPR: 0 | POS | FRA | 12 | 7.26 | 12.584 | (x/4.4)=2.86 | x 4.4 / 2.86 = | x:UNKNOWN 4.4:foot /:UNKNOWN 2.86:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 20 | 7.26 | 0.65 | (2.86/4.4)=x | 2.86 4.4 / x = | 2.86:UNKNOWN 4.4:foot /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 20 | 7.26 | 0.65 | x=(2.86/4.4) | x 2.86 4.4 / = | x:UNKNOWN 2.86:UNKNOWN 4.4:foot /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 22 | 7.26 | 12.584 | (x/2.86)=4.4 | x 2.86 / 4.4 = | x:UNKNOWN 2.86:foot /:UNKNOWN 4.4:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | FRA | 22 | 7.26 | 7.26 | (x-2.86)=4.4 | x 2.86 - 4.4 = | x:foot 2.86:foot -:foot 4.4:foot =:foot
+EXPR: 0 | POS | FRA | 22 | 7.26 | 1.54 | (2.86+x)=4.4 | 2.86 x + 4.4 = | 2.86:foot x:foot +:foot 4.4:foot =:foot
+EXPR: 1 | POS | FRA | 22 | 7.26 | 7.26 | 2.86=(x-4.4) | 2.86 x 4.4 - = | 2.86:foot x:foot 4.4:foot -:foot =:foot
+EXPR: 0 | POS | FRA | 22 | 7.26 | 1.54 | (x+2.86)=4.4 | x 2.86 + 4.4 = | x:foot 2.86:foot +:foot 4.4:foot =:foot
+EXPR: 0 | POS | FRA | 22 | 7.26 | 12.584 | 2.86=(x/4.4) | 2.86 x 4.4 / = | 2.86:UNKNOWN x:UNKNOWN 4.4:foot /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 22 | 7.26 | 1.54 | 2.86=(4.4-x) | 2.86 4.4 x - = | 2.86:foot 4.4:foot x:foot -:foot =:foot
+NET 36 unique, non-negative solutions found out of 136 total solutions

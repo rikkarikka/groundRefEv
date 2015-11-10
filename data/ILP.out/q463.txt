@@ -1,0 +1,7 @@
+constants : 5256 2987
+unknowns : x
+operators : + - * / =
+objtypes : grown-up child people
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 8243

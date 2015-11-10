@@ -1,0 +1,7 @@
+constants : 29 16 20
+unknowns : x
+operators : + - * / =
+objtypes : cantelope
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 65.0

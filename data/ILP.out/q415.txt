@@ -1,0 +1,7 @@
+constants : 8 56
+unknowns : x
+operators : + - * / =
+objtypes : carving shelf
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7

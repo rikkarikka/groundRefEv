@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 360 | 360 | x=(45*8) | x 45 8 * = | x:sack 45:sack 8:section *:sack =:sack
+EXPR: 1 | POS | INT | 0 | 360 | 360 | (45*8)=x | 45 8 * x = | 45:sack 8:section *:sack x:sack =:sack
+EXPR: 1 | POS | INT | 2 | 360 | 360 | 45=(x/8) | 45 x 8 / = | 45:sack x:sack 8:section /:sack =:sack
+EXPR: 0 | POS | INT | 10 | 360 | 37 | (45-8)=x | 45 8 - x = | 45:sack 8:sack -:sack x:sack =:sack
+EXPR: 0 | POS | INT | 10 | 360 | 53 | x=(45+8) | x 45 8 + = | x:sack 45:sack 8:sack +:sack =:sack
+EXPR: 0 | POS | INT | 10 | 360 | 37 | x=(45-8) | x 45 8 - = | x:sack 45:sack 8:sack -:sack =:sack
+EXPR: 0 | POS | INT | 10 | 360 | 53 | (45+8)=x | 45 8 + x = | 45:sack 8:sack +:sack x:sack =:sack
+EXPR: 0 | POS | INT | 12 | 360 | 37 | 45=(x+8) | 45 x 8 + = | 45:sack x:sack 8:sack +:sack =:sack
+EXPR: 0 | POS | INT | 12 | 360 | 53 | 45=(x-8) | 45 x 8 - = | 45:sack x:sack 8:sack -:sack =:sack
+EXPR: 0 | POS | INT | 12 | 360 | 37 | 45=(8+x) | 45 8 x + = | 45:sack 8:sack x:sack +:sack =:sack
+EXPR: 0 | POS | INT | 12 | 360 | 53 | (x-45)=8 | x 45 - 8 = | x:sack 45:sack -:sack 8:sack =:sack
+EXPR: 0 | POS | INT | 12 | 360 | 37 | (45-x)=8 | 45 x - 8 = | 45:sack x:sack -:sack 8:sack =:sack
+EXPR: 1 | POS | INT | 12 | 360 | 360 | (x/45)=8 | x 45 / 8 = | x:section 45:sack /:section 8:section =:section
+EXPR: 1 | POS | INT | 12 | 360 | 360 | (x/8)=45 | x 8 / 45 = | x:sack 8:section /:sack 45:sack =:sack
+EXPR: 0 | POS | INT | 22 | 360 | 37 | (x+8)=45 | x 8 + 45 = | x:sack 8:sack +:sack 45:sack =:sack
+EXPR: 0 | POS | INT | 22 | 360 | 37 | (8+x)=45 | 8 x + 45 = | 8:sack x:sack +:sack 45:sack =:sack
+EXPR: 0 | POS | INT | 22 | 360 | 53 | 8=(x-45) | 8 x 45 - = | 8:sack x:sack 45:sack -:sack =:sack
+EXPR: 1 | POS | INT | 22 | 360 | 360 | 8=(x/45) | 8 x 45 / = | 8:section x:section 45:sack /:section =:section
+EXPR: 0 | POS | INT | 22 | 360 | 37 | 8=(45-x) | 8 45 x - = | 8:sack 45:sack x:sack -:sack =:sack
+EXPR: 0 | POS | INT | 22 | 360 | 53 | (x-8)=45 | x 8 - 45 = | x:sack 8:sack -:sack 45:sack =:sack
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

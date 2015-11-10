@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 0.46 | 0.46 | (0.81-0.35)=x | 0.81 0.35 - x = | 0.81:inch 0.35:inch -:inch x:inch =:inch
+EXPR: 0 | POS | FRA | 0 | 0.46 | 1.16 | x=(0.81+0.35) | x 0.81 0.35 + = | x:inch 0.81:inch 0.35:inch +:inch =:inch
+EXPR: 1 | POS | FRA | 0 | 0.46 | 0.46 | x=(0.81-0.35) | x 0.81 0.35 - = | x:inch 0.81:inch 0.35:inch -:inch =:inch
+EXPR: 0 | POS | FRA | 0 | 0.46 | 1.16 | (0.81+0.35)=x | 0.81 0.35 + x = | 0.81:inch 0.35:inch +:inch x:inch =:inch
+EXPR: 1 | POS | FRA | 2 | 0.46 | 0.46 | 0.81=(0.35+x) | 0.81 0.35 x + = | 0.81:inch 0.35:inch x:inch +:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 0.46 | 1.16 | (x-0.81)=0.35 | x 0.81 - 0.35 = | x:inch 0.81:inch -:inch 0.35:inch =:inch
+EXPR: 1 | POS | FRA | 2 | 0.46 | 0.46 | 0.81=(x+0.35) | 0.81 x 0.35 + = | 0.81:inch x:inch 0.35:inch +:inch =:inch
+EXPR: 1 | POS | FRA | 2 | 0.46 | 0.46 | (0.81-x)=0.35 | 0.81 x - 0.35 = | 0.81:inch x:inch -:inch 0.35:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 0.46 | 1.16 | 0.81=(x-0.35) | 0.81 x 0.35 - = | 0.81:inch x:inch 0.35:inch -:inch =:inch
+EXPR: 1 | POS | FRA | 12 | 0.46 | 0.46 | (x+0.35)=0.81 | x 0.35 + 0.81 = | x:inch 0.35:inch +:inch 0.81:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.46 | 1.16 | (x-0.35)=0.81 | x 0.35 - 0.81 = | x:inch 0.35:inch -:inch 0.81:inch =:inch
+EXPR: 1 | POS | FRA | 12 | 0.46 | 0.46 | (0.35+x)=0.81 | 0.35 x + 0.81 = | 0.35:inch x:inch +:inch 0.81:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.46 | 1.16 | 0.35=(x-0.81) | 0.35 x 0.81 - = | 0.35:inch x:inch 0.81:inch -:inch =:inch
+EXPR: 1 | POS | FRA | 12 | 0.46 | 0.46 | 0.35=(0.81-x) | 0.35 0.81 x - = | 0.35:inch 0.81:inch x:inch -:inch =:inch
+NET 14 unique, non-negative solutions found out of 28 total solutions

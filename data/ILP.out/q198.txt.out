@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 14 | 14 | (30-16)=x | 30 16 - x = | 30:balloon 16:balloon -:balloon x:balloon =:balloon
+EXPR: 0 | POS | INT | 0 | 14 | 46 | x=(30+16) | x 30 16 + = | x:balloon 30:balloon 16:balloon +:balloon =:balloon
+EXPR: 1 | POS | INT | 0 | 14 | 14 | x=(30-16) | x 30 16 - = | x:balloon 30:balloon 16:balloon -:balloon =:balloon
+EXPR: 0 | POS | INT | 0 | 14 | 46 | (30+16)=x | 30 16 + x = | 30:balloon 16:balloon +:balloon x:balloon =:balloon
+EXPR: 1 | POS | INT | 2 | 14 | 14 | 30=(16+x) | 30 16 x + = | 30:balloon 16:balloon x:balloon +:balloon =:balloon
+EXPR: 0 | POS | INT | 2 | 14 | 46 | (x-30)=16 | x 30 - 16 = | x:balloon 30:balloon -:balloon 16:balloon =:balloon
+EXPR: 1 | POS | INT | 2 | 14 | 14 | 30=(x+16) | 30 x 16 + = | 30:balloon x:balloon 16:balloon +:balloon =:balloon
+EXPR: 1 | POS | INT | 2 | 14 | 14 | (30-x)=16 | 30 x - 16 = | 30:balloon x:balloon -:balloon 16:balloon =:balloon
+EXPR: 0 | POS | INT | 2 | 14 | 46 | 30=(x-16) | 30 x 16 - = | 30:balloon x:balloon 16:balloon -:balloon =:balloon
+EXPR: 1 | POS | INT | 12 | 14 | 14 | (x+16)=30 | x 16 + 30 = | x:balloon 16:balloon +:balloon 30:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 14 | 46 | (x-16)=30 | x 16 - 30 = | x:balloon 16:balloon -:balloon 30:balloon =:balloon
+EXPR: 1 | POS | INT | 12 | 14 | 14 | (16+x)=30 | 16 x + 30 = | 16:balloon x:balloon +:balloon 30:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 14 | 46 | 16=(x-30) | 16 x 30 - = | 16:balloon x:balloon 30:balloon -:balloon =:balloon
+EXPR: 1 | POS | INT | 12 | 14 | 14 | 16=(30-x) | 16 30 x - = | 16:balloon 30:balloon x:balloon -:balloon =:balloon
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

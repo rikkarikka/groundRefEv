@@ -1,0 +1,7 @@
+constants : 6 7
+unknowns : x
+operators : + - * / =
+objtypes : potato
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 13.0

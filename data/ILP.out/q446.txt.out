@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 45 | 45 | (126-81)=x | 126 81 - x = | 126:dvd 81:dvd -:dvd x:dvd =:dvd
+EXPR: 0 | POS | INT | 0 | 45 | 207 | x=(126+81) | x 126 81 + = | x:dvd 126:dvd 81:dvd +:dvd =:dvd
+EXPR: 1 | POS | INT | 0 | 45 | 45 | x=(126-81) | x 126 81 - = | x:dvd 126:dvd 81:dvd -:dvd =:dvd
+EXPR: 0 | POS | INT | 0 | 45 | 207 | (126+81)=x | 126 81 + x = | 126:dvd 81:dvd +:dvd x:dvd =:dvd
+EXPR: 1 | POS | INT | 2 | 45 | 45 | 126=(81+x) | 126 81 x + = | 126:dvd 81:dvd x:dvd +:dvd =:dvd
+EXPR: 0 | POS | INT | 2 | 45 | 207 | (x-126)=81 | x 126 - 81 = | x:dvd 126:dvd -:dvd 81:dvd =:dvd
+EXPR: 1 | POS | INT | 2 | 45 | 45 | 126=(x+81) | 126 x 81 + = | 126:dvd x:dvd 81:dvd +:dvd =:dvd
+EXPR: 1 | POS | INT | 2 | 45 | 45 | (126-x)=81 | 126 x - 81 = | 126:dvd x:dvd -:dvd 81:dvd =:dvd
+EXPR: 0 | POS | INT | 2 | 45 | 207 | 126=(x-81) | 126 x 81 - = | 126:dvd x:dvd 81:dvd -:dvd =:dvd
+EXPR: 1 | POS | INT | 12 | 45 | 45 | (x+81)=126 | x 81 + 126 = | x:dvd 81:dvd +:dvd 126:dvd =:dvd
+EXPR: 0 | POS | INT | 12 | 45 | 207 | (x-81)=126 | x 81 - 126 = | x:dvd 81:dvd -:dvd 126:dvd =:dvd
+EXPR: 1 | POS | INT | 12 | 45 | 45 | (81+x)=126 | 81 x + 126 = | 81:dvd x:dvd +:dvd 126:dvd =:dvd
+EXPR: 0 | POS | INT | 12 | 45 | 207 | 81=(x-126) | 81 x 126 - = | 81:dvd x:dvd 126:dvd -:dvd =:dvd
+EXPR: 1 | POS | INT | 12 | 45 | 45 | 81=(126-x) | 81 126 x - = | 81:dvd 126:dvd x:dvd -:dvd =:dvd
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

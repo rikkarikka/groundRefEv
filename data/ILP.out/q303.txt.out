@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 0.375 | 0.4 | 0.625=(0.25/x) | 0.625 0.25 x / = | 0.625:cup 0.25:cup x:flour /:cup =:cup
+EXPR: 0 | POS | FRA | 2 | 0.375 | 2.5 | 0.625=(x*0.25) | 0.625 x 0.25 * = | 0.625:cup x:flour 0.25:cup *:cup =:cup
+EXPR: 0 | POS | FRA | 2 | 0.375 | 2.5 | 0.625=(0.25*x) | 0.625 0.25 x * = | 0.625:cup 0.25:cup x:flour *:cup =:cup
+EXPR: 0 | POS | FRA | 2 | 0.375 | 0.4 | (x*0.625)=0.25 | x 0.625 * 0.25 = | x:flour 0.625:cup *:cup 0.25:cup =:cup
+EXPR: 0 | POS | FRA | 2 | 0.375 | 0.4 | (0.625*x)=0.25 | 0.625 x * 0.25 = | 0.625:cup x:flour *:cup 0.25:cup =:cup
+EXPR: 0 | POS | FRA | 2 | 0.375 | 2.5 | (0.625/x)=0.25 | 0.625 x / 0.25 = | 0.625:cup x:flour /:cup 0.25:cup =:cup
+EXPR: 0 | POS | FRA | 10 | 0.375 | 0.15625 | (0.625*0.25)=x | 0.625 0.25 * x = | 0.625:cup 0.25:flour *:flour x:flour =:flour
+EXPR: 0 | POS | FRA | 10 | 0.375 | 0.875 | (0.625+0.25)=x | 0.625 0.25 + x = | 0.625:cup 0.25:cup +:cup x:cup =:cup
+EXPR: 1 | POS | FRA | 10 | 0.375 | 0.375 | x=(0.625-0.25) | x 0.625 0.25 - = | x:cup 0.625:cup 0.25:cup -:cup =:cup
+EXPR: 0 | POS | FRA | 10 | 0.375 | 0.15625 | x=(0.625*0.25) | x 0.625 0.25 * = | x:flour 0.625:cup 0.25:flour *:flour =:flour
+EXPR: 0 | POS | FRA | 10 | 0.375 | 0.875 | x=(0.625+0.25) | x 0.625 0.25 + = | x:cup 0.625:cup 0.25:cup +:cup =:cup
+EXPR: 1 | POS | FRA | 10 | 0.375 | 0.375 | (0.625-0.25)=x | 0.625 0.25 - x = | 0.625:cup 0.25:cup -:cup x:cup =:cup
+EXPR: 0 | POS | FRA | 10 | 0.375 | 2.5 | x=(0.625/0.25) | x 0.625 0.25 / = | x:flour 0.625:flour 0.25:cup /:flour =:flour
+EXPR: 0 | POS | FRA | 10 | 0.375 | 2.5 | (0.625/0.25)=x | 0.625 0.25 / x = | 0.625:flour 0.25:cup /:flour x:flour =:flour
+EXPR: 0 | POS | FRA | 12 | 0.375 | 2.5 | 0.25=(0.625/x) | 0.25 0.625 x / = | 0.25:cup 0.625:cup x:flour /:cup =:cup
+EXPR: 0 | POS | FRA | 12 | 0.375 | 2.5 | (x*0.25)=0.625 | x 0.25 * 0.625 = | x:flour 0.25:cup *:cup 0.625:cup =:cup
+EXPR: 0 | POS | FRA | 12 | 0.375 | 0.15625 | 0.625=(x/0.25) | 0.625 x 0.25 / = | 0.625:flour x:flour 0.25:cup /:flour =:flour
+EXPR: 0 | POS | FRA | 12 | 0.375 | 0.4 | 0.25=(0.625*x) | 0.25 0.625 x * = | 0.25:cup 0.625:cup x:flour *:cup =:cup
+EXPR: 0 | POS | FRA | 12 | 0.375 | 0.875 | 0.625=(x-0.25) | 0.625 x 0.25 - = | 0.625:cup x:cup 0.25:cup -:cup =:cup
+EXPR: 0 | POS | FRA | 12 | 0.375 | 0.4 | 0.25=(x*0.625) | 0.25 x 0.625 * = | 0.25:cup x:flour 0.625:cup *:cup =:cup
+EXPR: 1 | POS | FRA | 12 | 0.375 | 0.375 | (0.625-x)=0.25 | 0.625 x - 0.25 = | 0.625:cup x:cup -:cup 0.25:cup =:cup
+EXPR: 0 | POS | FRA | 12 | 0.375 | 2.5 | (0.25*x)=0.625 | 0.25 x * 0.625 = | 0.25:cup x:flour *:cup 0.625:cup =:cup
+EXPR: 0 | POS | FRA | 12 | 0.375 | 0.4 | (0.25/x)=0.625 | 0.25 x / 0.625 = | 0.25:cup x:flour /:cup 0.625:cup =:cup
+EXPR: 1 | POS | FRA | 12 | 0.375 | 0.375 | 0.625=(x+0.25) | 0.625 x 0.25 + = | 0.625:cup x:cup 0.25:cup +:cup =:cup
+EXPR: 1 | POS | FRA | 12 | 0.375 | 0.375 | 0.625=(0.25+x) | 0.625 0.25 x + = | 0.625:cup 0.25:cup x:cup +:cup =:cup
+EXPR: 0 | POS | FRA | 12 | 0.375 | 0.875 | (x-0.625)=0.25 | x 0.625 - 0.25 = | x:cup 0.625:cup -:cup 0.25:cup =:cup
+EXPR: 0 | POS | FRA | 12 | 0.375 | 0.15625 | (x/0.625)=0.25 | x 0.625 / 0.25 = | x:flour 0.625:cup /:flour 0.25:flour =:flour
+EXPR: 0 | POS | FRA | 20 | 0.375 | 0.4 | (0.25/0.625)=x | 0.25 0.625 / x = | 0.25:flour 0.625:cup /:flour x:flour =:flour
+EXPR: 0 | POS | FRA | 20 | 0.375 | 0.4 | x=(0.25/0.625) | x 0.25 0.625 / = | x:flour 0.25:flour 0.625:cup /:flour =:flour
+EXPR: 0 | POS | FRA | 22 | 0.375 | 0.15625 | (x/0.25)=0.625 | x 0.25 / 0.625 = | x:flour 0.25:cup /:flour 0.625:flour =:flour
+EXPR: 0 | POS | FRA | 22 | 0.375 | 0.875 | (x-0.25)=0.625 | x 0.25 - 0.625 = | x:cup 0.25:cup -:cup 0.625:cup =:cup
+EXPR: 1 | POS | FRA | 22 | 0.375 | 0.375 | (0.25+x)=0.625 | 0.25 x + 0.625 = | 0.25:cup x:cup +:cup 0.625:cup =:cup
+EXPR: 0 | POS | FRA | 22 | 0.375 | 0.875 | 0.25=(x-0.625) | 0.25 x 0.625 - = | 0.25:cup x:cup 0.625:cup -:cup =:cup
+EXPR: 1 | POS | FRA | 22 | 0.375 | 0.375 | (x+0.25)=0.625 | x 0.25 + 0.625 = | x:cup 0.25:cup +:cup 0.625:cup =:cup
+EXPR: 0 | POS | FRA | 22 | 0.375 | 0.15625 | 0.25=(x/0.625) | 0.25 x 0.625 / = | 0.25:flour x:flour 0.625:cup /:flour =:flour
+EXPR: 1 | POS | FRA | 22 | 0.375 | 0.375 | 0.25=(0.625-x) | 0.25 0.625 x - = | 0.25:cup 0.625:cup x:cup -:cup =:cup
+NET 36 unique, non-negative solutions found out of 136 total solutions

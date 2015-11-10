@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 432 | 48 | x=(144/3) | x 144 3 / = | x:bee 144:bee 3:Hilt /:bee =:bee
+EXPR: 0 | POS | INT | 0 | 432 | 48 | (144/3)=x | 144 3 / x = | 144:bee 3:Hilt /:bee x:bee =:bee
+EXPR: 1 | POS | INT | 0 | 432 | 432 | x=(144*3) | x 144 3 * = | x:bee 144:bee 3:Hilt *:bee =:bee
+EXPR: 1 | POS | INT | 0 | 432 | 432 | (144*3)=x | 144 3 * x = | 144:bee 3:Hilt *:bee x:bee =:bee
+EXPR: 0 | POS | INT | 2 | 432 | 48 | 144=(3*x) | 144 3 x * = | 144:bee 3:Hilt x:bee *:bee =:bee
+EXPR: 1 | POS | INT | 2 | 432 | 432 | 144=(x/3) | 144 x 3 / = | 144:bee x:bee 3:Hilt /:bee =:bee
+EXPR: 0 | POS | INT | 2 | 432 | 48 | 144=(x*3) | 144 x 3 * = | 144:bee x:bee 3:Hilt *:bee =:bee
+EXPR: 0 | POS | INT | 10 | 432 | 141 | (144-3)=x | 144 3 - x = | 144:bee 3:bee -:bee x:bee =:bee
+EXPR: 0 | POS | INT | 10 | 432 | 147 | x=(144+3) | x 144 3 + = | x:bee 144:bee 3:bee +:bee =:bee
+EXPR: 0 | POS | INT | 10 | 432 | 141 | x=(144-3) | x 144 3 - = | x:bee 144:bee 3:bee -:bee =:bee
+EXPR: 0 | POS | INT | 10 | 432 | 147 | (144+3)=x | 144 3 + x = | 144:bee 3:bee +:bee x:bee =:bee
+EXPR: 0 | POS | INT | 12 | 432 | 141 | 144=(x+3) | 144 x 3 + = | 144:bee x:bee 3:bee +:bee =:bee
+EXPR: 0 | POS | INT | 12 | 432 | 48 | (144/x)=3 | 144 x / 3 = | 144:Hilt x:bee /:Hilt 3:Hilt =:Hilt
+EXPR: 0 | POS | INT | 12 | 432 | 48 | (3*x)=144 | 3 x * 144 = | 3:Hilt x:bee *:bee 144:bee =:bee
+EXPR: 0 | POS | INT | 12 | 432 | 147 | 144=(x-3) | 144 x 3 - = | 144:bee x:bee 3:bee -:bee =:bee
+EXPR: 0 | POS | INT | 12 | 432 | 141 | 144=(3+x) | 144 3 x + = | 144:bee 3:bee x:bee +:bee =:bee
+EXPR: 0 | POS | INT | 12 | 432 | 147 | (x-144)=3 | x 144 - 3 = | x:bee 144:bee -:bee 3:bee =:bee
+EXPR: 0 | POS | INT | 12 | 432 | 141 | (144-x)=3 | 144 x - 3 = | 144:bee x:bee -:bee 3:bee =:bee
+EXPR: 1 | POS | INT | 12 | 432 | 432 | (x/144)=3 | x 144 / 3 = | x:Hilt 144:bee /:Hilt 3:Hilt =:Hilt
+EXPR: 1 | POS | INT | 12 | 432 | 432 | (x/3)=144 | x 3 / 144 = | x:bee 3:Hilt /:bee 144:bee =:bee
+EXPR: 0 | POS | INT | 12 | 432 | 48 | (x*3)=144 | x 3 * 144 = | x:bee 3:Hilt *:bee 144:bee =:bee
+EXPR: 0 | POS | INT | 22 | 432 | 141 | (x+3)=144 | x 3 + 144 = | x:bee 3:bee +:bee 144:bee =:bee
+EXPR: 0 | POS | INT | 22 | 432 | 48 | 3=(144/x) | 3 144 x / = | 3:Hilt 144:Hilt x:bee /:Hilt =:Hilt
+EXPR: 0 | POS | INT | 22 | 432 | 141 | (3+x)=144 | 3 x + 144 = | 3:bee x:bee +:bee 144:bee =:bee
+EXPR: 0 | POS | INT | 22 | 432 | 147 | 3=(x-144) | 3 x 144 - = | 3:bee x:bee 144:bee -:bee =:bee
+EXPR: 1 | POS | INT | 22 | 432 | 432 | 3=(x/144) | 3 x 144 / = | 3:Hilt x:Hilt 144:bee /:Hilt =:Hilt
+EXPR: 0 | POS | INT | 22 | 432 | 141 | 3=(144-x) | 3 144 x - = | 3:bee 144:bee x:bee -:bee =:bee
+EXPR: 0 | POS | INT | 22 | 432 | 147 | (x-3)=144 | x 3 - 144 = | x:bee 3:bee -:bee 144:bee =:bee
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

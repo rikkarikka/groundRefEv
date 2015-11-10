@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 16 | 16 | x=(7+9) | x 7 9 + = | x:lemon 7:lemon 9:lemon +:lemon =:lemon
+EXPR: 1 | POS | INT | 0 | 16 | 16 | (7+9)=x | 7 9 + x = | 7:lemon 9:lemon +:lemon x:lemon =:lemon
+EXPR: 0 | POS | INT | 2 | 16 | 2 | (x+7)=9 | x 7 + 9 = | x:lemon 7:lemon +:lemon 9:lemon =:lemon
+EXPR: 1 | POS | INT | 2 | 16 | 16 | (x-7)=9 | x 7 - 9 = | x:lemon 7:lemon -:lemon 9:lemon =:lemon
+EXPR: 0 | POS | INT | 2 | 16 | 2 | (7+x)=9 | 7 x + 9 = | 7:lemon x:lemon +:lemon 9:lemon =:lemon
+EXPR: 0 | POS | INT | 2 | 16 | 2 | 7=(9-x) | 7 9 x - = | 7:lemon 9:lemon x:lemon -:lemon =:lemon
+EXPR: 1 | POS | INT | 2 | 16 | 16 | 7=(x-9) | 7 x 9 - = | 7:lemon x:lemon 9:lemon -:lemon =:lemon
+EXPR: 0 | POS | INT | 10 | 16 | 2 | (9-7)=x | 9 7 - x = | 9:lemon 7:lemon -:lemon x:lemon =:lemon
+EXPR: 0 | POS | INT | 10 | 16 | 2 | x=(9-7) | x 9 7 - = | x:lemon 9:lemon 7:lemon -:lemon =:lemon
+EXPR: 1 | POS | INT | 12 | 16 | 16 | (x-9)=7 | x 9 - 7 = | x:lemon 9:lemon -:lemon 7:lemon =:lemon
+EXPR: 0 | POS | INT | 12 | 16 | 2 | 9=(x+7) | 9 x 7 + = | 9:lemon x:lemon 7:lemon +:lemon =:lemon
+EXPR: 0 | POS | INT | 12 | 16 | 2 | 9=(7+x) | 9 7 x + = | 9:lemon 7:lemon x:lemon +:lemon =:lemon
+EXPR: 1 | POS | INT | 12 | 16 | 16 | 9=(x-7) | 9 x 7 - = | 9:lemon x:lemon 7:lemon -:lemon =:lemon
+EXPR: 0 | POS | INT | 12 | 16 | 2 | (9-x)=7 | 9 x - 7 = | 9:lemon x:lemon -:lemon 7:lemon =:lemon
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

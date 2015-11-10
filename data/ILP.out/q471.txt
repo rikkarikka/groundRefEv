@@ -1,0 +1,7 @@
+constants : 6 34
+unknowns : x
+operators : + - * / =
+objtypes : student table
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 204

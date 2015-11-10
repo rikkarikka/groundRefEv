@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 0.166667 | 0.166666666666667 | (0.6666666666666666-0.5)=x | 0.6666666666666666 0.5 - x = | 0.6666666666666666:tablespoon 0.5:tablespoon -:tablespoon x:tablespoon =:tablespoon
+EXPR: 0 | POS | FRA | 0 | 0.166667 | 1.16666666666667 | x=(0.6666666666666666+0.5) | x 0.6666666666666666 0.5 + = | x:tablespoon 0.6666666666666666:tablespoon 0.5:tablespoon +:tablespoon =:tablespoon
+EXPR: 1 | POS | FRA | 0 | 0.166667 | 0.166666666666667 | x=(0.6666666666666666-0.5) | x 0.6666666666666666 0.5 - = | x:tablespoon 0.6666666666666666:tablespoon 0.5:tablespoon -:tablespoon =:tablespoon
+EXPR: 0 | POS | FRA | 0 | 0.166667 | 1.16666666666667 | (0.6666666666666666+0.5)=x | 0.6666666666666666 0.5 + x = | 0.6666666666666666:tablespoon 0.5:tablespoon +:tablespoon x:tablespoon =:tablespoon
+EXPR: 1 | POS | FRA | 2 | 0.166667 | 0.166666666666667 | 0.6666666666666666=(0.5+x) | 0.6666666666666666 0.5 x + = | 0.6666666666666666:tablespoon 0.5:tablespoon x:tablespoon +:tablespoon =:tablespoon
+EXPR: 0 | POS | FRA | 2 | 0.166667 | 1.16666666666667 | (x-0.6666666666666666)=0.5 | x 0.6666666666666666 - 0.5 = | x:tablespoon 0.6666666666666666:tablespoon -:tablespoon 0.5:tablespoon =:tablespoon
+EXPR: 1 | POS | FRA | 2 | 0.166667 | 0.166666666666667 | 0.6666666666666666=(x+0.5) | 0.6666666666666666 x 0.5 + = | 0.6666666666666666:tablespoon x:tablespoon 0.5:tablespoon +:tablespoon =:tablespoon
+EXPR: 1 | POS | FRA | 2 | 0.166667 | 0.166666666666667 | (0.6666666666666666-x)=0.5 | 0.6666666666666666 x - 0.5 = | 0.6666666666666666:tablespoon x:tablespoon -:tablespoon 0.5:tablespoon =:tablespoon
+EXPR: 0 | POS | FRA | 2 | 0.166667 | 1.16666666666667 | 0.6666666666666666=(x-0.5) | 0.6666666666666666 x 0.5 - = | 0.6666666666666666:tablespoon x:tablespoon 0.5:tablespoon -:tablespoon =:tablespoon
+EXPR: 1 | POS | FRA | 12 | 0.166667 | 0.166666666666667 | (x+0.5)=0.6666666666666666 | x 0.5 + 0.6666666666666666 = | x:tablespoon 0.5:tablespoon +:tablespoon 0.6666666666666666:tablespoon =:tablespoon
+EXPR: 0 | POS | FRA | 12 | 0.166667 | 1.16666666666667 | (x-0.5)=0.6666666666666666 | x 0.5 - 0.6666666666666666 = | x:tablespoon 0.5:tablespoon -:tablespoon 0.6666666666666666:tablespoon =:tablespoon
+EXPR: 1 | POS | FRA | 12 | 0.166667 | 0.166666666666667 | (0.5+x)=0.6666666666666666 | 0.5 x + 0.6666666666666666 = | 0.5:tablespoon x:tablespoon +:tablespoon 0.6666666666666666:tablespoon =:tablespoon
+EXPR: 0 | POS | FRA | 12 | 0.166667 | 1.16666666666667 | 0.5=(x-0.6666666666666666) | 0.5 x 0.6666666666666666 - = | 0.5:tablespoon x:tablespoon 0.6666666666666666:tablespoon -:tablespoon =:tablespoon
+EXPR: 1 | POS | FRA | 12 | 0.166667 | 0.166666666666667 | 0.5=(0.6666666666666666-x) | 0.5 0.6666666666666666 x - = | 0.5:tablespoon 0.6666666666666666:tablespoon x:tablespoon -:tablespoon =:tablespoon
+NET 14 unique, non-negative solutions found out of 28 total solutions

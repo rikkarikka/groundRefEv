@@ -1,0 +1,7 @@
+constants : 35 83
+unknowns : x
+operators : + - * / =
+objtypes : muffin
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 48

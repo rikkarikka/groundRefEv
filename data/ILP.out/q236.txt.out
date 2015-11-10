@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 11687 | 1357 | (6522-5165)=x | 6522 5165 - x = | 6522:liter 5165:liter -:liter x:liter =:liter
+EXPR: 1 | POS | INT | 0 | 11687 | 11687 | x=(6522+5165) | x 6522 5165 + = | x:liter 6522:liter 5165:liter +:liter =:liter
+EXPR: 0 | POS | INT | 0 | 11687 | 1357 | x=(6522-5165) | x 6522 5165 - = | x:liter 6522:liter 5165:liter -:liter =:liter
+EXPR: 1 | POS | INT | 0 | 11687 | 11687 | (6522+5165)=x | 6522 5165 + x = | 6522:liter 5165:liter +:liter x:liter =:liter
+EXPR: 0 | POS | INT | 2 | 11687 | 1357 | 6522=(5165+x) | 6522 5165 x + = | 6522:liter 5165:liter x:liter +:liter =:liter
+EXPR: 1 | POS | INT | 2 | 11687 | 11687 | (x-6522)=5165 | x 6522 - 5165 = | x:liter 6522:liter -:liter 5165:liter =:liter
+EXPR: 0 | POS | INT | 2 | 11687 | 1357 | 6522=(x+5165) | 6522 x 5165 + = | 6522:liter x:liter 5165:liter +:liter =:liter
+EXPR: 0 | POS | INT | 2 | 11687 | 1357 | (6522-x)=5165 | 6522 x - 5165 = | 6522:liter x:liter -:liter 5165:liter =:liter
+EXPR: 1 | POS | INT | 2 | 11687 | 11687 | 6522=(x-5165) | 6522 x 5165 - = | 6522:liter x:liter 5165:liter -:liter =:liter
+EXPR: 0 | POS | INT | 12 | 11687 | 1357 | (x+5165)=6522 | x 5165 + 6522 = | x:liter 5165:liter +:liter 6522:liter =:liter
+EXPR: 1 | POS | INT | 12 | 11687 | 11687 | (x-5165)=6522 | x 5165 - 6522 = | x:liter 5165:liter -:liter 6522:liter =:liter
+EXPR: 0 | POS | INT | 12 | 11687 | 1357 | (5165+x)=6522 | 5165 x + 6522 = | 5165:liter x:liter +:liter 6522:liter =:liter
+EXPR: 1 | POS | INT | 12 | 11687 | 11687 | 5165=(x-6522) | 5165 x 6522 - = | 5165:liter x:liter 6522:liter -:liter =:liter
+EXPR: 0 | POS | INT | 12 | 11687 | 1357 | 5165=(6522-x) | 5165 6522 x - = | 5165:liter 6522:liter x:liter -:liter =:liter
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

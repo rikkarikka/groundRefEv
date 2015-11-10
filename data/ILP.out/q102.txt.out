@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 9 | 225 | x=(45*5) | x 45 5 * = | x:LENGTH 45:LENGTH 5:day *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 10 | 9 | 225 | (45*5)=x | 45 5 * x = | 45:hour 5:day *:hour x:hour =:hour
+EXPR: 1 | POS | INT | 10 | 9 | 9 | (45/5)=x | 45 5 / x = | 45:LENGTH 5:day /:LENGTH x:LENGTH =:LENGTH
+EXPR: 1 | POS | INT | 10 | 9 | 9 | x=(45/5) | x 45 5 / = | x:hour 45:hour 5:day /:hour =:hour
+EXPR: 1 | POS | INT | 12 | 9 | 9 | 45=(x*5) | 45 x 5 * = | 45:day x:LENGTH 5:day *:day =:day
+EXPR: 0 | POS | INT | 12 | 9 | 225 | 45=(x/5) | 45 x 5 / = | 45:LENGTH x:LENGTH 5:day /:LENGTH =:LENGTH
+EXPR: 1 | POS | INT | 12 | 9 | 9 | 45=(5*x) | 45 5 x * = | 45:LENGTH 5:day x:LENGTH *:LENGTH =:LENGTH
+EXPR: 1 | POS | INT | 12 | 9 | 9 | (45/x)=5 | 45 x / 5 = | 45:hour x:LENGTH /:hour 5:hour =:hour
+EXPR: 0 | POS | INT | 12 | 9 | 225 | (x/45)=5 | x 45 / 5 = | x:LENGTH 45:hour /:LENGTH 5:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 20 | 9 | 50 | (45+5)=x | 45 5 + x = | 45:hour 5:hour +:hour x:hour =:hour
+EXPR: 0 | POS | INT | 20 | 9 | 50 | x=(45+5) | x 45 5 + = | x:day 45:day 5:day +:day =:day
+EXPR: 0 | POS | INT | 20 | 9 | 40 | (45-5)=x | 45 5 - x = | 45:hour 5:hour -:hour x:hour =:hour
+EXPR: 0 | POS | INT | 20 | 9 | 40 | x=(45-5) | x 45 5 - = | x:LENGTH 45:LENGTH 5:LENGTH -:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 22 | 9 | 50 | (x-45)=5 | x 45 - 5 = | x:day 45:day -:day 5:day =:day
+EXPR: 1 | POS | INT | 22 | 9 | 9 | (x*5)=45 | x 5 * 45 = | x:LENGTH 5:day *:day 45:day =:day
+EXPR: 1 | POS | INT | 22 | 9 | 9 | (5*x)=45 | 5 x * 45 = | 5:hour x:LENGTH *:hour 45:hour =:hour
+EXPR: 0 | POS | INT | 22 | 9 | 225 | 5=(x/45) | 5 x 45 / = | 5:LENGTH x:LENGTH 45:hour /:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 22 | 9 | 40 | 45=(5+x) | 45 5 x + = | 45:day 5:day x:day +:day =:day
+EXPR: 0 | POS | INT | 22 | 9 | 40 | (45-x)=5 | 45 x - 5 = | 45:LENGTH x:LENGTH -:LENGTH 5:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 22 | 9 | 40 | 45=(x+5) | 45 x 5 + = | 45:LENGTH x:LENGTH 5:LENGTH +:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 22 | 9 | 50 | 45=(x-5) | 45 x 5 - = | 45:LENGTH x:LENGTH 5:LENGTH -:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 22 | 9 | 225 | (x/5)=45 | x 5 / 45 = | x:LENGTH 5:day /:LENGTH 45:LENGTH =:LENGTH
+EXPR: 1 | POS | INT | 22 | 9 | 9 | 5=(45/x) | 5 45 x / = | 5:day 45:day x:LENGTH /:day =:day
+EXPR: 0 | POS | INT | 32 | 9 | 50 | (x-5)=45 | x 5 - 45 = | x:day 5:day -:day 45:day =:day
+EXPR: 0 | POS | INT | 32 | 9 | 40 | (5+x)=45 | 5 x + 45 = | 5:day x:day +:day 45:day =:day
+EXPR: 0 | POS | INT | 32 | 9 | 40 | (x+5)=45 | x 5 + 45 = | x:hour 5:hour +:hour 45:hour =:hour
+EXPR: 0 | POS | INT | 32 | 9 | 40 | 5=(45-x) | 5 45 x - = | 5:day 45:day x:day -:day =:day
+EXPR: 0 | POS | INT | 32 | 9 | 50 | 5=(x-45) | 5 x 45 - = | 5:day x:day 45:day -:day =:day
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

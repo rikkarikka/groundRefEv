@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 6 | 6 | x=(54/9) | x 54 9 / = | x:seed 54:seed 9:can /:seed =:seed
+EXPR: 1 | POS | INT | 0 | 6 | 6 | (54/9)=x | 54 9 / x = | 54:seed 9:can /:seed x:seed =:seed
+EXPR: 0 | POS | INT | 0 | 6 | 486 | x=(54*9) | x 54 9 * = | x:seed 54:seed 9:can *:seed =:seed
+EXPR: 0 | POS | INT | 0 | 6 | 486 | (54*9)=x | 54 9 * x = | 54:seed 9:can *:seed x:seed =:seed
+EXPR: 1 | POS | INT | 2 | 6 | 6 | 54=(9*x) | 54 9 x * = | 54:seed 9:can x:seed *:seed =:seed
+EXPR: 0 | POS | INT | 2 | 6 | 486 | 54=(x/9) | 54 x 9 / = | 54:seed x:seed 9:can /:seed =:seed
+EXPR: 1 | POS | INT | 2 | 6 | 6 | 54=(x*9) | 54 x 9 * = | 54:seed x:seed 9:can *:seed =:seed
+EXPR: 0 | POS | INT | 10 | 6 | 45 | (54-9)=x | 54 9 - x = | 54:seed 9:seed -:seed x:seed =:seed
+EXPR: 0 | POS | INT | 10 | 6 | 63 | x=(54+9) | x 54 9 + = | x:seed 54:seed 9:seed +:seed =:seed
+EXPR: 0 | POS | INT | 10 | 6 | 45 | x=(54-9) | x 54 9 - = | x:seed 54:seed 9:seed -:seed =:seed
+EXPR: 0 | POS | INT | 10 | 6 | 63 | (54+9)=x | 54 9 + x = | 54:seed 9:seed +:seed x:seed =:seed
+EXPR: 0 | POS | INT | 12 | 6 | 45 | 54=(x+9) | 54 x 9 + = | 54:seed x:seed 9:seed +:seed =:seed
+EXPR: 1 | POS | INT | 12 | 6 | 6 | (54/x)=9 | 54 x / 9 = | 54:can x:seed /:can 9:can =:can
+EXPR: 1 | POS | INT | 12 | 6 | 6 | (9*x)=54 | 9 x * 54 = | 9:can x:seed *:seed 54:seed =:seed
+EXPR: 0 | POS | INT | 12 | 6 | 63 | 54=(x-9) | 54 x 9 - = | 54:seed x:seed 9:seed -:seed =:seed
+EXPR: 0 | POS | INT | 12 | 6 | 45 | 54=(9+x) | 54 9 x + = | 54:seed 9:seed x:seed +:seed =:seed
+EXPR: 0 | POS | INT | 12 | 6 | 63 | (x-54)=9 | x 54 - 9 = | x:seed 54:seed -:seed 9:seed =:seed
+EXPR: 0 | POS | INT | 12 | 6 | 45 | (54-x)=9 | 54 x - 9 = | 54:seed x:seed -:seed 9:seed =:seed
+EXPR: 0 | POS | INT | 12 | 6 | 486 | (x/54)=9 | x 54 / 9 = | x:can 54:seed /:can 9:can =:can
+EXPR: 0 | POS | INT | 12 | 6 | 486 | (x/9)=54 | x 9 / 54 = | x:seed 9:can /:seed 54:seed =:seed
+EXPR: 1 | POS | INT | 12 | 6 | 6 | (x*9)=54 | x 9 * 54 = | x:seed 9:can *:seed 54:seed =:seed
+EXPR: 0 | POS | INT | 22 | 6 | 45 | (x+9)=54 | x 9 + 54 = | x:seed 9:seed +:seed 54:seed =:seed
+EXPR: 1 | POS | INT | 22 | 6 | 6 | 9=(54/x) | 9 54 x / = | 9:can 54:can x:seed /:can =:can
+EXPR: 0 | POS | INT | 22 | 6 | 45 | (9+x)=54 | 9 x + 54 = | 9:seed x:seed +:seed 54:seed =:seed
+EXPR: 0 | POS | INT | 22 | 6 | 63 | 9=(x-54) | 9 x 54 - = | 9:seed x:seed 54:seed -:seed =:seed
+EXPR: 0 | POS | INT | 22 | 6 | 486 | 9=(x/54) | 9 x 54 / = | 9:can x:can 54:seed /:can =:can
+EXPR: 0 | POS | INT | 22 | 6 | 45 | 9=(54-x) | 9 54 x - = | 9:seed 54:seed x:seed -:seed =:seed
+EXPR: 0 | POS | INT | 22 | 6 | 63 | (x-9)=54 | x 9 - 54 = | x:seed 9:seed -:seed 54:seed =:seed
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

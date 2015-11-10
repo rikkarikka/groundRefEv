@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 84 | 84 | x=(14*6) | x 14 6 * = | x:people 14:seat 6:people *:people =:people
+EXPR: 1 | POS | INT | 0 | 84 | 84 | (14*6)=x | 14 6 * x = | 14:seat 6:people *:people x:people =:people
+EXPR: 1 | POS | INT | 2 | 84 | 84 | (x/14)=6 | x 14 / 6 = | x:people 14:seat /:people 6:people =:people
+EXPR: 0 | POS | INT | 10 | 84 | 20 | x=(14+6) | x 14 6 + = | x:people 14:people 6:people +:people =:people
+EXPR: 0 | POS | INT | 10 | 84 | 20 | (14+6)=x | 14 6 + x = | 14:people 6:people +:people x:people =:people
+EXPR: 0 | POS | INT | 10 | 84 | 8 | (14-6)=x | 14 6 - x = | 14:people 6:people -:people x:people =:people
+EXPR: 0 | POS | INT | 10 | 84 | 8 | x=(14-6) | x 14 6 - = | x:people 14:people 6:people -:people =:people
+EXPR: 0 | POS | INT | 12 | 84 | 8 | (14-x)=6 | 14 x - 6 = | 14:people x:people -:people 6:people =:people
+EXPR: 0 | POS | INT | 12 | 84 | 8 | 14=(6+x) | 14 6 x + = | 14:people 6:people x:people +:people =:people
+EXPR: 1 | POS | INT | 12 | 84 | 84 | 6=(x/14) | 6 x 14 / = | 6:people x:people 14:seat /:people =:people
+EXPR: 0 | POS | INT | 12 | 84 | 20 | (x-14)=6 | x 14 - 6 = | x:people 14:people -:people 6:people =:people
+EXPR: 0 | POS | INT | 12 | 84 | 8 | 14=(x+6) | 14 x 6 + = | 14:people x:people 6:people +:people =:people
+EXPR: 0 | POS | INT | 12 | 84 | 20 | 14=(x-6) | 14 x 6 - = | 14:people x:people 6:people -:people =:people
+EXPR: 1 | POS | INT | 12 | 84 | 84 | 14=(x/6) | 14 x 6 / = | 14:seat x:seat 6:people /:seat =:seat
+EXPR: 1 | POS | INT | 22 | 84 | 84 | (x/6)=14 | x 6 / 14 = | x:seat 6:people /:seat 14:seat =:seat
+EXPR: 0 | POS | INT | 22 | 84 | 8 | 6=(14-x) | 6 14 x - = | 6:people 14:people x:people -:people =:people
+EXPR: 0 | POS | INT | 22 | 84 | 8 | (x+6)=14 | x 6 + 14 = | x:people 6:people +:people 14:people =:people
+EXPR: 0 | POS | INT | 22 | 84 | 20 | (x-6)=14 | x 6 - 14 = | x:people 6:people -:people 14:people =:people
+EXPR: 0 | POS | INT | 22 | 84 | 8 | (6+x)=14 | 6 x + 14 = | 6:people x:people +:people 14:people =:people
+EXPR: 0 | POS | INT | 22 | 84 | 20 | 6=(x-14) | 6 x 14 - = | 6:people x:people 14:people -:people =:people
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

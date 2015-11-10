@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 6.5 | 6.5 | (7.125-0.625)=x | 7.125 0.625 - x = | 7.125:pound 0.625:pound -:pound x:pound =:pound
+EXPR: 0 | POS | FRA | 0 | 6.5 | 7.75 | x=(7.125+0.625) | x 7.125 0.625 + = | x:pound 7.125:pound 0.625:pound +:pound =:pound
+EXPR: 1 | POS | FRA | 0 | 6.5 | 6.5 | x=(7.125-0.625) | x 7.125 0.625 - = | x:pound 7.125:pound 0.625:pound -:pound =:pound
+EXPR: 0 | POS | FRA | 0 | 6.5 | 7.75 | (7.125+0.625)=x | 7.125 0.625 + x = | 7.125:pound 0.625:pound +:pound x:pound =:pound
+EXPR: 1 | POS | FRA | 2 | 6.5 | 6.5 | 7.125=(0.625+x) | 7.125 0.625 x + = | 7.125:pound 0.625:pound x:pound +:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 6.5 | 7.75 | (x-7.125)=0.625 | x 7.125 - 0.625 = | x:pound 7.125:pound -:pound 0.625:pound =:pound
+EXPR: 1 | POS | FRA | 2 | 6.5 | 6.5 | 7.125=(x+0.625) | 7.125 x 0.625 + = | 7.125:pound x:pound 0.625:pound +:pound =:pound
+EXPR: 1 | POS | FRA | 2 | 6.5 | 6.5 | (7.125-x)=0.625 | 7.125 x - 0.625 = | 7.125:pound x:pound -:pound 0.625:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 6.5 | 7.75 | 7.125=(x-0.625) | 7.125 x 0.625 - = | 7.125:pound x:pound 0.625:pound -:pound =:pound
+EXPR: 1 | POS | FRA | 12 | 6.5 | 6.5 | (x+0.625)=7.125 | x 0.625 + 7.125 = | x:pound 0.625:pound +:pound 7.125:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 6.5 | 7.75 | (x-0.625)=7.125 | x 0.625 - 7.125 = | x:pound 0.625:pound -:pound 7.125:pound =:pound
+EXPR: 1 | POS | FRA | 12 | 6.5 | 6.5 | (0.625+x)=7.125 | 0.625 x + 7.125 = | 0.625:pound x:pound +:pound 7.125:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 6.5 | 7.75 | 0.625=(x-7.125) | 0.625 x 7.125 - = | 0.625:pound x:pound 7.125:pound -:pound =:pound
+EXPR: 1 | POS | FRA | 12 | 6.5 | 6.5 | 0.625=(7.125-x) | 0.625 7.125 x - = | 0.625:pound 7.125:pound x:pound -:pound =:pound
+NET 14 unique, non-negative solutions found out of 28 total solutions

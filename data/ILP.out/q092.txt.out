@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 342 | 342 | (760-418)=x | 760 418 - x = | 760:quarter 418:quarter -:quarter x:quarter =:quarter
+EXPR: 0 | POS | INT | 0 | 342 | 1178 | x=(760+418) | x 760 418 + = | x:quarter 760:quarter 418:quarter +:quarter =:quarter
+EXPR: 1 | POS | INT | 0 | 342 | 342 | x=(760-418) | x 760 418 - = | x:quarter 760:quarter 418:quarter -:quarter =:quarter
+EXPR: 0 | POS | INT | 0 | 342 | 1178 | (760+418)=x | 760 418 + x = | 760:quarter 418:quarter +:quarter x:quarter =:quarter
+EXPR: 1 | POS | INT | 2 | 342 | 342 | 760=(418+x) | 760 418 x + = | 760:quarter 418:quarter x:quarter +:quarter =:quarter
+EXPR: 0 | POS | INT | 2 | 342 | 1178 | (x-760)=418 | x 760 - 418 = | x:quarter 760:quarter -:quarter 418:quarter =:quarter
+EXPR: 1 | POS | INT | 2 | 342 | 342 | 760=(x+418) | 760 x 418 + = | 760:quarter x:quarter 418:quarter +:quarter =:quarter
+EXPR: 1 | POS | INT | 2 | 342 | 342 | (760-x)=418 | 760 x - 418 = | 760:quarter x:quarter -:quarter 418:quarter =:quarter
+EXPR: 0 | POS | INT | 2 | 342 | 1178 | 760=(x-418) | 760 x 418 - = | 760:quarter x:quarter 418:quarter -:quarter =:quarter
+EXPR: 1 | POS | INT | 12 | 342 | 342 | (x+418)=760 | x 418 + 760 = | x:quarter 418:quarter +:quarter 760:quarter =:quarter
+EXPR: 0 | POS | INT | 12 | 342 | 1178 | (x-418)=760 | x 418 - 760 = | x:quarter 418:quarter -:quarter 760:quarter =:quarter
+EXPR: 1 | POS | INT | 12 | 342 | 342 | (418+x)=760 | 418 x + 760 = | 418:quarter x:quarter +:quarter 760:quarter =:quarter
+EXPR: 0 | POS | INT | 12 | 342 | 1178 | 418=(x-760) | 418 x 760 - = | 418:quarter x:quarter 760:quarter -:quarter =:quarter
+EXPR: 1 | POS | INT | 12 | 342 | 342 | 418=(760-x) | 418 760 x - = | 418:quarter 760:quarter x:quarter -:quarter =:quarter
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

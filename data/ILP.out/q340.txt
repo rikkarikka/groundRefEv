@@ -1,0 +1,7 @@
+constants : 0.5 0.1 0.1
+unknowns : x
+operators : + - * / =
+objtypes : light-year
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.7

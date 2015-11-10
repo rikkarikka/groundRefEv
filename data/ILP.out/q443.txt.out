@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 162 | 644 | (648-4)=x | 648 4 - x = | 648:pencil 4:pencil -:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 0 | 162 | 652 | x=(648+4) | x 648 4 + = | x:pencil 648:pencil 4:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 0 | 162 | 644 | x=(648-4) | x 648 4 - = | x:pencil 648:pencil 4:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 0 | 162 | 652 | (648+4)=x | 648 4 + x = | 648:pencil 4:pencil +:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 162 | 644 | 648=(4+x) | 648 4 x + = | 648:pencil 4:pencil x:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 162 | 652 | (x-648)=4 | x 648 - 4 = | x:pencil 648:pencil -:pencil 4:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 162 | 644 | 648=(x+4) | 648 x 4 + = | 648:pencil x:pencil 4:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 162 | 644 | (648-x)=4 | 648 x - 4 = | 648:pencil x:pencil -:pencil 4:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 162 | 652 | 648=(x-4) | 648 x 4 - = | 648:pencil x:pencil 4:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 162 | 644 | (x+4)=648 | x 4 + 648 = | x:pencil 4:pencil +:pencil 648:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 162 | 652 | (x-4)=648 | x 4 - 648 = | x:pencil 4:pencil -:pencil 648:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 162 | 644 | (4+x)=648 | 4 x + 648 = | 4:pencil x:pencil +:pencil 648:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 162 | 652 | 4=(x-648) | 4 x 648 - = | 4:pencil x:pencil 648:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 162 | 644 | 4=(648-x) | 4 648 x - = | 4:pencil 648:pencil x:pencil -:pencil =:pencil
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

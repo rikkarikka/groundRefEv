@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 24 | 24 | x=(8*3) | x 8 3 * = | x:pencil 8:pencil 3:person *:pencil =:pencil
+EXPR: 1 | POS | INT | 0 | 24 | 24 | (8*3)=x | 8 3 * x = | 8:pencil 3:person *:pencil x:pencil =:pencil
+EXPR: 1 | POS | INT | 2 | 24 | 24 | 8=(x/3) | 8 x 3 / = | 8:pencil x:pencil 3:person /:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 24 | 5 | (8-3)=x | 8 3 - x = | 8:pencil 3:pencil -:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 24 | 11 | x=(8+3) | x 8 3 + = | x:pencil 8:pencil 3:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 24 | 5 | x=(8-3) | x 8 3 - = | x:pencil 8:pencil 3:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 24 | 11 | (8+3)=x | 8 3 + x = | 8:pencil 3:pencil +:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 24 | 5 | 8=(x+3) | 8 x 3 + = | 8:pencil x:pencil 3:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 24 | 11 | 8=(x-3) | 8 x 3 - = | 8:pencil x:pencil 3:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 24 | 5 | 8=(3+x) | 8 3 x + = | 8:pencil 3:pencil x:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 24 | 11 | (x-8)=3 | x 8 - 3 = | x:pencil 8:pencil -:pencil 3:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 24 | 5 | (8-x)=3 | 8 x - 3 = | 8:pencil x:pencil -:pencil 3:pencil =:pencil
+EXPR: 1 | POS | INT | 12 | 24 | 24 | (x/8)=3 | x 8 / 3 = | x:person 8:pencil /:person 3:person =:person
+EXPR: 1 | POS | INT | 12 | 24 | 24 | (x/3)=8 | x 3 / 8 = | x:pencil 3:person /:pencil 8:pencil =:pencil
+EXPR: 0 | POS | INT | 22 | 24 | 5 | (x+3)=8 | x 3 + 8 = | x:pencil 3:pencil +:pencil 8:pencil =:pencil
+EXPR: 0 | POS | INT | 22 | 24 | 5 | (3+x)=8 | 3 x + 8 = | 3:pencil x:pencil +:pencil 8:pencil =:pencil
+EXPR: 0 | POS | INT | 22 | 24 | 11 | 3=(x-8) | 3 x 8 - = | 3:pencil x:pencil 8:pencil -:pencil =:pencil
+EXPR: 1 | POS | INT | 22 | 24 | 24 | 3=(x/8) | 3 x 8 / = | 3:person x:person 8:pencil /:person =:person
+EXPR: 0 | POS | INT | 22 | 24 | 5 | 3=(8-x) | 3 8 x - = | 3:pencil 8:pencil x:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 22 | 24 | 11 | (x-3)=8 | x 3 - 8 = | x:pencil 3:pencil -:pencil 8:pencil =:pencil
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

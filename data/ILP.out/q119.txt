@@ -1,0 +1,7 @@
+constants : 192 12
+unknowns : x
+operators : + - * / =
+objtypes : ball dozen
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 16.0

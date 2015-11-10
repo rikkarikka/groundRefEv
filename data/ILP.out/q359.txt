@@ -1,0 +1,7 @@
+constants : 3.6666666666666665 2.3333333333333335
+unknowns : x
+operators : + - * / =
+objtypes : foot sandcastle
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 1.3333333333333333

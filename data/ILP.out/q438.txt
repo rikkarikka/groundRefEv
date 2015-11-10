@@ -1,0 +1,7 @@
+constants : 96 8
+unknowns : x
+operators : + - * / =
+objtypes : cupcake child person
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 12

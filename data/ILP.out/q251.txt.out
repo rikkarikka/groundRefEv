@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 19766 | 73526293 | (14797*4969)=x | 14797 4969 * x = | 14797:suit 4969:bathing *:bathing x:bathing =:bathing
+EXPR: 1 | POS | INT | 10 | 19766 | 19766 | (14797+4969)=x | 14797 4969 + x = | 14797:suit 4969:suit +:suit x:suit =:suit
+EXPR: 0 | POS | INT | 10 | 19766 | 9828 | x=(14797-4969) | x 14797 4969 - = | x:suit 14797:suit 4969:suit -:suit =:suit
+EXPR: 0 | POS | INT | 10 | 19766 | 73526293 | x=(14797*4969) | x 14797 4969 * = | x:bathing 14797:suit 4969:bathing *:bathing =:bathing
+EXPR: 1 | POS | INT | 10 | 19766 | 19766 | x=(14797+4969) | x 14797 4969 + = | x:suit 14797:suit 4969:suit +:suit =:suit
+EXPR: 0 | POS | INT | 10 | 19766 | 9828 | (14797-4969)=x | 14797 4969 - x = | 14797:suit 4969:suit -:suit x:suit =:suit
+EXPR: 0 | POS | INT | 12 | 19766 | 73526293.0000001 | 14797=(x/4969) | 14797 x 4969 / = | 14797:bathing x:bathing 4969:suit /:bathing =:bathing
+EXPR: 1 | POS | INT | 12 | 19766 | 19766 | 14797=(x-4969) | 14797 x 4969 - = | 14797:suit x:suit 4969:suit -:suit =:suit
+EXPR: 0 | POS | INT | 12 | 19766 | 9828 | (14797-x)=4969 | 14797 x - 4969 = | 14797:suit x:suit -:suit 4969:suit =:suit
+EXPR: 0 | POS | INT | 12 | 19766 | 9828 | 14797=(x+4969) | 14797 x 4969 + = | 14797:suit x:suit 4969:suit +:suit =:suit
+EXPR: 0 | POS | INT | 12 | 19766 | 9828 | 14797=(4969+x) | 14797 4969 x + = | 14797:suit 4969:suit x:suit +:suit =:suit
+EXPR: 1 | POS | INT | 12 | 19766 | 19766 | (x-14797)=4969 | x 14797 - 4969 = | x:suit 14797:suit -:suit 4969:suit =:suit
+EXPR: 0 | POS | INT | 12 | 19766 | 73526293 | (x/14797)=4969 | x 14797 / 4969 = | x:bathing 14797:suit /:bathing 4969:bathing =:bathing
+EXPR: 0 | POS | INT | 22 | 19766 | 73526293 | (x/4969)=14797 | x 4969 / 14797 = | x:bathing 4969:suit /:bathing 14797:bathing =:bathing
+EXPR: 1 | POS | INT | 22 | 19766 | 19766 | (x-4969)=14797 | x 4969 - 14797 = | x:suit 4969:suit -:suit 14797:suit =:suit
+EXPR: 0 | POS | INT | 22 | 19766 | 9828 | (4969+x)=14797 | 4969 x + 14797 = | 4969:suit x:suit +:suit 14797:suit =:suit
+EXPR: 1 | POS | INT | 22 | 19766 | 19766 | 4969=(x-14797) | 4969 x 14797 - = | 4969:suit x:suit 14797:suit -:suit =:suit
+EXPR: 0 | POS | INT | 22 | 19766 | 9828 | (x+4969)=14797 | x 4969 + 14797 = | x:suit 4969:suit +:suit 14797:suit =:suit
+EXPR: 0 | POS | INT | 22 | 19766 | 73526293 | 4969=(x/14797) | 4969 x 14797 / = | 4969:bathing x:bathing 14797:suit /:bathing =:bathing
+EXPR: 0 | POS | INT | 22 | 19766 | 9828 | 4969=(14797-x) | 4969 14797 x - = | 4969:suit 14797:suit x:suit -:suit =:suit
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

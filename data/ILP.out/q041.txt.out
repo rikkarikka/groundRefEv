@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 71 | 11 | (41-30)=x | 41 30 - x = | 41:pencil 30:pencil -:pencil x:pencil =:pencil
+EXPR: 1 | POS | INT | 0 | 71 | 71 | x=(41+30) | x 41 30 + = | x:pencil 41:pencil 30:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 0 | 71 | 11 | x=(41-30) | x 41 30 - = | x:pencil 41:pencil 30:pencil -:pencil =:pencil
+EXPR: 1 | POS | INT | 0 | 71 | 71 | (41+30)=x | 41 30 + x = | 41:pencil 30:pencil +:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 71 | 11 | 41=(30+x) | 41 30 x + = | 41:pencil 30:pencil x:pencil +:pencil =:pencil
+EXPR: 1 | POS | INT | 2 | 71 | 71 | (x-41)=30 | x 41 - 30 = | x:pencil 41:pencil -:pencil 30:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 71 | 11 | 41=(x+30) | 41 x 30 + = | 41:pencil x:pencil 30:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 71 | 11 | (41-x)=30 | 41 x - 30 = | 41:pencil x:pencil -:pencil 30:pencil =:pencil
+EXPR: 1 | POS | INT | 2 | 71 | 71 | 41=(x-30) | 41 x 30 - = | 41:pencil x:pencil 30:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 71 | 11 | (x+30)=41 | x 30 + 41 = | x:pencil 30:pencil +:pencil 41:pencil =:pencil
+EXPR: 1 | POS | INT | 12 | 71 | 71 | (x-30)=41 | x 30 - 41 = | x:pencil 30:pencil -:pencil 41:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 71 | 11 | (30+x)=41 | 30 x + 41 = | 30:pencil x:pencil +:pencil 41:pencil =:pencil
+EXPR: 1 | POS | INT | 12 | 71 | 71 | 30=(x-41) | 30 x 41 - = | 30:pencil x:pencil 41:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 71 | 11 | 30=(41-x) | 30 41 x - = | 30:pencil 41:pencil x:pencil -:pencil =:pencil
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

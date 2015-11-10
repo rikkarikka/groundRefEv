@@ -1,0 +1,7 @@
+constants : 5 2
+unknowns : x
+operators : + - * / =
+objtypes : trout Sara
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 10.0

@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 273 | 273 | (600-327)=x | 600 327 - x = | 600:bag 327:bag -:bag x:bag =:bag
+EXPR: 0 | POS | INT | 0 | 273 | 927 | x=(600+327) | x 600 327 + = | x:bag 600:bag 327:bag +:bag =:bag
+EXPR: 1 | POS | INT | 0 | 273 | 273 | x=(600-327) | x 600 327 - = | x:bag 600:bag 327:bag -:bag =:bag
+EXPR: 0 | POS | INT | 0 | 273 | 927 | (600+327)=x | 600 327 + x = | 600:bag 327:bag +:bag x:bag =:bag
+EXPR: 1 | POS | INT | 2 | 273 | 273 | 600=(327+x) | 600 327 x + = | 600:bag 327:bag x:bag +:bag =:bag
+EXPR: 0 | POS | INT | 2 | 273 | 927 | (x-600)=327 | x 600 - 327 = | x:bag 600:bag -:bag 327:bag =:bag
+EXPR: 1 | POS | INT | 2 | 273 | 273 | 600=(x+327) | 600 x 327 + = | 600:bag x:bag 327:bag +:bag =:bag
+EXPR: 1 | POS | INT | 2 | 273 | 273 | (600-x)=327 | 600 x - 327 = | 600:bag x:bag -:bag 327:bag =:bag
+EXPR: 0 | POS | INT | 2 | 273 | 927 | 600=(x-327) | 600 x 327 - = | 600:bag x:bag 327:bag -:bag =:bag
+EXPR: 1 | POS | INT | 12 | 273 | 273 | (x+327)=600 | x 327 + 600 = | x:bag 327:bag +:bag 600:bag =:bag
+EXPR: 0 | POS | INT | 12 | 273 | 927 | (x-327)=600 | x 327 - 600 = | x:bag 327:bag -:bag 600:bag =:bag
+EXPR: 1 | POS | INT | 12 | 273 | 273 | (327+x)=600 | 327 x + 600 = | 327:bag x:bag +:bag 600:bag =:bag
+EXPR: 0 | POS | INT | 12 | 273 | 927 | 327=(x-600) | 327 x 600 - = | 327:bag x:bag 600:bag -:bag =:bag
+EXPR: 1 | POS | INT | 12 | 273 | 273 | 327=(600-x) | 327 600 x - = | 327:bag 600:bag x:bag -:bag =:bag
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

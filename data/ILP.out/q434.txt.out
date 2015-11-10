@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 323 | 323 | (380-57)=x | 380 57 - x = | 380:lego 57:lego -:lego x:lego =:lego
+EXPR: 0 | POS | INT | 0 | 323 | 437 | x=(380+57) | x 380 57 + = | x:lego 380:lego 57:lego +:lego =:lego
+EXPR: 1 | POS | INT | 0 | 323 | 323 | x=(380-57) | x 380 57 - = | x:lego 380:lego 57:lego -:lego =:lego
+EXPR: 0 | POS | INT | 0 | 323 | 437 | (380+57)=x | 380 57 + x = | 380:lego 57:lego +:lego x:lego =:lego
+EXPR: 1 | POS | INT | 2 | 323 | 323 | 380=(57+x) | 380 57 x + = | 380:lego 57:lego x:lego +:lego =:lego
+EXPR: 0 | POS | INT | 2 | 323 | 437 | (x-380)=57 | x 380 - 57 = | x:lego 380:lego -:lego 57:lego =:lego
+EXPR: 1 | POS | INT | 2 | 323 | 323 | 380=(x+57) | 380 x 57 + = | 380:lego x:lego 57:lego +:lego =:lego
+EXPR: 1 | POS | INT | 2 | 323 | 323 | (380-x)=57 | 380 x - 57 = | 380:lego x:lego -:lego 57:lego =:lego
+EXPR: 0 | POS | INT | 2 | 323 | 437 | 380=(x-57) | 380 x 57 - = | 380:lego x:lego 57:lego -:lego =:lego
+EXPR: 1 | POS | INT | 12 | 323 | 323 | (x+57)=380 | x 57 + 380 = | x:lego 57:lego +:lego 380:lego =:lego
+EXPR: 0 | POS | INT | 12 | 323 | 437 | (x-57)=380 | x 57 - 380 = | x:lego 57:lego -:lego 380:lego =:lego
+EXPR: 1 | POS | INT | 12 | 323 | 323 | (57+x)=380 | 57 x + 380 = | 57:lego x:lego +:lego 380:lego =:lego
+EXPR: 0 | POS | INT | 12 | 323 | 437 | 57=(x-380) | 57 x 380 - = | 57:lego x:lego 380:lego -:lego =:lego
+EXPR: 1 | POS | INT | 12 | 323 | 323 | 57=(380-x) | 57 380 x - = | 57:lego 380:lego x:lego -:lego =:lego
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

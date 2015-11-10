@@ -1,0 +1,7 @@
+constants : 5.92 2 6.79 20
+unknowns : x
+operators : + - * / =
+objtypes : dollar ticket
+constantOrUnknownType : 0 1 0 0 0
+n : 9
+answer : 1.37

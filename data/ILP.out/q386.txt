@@ -1,0 +1,7 @@
+constants : 8.9 2.3
+unknowns : x
+operators : + - * / =
+objtypes : centimeter LENGTH
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 6.6

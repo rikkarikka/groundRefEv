@@ -1,0 +1,7 @@
+constants : 45 3
+unknowns : x
+operators : + - * / =
+objtypes : dollar person total
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 135.0

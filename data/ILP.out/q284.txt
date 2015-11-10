@@ -1,0 +1,7 @@
+constants : 12 3
+unknowns : x
+operators : + - * / =
+objtypes : guest table
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 4.0

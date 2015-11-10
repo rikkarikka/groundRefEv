@@ -1,0 +1,16 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 0.5 | 0 | (0.25-0.25)=x | 0.25 0.25 - x = | 0.25:cup 0.25:cup -:cup x:cup =:cup
+EXPR: 1 | POS | FRA | 0 | 0.5 | 0.5 | x=(0.25+0.25) | x 0.25 0.25 + = | x:cup 0.25:cup 0.25:cup +:cup =:cup
+EXPR: 0 | POS | INT | 0 | 0.5 |  | x=(0.25-0.25) | x 0.25 0.25 - = | x:cup 0.25:cup 0.25:cup -:cup =:cup
+EXPR: 1 | POS | FRA | 0 | 0.5 | 0.5 | (0.25+0.25)=x | 0.25 0.25 + x = | 0.25:cup 0.25:cup +:cup x:cup =:cup
+EXPR: 0 | POS | INT | 2 | 0.5 | 0 | 0.25=(0.25+x) | 0.25 0.25 x + = | 0.25:cup 0.25:cup x:cup +:cup =:cup
+EXPR: 0 | POS | INT | 2 | 0.5 |  | (x+0.25)=0.25 | x 0.25 + 0.25 = | x:cup 0.25:cup +:cup 0.25:cup =:cup
+EXPR: 1 | POS | FRA | 2 | 0.5 | 0.5 | (x-0.25)=0.25 | x 0.25 - 0.25 = | x:cup 0.25:cup -:cup 0.25:cup =:cup
+EXPR: 0 | POS | INT | 2 | 0.5 | 0 | 0.25=(x+0.25) | 0.25 x 0.25 + = | 0.25:cup x:cup 0.25:cup +:cup =:cup
+EXPR: 0 | POS | INT | 2 | 0.5 |  | (0.25+x)=0.25 | 0.25 x + 0.25 = | 0.25:cup x:cup +:cup 0.25:cup =:cup
+EXPR: 0 | POS | INT | 2 | 0.5 |  | (0.25-x)=0.25 | 0.25 x - 0.25 = | 0.25:cup x:cup -:cup 0.25:cup =:cup
+EXPR: 0 | POS | INT | 2 | 0.5 | 0 | 0.25=(0.25-x) | 0.25 0.25 x - = | 0.25:cup 0.25:cup x:cup -:cup =:cup
+EXPR: 1 | POS | FRA | 2 | 0.5 | 0.5 | 0.25=(x-0.25) | 0.25 x 0.25 - = | 0.25:cup x:cup 0.25:cup -:cup =:cup
+NET 12 unique, non-negative solutions found out of 28 total solutions

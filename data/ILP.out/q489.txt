@@ -1,0 +1,7 @@
+constants : 212 68
+unknowns : x
+operators : + - * / =
+objtypes : fish
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 280

@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 452 | 151424 | (676*224)=x | 676 224 * x = | 676:card 224:pokemon *:pokemon x:pokemon =:pokemon
+EXPR: 0 | POS | INT | 10 | 452 | 900 | (676+224)=x | 676 224 + x = | 676:card 224:card +:card x:card =:card
+EXPR: 1 | POS | INT | 10 | 452 | 452 | x=(676-224) | x 676 224 - = | x:card 676:card 224:card -:card =:card
+EXPR: 0 | POS | INT | 10 | 452 | 151424 | x=(676*224) | x 676 224 * = | x:pokemon 676:card 224:pokemon *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 10 | 452 | 900 | x=(676+224) | x 676 224 + = | x:card 676:card 224:card +:card =:card
+EXPR: 1 | POS | INT | 10 | 452 | 452 | (676-224)=x | 676 224 - x = | 676:card 224:card -:card x:card =:card
+EXPR: 0 | POS | INT | 12 | 452 | 151424 | 676=(x/224) | 676 x 224 / = | 676:pokemon x:pokemon 224:card /:pokemon =:pokemon
+EXPR: 0 | POS | INT | 12 | 452 | 900 | 676=(x-224) | 676 x 224 - = | 676:card x:card 224:card -:card =:card
+EXPR: 1 | POS | INT | 12 | 452 | 452 | (676-x)=224 | 676 x - 224 = | 676:card x:card -:card 224:card =:card
+EXPR: 1 | POS | INT | 12 | 452 | 452 | 676=(x+224) | 676 x 224 + = | 676:card x:card 224:card +:card =:card
+EXPR: 1 | POS | INT | 12 | 452 | 452 | 676=(224+x) | 676 224 x + = | 676:card 224:card x:card +:card =:card
+EXPR: 0 | POS | INT | 12 | 452 | 900 | (x-676)=224 | x 676 - 224 = | x:card 676:card -:card 224:card =:card
+EXPR: 0 | POS | INT | 12 | 452 | 151424 | (x/676)=224 | x 676 / 224 = | x:pokemon 676:card /:pokemon 224:pokemon =:pokemon
+EXPR: 0 | POS | INT | 22 | 452 | 151424 | (x/224)=676 | x 224 / 676 = | x:pokemon 224:card /:pokemon 676:pokemon =:pokemon
+EXPR: 0 | POS | INT | 22 | 452 | 900 | (x-224)=676 | x 224 - 676 = | x:card 224:card -:card 676:card =:card
+EXPR: 1 | POS | INT | 22 | 452 | 452 | (224+x)=676 | 224 x + 676 = | 224:card x:card +:card 676:card =:card
+EXPR: 0 | POS | INT | 22 | 452 | 900 | 224=(x-676) | 224 x 676 - = | 224:card x:card 676:card -:card =:card
+EXPR: 1 | POS | INT | 22 | 452 | 452 | (x+224)=676 | x 224 + 676 = | x:card 224:card +:card 676:card =:card
+EXPR: 0 | POS | INT | 22 | 452 | 151424 | 224=(x/676) | 224 x 676 / = | 224:pokemon x:pokemon 676:card /:pokemon =:pokemon
+EXPR: 1 | POS | INT | 22 | 452 | 452 | 224=(676-x) | 224 676 x - = | 224:card 676:card x:card -:card =:card
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

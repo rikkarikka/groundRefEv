@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 5 | 5 | x=(110/22) | x 110 22 / = | x:marble 110:marble 22:Fred /:marble =:marble
+EXPR: 1 | POS | INT | 0 | 5 | 5 | (110/22)=x | 110 22 / x = | 110:marble 22:Fred /:marble x:marble =:marble
+EXPR: 0 | POS | INT | 0 | 5 | 2420 | x=(110*22) | x 110 22 * = | x:marble 110:marble 22:Fred *:marble =:marble
+EXPR: 0 | POS | INT | 0 | 5 | 2420 | (110*22)=x | 110 22 * x = | 110:marble 22:Fred *:marble x:marble =:marble
+EXPR: 1 | POS | INT | 2 | 5 | 5 | 110=(22*x) | 110 22 x * = | 110:marble 22:Fred x:marble *:marble =:marble
+EXPR: 0 | POS | INT | 2 | 5 | 2420 | 110=(x/22) | 110 x 22 / = | 110:marble x:marble 22:Fred /:marble =:marble
+EXPR: 1 | POS | INT | 2 | 5 | 5 | 110=(x*22) | 110 x 22 * = | 110:marble x:marble 22:Fred *:marble =:marble
+EXPR: 0 | POS | INT | 10 | 5 | 88 | (110-22)=x | 110 22 - x = | 110:marble 22:marble -:marble x:marble =:marble
+EXPR: 0 | POS | INT | 10 | 5 | 132 | x=(110+22) | x 110 22 + = | x:marble 110:marble 22:marble +:marble =:marble
+EXPR: 0 | POS | INT | 10 | 5 | 88 | x=(110-22) | x 110 22 - = | x:marble 110:marble 22:marble -:marble =:marble
+EXPR: 0 | POS | INT | 10 | 5 | 132 | (110+22)=x | 110 22 + x = | 110:marble 22:marble +:marble x:marble =:marble
+EXPR: 0 | POS | INT | 12 | 5 | 88 | 110=(x+22) | 110 x 22 + = | 110:marble x:marble 22:marble +:marble =:marble
+EXPR: 1 | POS | INT | 12 | 5 | 5 | (110/x)=22 | 110 x / 22 = | 110:Fred x:marble /:Fred 22:Fred =:Fred
+EXPR: 1 | POS | INT | 12 | 5 | 5 | (22*x)=110 | 22 x * 110 = | 22:Fred x:marble *:marble 110:marble =:marble
+EXPR: 0 | POS | INT | 12 | 5 | 132 | 110=(x-22) | 110 x 22 - = | 110:marble x:marble 22:marble -:marble =:marble
+EXPR: 0 | POS | INT | 12 | 5 | 88 | 110=(22+x) | 110 22 x + = | 110:marble 22:marble x:marble +:marble =:marble
+EXPR: 0 | POS | INT | 12 | 5 | 132 | (x-110)=22 | x 110 - 22 = | x:marble 110:marble -:marble 22:marble =:marble
+EXPR: 0 | POS | INT | 12 | 5 | 88 | (110-x)=22 | 110 x - 22 = | 110:marble x:marble -:marble 22:marble =:marble
+EXPR: 0 | POS | INT | 12 | 5 | 2420 | (x/110)=22 | x 110 / 22 = | x:Fred 110:marble /:Fred 22:Fred =:Fred
+EXPR: 0 | POS | INT | 12 | 5 | 2420 | (x/22)=110 | x 22 / 110 = | x:marble 22:Fred /:marble 110:marble =:marble
+EXPR: 1 | POS | INT | 12 | 5 | 5 | (x*22)=110 | x 22 * 110 = | x:marble 22:Fred *:marble 110:marble =:marble
+EXPR: 0 | POS | INT | 22 | 5 | 88 | (x+22)=110 | x 22 + 110 = | x:marble 22:marble +:marble 110:marble =:marble
+EXPR: 1 | POS | INT | 22 | 5 | 5 | 22=(110/x) | 22 110 x / = | 22:Fred 110:Fred x:marble /:Fred =:Fred
+EXPR: 0 | POS | INT | 22 | 5 | 88 | (22+x)=110 | 22 x + 110 = | 22:marble x:marble +:marble 110:marble =:marble
+EXPR: 0 | POS | INT | 22 | 5 | 132 | 22=(x-110) | 22 x 110 - = | 22:marble x:marble 110:marble -:marble =:marble
+EXPR: 0 | POS | INT | 22 | 5 | 2420 | 22=(x/110) | 22 x 110 / = | 22:Fred x:Fred 110:marble /:Fred =:Fred
+EXPR: 0 | POS | INT | 22 | 5 | 88 | 22=(110-x) | 22 110 x - = | 22:marble 110:marble x:marble -:marble =:marble
+EXPR: 0 | POS | INT | 22 | 5 | 132 | (x-22)=110 | x 22 - 110 = | x:marble 22:marble -:marble 110:marble =:marble
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

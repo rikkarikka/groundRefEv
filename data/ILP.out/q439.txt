@@ -1,0 +1,7 @@
+constants : 639 504
+unknowns : x
+operators : + - * / =
+objtypes : crayon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 135

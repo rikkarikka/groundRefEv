@@ -1,0 +1,7 @@
+constants : 4 6
+unknowns : x
+operators : + - * / =
+objtypes : tree walnut
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 10.0

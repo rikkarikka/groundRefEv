@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 75 | 75 | x=(15*5) | x 15 5 * = | x:puppy 15:dog 5:puppy *:puppy =:puppy
+EXPR: 1 | POS | INT | 0 | 75 | 75 | (15*5)=x | 15 5 * x = | 15:dog 5:puppy *:puppy x:puppy =:puppy
+EXPR: 1 | POS | INT | 2 | 75 | 75 | (x/15)=5 | x 15 / 5 = | x:puppy 15:dog /:puppy 5:puppy =:puppy
+EXPR: 0 | POS | INT | 10 | 75 | 3 | (15/5)=x | 15 5 / x = | 15:dog 5:puppy /:dog x:dog =:dog
+EXPR: 0 | POS | INT | 10 | 75 | 20 | x=(15+5) | x 15 5 + = | x:puppy 15:puppy 5:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 10 | 75 | 20 | (15+5)=x | 15 5 + x = | 15:puppy 5:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 10 | 75 | 3 | x=(15/5) | x 15 5 / = | x:dog 15:dog 5:puppy /:dog =:dog
+EXPR: 0 | POS | INT | 10 | 75 | 10 | (15-5)=x | 15 5 - x = | 15:puppy 5:puppy -:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 10 | 75 | 10 | x=(15-5) | x 15 5 - = | x:puppy 15:puppy 5:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 75 | 3 | 15=(x*5) | 15 x 5 * = | 15:dog x:puppy 5:dog *:dog =:dog
+EXPR: 0 | POS | INT | 12 | 75 | 3 | 15=(5*x) | 15 5 x * = | 15:dog 5:dog x:puppy *:dog =:dog
+EXPR: 0 | POS | INT | 12 | 75 | 3 | (15/x)=5 | 15 x / 5 = | 15:dog x:puppy /:dog 5:dog =:dog
+EXPR: 0 | POS | INT | 12 | 75 | 10 | (15-x)=5 | 15 x - 5 = | 15:puppy x:puppy -:puppy 5:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 75 | 10 | 15=(5+x) | 15 5 x + = | 15:puppy 5:puppy x:puppy +:puppy =:puppy
+EXPR: 1 | POS | INT | 12 | 75 | 75 | 5=(x/15) | 5 x 15 / = | 5:puppy x:puppy 15:dog /:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 75 | 20 | (x-15)=5 | x 15 - 5 = | x:puppy 15:puppy -:puppy 5:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 75 | 10 | 15=(x+5) | 15 x 5 + = | 15:puppy x:puppy 5:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 75 | 20 | 15=(x-5) | 15 x 5 - = | 15:puppy x:puppy 5:puppy -:puppy =:puppy
+EXPR: 1 | POS | INT | 12 | 75 | 75 | 15=(x/5) | 15 x 5 / = | 15:dog x:dog 5:puppy /:dog =:dog
+EXPR: 1 | POS | INT | 22 | 75 | 75 | (x/5)=15 | x 5 / 15 = | x:dog 5:puppy /:dog 15:dog =:dog
+EXPR: 0 | POS | INT | 22 | 75 | 10 | 5=(15-x) | 5 15 x - = | 5:puppy 15:puppy x:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 22 | 75 | 3 | (x*5)=15 | x 5 * 15 = | x:puppy 5:dog *:dog 15:dog =:dog
+EXPR: 0 | POS | INT | 22 | 75 | 10 | (x+5)=15 | x 5 + 15 = | x:puppy 5:puppy +:puppy 15:puppy =:puppy
+EXPR: 0 | POS | INT | 22 | 75 | 3 | 5=(15/x) | 5 15 x / = | 5:dog 15:dog x:puppy /:dog =:dog
+EXPR: 0 | POS | INT | 22 | 75 | 3 | (5*x)=15 | 5 x * 15 = | 5:puppy x:dog *:dog 15:dog =:dog
+EXPR: 0 | POS | INT | 22 | 75 | 20 | (x-5)=15 | x 5 - 15 = | x:puppy 5:puppy -:puppy 15:puppy =:puppy
+EXPR: 0 | POS | INT | 22 | 75 | 10 | (5+x)=15 | 5 x + 15 = | 5:puppy x:puppy +:puppy 15:puppy =:puppy
+EXPR: 0 | POS | INT | 22 | 75 | 20 | 5=(x-15) | 5 x 15 - = | 5:puppy x:puppy 15:puppy -:puppy =:puppy
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

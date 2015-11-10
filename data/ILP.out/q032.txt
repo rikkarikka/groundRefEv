@@ -1,0 +1,7 @@
+constants : 4 9 3
+unknowns : x
+operators : + - * / =
+objtypes : plum
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 16.0

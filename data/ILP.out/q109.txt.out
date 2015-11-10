@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 7 | 7 | 45=(315/x) | 45 315 x / = | 45:book 315:book x:shelf /:book =:book
+EXPR: 1 | POS | INT | 2 | 7 | 7 | (x*45)=315 | x 45 * 315 = | x:shelf 45:book *:book 315:book =:book
+EXPR: 1 | POS | INT | 2 | 7 | 7 | (45*x)=315 | 45 x * 315 = | 45:book x:shelf *:book 315:book =:book
+EXPR: 0 | POS | INT | 10 | 7 | 14175 | (45*315)=x | 45 315 * x = | 45:book 315:shelf *:shelf x:shelf =:shelf
+EXPR: 0 | POS | INT | 10 | 7 | 360 | (45+315)=x | 45 315 + x = | 45:book 315:book +:book x:book =:book
+EXPR: 0 | POS | INT | 10 | 7 | 14175 | x=(45*315) | x 45 315 * = | x:shelf 45:book 315:shelf *:shelf =:shelf
+EXPR: 0 | POS | INT | 10 | 7 | 360 | x=(45+315) | x 45 315 + = | x:book 45:book 315:book +:book =:book
+EXPR: 0 | POS | INT | 12 | 7 | 14175 | 45=(x/315) | 45 x 315 / = | 45:shelf x:shelf 315:book /:shelf =:shelf
+EXPR: 1 | POS | INT | 12 | 7 | 7 | 315=(45*x) | 315 45 x * = | 315:book 45:book x:shelf *:book =:book
+EXPR: 0 | POS | INT | 12 | 7 | 360 | 45=(x-315) | 45 x 315 - = | 45:book x:book 315:book -:book =:book
+EXPR: 1 | POS | INT | 12 | 7 | 7 | 315=(x*45) | 315 x 45 * = | 315:book x:shelf 45:book *:book =:book
+EXPR: 0 | POS | INT | 12 | 7 | 270 | 45=(315-x) | 45 315 x - = | 45:book 315:book x:book -:book =:book
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (315/x)=45 | 315 x / 45 = | 315:book x:shelf /:book 45:book =:book
+EXPR: 0 | POS | INT | 12 | 7 | 270 | (x+45)=315 | x 45 + 315 = | x:book 45:book +:book 315:book =:book
+EXPR: 0 | POS | INT | 12 | 7 | 270 | (45+x)=315 | 45 x + 315 = | 45:book x:book +:book 315:book =:book
+EXPR: 0 | POS | INT | 12 | 7 | 360 | (x-45)=315 | x 45 - 315 = | x:book 45:book -:book 315:book =:book
+EXPR: 0 | POS | INT | 12 | 7 | 14175 | (x/45)=315 | x 45 / 315 = | x:shelf 45:book /:shelf 315:shelf =:shelf
+EXPR: 1 | POS | INT | 20 | 7 | 7 | (315/45)=x | 315 45 / x = | 315:shelf 45:book /:shelf x:shelf =:shelf
+EXPR: 0 | POS | INT | 20 | 7 | 270 | x=(315-45) | x 315 45 - = | x:book 315:book 45:book -:book =:book
+EXPR: 0 | POS | INT | 20 | 7 | 270 | (315-45)=x | 315 45 - x = | 315:book 45:book -:book x:book =:book
+EXPR: 1 | POS | INT | 20 | 7 | 7 | x=(315/45) | x 315 45 / = | x:shelf 315:shelf 45:book /:shelf =:shelf
+EXPR: 0 | POS | INT | 22 | 7 | 270 | (315-x)=45 | 315 x - 45 = | 315:book x:book -:book 45:book =:book
+EXPR: 0 | POS | INT | 22 | 7 | 14175 | (x/315)=45 | x 315 / 45 = | x:shelf 315:book /:shelf 45:shelf =:shelf
+EXPR: 0 | POS | INT | 22 | 7 | 360 | (x-315)=45 | x 315 - 45 = | x:book 315:book -:book 45:book =:book
+EXPR: 0 | POS | INT | 22 | 7 | 360 | 315=(x-45) | 315 x 45 - = | 315:book x:book 45:book -:book =:book
+EXPR: 0 | POS | INT | 22 | 7 | 270 | 315=(x+45) | 315 x 45 + = | 315:book x:book 45:book +:book =:book
+EXPR: 0 | POS | INT | 22 | 7 | 270 | 315=(45+x) | 315 45 x + = | 315:book 45:book x:book +:book =:book
+EXPR: 0 | POS | INT | 22 | 7 | 14175 | 315=(x/45) | 315 x 45 / = | 315:shelf x:shelf 45:book /:shelf =:shelf
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

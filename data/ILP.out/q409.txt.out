@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 8 | 128 | x=(4*32) | x 4 32 * = | x:painting 4:room 32:painting *:painting =:painting
+EXPR: 0 | POS | INT | 0 | 8 | 128 | (4*32)=x | 4 32 * x = | 4:room 32:painting *:painting x:painting =:painting
+EXPR: 0 | POS | INT | 2 | 8 | 128 | (x/4)=32 | x 4 / 32 = | x:painting 4:room /:painting 32:painting =:painting
+EXPR: 1 | POS | INT | 2 | 8 | 8 | (x*4)=32 | x 4 * 32 = | x:painting 4:room *:painting 32:painting =:painting
+EXPR: 1 | POS | INT | 2 | 8 | 8 | (4*x)=32 | 4 x * 32 = | 4:room x:painting *:painting 32:painting =:painting
+EXPR: 1 | POS | INT | 10 | 8 | 8 | (32/4)=x | 32 4 / x = | 32:painting 4:room /:painting x:painting =:painting
+EXPR: 1 | POS | INT | 10 | 8 | 8 | x=(32/4) | x 32 4 / = | x:painting 32:painting 4:room /:painting =:painting
+EXPR: 0 | POS | INT | 10 | 8 | 36 | x=(4+32) | x 4 32 + = | x:painting 4:painting 32:painting +:painting =:painting
+EXPR: 0 | POS | INT | 10 | 8 | 36 | (4+32)=x | 4 32 + x = | 4:painting 32:painting +:painting x:painting =:painting
+EXPR: 0 | POS | INT | 12 | 8 | 28 | 4=(32-x) | 4 32 x - = | 4:painting 32:painting x:painting -:painting =:painting
+EXPR: 0 | POS | INT | 12 | 8 | 128 | 32=(x/4) | 32 x 4 / = | 32:painting x:painting 4:room /:painting =:painting
+EXPR: 0 | POS | INT | 12 | 8 | 28 | (x+4)=32 | x 4 + 32 = | x:painting 4:painting +:painting 32:painting =:painting
+EXPR: 0 | POS | INT | 12 | 8 | 36 | (x-4)=32 | x 4 - 32 = | x:painting 4:painting -:painting 32:painting =:painting
+EXPR: 0 | POS | INT | 12 | 8 | 28 | (4+x)=32 | 4 x + 32 = | 4:painting x:painting +:painting 32:painting =:painting
+EXPR: 1 | POS | INT | 12 | 8 | 8 | 32=(4*x) | 32 4 x * = | 32:painting 4:room x:painting *:painting =:painting
+EXPR: 1 | POS | INT | 12 | 8 | 8 | 4=(32/x) | 4 32 x / = | 4:room 32:room x:painting /:room =:room
+EXPR: 1 | POS | INT | 12 | 8 | 8 | 32=(x*4) | 32 x 4 * = | 32:painting x:painting 4:room *:painting =:painting
+EXPR: 0 | POS | INT | 12 | 8 | 36 | 4=(x-32) | 4 x 32 - = | 4:painting x:painting 32:painting -:painting =:painting
+EXPR: 0 | POS | INT | 12 | 8 | 128 | 4=(x/32) | 4 x 32 / = | 4:room x:room 32:painting /:room =:room
+EXPR: 0 | POS | INT | 20 | 8 | 28 | x=(32-4) | x 32 4 - = | x:painting 32:painting 4:painting -:painting =:painting
+EXPR: 0 | POS | INT | 20 | 8 | 28 | (32-4)=x | 32 4 - x = | 32:painting 4:painting -:painting x:painting =:painting
+EXPR: 0 | POS | INT | 22 | 8 | 28 | (32-x)=4 | 32 x - 4 = | 32:painting x:painting -:painting 4:painting =:painting
+EXPR: 0 | POS | INT | 22 | 8 | 128 | (x/32)=4 | x 32 / 4 = | x:room 32:painting /:room 4:room =:room
+EXPR: 0 | POS | INT | 22 | 8 | 28 | 32=(4+x) | 32 4 x + = | 32:painting 4:painting x:painting +:painting =:painting
+EXPR: 1 | POS | INT | 22 | 8 | 8 | (32/x)=4 | 32 x / 4 = | 32:room x:painting /:room 4:room =:room
+EXPR: 0 | POS | INT | 22 | 8 | 36 | (x-32)=4 | x 32 - 4 = | x:painting 32:painting -:painting 4:painting =:painting
+EXPR: 0 | POS | INT | 22 | 8 | 28 | 32=(x+4) | 32 x 4 + = | 32:painting x:painting 4:painting +:painting =:painting
+EXPR: 0 | POS | INT | 22 | 8 | 36 | 32=(x-4) | 32 x 4 - = | 32:painting x:painting 4:painting -:painting =:painting
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

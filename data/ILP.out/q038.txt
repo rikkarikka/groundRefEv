@@ -1,0 +1,7 @@
+constants : 49 25
+unknowns : x
+operators : + - * / =
+objtypes : quarter
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 74.0

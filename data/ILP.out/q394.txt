@@ -1,0 +1,7 @@
+constants : 4 122 4
+unknowns : x
+operators : + - * / =
+objtypes : continent book
+constantOrUnknownType : 0 1 0 1
+n : 7
+answer : 488

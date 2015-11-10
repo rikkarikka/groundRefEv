@@ -1,0 +1,7 @@
+constants : 261 23
+unknowns : x
+operators : + - * / =
+objtypes : fishbowl fish
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 6003

@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 7 | 7 | 56=(x*8) | 56 x 8 * = | 56:tomato x:jar 8:tomato *:tomato =:tomato
+EXPR: 1 | POS | INT | 2 | 7 | 7 | 56=(8*x) | 56 8 x * = | 56:tomato 8:tomato x:jar *:tomato =:tomato
+EXPR: 1 | POS | INT | 2 | 7 | 7 | (56/x)=8 | 56 x / 8 = | 56:tomato x:jar /:tomato 8:tomato =:tomato
+EXPR: 0 | POS | INT | 10 | 7 | 448 | (56*8)=x | 56 8 * x = | 56:tomato 8:jar *:jar x:jar =:jar
+EXPR: 0 | POS | INT | 10 | 7 | 64 | (56+8)=x | 56 8 + x = | 56:tomato 8:tomato +:tomato x:tomato =:tomato
+EXPR: 0 | POS | INT | 10 | 7 | 48 | x=(56-8) | x 56 8 - = | x:tomato 56:tomato 8:tomato -:tomato =:tomato
+EXPR: 0 | POS | INT | 10 | 7 | 448 | x=(56*8) | x 56 8 * = | x:jar 56:tomato 8:jar *:jar =:jar
+EXPR: 0 | POS | INT | 10 | 7 | 64 | x=(56+8) | x 56 8 + = | x:tomato 56:tomato 8:tomato +:tomato =:tomato
+EXPR: 0 | POS | INT | 10 | 7 | 48 | (56-8)=x | 56 8 - x = | 56:tomato 8:tomato -:tomato x:tomato =:tomato
+EXPR: 1 | POS | INT | 10 | 7 | 7 | x=(56/8) | x 56 8 / = | x:jar 56:jar 8:tomato /:jar =:jar
+EXPR: 1 | POS | INT | 10 | 7 | 7 | (56/8)=x | 56 8 / x = | 56:jar 8:tomato /:jar x:jar =:jar
+EXPR: 1 | POS | INT | 12 | 7 | 7 | 8=(56/x) | 8 56 x / = | 8:tomato 56:tomato x:jar /:tomato =:tomato
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (x*8)=56 | x 8 * 56 = | x:jar 8:tomato *:tomato 56:tomato =:tomato
+EXPR: 0 | POS | INT | 12 | 7 | 448 | 56=(x/8) | 56 x 8 / = | 56:jar x:jar 8:tomato /:jar =:jar
+EXPR: 0 | POS | INT | 12 | 7 | 64 | 56=(x-8) | 56 x 8 - = | 56:tomato x:tomato 8:tomato -:tomato =:tomato
+EXPR: 0 | POS | INT | 12 | 7 | 48 | (56-x)=8 | 56 x - 8 = | 56:tomato x:tomato -:tomato 8:tomato =:tomato
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (8*x)=56 | 8 x * 56 = | 8:tomato x:jar *:tomato 56:tomato =:tomato
+EXPR: 0 | POS | INT | 12 | 7 | 48 | 56=(x+8) | 56 x 8 + = | 56:tomato x:tomato 8:tomato +:tomato =:tomato
+EXPR: 0 | POS | INT | 12 | 7 | 48 | 56=(8+x) | 56 8 x + = | 56:tomato 8:tomato x:tomato +:tomato =:tomato
+EXPR: 0 | POS | INT | 12 | 7 | 64 | (x-56)=8 | x 56 - 8 = | x:tomato 56:tomato -:tomato 8:tomato =:tomato
+EXPR: 0 | POS | INT | 12 | 7 | 448 | (x/56)=8 | x 56 / 8 = | x:jar 56:tomato /:jar 8:jar =:jar
+EXPR: 0 | POS | INT | 22 | 7 | 448 | (x/8)=56 | x 8 / 56 = | x:jar 8:tomato /:jar 56:jar =:jar
+EXPR: 0 | POS | INT | 22 | 7 | 64 | (x-8)=56 | x 8 - 56 = | x:tomato 8:tomato -:tomato 56:tomato =:tomato
+EXPR: 0 | POS | INT | 22 | 7 | 48 | (8+x)=56 | 8 x + 56 = | 8:tomato x:tomato +:tomato 56:tomato =:tomato
+EXPR: 0 | POS | INT | 22 | 7 | 64 | 8=(x-56) | 8 x 56 - = | 8:tomato x:tomato 56:tomato -:tomato =:tomato
+EXPR: 0 | POS | INT | 22 | 7 | 48 | (x+8)=56 | x 8 + 56 = | x:tomato 8:tomato +:tomato 56:tomato =:tomato
+EXPR: 0 | POS | INT | 22 | 7 | 448 | 8=(x/56) | 8 x 56 / = | 8:jar x:jar 56:tomato /:jar =:jar
+EXPR: 0 | POS | INT | 22 | 7 | 48 | 8=(56-x) | 8 56 x - = | 8:tomato 56:tomato x:tomato -:tomato =:tomato
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

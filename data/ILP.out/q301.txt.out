@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 0.6 | 0.08 | x=(0.2*0.4) | x 0.2 0.4 * = | x:loaf 0.2:total 0.4:loaf *:loaf =:loaf
+EXPR: 0 | POS | FRA | 0 | 0.6 | 0.08 | (0.2*0.4)=x | 0.2 0.4 * x = | 0.2:total 0.4:loaf *:loaf x:loaf =:loaf
+EXPR: 0 | POS | FRA | 2 | 0.6 | 0.08 | (x/0.2)=0.4 | x 0.2 / 0.4 = | x:loaf 0.2:total /:loaf 0.4:loaf =:loaf
+EXPR: 0 | POS | INT | 2 | 0.6 | 2 | (x*0.2)=0.4 | x 0.2 * 0.4 = | x:loaf 0.2:total *:loaf 0.4:loaf =:loaf
+EXPR: 0 | POS | INT | 2 | 0.6 | 2 | (0.2*x)=0.4 | 0.2 x * 0.4 = | 0.2:total x:loaf *:loaf 0.4:loaf =:loaf
+EXPR: 0 | POS | INT | 10 | 0.6 | 2 | (0.4/0.2)=x | 0.4 0.2 / x = | 0.4:loaf 0.2:total /:loaf x:loaf =:loaf
+EXPR: 0 | POS | INT | 10 | 0.6 | 2 | x=(0.4/0.2) | x 0.4 0.2 / = | x:loaf 0.4:loaf 0.2:total /:loaf =:loaf
+EXPR: 0 | POS | FRA | 10 | 0.6 | 0.5 | (0.2/0.4)=x | 0.2 0.4 / x = | 0.2:total 0.4:loaf /:total x:total =:total
+EXPR: 1 | POS | FRA | 10 | 0.6 | 0.6 | x=(0.2+0.4) | x 0.2 0.4 + = | x:loaf 0.2:loaf 0.4:loaf +:loaf =:loaf
+EXPR: 1 | POS | FRA | 10 | 0.6 | 0.6 | (0.2+0.4)=x | 0.2 0.4 + x = | 0.2:loaf 0.4:loaf +:loaf x:loaf =:loaf
+EXPR: 0 | POS | FRA | 10 | 0.6 | 0.5 | x=(0.2/0.4) | x 0.2 0.4 / = | x:total 0.2:total 0.4:loaf /:total =:total
+EXPR: 0 | POS | FRA | 12 | 0.6 | 0.5 | 0.2=(x*0.4) | 0.2 x 0.4 * = | 0.2:total x:loaf 0.4:total *:total =:total
+EXPR: 0 | POS | FRA | 12 | 0.6 | 0.5 | 0.2=(0.4*x) | 0.2 0.4 x * = | 0.2:total 0.4:total x:loaf *:total =:total
+EXPR: 0 | POS | FRA | 12 | 0.6 | 0.5 | (0.2/x)=0.4 | 0.2 x / 0.4 = | 0.2:total x:loaf /:total 0.4:total =:total
+EXPR: 0 | POS | FRA | 12 | 0.6 | 0.2 | 0.2=(0.4-x) | 0.2 0.4 x - = | 0.2:loaf 0.4:loaf x:loaf -:loaf =:loaf
+EXPR: 0 | POS | FRA | 12 | 0.6 | 0.08 | 0.4=(x/0.2) | 0.4 x 0.2 / = | 0.4:loaf x:loaf 0.2:total /:loaf =:loaf
+EXPR: 0 | POS | FRA | 12 | 0.6 | 0.2 | (x+0.2)=0.4 | x 0.2 + 0.4 = | x:loaf 0.2:loaf +:loaf 0.4:loaf =:loaf
+EXPR: 1 | POS | FRA | 12 | 0.6 | 0.6 | (x-0.2)=0.4 | x 0.2 - 0.4 = | x:loaf 0.2:loaf -:loaf 0.4:loaf =:loaf
+EXPR: 0 | POS | FRA | 12 | 0.6 | 0.2 | (0.2+x)=0.4 | 0.2 x + 0.4 = | 0.2:loaf x:loaf +:loaf 0.4:loaf =:loaf
+EXPR: 0 | POS | INT | 12 | 0.6 | 2 | 0.4=(0.2*x) | 0.4 0.2 x * = | 0.4:loaf 0.2:total x:loaf *:loaf =:loaf
+EXPR: 0 | POS | INT | 12 | 0.6 | 2 | 0.2=(0.4/x) | 0.2 0.4 x / = | 0.2:total 0.4:total x:loaf /:total =:total
+EXPR: 0 | POS | INT | 12 | 0.6 | 2 | 0.4=(x*0.2) | 0.4 x 0.2 * = | 0.4:loaf x:loaf 0.2:total *:loaf =:loaf
+EXPR: 1 | POS | FRA | 12 | 0.6 | 0.6 | 0.2=(x-0.4) | 0.2 x 0.4 - = | 0.2:loaf x:loaf 0.4:loaf -:loaf =:loaf
+EXPR: 0 | POS | FRA | 12 | 0.6 | 0.08 | 0.2=(x/0.4) | 0.2 x 0.4 / = | 0.2:total x:total 0.4:loaf /:total =:total
+EXPR: 0 | POS | FRA | 20 | 0.6 | 0.2 | x=(0.4-0.2) | x 0.4 0.2 - = | x:loaf 0.4:loaf 0.2:loaf -:loaf =:loaf
+EXPR: 0 | POS | FRA | 20 | 0.6 | 0.2 | (0.4-0.2)=x | 0.4 0.2 - x = | 0.4:loaf 0.2:loaf -:loaf x:loaf =:loaf
+EXPR: 0 | POS | FRA | 22 | 0.6 | 0.2 | (0.4-x)=0.2 | 0.4 x - 0.2 = | 0.4:loaf x:loaf -:loaf 0.2:loaf =:loaf
+EXPR: 0 | POS | FRA | 22 | 0.6 | 0.08 | (x/0.4)=0.2 | x 0.4 / 0.2 = | x:total 0.4:loaf /:total 0.2:total =:total
+EXPR: 0 | POS | FRA | 22 | 0.6 | 0.2 | 0.4=(0.2+x) | 0.4 0.2 x + = | 0.4:loaf 0.2:loaf x:loaf +:loaf =:loaf
+EXPR: 0 | POS | FRA | 22 | 0.6 | 0.5 | (x*0.4)=0.2 | x 0.4 * 0.2 = | x:loaf 0.4:total *:total 0.2:total =:total
+EXPR: 0 | POS | FRA | 22 | 0.6 | 0.5 | 0.4=(0.2/x) | 0.4 0.2 x / = | 0.4:total 0.2:total x:loaf /:total =:total
+EXPR: 0 | POS | INT | 22 | 0.6 | 2 | (0.4/x)=0.2 | 0.4 x / 0.2 = | 0.4:total x:loaf /:total 0.2:total =:total
+EXPR: 0 | POS | FRA | 22 | 0.6 | 0.5 | (0.4*x)=0.2 | 0.4 x * 0.2 = | 0.4:loaf x:total *:total 0.2:total =:total
+EXPR: 1 | POS | FRA | 22 | 0.6 | 0.6 | (x-0.4)=0.2 | x 0.4 - 0.2 = | x:loaf 0.4:loaf -:loaf 0.2:loaf =:loaf
+EXPR: 0 | POS | FRA | 22 | 0.6 | 0.2 | 0.4=(x+0.2) | 0.4 x 0.2 + = | 0.4:loaf x:loaf 0.2:loaf +:loaf =:loaf
+EXPR: 1 | POS | FRA | 22 | 0.6 | 0.6 | 0.4=(x-0.2) | 0.4 x 0.2 - = | 0.4:loaf x:loaf 0.2:loaf -:loaf =:loaf
+NET 36 unique, non-negative solutions found out of 136 total solutions

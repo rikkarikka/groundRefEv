@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 703 | 703 | x=(37*19) | x 37 19 * = | x:cookie 37:bag 19:cookie *:cookie =:cookie
+EXPR: 1 | POS | INT | 0 | 703 | 703 | (37*19)=x | 37 19 * x = | 37:bag 19:cookie *:cookie x:cookie =:cookie
+EXPR: 1 | POS | INT | 2 | 703 | 703 | (x/37)=19 | x 37 / 19 = | x:cookie 37:bag /:cookie 19:cookie =:cookie
+EXPR: 0 | POS | INT | 10 | 703 | 56 | x=(37+19) | x 37 19 + = | x:cookie 37:cookie 19:cookie +:cookie =:cookie
+EXPR: 0 | POS | INT | 10 | 703 | 56 | (37+19)=x | 37 19 + x = | 37:cookie 19:cookie +:cookie x:cookie =:cookie
+EXPR: 0 | POS | INT | 10 | 703 | 18 | (37-19)=x | 37 19 - x = | 37:cookie 19:cookie -:cookie x:cookie =:cookie
+EXPR: 0 | POS | INT | 10 | 703 | 18 | x=(37-19) | x 37 19 - = | x:cookie 37:cookie 19:cookie -:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 703 | 18 | (37-x)=19 | 37 x - 19 = | 37:cookie x:cookie -:cookie 19:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 703 | 18 | 37=(19+x) | 37 19 x + = | 37:cookie 19:cookie x:cookie +:cookie =:cookie
+EXPR: 1 | POS | INT | 12 | 703 | 703 | 19=(x/37) | 19 x 37 / = | 19:cookie x:cookie 37:bag /:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 703 | 56 | (x-37)=19 | x 37 - 19 = | x:cookie 37:cookie -:cookie 19:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 703 | 18 | 37=(x+19) | 37 x 19 + = | 37:cookie x:cookie 19:cookie +:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 703 | 56 | 37=(x-19) | 37 x 19 - = | 37:cookie x:cookie 19:cookie -:cookie =:cookie
+EXPR: 1 | POS | INT | 12 | 703 | 703 | 37=(x/19) | 37 x 19 / = | 37:bag x:bag 19:cookie /:bag =:bag
+EXPR: 1 | POS | INT | 22 | 703 | 703 | (x/19)=37 | x 19 / 37 = | x:bag 19:cookie /:bag 37:bag =:bag
+EXPR: 0 | POS | INT | 22 | 703 | 18 | 19=(37-x) | 19 37 x - = | 19:cookie 37:cookie x:cookie -:cookie =:cookie
+EXPR: 0 | POS | INT | 22 | 703 | 18 | (x+19)=37 | x 19 + 37 = | x:cookie 19:cookie +:cookie 37:cookie =:cookie
+EXPR: 0 | POS | INT | 22 | 703 | 56 | (x-19)=37 | x 19 - 37 = | x:cookie 19:cookie -:cookie 37:cookie =:cookie
+EXPR: 0 | POS | INT | 22 | 703 | 18 | (19+x)=37 | 19 x + 37 = | 19:cookie x:cookie +:cookie 37:cookie =:cookie
+EXPR: 0 | POS | INT | 22 | 703 | 56 | 19=(x-37) | 19 x 37 - = | 19:cookie x:cookie 37:cookie -:cookie =:cookie
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

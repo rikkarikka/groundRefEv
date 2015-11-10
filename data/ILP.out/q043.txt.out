@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 81 | 81 | x=(40+41) | x 40 41 + = | x:balloon 40:balloon 41:balloon +:balloon =:balloon
+EXPR: 1 | POS | INT | 0 | 81 | 81 | (40+41)=x | 40 41 + x = | 40:balloon 41:balloon +:balloon x:balloon =:balloon
+EXPR: 0 | POS | INT | 2 | 81 | 1 | (x+40)=41 | x 40 + 41 = | x:balloon 40:balloon +:balloon 41:balloon =:balloon
+EXPR: 1 | POS | INT | 2 | 81 | 81 | (x-40)=41 | x 40 - 41 = | x:balloon 40:balloon -:balloon 41:balloon =:balloon
+EXPR: 0 | POS | INT | 2 | 81 | 1 | (40+x)=41 | 40 x + 41 = | 40:balloon x:balloon +:balloon 41:balloon =:balloon
+EXPR: 0 | POS | INT | 2 | 81 | 1 | 40=(41-x) | 40 41 x - = | 40:balloon 41:balloon x:balloon -:balloon =:balloon
+EXPR: 1 | POS | INT | 2 | 81 | 81 | 40=(x-41) | 40 x 41 - = | 40:balloon x:balloon 41:balloon -:balloon =:balloon
+EXPR: 0 | POS | INT | 10 | 81 | 1 | (41-40)=x | 41 40 - x = | 41:balloon 40:balloon -:balloon x:balloon =:balloon
+EXPR: 0 | POS | INT | 10 | 81 | 1 | x=(41-40) | x 41 40 - = | x:balloon 41:balloon 40:balloon -:balloon =:balloon
+EXPR: 1 | POS | INT | 12 | 81 | 81 | (x-41)=40 | x 41 - 40 = | x:balloon 41:balloon -:balloon 40:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 81 | 1 | 41=(x+40) | 41 x 40 + = | 41:balloon x:balloon 40:balloon +:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 81 | 1 | 41=(40+x) | 41 40 x + = | 41:balloon 40:balloon x:balloon +:balloon =:balloon
+EXPR: 1 | POS | INT | 12 | 81 | 81 | 41=(x-40) | 41 x 40 - = | 41:balloon x:balloon 40:balloon -:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 81 | 1 | (41-x)=40 | 41 x - 40 = | 41:balloon x:balloon -:balloon 40:balloon =:balloon
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

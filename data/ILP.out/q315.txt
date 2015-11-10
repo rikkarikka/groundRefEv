@@ -1,0 +1,7 @@
+constants : 0.4 0.3
+unknowns : x
+operators : + - * / =
+objtypes : box
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.1

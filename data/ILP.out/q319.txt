@@ -1,0 +1,7 @@
+constants : 0.625 0.25
+unknowns : x
+operators : + - * / =
+objtypes : scoop
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.375

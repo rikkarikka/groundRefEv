@@ -1,0 +1,7 @@
+constants : 58 2
+unknowns : x
+operators : + - * / =
+objtypes : child seat
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 29.0

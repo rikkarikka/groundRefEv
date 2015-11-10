@@ -1,0 +1,7 @@
+constants : 9 72
+unknowns : x
+operators : + - * / =
+objtypes : friend sticker number
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 8

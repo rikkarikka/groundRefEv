@@ -1,0 +1,7 @@
+constants : 1110 30
+unknowns : x
+operators : + - * / =
+objtypes : student classroom
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 37.0

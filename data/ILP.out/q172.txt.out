@@ -1,0 +1,28 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 124 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 3 | 3 | (1*3.0)=x | 1 3.0 * x = | 1:dozen 3.0:money *:money x:money =:money
+EXPR: 1 | POS | INT | 0 | 3 | 3 | x=(1*3.0) | x 1 3.0 * = | x:money 1:dozen 3.0:money *:money =:money
+EXPR: 1 | POS | INT | 2 | 3 | 3 | (x*1)=3.0 | x 1 * 3.0 = | x:money 1:dozen *:money 3.0:money =:money
+EXPR: 1 | POS | INT | 2 | 3 | 3 | (1*x)=3.0 | 1 x * 3.0 = | 1:dozen x:money *:money 3.0:money =:money
+EXPR: 0 | POS | INT | 10 | 3 | 4 | x=(1+3.0) | x 1 3.0 + = | x:money 1:money 3.0:money +:money =:money
+EXPR: 0 | POS | INT | 10 | 3 | 4 | (1+3.0)=x | 1 3.0 + x = | 1:money 3.0:money +:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 3 | 4 | 1=(x-3.0) | 1 x 3.0 - = | 1:money x:money 3.0:money -:money =:money
+EXPR: 0 | POS | INT | 12 | 3 | 2 | (x+1)=3.0 | x 1 + 3.0 = | x:money 1:money +:money 3.0:money =:money
+EXPR: 0 | POS | INT | 12 | 3 | 4 | (x-1)=3.0 | x 1 - 3.0 = | x:money 1:money -:money 3.0:money =:money
+EXPR: 1 | POS | INT | 12 | 3 | 3 | 3.0=(x*1) | 3.0 x 1 * = | 3.0:money x:money 1:dozen *:money =:money
+EXPR: 0 | POS | INT | 12 | 3 | 2 | 1=(3.0-x) | 1 3.0 x - = | 1:money 3.0:money x:money -:money =:money
+EXPR: 1 | POS | INT | 12 | 3 | 3 | 3.0=(1*x) | 3.0 1 x * = | 3.0:money 1:dozen x:money *:money =:money
+EXPR: 1 | POS | INT | 12 | 3 | 3 | 1=(x/3.0) | 1 x 3.0 / = | 1:dozen x:dozen 3.0:money /:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 3 | 2 | (1+x)=3.0 | 1 x + 3.0 = | 1:money x:money +:money 3.0:money =:money
+EXPR: 1 | POS | INT | 12 | 3 | 3 | 1=(3.0/x) | 1 3.0 x / = | 1:dozen 3.0:dozen x:money /:dozen =:dozen
+EXPR: 0 | POS | INT | 20 | 3 | 2 | (3.0-1)=x | 3.0 1 - x = | 3.0:money 1:money -:money x:money =:money
+EXPR: 0 | POS | INT | 20 | 3 | 2 | x=(3.0-1) | x 3.0 1 - = | x:money 3.0:money 1:money -:money =:money
+EXPR: 0 | POS | INT | 22 | 3 | 4 | (x-3.0)=1 | x 3.0 - 1 = | x:money 3.0:money -:money 1:money =:money
+EXPR: 0 | POS | INT | 22 | 3 | 2 | 3.0=(1+x) | 3.0 1 x + = | 3.0:money 1:money x:money +:money =:money
+EXPR: 1 | POS | INT | 22 | 3 | 3 | (3.0/x)=1 | 3.0 x / 1 = | 3.0:dozen x:money /:dozen 1:dozen =:dozen
+EXPR: 1 | POS | INT | 22 | 3 | 3 | (x/3.0)=1 | x 3.0 / 1 = | x:dozen 3.0:money /:dozen 1:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 3 | 2 | 3.0=(x+1) | 3.0 x 1 + = | 3.0:money x:money 1:money +:money =:money
+EXPR: 0 | POS | INT | 22 | 3 | 2 | (3.0-x)=1 | 3.0 x - 1 = | 3.0:money x:money -:money 1:money =:money
+EXPR: 0 | POS | INT | 22 | 3 | 4 | 3.0=(x-1) | 3.0 x 1 - = | 3.0:money x:money 1:money -:money =:money
+NET 24 unique, non-negative, integer-valued solutions found out of 124 total solutions

@@ -1,0 +1,7 @@
+constants : 140 14
+unknowns : x
+operators : + - * / =
+objtypes : stone piece bracelet
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 10

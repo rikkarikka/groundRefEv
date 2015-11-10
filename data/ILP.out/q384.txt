@@ -1,0 +1,7 @@
+constants : 4.1 2.4
+unknowns : x
+operators : + - * / =
+objtypes : pound sand
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 1.7

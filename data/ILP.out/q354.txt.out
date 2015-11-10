@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 9.8 | 9.8 | x=(3+6.8) | x 3 6.8 + = | x:gallon 3:gallon 6.8:gallon +:gallon =:gallon
+EXPR: 1 | POS | FRA | 0 | 9.8 | 9.8 | (3+6.8)=x | 3 6.8 + x = | 3:gallon 6.8:gallon +:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 2 | 9.8 | 3.8 | (x+3)=6.8 | x 3 + 6.8 = | x:gallon 3:gallon +:gallon 6.8:gallon =:gallon
+EXPR: 1 | POS | FRA | 2 | 9.8 | 9.8 | (x-3)=6.8 | x 3 - 6.8 = | x:gallon 3:gallon -:gallon 6.8:gallon =:gallon
+EXPR: 0 | POS | FRA | 2 | 9.8 | 3.8 | (3+x)=6.8 | 3 x + 6.8 = | 3:gallon x:gallon +:gallon 6.8:gallon =:gallon
+EXPR: 0 | POS | FRA | 2 | 9.8 | 3.8 | 3=(6.8-x) | 3 6.8 x - = | 3:gallon 6.8:gallon x:gallon -:gallon =:gallon
+EXPR: 1 | POS | FRA | 2 | 9.8 | 9.8 | 3=(x-6.8) | 3 x 6.8 - = | 3:gallon x:gallon 6.8:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 10 | 9.8 | 3.8 | (6.8-3)=x | 6.8 3 - x = | 6.8:gallon 3:gallon -:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 10 | 9.8 | 3.8 | x=(6.8-3) | x 6.8 3 - = | x:gallon 6.8:gallon 3:gallon -:gallon =:gallon
+EXPR: 1 | POS | FRA | 12 | 9.8 | 9.8 | (x-6.8)=3 | x 6.8 - 3 = | x:gallon 6.8:gallon -:gallon 3:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 9.8 | 3.8 | 6.8=(x+3) | 6.8 x 3 + = | 6.8:gallon x:gallon 3:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 9.8 | 3.8 | 6.8=(3+x) | 6.8 3 x + = | 6.8:gallon 3:gallon x:gallon +:gallon =:gallon
+EXPR: 1 | POS | FRA | 12 | 9.8 | 9.8 | 6.8=(x-3) | 6.8 x 3 - = | 6.8:gallon x:gallon 3:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 9.8 | 3.8 | (6.8-x)=3 | 6.8 x - 3 = | 6.8:gallon x:gallon -:gallon 3:gallon =:gallon
+NET 14 unique, non-negative solutions found out of 28 total solutions

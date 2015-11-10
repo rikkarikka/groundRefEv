@@ -1,0 +1,7 @@
+constants : 80 8
+unknowns : x
+operators : + - * / =
+objtypes : crayon box
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 10

@@ -1,0 +1,7 @@
+constants : 4 8.7
+unknowns : x
+operators : + - * / =
+objtypes : pound pumpkin
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 12.7

@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 48 | 48 | (4*12)=x | 4 12 * x = | 4:dozen 12:egg *:egg x:egg =:egg
+EXPR: 1 | POS | INT | 0 | 48 | 48 | x=(4*12) | x 4 12 * = | x:egg 4:dozen 12:egg *:egg =:egg
+EXPR: 1 | POS | INT | 2 | 48 | 48 | (x/4)=12 | x 4 / 12 = | x:egg 4:dozen /:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 2 | 48 | 3 | (x*4)=12 | x 4 * 12 = | x:egg 4:dozen *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 2 | 48 | 3 | (4*x)=12 | 4 x * 12 = | 4:dozen x:egg *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 10 | 48 | 3 | x=(12/4) | x 12 4 / = | x:egg 12:egg 4:dozen /:egg =:egg
+EXPR: 0 | POS | INT | 10 | 48 | 16 | (4+12)=x | 4 12 + x = | 4:egg 12:egg +:egg x:egg =:egg
+EXPR: 0 | POS | INT | 10 | 48 | 3 | (12/4)=x | 12 4 / x = | 12:egg 4:dozen /:egg x:egg =:egg
+EXPR: 0 | POS | INT | 10 | 48 | 16 | x=(4+12) | x 4 12 + = | x:egg 4:egg 12:egg +:egg =:egg
+EXPR: 1 | POS | INT | 12 | 48 | 48 | 12=(x/4) | 12 x 4 / = | 12:egg x:egg 4:dozen /:egg =:egg
+EXPR: 0 | POS | INT | 12 | 48 | 3 | 12=(x*4) | 12 x 4 * = | 12:egg x:egg 4:dozen *:egg =:egg
+EXPR: 0 | POS | INT | 12 | 48 | 16 | (x-4)=12 | x 4 - 12 = | x:egg 4:egg -:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 48 | 8 | (x+4)=12 | x 4 + 12 = | x:egg 4:egg +:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 48 | 8 | (4+x)=12 | 4 x + 12 = | 4:egg x:egg +:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 48 | 3 | 4=(12/x) | 4 12 x / = | 4:dozen 12:dozen x:egg /:dozen =:dozen
+EXPR: 1 | POS | INT | 12 | 48 | 48 | 4=(x/12) | 4 x 12 / = | 4:dozen x:dozen 12:egg /:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 48 | 8 | 4=(12-x) | 4 12 x - = | 4:egg 12:egg x:egg -:egg =:egg
+EXPR: 0 | POS | INT | 12 | 48 | 16 | 4=(x-12) | 4 x 12 - = | 4:egg x:egg 12:egg -:egg =:egg
+EXPR: 0 | POS | INT | 12 | 48 | 3 | 12=(4*x) | 12 4 x * = | 12:egg 4:dozen x:egg *:egg =:egg
+EXPR: 0 | POS | INT | 20 | 48 | 8 | x=(12-4) | x 12 4 - = | x:egg 12:egg 4:egg -:egg =:egg
+EXPR: 0 | POS | INT | 20 | 48 | 8 | (12-4)=x | 12 4 - x = | 12:egg 4:egg -:egg x:egg =:egg
+EXPR: 0 | POS | INT | 22 | 48 | 16 | (x-12)=4 | x 12 - 4 = | x:egg 12:egg -:egg 4:egg =:egg
+EXPR: 1 | POS | INT | 22 | 48 | 48 | (x/12)=4 | x 12 / 4 = | x:dozen 12:egg /:dozen 4:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 48 | 8 | (12-x)=4 | 12 x - 4 = | 12:egg x:egg -:egg 4:egg =:egg
+EXPR: 0 | POS | INT | 22 | 48 | 8 | 12=(4+x) | 12 4 x + = | 12:egg 4:egg x:egg +:egg =:egg
+EXPR: 0 | POS | INT | 22 | 48 | 16 | 12=(x-4) | 12 x 4 - = | 12:egg x:egg 4:egg -:egg =:egg
+EXPR: 0 | POS | INT | 22 | 48 | 3 | (12/x)=4 | 12 x / 4 = | 12:dozen x:egg /:dozen 4:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 48 | 8 | 12=(x+4) | 12 x 4 + = | 12:egg x:egg 4:egg +:egg =:egg
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

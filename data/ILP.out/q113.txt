@@ -1,0 +1,7 @@
+constants : 540 20
+unknowns : x
+operators : + - * / =
+objtypes : card pack
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 108.0

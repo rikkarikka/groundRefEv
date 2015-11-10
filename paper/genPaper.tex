@@ -1,0 +1,104 @@
+%
+% File acl2012.tex
+%
+% Contact: Maggie Li (cswjli@comp.polyu.edu.hk), Michael White (mwhite@ling.osu.edu)
+%%
+%% Based on the style files for ACL2008 by Joakim Nivre and Noah Smith
+%% and that of ACL2010 by Jing-Shin Chang and Philipp Koehn
+
+
+\documentclass[11pt]{article}
+\usepackage{acl2012}
+\usepackage{color}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{multirow}
+\usepackage{url}
+\usepackage{linguex}
+\usepackage{fancybox}
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{tikz}
+\usepackage{qtree}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\setlength\titlebox{6.5cm}    % Expanding the titlebox
+\newcommand{\sys}{\mbox{\sc Alges}}  
+\usepackage{paralist}
+\usepackage{enumitem}
+\usepackage{algorithm}
+\usepackage{multirow}
+\usepackage{algpseudocode}
+\usepackage{booktabs}
+\usepackage{boxedminipage}
+%\floatname{algorithm}{Procedure}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+
+\usepackage{boxedminipage}
+\newcommand{\set}[1]
+        {\mbox{$\{{#1}\}$}}
+
+
+\newcommand{\hnote}[1]{\textcolor{blue}{#1}}
+\newcommand{\note}[1]{\textcolor{purple}{#1}}
+
+
+\newcommand{\bug}
+    {\mbox{\rule{2mm}{2mm}}}
+\newcommand{\Bug}[1]
+    {\bug \footnote{BUG: \textcolor{blue}{#1}}}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+%\usepackage{authblk}
+
+
+\title{Learning Algebraic Operators from Minimal Recursion Semantics}
+%Solving Math Word Problem by  \\ Modeling  Text to Operator Correspondences Recursively}
+%A Statistical Semantic Approach for Solving Math Word Problems}
+% Learning to Solve Math Word Problems with Weak Supervision/Recursively Learning Expression Trees
+%learning, solving math word problems, set semantics, locally learn operators, weak supervision, global structure, expression trees
+
+\author{
+Rik Koncel-Kedziorski\\
+University of Washington\\
+kedzior@uw.edu
+%  Rik Koncel-Kedziorski\\
+%  \textbf{Hannaneh Hajishirzi}\\
+%  University of Washington\\
+%  \{kedzior,hannaneh\}@uw.edu
+%  \And
+%  Ashish Sabharwal\\
+%  \textbf{Oren Etzioni}\\
+%  Allen Institute for AI\\
+%  \{ashishs,orene\}@allenai.org\\
+%  \And
+%  Siena Dumas Ang\\
+%  University of Washington\\
+%  sienaang@uw.edu
+}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{plain}
+\pagestyle{plain}
+
+\input{abstract}
+\input{intro}
+\input{previous}
+\input{overview}
+\input{representation}
+%\input{grounding}
+\input{learning}
+\input{experiments}
+\input{discussion}
+
+
+\bibliographystyle{acl2012}
+\bibliography{grounding}
+
+\appendix
+\input{appendix}
+
+\end{document}
+

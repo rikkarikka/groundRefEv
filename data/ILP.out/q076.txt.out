@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 72 | 72 | x=(27+45) | x 27 45 + = | x:pencil 27:pencil 45:pencil +:pencil =:pencil
+EXPR: 1 | POS | INT | 0 | 72 | 72 | (27+45)=x | 27 45 + x = | 27:pencil 45:pencil +:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 72 | 18 | (x+27)=45 | x 27 + 45 = | x:pencil 27:pencil +:pencil 45:pencil =:pencil
+EXPR: 1 | POS | INT | 2 | 72 | 72 | (x-27)=45 | x 27 - 45 = | x:pencil 27:pencil -:pencil 45:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 72 | 18 | (27+x)=45 | 27 x + 45 = | 27:pencil x:pencil +:pencil 45:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 72 | 18 | 27=(45-x) | 27 45 x - = | 27:pencil 45:pencil x:pencil -:pencil =:pencil
+EXPR: 1 | POS | INT | 2 | 72 | 72 | 27=(x-45) | 27 x 45 - = | 27:pencil x:pencil 45:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 72 | 18 | (45-27)=x | 45 27 - x = | 45:pencil 27:pencil -:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 72 | 18 | x=(45-27) | x 45 27 - = | x:pencil 45:pencil 27:pencil -:pencil =:pencil
+EXPR: 1 | POS | INT | 12 | 72 | 72 | (x-45)=27 | x 45 - 27 = | x:pencil 45:pencil -:pencil 27:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 72 | 18 | 45=(x+27) | 45 x 27 + = | 45:pencil x:pencil 27:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 72 | 18 | 45=(27+x) | 45 27 x + = | 45:pencil 27:pencil x:pencil +:pencil =:pencil
+EXPR: 1 | POS | INT | 12 | 72 | 72 | 45=(x-27) | 45 x 27 - = | 45:pencil x:pencil 27:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 72 | 18 | (45-x)=27 | 45 x - 27 = | 45:pencil x:pencil -:pencil 27:pencil =:pencil
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

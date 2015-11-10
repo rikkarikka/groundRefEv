@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 6 | 6 | 5=(30/x) | 5 30 x / = | 5:glass 30:glass x:pitcher /:glass =:glass
+EXPR: 1 | POS | INT | 2 | 6 | 6 | (x*5)=30 | x 5 * 30 = | x:pitcher 5:glass *:glass 30:glass =:glass
+EXPR: 1 | POS | INT | 2 | 6 | 6 | (5*x)=30 | 5 x * 30 = | 5:glass x:pitcher *:glass 30:glass =:glass
+EXPR: 0 | POS | INT | 10 | 6 | 150 | (5*30)=x | 5 30 * x = | 5:glass 30:pitcher *:pitcher x:pitcher =:pitcher
+EXPR: 0 | POS | INT | 10 | 6 | 35 | (5+30)=x | 5 30 + x = | 5:glass 30:glass +:glass x:glass =:glass
+EXPR: 0 | POS | INT | 10 | 6 | 150 | x=(5*30) | x 5 30 * = | x:pitcher 5:glass 30:pitcher *:pitcher =:pitcher
+EXPR: 0 | POS | INT | 10 | 6 | 35 | x=(5+30) | x 5 30 + = | x:glass 5:glass 30:glass +:glass =:glass
+EXPR: 0 | POS | INT | 12 | 6 | 150 | 5=(x/30) | 5 x 30 / = | 5:pitcher x:pitcher 30:glass /:pitcher =:pitcher
+EXPR: 1 | POS | INT | 12 | 6 | 6 | 30=(5*x) | 30 5 x * = | 30:glass 5:glass x:pitcher *:glass =:glass
+EXPR: 0 | POS | INT | 12 | 6 | 35 | 5=(x-30) | 5 x 30 - = | 5:glass x:glass 30:glass -:glass =:glass
+EXPR: 1 | POS | INT | 12 | 6 | 6 | 30=(x*5) | 30 x 5 * = | 30:glass x:pitcher 5:glass *:glass =:glass
+EXPR: 0 | POS | INT | 12 | 6 | 25 | 5=(30-x) | 5 30 x - = | 5:glass 30:glass x:glass -:glass =:glass
+EXPR: 1 | POS | INT | 12 | 6 | 6 | (30/x)=5 | 30 x / 5 = | 30:glass x:pitcher /:glass 5:glass =:glass
+EXPR: 0 | POS | INT | 12 | 6 | 25 | (x+5)=30 | x 5 + 30 = | x:glass 5:glass +:glass 30:glass =:glass
+EXPR: 0 | POS | INT | 12 | 6 | 25 | (5+x)=30 | 5 x + 30 = | 5:glass x:glass +:glass 30:glass =:glass
+EXPR: 0 | POS | INT | 12 | 6 | 35 | (x-5)=30 | x 5 - 30 = | x:glass 5:glass -:glass 30:glass =:glass
+EXPR: 0 | POS | INT | 12 | 6 | 150 | (x/5)=30 | x 5 / 30 = | x:pitcher 5:glass /:pitcher 30:pitcher =:pitcher
+EXPR: 1 | POS | INT | 20 | 6 | 6 | (30/5)=x | 30 5 / x = | 30:pitcher 5:glass /:pitcher x:pitcher =:pitcher
+EXPR: 0 | POS | INT | 20 | 6 | 25 | x=(30-5) | x 30 5 - = | x:glass 30:glass 5:glass -:glass =:glass
+EXPR: 0 | POS | INT | 20 | 6 | 25 | (30-5)=x | 30 5 - x = | 30:glass 5:glass -:glass x:glass =:glass
+EXPR: 1 | POS | INT | 20 | 6 | 6 | x=(30/5) | x 30 5 / = | x:pitcher 30:pitcher 5:glass /:pitcher =:pitcher
+EXPR: 0 | POS | INT | 22 | 6 | 25 | (30-x)=5 | 30 x - 5 = | 30:glass x:glass -:glass 5:glass =:glass
+EXPR: 0 | POS | INT | 22 | 6 | 150 | (x/30)=5 | x 30 / 5 = | x:pitcher 30:glass /:pitcher 5:pitcher =:pitcher
+EXPR: 0 | POS | INT | 22 | 6 | 35 | (x-30)=5 | x 30 - 5 = | x:glass 30:glass -:glass 5:glass =:glass
+EXPR: 0 | POS | INT | 22 | 6 | 35 | 30=(x-5) | 30 x 5 - = | 30:glass x:glass 5:glass -:glass =:glass
+EXPR: 0 | POS | INT | 22 | 6 | 25 | 30=(x+5) | 30 x 5 + = | 30:glass x:glass 5:glass +:glass =:glass
+EXPR: 0 | POS | INT | 22 | 6 | 25 | 30=(5+x) | 30 5 x + = | 30:glass 5:glass x:glass +:glass =:glass
+EXPR: 0 | POS | INT | 22 | 6 | 150 | 30=(x/5) | 30 x 5 / = | 30:pitcher x:pitcher 5:glass /:pitcher =:pitcher
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

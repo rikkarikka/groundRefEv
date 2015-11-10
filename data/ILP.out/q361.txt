@@ -1,0 +1,7 @@
+constants : 3.25 0.25
+unknowns : x
+operators : + - * / =
+objtypes : pint
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.5

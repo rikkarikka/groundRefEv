@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 12 | 2 | (7-5)=x | 7 5 - x = | 7:nickel 5:nickel -:nickel x:nickel =:nickel
+EXPR: 1 | POS | INT | 0 | 12 | 12 | x=(7+5) | x 7 5 + = | x:nickel 7:nickel 5:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 0 | 12 | 2 | x=(7-5) | x 7 5 - = | x:nickel 7:nickel 5:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 0 | 12 | 12 | (7+5)=x | 7 5 + x = | 7:nickel 5:nickel +:nickel x:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 12 | 2 | 7=(5+x) | 7 5 x + = | 7:nickel 5:nickel x:nickel +:nickel =:nickel
+EXPR: 1 | POS | INT | 2 | 12 | 12 | (x-7)=5 | x 7 - 5 = | x:nickel 7:nickel -:nickel 5:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 12 | 2 | 7=(x+5) | 7 x 5 + = | 7:nickel x:nickel 5:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 12 | 2 | (7-x)=5 | 7 x - 5 = | 7:nickel x:nickel -:nickel 5:nickel =:nickel
+EXPR: 1 | POS | INT | 2 | 12 | 12 | 7=(x-5) | 7 x 5 - = | 7:nickel x:nickel 5:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 12 | 2 | (x+5)=7 | x 5 + 7 = | x:nickel 5:nickel +:nickel 7:nickel =:nickel
+EXPR: 1 | POS | INT | 12 | 12 | 12 | (x-5)=7 | x 5 - 7 = | x:nickel 5:nickel -:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 12 | 2 | (5+x)=7 | 5 x + 7 = | 5:nickel x:nickel +:nickel 7:nickel =:nickel
+EXPR: 1 | POS | INT | 12 | 12 | 12 | 5=(x-7) | 5 x 7 - = | 5:nickel x:nickel 7:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 12 | 2 | 5=(7-x) | 5 7 x - = | 5:nickel 7:nickel x:nickel -:nickel =:nickel
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

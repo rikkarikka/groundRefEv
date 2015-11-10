@@ -1,0 +1,7 @@
+constants : 20 2 1 6
+unknowns : x
+operators : + - * / =
+objtypes : carton dollar
+constantOrUnknownType : 0 0 1 1 1
+n : 9
+answer : 118.0

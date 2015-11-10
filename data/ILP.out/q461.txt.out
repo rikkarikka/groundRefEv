@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 1250 | 1250 | x=(5*250) | x 5 250 * = | x:mile 5:vacation 250:mile *:mile =:mile
+EXPR: 1 | POS | INT | 0 | 1250 | 1250 | (5*250)=x | 5 250 * x = | 5:vacation 250:mile *:mile x:mile =:mile
+EXPR: 1 | POS | INT | 2 | 1250 | 1250 | (x/5)=250 | x 5 / 250 = | x:mile 5:vacation /:mile 250:mile =:mile
+EXPR: 0 | POS | INT | 2 | 1250 | 50 | (x*5)=250 | x 5 * 250 = | x:mile 5:vacation *:mile 250:mile =:mile
+EXPR: 0 | POS | INT | 2 | 1250 | 50 | (5*x)=250 | 5 x * 250 = | 5:vacation x:mile *:mile 250:mile =:mile
+EXPR: 0 | POS | INT | 10 | 1250 | 50 | (250/5)=x | 250 5 / x = | 250:mile 5:vacation /:mile x:mile =:mile
+EXPR: 0 | POS | INT | 10 | 1250 | 50 | x=(250/5) | x 250 5 / = | x:mile 250:mile 5:vacation /:mile =:mile
+EXPR: 0 | POS | INT | 10 | 1250 | 255 | x=(5+250) | x 5 250 + = | x:mile 5:mile 250:mile +:mile =:mile
+EXPR: 0 | POS | INT | 10 | 1250 | 255 | (5+250)=x | 5 250 + x = | 5:mile 250:mile +:mile x:mile =:mile
+EXPR: 0 | POS | INT | 12 | 1250 | 245 | 5=(250-x) | 5 250 x - = | 5:mile 250:mile x:mile -:mile =:mile
+EXPR: 1 | POS | INT | 12 | 1250 | 1250 | 250=(x/5) | 250 x 5 / = | 250:mile x:mile 5:vacation /:mile =:mile
+EXPR: 0 | POS | INT | 12 | 1250 | 245 | (x+5)=250 | x 5 + 250 = | x:mile 5:mile +:mile 250:mile =:mile
+EXPR: 0 | POS | INT | 12 | 1250 | 255 | (x-5)=250 | x 5 - 250 = | x:mile 5:mile -:mile 250:mile =:mile
+EXPR: 0 | POS | INT | 12 | 1250 | 245 | (5+x)=250 | 5 x + 250 = | 5:mile x:mile +:mile 250:mile =:mile
+EXPR: 0 | POS | INT | 12 | 1250 | 50 | 250=(5*x) | 250 5 x * = | 250:mile 5:vacation x:mile *:mile =:mile
+EXPR: 0 | POS | INT | 12 | 1250 | 50 | 5=(250/x) | 5 250 x / = | 5:vacation 250:vacation x:mile /:vacation =:vacation
+EXPR: 0 | POS | INT | 12 | 1250 | 50 | 250=(x*5) | 250 x 5 * = | 250:mile x:mile 5:vacation *:mile =:mile
+EXPR: 0 | POS | INT | 12 | 1250 | 255 | 5=(x-250) | 5 x 250 - = | 5:mile x:mile 250:mile -:mile =:mile
+EXPR: 1 | POS | INT | 12 | 1250 | 1250 | 5=(x/250) | 5 x 250 / = | 5:vacation x:vacation 250:mile /:vacation =:vacation
+EXPR: 0 | POS | INT | 20 | 1250 | 245 | x=(250-5) | x 250 5 - = | x:mile 250:mile 5:mile -:mile =:mile
+EXPR: 0 | POS | INT | 20 | 1250 | 245 | (250-5)=x | 250 5 - x = | 250:mile 5:mile -:mile x:mile =:mile
+EXPR: 0 | POS | INT | 22 | 1250 | 245 | (250-x)=5 | 250 x - 5 = | 250:mile x:mile -:mile 5:mile =:mile
+EXPR: 1 | POS | INT | 22 | 1250 | 1250 | (x/250)=5 | x 250 / 5 = | x:vacation 250:mile /:vacation 5:vacation =:vacation
+EXPR: 0 | POS | INT | 22 | 1250 | 245 | 250=(5+x) | 250 5 x + = | 250:mile 5:mile x:mile +:mile =:mile
+EXPR: 0 | POS | INT | 22 | 1250 | 50 | (250/x)=5 | 250 x / 5 = | 250:vacation x:mile /:vacation 5:vacation =:vacation
+EXPR: 0 | POS | INT | 22 | 1250 | 255 | (x-250)=5 | x 250 - 5 = | x:mile 250:mile -:mile 5:mile =:mile
+EXPR: 0 | POS | INT | 22 | 1250 | 245 | 250=(x+5) | 250 x 5 + = | 250:mile x:mile 5:mile +:mile =:mile
+EXPR: 0 | POS | INT | 22 | 1250 | 255 | 250=(x-5) | 250 x 5 - = | 250:mile x:mile 5:mile -:mile =:mile
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,7 @@
+constants : 15 12
+unknowns : x
+operators : + - * / =
+objtypes : dollar chair
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 180.0

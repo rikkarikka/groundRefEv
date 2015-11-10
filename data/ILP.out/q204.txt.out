@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 15 | 15 | (33-18)=x | 33 18 - x = | 33:tree 18:tree -:tree x:tree =:tree
+EXPR: 0 | POS | INT | 0 | 15 | 51 | x=(33+18) | x 33 18 + = | x:tree 33:tree 18:tree +:tree =:tree
+EXPR: 1 | POS | INT | 0 | 15 | 15 | x=(33-18) | x 33 18 - = | x:tree 33:tree 18:tree -:tree =:tree
+EXPR: 0 | POS | INT | 0 | 15 | 51 | (33+18)=x | 33 18 + x = | 33:tree 18:tree +:tree x:tree =:tree
+EXPR: 1 | POS | INT | 2 | 15 | 15 | 33=(18+x) | 33 18 x + = | 33:tree 18:tree x:tree +:tree =:tree
+EXPR: 0 | POS | INT | 2 | 15 | 51 | (x-33)=18 | x 33 - 18 = | x:tree 33:tree -:tree 18:tree =:tree
+EXPR: 1 | POS | INT | 2 | 15 | 15 | 33=(x+18) | 33 x 18 + = | 33:tree x:tree 18:tree +:tree =:tree
+EXPR: 1 | POS | INT | 2 | 15 | 15 | (33-x)=18 | 33 x - 18 = | 33:tree x:tree -:tree 18:tree =:tree
+EXPR: 0 | POS | INT | 2 | 15 | 51 | 33=(x-18) | 33 x 18 - = | 33:tree x:tree 18:tree -:tree =:tree
+EXPR: 1 | POS | INT | 12 | 15 | 15 | (x+18)=33 | x 18 + 33 = | x:tree 18:tree +:tree 33:tree =:tree
+EXPR: 0 | POS | INT | 12 | 15 | 51 | (x-18)=33 | x 18 - 33 = | x:tree 18:tree -:tree 33:tree =:tree
+EXPR: 1 | POS | INT | 12 | 15 | 15 | (18+x)=33 | 18 x + 33 = | 18:tree x:tree +:tree 33:tree =:tree
+EXPR: 0 | POS | INT | 12 | 15 | 51 | 18=(x-33) | 18 x 33 - = | 18:tree x:tree 33:tree -:tree =:tree
+EXPR: 1 | POS | INT | 12 | 15 | 15 | 18=(33-x) | 18 33 x - = | 18:tree 33:tree x:tree -:tree =:tree
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

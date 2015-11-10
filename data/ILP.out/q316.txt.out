@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 0.9 | 0.9 | x=(0.2+0.7) | x 0.2 0.7 + = | x:mile 0.2:mile 0.7:mile +:mile =:mile
+EXPR: 1 | POS | FRA | 0 | 0.9 | 0.9 | (0.2+0.7)=x | 0.2 0.7 + x = | 0.2:mile 0.7:mile +:mile x:mile =:mile
+EXPR: 0 | POS | FRA | 2 | 0.9 | 0.5 | (x+0.2)=0.7 | x 0.2 + 0.7 = | x:mile 0.2:mile +:mile 0.7:mile =:mile
+EXPR: 1 | POS | FRA | 2 | 0.9 | 0.9 | (x-0.2)=0.7 | x 0.2 - 0.7 = | x:mile 0.2:mile -:mile 0.7:mile =:mile
+EXPR: 0 | POS | FRA | 2 | 0.9 | 0.5 | (0.2+x)=0.7 | 0.2 x + 0.7 = | 0.2:mile x:mile +:mile 0.7:mile =:mile
+EXPR: 0 | POS | FRA | 2 | 0.9 | 0.5 | 0.2=(0.7-x) | 0.2 0.7 x - = | 0.2:mile 0.7:mile x:mile -:mile =:mile
+EXPR: 1 | POS | FRA | 2 | 0.9 | 0.9 | 0.2=(x-0.7) | 0.2 x 0.7 - = | 0.2:mile x:mile 0.7:mile -:mile =:mile
+EXPR: 0 | POS | FRA | 10 | 0.9 | 0.5 | (0.7-0.2)=x | 0.7 0.2 - x = | 0.7:mile 0.2:mile -:mile x:mile =:mile
+EXPR: 0 | POS | FRA | 10 | 0.9 | 0.5 | x=(0.7-0.2) | x 0.7 0.2 - = | x:mile 0.7:mile 0.2:mile -:mile =:mile
+EXPR: 1 | POS | FRA | 12 | 0.9 | 0.9 | (x-0.7)=0.2 | x 0.7 - 0.2 = | x:mile 0.7:mile -:mile 0.2:mile =:mile
+EXPR: 0 | POS | FRA | 12 | 0.9 | 0.5 | 0.7=(x+0.2) | 0.7 x 0.2 + = | 0.7:mile x:mile 0.2:mile +:mile =:mile
+EXPR: 0 | POS | FRA | 12 | 0.9 | 0.5 | 0.7=(0.2+x) | 0.7 0.2 x + = | 0.7:mile 0.2:mile x:mile +:mile =:mile
+EXPR: 1 | POS | FRA | 12 | 0.9 | 0.9 | 0.7=(x-0.2) | 0.7 x 0.2 - = | 0.7:mile x:mile 0.2:mile -:mile =:mile
+EXPR: 0 | POS | FRA | 12 | 0.9 | 0.5 | (0.7-x)=0.2 | 0.7 x - 0.2 = | 0.7:mile x:mile -:mile 0.2:mile =:mile
+NET 14 unique, non-negative solutions found out of 28 total solutions

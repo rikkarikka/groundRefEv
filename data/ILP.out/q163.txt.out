@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 56 | 56 | x=(14*4) | x 14 4 * = | x:pokemon 14:pokemon 4:person *:pokemon =:pokemon
+EXPR: 1 | POS | INT | 10 | 56 | 56 | (14*4)=x | 14 4 * x = | 14:card 4:person *:card x:card =:card
+EXPR: 1 | POS | INT | 12 | 56 | 56 | 14=(x/4) | 14 x 4 / = | 14:pokemon x:pokemon 4:person /:pokemon =:pokemon
+EXPR: 1 | POS | INT | 12 | 56 | 56 | (x/14)=4 | x 14 / 4 = | x:pokemon 14:card /:pokemon 4:pokemon =:pokemon
+EXPR: 0 | POS | INT | 20 | 56 | 18 | (14+4)=x | 14 4 + x = | 14:card 4:card +:card x:card =:card
+EXPR: 0 | POS | INT | 20 | 56 | 18 | x=(14+4) | x 14 4 + = | x:person 14:person 4:person +:person =:person
+EXPR: 0 | POS | INT | 20 | 56 | 10 | (14-4)=x | 14 4 - x = | 14:card 4:card -:card x:card =:card
+EXPR: 0 | POS | INT | 20 | 56 | 10 | x=(14-4) | x 14 4 - = | x:pokemon 14:pokemon 4:pokemon -:pokemon =:pokemon
+EXPR: 0 | POS | INT | 22 | 56 | 18 | (x-14)=4 | x 14 - 4 = | x:person 14:person -:person 4:person =:person
+EXPR: 1 | POS | INT | 22 | 56 | 56 | 4=(x/14) | 4 x 14 / = | 4:pokemon x:pokemon 14:card /:pokemon =:pokemon
+EXPR: 0 | POS | INT | 22 | 56 | 10 | 14=(4+x) | 14 4 x + = | 14:person 4:person x:person +:person =:person
+EXPR: 0 | POS | INT | 22 | 56 | 10 | (14-x)=4 | 14 x - 4 = | 14:pokemon x:pokemon -:pokemon 4:pokemon =:pokemon
+EXPR: 0 | POS | INT | 22 | 56 | 10 | 14=(x+4) | 14 x 4 + = | 14:pokemon x:pokemon 4:pokemon +:pokemon =:pokemon
+EXPR: 0 | POS | INT | 22 | 56 | 18 | 14=(x-4) | 14 x 4 - = | 14:pokemon x:pokemon 4:pokemon -:pokemon =:pokemon
+EXPR: 1 | POS | INT | 22 | 56 | 56 | (x/4)=14 | x 4 / 14 = | x:pokemon 4:person /:pokemon 14:pokemon =:pokemon
+EXPR: 0 | POS | INT | 32 | 56 | 18 | (x-4)=14 | x 4 - 14 = | x:person 4:person -:person 14:person =:person
+EXPR: 0 | POS | INT | 32 | 56 | 10 | (4+x)=14 | 4 x + 14 = | 4:person x:person +:person 14:person =:person
+EXPR: 0 | POS | INT | 32 | 56 | 10 | (x+4)=14 | x 4 + 14 = | x:card 4:card +:card 14:card =:card
+EXPR: 0 | POS | INT | 32 | 56 | 10 | 4=(14-x) | 4 14 x - = | 4:person 14:person x:person -:person =:person
+EXPR: 0 | POS | INT | 32 | 56 | 18 | 4=(x-14) | 4 x 14 - = | 4:person x:person 14:person -:person =:person
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

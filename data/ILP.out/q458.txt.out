@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 4.62 | 4.62 | x=(3*1.54) | x 3 1.54 * = | x:dollar 3:ball 1.54:dollar *:dollar =:dollar
+EXPR: 1 | POS | FRA | 0 | 4.62 | 4.62 | (3*1.54)=x | 3 1.54 * x = | 3:ball 1.54:dollar *:dollar x:dollar =:dollar
+EXPR: 1 | POS | FRA | 2 | 4.62 | 4.62 | (x/3)=1.54 | x 3 / 1.54 = | x:dollar 3:ball /:dollar 1.54:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 4.62 | 0.513333333333333 | (x*3)=1.54 | x 3 * 1.54 = | x:dollar 3:ball *:dollar 1.54:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 4.62 | 0.513333333333333 | (3*x)=1.54 | 3 x * 1.54 = | 3:ball x:dollar *:dollar 1.54:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 4.62 | 0.513333333333333 | (1.54/3)=x | 1.54 3 / x = | 1.54:dollar 3:ball /:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 4.62 | 0.513333333333333 | x=(1.54/3) | x 1.54 3 / = | x:dollar 1.54:dollar 3:ball /:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 4.62 | 1.94805194805195 | (3/1.54)=x | 3 1.54 / x = | 3:ball 1.54:dollar /:ball x:ball =:ball
+EXPR: 0 | POS | FRA | 10 | 4.62 | 4.54 | x=(3+1.54) | x 3 1.54 + = | x:dollar 3:dollar 1.54:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 4.62 | 4.54 | (3+1.54)=x | 3 1.54 + x = | 3:dollar 1.54:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 4.62 | 1.94805194805195 | x=(3/1.54) | x 3 1.54 / = | x:ball 3:ball 1.54:dollar /:ball =:ball
+EXPR: 0 | POS | FRA | 10 | 4.62 | 1.46 | (3-1.54)=x | 3 1.54 - x = | 3:dollar 1.54:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 4.62 | 1.46 | x=(3-1.54) | x 3 1.54 - = | x:dollar 3:dollar 1.54:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 4.62 | 1.94805194805195 | 3=(x*1.54) | 3 x 1.54 * = | 3:ball x:dollar 1.54:ball *:ball =:ball
+EXPR: 0 | POS | FRA | 12 | 4.62 | 1.94805194805195 | 3=(1.54*x) | 3 1.54 x * = | 3:ball 1.54:ball x:dollar *:ball =:ball
+EXPR: 0 | POS | FRA | 12 | 4.62 | 1.94805194805195 | (3/x)=1.54 | 3 x / 1.54 = | 3:ball x:dollar /:ball 1.54:ball =:ball
+EXPR: 0 | POS | FRA | 12 | 4.62 | 1.46 | (3-x)=1.54 | 3 x - 1.54 = | 3:dollar x:dollar -:dollar 1.54:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 4.62 | 1.46 | 3=(1.54+x) | 3 1.54 x + = | 3:dollar 1.54:dollar x:dollar +:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 4.62 | 4.62 | 1.54=(x/3) | 1.54 x 3 / = | 1.54:dollar x:dollar 3:ball /:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 4.62 | 4.54 | (x-3)=1.54 | x 3 - 1.54 = | x:dollar 3:dollar -:dollar 1.54:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 4.62 | 0.513333333333333 | 1.54=(3*x) | 1.54 3 x * = | 1.54:dollar 3:ball x:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 4.62 | 0.513333333333333 | 3=(1.54/x) | 3 1.54 x / = | 3:ball 1.54:ball x:dollar /:ball =:ball
+EXPR: 0 | POS | FRA | 12 | 4.62 | 0.513333333333333 | 1.54=(x*3) | 1.54 x 3 * = | 1.54:dollar x:dollar 3:ball *:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 4.62 | 1.46 | 3=(x+1.54) | 3 x 1.54 + = | 3:dollar x:dollar 1.54:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 4.62 | 4.54 | 3=(x-1.54) | 3 x 1.54 - = | 3:dollar x:dollar 1.54:dollar -:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 4.62 | 4.62 | 3=(x/1.54) | 3 x 1.54 / = | 3:ball x:ball 1.54:dollar /:ball =:ball
+EXPR: 1 | POS | FRA | 22 | 4.62 | 4.62 | (x/1.54)=3 | x 1.54 / 3 = | x:ball 1.54:dollar /:ball 3:ball =:ball
+EXPR: 0 | POS | FRA | 22 | 4.62 | 1.46 | 1.54=(3-x) | 1.54 3 x - = | 1.54:dollar 3:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 4.62 | 1.94805194805195 | (x*1.54)=3 | x 1.54 * 3 = | x:dollar 1.54:ball *:ball 3:ball =:ball
+EXPR: 0 | POS | FRA | 22 | 4.62 | 1.46 | (x+1.54)=3 | x 1.54 + 3 = | x:dollar 1.54:dollar +:dollar 3:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 4.62 | 1.94805194805195 | 1.54=(3/x) | 1.54 3 x / = | 1.54:ball 3:ball x:dollar /:ball =:ball
+EXPR: 0 | POS | FRA | 22 | 4.62 | 0.513333333333333 | (1.54/x)=3 | 1.54 x / 3 = | 1.54:ball x:dollar /:ball 3:ball =:ball
+EXPR: 0 | POS | FRA | 22 | 4.62 | 1.94805194805195 | (1.54*x)=3 | 1.54 x * 3 = | 1.54:dollar x:ball *:ball 3:ball =:ball
+EXPR: 0 | POS | FRA | 22 | 4.62 | 4.54 | (x-1.54)=3 | x 1.54 - 3 = | x:dollar 1.54:dollar -:dollar 3:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 4.62 | 1.46 | (1.54+x)=3 | 1.54 x + 3 = | 1.54:dollar x:dollar +:dollar 3:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 4.62 | 4.54 | 1.54=(x-3) | 1.54 x 3 - = | 1.54:dollar x:dollar 3:dollar -:dollar =:dollar
+NET 36 unique, non-negative solutions found out of 136 total solutions

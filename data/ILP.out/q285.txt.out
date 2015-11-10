@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 180 | 180 | x=(15*12) | x 15 12 * = | x:dollar 15:dollar 12:chair *:dollar =:dollar
+EXPR: 1 | POS | INT | 0 | 180 | 180 | (15*12)=x | 15 12 * x = | 15:dollar 12:chair *:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 180 | 180 | 15=(x/12) | 15 x 12 / = | 15:dollar x:dollar 12:chair /:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 180 | 3 | (15-12)=x | 15 12 - x = | 15:dollar 12:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 180 | 27 | x=(15+12) | x 15 12 + = | x:dollar 15:dollar 12:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 180 | 3 | x=(15-12) | x 15 12 - = | x:dollar 15:dollar 12:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 180 | 27 | (15+12)=x | 15 12 + x = | 15:dollar 12:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 180 | 3 | 15=(x+12) | 15 x 12 + = | 15:dollar x:dollar 12:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 180 | 27 | 15=(x-12) | 15 x 12 - = | 15:dollar x:dollar 12:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 180 | 3 | 15=(12+x) | 15 12 x + = | 15:dollar 12:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 180 | 27 | (x-15)=12 | x 15 - 12 = | x:dollar 15:dollar -:dollar 12:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 180 | 3 | (15-x)=12 | 15 x - 12 = | 15:dollar x:dollar -:dollar 12:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 180 | 180 | (x/15)=12 | x 15 / 12 = | x:chair 15:dollar /:chair 12:chair =:chair
+EXPR: 1 | POS | INT | 12 | 180 | 180 | (x/12)=15 | x 12 / 15 = | x:dollar 12:chair /:dollar 15:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 180 | 3 | (x+12)=15 | x 12 + 15 = | x:dollar 12:dollar +:dollar 15:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 180 | 3 | (12+x)=15 | 12 x + 15 = | 12:dollar x:dollar +:dollar 15:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 180 | 27 | 12=(x-15) | 12 x 15 - = | 12:dollar x:dollar 15:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 22 | 180 | 180 | 12=(x/15) | 12 x 15 / = | 12:chair x:chair 15:dollar /:chair =:chair
+EXPR: 0 | POS | INT | 22 | 180 | 3 | 12=(15-x) | 12 15 x - = | 12:dollar 15:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 180 | 27 | (x-12)=15 | x 12 - 15 = | x:dollar 12:dollar -:dollar 15:dollar =:dollar
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

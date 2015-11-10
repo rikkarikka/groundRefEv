@@ -1,0 +1,7 @@
+constants : 0.25 0.5
+unknowns : x
+operators : + - * / =
+objtypes : nail UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.75

@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 7 | 7 | (33-26)=x | 33 26 - x = | 33:book 26:book -:book x:book =:book
+EXPR: 0 | POS | INT | 0 | 7 | 59 | x=(33+26) | x 33 26 + = | x:book 33:book 26:book +:book =:book
+EXPR: 1 | POS | INT | 0 | 7 | 7 | x=(33-26) | x 33 26 - = | x:book 33:book 26:book -:book =:book
+EXPR: 0 | POS | INT | 0 | 7 | 59 | (33+26)=x | 33 26 + x = | 33:book 26:book +:book x:book =:book
+EXPR: 1 | POS | INT | 2 | 7 | 7 | 33=(26+x) | 33 26 x + = | 33:book 26:book x:book +:book =:book
+EXPR: 0 | POS | INT | 2 | 7 | 59 | (x-33)=26 | x 33 - 26 = | x:book 33:book -:book 26:book =:book
+EXPR: 1 | POS | INT | 2 | 7 | 7 | 33=(x+26) | 33 x 26 + = | 33:book x:book 26:book +:book =:book
+EXPR: 1 | POS | INT | 2 | 7 | 7 | (33-x)=26 | 33 x - 26 = | 33:book x:book -:book 26:book =:book
+EXPR: 0 | POS | INT | 2 | 7 | 59 | 33=(x-26) | 33 x 26 - = | 33:book x:book 26:book -:book =:book
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (x+26)=33 | x 26 + 33 = | x:book 26:book +:book 33:book =:book
+EXPR: 0 | POS | INT | 12 | 7 | 59 | (x-26)=33 | x 26 - 33 = | x:book 26:book -:book 33:book =:book
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (26+x)=33 | 26 x + 33 = | 26:book x:book +:book 33:book =:book
+EXPR: 0 | POS | INT | 12 | 7 | 59 | 26=(x-33) | 26 x 33 - = | 26:book x:book 33:book -:book =:book
+EXPR: 1 | POS | INT | 12 | 7 | 7 | 26=(33-x) | 26 33 x - = | 26:book 33:book x:book -:book =:book
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

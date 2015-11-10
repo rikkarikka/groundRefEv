@@ -1,0 +1,7 @@
+constants : 14 4
+unknowns : x
+operators : + - * / =
+objtypes : card person pokemon
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 56.0

@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 20 | 20 | 140=(x*7) | 140 x 7 * = | 140:nail x:station 7:nail *:nail =:nail
+EXPR: 1 | POS | INT | 2 | 20 | 20 | 140=(7*x) | 140 7 x * = | 140:nail 7:nail x:station *:nail =:nail
+EXPR: 1 | POS | INT | 2 | 20 | 20 | (140/x)=7 | 140 x / 7 = | 140:nail x:station /:nail 7:nail =:nail
+EXPR: 0 | POS | INT | 10 | 20 | 980 | (140*7)=x | 140 7 * x = | 140:nail 7:station *:station x:station =:station
+EXPR: 0 | POS | INT | 10 | 20 | 147 | (140+7)=x | 140 7 + x = | 140:nail 7:nail +:nail x:nail =:nail
+EXPR: 0 | POS | INT | 10 | 20 | 133 | x=(140-7) | x 140 7 - = | x:nail 140:nail 7:nail -:nail =:nail
+EXPR: 0 | POS | INT | 10 | 20 | 980 | x=(140*7) | x 140 7 * = | x:station 140:nail 7:station *:station =:station
+EXPR: 0 | POS | INT | 10 | 20 | 147 | x=(140+7) | x 140 7 + = | x:nail 140:nail 7:nail +:nail =:nail
+EXPR: 0 | POS | INT | 10 | 20 | 133 | (140-7)=x | 140 7 - x = | 140:nail 7:nail -:nail x:nail =:nail
+EXPR: 1 | POS | INT | 10 | 20 | 20 | x=(140/7) | x 140 7 / = | x:station 140:station 7:nail /:station =:station
+EXPR: 1 | POS | INT | 10 | 20 | 20 | (140/7)=x | 140 7 / x = | 140:station 7:nail /:station x:station =:station
+EXPR: 1 | POS | INT | 12 | 20 | 20 | 7=(140/x) | 7 140 x / = | 7:nail 140:nail x:station /:nail =:nail
+EXPR: 1 | POS | INT | 12 | 20 | 20 | (x*7)=140 | x 7 * 140 = | x:station 7:nail *:nail 140:nail =:nail
+EXPR: 0 | POS | INT | 12 | 20 | 980 | 140=(x/7) | 140 x 7 / = | 140:station x:station 7:nail /:station =:station
+EXPR: 0 | POS | INT | 12 | 20 | 147 | 140=(x-7) | 140 x 7 - = | 140:nail x:nail 7:nail -:nail =:nail
+EXPR: 0 | POS | INT | 12 | 20 | 133 | (140-x)=7 | 140 x - 7 = | 140:nail x:nail -:nail 7:nail =:nail
+EXPR: 1 | POS | INT | 12 | 20 | 20 | (7*x)=140 | 7 x * 140 = | 7:nail x:station *:nail 140:nail =:nail
+EXPR: 0 | POS | INT | 12 | 20 | 133 | 140=(x+7) | 140 x 7 + = | 140:nail x:nail 7:nail +:nail =:nail
+EXPR: 0 | POS | INT | 12 | 20 | 133 | 140=(7+x) | 140 7 x + = | 140:nail 7:nail x:nail +:nail =:nail
+EXPR: 0 | POS | INT | 12 | 20 | 147 | (x-140)=7 | x 140 - 7 = | x:nail 140:nail -:nail 7:nail =:nail
+EXPR: 0 | POS | INT | 12 | 20 | 980 | (x/140)=7 | x 140 / 7 = | x:station 140:nail /:station 7:station =:station
+EXPR: 0 | POS | INT | 22 | 20 | 980 | (x/7)=140 | x 7 / 140 = | x:station 7:nail /:station 140:station =:station
+EXPR: 0 | POS | INT | 22 | 20 | 147 | (x-7)=140 | x 7 - 140 = | x:nail 7:nail -:nail 140:nail =:nail
+EXPR: 0 | POS | INT | 22 | 20 | 133 | (7+x)=140 | 7 x + 140 = | 7:nail x:nail +:nail 140:nail =:nail
+EXPR: 0 | POS | INT | 22 | 20 | 147 | 7=(x-140) | 7 x 140 - = | 7:nail x:nail 140:nail -:nail =:nail
+EXPR: 0 | POS | INT | 22 | 20 | 133 | (x+7)=140 | x 7 + 140 = | x:nail 7:nail +:nail 140:nail =:nail
+EXPR: 0 | POS | INT | 22 | 20 | 980 | 7=(x/140) | 7 x 140 / = | 7:station x:station 140:nail /:station =:station
+EXPR: 0 | POS | INT | 22 | 20 | 133 | 7=(140-x) | 7 140 x - = | 7:nail 140:nail x:nail -:nail =:nail
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

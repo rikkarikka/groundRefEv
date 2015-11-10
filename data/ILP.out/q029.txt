@@ -1,0 +1,7 @@
+constants : 9 5 2
+unknowns : x
+operators : + - * / =
+objtypes : balloon
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 16.0

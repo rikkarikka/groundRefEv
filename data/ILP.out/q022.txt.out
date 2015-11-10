@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 15 | 3 | (9-6)=x | 9 6 - x = | 9:pizza 6:pizza -:pizza x:pizza =:pizza
+EXPR: 1 | POS | INT | 0 | 15 | 15 | x=(9+6) | x 9 6 + = | x:pizza 9:pizza 6:pizza +:pizza =:pizza
+EXPR: 0 | POS | INT | 0 | 15 | 3 | x=(9-6) | x 9 6 - = | x:pizza 9:pizza 6:pizza -:pizza =:pizza
+EXPR: 1 | POS | INT | 0 | 15 | 15 | (9+6)=x | 9 6 + x = | 9:pizza 6:pizza +:pizza x:pizza =:pizza
+EXPR: 0 | POS | INT | 2 | 15 | 3 | 9=(6+x) | 9 6 x + = | 9:pizza 6:pizza x:pizza +:pizza =:pizza
+EXPR: 1 | POS | INT | 2 | 15 | 15 | (x-9)=6 | x 9 - 6 = | x:pizza 9:pizza -:pizza 6:pizza =:pizza
+EXPR: 0 | POS | INT | 2 | 15 | 3 | 9=(x+6) | 9 x 6 + = | 9:pizza x:pizza 6:pizza +:pizza =:pizza
+EXPR: 0 | POS | INT | 2 | 15 | 3 | (9-x)=6 | 9 x - 6 = | 9:pizza x:pizza -:pizza 6:pizza =:pizza
+EXPR: 1 | POS | INT | 2 | 15 | 15 | 9=(x-6) | 9 x 6 - = | 9:pizza x:pizza 6:pizza -:pizza =:pizza
+EXPR: 0 | POS | INT | 12 | 15 | 3 | (x+6)=9 | x 6 + 9 = | x:pizza 6:pizza +:pizza 9:pizza =:pizza
+EXPR: 1 | POS | INT | 12 | 15 | 15 | (x-6)=9 | x 6 - 9 = | x:pizza 6:pizza -:pizza 9:pizza =:pizza
+EXPR: 0 | POS | INT | 12 | 15 | 3 | (6+x)=9 | 6 x + 9 = | 6:pizza x:pizza +:pizza 9:pizza =:pizza
+EXPR: 1 | POS | INT | 12 | 15 | 15 | 6=(x-9) | 6 x 9 - = | 6:pizza x:pizza 9:pizza -:pizza =:pizza
+EXPR: 0 | POS | INT | 12 | 15 | 3 | 6=(9-x) | 6 9 x - = | 6:pizza 9:pizza x:pizza -:pizza =:pizza
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 74 | 28 | (51-23)=x | 51 23 - x = | 51:pumpkin 23:pumpkin -:pumpkin x:pumpkin =:pumpkin
+EXPR: 1 | POS | INT | 0 | 74 | 74 | x=(51+23) | x 51 23 + = | x:pumpkin 51:pumpkin 23:pumpkin +:pumpkin =:pumpkin
+EXPR: 0 | POS | INT | 0 | 74 | 28 | x=(51-23) | x 51 23 - = | x:pumpkin 51:pumpkin 23:pumpkin -:pumpkin =:pumpkin
+EXPR: 1 | POS | INT | 0 | 74 | 74 | (51+23)=x | 51 23 + x = | 51:pumpkin 23:pumpkin +:pumpkin x:pumpkin =:pumpkin
+EXPR: 0 | POS | INT | 2 | 74 | 28 | 51=(23+x) | 51 23 x + = | 51:pumpkin 23:pumpkin x:pumpkin +:pumpkin =:pumpkin
+EXPR: 1 | POS | INT | 2 | 74 | 74 | (x-51)=23 | x 51 - 23 = | x:pumpkin 51:pumpkin -:pumpkin 23:pumpkin =:pumpkin
+EXPR: 0 | POS | INT | 2 | 74 | 28 | 51=(x+23) | 51 x 23 + = | 51:pumpkin x:pumpkin 23:pumpkin +:pumpkin =:pumpkin
+EXPR: 0 | POS | INT | 2 | 74 | 28 | (51-x)=23 | 51 x - 23 = | 51:pumpkin x:pumpkin -:pumpkin 23:pumpkin =:pumpkin
+EXPR: 1 | POS | INT | 2 | 74 | 74 | 51=(x-23) | 51 x 23 - = | 51:pumpkin x:pumpkin 23:pumpkin -:pumpkin =:pumpkin
+EXPR: 0 | POS | INT | 12 | 74 | 28 | (x+23)=51 | x 23 + 51 = | x:pumpkin 23:pumpkin +:pumpkin 51:pumpkin =:pumpkin
+EXPR: 1 | POS | INT | 12 | 74 | 74 | (x-23)=51 | x 23 - 51 = | x:pumpkin 23:pumpkin -:pumpkin 51:pumpkin =:pumpkin
+EXPR: 0 | POS | INT | 12 | 74 | 28 | (23+x)=51 | 23 x + 51 = | 23:pumpkin x:pumpkin +:pumpkin 51:pumpkin =:pumpkin
+EXPR: 1 | POS | INT | 12 | 74 | 74 | 23=(x-51) | 23 x 51 - = | 23:pumpkin x:pumpkin 51:pumpkin -:pumpkin =:pumpkin
+EXPR: 0 | POS | INT | 12 | 74 | 28 | 23=(51-x) | 23 51 x - = | 23:pumpkin 51:pumpkin x:pumpkin -:pumpkin =:pumpkin
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

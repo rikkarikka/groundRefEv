@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 108 | 108 | x=(9*12) | x 9 12 * = | x:golf 9:golf 12:ball *:golf =:golf
+EXPR: 1 | POS | INT | 10 | 108 | 108 | (9*12)=x | 9 12 * x = | 9:dozen 12:golf *:golf x:golf =:golf
+EXPR: 1 | POS | INT | 12 | 108 | 108 | 9=(x/12) | 9 x 12 / = | 9:dozen x:dozen 12:ball /:dozen =:dozen
+EXPR: 1 | POS | INT | 12 | 108 | 108 | (x/9)=12 | x 9 / 12 = | x:golf 9:dozen /:golf 12:golf =:golf
+EXPR: 0 | POS | INT | 20 | 108 | 21 | x=(9+12) | x 9 12 + = | x:ball 9:ball 12:ball +:ball =:ball
+EXPR: 0 | POS | INT | 20 | 108 | 21 | (9+12)=x | 9 12 + x = | 9:dozen 12:dozen +:dozen x:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 108 | 3 | 9=(12-x) | 9 12 x - = | 9:golf 12:golf x:golf -:golf =:golf
+EXPR: 0 | POS | INT | 22 | 108 | 3 | (9+x)=12 | 9 x + 12 = | 9:dozen x:dozen +:dozen 12:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 108 | 21 | 9=(x-12) | 9 x 12 - = | 9:golf x:golf 12:golf -:golf =:golf
+EXPR: 1 | POS | INT | 22 | 108 | 108 | (x/12)=9 | x 12 / 9 = | x:golf 12:ball /:golf 9:golf =:golf
+EXPR: 0 | POS | INT | 22 | 108 | 3 | (x+9)=12 | x 9 + 12 = | x:ball 9:ball +:ball 12:ball =:ball
+EXPR: 0 | POS | INT | 22 | 108 | 21 | (x-9)=12 | x 9 - 12 = | x:ball 9:ball -:ball 12:ball =:ball
+EXPR: 1 | POS | INT | 22 | 108 | 108 | 12=(x/9) | 12 x 9 / = | 12:ball x:ball 9:dozen /:ball =:ball
+EXPR: 0 | POS | INT | 30 | 108 | 3 | (12-9)=x | 12 9 - x = | 12:dozen 9:dozen -:dozen x:dozen =:dozen
+EXPR: 0 | POS | INT | 30 | 108 | 3 | x=(12-9) | x 12 9 - = | x:golf 12:golf 9:golf -:golf =:golf
+EXPR: 0 | POS | INT | 32 | 108 | 3 | 12=(x+9) | 12 x 9 + = | 12:dozen x:dozen 9:dozen +:dozen =:dozen
+EXPR: 0 | POS | INT | 32 | 108 | 3 | 12=(9+x) | 12 9 x + = | 12:ball 9:ball x:ball +:ball =:ball
+EXPR: 0 | POS | INT | 32 | 108 | 21 | 12=(x-9) | 12 x 9 - = | 12:golf x:golf 9:golf -:golf =:golf
+EXPR: 0 | POS | INT | 32 | 108 | 21 | (x-12)=9 | x 12 - 9 = | x:golf 12:golf -:golf 9:golf =:golf
+EXPR: 0 | POS | INT | 32 | 108 | 3 | (12-x)=9 | 12 x - 9 = | 12:dozen x:dozen -:dozen 9:dozen =:dozen
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

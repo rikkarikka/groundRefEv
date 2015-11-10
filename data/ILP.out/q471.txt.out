@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 204 | 204 | x=(6*34) | x 6 34 * = | x:student 6:student 34:table *:student =:student
+EXPR: 1 | POS | INT | 0 | 204 | 204 | (6*34)=x | 6 34 * x = | 6:student 34:table *:student x:student =:student
+EXPR: 1 | POS | INT | 2 | 204 | 204 | 6=(x/34) | 6 x 34 / = | 6:student x:student 34:table /:student =:student
+EXPR: 0 | POS | INT | 10 | 204 | 40 | x=(6+34) | x 6 34 + = | x:student 6:student 34:student +:student =:student
+EXPR: 0 | POS | INT | 10 | 204 | 40 | (6+34)=x | 6 34 + x = | 6:student 34:student +:student x:student =:student
+EXPR: 0 | POS | INT | 12 | 204 | 40 | 6=(x-34) | 6 x 34 - = | 6:student x:student 34:student -:student =:student
+EXPR: 0 | POS | INT | 12 | 204 | 28 | (x+6)=34 | x 6 + 34 = | x:student 6:student +:student 34:student =:student
+EXPR: 0 | POS | INT | 12 | 204 | 40 | (x-6)=34 | x 6 - 34 = | x:student 6:student -:student 34:student =:student
+EXPR: 0 | POS | INT | 12 | 204 | 28 | 6=(34-x) | 6 34 x - = | 6:student 34:student x:student -:student =:student
+EXPR: 0 | POS | INT | 12 | 204 | 28 | (6+x)=34 | 6 x + 34 = | 6:student x:student +:student 34:student =:student
+EXPR: 1 | POS | INT | 12 | 204 | 204 | (x/6)=34 | x 6 / 34 = | x:table 6:student /:table 34:table =:table
+EXPR: 1 | POS | INT | 12 | 204 | 204 | (x/34)=6 | x 34 / 6 = | x:student 34:table /:student 6:student =:student
+EXPR: 0 | POS | INT | 20 | 204 | 28 | (34-6)=x | 34 6 - x = | 34:student 6:student -:student x:student =:student
+EXPR: 0 | POS | INT | 20 | 204 | 28 | x=(34-6) | x 34 6 - = | x:student 34:student 6:student -:student =:student
+EXPR: 0 | POS | INT | 22 | 204 | 28 | 34=(x+6) | 34 x 6 + = | 34:student x:student 6:student +:student =:student
+EXPR: 0 | POS | INT | 22 | 204 | 28 | (34-x)=6 | 34 x - 6 = | 34:student x:student -:student 6:student =:student
+EXPR: 0 | POS | INT | 22 | 204 | 40 | 34=(x-6) | 34 x 6 - = | 34:student x:student 6:student -:student =:student
+EXPR: 1 | POS | INT | 22 | 204 | 204 | 34=(x/6) | 34 x 6 / = | 34:table x:table 6:student /:table =:table
+EXPR: 0 | POS | INT | 22 | 204 | 28 | 34=(6+x) | 34 6 x + = | 34:student 6:student x:student +:student =:student
+EXPR: 0 | POS | INT | 22 | 204 | 40 | (x-34)=6 | x 34 - 6 = | x:student 34:student -:student 6:student =:student
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,7 @@
+constants : 54 22
+unknowns : x
+operators : + - * / =
+objtypes : scissors
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 76.0

@@ -1,0 +1,7 @@
+constants : 20,817 97,741
+unknowns : x
+operators : + - * / =
+objtypes : house
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 118558.0

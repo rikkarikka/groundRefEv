@@ -1,0 +1,7 @@
+constants : 0.20 4 6
+unknowns : x
+operators : + - * / =
+objtypes : number UNKNOWN
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 50.0

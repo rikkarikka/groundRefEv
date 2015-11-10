@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 19 | 19 | x=(323/17) | x 323 17 / = | x:game 323:game 17:month /:game =:game
+EXPR: 1 | POS | INT | 0 | 19 | 19 | (323/17)=x | 323 17 / x = | 323:game 17:month /:game x:game =:game
+EXPR: 0 | POS | INT | 0 | 19 | 5491 | x=(323*17) | x 323 17 * = | x:game 323:game 17:month *:game =:game
+EXPR: 0 | POS | INT | 0 | 19 | 5491 | (323*17)=x | 323 17 * x = | 323:game 17:month *:game x:game =:game
+EXPR: 1 | POS | INT | 2 | 19 | 19 | 323=(17*x) | 323 17 x * = | 323:game 17:month x:game *:game =:game
+EXPR: 0 | POS | INT | 2 | 19 | 5491 | 323=(x/17) | 323 x 17 / = | 323:game x:game 17:month /:game =:game
+EXPR: 1 | POS | INT | 2 | 19 | 19 | 323=(x*17) | 323 x 17 * = | 323:game x:game 17:month *:game =:game
+EXPR: 0 | POS | INT | 10 | 19 | 306 | (323-17)=x | 323 17 - x = | 323:game 17:game -:game x:game =:game
+EXPR: 0 | POS | INT | 10 | 19 | 340 | x=(323+17) | x 323 17 + = | x:game 323:game 17:game +:game =:game
+EXPR: 0 | POS | INT | 10 | 19 | 306 | x=(323-17) | x 323 17 - = | x:game 323:game 17:game -:game =:game
+EXPR: 0 | POS | INT | 10 | 19 | 340 | (323+17)=x | 323 17 + x = | 323:game 17:game +:game x:game =:game
+EXPR: 0 | POS | INT | 12 | 19 | 306 | 323=(x+17) | 323 x 17 + = | 323:game x:game 17:game +:game =:game
+EXPR: 1 | POS | INT | 12 | 19 | 19 | (323/x)=17 | 323 x / 17 = | 323:month x:game /:month 17:month =:month
+EXPR: 1 | POS | INT | 12 | 19 | 19 | (17*x)=323 | 17 x * 323 = | 17:month x:game *:game 323:game =:game
+EXPR: 0 | POS | INT | 12 | 19 | 340 | 323=(x-17) | 323 x 17 - = | 323:game x:game 17:game -:game =:game
+EXPR: 0 | POS | INT | 12 | 19 | 306 | 323=(17+x) | 323 17 x + = | 323:game 17:game x:game +:game =:game
+EXPR: 0 | POS | INT | 12 | 19 | 340 | (x-323)=17 | x 323 - 17 = | x:game 323:game -:game 17:game =:game
+EXPR: 0 | POS | INT | 12 | 19 | 306 | (323-x)=17 | 323 x - 17 = | 323:game x:game -:game 17:game =:game
+EXPR: 0 | POS | INT | 12 | 19 | 5491 | (x/323)=17 | x 323 / 17 = | x:month 323:game /:month 17:month =:month
+EXPR: 0 | POS | INT | 12 | 19 | 5491 | (x/17)=323 | x 17 / 323 = | x:game 17:month /:game 323:game =:game
+EXPR: 1 | POS | INT | 12 | 19 | 19 | (x*17)=323 | x 17 * 323 = | x:game 17:month *:game 323:game =:game
+EXPR: 0 | POS | INT | 22 | 19 | 306 | (x+17)=323 | x 17 + 323 = | x:game 17:game +:game 323:game =:game
+EXPR: 1 | POS | INT | 22 | 19 | 19 | 17=(323/x) | 17 323 x / = | 17:month 323:month x:game /:month =:month
+EXPR: 0 | POS | INT | 22 | 19 | 306 | (17+x)=323 | 17 x + 323 = | 17:game x:game +:game 323:game =:game
+EXPR: 0 | POS | INT | 22 | 19 | 340 | 17=(x-323) | 17 x 323 - = | 17:game x:game 323:game -:game =:game
+EXPR: 0 | POS | INT | 22 | 19 | 5491 | 17=(x/323) | 17 x 323 / = | 17:month x:month 323:game /:month =:month
+EXPR: 0 | POS | INT | 22 | 19 | 306 | 17=(323-x) | 17 323 x - = | 17:game 323:game x:game -:game =:game
+EXPR: 0 | POS | INT | 22 | 19 | 340 | (x-17)=323 | x 17 - 323 = | x:game 17:game -:game 323:game =:game
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

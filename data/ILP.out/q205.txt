@@ -1,0 +1,7 @@
+constants : 17 6
+unknowns : x
+operators : + - * / =
+objtypes : half-dollar UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 11.5

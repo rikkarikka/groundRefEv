@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 252 | 26 | (139-113)=x | 139 113 - x = | 139:turnip 113:turnip -:turnip x:turnip =:turnip
+EXPR: 1 | POS | INT | 0 | 252 | 252 | x=(139+113) | x 139 113 + = | x:turnip 139:turnip 113:turnip +:turnip =:turnip
+EXPR: 0 | POS | INT | 0 | 252 | 26 | x=(139-113) | x 139 113 - = | x:turnip 139:turnip 113:turnip -:turnip =:turnip
+EXPR: 1 | POS | INT | 0 | 252 | 252 | (139+113)=x | 139 113 + x = | 139:turnip 113:turnip +:turnip x:turnip =:turnip
+EXPR: 0 | POS | INT | 2 | 252 | 26 | 139=(113+x) | 139 113 x + = | 139:turnip 113:turnip x:turnip +:turnip =:turnip
+EXPR: 1 | POS | INT | 2 | 252 | 252 | (x-139)=113 | x 139 - 113 = | x:turnip 139:turnip -:turnip 113:turnip =:turnip
+EXPR: 0 | POS | INT | 2 | 252 | 26 | 139=(x+113) | 139 x 113 + = | 139:turnip x:turnip 113:turnip +:turnip =:turnip
+EXPR: 0 | POS | INT | 2 | 252 | 26 | (139-x)=113 | 139 x - 113 = | 139:turnip x:turnip -:turnip 113:turnip =:turnip
+EXPR: 1 | POS | INT | 2 | 252 | 252 | 139=(x-113) | 139 x 113 - = | 139:turnip x:turnip 113:turnip -:turnip =:turnip
+EXPR: 0 | POS | INT | 12 | 252 | 26 | (x+113)=139 | x 113 + 139 = | x:turnip 113:turnip +:turnip 139:turnip =:turnip
+EXPR: 1 | POS | INT | 12 | 252 | 252 | (x-113)=139 | x 113 - 139 = | x:turnip 113:turnip -:turnip 139:turnip =:turnip
+EXPR: 0 | POS | INT | 12 | 252 | 26 | (113+x)=139 | 113 x + 139 = | 113:turnip x:turnip +:turnip 139:turnip =:turnip
+EXPR: 1 | POS | INT | 12 | 252 | 252 | 113=(x-139) | 113 x 139 - = | 113:turnip x:turnip 139:turnip -:turnip =:turnip
+EXPR: 0 | POS | INT | 12 | 252 | 26 | 113=(139-x) | 113 139 x - = | 113:turnip 139:turnip x:turnip -:turnip =:turnip
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

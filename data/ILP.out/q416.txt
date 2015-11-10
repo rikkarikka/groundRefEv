@@ -1,0 +1,7 @@
+constants : 6 54
+unknowns : x
+operators : + - * / =
+objtypes : neighbor animal number
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 9

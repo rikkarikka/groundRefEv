@@ -1,0 +1,7 @@
+constants : 19 39 25
+unknowns : x
+operators : + - * / =
+objtypes : dime
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 83.0

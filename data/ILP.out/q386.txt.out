@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 6.6 | 0.258426966292135 | 8.9=(2.3/x) | 8.9 2.3 x / = | 8.9:centimeter 2.3:centimeter x:LENGTH /:centimeter =:centimeter
+EXPR: 0 | POS | FRA | 2 | 6.6 | 3.8695652173913 | 8.9=(x*2.3) | 8.9 x 2.3 * = | 8.9:centimeter x:LENGTH 2.3:centimeter *:centimeter =:centimeter
+EXPR: 0 | POS | FRA | 2 | 6.6 | 3.8695652173913 | 8.9=(2.3*x) | 8.9 2.3 x * = | 8.9:centimeter 2.3:centimeter x:LENGTH *:centimeter =:centimeter
+EXPR: 0 | POS | FRA | 2 | 6.6 | 0.258426966292135 | (x*8.9)=2.3 | x 8.9 * 2.3 = | x:LENGTH 8.9:centimeter *:centimeter 2.3:centimeter =:centimeter
+EXPR: 0 | POS | FRA | 2 | 6.6 | 0.258426966292135 | (8.9*x)=2.3 | 8.9 x * 2.3 = | 8.9:centimeter x:LENGTH *:centimeter 2.3:centimeter =:centimeter
+EXPR: 0 | POS | FRA | 2 | 6.6 | 3.8695652173913 | (8.9/x)=2.3 | 8.9 x / 2.3 = | 8.9:centimeter x:LENGTH /:centimeter 2.3:centimeter =:centimeter
+EXPR: 0 | POS | FRA | 10 | 6.6 | 20.47 | (8.9*2.3)=x | 8.9 2.3 * x = | 8.9:centimeter 2.3:LENGTH *:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 10 | 6.6 | 11.2 | (8.9+2.3)=x | 8.9 2.3 + x = | 8.9:centimeter 2.3:centimeter +:centimeter x:centimeter =:centimeter
+EXPR: 1 | POS | FRA | 10 | 6.6 | 6.6 | x=(8.9-2.3) | x 8.9 2.3 - = | x:centimeter 8.9:centimeter 2.3:centimeter -:centimeter =:centimeter
+EXPR: 0 | POS | FRA | 10 | 6.6 | 20.47 | x=(8.9*2.3) | x 8.9 2.3 * = | x:LENGTH 8.9:centimeter 2.3:LENGTH *:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 10 | 6.6 | 11.2 | x=(8.9+2.3) | x 8.9 2.3 + = | x:centimeter 8.9:centimeter 2.3:centimeter +:centimeter =:centimeter
+EXPR: 1 | POS | FRA | 10 | 6.6 | 6.6 | (8.9-2.3)=x | 8.9 2.3 - x = | 8.9:centimeter 2.3:centimeter -:centimeter x:centimeter =:centimeter
+EXPR: 0 | POS | FRA | 10 | 6.6 | 3.8695652173913 | x=(8.9/2.3) | x 8.9 2.3 / = | x:LENGTH 8.9:LENGTH 2.3:centimeter /:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 10 | 6.6 | 3.8695652173913 | (8.9/2.3)=x | 8.9 2.3 / x = | 8.9:LENGTH 2.3:centimeter /:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 12 | 6.6 | 3.8695652173913 | 2.3=(8.9/x) | 2.3 8.9 x / = | 2.3:centimeter 8.9:centimeter x:LENGTH /:centimeter =:centimeter
+EXPR: 0 | POS | FRA | 12 | 6.6 | 3.8695652173913 | (x*2.3)=8.9 | x 2.3 * 8.9 = | x:LENGTH 2.3:centimeter *:centimeter 8.9:centimeter =:centimeter
+EXPR: 0 | POS | FRA | 12 | 6.6 | 20.47 | 8.9=(x/2.3) | 8.9 x 2.3 / = | 8.9:LENGTH x:LENGTH 2.3:centimeter /:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 12 | 6.6 | 0.258426966292135 | 2.3=(8.9*x) | 2.3 8.9 x * = | 2.3:centimeter 8.9:centimeter x:LENGTH *:centimeter =:centimeter
+EXPR: 0 | POS | FRA | 12 | 6.6 | 11.2 | 8.9=(x-2.3) | 8.9 x 2.3 - = | 8.9:centimeter x:centimeter 2.3:centimeter -:centimeter =:centimeter
+EXPR: 0 | POS | FRA | 12 | 6.6 | 0.258426966292135 | 2.3=(x*8.9) | 2.3 x 8.9 * = | 2.3:centimeter x:LENGTH 8.9:centimeter *:centimeter =:centimeter
+EXPR: 1 | POS | FRA | 12 | 6.6 | 6.6 | (8.9-x)=2.3 | 8.9 x - 2.3 = | 8.9:centimeter x:centimeter -:centimeter 2.3:centimeter =:centimeter
+EXPR: 0 | POS | FRA | 12 | 6.6 | 3.8695652173913 | (2.3*x)=8.9 | 2.3 x * 8.9 = | 2.3:centimeter x:LENGTH *:centimeter 8.9:centimeter =:centimeter
+EXPR: 0 | POS | FRA | 12 | 6.6 | 0.258426966292135 | (2.3/x)=8.9 | 2.3 x / 8.9 = | 2.3:centimeter x:LENGTH /:centimeter 8.9:centimeter =:centimeter
+EXPR: 1 | POS | FRA | 12 | 6.6 | 6.6 | 8.9=(x+2.3) | 8.9 x 2.3 + = | 8.9:centimeter x:centimeter 2.3:centimeter +:centimeter =:centimeter
+EXPR: 1 | POS | FRA | 12 | 6.6 | 6.6 | 8.9=(2.3+x) | 8.9 2.3 x + = | 8.9:centimeter 2.3:centimeter x:centimeter +:centimeter =:centimeter
+EXPR: 0 | POS | FRA | 12 | 6.6 | 11.2 | (x-8.9)=2.3 | x 8.9 - 2.3 = | x:centimeter 8.9:centimeter -:centimeter 2.3:centimeter =:centimeter
+EXPR: 0 | POS | FRA | 12 | 6.6 | 20.47 | (x/8.9)=2.3 | x 8.9 / 2.3 = | x:LENGTH 8.9:centimeter /:LENGTH 2.3:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 20 | 6.6 | 0.258426966292135 | (2.3/8.9)=x | 2.3 8.9 / x = | 2.3:LENGTH 8.9:centimeter /:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 20 | 6.6 | 0.258426966292135 | x=(2.3/8.9) | x 2.3 8.9 / = | x:LENGTH 2.3:LENGTH 8.9:centimeter /:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 22 | 6.6 | 20.47 | (x/2.3)=8.9 | x 2.3 / 8.9 = | x:LENGTH 2.3:centimeter /:LENGTH 8.9:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 22 | 6.6 | 11.2 | (x-2.3)=8.9 | x 2.3 - 8.9 = | x:centimeter 2.3:centimeter -:centimeter 8.9:centimeter =:centimeter
+EXPR: 1 | POS | FRA | 22 | 6.6 | 6.6 | (2.3+x)=8.9 | 2.3 x + 8.9 = | 2.3:centimeter x:centimeter +:centimeter 8.9:centimeter =:centimeter
+EXPR: 0 | POS | FRA | 22 | 6.6 | 11.2 | 2.3=(x-8.9) | 2.3 x 8.9 - = | 2.3:centimeter x:centimeter 8.9:centimeter -:centimeter =:centimeter
+EXPR: 1 | POS | FRA | 22 | 6.6 | 6.6 | (x+2.3)=8.9 | x 2.3 + 8.9 = | x:centimeter 2.3:centimeter +:centimeter 8.9:centimeter =:centimeter
+EXPR: 0 | POS | FRA | 22 | 6.6 | 20.47 | 2.3=(x/8.9) | 2.3 x 8.9 / = | 2.3:LENGTH x:LENGTH 8.9:centimeter /:LENGTH =:LENGTH
+EXPR: 1 | POS | FRA | 22 | 6.6 | 6.6 | 2.3=(8.9-x) | 2.3 8.9 x - = | 2.3:centimeter 8.9:centimeter x:centimeter -:centimeter =:centimeter
+NET 36 unique, non-negative solutions found out of 136 total solutions

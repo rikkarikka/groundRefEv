@@ -1,0 +1,7 @@
+constants : 0.6666666666666666 0.3333333333333333
+unknowns : x
+operators : + - * / =
+objtypes : pie
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.3333333333333333

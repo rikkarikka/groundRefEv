@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 7 | 7 | (9-2)=x | 9 2 - x = | 9:balloon 2:balloon -:balloon x:balloon =:balloon
+EXPR: 0 | POS | INT | 0 | 7 | 11 | x=(9+2) | x 9 2 + = | x:balloon 9:balloon 2:balloon +:balloon =:balloon
+EXPR: 1 | POS | INT | 0 | 7 | 7 | x=(9-2) | x 9 2 - = | x:balloon 9:balloon 2:balloon -:balloon =:balloon
+EXPR: 0 | POS | INT | 0 | 7 | 11 | (9+2)=x | 9 2 + x = | 9:balloon 2:balloon +:balloon x:balloon =:balloon
+EXPR: 1 | POS | INT | 2 | 7 | 7 | 9=(2+x) | 9 2 x + = | 9:balloon 2:balloon x:balloon +:balloon =:balloon
+EXPR: 0 | POS | INT | 2 | 7 | 11 | (x-9)=2 | x 9 - 2 = | x:balloon 9:balloon -:balloon 2:balloon =:balloon
+EXPR: 1 | POS | INT | 2 | 7 | 7 | 9=(x+2) | 9 x 2 + = | 9:balloon x:balloon 2:balloon +:balloon =:balloon
+EXPR: 1 | POS | INT | 2 | 7 | 7 | (9-x)=2 | 9 x - 2 = | 9:balloon x:balloon -:balloon 2:balloon =:balloon
+EXPR: 0 | POS | INT | 2 | 7 | 11 | 9=(x-2) | 9 x 2 - = | 9:balloon x:balloon 2:balloon -:balloon =:balloon
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (x+2)=9 | x 2 + 9 = | x:balloon 2:balloon +:balloon 9:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 7 | 11 | (x-2)=9 | x 2 - 9 = | x:balloon 2:balloon -:balloon 9:balloon =:balloon
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (2+x)=9 | 2 x + 9 = | 2:balloon x:balloon +:balloon 9:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 7 | 11 | 2=(x-9) | 2 x 9 - = | 2:balloon x:balloon 9:balloon -:balloon =:balloon
+EXPR: 1 | POS | INT | 12 | 7 | 7 | 2=(9-x) | 2 9 x - = | 2:balloon 9:balloon x:balloon -:balloon =:balloon
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

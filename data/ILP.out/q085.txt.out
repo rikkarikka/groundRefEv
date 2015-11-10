@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 76 | 32 | (54-22)=x | 54 22 - x = | 54:scissors 22:scissors -:scissors x:scissors =:scissors
+EXPR: 1 | POS | INT | 0 | 76 | 76 | x=(54+22) | x 54 22 + = | x:scissors 54:scissors 22:scissors +:scissors =:scissors
+EXPR: 0 | POS | INT | 0 | 76 | 32 | x=(54-22) | x 54 22 - = | x:scissors 54:scissors 22:scissors -:scissors =:scissors
+EXPR: 1 | POS | INT | 0 | 76 | 76 | (54+22)=x | 54 22 + x = | 54:scissors 22:scissors +:scissors x:scissors =:scissors
+EXPR: 0 | POS | INT | 2 | 76 | 32 | 54=(22+x) | 54 22 x + = | 54:scissors 22:scissors x:scissors +:scissors =:scissors
+EXPR: 1 | POS | INT | 2 | 76 | 76 | (x-54)=22 | x 54 - 22 = | x:scissors 54:scissors -:scissors 22:scissors =:scissors
+EXPR: 0 | POS | INT | 2 | 76 | 32 | 54=(x+22) | 54 x 22 + = | 54:scissors x:scissors 22:scissors +:scissors =:scissors
+EXPR: 0 | POS | INT | 2 | 76 | 32 | (54-x)=22 | 54 x - 22 = | 54:scissors x:scissors -:scissors 22:scissors =:scissors
+EXPR: 1 | POS | INT | 2 | 76 | 76 | 54=(x-22) | 54 x 22 - = | 54:scissors x:scissors 22:scissors -:scissors =:scissors
+EXPR: 0 | POS | INT | 12 | 76 | 32 | (x+22)=54 | x 22 + 54 = | x:scissors 22:scissors +:scissors 54:scissors =:scissors
+EXPR: 1 | POS | INT | 12 | 76 | 76 | (x-22)=54 | x 22 - 54 = | x:scissors 22:scissors -:scissors 54:scissors =:scissors
+EXPR: 0 | POS | INT | 12 | 76 | 32 | (22+x)=54 | 22 x + 54 = | 22:scissors x:scissors +:scissors 54:scissors =:scissors
+EXPR: 1 | POS | INT | 12 | 76 | 76 | 22=(x-54) | 22 x 54 - = | 22:scissors x:scissors 54:scissors -:scissors =:scissors
+EXPR: 0 | POS | INT | 12 | 76 | 32 | 22=(54-x) | 22 54 x - = | 22:scissors 54:scissors x:scissors -:scissors =:scissors
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

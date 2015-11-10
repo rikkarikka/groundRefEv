@@ -1,0 +1,6 @@
+parameters: n=3 l=1 k=1 p=5 q=1 m=7
+TOTAL 4 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 5 | 5 | x=5.0 | x 5.0 = | x:hour 5.0:hour =:hour
+EXPR: 1 | POS | INT | 0 | 5 | 5 | 5.0=x | 5.0 x = | 5.0:hour x:hour =:hour
+NET 2 unique, non-negative, integer-valued solutions found out of 4 total solutions

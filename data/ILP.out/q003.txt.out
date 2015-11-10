@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 6 | 6 | (8-2)=x | 8 2 - x = | 8:cup 2:cup -:cup x:cup =:cup
+EXPR: 0 | POS | INT | 0 | 6 | 10 | x=(8+2) | x 8 2 + = | x:cup 8:cup 2:cup +:cup =:cup
+EXPR: 1 | POS | INT | 0 | 6 | 6 | x=(8-2) | x 8 2 - = | x:cup 8:cup 2:cup -:cup =:cup
+EXPR: 0 | POS | INT | 0 | 6 | 10 | (8+2)=x | 8 2 + x = | 8:cup 2:cup +:cup x:cup =:cup
+EXPR: 1 | POS | INT | 2 | 6 | 6 | 8=(2+x) | 8 2 x + = | 8:cup 2:cup x:cup +:cup =:cup
+EXPR: 0 | POS | INT | 2 | 6 | 10 | (x-8)=2 | x 8 - 2 = | x:cup 8:cup -:cup 2:cup =:cup
+EXPR: 1 | POS | INT | 2 | 6 | 6 | 8=(x+2) | 8 x 2 + = | 8:cup x:cup 2:cup +:cup =:cup
+EXPR: 1 | POS | INT | 2 | 6 | 6 | (8-x)=2 | 8 x - 2 = | 8:cup x:cup -:cup 2:cup =:cup
+EXPR: 0 | POS | INT | 2 | 6 | 10 | 8=(x-2) | 8 x 2 - = | 8:cup x:cup 2:cup -:cup =:cup
+EXPR: 1 | POS | INT | 12 | 6 | 6 | (x+2)=8 | x 2 + 8 = | x:cup 2:cup +:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 12 | 6 | 10 | (x-2)=8 | x 2 - 8 = | x:cup 2:cup -:cup 8:cup =:cup
+EXPR: 1 | POS | INT | 12 | 6 | 6 | (2+x)=8 | 2 x + 8 = | 2:cup x:cup +:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 12 | 6 | 10 | 2=(x-8) | 2 x 8 - = | 2:cup x:cup 8:cup -:cup =:cup
+EXPR: 1 | POS | INT | 12 | 6 | 6 | 2=(8-x) | 2 8 x - = | 2:cup 8:cup x:cup -:cup =:cup
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

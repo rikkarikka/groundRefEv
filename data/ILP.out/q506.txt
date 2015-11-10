@@ -1,0 +1,7 @@
+constants : 177 500 19
+unknowns : x
+operators : + - * / =
+objtypes : dollar week
+constantOrUnknownType : 0 0 1 1
+n : 7
+answer : 17.0

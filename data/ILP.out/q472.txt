@@ -1,0 +1,7 @@
+constants : 15 5
+unknowns : x
+operators : + - * / =
+objtypes : dog puppy
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 75

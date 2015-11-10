@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 12 | 768 | x=(96*8) | x 96 8 * = | x:person 96:person 8:child *:person =:person
+EXPR: 0 | POS | INT | 10 | 12 | 768 | (96*8)=x | 96 8 * x = | 96:cupcake 8:child *:cupcake x:cupcake =:cupcake
+EXPR: 1 | POS | INT | 10 | 12 | 12 | (96/8)=x | 96 8 / x = | 96:person 8:child /:person x:person =:person
+EXPR: 1 | POS | INT | 10 | 12 | 12 | x=(96/8) | x 96 8 / = | x:cupcake 96:cupcake 8:child /:cupcake =:cupcake
+EXPR: 1 | POS | INT | 12 | 12 | 12 | 96=(x*8) | 96 x 8 * = | 96:child x:person 8:child *:child =:child
+EXPR: 0 | POS | INT | 12 | 12 | 768 | 96=(x/8) | 96 x 8 / = | 96:person x:person 8:child /:person =:person
+EXPR: 1 | POS | INT | 12 | 12 | 12 | 96=(8*x) | 96 8 x * = | 96:person 8:child x:person *:person =:person
+EXPR: 1 | POS | INT | 12 | 12 | 12 | (96/x)=8 | 96 x / 8 = | 96:cupcake x:person /:cupcake 8:cupcake =:cupcake
+EXPR: 0 | POS | INT | 12 | 12 | 768 | (x/96)=8 | x 96 / 8 = | x:person 96:cupcake /:person 8:person =:person
+EXPR: 0 | POS | INT | 20 | 12 | 104 | (96+8)=x | 96 8 + x = | 96:cupcake 8:cupcake +:cupcake x:cupcake =:cupcake
+EXPR: 0 | POS | INT | 20 | 12 | 104 | x=(96+8) | x 96 8 + = | x:child 96:child 8:child +:child =:child
+EXPR: 0 | POS | INT | 20 | 12 | 88 | (96-8)=x | 96 8 - x = | 96:cupcake 8:cupcake -:cupcake x:cupcake =:cupcake
+EXPR: 0 | POS | INT | 20 | 12 | 88 | x=(96-8) | x 96 8 - = | x:person 96:person 8:person -:person =:person
+EXPR: 0 | POS | INT | 22 | 12 | 104 | (x-96)=8 | x 96 - 8 = | x:child 96:child -:child 8:child =:child
+EXPR: 1 | POS | INT | 22 | 12 | 12 | (x*8)=96 | x 8 * 96 = | x:person 8:child *:child 96:child =:child
+EXPR: 1 | POS | INT | 22 | 12 | 12 | (8*x)=96 | 8 x * 96 = | 8:cupcake x:person *:cupcake 96:cupcake =:cupcake
+EXPR: 0 | POS | INT | 22 | 12 | 768 | 8=(x/96) | 8 x 96 / = | 8:person x:person 96:cupcake /:person =:person
+EXPR: 0 | POS | INT | 22 | 12 | 88 | 96=(8+x) | 96 8 x + = | 96:child 8:child x:child +:child =:child
+EXPR: 0 | POS | INT | 22 | 12 | 88 | (96-x)=8 | 96 x - 8 = | 96:person x:person -:person 8:person =:person
+EXPR: 0 | POS | INT | 22 | 12 | 88 | 96=(x+8) | 96 x 8 + = | 96:person x:person 8:person +:person =:person
+EXPR: 0 | POS | INT | 22 | 12 | 104 | 96=(x-8) | 96 x 8 - = | 96:person x:person 8:person -:person =:person
+EXPR: 0 | POS | INT | 22 | 12 | 768 | (x/8)=96 | x 8 / 96 = | x:person 8:child /:person 96:person =:person
+EXPR: 1 | POS | INT | 22 | 12 | 12 | 8=(96/x) | 8 96 x / = | 8:child 96:child x:person /:child =:child
+EXPR: 0 | POS | INT | 32 | 12 | 104 | (x-8)=96 | x 8 - 96 = | x:child 8:child -:child 96:child =:child
+EXPR: 0 | POS | INT | 32 | 12 | 88 | (8+x)=96 | 8 x + 96 = | 8:child x:child +:child 96:child =:child
+EXPR: 0 | POS | INT | 32 | 12 | 88 | (x+8)=96 | x 8 + 96 = | x:cupcake 8:cupcake +:cupcake 96:cupcake =:cupcake
+EXPR: 0 | POS | INT | 32 | 12 | 88 | 8=(96-x) | 8 96 x - = | 8:child 96:child x:child -:child =:child
+EXPR: 0 | POS | INT | 32 | 12 | 104 | 8=(x-96) | 8 x 96 - = | 8:child x:child 96:child -:child =:child
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

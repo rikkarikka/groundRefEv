@@ -1,0 +1,7 @@
+constants : 4 1
+unknowns : x
+operators : + - * / =
+objtypes : gumball person money
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 32.0

@@ -1,0 +1,7 @@
+constants : 10 22
+unknowns : x
+operators : + - * / =
+objtypes : sticker page
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 220

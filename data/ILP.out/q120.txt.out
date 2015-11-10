@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 6 | 6 | 72=(x*12) | 72 x 12 * = | 72:egg x:dozen 12:egg *:egg =:egg
+EXPR: 1 | POS | INT | 2 | 6 | 6 | 72=(12*x) | 72 12 x * = | 72:egg 12:egg x:dozen *:egg =:egg
+EXPR: 1 | POS | INT | 2 | 6 | 6 | (72/x)=12 | 72 x / 12 = | 72:egg x:dozen /:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 10 | 6 | 864 | x=(72*12) | x 72 12 * = | x:dozen 72:egg 12:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 6 | 84 | (72+12)=x | 72 12 + x = | 72:egg 12:egg +:egg x:egg =:egg
+EXPR: 0 | POS | INT | 10 | 6 | 60 | (72-12)=x | 72 12 - x = | 72:egg 12:egg -:egg x:egg =:egg
+EXPR: 1 | POS | INT | 10 | 6 | 6 | (72/12)=x | 72 12 / x = | 72:dozen 12:egg /:dozen x:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 6 | 864 | (72*12)=x | 72 12 * x = | 72:egg 12:dozen *:dozen x:dozen =:dozen
+EXPR: 1 | POS | INT | 10 | 6 | 6 | x=(72/12) | x 72 12 / = | x:dozen 72:dozen 12:egg /:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 6 | 84 | x=(72+12) | x 72 12 + = | x:egg 72:egg 12:egg +:egg =:egg
+EXPR: 0 | POS | INT | 10 | 6 | 60 | x=(72-12) | x 72 12 - = | x:egg 72:egg 12:egg -:egg =:egg
+EXPR: 0 | POS | INT | 12 | 6 | 60 | 72=(x+12) | 72 x 12 + = | 72:egg x:egg 12:egg +:egg =:egg
+EXPR: 1 | POS | INT | 12 | 6 | 6 | (x*12)=72 | x 12 * 72 = | x:dozen 12:egg *:egg 72:egg =:egg
+EXPR: 0 | POS | INT | 12 | 6 | 864 | (x/72)=12 | x 72 / 12 = | x:dozen 72:egg /:dozen 12:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 6 | 864 | 72=(x/12) | 72 x 12 / = | 72:dozen x:dozen 12:egg /:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 6 | 84 | 72=(x-12) | 72 x 12 - = | 72:egg x:egg 12:egg -:egg =:egg
+EXPR: 0 | POS | INT | 12 | 6 | 60 | (72-x)=12 | 72 x - 12 = | 72:egg x:egg -:egg 12:egg =:egg
+EXPR: 1 | POS | INT | 12 | 6 | 6 | (12*x)=72 | 12 x * 72 = | 12:egg x:dozen *:egg 72:egg =:egg
+EXPR: 1 | POS | INT | 12 | 6 | 6 | 12=(72/x) | 12 72 x / = | 12:egg 72:egg x:dozen /:egg =:egg
+EXPR: 0 | POS | INT | 12 | 6 | 60 | 72=(12+x) | 72 12 x + = | 72:egg 12:egg x:egg +:egg =:egg
+EXPR: 0 | POS | INT | 12 | 6 | 84 | (x-72)=12 | x 72 - 12 = | x:egg 72:egg -:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 22 | 6 | 84 | (x-12)=72 | x 12 - 72 = | x:egg 12:egg -:egg 72:egg =:egg
+EXPR: 0 | POS | INT | 22 | 6 | 864 | 12=(x/72) | 12 x 72 / = | 12:dozen x:dozen 72:egg /:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 6 | 84 | 12=(x-72) | 12 x 72 - = | 12:egg x:egg 72:egg -:egg =:egg
+EXPR: 0 | POS | INT | 22 | 6 | 864 | (x/12)=72 | x 12 / 72 = | x:dozen 12:egg /:dozen 72:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 6 | 60 | (x+12)=72 | x 12 + 72 = | x:egg 12:egg +:egg 72:egg =:egg
+EXPR: 0 | POS | INT | 22 | 6 | 60 | (12+x)=72 | 12 x + 72 = | 12:egg x:egg +:egg 72:egg =:egg
+EXPR: 0 | POS | INT | 22 | 6 | 60 | 12=(72-x) | 12 72 x - = | 12:egg 72:egg x:egg -:egg =:egg
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

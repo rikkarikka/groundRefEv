@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 8 | 8 | x=(344/43) | x 344 43 / = | x:piece 344:piece 43:student /:piece =:piece
+EXPR: 1 | POS | INT | 0 | 8 | 8 | (344/43)=x | 344 43 / x = | 344:piece 43:student /:piece x:piece =:piece
+EXPR: 0 | POS | INT | 0 | 8 | 14792 | x=(344*43) | x 344 43 * = | x:piece 344:piece 43:student *:piece =:piece
+EXPR: 0 | POS | INT | 0 | 8 | 14792 | (344*43)=x | 344 43 * x = | 344:piece 43:student *:piece x:piece =:piece
+EXPR: 1 | POS | INT | 2 | 8 | 8 | 344=(43*x) | 344 43 x * = | 344:piece 43:student x:piece *:piece =:piece
+EXPR: 0 | POS | INT | 2 | 8 | 14792 | 344=(x/43) | 344 x 43 / = | 344:piece x:piece 43:student /:piece =:piece
+EXPR: 1 | POS | INT | 2 | 8 | 8 | 344=(x*43) | 344 x 43 * = | 344:piece x:piece 43:student *:piece =:piece
+EXPR: 0 | POS | INT | 10 | 8 | 301 | (344-43)=x | 344 43 - x = | 344:piece 43:piece -:piece x:piece =:piece
+EXPR: 0 | POS | INT | 10 | 8 | 387 | x=(344+43) | x 344 43 + = | x:piece 344:piece 43:piece +:piece =:piece
+EXPR: 0 | POS | INT | 10 | 8 | 301 | x=(344-43) | x 344 43 - = | x:piece 344:piece 43:piece -:piece =:piece
+EXPR: 0 | POS | INT | 10 | 8 | 387 | (344+43)=x | 344 43 + x = | 344:piece 43:piece +:piece x:piece =:piece
+EXPR: 0 | POS | INT | 12 | 8 | 301 | 344=(x+43) | 344 x 43 + = | 344:piece x:piece 43:piece +:piece =:piece
+EXPR: 1 | POS | INT | 12 | 8 | 8 | (344/x)=43 | 344 x / 43 = | 344:student x:piece /:student 43:student =:student
+EXPR: 1 | POS | INT | 12 | 8 | 8 | (43*x)=344 | 43 x * 344 = | 43:student x:piece *:piece 344:piece =:piece
+EXPR: 0 | POS | INT | 12 | 8 | 387 | 344=(x-43) | 344 x 43 - = | 344:piece x:piece 43:piece -:piece =:piece
+EXPR: 0 | POS | INT | 12 | 8 | 301 | 344=(43+x) | 344 43 x + = | 344:piece 43:piece x:piece +:piece =:piece
+EXPR: 0 | POS | INT | 12 | 8 | 387 | (x-344)=43 | x 344 - 43 = | x:piece 344:piece -:piece 43:piece =:piece
+EXPR: 0 | POS | INT | 12 | 8 | 301 | (344-x)=43 | 344 x - 43 = | 344:piece x:piece -:piece 43:piece =:piece
+EXPR: 0 | POS | INT | 12 | 8 | 14792 | (x/344)=43 | x 344 / 43 = | x:student 344:piece /:student 43:student =:student
+EXPR: 0 | POS | INT | 12 | 8 | 14792 | (x/43)=344 | x 43 / 344 = | x:piece 43:student /:piece 344:piece =:piece
+EXPR: 1 | POS | INT | 12 | 8 | 8 | (x*43)=344 | x 43 * 344 = | x:piece 43:student *:piece 344:piece =:piece
+EXPR: 0 | POS | INT | 22 | 8 | 301 | (x+43)=344 | x 43 + 344 = | x:piece 43:piece +:piece 344:piece =:piece
+EXPR: 1 | POS | INT | 22 | 8 | 8 | 43=(344/x) | 43 344 x / = | 43:student 344:student x:piece /:student =:student
+EXPR: 0 | POS | INT | 22 | 8 | 301 | (43+x)=344 | 43 x + 344 = | 43:piece x:piece +:piece 344:piece =:piece
+EXPR: 0 | POS | INT | 22 | 8 | 387 | 43=(x-344) | 43 x 344 - = | 43:piece x:piece 344:piece -:piece =:piece
+EXPR: 0 | POS | INT | 22 | 8 | 14792 | 43=(x/344) | 43 x 344 / = | 43:student x:student 344:piece /:student =:student
+EXPR: 0 | POS | INT | 22 | 8 | 301 | 43=(344-x) | 43 344 x - = | 43:piece 344:piece x:piece -:piece =:piece
+EXPR: 0 | POS | INT | 22 | 8 | 387 | (x-43)=344 | x 43 - 344 = | x:piece 43:piece -:piece 344:piece =:piece
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 208 | 46784 | x=(344*136) | x 344 136 * = | x:book 344:book 136:rest *:book =:book
+EXPR: 0 | POS | INT | 0 | 208 | 46784 | (344*136)=x | 344 136 * x = | 344:book 136:rest *:book x:book =:book
+EXPR: 0 | POS | INT | 2 | 208 | 46784 | 344=(x/136) | 344 x 136 / = | 344:book x:book 136:rest /:book =:book
+EXPR: 1 | POS | INT | 10 | 208 | 208 | (344-136)=x | 344 136 - x = | 344:book 136:book -:book x:book =:book
+EXPR: 0 | POS | INT | 10 | 208 | 480 | x=(344+136) | x 344 136 + = | x:book 344:book 136:book +:book =:book
+EXPR: 1 | POS | INT | 10 | 208 | 208 | x=(344-136) | x 344 136 - = | x:book 344:book 136:book -:book =:book
+EXPR: 0 | POS | INT | 10 | 208 | 480 | (344+136)=x | 344 136 + x = | 344:book 136:book +:book x:book =:book
+EXPR: 1 | POS | INT | 12 | 208 | 208 | 344=(x+136) | 344 x 136 + = | 344:book x:book 136:book +:book =:book
+EXPR: 0 | POS | INT | 12 | 208 | 480 | 344=(x-136) | 344 x 136 - = | 344:book x:book 136:book -:book =:book
+EXPR: 1 | POS | INT | 12 | 208 | 208 | 344=(136+x) | 344 136 x + = | 344:book 136:book x:book +:book =:book
+EXPR: 0 | POS | INT | 12 | 208 | 480 | (x-344)=136 | x 344 - 136 = | x:book 344:book -:book 136:book =:book
+EXPR: 1 | POS | INT | 12 | 208 | 208 | (344-x)=136 | 344 x - 136 = | 344:book x:book -:book 136:book =:book
+EXPR: 0 | POS | INT | 12 | 208 | 46784 | (x/344)=136 | x 344 / 136 = | x:rest 344:book /:rest 136:rest =:rest
+EXPR: 0 | POS | INT | 12 | 208 | 46784 | (x/136)=344 | x 136 / 344 = | x:book 136:rest /:book 344:book =:book
+EXPR: 1 | POS | INT | 22 | 208 | 208 | (x+136)=344 | x 136 + 344 = | x:book 136:book +:book 344:book =:book
+EXPR: 1 | POS | INT | 22 | 208 | 208 | (136+x)=344 | 136 x + 344 = | 136:book x:book +:book 344:book =:book
+EXPR: 0 | POS | INT | 22 | 208 | 480 | 136=(x-344) | 136 x 344 - = | 136:book x:book 344:book -:book =:book
+EXPR: 0 | POS | INT | 22 | 208 | 46784 | 136=(x/344) | 136 x 344 / = | 136:rest x:rest 344:book /:rest =:rest
+EXPR: 1 | POS | INT | 22 | 208 | 208 | 136=(344-x) | 136 344 x - = | 136:book 344:book x:book -:book =:book
+EXPR: 0 | POS | INT | 22 | 208 | 480 | (x-136)=344 | x 136 - 344 = | x:book 136:book -:book 344:book =:book
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

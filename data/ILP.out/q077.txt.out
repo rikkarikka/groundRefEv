@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 25 | 25 | (39-14)=x | 39 14 - x = | 39:game 14:game -:game x:game =:game
+EXPR: 0 | POS | INT | 0 | 25 | 53 | x=(39+14) | x 39 14 + = | x:game 39:game 14:game +:game =:game
+EXPR: 1 | POS | INT | 0 | 25 | 25 | x=(39-14) | x 39 14 - = | x:game 39:game 14:game -:game =:game
+EXPR: 0 | POS | INT | 0 | 25 | 53 | (39+14)=x | 39 14 + x = | 39:game 14:game +:game x:game =:game
+EXPR: 1 | POS | INT | 2 | 25 | 25 | 39=(14+x) | 39 14 x + = | 39:game 14:game x:game +:game =:game
+EXPR: 0 | POS | INT | 2 | 25 | 53 | (x-39)=14 | x 39 - 14 = | x:game 39:game -:game 14:game =:game
+EXPR: 1 | POS | INT | 2 | 25 | 25 | 39=(x+14) | 39 x 14 + = | 39:game x:game 14:game +:game =:game
+EXPR: 1 | POS | INT | 2 | 25 | 25 | (39-x)=14 | 39 x - 14 = | 39:game x:game -:game 14:game =:game
+EXPR: 0 | POS | INT | 2 | 25 | 53 | 39=(x-14) | 39 x 14 - = | 39:game x:game 14:game -:game =:game
+EXPR: 1 | POS | INT | 12 | 25 | 25 | (x+14)=39 | x 14 + 39 = | x:game 14:game +:game 39:game =:game
+EXPR: 0 | POS | INT | 12 | 25 | 53 | (x-14)=39 | x 14 - 39 = | x:game 14:game -:game 39:game =:game
+EXPR: 1 | POS | INT | 12 | 25 | 25 | (14+x)=39 | 14 x + 39 = | 14:game x:game +:game 39:game =:game
+EXPR: 0 | POS | INT | 12 | 25 | 53 | 14=(x-39) | 14 x 39 - = | 14:game x:game 39:game -:game =:game
+EXPR: 1 | POS | INT | 12 | 25 | 25 | 14=(39-x) | 14 39 x - = | 14:game 39:game x:game -:game =:game
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

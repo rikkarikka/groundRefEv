@@ -1,0 +1,7 @@
+constants : 10 5.1
+unknowns : x
+operators : + - * / =
+objtypes : ton cement
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 15.1

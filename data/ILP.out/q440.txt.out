@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 133 | 37 | (85-48)=x | 85 48 - x = | 85:peanut 48:peanut -:peanut x:peanut =:peanut
+EXPR: 1 | POS | INT | 0 | 133 | 133 | x=(85+48) | x 85 48 + = | x:peanut 85:peanut 48:peanut +:peanut =:peanut
+EXPR: 0 | POS | INT | 0 | 133 | 37 | x=(85-48) | x 85 48 - = | x:peanut 85:peanut 48:peanut -:peanut =:peanut
+EXPR: 1 | POS | INT | 0 | 133 | 133 | (85+48)=x | 85 48 + x = | 85:peanut 48:peanut +:peanut x:peanut =:peanut
+EXPR: 0 | POS | INT | 2 | 133 | 37 | 85=(48+x) | 85 48 x + = | 85:peanut 48:peanut x:peanut +:peanut =:peanut
+EXPR: 1 | POS | INT | 2 | 133 | 133 | (x-85)=48 | x 85 - 48 = | x:peanut 85:peanut -:peanut 48:peanut =:peanut
+EXPR: 0 | POS | INT | 2 | 133 | 37 | 85=(x+48) | 85 x 48 + = | 85:peanut x:peanut 48:peanut +:peanut =:peanut
+EXPR: 0 | POS | INT | 2 | 133 | 37 | (85-x)=48 | 85 x - 48 = | 85:peanut x:peanut -:peanut 48:peanut =:peanut
+EXPR: 1 | POS | INT | 2 | 133 | 133 | 85=(x-48) | 85 x 48 - = | 85:peanut x:peanut 48:peanut -:peanut =:peanut
+EXPR: 0 | POS | INT | 12 | 133 | 37 | (x+48)=85 | x 48 + 85 = | x:peanut 48:peanut +:peanut 85:peanut =:peanut
+EXPR: 1 | POS | INT | 12 | 133 | 133 | (x-48)=85 | x 48 - 85 = | x:peanut 48:peanut -:peanut 85:peanut =:peanut
+EXPR: 0 | POS | INT | 12 | 133 | 37 | (48+x)=85 | 48 x + 85 = | 48:peanut x:peanut +:peanut 85:peanut =:peanut
+EXPR: 1 | POS | INT | 12 | 133 | 133 | 48=(x-85) | 48 x 85 - = | 48:peanut x:peanut 85:peanut -:peanut =:peanut
+EXPR: 0 | POS | INT | 12 | 133 | 37 | 48=(85-x) | 48 85 x - = | 48:peanut 85:peanut x:peanut -:peanut =:peanut
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

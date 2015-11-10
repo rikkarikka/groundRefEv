@@ -1,0 +1,7 @@
+constants : 0.16666666666666666 0.16666666666666666 0.5
+unknowns : x
+operators : + - * / =
+objtypes : ton
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.8333333333333334

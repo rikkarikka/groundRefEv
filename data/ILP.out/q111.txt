@@ -1,0 +1,7 @@
+constants : 46 276
+unknowns : x
+operators : + - * / =
+objtypes : dollar home
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 6.0

@@ -1,0 +1,7 @@
+constants : 5 50
+unknowns : x
+operators : + - * / =
+objtypes : member ball LENGTH
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 10

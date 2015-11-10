@@ -1,0 +1,7 @@
+constants : 7 8
+unknowns : x
+operators : + - * / =
+objtypes : day pie
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 56.0

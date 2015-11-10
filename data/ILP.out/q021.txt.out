@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 12 | 2 | (7-5)=x | 7 5 - x = | 7:puppy 5:puppy -:puppy x:puppy =:puppy
+EXPR: 1 | POS | INT | 0 | 12 | 12 | x=(7+5) | x 7 5 + = | x:puppy 7:puppy 5:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 0 | 12 | 2 | x=(7-5) | x 7 5 - = | x:puppy 7:puppy 5:puppy -:puppy =:puppy
+EXPR: 1 | POS | INT | 0 | 12 | 12 | (7+5)=x | 7 5 + x = | 7:puppy 5:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 2 | 12 | 2 | 7=(5+x) | 7 5 x + = | 7:puppy 5:puppy x:puppy +:puppy =:puppy
+EXPR: 1 | POS | INT | 2 | 12 | 12 | (x-7)=5 | x 7 - 5 = | x:puppy 7:puppy -:puppy 5:puppy =:puppy
+EXPR: 0 | POS | INT | 2 | 12 | 2 | 7=(x+5) | 7 x 5 + = | 7:puppy x:puppy 5:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 2 | 12 | 2 | (7-x)=5 | 7 x - 5 = | 7:puppy x:puppy -:puppy 5:puppy =:puppy
+EXPR: 1 | POS | INT | 2 | 12 | 12 | 7=(x-5) | 7 x 5 - = | 7:puppy x:puppy 5:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 12 | 2 | (x+5)=7 | x 5 + 7 = | x:puppy 5:puppy +:puppy 7:puppy =:puppy
+EXPR: 1 | POS | INT | 12 | 12 | 12 | (x-5)=7 | x 5 - 7 = | x:puppy 5:puppy -:puppy 7:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 12 | 2 | (5+x)=7 | 5 x + 7 = | 5:puppy x:puppy +:puppy 7:puppy =:puppy
+EXPR: 1 | POS | INT | 12 | 12 | 12 | 5=(x-7) | 5 x 7 - = | 5:puppy x:puppy 7:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 12 | 2 | 5=(7-x) | 5 7 x - = | 5:puppy 7:puppy x:puppy -:puppy =:puppy
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

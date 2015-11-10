@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 1035 | 1035 | x=(23*45) | x 23 45 * = | x:pound 23:pound 45:bag *:pound =:pound
+EXPR: 1 | POS | INT | 0 | 1035 | 1035 | (23*45)=x | 23 45 * x = | 23:pound 45:bag *:pound x:pound =:pound
+EXPR: 1 | POS | INT | 2 | 1035 | 1035 | 23=(x/45) | 23 x 45 / = | 23:pound x:pound 45:bag /:pound =:pound
+EXPR: 0 | POS | INT | 10 | 1035 | 68 | x=(23+45) | x 23 45 + = | x:pound 23:pound 45:pound +:pound =:pound
+EXPR: 0 | POS | INT | 10 | 1035 | 68 | (23+45)=x | 23 45 + x = | 23:pound 45:pound +:pound x:pound =:pound
+EXPR: 0 | POS | INT | 12 | 1035 | 68 | 23=(x-45) | 23 x 45 - = | 23:pound x:pound 45:pound -:pound =:pound
+EXPR: 0 | POS | INT | 12 | 1035 | 22 | (x+23)=45 | x 23 + 45 = | x:pound 23:pound +:pound 45:pound =:pound
+EXPR: 0 | POS | INT | 12 | 1035 | 68 | (x-23)=45 | x 23 - 45 = | x:pound 23:pound -:pound 45:pound =:pound
+EXPR: 0 | POS | INT | 12 | 1035 | 22 | 23=(45-x) | 23 45 x - = | 23:pound 45:pound x:pound -:pound =:pound
+EXPR: 0 | POS | INT | 12 | 1035 | 22 | (23+x)=45 | 23 x + 45 = | 23:pound x:pound +:pound 45:pound =:pound
+EXPR: 1 | POS | INT | 12 | 1035 | 1035 | (x/23)=45 | x 23 / 45 = | x:bag 23:pound /:bag 45:bag =:bag
+EXPR: 1 | POS | INT | 12 | 1035 | 1035 | (x/45)=23 | x 45 / 23 = | x:pound 45:bag /:pound 23:pound =:pound
+EXPR: 0 | POS | INT | 20 | 1035 | 22 | (45-23)=x | 45 23 - x = | 45:pound 23:pound -:pound x:pound =:pound
+EXPR: 0 | POS | INT | 20 | 1035 | 22 | x=(45-23) | x 45 23 - = | x:pound 45:pound 23:pound -:pound =:pound
+EXPR: 0 | POS | INT | 22 | 1035 | 22 | 45=(x+23) | 45 x 23 + = | 45:pound x:pound 23:pound +:pound =:pound
+EXPR: 0 | POS | INT | 22 | 1035 | 22 | (45-x)=23 | 45 x - 23 = | 45:pound x:pound -:pound 23:pound =:pound
+EXPR: 0 | POS | INT | 22 | 1035 | 68 | 45=(x-23) | 45 x 23 - = | 45:pound x:pound 23:pound -:pound =:pound
+EXPR: 1 | POS | INT | 22 | 1035 | 1035 | 45=(x/23) | 45 x 23 / = | 45:bag x:bag 23:pound /:bag =:bag
+EXPR: 0 | POS | INT | 22 | 1035 | 22 | 45=(23+x) | 45 23 x + = | 45:pound 23:pound x:pound +:pound =:pound
+EXPR: 0 | POS | INT | 22 | 1035 | 68 | (x-45)=23 | x 45 - 23 = | x:pound 45:pound -:pound 23:pound =:pound
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

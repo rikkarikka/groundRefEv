@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 74 | 24 | (49-25)=x | 49 25 - x = | 49:quarter 25:quarter -:quarter x:quarter =:quarter
+EXPR: 1 | POS | INT | 0 | 74 | 74 | x=(49+25) | x 49 25 + = | x:quarter 49:quarter 25:quarter +:quarter =:quarter
+EXPR: 0 | POS | INT | 0 | 74 | 24 | x=(49-25) | x 49 25 - = | x:quarter 49:quarter 25:quarter -:quarter =:quarter
+EXPR: 1 | POS | INT | 0 | 74 | 74 | (49+25)=x | 49 25 + x = | 49:quarter 25:quarter +:quarter x:quarter =:quarter
+EXPR: 0 | POS | INT | 2 | 74 | 24 | 49=(25+x) | 49 25 x + = | 49:quarter 25:quarter x:quarter +:quarter =:quarter
+EXPR: 1 | POS | INT | 2 | 74 | 74 | (x-49)=25 | x 49 - 25 = | x:quarter 49:quarter -:quarter 25:quarter =:quarter
+EXPR: 0 | POS | INT | 2 | 74 | 24 | 49=(x+25) | 49 x 25 + = | 49:quarter x:quarter 25:quarter +:quarter =:quarter
+EXPR: 0 | POS | INT | 2 | 74 | 24 | (49-x)=25 | 49 x - 25 = | 49:quarter x:quarter -:quarter 25:quarter =:quarter
+EXPR: 1 | POS | INT | 2 | 74 | 74 | 49=(x-25) | 49 x 25 - = | 49:quarter x:quarter 25:quarter -:quarter =:quarter
+EXPR: 0 | POS | INT | 12 | 74 | 24 | (x+25)=49 | x 25 + 49 = | x:quarter 25:quarter +:quarter 49:quarter =:quarter
+EXPR: 1 | POS | INT | 12 | 74 | 74 | (x-25)=49 | x 25 - 49 = | x:quarter 25:quarter -:quarter 49:quarter =:quarter
+EXPR: 0 | POS | INT | 12 | 74 | 24 | (25+x)=49 | 25 x + 49 = | 25:quarter x:quarter +:quarter 49:quarter =:quarter
+EXPR: 1 | POS | INT | 12 | 74 | 74 | 25=(x-49) | 25 x 49 - = | 25:quarter x:quarter 49:quarter -:quarter =:quarter
+EXPR: 0 | POS | INT | 12 | 74 | 24 | 25=(49-x) | 25 49 x - = | 25:quarter 49:quarter x:quarter -:quarter =:quarter
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

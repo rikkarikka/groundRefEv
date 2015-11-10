@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 48781 | 47413 | (48097-684)=x | 48097 684 - x = | 48097:bushel 684:bushel -:bushel x:bushel =:bushel
+EXPR: 1 | POS | INT | 0 | 48781 | 48781 | x=(48097+684) | x 48097 684 + = | x:bushel 48097:bushel 684:bushel +:bushel =:bushel
+EXPR: 0 | POS | INT | 0 | 48781 | 47413 | x=(48097-684) | x 48097 684 - = | x:bushel 48097:bushel 684:bushel -:bushel =:bushel
+EXPR: 1 | POS | INT | 0 | 48781 | 48781 | (48097+684)=x | 48097 684 + x = | 48097:bushel 684:bushel +:bushel x:bushel =:bushel
+EXPR: 0 | POS | INT | 2 | 48781 | 47413 | 48097=(684+x) | 48097 684 x + = | 48097:bushel 684:bushel x:bushel +:bushel =:bushel
+EXPR: 1 | POS | INT | 2 | 48781 | 48781 | (x-48097)=684 | x 48097 - 684 = | x:bushel 48097:bushel -:bushel 684:bushel =:bushel
+EXPR: 0 | POS | INT | 2 | 48781 | 47413 | 48097=(x+684) | 48097 x 684 + = | 48097:bushel x:bushel 684:bushel +:bushel =:bushel
+EXPR: 0 | POS | INT | 2 | 48781 | 47413 | (48097-x)=684 | 48097 x - 684 = | 48097:bushel x:bushel -:bushel 684:bushel =:bushel
+EXPR: 1 | POS | INT | 2 | 48781 | 48781 | 48097=(x-684) | 48097 x 684 - = | 48097:bushel x:bushel 684:bushel -:bushel =:bushel
+EXPR: 0 | POS | INT | 12 | 48781 | 47413 | (x+684)=48097 | x 684 + 48097 = | x:bushel 684:bushel +:bushel 48097:bushel =:bushel
+EXPR: 1 | POS | INT | 12 | 48781 | 48781 | (x-684)=48097 | x 684 - 48097 = | x:bushel 684:bushel -:bushel 48097:bushel =:bushel
+EXPR: 0 | POS | INT | 12 | 48781 | 47413 | (684+x)=48097 | 684 x + 48097 = | 684:bushel x:bushel +:bushel 48097:bushel =:bushel
+EXPR: 1 | POS | INT | 12 | 48781 | 48781 | 684=(x-48097) | 684 x 48097 - = | 684:bushel x:bushel 48097:bushel -:bushel =:bushel
+EXPR: 0 | POS | INT | 12 | 48781 | 47413 | 684=(48097-x) | 684 48097 x - = | 684:bushel 48097:bushel x:bushel -:bushel =:bushel
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

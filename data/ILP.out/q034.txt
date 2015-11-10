@@ -1,0 +1,7 @@
+constants : 4 5 9
+unknowns : x
+operators : + - * / =
+objtypes : onion
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 18.0

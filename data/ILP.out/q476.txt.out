@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 242 | 242 | x=(22*11) | x 22 11 * = | x:basketball 22:player 11:basketball *:basketball =:basketball
+EXPR: 1 | POS | INT | 0 | 242 | 242 | (22*11)=x | 22 11 * x = | 22:player 11:basketball *:basketball x:basketball =:basketball
+EXPR: 1 | POS | INT | 2 | 242 | 242 | (x/22)=11 | x 22 / 11 = | x:basketball 22:player /:basketball 11:basketball =:basketball
+EXPR: 0 | POS | INT | 10 | 242 | 2 | (22/11)=x | 22 11 / x = | 22:player 11:basketball /:player x:player =:player
+EXPR: 0 | POS | INT | 10 | 242 | 33 | x=(22+11) | x 22 11 + = | x:basketball 22:basketball 11:basketball +:basketball =:basketball
+EXPR: 0 | POS | INT | 10 | 242 | 33 | (22+11)=x | 22 11 + x = | 22:basketball 11:basketball +:basketball x:basketball =:basketball
+EXPR: 0 | POS | INT | 10 | 242 | 2 | x=(22/11) | x 22 11 / = | x:player 22:player 11:basketball /:player =:player
+EXPR: 0 | POS | INT | 10 | 242 | 11 | (22-11)=x | 22 11 - x = | 22:basketball 11:basketball -:basketball x:basketball =:basketball
+EXPR: 0 | POS | INT | 10 | 242 | 11 | x=(22-11) | x 22 11 - = | x:basketball 22:basketball 11:basketball -:basketball =:basketball
+EXPR: 0 | POS | INT | 12 | 242 | 2 | 22=(x*11) | 22 x 11 * = | 22:player x:basketball 11:player *:player =:player
+EXPR: 0 | POS | INT | 12 | 242 | 2 | 22=(11*x) | 22 11 x * = | 22:player 11:player x:basketball *:player =:player
+EXPR: 0 | POS | INT | 12 | 242 | 2 | (22/x)=11 | 22 x / 11 = | 22:player x:basketball /:player 11:player =:player
+EXPR: 0 | POS | INT | 12 | 242 | 11 | (22-x)=11 | 22 x - 11 = | 22:basketball x:basketball -:basketball 11:basketball =:basketball
+EXPR: 0 | POS | INT | 12 | 242 | 11 | 22=(11+x) | 22 11 x + = | 22:basketball 11:basketball x:basketball +:basketball =:basketball
+EXPR: 1 | POS | INT | 12 | 242 | 242 | 11=(x/22) | 11 x 22 / = | 11:basketball x:basketball 22:player /:basketball =:basketball
+EXPR: 0 | POS | INT | 12 | 242 | 33 | (x-22)=11 | x 22 - 11 = | x:basketball 22:basketball -:basketball 11:basketball =:basketball
+EXPR: 0 | POS | INT | 12 | 242 | 11 | 22=(x+11) | 22 x 11 + = | 22:basketball x:basketball 11:basketball +:basketball =:basketball
+EXPR: 0 | POS | INT | 12 | 242 | 33 | 22=(x-11) | 22 x 11 - = | 22:basketball x:basketball 11:basketball -:basketball =:basketball
+EXPR: 1 | POS | INT | 12 | 242 | 242 | 22=(x/11) | 22 x 11 / = | 22:player x:player 11:basketball /:player =:player
+EXPR: 1 | POS | INT | 22 | 242 | 242 | (x/11)=22 | x 11 / 22 = | x:player 11:basketball /:player 22:player =:player
+EXPR: 0 | POS | INT | 22 | 242 | 11 | 11=(22-x) | 11 22 x - = | 11:basketball 22:basketball x:basketball -:basketball =:basketball
+EXPR: 0 | POS | INT | 22 | 242 | 2 | (x*11)=22 | x 11 * 22 = | x:basketball 11:player *:player 22:player =:player
+EXPR: 0 | POS | INT | 22 | 242 | 11 | (x+11)=22 | x 11 + 22 = | x:basketball 11:basketball +:basketball 22:basketball =:basketball
+EXPR: 0 | POS | INT | 22 | 242 | 2 | 11=(22/x) | 11 22 x / = | 11:player 22:player x:basketball /:player =:player
+EXPR: 0 | POS | INT | 22 | 242 | 2 | (11*x)=22 | 11 x * 22 = | 11:basketball x:player *:player 22:player =:player
+EXPR: 0 | POS | INT | 22 | 242 | 33 | (x-11)=22 | x 11 - 22 = | x:basketball 11:basketball -:basketball 22:basketball =:basketball
+EXPR: 0 | POS | INT | 22 | 242 | 11 | (11+x)=22 | 11 x + 22 = | 11:basketball x:basketball +:basketball 22:basketball =:basketball
+EXPR: 0 | POS | INT | 22 | 242 | 33 | 11=(x-22) | 11 x 22 - = | 11:basketball x:basketball 22:basketball -:basketball =:basketball
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

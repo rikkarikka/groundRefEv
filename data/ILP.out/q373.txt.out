@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 9.12 | 0.52 | 6=(3.12/x) | 6 3.12 x / = | 6:pound 3.12:pound x:UNKNOWN /:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 9.12 | 1.92307692307692 | 6=(x*3.12) | 6 x 3.12 * = | 6:pound x:UNKNOWN 3.12:pound *:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 9.12 | 1.92307692307692 | 6=(3.12*x) | 6 3.12 x * = | 6:pound 3.12:pound x:UNKNOWN *:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 9.12 | 0.52 | (x*6)=3.12 | x 6 * 3.12 = | x:UNKNOWN 6:pound *:pound 3.12:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 9.12 | 0.52 | (6*x)=3.12 | 6 x * 3.12 = | 6:pound x:UNKNOWN *:pound 3.12:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 9.12 | 1.92307692307692 | (6/x)=3.12 | 6 x / 3.12 = | 6:pound x:UNKNOWN /:pound 3.12:pound =:pound
+EXPR: 0 | POS | FRA | 10 | 9.12 | 18.72 | (6*3.12)=x | 6 3.12 * x = | 6:pound 3.12:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | FRA | 10 | 9.12 | 9.12 | (6+3.12)=x | 6 3.12 + x = | 6:pound 3.12:pound +:pound x:pound =:pound
+EXPR: 0 | POS | FRA | 10 | 9.12 | 2.88 | x=(6-3.12) | x 6 3.12 - = | x:pound 6:pound 3.12:pound -:pound =:pound
+EXPR: 0 | POS | FRA | 10 | 9.12 | 18.72 | x=(6*3.12) | x 6 3.12 * = | x:UNKNOWN 6:pound 3.12:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | FRA | 10 | 9.12 | 9.12 | x=(6+3.12) | x 6 3.12 + = | x:pound 6:pound 3.12:pound +:pound =:pound
+EXPR: 0 | POS | FRA | 10 | 9.12 | 2.88 | (6-3.12)=x | 6 3.12 - x = | 6:pound 3.12:pound -:pound x:pound =:pound
+EXPR: 0 | POS | FRA | 10 | 9.12 | 1.92307692307692 | x=(6/3.12) | x 6 3.12 / = | x:UNKNOWN 6:UNKNOWN 3.12:pound /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 10 | 9.12 | 1.92307692307692 | (6/3.12)=x | 6 3.12 / x = | 6:UNKNOWN 3.12:pound /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 9.12 | 1.92307692307692 | 3.12=(6/x) | 3.12 6 x / = | 3.12:pound 6:pound x:UNKNOWN /:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 9.12 | 1.92307692307692 | (x*3.12)=6 | x 3.12 * 6 = | x:UNKNOWN 3.12:pound *:pound 6:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 9.12 | 18.72 | 6=(x/3.12) | 6 x 3.12 / = | 6:UNKNOWN x:UNKNOWN 3.12:pound /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 9.12 | 0.52 | 3.12=(6*x) | 3.12 6 x * = | 3.12:pound 6:pound x:UNKNOWN *:pound =:pound
+EXPR: 1 | POS | FRA | 12 | 9.12 | 9.12 | 6=(x-3.12) | 6 x 3.12 - = | 6:pound x:pound 3.12:pound -:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 9.12 | 0.52 | 3.12=(x*6) | 3.12 x 6 * = | 3.12:pound x:UNKNOWN 6:pound *:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 9.12 | 2.88 | (6-x)=3.12 | 6 x - 3.12 = | 6:pound x:pound -:pound 3.12:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 9.12 | 1.92307692307692 | (3.12*x)=6 | 3.12 x * 6 = | 3.12:pound x:UNKNOWN *:pound 6:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 9.12 | 0.52 | (3.12/x)=6 | 3.12 x / 6 = | 3.12:pound x:UNKNOWN /:pound 6:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 9.12 | 2.88 | 6=(x+3.12) | 6 x 3.12 + = | 6:pound x:pound 3.12:pound +:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 9.12 | 2.88 | 6=(3.12+x) | 6 3.12 x + = | 6:pound 3.12:pound x:pound +:pound =:pound
+EXPR: 1 | POS | FRA | 12 | 9.12 | 9.12 | (x-6)=3.12 | x 6 - 3.12 = | x:pound 6:pound -:pound 3.12:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 9.12 | 18.72 | (x/6)=3.12 | x 6 / 3.12 = | x:UNKNOWN 6:pound /:UNKNOWN 3.12:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 20 | 9.12 | 0.52 | (3.12/6)=x | 3.12 6 / x = | 3.12:UNKNOWN 6:pound /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 20 | 9.12 | 0.52 | x=(3.12/6) | x 3.12 6 / = | x:UNKNOWN 3.12:UNKNOWN 6:pound /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 22 | 9.12 | 18.72 | (x/3.12)=6 | x 3.12 / 6 = | x:UNKNOWN 3.12:pound /:UNKNOWN 6:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | FRA | 22 | 9.12 | 9.12 | (x-3.12)=6 | x 3.12 - 6 = | x:pound 3.12:pound -:pound 6:pound =:pound
+EXPR: 0 | POS | FRA | 22 | 9.12 | 2.88 | (3.12+x)=6 | 3.12 x + 6 = | 3.12:pound x:pound +:pound 6:pound =:pound
+EXPR: 1 | POS | FRA | 22 | 9.12 | 9.12 | 3.12=(x-6) | 3.12 x 6 - = | 3.12:pound x:pound 6:pound -:pound =:pound
+EXPR: 0 | POS | FRA | 22 | 9.12 | 2.88 | (x+3.12)=6 | x 3.12 + 6 = | x:pound 3.12:pound +:pound 6:pound =:pound
+EXPR: 0 | POS | FRA | 22 | 9.12 | 18.72 | 3.12=(x/6) | 3.12 x 6 / = | 3.12:UNKNOWN x:UNKNOWN 6:pound /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 22 | 9.12 | 2.88 | 3.12=(6-x) | 3.12 6 x - = | 3.12:pound 6:pound x:pound -:pound =:pound
+NET 36 unique, non-negative solutions found out of 136 total solutions

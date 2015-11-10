@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 227 | 17 | (122-105)=x | 122 105 - x = | 122:orange 105:orange -:orange x:orange =:orange
+EXPR: 1 | POS | INT | 0 | 227 | 227 | x=(122+105) | x 122 105 + = | x:orange 122:orange 105:orange +:orange =:orange
+EXPR: 0 | POS | INT | 0 | 227 | 17 | x=(122-105) | x 122 105 - = | x:orange 122:orange 105:orange -:orange =:orange
+EXPR: 1 | POS | INT | 0 | 227 | 227 | (122+105)=x | 122 105 + x = | 122:orange 105:orange +:orange x:orange =:orange
+EXPR: 0 | POS | INT | 2 | 227 | 17 | 122=(105+x) | 122 105 x + = | 122:orange 105:orange x:orange +:orange =:orange
+EXPR: 1 | POS | INT | 2 | 227 | 227 | (x-122)=105 | x 122 - 105 = | x:orange 122:orange -:orange 105:orange =:orange
+EXPR: 0 | POS | INT | 2 | 227 | 17 | 122=(x+105) | 122 x 105 + = | 122:orange x:orange 105:orange +:orange =:orange
+EXPR: 0 | POS | INT | 2 | 227 | 17 | (122-x)=105 | 122 x - 105 = | 122:orange x:orange -:orange 105:orange =:orange
+EXPR: 1 | POS | INT | 2 | 227 | 227 | 122=(x-105) | 122 x 105 - = | 122:orange x:orange 105:orange -:orange =:orange
+EXPR: 0 | POS | INT | 12 | 227 | 17 | (x+105)=122 | x 105 + 122 = | x:orange 105:orange +:orange 122:orange =:orange
+EXPR: 1 | POS | INT | 12 | 227 | 227 | (x-105)=122 | x 105 - 122 = | x:orange 105:orange -:orange 122:orange =:orange
+EXPR: 0 | POS | INT | 12 | 227 | 17 | (105+x)=122 | 105 x + 122 = | 105:orange x:orange +:orange 122:orange =:orange
+EXPR: 1 | POS | INT | 12 | 227 | 227 | 105=(x-122) | 105 x 122 - = | 105:orange x:orange 122:orange -:orange =:orange
+EXPR: 0 | POS | INT | 12 | 227 | 17 | 105=(122-x) | 105 122 x - = | 105:orange 122:orange x:orange -:orange =:orange
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 498 | 498 | x=(83*6) | x 83 6 * = | x:sack 83:sack 6:day *:sack =:sack
+EXPR: 1 | POS | INT | 0 | 498 | 498 | (83*6)=x | 83 6 * x = | 83:sack 6:day *:sack x:sack =:sack
+EXPR: 1 | POS | INT | 2 | 498 | 498 | 83=(x/6) | 83 x 6 / = | 83:sack x:sack 6:day /:sack =:sack
+EXPR: 0 | POS | INT | 10 | 498 | 77 | (83-6)=x | 83 6 - x = | 83:sack 6:sack -:sack x:sack =:sack
+EXPR: 0 | POS | INT | 10 | 498 | 89 | x=(83+6) | x 83 6 + = | x:sack 83:sack 6:sack +:sack =:sack
+EXPR: 0 | POS | INT | 10 | 498 | 77 | x=(83-6) | x 83 6 - = | x:sack 83:sack 6:sack -:sack =:sack
+EXPR: 0 | POS | INT | 10 | 498 | 89 | (83+6)=x | 83 6 + x = | 83:sack 6:sack +:sack x:sack =:sack
+EXPR: 0 | POS | INT | 12 | 498 | 77 | 83=(x+6) | 83 x 6 + = | 83:sack x:sack 6:sack +:sack =:sack
+EXPR: 0 | POS | INT | 12 | 498 | 89 | 83=(x-6) | 83 x 6 - = | 83:sack x:sack 6:sack -:sack =:sack
+EXPR: 0 | POS | INT | 12 | 498 | 77 | 83=(6+x) | 83 6 x + = | 83:sack 6:sack x:sack +:sack =:sack
+EXPR: 0 | POS | INT | 12 | 498 | 89 | (x-83)=6 | x 83 - 6 = | x:sack 83:sack -:sack 6:sack =:sack
+EXPR: 0 | POS | INT | 12 | 498 | 77 | (83-x)=6 | 83 x - 6 = | 83:sack x:sack -:sack 6:sack =:sack
+EXPR: 1 | POS | INT | 12 | 498 | 498 | (x/83)=6 | x 83 / 6 = | x:day 83:sack /:day 6:day =:day
+EXPR: 1 | POS | INT | 12 | 498 | 498 | (x/6)=83 | x 6 / 83 = | x:sack 6:day /:sack 83:sack =:sack
+EXPR: 0 | POS | INT | 22 | 498 | 77 | (x+6)=83 | x 6 + 83 = | x:sack 6:sack +:sack 83:sack =:sack
+EXPR: 0 | POS | INT | 22 | 498 | 77 | (6+x)=83 | 6 x + 83 = | 6:sack x:sack +:sack 83:sack =:sack
+EXPR: 0 | POS | INT | 22 | 498 | 89 | 6=(x-83) | 6 x 83 - = | 6:sack x:sack 83:sack -:sack =:sack
+EXPR: 1 | POS | INT | 22 | 498 | 498 | 6=(x/83) | 6 x 83 / = | 6:day x:day 83:sack /:day =:day
+EXPR: 0 | POS | INT | 22 | 498 | 77 | 6=(83-x) | 6 83 x - = | 6:sack 83:sack x:sack -:sack =:sack
+EXPR: 0 | POS | INT | 22 | 498 | 89 | (x-6)=83 | x 6 - 83 = | x:sack 6:sack -:sack 83:sack =:sack
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 39 | 39 | (127-88)=x | 127 88 - x = | 127:apple 88:apple -:apple x:apple =:apple
+EXPR: 0 | POS | INT | 0 | 39 | 215 | x=(127+88) | x 127 88 + = | x:apple 127:apple 88:apple +:apple =:apple
+EXPR: 1 | POS | INT | 0 | 39 | 39 | x=(127-88) | x 127 88 - = | x:apple 127:apple 88:apple -:apple =:apple
+EXPR: 0 | POS | INT | 0 | 39 | 215 | (127+88)=x | 127 88 + x = | 127:apple 88:apple +:apple x:apple =:apple
+EXPR: 1 | POS | INT | 2 | 39 | 39 | 127=(88+x) | 127 88 x + = | 127:apple 88:apple x:apple +:apple =:apple
+EXPR: 0 | POS | INT | 2 | 39 | 215 | (x-127)=88 | x 127 - 88 = | x:apple 127:apple -:apple 88:apple =:apple
+EXPR: 1 | POS | INT | 2 | 39 | 39 | 127=(x+88) | 127 x 88 + = | 127:apple x:apple 88:apple +:apple =:apple
+EXPR: 1 | POS | INT | 2 | 39 | 39 | (127-x)=88 | 127 x - 88 = | 127:apple x:apple -:apple 88:apple =:apple
+EXPR: 0 | POS | INT | 2 | 39 | 215 | 127=(x-88) | 127 x 88 - = | 127:apple x:apple 88:apple -:apple =:apple
+EXPR: 1 | POS | INT | 12 | 39 | 39 | (x+88)=127 | x 88 + 127 = | x:apple 88:apple +:apple 127:apple =:apple
+EXPR: 0 | POS | INT | 12 | 39 | 215 | (x-88)=127 | x 88 - 127 = | x:apple 88:apple -:apple 127:apple =:apple
+EXPR: 1 | POS | INT | 12 | 39 | 39 | (88+x)=127 | 88 x + 127 = | 88:apple x:apple +:apple 127:apple =:apple
+EXPR: 0 | POS | INT | 12 | 39 | 215 | 88=(x-127) | 88 x 127 - = | 88:apple x:apple 127:apple -:apple =:apple
+EXPR: 1 | POS | INT | 12 | 39 | 39 | 88=(127-x) | 88 127 x - = | 88:apple 127:apple x:apple -:apple =:apple
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

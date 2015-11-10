@@ -1,0 +1,26 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 228 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 21 | 0 | (69*0)=x | 69 0 * x = | 69:number 0:person *:number x:number =:number
+EXPR: 0 | POS | INT | 10 | 21 |  | x=(69*0) | x 69 0 * = | x:person 69:number 0:person *:person =:person
+EXPR: 0 | POS | INT | 12 | 21 | - | 69=(x*0) | 69 x 0 * = | 69:number x:number 0:person *:number =:number
+EXPR: 0 | POS | INT | 12 | 21 | - | 69=(0*x) | 69 0 x * = | 69:number 0:person x:number *:number =:number
+EXPR: 0 | POS | INT | 12 | 21 | - | (69/x)=0 | 69 x / 0 = | 69:person x:smallest /:person 0:person =:person
+EXPR: 0 | POS | INT | 12 | 21 |  | (69*x)=0 | 69 x * 0 = | 69:number x:smallest *:smallest 0:smallest =:smallest
+EXPR: 0 | POS | INT | 12 | 21 |  | (x/69)=0 | x 69 / 0 = | x:person 69:number /:person 0:person =:person
+EXPR: 0 | POS | INT | 12 | 21 | - | 69=(0/x) | 69 0 x / = | 69:number 0:number x:smallest /:number =:number
+EXPR: 0 | POS | INT | 12 | 21 |  | (x*69)=0 | x 69 * 0 = | x:smallest 69:number *:number 0:number =:number
+EXPR: 0 | POS | INT | 20 | 21 | 0 | (0/69)=x | 0 69 / x = | 0:person 69:number /:person x:person =:person
+EXPR: 0 | POS | INT | 20 | 21 |  | x=(0/69) | x 0 69 / = | x:smallest 0:smallest 69:number /:smallest =:smallest
+EXPR: 0 | POS | INT | 22 | 21 | - | (0*x)=69 | 0 x * 69 = | 0:person x:number *:number 69:number =:number
+EXPR: 0 | POS | INT | 22 | 21 | 0 | 0=(69*x) | 0 69 x * = | 0:number 69:number x:smallest *:number =:number
+EXPR: 0 | POS | INT | 22 | 21 | - | 0=(69/x) | 0 69 x / = | 0:number 69:number x:smallest /:number =:number
+EXPR: 0 | POS | INT | 22 | 21 | 69 | (x-69)=0 | x 69 - 0 = | x:person 69:person -:person 0:person =:person
+EXPR: 0 | POS | INT | 22 | 21 | 0 | 0=(x*69) | 0 x 69 * = | 0:person x:person 69:number *:person =:person
+EXPR: 0 | POS | INT | 22 | 21 | 0 | 0=(x/69) | 0 x 69 / = | 0:person x:person 69:number /:person =:person
+EXPR: 0 | POS | INT | 22 | 21 | - | (x*0)=69 | x 0 * 69 = | x:smallest 0:person *:person 69:person =:person
+EXPR: 0 | POS | INT | 22 | 21 | 69 | (69-x)=0 | 69 x - 0 = | 69:smallest x:smallest -:smallest 0:smallest =:smallest
+EXPR: 0 | POS | INT | 22 | 21 | - | (0/x)=69 | 0 x / 69 = | 0:number x:smallest /:number 69:number =:number
+EXPR: 0 | POS | INT | 32 | 21 | 69 | 0=(x-69) | 0 x 69 - = | 0:person x:person 69:person -:person =:person
+EXPR: 0 | POS | INT | 32 | 21 | 69 | 0=(69-x) | 0 69 x - = | 0:person 69:person x:person -:person =:person
+NET 22 unique, non-negative, integer-valued solutions found out of 228 total solutions

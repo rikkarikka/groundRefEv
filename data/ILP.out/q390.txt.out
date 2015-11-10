@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 168 | 168 | x=(21*8) | x 21 8 * = | x:slice 21:pizza 8:slice *:slice =:slice
+EXPR: 1 | POS | INT | 0 | 168 | 168 | (21*8)=x | 21 8 * x = | 21:pizza 8:slice *:slice x:slice =:slice
+EXPR: 1 | POS | INT | 2 | 168 | 168 | (x/21)=8 | x 21 / 8 = | x:slice 21:pizza /:slice 8:slice =:slice
+EXPR: 0 | POS | INT | 10 | 168 | 29 | x=(21+8) | x 21 8 + = | x:slice 21:slice 8:slice +:slice =:slice
+EXPR: 0 | POS | INT | 10 | 168 | 29 | (21+8)=x | 21 8 + x = | 21:slice 8:slice +:slice x:slice =:slice
+EXPR: 0 | POS | INT | 10 | 168 | 13 | (21-8)=x | 21 8 - x = | 21:slice 8:slice -:slice x:slice =:slice
+EXPR: 0 | POS | INT | 10 | 168 | 13 | x=(21-8) | x 21 8 - = | x:slice 21:slice 8:slice -:slice =:slice
+EXPR: 0 | POS | INT | 12 | 168 | 13 | (21-x)=8 | 21 x - 8 = | 21:slice x:slice -:slice 8:slice =:slice
+EXPR: 0 | POS | INT | 12 | 168 | 13 | 21=(8+x) | 21 8 x + = | 21:slice 8:slice x:slice +:slice =:slice
+EXPR: 1 | POS | INT | 12 | 168 | 168 | 8=(x/21) | 8 x 21 / = | 8:slice x:slice 21:pizza /:slice =:slice
+EXPR: 0 | POS | INT | 12 | 168 | 29 | (x-21)=8 | x 21 - 8 = | x:slice 21:slice -:slice 8:slice =:slice
+EXPR: 0 | POS | INT | 12 | 168 | 13 | 21=(x+8) | 21 x 8 + = | 21:slice x:slice 8:slice +:slice =:slice
+EXPR: 0 | POS | INT | 12 | 168 | 29 | 21=(x-8) | 21 x 8 - = | 21:slice x:slice 8:slice -:slice =:slice
+EXPR: 1 | POS | INT | 12 | 168 | 168 | 21=(x/8) | 21 x 8 / = | 21:pizza x:pizza 8:slice /:pizza =:pizza
+EXPR: 1 | POS | INT | 22 | 168 | 168 | (x/8)=21 | x 8 / 21 = | x:pizza 8:slice /:pizza 21:pizza =:pizza
+EXPR: 0 | POS | INT | 22 | 168 | 13 | 8=(21-x) | 8 21 x - = | 8:slice 21:slice x:slice -:slice =:slice
+EXPR: 0 | POS | INT | 22 | 168 | 13 | (x+8)=21 | x 8 + 21 = | x:slice 8:slice +:slice 21:slice =:slice
+EXPR: 0 | POS | INT | 22 | 168 | 29 | (x-8)=21 | x 8 - 21 = | x:slice 8:slice -:slice 21:slice =:slice
+EXPR: 0 | POS | INT | 22 | 168 | 13 | (8+x)=21 | 8 x + 21 = | 8:slice x:slice +:slice 21:slice =:slice
+EXPR: 0 | POS | INT | 22 | 168 | 29 | 8=(x-21) | 8 x 21 - = | 8:slice x:slice 21:slice -:slice =:slice
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

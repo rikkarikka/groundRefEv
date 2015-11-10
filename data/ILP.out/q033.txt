@@ -1,0 +1,7 @@
+constants : 7 3 2
+unknowns : x
+operators : + - * / =
+objtypes : tree dogwood
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 12.0

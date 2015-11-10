@@ -1,0 +1,7 @@
+constants : 5 35
+unknowns : x
+operators : + - * / =
+objtypes : cookie
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 7

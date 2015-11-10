@@ -1,0 +1,7 @@
+constants : 48 4
+unknowns : x
+operators : + - * / =
+objtypes : doughnut box
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 12

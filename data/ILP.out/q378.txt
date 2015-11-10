@@ -1,0 +1,7 @@
+constants : 5.91 8.11
+unknowns : x
+operators : + - * / =
+objtypes : ton
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 14.02

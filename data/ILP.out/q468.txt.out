@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 372 | 372 | x=(124*3) | x 124 3 * = | x:star 124:student 3:star *:star =:star
+EXPR: 1 | POS | INT | 0 | 372 | 372 | (124*3)=x | 124 3 * x = | 124:student 3:star *:star x:star =:star
+EXPR: 1 | POS | INT | 2 | 372 | 372 | (x/124)=3 | x 124 / 3 = | x:star 124:student /:star 3:star =:star
+EXPR: 0 | POS | INT | 10 | 372 | 127 | x=(124+3) | x 124 3 + = | x:star 124:star 3:star +:star =:star
+EXPR: 0 | POS | INT | 10 | 372 | 127 | (124+3)=x | 124 3 + x = | 124:star 3:star +:star x:star =:star
+EXPR: 0 | POS | INT | 10 | 372 | 121 | (124-3)=x | 124 3 - x = | 124:star 3:star -:star x:star =:star
+EXPR: 0 | POS | INT | 10 | 372 | 121 | x=(124-3) | x 124 3 - = | x:star 124:star 3:star -:star =:star
+EXPR: 0 | POS | INT | 12 | 372 | 121 | (124-x)=3 | 124 x - 3 = | 124:star x:star -:star 3:star =:star
+EXPR: 0 | POS | INT | 12 | 372 | 121 | 124=(3+x) | 124 3 x + = | 124:star 3:star x:star +:star =:star
+EXPR: 1 | POS | INT | 12 | 372 | 372 | 3=(x/124) | 3 x 124 / = | 3:star x:star 124:student /:star =:star
+EXPR: 0 | POS | INT | 12 | 372 | 127 | (x-124)=3 | x 124 - 3 = | x:star 124:star -:star 3:star =:star
+EXPR: 0 | POS | INT | 12 | 372 | 121 | 124=(x+3) | 124 x 3 + = | 124:star x:star 3:star +:star =:star
+EXPR: 0 | POS | INT | 12 | 372 | 127 | 124=(x-3) | 124 x 3 - = | 124:star x:star 3:star -:star =:star
+EXPR: 1 | POS | INT | 12 | 372 | 372 | 124=(x/3) | 124 x 3 / = | 124:student x:student 3:star /:student =:student
+EXPR: 1 | POS | INT | 22 | 372 | 372 | (x/3)=124 | x 3 / 124 = | x:student 3:star /:student 124:student =:student
+EXPR: 0 | POS | INT | 22 | 372 | 121 | 3=(124-x) | 3 124 x - = | 3:star 124:star x:star -:star =:star
+EXPR: 0 | POS | INT | 22 | 372 | 121 | (x+3)=124 | x 3 + 124 = | x:star 3:star +:star 124:star =:star
+EXPR: 0 | POS | INT | 22 | 372 | 127 | (x-3)=124 | x 3 - 124 = | x:star 3:star -:star 124:star =:star
+EXPR: 0 | POS | INT | 22 | 372 | 121 | (3+x)=124 | 3 x + 124 = | 3:star x:star +:star 124:star =:star
+EXPR: 0 | POS | INT | 22 | 372 | 127 | 3=(x-124) | 3 x 124 - = | 3:star x:star 124:star -:star =:star
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

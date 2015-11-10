@@ -1,0 +1,7 @@
+constants : 5 250
+unknowns : x
+operators : + - * / =
+objtypes : vacation mile
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 1250

@@ -1,0 +1,7 @@
+constants : 46 4 12
+unknowns : x
+operators : + - * / =
+objtypes : child dozen pencil
+constantOrUnknownType : 0 1 2 2
+n : 7
+answer : 2208.0

@@ -1,0 +1,7 @@
+constants : 0.41 0.33
+unknowns : x
+operators : + - * / =
+objtypes : meter LENGTH
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 0.08

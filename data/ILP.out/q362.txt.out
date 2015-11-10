@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 2.75 | 2.75 | (8.75-6)=x | 8.75 6 - x = | 8.75:bucket 6:bucket -:bucket x:bucket =:bucket
+EXPR: 0 | POS | FRA | 0 | 2.75 | 14.75 | x=(8.75+6) | x 8.75 6 + = | x:bucket 8.75:bucket 6:bucket +:bucket =:bucket
+EXPR: 1 | POS | FRA | 0 | 2.75 | 2.75 | x=(8.75-6) | x 8.75 6 - = | x:bucket 8.75:bucket 6:bucket -:bucket =:bucket
+EXPR: 0 | POS | FRA | 0 | 2.75 | 14.75 | (8.75+6)=x | 8.75 6 + x = | 8.75:bucket 6:bucket +:bucket x:bucket =:bucket
+EXPR: 1 | POS | FRA | 2 | 2.75 | 2.75 | 8.75=(6+x) | 8.75 6 x + = | 8.75:bucket 6:bucket x:bucket +:bucket =:bucket
+EXPR: 0 | POS | FRA | 2 | 2.75 | 14.75 | (x-8.75)=6 | x 8.75 - 6 = | x:bucket 8.75:bucket -:bucket 6:bucket =:bucket
+EXPR: 1 | POS | FRA | 2 | 2.75 | 2.75 | 8.75=(x+6) | 8.75 x 6 + = | 8.75:bucket x:bucket 6:bucket +:bucket =:bucket
+EXPR: 1 | POS | FRA | 2 | 2.75 | 2.75 | (8.75-x)=6 | 8.75 x - 6 = | 8.75:bucket x:bucket -:bucket 6:bucket =:bucket
+EXPR: 0 | POS | FRA | 2 | 2.75 | 14.75 | 8.75=(x-6) | 8.75 x 6 - = | 8.75:bucket x:bucket 6:bucket -:bucket =:bucket
+EXPR: 1 | POS | FRA | 12 | 2.75 | 2.75 | (x+6)=8.75 | x 6 + 8.75 = | x:bucket 6:bucket +:bucket 8.75:bucket =:bucket
+EXPR: 0 | POS | FRA | 12 | 2.75 | 14.75 | (x-6)=8.75 | x 6 - 8.75 = | x:bucket 6:bucket -:bucket 8.75:bucket =:bucket
+EXPR: 1 | POS | FRA | 12 | 2.75 | 2.75 | (6+x)=8.75 | 6 x + 8.75 = | 6:bucket x:bucket +:bucket 8.75:bucket =:bucket
+EXPR: 0 | POS | FRA | 12 | 2.75 | 14.75 | 6=(x-8.75) | 6 x 8.75 - = | 6:bucket x:bucket 8.75:bucket -:bucket =:bucket
+EXPR: 1 | POS | FRA | 12 | 2.75 | 2.75 | 6=(8.75-x) | 6 8.75 x - = | 6:bucket 8.75:bucket x:bucket -:bucket =:bucket
+NET 14 unique, non-negative solutions found out of 28 total solutions

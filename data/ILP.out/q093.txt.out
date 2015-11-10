@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 469 | 469 | (616-147)=x | 616 147 - x = | 616:game 147:game -:game x:game =:game
+EXPR: 0 | POS | INT | 0 | 469 | 763 | x=(616+147) | x 616 147 + = | x:game 616:game 147:game +:game =:game
+EXPR: 1 | POS | INT | 0 | 469 | 469 | x=(616-147) | x 616 147 - = | x:game 616:game 147:game -:game =:game
+EXPR: 0 | POS | INT | 0 | 469 | 763 | (616+147)=x | 616 147 + x = | 616:game 147:game +:game x:game =:game
+EXPR: 1 | POS | INT | 2 | 469 | 469 | 616=(147+x) | 616 147 x + = | 616:game 147:game x:game +:game =:game
+EXPR: 0 | POS | INT | 2 | 469 | 763 | (x-616)=147 | x 616 - 147 = | x:game 616:game -:game 147:game =:game
+EXPR: 1 | POS | INT | 2 | 469 | 469 | 616=(x+147) | 616 x 147 + = | 616:game x:game 147:game +:game =:game
+EXPR: 1 | POS | INT | 2 | 469 | 469 | (616-x)=147 | 616 x - 147 = | 616:game x:game -:game 147:game =:game
+EXPR: 0 | POS | INT | 2 | 469 | 763 | 616=(x-147) | 616 x 147 - = | 616:game x:game 147:game -:game =:game
+EXPR: 1 | POS | INT | 12 | 469 | 469 | (x+147)=616 | x 147 + 616 = | x:game 147:game +:game 616:game =:game
+EXPR: 0 | POS | INT | 12 | 469 | 763 | (x-147)=616 | x 147 - 616 = | x:game 147:game -:game 616:game =:game
+EXPR: 1 | POS | INT | 12 | 469 | 469 | (147+x)=616 | 147 x + 616 = | 147:game x:game +:game 616:game =:game
+EXPR: 0 | POS | INT | 12 | 469 | 763 | 147=(x-616) | 147 x 616 - = | 147:game x:game 616:game -:game =:game
+EXPR: 1 | POS | INT | 12 | 469 | 469 | 147=(616-x) | 147 616 x - = | 147:game 616:game x:game -:game =:game
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

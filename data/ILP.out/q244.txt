@@ -1,0 +1,7 @@
+constants : 64,535 522
+unknowns : x
+operators : + - * / =
+objtypes : acre
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 65057.0

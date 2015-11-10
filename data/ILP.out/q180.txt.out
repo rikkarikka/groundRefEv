@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 10 | 10 | x=(5*2) | x 5 2 * = | x:trout 5:trout 2:Sara *:trout =:trout
+EXPR: 1 | POS | INT | 0 | 10 | 10 | (5*2)=x | 5 2 * x = | 5:trout 2:Sara *:trout x:trout =:trout
+EXPR: 1 | POS | INT | 2 | 10 | 10 | 5=(x/2) | 5 x 2 / = | 5:trout x:trout 2:Sara /:trout =:trout
+EXPR: 0 | POS | INT | 10 | 10 | 3 | (5-2)=x | 5 2 - x = | 5:trout 2:trout -:trout x:trout =:trout
+EXPR: 0 | POS | INT | 10 | 10 | 7 | x=(5+2) | x 5 2 + = | x:trout 5:trout 2:trout +:trout =:trout
+EXPR: 0 | POS | INT | 10 | 10 | 3 | x=(5-2) | x 5 2 - = | x:trout 5:trout 2:trout -:trout =:trout
+EXPR: 0 | POS | INT | 10 | 10 | 7 | (5+2)=x | 5 2 + x = | 5:trout 2:trout +:trout x:trout =:trout
+EXPR: 0 | POS | INT | 12 | 10 | 3 | 5=(x+2) | 5 x 2 + = | 5:trout x:trout 2:trout +:trout =:trout
+EXPR: 0 | POS | INT | 12 | 10 | 7 | 5=(x-2) | 5 x 2 - = | 5:trout x:trout 2:trout -:trout =:trout
+EXPR: 0 | POS | INT | 12 | 10 | 3 | 5=(2+x) | 5 2 x + = | 5:trout 2:trout x:trout +:trout =:trout
+EXPR: 0 | POS | INT | 12 | 10 | 7 | (x-5)=2 | x 5 - 2 = | x:trout 5:trout -:trout 2:trout =:trout
+EXPR: 0 | POS | INT | 12 | 10 | 3 | (5-x)=2 | 5 x - 2 = | 5:trout x:trout -:trout 2:trout =:trout
+EXPR: 1 | POS | INT | 12 | 10 | 10 | (x/5)=2 | x 5 / 2 = | x:Sara 5:trout /:Sara 2:Sara =:Sara
+EXPR: 1 | POS | INT | 12 | 10 | 10 | (x/2)=5 | x 2 / 5 = | x:trout 2:Sara /:trout 5:trout =:trout
+EXPR: 0 | POS | INT | 22 | 10 | 3 | (x+2)=5 | x 2 + 5 = | x:trout 2:trout +:trout 5:trout =:trout
+EXPR: 0 | POS | INT | 22 | 10 | 3 | (2+x)=5 | 2 x + 5 = | 2:trout x:trout +:trout 5:trout =:trout
+EXPR: 0 | POS | INT | 22 | 10 | 7 | 2=(x-5) | 2 x 5 - = | 2:trout x:trout 5:trout -:trout =:trout
+EXPR: 1 | POS | INT | 22 | 10 | 10 | 2=(x/5) | 2 x 5 / = | 2:Sara x:Sara 5:trout /:Sara =:Sara
+EXPR: 0 | POS | INT | 22 | 10 | 3 | 2=(5-x) | 2 5 x - = | 2:trout 5:trout x:trout -:trout =:trout
+EXPR: 0 | POS | INT | 22 | 10 | 7 | (x-2)=5 | x 2 - 5 = | x:trout 2:trout -:trout 5:trout =:trout
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

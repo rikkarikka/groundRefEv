@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 5 | 5 | (9-4)=x | 9 4 - x = | 9:lime 4:lime -:lime x:lime =:lime
+EXPR: 0 | POS | INT | 0 | 5 | 13 | x=(9+4) | x 9 4 + = | x:lime 9:lime 4:lime +:lime =:lime
+EXPR: 1 | POS | INT | 0 | 5 | 5 | x=(9-4) | x 9 4 - = | x:lime 9:lime 4:lime -:lime =:lime
+EXPR: 0 | POS | INT | 0 | 5 | 13 | (9+4)=x | 9 4 + x = | 9:lime 4:lime +:lime x:lime =:lime
+EXPR: 1 | POS | INT | 2 | 5 | 5 | 9=(4+x) | 9 4 x + = | 9:lime 4:lime x:lime +:lime =:lime
+EXPR: 0 | POS | INT | 2 | 5 | 13 | (x-9)=4 | x 9 - 4 = | x:lime 9:lime -:lime 4:lime =:lime
+EXPR: 1 | POS | INT | 2 | 5 | 5 | 9=(x+4) | 9 x 4 + = | 9:lime x:lime 4:lime +:lime =:lime
+EXPR: 1 | POS | INT | 2 | 5 | 5 | (9-x)=4 | 9 x - 4 = | 9:lime x:lime -:lime 4:lime =:lime
+EXPR: 0 | POS | INT | 2 | 5 | 13 | 9=(x-4) | 9 x 4 - = | 9:lime x:lime 4:lime -:lime =:lime
+EXPR: 1 | POS | INT | 12 | 5 | 5 | (x+4)=9 | x 4 + 9 = | x:lime 4:lime +:lime 9:lime =:lime
+EXPR: 0 | POS | INT | 12 | 5 | 13 | (x-4)=9 | x 4 - 9 = | x:lime 4:lime -:lime 9:lime =:lime
+EXPR: 1 | POS | INT | 12 | 5 | 5 | (4+x)=9 | 4 x + 9 = | 4:lime x:lime +:lime 9:lime =:lime
+EXPR: 0 | POS | INT | 12 | 5 | 13 | 4=(x-9) | 4 x 9 - = | 4:lime x:lime 9:lime -:lime =:lime
+EXPR: 1 | POS | INT | 12 | 5 | 5 | 4=(9-x) | 4 9 x - = | 4:lime 9:lime x:lime -:lime =:lime
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

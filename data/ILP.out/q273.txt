@@ -1,0 +1,7 @@
+constants : 24 14 3 2
+unknowns : x
+operators : + - * / =
+objtypes : bicycle tricycle wheel
+constantOrUnknownType : 0 1 2 2 2
+n : 9
+answer : 90.0

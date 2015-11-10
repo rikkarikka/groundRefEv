@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 218 | 399000 | x=(532*750) | x 532 750 * = | x:seat 532:people 750:seat *:seat =:seat
+EXPR: 0 | POS | INT | 0 | 218 | 399000 | (532*750)=x | 532 750 * x = | 532:people 750:seat *:seat x:seat =:seat
+EXPR: 0 | POS | INT | 2 | 218 | 399000 | (x/532)=750 | x 532 / 750 = | x:seat 532:people /:seat 750:seat =:seat
+EXPR: 0 | POS | INT | 10 | 218 | 1282 | x=(532+750) | x 532 750 + = | x:seat 532:seat 750:seat +:seat =:seat
+EXPR: 0 | POS | INT | 10 | 218 | 1282 | (532+750)=x | 532 750 + x = | 532:seat 750:seat +:seat x:seat =:seat
+EXPR: 1 | POS | INT | 12 | 218 | 218 | 532=(750-x) | 532 750 x - = | 532:seat 750:seat x:seat -:seat =:seat
+EXPR: 0 | POS | INT | 12 | 218 | 399000 | 750=(x/532) | 750 x 532 / = | 750:seat x:seat 532:people /:seat =:seat
+EXPR: 1 | POS | INT | 12 | 218 | 218 | (x+532)=750 | x 532 + 750 = | x:seat 532:seat +:seat 750:seat =:seat
+EXPR: 0 | POS | INT | 12 | 218 | 1282 | (x-532)=750 | x 532 - 750 = | x:seat 532:seat -:seat 750:seat =:seat
+EXPR: 1 | POS | INT | 12 | 218 | 218 | (532+x)=750 | 532 x + 750 = | 532:seat x:seat +:seat 750:seat =:seat
+EXPR: 0 | POS | INT | 12 | 218 | 1282 | 532=(x-750) | 532 x 750 - = | 532:seat x:seat 750:seat -:seat =:seat
+EXPR: 0 | POS | INT | 12 | 218 | 399000 | 532=(x/750) | 532 x 750 / = | 532:people x:people 750:seat /:people =:people
+EXPR: 1 | POS | INT | 20 | 218 | 218 | x=(750-532) | x 750 532 - = | x:seat 750:seat 532:seat -:seat =:seat
+EXPR: 1 | POS | INT | 20 | 218 | 218 | (750-532)=x | 750 532 - x = | 750:seat 532:seat -:seat x:seat =:seat
+EXPR: 1 | POS | INT | 22 | 218 | 218 | (750-x)=532 | 750 x - 532 = | 750:seat x:seat -:seat 532:seat =:seat
+EXPR: 0 | POS | INT | 22 | 218 | 399000 | (x/750)=532 | x 750 / 532 = | x:people 750:seat /:people 532:people =:people
+EXPR: 1 | POS | INT | 22 | 218 | 218 | 750=(532+x) | 750 532 x + = | 750:seat 532:seat x:seat +:seat =:seat
+EXPR: 0 | POS | INT | 22 | 218 | 1282 | (x-750)=532 | x 750 - 532 = | x:seat 750:seat -:seat 532:seat =:seat
+EXPR: 1 | POS | INT | 22 | 218 | 218 | 750=(x+532) | 750 x 532 + = | 750:seat x:seat 532:seat +:seat =:seat
+EXPR: 0 | POS | INT | 22 | 218 | 1282 | 750=(x-532) | 750 x 532 - = | 750:seat x:seat 532:seat -:seat =:seat
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

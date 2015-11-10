@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 9844 | 2874 | (6359-3485)=x | 6359 3485 - x = | 6359:yen 3485:yen -:yen x:yen =:yen
+EXPR: 1 | POS | INT | 0 | 9844 | 9844 | x=(6359+3485) | x 6359 3485 + = | x:yen 6359:yen 3485:yen +:yen =:yen
+EXPR: 0 | POS | INT | 0 | 9844 | 2874 | x=(6359-3485) | x 6359 3485 - = | x:yen 6359:yen 3485:yen -:yen =:yen
+EXPR: 1 | POS | INT | 0 | 9844 | 9844 | (6359+3485)=x | 6359 3485 + x = | 6359:yen 3485:yen +:yen x:yen =:yen
+EXPR: 0 | POS | INT | 2 | 9844 | 2874 | 6359=(3485+x) | 6359 3485 x + = | 6359:yen 3485:yen x:yen +:yen =:yen
+EXPR: 1 | POS | INT | 2 | 9844 | 9844 | (x-6359)=3485 | x 6359 - 3485 = | x:yen 6359:yen -:yen 3485:yen =:yen
+EXPR: 0 | POS | INT | 2 | 9844 | 2874 | 6359=(x+3485) | 6359 x 3485 + = | 6359:yen x:yen 3485:yen +:yen =:yen
+EXPR: 0 | POS | INT | 2 | 9844 | 2874 | (6359-x)=3485 | 6359 x - 3485 = | 6359:yen x:yen -:yen 3485:yen =:yen
+EXPR: 1 | POS | INT | 2 | 9844 | 9844 | 6359=(x-3485) | 6359 x 3485 - = | 6359:yen x:yen 3485:yen -:yen =:yen
+EXPR: 0 | POS | INT | 12 | 9844 | 2874 | (x+3485)=6359 | x 3485 + 6359 = | x:yen 3485:yen +:yen 6359:yen =:yen
+EXPR: 1 | POS | INT | 12 | 9844 | 9844 | (x-3485)=6359 | x 3485 - 6359 = | x:yen 3485:yen -:yen 6359:yen =:yen
+EXPR: 0 | POS | INT | 12 | 9844 | 2874 | (3485+x)=6359 | 3485 x + 6359 = | 3485:yen x:yen +:yen 6359:yen =:yen
+EXPR: 1 | POS | INT | 12 | 9844 | 9844 | 3485=(x-6359) | 3485 x 6359 - = | 3485:yen x:yen 6359:yen -:yen =:yen
+EXPR: 0 | POS | INT | 12 | 9844 | 2874 | 3485=(6359-x) | 3485 6359 x - = | 3485:yen 6359:yen x:yen -:yen =:yen
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

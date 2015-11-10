@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 504 | 504 | x=(56*9) | x 56 9 * = | x:book 56:book 9:bookshelf *:book =:book
+EXPR: 1 | POS | INT | 0 | 504 | 504 | (56*9)=x | 56 9 * x = | 56:book 9:bookshelf *:book x:book =:book
+EXPR: 1 | POS | INT | 2 | 504 | 504 | 56=(x/9) | 56 x 9 / = | 56:book x:book 9:bookshelf /:book =:book
+EXPR: 0 | POS | INT | 10 | 504 | 47 | (56-9)=x | 56 9 - x = | 56:book 9:book -:book x:book =:book
+EXPR: 0 | POS | INT | 10 | 504 | 65 | x=(56+9) | x 56 9 + = | x:book 56:book 9:book +:book =:book
+EXPR: 0 | POS | INT | 10 | 504 | 47 | x=(56-9) | x 56 9 - = | x:book 56:book 9:book -:book =:book
+EXPR: 0 | POS | INT | 10 | 504 | 65 | (56+9)=x | 56 9 + x = | 56:book 9:book +:book x:book =:book
+EXPR: 0 | POS | INT | 12 | 504 | 47 | 56=(x+9) | 56 x 9 + = | 56:book x:book 9:book +:book =:book
+EXPR: 0 | POS | INT | 12 | 504 | 65 | 56=(x-9) | 56 x 9 - = | 56:book x:book 9:book -:book =:book
+EXPR: 0 | POS | INT | 12 | 504 | 47 | 56=(9+x) | 56 9 x + = | 56:book 9:book x:book +:book =:book
+EXPR: 0 | POS | INT | 12 | 504 | 65 | (x-56)=9 | x 56 - 9 = | x:book 56:book -:book 9:book =:book
+EXPR: 0 | POS | INT | 12 | 504 | 47 | (56-x)=9 | 56 x - 9 = | 56:book x:book -:book 9:book =:book
+EXPR: 1 | POS | INT | 12 | 504 | 504 | (x/56)=9 | x 56 / 9 = | x:bookshelf 56:book /:bookshelf 9:bookshelf =:bookshelf
+EXPR: 1 | POS | INT | 12 | 504 | 504 | (x/9)=56 | x 9 / 56 = | x:book 9:bookshelf /:book 56:book =:book
+EXPR: 0 | POS | INT | 22 | 504 | 47 | (x+9)=56 | x 9 + 56 = | x:book 9:book +:book 56:book =:book
+EXPR: 0 | POS | INT | 22 | 504 | 47 | (9+x)=56 | 9 x + 56 = | 9:book x:book +:book 56:book =:book
+EXPR: 0 | POS | INT | 22 | 504 | 65 | 9=(x-56) | 9 x 56 - = | 9:book x:book 56:book -:book =:book
+EXPR: 1 | POS | INT | 22 | 504 | 504 | 9=(x/56) | 9 x 56 / = | 9:bookshelf x:bookshelf 56:book /:bookshelf =:bookshelf
+EXPR: 0 | POS | INT | 22 | 504 | 47 | 9=(56-x) | 9 56 x - = | 9:book 56:book x:book -:book =:book
+EXPR: 0 | POS | INT | 22 | 504 | 65 | (x-9)=56 | x 9 - 56 = | x:book 9:book -:book 56:book =:book
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

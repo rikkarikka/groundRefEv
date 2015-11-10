@@ -1,0 +1,7 @@
+constants : 8 1785.0
+unknowns : x
+operators : + - * / =
+objtypes : stone money
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 14280

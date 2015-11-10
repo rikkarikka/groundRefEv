@@ -1,0 +1,6 @@
+parameters: n=3 l=1 k=1 p=5 q=1 m=7
+TOTAL 4 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 9 | 9 | x=9.0 | x 9.0 = | x:dime 9.0:dime =:dime
+EXPR: 1 | POS | INT | 0 | 9 | 9 | 9.0=x | 9.0 x = | 9.0:dime x:dime =:dime
+NET 2 unique, non-negative, integer-valued solutions found out of 4 total solutions

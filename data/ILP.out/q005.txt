@@ -1,0 +1,7 @@
+constants : 22 55
+unknowns : x
+operators : + - * / =
+objtypes : tree
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 33.0

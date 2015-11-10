@@ -1,0 +1,7 @@
+constants : 23 45
+unknowns : x
+operators : + - * / =
+objtypes : pound bag
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 1035

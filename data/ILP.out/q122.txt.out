@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 3 | 108 | x=(9*12) | x 9 12 * = | x:dozen 9:dozen 12:quarter *:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 3 | 108 | (9*12)=x | 9 12 * x = | 9:dollar 12:dozen *:dozen x:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 3 | 108 | 9=(x/12) | 9 x 12 / = | 9:dollar x:dollar 12:quarter /:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 3 | 108 | (x/9)=12 | x 9 / 12 = | x:dozen 9:dollar /:dozen 12:dozen =:dozen
+EXPR: 0 | POS | INT | 20 | 3 | 21 | x=(9+12) | x 9 12 + = | x:quarter 9:quarter 12:quarter +:quarter =:quarter
+EXPR: 0 | POS | INT | 20 | 3 | 21 | (9+12)=x | 9 12 + x = | 9:dollar 12:dollar +:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 22 | 3 | 3 | 9=(12-x) | 9 12 x - = | 9:dozen 12:dozen x:dozen -:dozen =:dozen
+EXPR: 1 | POS | INT | 22 | 3 | 3 | (9+x)=12 | 9 x + 12 = | 9:dollar x:dollar +:dollar 12:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 3 | 21 | 9=(x-12) | 9 x 12 - = | 9:dozen x:dozen 12:dozen -:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 3 | 108 | (x/12)=9 | x 12 / 9 = | x:dozen 12:quarter /:dozen 9:dozen =:dozen
+EXPR: 1 | POS | INT | 22 | 3 | 3 | (x+9)=12 | x 9 + 12 = | x:quarter 9:quarter +:quarter 12:quarter =:quarter
+EXPR: 0 | POS | INT | 22 | 3 | 21 | (x-9)=12 | x 9 - 12 = | x:quarter 9:quarter -:quarter 12:quarter =:quarter
+EXPR: 0 | POS | INT | 22 | 3 | 108 | 12=(x/9) | 12 x 9 / = | 12:quarter x:quarter 9:dollar /:quarter =:quarter
+EXPR: 1 | POS | INT | 30 | 3 | 3 | (12-9)=x | 12 9 - x = | 12:dollar 9:dollar -:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 30 | 3 | 3 | x=(12-9) | x 12 9 - = | x:dozen 12:dozen 9:dozen -:dozen =:dozen
+EXPR: 1 | POS | INT | 32 | 3 | 3 | 12=(x+9) | 12 x 9 + = | 12:dollar x:dollar 9:dollar +:dollar =:dollar
+EXPR: 1 | POS | INT | 32 | 3 | 3 | 12=(9+x) | 12 9 x + = | 12:quarter 9:quarter x:quarter +:quarter =:quarter
+EXPR: 0 | POS | INT | 32 | 3 | 21 | 12=(x-9) | 12 x 9 - = | 12:dozen x:dozen 9:dozen -:dozen =:dozen
+EXPR: 0 | POS | INT | 32 | 3 | 21 | (x-12)=9 | x 12 - 9 = | x:dozen 12:dozen -:dozen 9:dozen =:dozen
+EXPR: 1 | POS | INT | 32 | 3 | 3 | (12-x)=9 | 12 x - 9 = | 12:dollar x:dollar -:dollar 9:dollar =:dollar
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

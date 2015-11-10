@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 8 | 72 | x=(24*3) | x 24 3 * = | x:person 24:crayon 3:person *:person =:person
+EXPR: 0 | POS | INT | 0 | 8 | 72 | (24*3)=x | 24 3 * x = | 24:crayon 3:person *:person x:person =:person
+EXPR: 0 | POS | INT | 2 | 8 | 72 | (x/24)=3 | x 24 / 3 = | x:person 24:crayon /:person 3:person =:person
+EXPR: 1 | POS | INT | 10 | 8 | 8 | (24/3)=x | 24 3 / x = | 24:crayon 3:person /:crayon x:crayon =:crayon
+EXPR: 0 | POS | INT | 10 | 8 | 27 | x=(24+3) | x 24 3 + = | x:person 24:person 3:person +:person =:person
+EXPR: 0 | POS | INT | 10 | 8 | 27 | (24+3)=x | 24 3 + x = | 24:person 3:person +:person x:person =:person
+EXPR: 1 | POS | INT | 10 | 8 | 8 | x=(24/3) | x 24 3 / = | x:crayon 24:crayon 3:person /:crayon =:crayon
+EXPR: 0 | POS | INT | 10 | 8 | 21 | (24-3)=x | 24 3 - x = | 24:person 3:person -:person x:person =:person
+EXPR: 0 | POS | INT | 10 | 8 | 21 | x=(24-3) | x 24 3 - = | x:person 24:person 3:person -:person =:person
+EXPR: 1 | POS | INT | 12 | 8 | 8 | 24=(x*3) | 24 x 3 * = | 24:crayon x:person 3:crayon *:crayon =:crayon
+EXPR: 1 | POS | INT | 12 | 8 | 8 | 24=(3*x) | 24 3 x * = | 24:crayon 3:crayon x:person *:crayon =:crayon
+EXPR: 1 | POS | INT | 12 | 8 | 8 | (24/x)=3 | 24 x / 3 = | 24:crayon x:person /:crayon 3:crayon =:crayon
+EXPR: 0 | POS | INT | 12 | 8 | 21 | (24-x)=3 | 24 x - 3 = | 24:person x:person -:person 3:person =:person
+EXPR: 0 | POS | INT | 12 | 8 | 21 | 24=(3+x) | 24 3 x + = | 24:person 3:person x:person +:person =:person
+EXPR: 0 | POS | INT | 12 | 8 | 72 | 3=(x/24) | 3 x 24 / = | 3:person x:person 24:crayon /:person =:person
+EXPR: 0 | POS | INT | 12 | 8 | 27 | (x-24)=3 | x 24 - 3 = | x:person 24:person -:person 3:person =:person
+EXPR: 0 | POS | INT | 12 | 8 | 21 | 24=(x+3) | 24 x 3 + = | 24:person x:person 3:person +:person =:person
+EXPR: 0 | POS | INT | 12 | 8 | 27 | 24=(x-3) | 24 x 3 - = | 24:person x:person 3:person -:person =:person
+EXPR: 0 | POS | INT | 12 | 8 | 72 | 24=(x/3) | 24 x 3 / = | 24:crayon x:crayon 3:person /:crayon =:crayon
+EXPR: 0 | POS | INT | 22 | 8 | 72 | (x/3)=24 | x 3 / 24 = | x:crayon 3:person /:crayon 24:crayon =:crayon
+EXPR: 0 | POS | INT | 22 | 8 | 21 | 3=(24-x) | 3 24 x - = | 3:person 24:person x:person -:person =:person
+EXPR: 1 | POS | INT | 22 | 8 | 8 | (x*3)=24 | x 3 * 24 = | x:person 3:crayon *:crayon 24:crayon =:crayon
+EXPR: 0 | POS | INT | 22 | 8 | 21 | (x+3)=24 | x 3 + 24 = | x:person 3:person +:person 24:person =:person
+EXPR: 1 | POS | INT | 22 | 8 | 8 | 3=(24/x) | 3 24 x / = | 3:crayon 24:crayon x:person /:crayon =:crayon
+EXPR: 1 | POS | INT | 22 | 8 | 8 | (3*x)=24 | 3 x * 24 = | 3:person x:crayon *:crayon 24:crayon =:crayon
+EXPR: 0 | POS | INT | 22 | 8 | 27 | (x-3)=24 | x 3 - 24 = | x:person 3:person -:person 24:person =:person
+EXPR: 0 | POS | INT | 22 | 8 | 21 | (3+x)=24 | 3 x + 24 = | 3:person x:person +:person 24:person =:person
+EXPR: 0 | POS | INT | 22 | 8 | 27 | 3=(x-24) | 3 x 24 - = | 3:person x:person 24:person -:person =:person
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,7 @@
+constants : 13.0 9 10 3
+unknowns : x
+operators : + - * / =
+objtypes : money hour
+constantOrUnknownType : 0 1 1 1 0
+n : 9
+answer : 286.0

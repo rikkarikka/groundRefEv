@@ -1,0 +1,7 @@
+constants : 20 21
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 41.0

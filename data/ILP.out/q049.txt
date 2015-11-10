@@ -1,0 +1,7 @@
+constants : 46 47 12
+unknowns : x
+operators : + - * / =
+objtypes : pear
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 105.0

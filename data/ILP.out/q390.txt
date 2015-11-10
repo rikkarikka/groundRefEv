@@ -1,0 +1,7 @@
+constants : 21 8
+unknowns : x
+operators : + - * / =
+objtypes : pizza slice
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 168

@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 8243 | 15699672 | x=(5256*2987) | x 5256 2987 * = | x:people 5256:people 2987:child *:people =:people
+EXPR: 0 | POS | INT | 10 | 8243 | 15699672 | (5256*2987)=x | 5256 2987 * x = | 5256:grown-up 2987:child *:grown-up x:grown-up =:grown-up
+EXPR: 0 | POS | INT | 12 | 8243 | 15699672 | 5256=(x/2987) | 5256 x 2987 / = | 5256:people x:people 2987:child /:people =:people
+EXPR: 0 | POS | INT | 12 | 8243 | 15699672 | (x/5256)=2987 | x 5256 / 2987 = | x:people 5256:grown-up /:people 2987:people =:people
+EXPR: 1 | POS | INT | 20 | 8243 | 8243 | (5256+2987)=x | 5256 2987 + x = | 5256:grown-up 2987:grown-up +:grown-up x:grown-up =:grown-up
+EXPR: 1 | POS | INT | 20 | 8243 | 8243 | x=(5256+2987) | x 5256 2987 + = | x:child 5256:child 2987:child +:child =:child
+EXPR: 0 | POS | INT | 20 | 8243 | 2269 | (5256-2987)=x | 5256 2987 - x = | 5256:grown-up 2987:grown-up -:grown-up x:grown-up =:grown-up
+EXPR: 0 | POS | INT | 20 | 8243 | 2269 | x=(5256-2987) | x 5256 2987 - = | x:people 5256:people 2987:people -:people =:people
+EXPR: 1 | POS | INT | 22 | 8243 | 8243 | (x-5256)=2987 | x 5256 - 2987 = | x:child 5256:child -:child 2987:child =:child
+EXPR: 0 | POS | INT | 22 | 8243 | 15699672 | 2987=(x/5256) | 2987 x 5256 / = | 2987:people x:people 5256:grown-up /:people =:people
+EXPR: 0 | POS | INT | 22 | 8243 | 2269 | 5256=(2987+x) | 5256 2987 x + = | 5256:child 2987:child x:child +:child =:child
+EXPR: 0 | POS | INT | 22 | 8243 | 2269 | (5256-x)=2987 | 5256 x - 2987 = | 5256:people x:people -:people 2987:people =:people
+EXPR: 0 | POS | INT | 22 | 8243 | 2269 | 5256=(x+2987) | 5256 x 2987 + = | 5256:people x:people 2987:people +:people =:people
+EXPR: 1 | POS | INT | 22 | 8243 | 8243 | 5256=(x-2987) | 5256 x 2987 - = | 5256:people x:people 2987:people -:people =:people
+EXPR: 0 | POS | INT | 22 | 8243 | 15699672 | (x/2987)=5256 | x 2987 / 5256 = | x:people 2987:child /:people 5256:people =:people
+EXPR: 1 | POS | INT | 32 | 8243 | 8243 | (x-2987)=5256 | x 2987 - 5256 = | x:child 2987:child -:child 5256:child =:child
+EXPR: 0 | POS | INT | 32 | 8243 | 2269 | (2987+x)=5256 | 2987 x + 5256 = | 2987:child x:child +:child 5256:child =:child
+EXPR: 0 | POS | INT | 32 | 8243 | 2269 | (x+2987)=5256 | x 2987 + 5256 = | x:grown-up 2987:grown-up +:grown-up 5256:grown-up =:grown-up
+EXPR: 0 | POS | INT | 32 | 8243 | 2269 | 2987=(5256-x) | 2987 5256 x - = | 2987:child 5256:child x:child -:child =:child
+EXPR: 1 | POS | INT | 32 | 8243 | 8243 | 2987=(x-5256) | 2987 x 5256 - = | 2987:child x:child 5256:child -:child =:child
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

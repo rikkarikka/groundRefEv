@@ -1,0 +1,7 @@
+constants : 18 47
+unknowns : x
+operators : + - * / =
+objtypes : seashell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 65.0

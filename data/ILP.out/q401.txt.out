@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 140 | 140 | x=(5*28) | x 5 28 * = | x:clown 5:mobile 28:clown *:clown =:clown
+EXPR: 1 | POS | INT | 0 | 140 | 140 | (5*28)=x | 5 28 * x = | 5:mobile 28:clown *:clown x:clown =:clown
+EXPR: 1 | POS | INT | 2 | 140 | 140 | (x/5)=28 | x 5 / 28 = | x:clown 5:mobile /:clown 28:clown =:clown
+EXPR: 0 | POS | INT | 10 | 140 | 33 | x=(5+28) | x 5 28 + = | x:clown 5:clown 28:clown +:clown =:clown
+EXPR: 0 | POS | INT | 10 | 140 | 33 | (5+28)=x | 5 28 + x = | 5:clown 28:clown +:clown x:clown =:clown
+EXPR: 0 | POS | INT | 12 | 140 | 23 | 5=(28-x) | 5 28 x - = | 5:clown 28:clown x:clown -:clown =:clown
+EXPR: 1 | POS | INT | 12 | 140 | 140 | 28=(x/5) | 28 x 5 / = | 28:clown x:clown 5:mobile /:clown =:clown
+EXPR: 0 | POS | INT | 12 | 140 | 23 | (x+5)=28 | x 5 + 28 = | x:clown 5:clown +:clown 28:clown =:clown
+EXPR: 0 | POS | INT | 12 | 140 | 33 | (x-5)=28 | x 5 - 28 = | x:clown 5:clown -:clown 28:clown =:clown
+EXPR: 0 | POS | INT | 12 | 140 | 23 | (5+x)=28 | 5 x + 28 = | 5:clown x:clown +:clown 28:clown =:clown
+EXPR: 0 | POS | INT | 12 | 140 | 33 | 5=(x-28) | 5 x 28 - = | 5:clown x:clown 28:clown -:clown =:clown
+EXPR: 1 | POS | INT | 12 | 140 | 140 | 5=(x/28) | 5 x 28 / = | 5:mobile x:mobile 28:clown /:mobile =:mobile
+EXPR: 0 | POS | INT | 20 | 140 | 23 | x=(28-5) | x 28 5 - = | x:clown 28:clown 5:clown -:clown =:clown
+EXPR: 0 | POS | INT | 20 | 140 | 23 | (28-5)=x | 28 5 - x = | 28:clown 5:clown -:clown x:clown =:clown
+EXPR: 0 | POS | INT | 22 | 140 | 23 | (28-x)=5 | 28 x - 5 = | 28:clown x:clown -:clown 5:clown =:clown
+EXPR: 1 | POS | INT | 22 | 140 | 140 | (x/28)=5 | x 28 / 5 = | x:mobile 28:clown /:mobile 5:mobile =:mobile
+EXPR: 0 | POS | INT | 22 | 140 | 23 | 28=(5+x) | 28 5 x + = | 28:clown 5:clown x:clown +:clown =:clown
+EXPR: 0 | POS | INT | 22 | 140 | 33 | (x-28)=5 | x 28 - 5 = | x:clown 28:clown -:clown 5:clown =:clown
+EXPR: 0 | POS | INT | 22 | 140 | 23 | 28=(x+5) | 28 x 5 + = | 28:clown x:clown 5:clown +:clown =:clown
+EXPR: 0 | POS | INT | 22 | 140 | 33 | 28=(x-5) | 28 x 5 - = | 28:clown x:clown 5:clown -:clown =:clown
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

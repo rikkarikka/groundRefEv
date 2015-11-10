@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 16 | 16 | (79-63)=x | 79 63 - x = | 79:seashell 63:seashell -:seashell x:seashell =:seashell
+EXPR: 0 | POS | INT | 0 | 16 | 142 | x=(79+63) | x 79 63 + = | x:seashell 79:seashell 63:seashell +:seashell =:seashell
+EXPR: 1 | POS | INT | 0 | 16 | 16 | x=(79-63) | x 79 63 - = | x:seashell 79:seashell 63:seashell -:seashell =:seashell
+EXPR: 0 | POS | INT | 0 | 16 | 142 | (79+63)=x | 79 63 + x = | 79:seashell 63:seashell +:seashell x:seashell =:seashell
+EXPR: 1 | POS | INT | 2 | 16 | 16 | 79=(63+x) | 79 63 x + = | 79:seashell 63:seashell x:seashell +:seashell =:seashell
+EXPR: 0 | POS | INT | 2 | 16 | 142 | (x-79)=63 | x 79 - 63 = | x:seashell 79:seashell -:seashell 63:seashell =:seashell
+EXPR: 1 | POS | INT | 2 | 16 | 16 | 79=(x+63) | 79 x 63 + = | 79:seashell x:seashell 63:seashell +:seashell =:seashell
+EXPR: 1 | POS | INT | 2 | 16 | 16 | (79-x)=63 | 79 x - 63 = | 79:seashell x:seashell -:seashell 63:seashell =:seashell
+EXPR: 0 | POS | INT | 2 | 16 | 142 | 79=(x-63) | 79 x 63 - = | 79:seashell x:seashell 63:seashell -:seashell =:seashell
+EXPR: 1 | POS | INT | 12 | 16 | 16 | (x+63)=79 | x 63 + 79 = | x:seashell 63:seashell +:seashell 79:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 16 | 142 | (x-63)=79 | x 63 - 79 = | x:seashell 63:seashell -:seashell 79:seashell =:seashell
+EXPR: 1 | POS | INT | 12 | 16 | 16 | (63+x)=79 | 63 x + 79 = | 63:seashell x:seashell +:seashell 79:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 16 | 142 | 63=(x-79) | 63 x 79 - = | 63:seashell x:seashell 79:seashell -:seashell =:seashell
+EXPR: 1 | POS | INT | 12 | 16 | 16 | 63=(79-x) | 63 79 x - = | 63:seashell 79:seashell x:seashell -:seashell =:seashell
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

@@ -1,0 +1,7 @@
+constants : 375 7 4
+unknowns : x
+operators : + - * / =
+objtypes : student bus
+constantOrUnknownType : 0 1 0 0
+n : 7
+answer : 53.0

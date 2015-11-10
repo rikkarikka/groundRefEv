@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 48 | 24 | x=(4*6) | x 4 6 * = | x:book 4:book 6:week *:book =:book
+EXPR: 0 | POS | INT | 0 | 48 | 24 | (4*6)=x | 4 6 * x = | 4:book 6:week *:book x:book =:book
+EXPR: 0 | POS | INT | 2 | 48 | 24 | 4=(x/6) | 4 x 6 / = | 4:book x:book 6:week /:book =:book
+EXPR: 0 | POS | INT | 10 | 48 | 10 | x=(4+6) | x 4 6 + = | x:book 4:book 6:book +:book =:book
+EXPR: 0 | POS | INT | 10 | 48 | 10 | (4+6)=x | 4 6 + x = | 4:book 6:book +:book x:book =:book
+EXPR: 0 | POS | INT | 12 | 48 | 10 | 4=(x-6) | 4 x 6 - = | 4:book x:book 6:book -:book =:book
+EXPR: 0 | POS | INT | 12 | 48 | 2 | (x+4)=6 | x 4 + 6 = | x:book 4:book +:book 6:book =:book
+EXPR: 0 | POS | INT | 12 | 48 | 10 | (x-4)=6 | x 4 - 6 = | x:book 4:book -:book 6:book =:book
+EXPR: 0 | POS | INT | 12 | 48 | 2 | 4=(6-x) | 4 6 x - = | 4:book 6:book x:book -:book =:book
+EXPR: 0 | POS | INT | 12 | 48 | 2 | (4+x)=6 | 4 x + 6 = | 4:book x:book +:book 6:book =:book
+EXPR: 0 | POS | INT | 12 | 48 | 24 | (x/4)=6 | x 4 / 6 = | x:week 4:book /:week 6:week =:week
+EXPR: 0 | POS | INT | 12 | 48 | 24 | (x/6)=4 | x 6 / 4 = | x:book 6:week /:book 4:book =:book
+EXPR: 0 | POS | INT | 20 | 48 | 2 | (6-4)=x | 6 4 - x = | 6:book 4:book -:book x:book =:book
+EXPR: 0 | POS | INT | 20 | 48 | 2 | x=(6-4) | x 6 4 - = | x:book 6:book 4:book -:book =:book
+EXPR: 0 | POS | INT | 22 | 48 | 2 | 6=(x+4) | 6 x 4 + = | 6:book x:book 4:book +:book =:book
+EXPR: 0 | POS | INT | 22 | 48 | 2 | (6-x)=4 | 6 x - 4 = | 6:book x:book -:book 4:book =:book
+EXPR: 0 | POS | INT | 22 | 48 | 10 | 6=(x-4) | 6 x 4 - = | 6:book x:book 4:book -:book =:book
+EXPR: 0 | POS | INT | 22 | 48 | 24 | 6=(x/4) | 6 x 4 / = | 6:week x:week 4:book /:week =:week
+EXPR: 0 | POS | INT | 22 | 48 | 2 | 6=(4+x) | 6 4 x + = | 6:book 4:book x:book +:book =:book
+EXPR: 0 | POS | INT | 22 | 48 | 10 | (x-6)=4 | x 6 - 4 = | x:book 6:book -:book 4:book =:book
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

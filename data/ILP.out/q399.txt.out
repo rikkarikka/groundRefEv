@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 308 | 308 | x=(7*44) | x 7 44 * = | x:dollar 7:ticket 44:dollar *:dollar =:dollar
+EXPR: 1 | POS | INT | 0 | 308 | 308 | (7*44)=x | 7 44 * x = | 7:ticket 44:dollar *:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 308 | 308 | (x/7)=44 | x 7 / 44 = | x:dollar 7:ticket /:dollar 44:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 308 | 51 | x=(7+44) | x 7 44 + = | x:dollar 7:dollar 44:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 308 | 51 | (7+44)=x | 7 44 + x = | 7:dollar 44:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 308 | 37 | 7=(44-x) | 7 44 x - = | 7:dollar 44:dollar x:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 308 | 308 | 44=(x/7) | 44 x 7 / = | 44:dollar x:dollar 7:ticket /:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 308 | 37 | (x+7)=44 | x 7 + 44 = | x:dollar 7:dollar +:dollar 44:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 308 | 51 | (x-7)=44 | x 7 - 44 = | x:dollar 7:dollar -:dollar 44:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 308 | 37 | (7+x)=44 | 7 x + 44 = | 7:dollar x:dollar +:dollar 44:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 308 | 51 | 7=(x-44) | 7 x 44 - = | 7:dollar x:dollar 44:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 308 | 308 | 7=(x/44) | 7 x 44 / = | 7:ticket x:ticket 44:dollar /:ticket =:ticket
+EXPR: 0 | POS | INT | 20 | 308 | 37 | x=(44-7) | x 44 7 - = | x:dollar 44:dollar 7:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 308 | 37 | (44-7)=x | 44 7 - x = | 44:dollar 7:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 308 | 37 | (44-x)=7 | 44 x - 7 = | 44:dollar x:dollar -:dollar 7:dollar =:dollar
+EXPR: 1 | POS | INT | 22 | 308 | 308 | (x/44)=7 | x 44 / 7 = | x:ticket 44:dollar /:ticket 7:ticket =:ticket
+EXPR: 0 | POS | INT | 22 | 308 | 37 | 44=(7+x) | 44 7 x + = | 44:dollar 7:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 308 | 51 | (x-44)=7 | x 44 - 7 = | x:dollar 44:dollar -:dollar 7:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 308 | 37 | 44=(x+7) | 44 x 7 + = | 44:dollar x:dollar 7:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 308 | 51 | 44=(x-7) | 44 x 7 - = | 44:dollar x:dollar 7:dollar -:dollar =:dollar
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

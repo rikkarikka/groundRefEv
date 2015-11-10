@@ -1,0 +1,7 @@
+constants : 275.0
+unknowns : x
+operators : + - * / =
+objtypes : cent
+constantOrUnknownType : 0 0
+n : 3
+answer : 275.0

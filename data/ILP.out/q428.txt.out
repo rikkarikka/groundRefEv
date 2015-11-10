@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 7 | 40 | x=(5+35) | x 5 35 + = | x:cookie 5:cookie 35:cookie +:cookie =:cookie
+EXPR: 0 | POS | INT | 0 | 7 | 40 | (5+35)=x | 5 35 + x = | 5:cookie 35:cookie +:cookie x:cookie =:cookie
+EXPR: 0 | POS | INT | 2 | 7 | 30 | (x+5)=35 | x 5 + 35 = | x:cookie 5:cookie +:cookie 35:cookie =:cookie
+EXPR: 0 | POS | INT | 2 | 7 | 40 | (x-5)=35 | x 5 - 35 = | x:cookie 5:cookie -:cookie 35:cookie =:cookie
+EXPR: 0 | POS | INT | 2 | 7 | 30 | (5+x)=35 | 5 x + 35 = | 5:cookie x:cookie +:cookie 35:cookie =:cookie
+EXPR: 0 | POS | INT | 2 | 7 | 30 | 5=(35-x) | 5 35 x - = | 5:cookie 35:cookie x:cookie -:cookie =:cookie
+EXPR: 0 | POS | INT | 2 | 7 | 40 | 5=(x-35) | 5 x 35 - = | 5:cookie x:cookie 35:cookie -:cookie =:cookie
+EXPR: 0 | POS | INT | 10 | 7 | 30 | (35-5)=x | 35 5 - x = | 35:cookie 5:cookie -:cookie x:cookie =:cookie
+EXPR: 0 | POS | INT | 10 | 7 | 30 | x=(35-5) | x 35 5 - = | x:cookie 35:cookie 5:cookie -:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 7 | 40 | (x-35)=5 | x 35 - 5 = | x:cookie 35:cookie -:cookie 5:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 7 | 30 | 35=(x+5) | 35 x 5 + = | 35:cookie x:cookie 5:cookie +:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 7 | 30 | 35=(5+x) | 35 5 x + = | 35:cookie 5:cookie x:cookie +:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 7 | 40 | 35=(x-5) | 35 x 5 - = | 35:cookie x:cookie 5:cookie -:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 7 | 30 | (35-x)=5 | 35 x - 5 = | 35:cookie x:cookie -:cookie 5:cookie =:cookie
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

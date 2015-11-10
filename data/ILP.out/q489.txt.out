@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 280 | 144 | (212-68)=x | 212 68 - x = | 212:fish 68:fish -:fish x:fish =:fish
+EXPR: 1 | POS | INT | 0 | 280 | 280 | x=(212+68) | x 212 68 + = | x:fish 212:fish 68:fish +:fish =:fish
+EXPR: 0 | POS | INT | 0 | 280 | 144 | x=(212-68) | x 212 68 - = | x:fish 212:fish 68:fish -:fish =:fish
+EXPR: 1 | POS | INT | 0 | 280 | 280 | (212+68)=x | 212 68 + x = | 212:fish 68:fish +:fish x:fish =:fish
+EXPR: 0 | POS | INT | 2 | 280 | 144 | 212=(68+x) | 212 68 x + = | 212:fish 68:fish x:fish +:fish =:fish
+EXPR: 1 | POS | INT | 2 | 280 | 280 | (x-212)=68 | x 212 - 68 = | x:fish 212:fish -:fish 68:fish =:fish
+EXPR: 0 | POS | INT | 2 | 280 | 144 | 212=(x+68) | 212 x 68 + = | 212:fish x:fish 68:fish +:fish =:fish
+EXPR: 0 | POS | INT | 2 | 280 | 144 | (212-x)=68 | 212 x - 68 = | 212:fish x:fish -:fish 68:fish =:fish
+EXPR: 1 | POS | INT | 2 | 280 | 280 | 212=(x-68) | 212 x 68 - = | 212:fish x:fish 68:fish -:fish =:fish
+EXPR: 0 | POS | INT | 12 | 280 | 144 | (x+68)=212 | x 68 + 212 = | x:fish 68:fish +:fish 212:fish =:fish
+EXPR: 1 | POS | INT | 12 | 280 | 280 | (x-68)=212 | x 68 - 212 = | x:fish 68:fish -:fish 212:fish =:fish
+EXPR: 0 | POS | INT | 12 | 280 | 144 | (68+x)=212 | 68 x + 212 = | 68:fish x:fish +:fish 212:fish =:fish
+EXPR: 1 | POS | INT | 12 | 280 | 280 | 68=(x-212) | 68 x 212 - = | 68:fish x:fish 212:fish -:fish =:fish
+EXPR: 0 | POS | INT | 12 | 280 | 144 | 68=(212-x) | 68 212 x - = | 68:fish 212:fish x:fish -:fish =:fish
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

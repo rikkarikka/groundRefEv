@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 59 | 59 | x=(18+41) | x 18 41 + = | x:seashell 18:seashell 41:seashell +:seashell =:seashell
+EXPR: 1 | POS | INT | 0 | 59 | 59 | (18+41)=x | 18 41 + x = | 18:seashell 41:seashell +:seashell x:seashell =:seashell
+EXPR: 0 | POS | INT | 2 | 59 | 23 | (x+18)=41 | x 18 + 41 = | x:seashell 18:seashell +:seashell 41:seashell =:seashell
+EXPR: 1 | POS | INT | 2 | 59 | 59 | (x-18)=41 | x 18 - 41 = | x:seashell 18:seashell -:seashell 41:seashell =:seashell
+EXPR: 0 | POS | INT | 2 | 59 | 23 | (18+x)=41 | 18 x + 41 = | 18:seashell x:seashell +:seashell 41:seashell =:seashell
+EXPR: 0 | POS | INT | 2 | 59 | 23 | 18=(41-x) | 18 41 x - = | 18:seashell 41:seashell x:seashell -:seashell =:seashell
+EXPR: 1 | POS | INT | 2 | 59 | 59 | 18=(x-41) | 18 x 41 - = | 18:seashell x:seashell 41:seashell -:seashell =:seashell
+EXPR: 0 | POS | INT | 10 | 59 | 23 | (41-18)=x | 41 18 - x = | 41:seashell 18:seashell -:seashell x:seashell =:seashell
+EXPR: 0 | POS | INT | 10 | 59 | 23 | x=(41-18) | x 41 18 - = | x:seashell 41:seashell 18:seashell -:seashell =:seashell
+EXPR: 1 | POS | INT | 12 | 59 | 59 | (x-41)=18 | x 41 - 18 = | x:seashell 41:seashell -:seashell 18:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 59 | 23 | 41=(x+18) | 41 x 18 + = | 41:seashell x:seashell 18:seashell +:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 59 | 23 | 41=(18+x) | 41 18 x + = | 41:seashell 18:seashell x:seashell +:seashell =:seashell
+EXPR: 1 | POS | INT | 12 | 59 | 59 | 41=(x-18) | 41 x 18 - = | 41:seashell x:seashell 18:seashell -:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 59 | 23 | (41-x)=18 | 41 x - 18 = | 41:seashell x:seashell -:seashell 18:seashell =:seashell
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

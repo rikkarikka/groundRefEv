@@ -1,0 +1,7 @@
+constants : 6 5
+unknowns : x
+operators : + - * / =
+objtypes : marble Benny
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 30.0

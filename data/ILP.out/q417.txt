@@ -1,0 +1,7 @@
+constants : 49 7
+unknowns : x
+operators : + - * / =
+objtypes : block color
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7

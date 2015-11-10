@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 0.625 | 0.25 | 0.5=(0.125/x) | 0.5 0.125 x / = | 0.5:student 0.125:student x:UNKNOWN /:student =:student
+EXPR: 0 | POS | INT | 2 | 0.625 | 4 | 0.5=(x*0.125) | 0.5 x 0.125 * = | 0.5:student x:UNKNOWN 0.125:student *:student =:student
+EXPR: 0 | POS | INT | 2 | 0.625 | 4 | 0.5=(0.125*x) | 0.5 0.125 x * = | 0.5:student 0.125:student x:UNKNOWN *:student =:student
+EXPR: 0 | POS | FRA | 2 | 0.625 | 0.25 | (x*0.5)=0.125 | x 0.5 * 0.125 = | x:UNKNOWN 0.5:student *:student 0.125:student =:student
+EXPR: 0 | POS | FRA | 2 | 0.625 | 0.25 | (0.5*x)=0.125 | 0.5 x * 0.125 = | 0.5:student x:UNKNOWN *:student 0.125:student =:student
+EXPR: 0 | POS | INT | 2 | 0.625 | 4 | (0.5/x)=0.125 | 0.5 x / 0.125 = | 0.5:student x:UNKNOWN /:student 0.125:student =:student
+EXPR: 0 | POS | FRA | 10 | 0.625 | 0.0625 | (0.5*0.125)=x | 0.5 0.125 * x = | 0.5:student 0.125:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | FRA | 10 | 0.625 | 0.625 | (0.5+0.125)=x | 0.5 0.125 + x = | 0.5:student 0.125:student +:student x:student =:student
+EXPR: 0 | POS | FRA | 10 | 0.625 | 0.375 | x=(0.5-0.125) | x 0.5 0.125 - = | x:student 0.5:student 0.125:student -:student =:student
+EXPR: 0 | POS | FRA | 10 | 0.625 | 0.0625 | x=(0.5*0.125) | x 0.5 0.125 * = | x:UNKNOWN 0.5:student 0.125:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | FRA | 10 | 0.625 | 0.625 | x=(0.5+0.125) | x 0.5 0.125 + = | x:student 0.5:student 0.125:student +:student =:student
+EXPR: 0 | POS | FRA | 10 | 0.625 | 0.375 | (0.5-0.125)=x | 0.5 0.125 - x = | 0.5:student 0.125:student -:student x:student =:student
+EXPR: 0 | POS | INT | 10 | 0.625 | 4 | x=(0.5/0.125) | x 0.5 0.125 / = | x:UNKNOWN 0.5:UNKNOWN 0.125:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 0.625 | 4 | (0.5/0.125)=x | 0.5 0.125 / x = | 0.5:UNKNOWN 0.125:student /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 0.625 | 4 | 0.125=(0.5/x) | 0.125 0.5 x / = | 0.125:student 0.5:student x:UNKNOWN /:student =:student
+EXPR: 0 | POS | INT | 12 | 0.625 | 4 | (x*0.125)=0.5 | x 0.125 * 0.5 = | x:UNKNOWN 0.125:student *:student 0.5:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.625 | 0.0625 | 0.5=(x/0.125) | 0.5 x 0.125 / = | 0.5:UNKNOWN x:UNKNOWN 0.125:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 0.625 | 0.25 | 0.125=(0.5*x) | 0.125 0.5 x * = | 0.125:student 0.5:student x:UNKNOWN *:student =:student
+EXPR: 1 | POS | FRA | 12 | 0.625 | 0.625 | 0.5=(x-0.125) | 0.5 x 0.125 - = | 0.5:student x:student 0.125:student -:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.625 | 0.25 | 0.125=(x*0.5) | 0.125 x 0.5 * = | 0.125:student x:UNKNOWN 0.5:student *:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.625 | 0.375 | (0.5-x)=0.125 | 0.5 x - 0.125 = | 0.5:student x:student -:student 0.125:student =:student
+EXPR: 0 | POS | INT | 12 | 0.625 | 4 | (0.125*x)=0.5 | 0.125 x * 0.5 = | 0.125:student x:UNKNOWN *:student 0.5:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.625 | 0.25 | (0.125/x)=0.5 | 0.125 x / 0.5 = | 0.125:student x:UNKNOWN /:student 0.5:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.625 | 0.375 | 0.5=(x+0.125) | 0.5 x 0.125 + = | 0.5:student x:student 0.125:student +:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.625 | 0.375 | 0.5=(0.125+x) | 0.5 0.125 x + = | 0.5:student 0.125:student x:student +:student =:student
+EXPR: 1 | POS | FRA | 12 | 0.625 | 0.625 | (x-0.5)=0.125 | x 0.5 - 0.125 = | x:student 0.5:student -:student 0.125:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.625 | 0.0625 | (x/0.5)=0.125 | x 0.5 / 0.125 = | x:UNKNOWN 0.5:student /:UNKNOWN 0.125:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 20 | 0.625 | 0.25 | (0.125/0.5)=x | 0.125 0.5 / x = | 0.125:UNKNOWN 0.5:student /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 20 | 0.625 | 0.25 | x=(0.125/0.5) | x 0.125 0.5 / = | x:UNKNOWN 0.125:UNKNOWN 0.5:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 22 | 0.625 | 0.0625 | (x/0.125)=0.5 | x 0.125 / 0.5 = | x:UNKNOWN 0.125:student /:UNKNOWN 0.5:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | FRA | 22 | 0.625 | 0.625 | (x-0.125)=0.5 | x 0.125 - 0.5 = | x:student 0.125:student -:student 0.5:student =:student
+EXPR: 0 | POS | FRA | 22 | 0.625 | 0.375 | (0.125+x)=0.5 | 0.125 x + 0.5 = | 0.125:student x:student +:student 0.5:student =:student
+EXPR: 1 | POS | FRA | 22 | 0.625 | 0.625 | 0.125=(x-0.5) | 0.125 x 0.5 - = | 0.125:student x:student 0.5:student -:student =:student
+EXPR: 0 | POS | FRA | 22 | 0.625 | 0.375 | (x+0.125)=0.5 | x 0.125 + 0.5 = | x:student 0.125:student +:student 0.5:student =:student
+EXPR: 0 | POS | FRA | 22 | 0.625 | 0.0625 | 0.125=(x/0.5) | 0.125 x 0.5 / = | 0.125:UNKNOWN x:UNKNOWN 0.5:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 22 | 0.625 | 0.375 | 0.125=(0.5-x) | 0.125 0.5 x - = | 0.125:student 0.5:student x:student -:student =:student
+NET 36 unique, non-negative solutions found out of 136 total solutions

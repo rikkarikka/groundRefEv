@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 9 | 56 | (4*14)=x | 4 14 * x = | 4:half-dollar 14:amount *:amount x:amount =:amount
+EXPR: 0 | POS | INT | 10 | 9 | 18 | (4+14)=x | 4 14 + x = | 4:half-dollar 14:half-dollar +:half-dollar x:half-dollar =:half-dollar
+EXPR: 0 | POS | INT | 10 | 9 | 56 | x=(4*14) | x 4 14 * = | x:amount 4:half-dollar 14:amount *:amount =:amount
+EXPR: 0 | POS | INT | 10 | 9 | 18 | x=(4+14) | x 4 14 + = | x:half-dollar 4:half-dollar 14:half-dollar +:half-dollar =:half-dollar
+EXPR: 0 | POS | INT | 12 | 9 | 56 | 4=(x/14) | 4 x 14 / = | 4:amount x:amount 14:half-dollar /:amount =:amount
+EXPR: 0 | POS | INT | 12 | 9 | 18 | 4=(x-14) | 4 x 14 - = | 4:half-dollar x:half-dollar 14:half-dollar -:half-dollar =:half-dollar
+EXPR: 0 | POS | INT | 12 | 9 | 10 | 4=(14-x) | 4 14 x - = | 4:half-dollar 14:half-dollar x:half-dollar -:half-dollar =:half-dollar
+EXPR: 0 | POS | INT | 12 | 9 | 10 | (x+4)=14 | x 4 + 14 = | x:half-dollar 4:half-dollar +:half-dollar 14:half-dollar =:half-dollar
+EXPR: 0 | POS | INT | 12 | 9 | 10 | (4+x)=14 | 4 x + 14 = | 4:half-dollar x:half-dollar +:half-dollar 14:half-dollar =:half-dollar
+EXPR: 0 | POS | INT | 12 | 9 | 18 | (x-4)=14 | x 4 - 14 = | x:half-dollar 4:half-dollar -:half-dollar 14:half-dollar =:half-dollar
+EXPR: 0 | POS | INT | 12 | 9 | 56 | (x/4)=14 | x 4 / 14 = | x:amount 4:half-dollar /:amount 14:amount =:amount
+EXPR: 0 | POS | INT | 20 | 9 | 10 | x=(14-4) | x 14 4 - = | x:half-dollar 14:half-dollar 4:half-dollar -:half-dollar =:half-dollar
+EXPR: 0 | POS | INT | 20 | 9 | 10 | (14-4)=x | 14 4 - x = | 14:half-dollar 4:half-dollar -:half-dollar x:half-dollar =:half-dollar
+EXPR: 0 | POS | INT | 22 | 9 | 10 | (14-x)=4 | 14 x - 4 = | 14:half-dollar x:half-dollar -:half-dollar 4:half-dollar =:half-dollar
+EXPR: 0 | POS | INT | 22 | 9 | 56 | (x/14)=4 | x 14 / 4 = | x:amount 14:half-dollar /:amount 4:amount =:amount
+EXPR: 0 | POS | INT | 22 | 9 | 18 | (x-14)=4 | x 14 - 4 = | x:half-dollar 14:half-dollar -:half-dollar 4:half-dollar =:half-dollar
+EXPR: 0 | POS | INT | 22 | 9 | 18 | 14=(x-4) | 14 x 4 - = | 14:half-dollar x:half-dollar 4:half-dollar -:half-dollar =:half-dollar
+EXPR: 0 | POS | INT | 22 | 9 | 10 | 14=(x+4) | 14 x 4 + = | 14:half-dollar x:half-dollar 4:half-dollar +:half-dollar =:half-dollar
+EXPR: 0 | POS | INT | 22 | 9 | 10 | 14=(4+x) | 14 4 x + = | 14:half-dollar 4:half-dollar x:half-dollar +:half-dollar =:half-dollar
+EXPR: 0 | POS | INT | 22 | 9 | 56 | 14=(x/4) | 14 x 4 / = | 14:amount x:amount 4:half-dollar /:amount =:amount
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

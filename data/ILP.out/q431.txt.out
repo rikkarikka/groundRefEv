@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 9 | 9 | 2=(18/x) | 2 18 x / = | 2:lemon 18:lemon x:glass /:lemon =:lemon
+EXPR: 1 | POS | INT | 2 | 9 | 9 | (x*2)=18 | x 2 * 18 = | x:glass 2:lemon *:lemon 18:lemon =:lemon
+EXPR: 1 | POS | INT | 2 | 9 | 9 | (2*x)=18 | 2 x * 18 = | 2:lemon x:glass *:lemon 18:lemon =:lemon
+EXPR: 0 | POS | INT | 10 | 9 | 36 | (2*18)=x | 2 18 * x = | 2:lemon 18:glass *:glass x:glass =:glass
+EXPR: 0 | POS | INT | 10 | 9 | 20 | (2+18)=x | 2 18 + x = | 2:lemon 18:lemon +:lemon x:lemon =:lemon
+EXPR: 0 | POS | INT | 10 | 9 | 36 | x=(2*18) | x 2 18 * = | x:glass 2:lemon 18:glass *:glass =:glass
+EXPR: 0 | POS | INT | 10 | 9 | 20 | x=(2+18) | x 2 18 + = | x:lemon 2:lemon 18:lemon +:lemon =:lemon
+EXPR: 0 | POS | INT | 12 | 9 | 36 | 2=(x/18) | 2 x 18 / = | 2:glass x:glass 18:lemon /:glass =:glass
+EXPR: 1 | POS | INT | 12 | 9 | 9 | 18=(2*x) | 18 2 x * = | 18:lemon 2:lemon x:glass *:lemon =:lemon
+EXPR: 0 | POS | INT | 12 | 9 | 20 | 2=(x-18) | 2 x 18 - = | 2:lemon x:lemon 18:lemon -:lemon =:lemon
+EXPR: 1 | POS | INT | 12 | 9 | 9 | 18=(x*2) | 18 x 2 * = | 18:lemon x:glass 2:lemon *:lemon =:lemon
+EXPR: 0 | POS | INT | 12 | 9 | 16 | 2=(18-x) | 2 18 x - = | 2:lemon 18:lemon x:lemon -:lemon =:lemon
+EXPR: 1 | POS | INT | 12 | 9 | 9 | (18/x)=2 | 18 x / 2 = | 18:lemon x:glass /:lemon 2:lemon =:lemon
+EXPR: 0 | POS | INT | 12 | 9 | 16 | (x+2)=18 | x 2 + 18 = | x:lemon 2:lemon +:lemon 18:lemon =:lemon
+EXPR: 0 | POS | INT | 12 | 9 | 16 | (2+x)=18 | 2 x + 18 = | 2:lemon x:lemon +:lemon 18:lemon =:lemon
+EXPR: 0 | POS | INT | 12 | 9 | 20 | (x-2)=18 | x 2 - 18 = | x:lemon 2:lemon -:lemon 18:lemon =:lemon
+EXPR: 0 | POS | INT | 12 | 9 | 36 | (x/2)=18 | x 2 / 18 = | x:glass 2:lemon /:glass 18:glass =:glass
+EXPR: 1 | POS | INT | 20 | 9 | 9 | (18/2)=x | 18 2 / x = | 18:glass 2:lemon /:glass x:glass =:glass
+EXPR: 0 | POS | INT | 20 | 9 | 16 | x=(18-2) | x 18 2 - = | x:lemon 18:lemon 2:lemon -:lemon =:lemon
+EXPR: 0 | POS | INT | 20 | 9 | 16 | (18-2)=x | 18 2 - x = | 18:lemon 2:lemon -:lemon x:lemon =:lemon
+EXPR: 1 | POS | INT | 20 | 9 | 9 | x=(18/2) | x 18 2 / = | x:glass 18:glass 2:lemon /:glass =:glass
+EXPR: 0 | POS | INT | 22 | 9 | 16 | (18-x)=2 | 18 x - 2 = | 18:lemon x:lemon -:lemon 2:lemon =:lemon
+EXPR: 0 | POS | INT | 22 | 9 | 36 | (x/18)=2 | x 18 / 2 = | x:glass 18:lemon /:glass 2:glass =:glass
+EXPR: 0 | POS | INT | 22 | 9 | 20 | (x-18)=2 | x 18 - 2 = | x:lemon 18:lemon -:lemon 2:lemon =:lemon
+EXPR: 0 | POS | INT | 22 | 9 | 20 | 18=(x-2) | 18 x 2 - = | 18:lemon x:lemon 2:lemon -:lemon =:lemon
+EXPR: 0 | POS | INT | 22 | 9 | 16 | 18=(x+2) | 18 x 2 + = | 18:lemon x:lemon 2:lemon +:lemon =:lemon
+EXPR: 0 | POS | INT | 22 | 9 | 16 | 18=(2+x) | 18 2 x + = | 18:lemon 2:lemon x:lemon +:lemon =:lemon
+EXPR: 0 | POS | INT | 22 | 9 | 36 | 18=(x/2) | 18 x 2 / = | 18:glass x:glass 2:lemon /:glass =:glass
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

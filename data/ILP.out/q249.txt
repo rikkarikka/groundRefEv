@@ -1,0 +1,7 @@
+constants : 2,041 63,093
+unknowns : x
+operators : + - * / =
+objtypes : employee
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 65134.0

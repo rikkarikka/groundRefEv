@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 3120 | 3120 | (7341-4221)=x | 7341 4221 - x = | 7341:cell 4221:cell -:cell x:cell =:cell
+EXPR: 0 | POS | INT | 0 | 3120 | 11562 | x=(7341+4221) | x 7341 4221 + = | x:cell 7341:cell 4221:cell +:cell =:cell
+EXPR: 1 | POS | INT | 0 | 3120 | 3120 | x=(7341-4221) | x 7341 4221 - = | x:cell 7341:cell 4221:cell -:cell =:cell
+EXPR: 0 | POS | INT | 0 | 3120 | 11562 | (7341+4221)=x | 7341 4221 + x = | 7341:cell 4221:cell +:cell x:cell =:cell
+EXPR: 1 | POS | INT | 2 | 3120 | 3120 | 7341=(4221+x) | 7341 4221 x + = | 7341:cell 4221:cell x:cell +:cell =:cell
+EXPR: 0 | POS | INT | 2 | 3120 | 11562 | (x-7341)=4221 | x 7341 - 4221 = | x:cell 7341:cell -:cell 4221:cell =:cell
+EXPR: 1 | POS | INT | 2 | 3120 | 3120 | 7341=(x+4221) | 7341 x 4221 + = | 7341:cell x:cell 4221:cell +:cell =:cell
+EXPR: 1 | POS | INT | 2 | 3120 | 3120 | (7341-x)=4221 | 7341 x - 4221 = | 7341:cell x:cell -:cell 4221:cell =:cell
+EXPR: 0 | POS | INT | 2 | 3120 | 11562 | 7341=(x-4221) | 7341 x 4221 - = | 7341:cell x:cell 4221:cell -:cell =:cell
+EXPR: 1 | POS | INT | 12 | 3120 | 3120 | (x+4221)=7341 | x 4221 + 7341 = | x:cell 4221:cell +:cell 7341:cell =:cell
+EXPR: 0 | POS | INT | 12 | 3120 | 11562 | (x-4221)=7341 | x 4221 - 7341 = | x:cell 4221:cell -:cell 7341:cell =:cell
+EXPR: 1 | POS | INT | 12 | 3120 | 3120 | (4221+x)=7341 | 4221 x + 7341 = | 4221:cell x:cell +:cell 7341:cell =:cell
+EXPR: 0 | POS | INT | 12 | 3120 | 11562 | 4221=(x-7341) | 4221 x 7341 - = | 4221:cell x:cell 7341:cell -:cell =:cell
+EXPR: 1 | POS | INT | 12 | 3120 | 3120 | 4221=(7341-x) | 4221 7341 x - = | 4221:cell 7341:cell x:cell -:cell =:cell
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 5 | 5 | x=(2+3) | x 2 3 + = | x:pencil 2:pencil 3:pencil +:pencil =:pencil
+EXPR: 1 | POS | INT | 0 | 5 | 5 | (2+3)=x | 2 3 + x = | 2:pencil 3:pencil +:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 5 | 1 | (x+2)=3 | x 2 + 3 = | x:pencil 2:pencil +:pencil 3:pencil =:pencil
+EXPR: 1 | POS | INT | 2 | 5 | 5 | (x-2)=3 | x 2 - 3 = | x:pencil 2:pencil -:pencil 3:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 5 | 1 | (2+x)=3 | 2 x + 3 = | 2:pencil x:pencil +:pencil 3:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 5 | 1 | 2=(3-x) | 2 3 x - = | 2:pencil 3:pencil x:pencil -:pencil =:pencil
+EXPR: 1 | POS | INT | 2 | 5 | 5 | 2=(x-3) | 2 x 3 - = | 2:pencil x:pencil 3:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 5 | 1 | (3-2)=x | 3 2 - x = | 3:pencil 2:pencil -:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 5 | 1 | x=(3-2) | x 3 2 - = | x:pencil 3:pencil 2:pencil -:pencil =:pencil
+EXPR: 1 | POS | INT | 12 | 5 | 5 | (x-3)=2 | x 3 - 2 = | x:pencil 3:pencil -:pencil 2:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 5 | 1 | 3=(x+2) | 3 x 2 + = | 3:pencil x:pencil 2:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 5 | 1 | 3=(2+x) | 3 2 x + = | 3:pencil 2:pencil x:pencil +:pencil =:pencil
+EXPR: 1 | POS | INT | 12 | 5 | 5 | 3=(x-2) | 3 x 2 - = | 3:pencil x:pencil 2:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 5 | 1 | (3-x)=2 | 3 x - 2 = | 3:pencil x:pencil -:pencil 2:pencil =:pencil
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

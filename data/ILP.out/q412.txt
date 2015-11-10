@@ -1,0 +1,7 @@
+constants : 5 30
+unknowns : x
+operators : + - * / =
+objtypes : glass pitcher
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 6

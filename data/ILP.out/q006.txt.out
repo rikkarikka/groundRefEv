@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 52 | 2924 | (34*86)=x | 34 86 * x = | 34:peach 86:stand *:stand x:stand =:stand
+EXPR: 0 | POS | INT | 10 | 52 | 120 | (34+86)=x | 34 86 + x = | 34:peach 86:peach +:peach x:peach =:peach
+EXPR: 0 | POS | INT | 10 | 52 | 2924 | x=(34*86) | x 34 86 * = | x:stand 34:peach 86:stand *:stand =:stand
+EXPR: 0 | POS | INT | 10 | 52 | 120 | x=(34+86) | x 34 86 + = | x:peach 34:peach 86:peach +:peach =:peach
+EXPR: 0 | POS | INT | 12 | 52 | 2924 | 34=(x/86) | 34 x 86 / = | 34:stand x:stand 86:peach /:stand =:stand
+EXPR: 0 | POS | INT | 12 | 52 | 120 | 34=(x-86) | 34 x 86 - = | 34:peach x:peach 86:peach -:peach =:peach
+EXPR: 1 | POS | INT | 12 | 52 | 52 | 34=(86-x) | 34 86 x - = | 34:peach 86:peach x:peach -:peach =:peach
+EXPR: 1 | POS | INT | 12 | 52 | 52 | (x+34)=86 | x 34 + 86 = | x:peach 34:peach +:peach 86:peach =:peach
+EXPR: 1 | POS | INT | 12 | 52 | 52 | (34+x)=86 | 34 x + 86 = | 34:peach x:peach +:peach 86:peach =:peach
+EXPR: 0 | POS | INT | 12 | 52 | 120 | (x-34)=86 | x 34 - 86 = | x:peach 34:peach -:peach 86:peach =:peach
+EXPR: 0 | POS | INT | 12 | 52 | 2924 | (x/34)=86 | x 34 / 86 = | x:stand 34:peach /:stand 86:stand =:stand
+EXPR: 1 | POS | INT | 20 | 52 | 52 | x=(86-34) | x 86 34 - = | x:peach 86:peach 34:peach -:peach =:peach
+EXPR: 1 | POS | INT | 20 | 52 | 52 | (86-34)=x | 86 34 - x = | 86:peach 34:peach -:peach x:peach =:peach
+EXPR: 1 | POS | INT | 22 | 52 | 52 | (86-x)=34 | 86 x - 34 = | 86:peach x:peach -:peach 34:peach =:peach
+EXPR: 0 | POS | INT | 22 | 52 | 2924 | (x/86)=34 | x 86 / 34 = | x:stand 86:peach /:stand 34:stand =:stand
+EXPR: 0 | POS | INT | 22 | 52 | 120 | (x-86)=34 | x 86 - 34 = | x:peach 86:peach -:peach 34:peach =:peach
+EXPR: 0 | POS | INT | 22 | 52 | 120 | 86=(x-34) | 86 x 34 - = | 86:peach x:peach 34:peach -:peach =:peach
+EXPR: 1 | POS | INT | 22 | 52 | 52 | 86=(x+34) | 86 x 34 + = | 86:peach x:peach 34:peach +:peach =:peach
+EXPR: 1 | POS | INT | 22 | 52 | 52 | 86=(34+x) | 86 34 x + = | 86:peach 34:peach x:peach +:peach =:peach
+EXPR: 0 | POS | INT | 22 | 52 | 2924 | 86=(x/34) | 86 x 34 / = | 86:stand x:stand 34:peach /:stand =:stand
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

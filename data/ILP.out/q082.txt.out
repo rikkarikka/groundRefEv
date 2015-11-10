@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 96 | 96 | x=(44+52) | x 44 52 + = | x:book 44:book 52:book +:book =:book
+EXPR: 1 | POS | INT | 0 | 96 | 96 | (44+52)=x | 44 52 + x = | 44:book 52:book +:book x:book =:book
+EXPR: 0 | POS | INT | 2 | 96 | 8 | (x+44)=52 | x 44 + 52 = | x:book 44:book +:book 52:book =:book
+EXPR: 1 | POS | INT | 2 | 96 | 96 | (x-44)=52 | x 44 - 52 = | x:book 44:book -:book 52:book =:book
+EXPR: 0 | POS | INT | 2 | 96 | 8 | (44+x)=52 | 44 x + 52 = | 44:book x:book +:book 52:book =:book
+EXPR: 0 | POS | INT | 2 | 96 | 8 | 44=(52-x) | 44 52 x - = | 44:book 52:book x:book -:book =:book
+EXPR: 1 | POS | INT | 2 | 96 | 96 | 44=(x-52) | 44 x 52 - = | 44:book x:book 52:book -:book =:book
+EXPR: 0 | POS | INT | 10 | 96 | 8 | (52-44)=x | 52 44 - x = | 52:book 44:book -:book x:book =:book
+EXPR: 0 | POS | INT | 10 | 96 | 8 | x=(52-44) | x 52 44 - = | x:book 52:book 44:book -:book =:book
+EXPR: 1 | POS | INT | 12 | 96 | 96 | (x-52)=44 | x 52 - 44 = | x:book 52:book -:book 44:book =:book
+EXPR: 0 | POS | INT | 12 | 96 | 8 | 52=(x+44) | 52 x 44 + = | 52:book x:book 44:book +:book =:book
+EXPR: 0 | POS | INT | 12 | 96 | 8 | 52=(44+x) | 52 44 x + = | 52:book 44:book x:book +:book =:book
+EXPR: 1 | POS | INT | 12 | 96 | 96 | 52=(x-44) | 52 x 44 - = | 52:book x:book 44:book -:book =:book
+EXPR: 0 | POS | INT | 12 | 96 | 8 | (52-x)=44 | 52 x - 44 = | 52:book x:book -:book 44:book =:book
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

@@ -1,0 +1,7 @@
+constants : 61 26 7
+unknowns : x
+operators : + - * / =
+objtypes : plate
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 28.0

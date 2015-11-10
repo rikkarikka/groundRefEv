@@ -1,0 +1,7 @@
+constants : 676 224
+unknowns : x
+operators : + - * / =
+objtypes : card pokemon
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 452.0

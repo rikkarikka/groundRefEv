@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 156 | 156 | x=(13*12) | x 13 12 * = | x:golf 13:golf 12:ball *:golf =:golf
+EXPR: 1 | POS | INT | 10 | 156 | 156 | (13*12)=x | 13 12 * x = | 13:dozen 12:golf *:golf x:golf =:golf
+EXPR: 1 | POS | INT | 12 | 156 | 156 | 13=(x/12) | 13 x 12 / = | 13:dozen x:dozen 12:ball /:dozen =:dozen
+EXPR: 1 | POS | INT | 12 | 156 | 156 | (x/13)=12 | x 13 / 12 = | x:golf 13:dozen /:golf 12:golf =:golf
+EXPR: 0 | POS | INT | 20 | 156 | 25 | x=(13+12) | x 13 12 + = | x:ball 13:ball 12:ball +:ball =:ball
+EXPR: 0 | POS | INT | 20 | 156 | 1 | x=(13-12) | x 13 12 - = | x:golf 13:golf 12:golf -:golf =:golf
+EXPR: 0 | POS | INT | 20 | 156 | 25 | (13+12)=x | 13 12 + x = | 13:dozen 12:dozen +:dozen x:dozen =:dozen
+EXPR: 0 | POS | INT | 20 | 156 | 1 | (13-12)=x | 13 12 - x = | 13:dozen 12:dozen -:dozen x:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 156 | 1 | 13=(x+12) | 13 x 12 + = | 13:dozen x:dozen 12:dozen +:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 156 | 1 | (13-x)=12 | 13 x - 12 = | 13:dozen x:dozen -:dozen 12:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 156 | 25 | 13=(x-12) | 13 x 12 - = | 13:golf x:golf 12:golf -:golf =:golf
+EXPR: 0 | POS | INT | 22 | 156 | 1 | 13=(12+x) | 13 12 x + = | 13:golf 12:golf x:golf +:golf =:golf
+EXPR: 1 | POS | INT | 22 | 156 | 156 | (x/12)=13 | x 12 / 13 = | x:golf 12:ball /:golf 13:golf =:golf
+EXPR: 0 | POS | INT | 22 | 156 | 25 | (x-13)=12 | x 13 - 12 = | x:ball 13:ball -:ball 12:ball =:ball
+EXPR: 1 | POS | INT | 22 | 156 | 156 | 12=(x/13) | 12 x 13 / = | 12:ball x:ball 13:dozen /:ball =:ball
+EXPR: 0 | POS | INT | 32 | 156 | 1 | (12+x)=13 | 12 x + 13 = | 12:dozen x:dozen +:dozen 13:dozen =:dozen
+EXPR: 0 | POS | INT | 32 | 156 | 1 | 12=(13-x) | 12 13 x - = | 12:ball 13:ball x:ball -:ball =:ball
+EXPR: 0 | POS | INT | 32 | 156 | 1 | (x+12)=13 | x 12 + 13 = | x:golf 12:golf +:golf 13:golf =:golf
+EXPR: 0 | POS | INT | 32 | 156 | 25 | 12=(x-13) | 12 x 13 - = | 12:golf x:golf 13:golf -:golf =:golf
+EXPR: 0 | POS | INT | 32 | 156 | 25 | (x-12)=13 | x 12 - 13 = | x:golf 12:golf -:golf 13:golf =:golf
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

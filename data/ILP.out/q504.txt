@@ -1,0 +1,7 @@
+constants : 1800000 0.75
+unknowns : x
+operators : + - * / =
+objtypes : ton demand UNKNOWN
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 2400000.0

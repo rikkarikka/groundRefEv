@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 82 | 82 | x=(38+44) | x 38 44 + = | x:cantelope 38:cantelope 44:cantelope +:cantelope =:cantelope
+EXPR: 1 | POS | INT | 0 | 82 | 82 | (38+44)=x | 38 44 + x = | 38:cantelope 44:cantelope +:cantelope x:cantelope =:cantelope
+EXPR: 0 | POS | INT | 2 | 82 | 6 | (x+38)=44 | x 38 + 44 = | x:cantelope 38:cantelope +:cantelope 44:cantelope =:cantelope
+EXPR: 1 | POS | INT | 2 | 82 | 82 | (x-38)=44 | x 38 - 44 = | x:cantelope 38:cantelope -:cantelope 44:cantelope =:cantelope
+EXPR: 0 | POS | INT | 2 | 82 | 6 | (38+x)=44 | 38 x + 44 = | 38:cantelope x:cantelope +:cantelope 44:cantelope =:cantelope
+EXPR: 0 | POS | INT | 2 | 82 | 6 | 38=(44-x) | 38 44 x - = | 38:cantelope 44:cantelope x:cantelope -:cantelope =:cantelope
+EXPR: 1 | POS | INT | 2 | 82 | 82 | 38=(x-44) | 38 x 44 - = | 38:cantelope x:cantelope 44:cantelope -:cantelope =:cantelope
+EXPR: 0 | POS | INT | 10 | 82 | 6 | (44-38)=x | 44 38 - x = | 44:cantelope 38:cantelope -:cantelope x:cantelope =:cantelope
+EXPR: 0 | POS | INT | 10 | 82 | 6 | x=(44-38) | x 44 38 - = | x:cantelope 44:cantelope 38:cantelope -:cantelope =:cantelope
+EXPR: 1 | POS | INT | 12 | 82 | 82 | (x-44)=38 | x 44 - 38 = | x:cantelope 44:cantelope -:cantelope 38:cantelope =:cantelope
+EXPR: 0 | POS | INT | 12 | 82 | 6 | 44=(x+38) | 44 x 38 + = | 44:cantelope x:cantelope 38:cantelope +:cantelope =:cantelope
+EXPR: 0 | POS | INT | 12 | 82 | 6 | 44=(38+x) | 44 38 x + = | 44:cantelope 38:cantelope x:cantelope +:cantelope =:cantelope
+EXPR: 1 | POS | INT | 12 | 82 | 82 | 44=(x-38) | 44 x 38 - = | 44:cantelope x:cantelope 38:cantelope -:cantelope =:cantelope
+EXPR: 0 | POS | INT | 12 | 82 | 6 | (44-x)=38 | 44 x - 38 = | 44:cantelope x:cantelope -:cantelope 38:cantelope =:cantelope
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

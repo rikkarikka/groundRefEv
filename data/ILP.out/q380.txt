@@ -1,0 +1,7 @@
+constants : 9.8 5.2
+unknowns : x
+operators : + - * / =
+objtypes : ounce floor
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 4.6

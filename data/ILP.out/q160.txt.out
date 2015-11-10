@@ -1,0 +1,28 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 288 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 45 | 9 | (9*1)=x | 9 1 * x = | 9:bill 1:person *:person x:person =:person
+EXPR: 0 | POS | INT | 10 | 45 | 9 | x=(9*1) | x 9 1 * = | x:money 9:money 1:person *:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 9 | 9=(1*x) | 9 1 x * = | 9:bill 1:bill x:money *:bill =:bill
+EXPR: 0 | POS | INT | 12 | 45 | 9 | (9/x)=1 | 9 x / 1 = | 9:bill x:money /:bill 1:bill =:bill
+EXPR: 0 | POS | INT | 12 | 45 | 9 | 9=(x*1) | 9 x 1 * = | 9:bill x:money 1:bill *:bill =:bill
+EXPR: 0 | POS | INT | 12 | 45 | 9 | (x/9)=1 | x 9 / 1 = | x:person 9:bill /:person 1:person =:person
+EXPR: 0 | POS | INT | 20 | 45 | 10 | (9+1)=x | 9 1 + x = | 9:money 1:money +:money x:money =:money
+EXPR: 0 | POS | INT | 20 | 45 | 8 | (9-1)=x | 9 1 - x = | 9:money 1:money -:money x:money =:money
+EXPR: 0 | POS | INT | 20 | 45 | 8 | x=(9-1) | x 9 1 - = | x:money 9:money 1:money -:money =:money
+EXPR: 0 | POS | INT | 20 | 45 | 10 | x=(9+1) | x 9 1 + = | x:bill 9:bill 1:bill +:bill =:bill
+EXPR: 0 | POS | INT | 22 | 45 | 9 | (x*1)=9 | x 1 * 9 = | x:money 1:person *:money 9:money =:money
+EXPR: 0 | POS | INT | 22 | 45 | 10 | (x-9)=1 | x 9 - 1 = | x:bill 9:bill -:bill 1:bill =:bill
+EXPR: 0 | POS | INT | 22 | 45 | 9 | 1=(9/x) | 1 9 x / = | 1:bill 9:bill x:money /:bill =:bill
+EXPR: 0 | POS | INT | 22 | 45 | 8 | (9-x)=1 | 9 x - 1 = | 9:person x:person -:person 1:person =:person
+EXPR: 0 | POS | INT | 22 | 45 | 9 | 1=(x/9) | 1 x 9 / = | 1:money x:money 9:bill /:money =:money
+EXPR: 0 | POS | INT | 22 | 45 | 8 | 9=(x+1) | 9 x 1 + = | 9:money x:money 1:money +:money =:money
+EXPR: 0 | POS | INT | 22 | 45 | 10 | 9=(x-1) | 9 x 1 - = | 9:money x:money 1:money -:money =:money
+EXPR: 0 | POS | INT | 22 | 45 | 8 | 9=(1+x) | 9 1 x + = | 9:money 1:money x:money +:money =:money
+EXPR: 0 | POS | INT | 22 | 45 | 9 | (1*x)=9 | 1 x * 9 = | 1:bill x:money *:bill 9:bill =:bill
+EXPR: 0 | POS | INT | 32 | 45 | 8 | (1+x)=9 | 1 x + 9 = | 1:money x:money +:money 9:money =:money
+EXPR: 0 | POS | INT | 32 | 45 | 10 | (x-1)=9 | x 1 - 9 = | x:money 1:money -:money 9:money =:money
+EXPR: 0 | POS | INT | 32 | 45 | 8 | (x+1)=9 | x 1 + 9 = | x:money 1:money +:money 9:money =:money
+EXPR: 0 | POS | INT | 32 | 45 | 10 | 1=(x-9) | 1 x 9 - = | 1:money x:money 9:money -:money =:money
+EXPR: 0 | POS | INT | 32 | 45 | 8 | 1=(9-x) | 1 9 x - = | 1:bill 9:bill x:bill -:bill =:bill
+NET 24 unique, non-negative, integer-valued solutions found out of 288 total solutions

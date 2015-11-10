@@ -1,0 +1,28 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 124 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 8 | 24 | x=(24*1) | x 24 1 * = | x:potato 24:potato 1:person *:potato =:potato
+EXPR: 0 | POS | INT | 0 | 8 | 24 | (24*1)=x | 24 1 * x = | 24:potato 1:person *:potato x:potato =:potato
+EXPR: 0 | POS | INT | 2 | 8 | 24 | 24=(x*1) | 24 x 1 * = | 24:potato x:potato 1:person *:potato =:potato
+EXPR: 0 | POS | INT | 2 | 8 | 24 | 24=(1*x) | 24 1 x * = | 24:potato 1:person x:potato *:potato =:potato
+EXPR: 0 | POS | INT | 10 | 8 | 23 | x=(24-1) | x 24 1 - = | x:potato 24:potato 1:potato -:potato =:potato
+EXPR: 0 | POS | INT | 10 | 8 | 25 | (24+1)=x | 24 1 + x = | 24:potato 1:potato +:potato x:potato =:potato
+EXPR: 0 | POS | INT | 10 | 8 | 23 | (24-1)=x | 24 1 - x = | 24:potato 1:potato -:potato x:potato =:potato
+EXPR: 0 | POS | INT | 10 | 8 | 25 | x=(24+1) | x 24 1 + = | x:potato 24:potato 1:potato +:potato =:potato
+EXPR: 0 | POS | INT | 12 | 8 | 25 | (x-24)=1 | x 24 - 1 = | x:potato 24:potato -:potato 1:potato =:potato
+EXPR: 0 | POS | INT | 12 | 8 | 23 | 24=(1+x) | 24 1 x + = | 24:potato 1:potato x:potato +:potato =:potato
+EXPR: 0 | POS | INT | 12 | 8 | 24 | (x/24)=1 | x 24 / 1 = | x:person 24:potato /:person 1:person =:person
+EXPR: 0 | POS | INT | 12 | 8 | 25 | 24=(x-1) | 24 x 1 - = | 24:potato x:potato 1:potato -:potato =:potato
+EXPR: 0 | POS | INT | 12 | 8 | 23 | 24=(x+1) | 24 x 1 + = | 24:potato x:potato 1:potato +:potato =:potato
+EXPR: 0 | POS | INT | 12 | 8 | 24 | (x*1)=24 | x 1 * 24 = | x:potato 1:person *:potato 24:potato =:potato
+EXPR: 0 | POS | INT | 12 | 8 | 24 | (1*x)=24 | 1 x * 24 = | 1:person x:potato *:potato 24:potato =:potato
+EXPR: 0 | POS | INT | 12 | 8 | 23 | (24-x)=1 | 24 x - 1 = | 24:potato x:potato -:potato 1:potato =:potato
+EXPR: 0 | POS | INT | 12 | 8 | 24 | (24/x)=1 | 24 x / 1 = | 24:person x:potato /:person 1:person =:person
+EXPR: 0 | POS | INT | 22 | 8 | 23 | (x+1)=24 | x 1 + 24 = | x:potato 1:potato +:potato 24:potato =:potato
+EXPR: 0 | POS | INT | 22 | 8 | 25 | 1=(x-24) | 1 x 24 - = | 1:potato x:potato 24:potato -:potato =:potato
+EXPR: 0 | POS | INT | 22 | 8 | 23 | 1=(24-x) | 1 24 x - = | 1:potato 24:potato x:potato -:potato =:potato
+EXPR: 0 | POS | INT | 22 | 8 | 24 | 1=(x/24) | 1 x 24 / = | 1:person x:person 24:potato /:person =:person
+EXPR: 0 | POS | INT | 22 | 8 | 24 | 1=(24/x) | 1 24 x / = | 1:person 24:person x:potato /:person =:person
+EXPR: 0 | POS | INT | 22 | 8 | 23 | (1+x)=24 | 1 x + 24 = | 1:potato x:potato +:potato 24:potato =:potato
+EXPR: 0 | POS | INT | 22 | 8 | 25 | (x-1)=24 | x 1 - 24 = | x:potato 1:potato -:potato 24:potato =:potato
+NET 24 unique, non-negative, integer-valued solutions found out of 124 total solutions

@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 24 | 24 | x=(8*3) | x 8 3 * = | x:bill 8:bill 3:person *:bill =:bill
+EXPR: 1 | POS | INT | 10 | 24 | 24 | (8*3)=x | 8 3 * x = | 8:dollar 3:person *:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 24 | 24 | 8=(x/3) | 8 x 3 / = | 8:bill x:bill 3:person /:bill =:bill
+EXPR: 1 | POS | INT | 12 | 24 | 24 | (x/8)=3 | x 8 / 3 = | x:bill 8:dollar /:bill 3:bill =:bill
+EXPR: 0 | POS | INT | 20 | 24 | 11 | (8+3)=x | 8 3 + x = | 8:dollar 3:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 24 | 11 | x=(8+3) | x 8 3 + = | x:person 8:person 3:person +:person =:person
+EXPR: 0 | POS | INT | 20 | 24 | 5 | (8-3)=x | 8 3 - x = | 8:dollar 3:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 24 | 5 | x=(8-3) | x 8 3 - = | x:bill 8:bill 3:bill -:bill =:bill
+EXPR: 0 | POS | INT | 22 | 24 | 11 | (x-8)=3 | x 8 - 3 = | x:person 8:person -:person 3:person =:person
+EXPR: 1 | POS | INT | 22 | 24 | 24 | 3=(x/8) | 3 x 8 / = | 3:bill x:bill 8:dollar /:bill =:bill
+EXPR: 0 | POS | INT | 22 | 24 | 5 | 8=(3+x) | 8 3 x + = | 8:person 3:person x:person +:person =:person
+EXPR: 0 | POS | INT | 22 | 24 | 5 | (8-x)=3 | 8 x - 3 = | 8:bill x:bill -:bill 3:bill =:bill
+EXPR: 0 | POS | INT | 22 | 24 | 5 | 8=(x+3) | 8 x 3 + = | 8:bill x:bill 3:bill +:bill =:bill
+EXPR: 0 | POS | INT | 22 | 24 | 11 | 8=(x-3) | 8 x 3 - = | 8:bill x:bill 3:bill -:bill =:bill
+EXPR: 1 | POS | INT | 22 | 24 | 24 | (x/3)=8 | x 3 / 8 = | x:bill 3:person /:bill 8:bill =:bill
+EXPR: 0 | POS | INT | 32 | 24 | 11 | (x-3)=8 | x 3 - 8 = | x:person 3:person -:person 8:person =:person
+EXPR: 0 | POS | INT | 32 | 24 | 5 | (3+x)=8 | 3 x + 8 = | 3:person x:person +:person 8:person =:person
+EXPR: 0 | POS | INT | 32 | 24 | 5 | (x+3)=8 | x 3 + 8 = | x:dollar 3:dollar +:dollar 8:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 24 | 5 | 3=(8-x) | 3 8 x - = | 3:person 8:person x:person -:person =:person
+EXPR: 0 | POS | INT | 32 | 24 | 11 | 3=(x-8) | 3 x 8 - = | 3:person x:person 8:person -:person =:person
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

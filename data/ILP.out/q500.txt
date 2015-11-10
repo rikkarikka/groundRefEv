@@ -1,0 +1,7 @@
+constants : 190 0.04 500
+unknowns : x
+operators : + - * / =
+objtypes : dollar sale
+constantOrUnknownType : 0 1 0 1
+n : 7
+answer : 7750.0

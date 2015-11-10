@@ -1,0 +1,7 @@
+constants : 1134 1475 3
+unknowns : x
+operators : + - * / =
+objtypes : mile week
+constantOrUnknownType : 0 0 1 0
+n : 7
+answer : 7827

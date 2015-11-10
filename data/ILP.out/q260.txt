@@ -1,0 +1,7 @@
+constants : 6 6 8 18
+unknowns : x
+operators : + - * / =
+objtypes : van people bus
+constantOrUnknownType : 0 1 2 1 1
+n : 9
+answer : 180.0

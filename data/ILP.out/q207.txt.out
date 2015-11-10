@@ -1,0 +1,28 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 288 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 11.9 | 14 | (14*1)=x | 14 1 * x = | 14:toothfairy 1:person *:person x:person =:person
+EXPR: 0 | POS | INT | 10 | 11.9 | 14 | x=(14*1) | x 14 1 * = | x:money 14:money 1:person *:money =:money
+EXPR: 0 | POS | INT | 12 | 11.9 | 14 | 14=(1*x) | 14 1 x * = | 14:toothfairy 1:toothfairy x:money *:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 12 | 11.9 | 14 | (14/x)=1 | 14 x / 1 = | 14:toothfairy x:money /:toothfairy 1:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 12 | 11.9 | 14 | 14=(x*1) | 14 x 1 * = | 14:toothfairy x:money 1:toothfairy *:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 12 | 11.9 | 14 | (x/14)=1 | x 14 / 1 = | x:person 14:toothfairy /:person 1:person =:person
+EXPR: 0 | POS | INT | 20 | 11.9 | 15 | (14+1)=x | 14 1 + x = | 14:money 1:money +:money x:money =:money
+EXPR: 0 | POS | INT | 20 | 11.9 | 13 | (14-1)=x | 14 1 - x = | 14:money 1:money -:money x:money =:money
+EXPR: 0 | POS | INT | 20 | 11.9 | 13 | x=(14-1) | x 14 1 - = | x:money 14:money 1:money -:money =:money
+EXPR: 0 | POS | INT | 20 | 11.9 | 15 | x=(14+1) | x 14 1 + = | x:toothfairy 14:toothfairy 1:toothfairy +:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 22 | 11.9 | 14 | (x*1)=14 | x 1 * 14 = | x:money 1:person *:money 14:money =:money
+EXPR: 0 | POS | INT | 22 | 11.9 | 15 | (x-14)=1 | x 14 - 1 = | x:toothfairy 14:toothfairy -:toothfairy 1:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 22 | 11.9 | 14 | 1=(14/x) | 1 14 x / = | 1:toothfairy 14:toothfairy x:money /:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 22 | 11.9 | 13 | (14-x)=1 | 14 x - 1 = | 14:person x:person -:person 1:person =:person
+EXPR: 0 | POS | INT | 22 | 11.9 | 14 | 1=(x/14) | 1 x 14 / = | 1:money x:money 14:toothfairy /:money =:money
+EXPR: 0 | POS | INT | 22 | 11.9 | 13 | 14=(x+1) | 14 x 1 + = | 14:money x:money 1:money +:money =:money
+EXPR: 0 | POS | INT | 22 | 11.9 | 15 | 14=(x-1) | 14 x 1 - = | 14:money x:money 1:money -:money =:money
+EXPR: 0 | POS | INT | 22 | 11.9 | 13 | 14=(1+x) | 14 1 x + = | 14:money 1:money x:money +:money =:money
+EXPR: 0 | POS | INT | 22 | 11.9 | 14 | (1*x)=14 | 1 x * 14 = | 1:toothfairy x:money *:toothfairy 14:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 32 | 11.9 | 13 | (1+x)=14 | 1 x + 14 = | 1:money x:money +:money 14:money =:money
+EXPR: 0 | POS | INT | 32 | 11.9 | 15 | (x-1)=14 | x 1 - 14 = | x:money 1:money -:money 14:money =:money
+EXPR: 0 | POS | INT | 32 | 11.9 | 13 | (x+1)=14 | x 1 + 14 = | x:money 1:money +:money 14:money =:money
+EXPR: 0 | POS | INT | 32 | 11.9 | 15 | 1=(x-14) | 1 x 14 - = | 1:money x:money 14:money -:money =:money
+EXPR: 0 | POS | INT | 32 | 11.9 | 13 | 1=(14-x) | 1 14 x - = | 1:toothfairy 14:toothfairy x:toothfairy -:toothfairy =:toothfairy
+NET 24 unique, non-negative, integer-valued solutions found out of 288 total solutions

@@ -1,0 +1,7 @@
+constants : 9 4
+unknowns : x
+operators : + - * / =
+objtypes : pokemon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 13.0

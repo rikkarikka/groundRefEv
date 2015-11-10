@@ -1,0 +1,41 @@
+\section{Related Work}
+The current work is situated within a tradition of work on mapping natural language text to executable formal representations. (CITE EVERYONE)
+More closely related are works on automatic problem solving such as (CITE EVERYONE FROM SEO TO HIXON AND BEYOND)
+The techniques developed in this line of work are especially relevant to the problem of solving algebra word problems, and merit discussion here.
+
+Question Answering
+A number of systems seek to provide answers for single sentence questions such as “What is the tallest mountain in California?” or “What are social networking sites used for?”. 
+
+Fader et al outlines an open domain question answering system that uses paraphrases to learn a semantic lexicon.
+
+Bordes et al show that Memory Networks can be used to improve question answering systems
+
+Hixson et al learn to augment knowledge bases through dialogs with users, resulting in improved question answering.
+
+Jansen et al show that discourse theory, both shallow and RST based, can be used to improve non-factoid question answering. 
+
+
+Math Word Problems
+Closer still to this line of inquiry are those works who take on the task of solving math word problems.
+ 
+In two recent works, Seo et al. 2014 and Seo et al 2015, combine techniques from computer vision with natural language processing and logical inference to solve SAT geometry problems. The vision components are used to parse diagrams which are referenced in the question text. Their work shows that grounding the text in the diagram improves accuracy versus text-only systems.
+Shi et al provide a method for solving number word problems such as “Nine plus the sum of an even integer and its square is 3 raised to the power of 4. What is the number?”  Their method involves training a CFG parser which translates sentences of a number word problem to a meaning representation language called DOlphin Language (DOL). DOL consists of constants, classes, and functions, a semantics which allows for the mathematical computation of a DOL tree. The method for translating a natural language sentence to a DOL tree involves the “semi-automatic” learning of 9600 CFG rules from text to semantic forms. 
+
+Kushman et al do whatever they do. 
+
+Zhou et al improve upon the technique of Kushman et al by using quadratic programming. Interestingly, a helpful innovation of their work is the reduction of semantic information. Specifically, they no longer pair numbers with variables, significantly reducing the space of possible template alignments. 
+
+Roy et al solve multistep single equation problems using equation trees. They define a canonical form for equations which divorces them from the form of the text. 
+
+HPSG and MRS
+
+The syntactic theory behind this work is Head-driven Phrase Structure Grammar (cite Pollard and Sag). HPSG makes use of a large lexicon related by a type hierarchy. It is a constraint-based grammar. A word or phrase is represented by a feature structure, which also includes a semantics component. 
+
+The semantic formalism used in this work is Minimal Recursion Semantics (cite Copestake). MRS is a flat semantics which is sufficiently expressive, computationally tractable, and integrated with an HPSG implementation. 
+
+This current work makes use of syntactic parses from the English Resource Grammar (ERG) (cite Copestake and Flickinger). The ERG is a broad coverage HPSG for the English language which parses to MSR semantics
+
+The English Resource Grammar is a hand built HPSG grammar for English (cite Flickinger).
+
+Previous work has applied the effective parses and semantic forms provided by the ERG to problems of AI. Packard 2014 maps MRS to Robot Control Language instructions. The author produces many manual translations of MRS predicates to 
+

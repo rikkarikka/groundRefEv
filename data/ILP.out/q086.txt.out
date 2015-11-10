@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 59 | 25 | (42-17)=x | 42 17 - x = | 42:pear 17:pear -:pear x:pear =:pear
+EXPR: 1 | POS | INT | 0 | 59 | 59 | x=(42+17) | x 42 17 + = | x:pear 42:pear 17:pear +:pear =:pear
+EXPR: 0 | POS | INT | 0 | 59 | 25 | x=(42-17) | x 42 17 - = | x:pear 42:pear 17:pear -:pear =:pear
+EXPR: 1 | POS | INT | 0 | 59 | 59 | (42+17)=x | 42 17 + x = | 42:pear 17:pear +:pear x:pear =:pear
+EXPR: 0 | POS | INT | 2 | 59 | 25 | 42=(17+x) | 42 17 x + = | 42:pear 17:pear x:pear +:pear =:pear
+EXPR: 1 | POS | INT | 2 | 59 | 59 | (x-42)=17 | x 42 - 17 = | x:pear 42:pear -:pear 17:pear =:pear
+EXPR: 0 | POS | INT | 2 | 59 | 25 | 42=(x+17) | 42 x 17 + = | 42:pear x:pear 17:pear +:pear =:pear
+EXPR: 0 | POS | INT | 2 | 59 | 25 | (42-x)=17 | 42 x - 17 = | 42:pear x:pear -:pear 17:pear =:pear
+EXPR: 1 | POS | INT | 2 | 59 | 59 | 42=(x-17) | 42 x 17 - = | 42:pear x:pear 17:pear -:pear =:pear
+EXPR: 0 | POS | INT | 12 | 59 | 25 | (x+17)=42 | x 17 + 42 = | x:pear 17:pear +:pear 42:pear =:pear
+EXPR: 1 | POS | INT | 12 | 59 | 59 | (x-17)=42 | x 17 - 42 = | x:pear 17:pear -:pear 42:pear =:pear
+EXPR: 0 | POS | INT | 12 | 59 | 25 | (17+x)=42 | 17 x + 42 = | 17:pear x:pear +:pear 42:pear =:pear
+EXPR: 1 | POS | INT | 12 | 59 | 59 | 17=(x-42) | 17 x 42 - = | 17:pear x:pear 42:pear -:pear =:pear
+EXPR: 0 | POS | INT | 12 | 59 | 25 | 17=(42-x) | 17 42 x - = | 17:pear 42:pear x:pear -:pear =:pear
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

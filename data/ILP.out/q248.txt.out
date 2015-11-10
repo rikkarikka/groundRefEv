@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 111421 | 12421 | (61921-49500)=x | 61921 49500 - x = | 61921:yard 49500:yard -:yard x:yard =:yard
+EXPR: 1 | POS | INT | 0 | 111421 | 111421 | x=(61921+49500) | x 61921 49500 + = | x:yard 61921:yard 49500:yard +:yard =:yard
+EXPR: 0 | POS | INT | 0 | 111421 | 12421 | x=(61921-49500) | x 61921 49500 - = | x:yard 61921:yard 49500:yard -:yard =:yard
+EXPR: 1 | POS | INT | 0 | 111421 | 111421 | (61921+49500)=x | 61921 49500 + x = | 61921:yard 49500:yard +:yard x:yard =:yard
+EXPR: 0 | POS | INT | 2 | 111421 | 12421 | 61921=(49500+x) | 61921 49500 x + = | 61921:yard 49500:yard x:yard +:yard =:yard
+EXPR: 1 | POS | INT | 2 | 111421 | 111421 | (x-61921)=49500 | x 61921 - 49500 = | x:yard 61921:yard -:yard 49500:yard =:yard
+EXPR: 0 | POS | INT | 2 | 111421 | 12421 | 61921=(x+49500) | 61921 x 49500 + = | 61921:yard x:yard 49500:yard +:yard =:yard
+EXPR: 0 | POS | INT | 2 | 111421 | 12421 | (61921-x)=49500 | 61921 x - 49500 = | 61921:yard x:yard -:yard 49500:yard =:yard
+EXPR: 1 | POS | INT | 2 | 111421 | 111421 | 61921=(x-49500) | 61921 x 49500 - = | 61921:yard x:yard 49500:yard -:yard =:yard
+EXPR: 0 | POS | INT | 12 | 111421 | 12421 | (x+49500)=61921 | x 49500 + 61921 = | x:yard 49500:yard +:yard 61921:yard =:yard
+EXPR: 1 | POS | INT | 12 | 111421 | 111421 | (x-49500)=61921 | x 49500 - 61921 = | x:yard 49500:yard -:yard 61921:yard =:yard
+EXPR: 0 | POS | INT | 12 | 111421 | 12421 | (49500+x)=61921 | 49500 x + 61921 = | 49500:yard x:yard +:yard 61921:yard =:yard
+EXPR: 1 | POS | INT | 12 | 111421 | 111421 | 49500=(x-61921) | 49500 x 61921 - = | 49500:yard x:yard 61921:yard -:yard =:yard
+EXPR: 0 | POS | INT | 12 | 111421 | 12421 | 49500=(61921-x) | 49500 61921 x - = | 49500:yard 61921:yard x:yard -:yard =:yard
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

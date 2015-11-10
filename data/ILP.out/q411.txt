@@ -1,0 +1,7 @@
+constants : 420 7
+unknowns : x
+operators : + - * / =
+objtypes : seedling seed packet
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 60

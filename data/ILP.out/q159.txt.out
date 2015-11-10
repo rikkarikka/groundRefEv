@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 56 | 56 | x=(7*8) | x 7 8 * = | x:pie 7:day 8:pie *:pie =:pie
+EXPR: 1 | POS | INT | 0 | 56 | 56 | (7*8)=x | 7 8 * x = | 7:day 8:pie *:pie x:pie =:pie
+EXPR: 1 | POS | INT | 2 | 56 | 56 | (x/7)=8 | x 7 / 8 = | x:pie 7:day /:pie 8:pie =:pie
+EXPR: 0 | POS | INT | 10 | 56 | 15 | x=(7+8) | x 7 8 + = | x:pie 7:pie 8:pie +:pie =:pie
+EXPR: 0 | POS | INT | 10 | 56 | 15 | (7+8)=x | 7 8 + x = | 7:pie 8:pie +:pie x:pie =:pie
+EXPR: 0 | POS | INT | 12 | 56 | 1 | 7=(8-x) | 7 8 x - = | 7:pie 8:pie x:pie -:pie =:pie
+EXPR: 1 | POS | INT | 12 | 56 | 56 | 8=(x/7) | 8 x 7 / = | 8:pie x:pie 7:day /:pie =:pie
+EXPR: 0 | POS | INT | 12 | 56 | 1 | (x+7)=8 | x 7 + 8 = | x:pie 7:pie +:pie 8:pie =:pie
+EXPR: 0 | POS | INT | 12 | 56 | 15 | (x-7)=8 | x 7 - 8 = | x:pie 7:pie -:pie 8:pie =:pie
+EXPR: 0 | POS | INT | 12 | 56 | 1 | (7+x)=8 | 7 x + 8 = | 7:pie x:pie +:pie 8:pie =:pie
+EXPR: 0 | POS | INT | 12 | 56 | 15 | 7=(x-8) | 7 x 8 - = | 7:pie x:pie 8:pie -:pie =:pie
+EXPR: 1 | POS | INT | 12 | 56 | 56 | 7=(x/8) | 7 x 8 / = | 7:day x:day 8:pie /:day =:day
+EXPR: 0 | POS | INT | 20 | 56 | 1 | x=(8-7) | x 8 7 - = | x:pie 8:pie 7:pie -:pie =:pie
+EXPR: 0 | POS | INT | 20 | 56 | 1 | (8-7)=x | 8 7 - x = | 8:pie 7:pie -:pie x:pie =:pie
+EXPR: 0 | POS | INT | 22 | 56 | 1 | (8-x)=7 | 8 x - 7 = | 8:pie x:pie -:pie 7:pie =:pie
+EXPR: 1 | POS | INT | 22 | 56 | 56 | (x/8)=7 | x 8 / 7 = | x:day 8:pie /:day 7:day =:day
+EXPR: 0 | POS | INT | 22 | 56 | 1 | 8=(7+x) | 8 7 x + = | 8:pie 7:pie x:pie +:pie =:pie
+EXPR: 0 | POS | INT | 22 | 56 | 15 | (x-8)=7 | x 8 - 7 = | x:pie 8:pie -:pie 7:pie =:pie
+EXPR: 0 | POS | INT | 22 | 56 | 1 | 8=(x+7) | 8 x 7 + = | 8:pie x:pie 7:pie +:pie =:pie
+EXPR: 0 | POS | INT | 22 | 56 | 15 | 8=(x-7) | 8 x 7 - = | 8:pie x:pie 7:pie -:pie =:pie
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

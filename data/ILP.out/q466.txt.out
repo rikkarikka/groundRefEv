@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 3750 | 1247 | (1250-3)=x | 1250 3 - x = | 1250:people 3:people -:people x:people =:people
+EXPR: 0 | POS | INT | 0 | 3750 | 1253 | x=(1250+3) | x 1250 3 + = | x:people 1250:people 3:people +:people =:people
+EXPR: 0 | POS | INT | 0 | 3750 | 1247 | x=(1250-3) | x 1250 3 - = | x:people 1250:people 3:people -:people =:people
+EXPR: 0 | POS | INT | 0 | 3750 | 1253 | (1250+3)=x | 1250 3 + x = | 1250:people 3:people +:people x:people =:people
+EXPR: 0 | POS | INT | 2 | 3750 | 1247 | 1250=(3+x) | 1250 3 x + = | 1250:people 3:people x:people +:people =:people
+EXPR: 0 | POS | INT | 2 | 3750 | 1253 | (x-1250)=3 | x 1250 - 3 = | x:people 1250:people -:people 3:people =:people
+EXPR: 0 | POS | INT | 2 | 3750 | 1247 | 1250=(x+3) | 1250 x 3 + = | 1250:people x:people 3:people +:people =:people
+EXPR: 0 | POS | INT | 2 | 3750 | 1247 | (1250-x)=3 | 1250 x - 3 = | 1250:people x:people -:people 3:people =:people
+EXPR: 0 | POS | INT | 2 | 3750 | 1253 | 1250=(x-3) | 1250 x 3 - = | 1250:people x:people 3:people -:people =:people
+EXPR: 0 | POS | INT | 12 | 3750 | 1247 | (x+3)=1250 | x 3 + 1250 = | x:people 3:people +:people 1250:people =:people
+EXPR: 0 | POS | INT | 12 | 3750 | 1253 | (x-3)=1250 | x 3 - 1250 = | x:people 3:people -:people 1250:people =:people
+EXPR: 0 | POS | INT | 12 | 3750 | 1247 | (3+x)=1250 | 3 x + 1250 = | 3:people x:people +:people 1250:people =:people
+EXPR: 0 | POS | INT | 12 | 3750 | 1253 | 3=(x-1250) | 3 x 1250 - = | 3:people x:people 1250:people -:people =:people
+EXPR: 0 | POS | INT | 12 | 3750 | 1247 | 3=(1250-x) | 3 1250 x - = | 3:people 1250:people x:people -:people =:people
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

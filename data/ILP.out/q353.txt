@@ -1,0 +1,7 @@
+constants : 1.125 2.125
+unknowns : x
+operators : + - * / =
+objtypes : lap
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3.25

@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 984 | 984 | x=(4*246) | x 4 246 * = | x:people 4:section 246:people *:people =:people
+EXPR: 1 | POS | INT | 0 | 984 | 984 | (4*246)=x | 4 246 * x = | 4:section 246:people *:people x:people =:people
+EXPR: 1 | POS | INT | 2 | 984 | 984 | (x/4)=246 | x 4 / 246 = | x:people 4:section /:people 246:people =:people
+EXPR: 0 | POS | INT | 10 | 984 | 250 | x=(4+246) | x 4 246 + = | x:people 4:people 246:people +:people =:people
+EXPR: 0 | POS | INT | 10 | 984 | 250 | (4+246)=x | 4 246 + x = | 4:people 246:people +:people x:people =:people
+EXPR: 0 | POS | INT | 12 | 984 | 242 | 4=(246-x) | 4 246 x - = | 4:people 246:people x:people -:people =:people
+EXPR: 1 | POS | INT | 12 | 984 | 984 | 246=(x/4) | 246 x 4 / = | 246:people x:people 4:section /:people =:people
+EXPR: 0 | POS | INT | 12 | 984 | 242 | (x+4)=246 | x 4 + 246 = | x:people 4:people +:people 246:people =:people
+EXPR: 0 | POS | INT | 12 | 984 | 250 | (x-4)=246 | x 4 - 246 = | x:people 4:people -:people 246:people =:people
+EXPR: 0 | POS | INT | 12 | 984 | 242 | (4+x)=246 | 4 x + 246 = | 4:people x:people +:people 246:people =:people
+EXPR: 0 | POS | INT | 12 | 984 | 250 | 4=(x-246) | 4 x 246 - = | 4:people x:people 246:people -:people =:people
+EXPR: 1 | POS | INT | 12 | 984 | 984 | 4=(x/246) | 4 x 246 / = | 4:section x:section 246:people /:section =:section
+EXPR: 0 | POS | INT | 20 | 984 | 242 | x=(246-4) | x 246 4 - = | x:people 246:people 4:people -:people =:people
+EXPR: 0 | POS | INT | 20 | 984 | 242 | (246-4)=x | 246 4 - x = | 246:people 4:people -:people x:people =:people
+EXPR: 0 | POS | INT | 22 | 984 | 242 | (246-x)=4 | 246 x - 4 = | 246:people x:people -:people 4:people =:people
+EXPR: 1 | POS | INT | 22 | 984 | 984 | (x/246)=4 | x 246 / 4 = | x:section 246:people /:section 4:section =:section
+EXPR: 0 | POS | INT | 22 | 984 | 242 | 246=(4+x) | 246 4 x + = | 246:people 4:people x:people +:people =:people
+EXPR: 0 | POS | INT | 22 | 984 | 250 | (x-246)=4 | x 246 - 4 = | x:people 246:people -:people 4:people =:people
+EXPR: 0 | POS | INT | 22 | 984 | 242 | 246=(x+4) | 246 x 4 + = | 246:people x:people 4:people +:people =:people
+EXPR: 0 | POS | INT | 22 | 984 | 250 | 246=(x-4) | 246 x 4 - = | 246:people x:people 4:people -:people =:people
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

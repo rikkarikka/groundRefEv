@@ -1,11 +1,13 @@
 import scala.io.Source
 import scala.util.Random
 import scala.collection.mutable.ListBuffer
+import scala.collection.mutable.ArrayBuffer
+import scala.collection.mutable.Stack
 import java.io._
 import libsvm.svm._
 import breeze.linalg._
 
-object globals {
+object g {
         def REL_LIST= Source.fromFile("data/rel_list.txt").mkString.split("\n").distinct
         val probdir = "data/problems/"
         val dir = new File(probdir)
@@ -15,6 +17,12 @@ object globals {
         def close(a:Float,b:Float,thresh:Double=0.001): Boolean = {
             return Math.abs(a-b)<thresh
         }
+        var m = new Word2Vec()
+        m.load("data/smallvectors.bin")
+
+
+        
+
 
 }
 
@@ -62,10 +70,10 @@ object parseQuestion {
 
         
         def cannonicalize(l:Float,r:Float, a:Float): String = {
-            if (globals.close(l+r,a)) return "+"
-            if (globals.close(l-r,a)||globals.close(r-l,a)) return "-"
-            if (globals.close(l*r,a)) return "*"
-            if (globals.close(l/r,a)||globals.close(r/l,a)) return "/"
+            if (g.close(l+r,a)) return "+"
+            if (g.close(l-r,a)||g.close(r-l,a)) return "-"
+            if (g.close(l*r,a)) return "*"
+            if (g.close(l/r,a)||g.close(r/l,a)) return "/"
             else return "fail"
         }
 
@@ -117,7 +125,7 @@ object parseQuestion {
             //if (op=="fail") {print(eqValues);print(a)}
 	    val lOperand = w.numbers filter (x => x.card == eqValues(0).toFloat) 
 	    val rOperand = w.numbers filter (x => x.card == eqValues(1).toFloat)
-	    val vec = w.vector(globals.REL_LIST,lOperand(0),rOperand(0))
+	    val vec = w.vector(g.REL_LIST,lOperand(0),rOperand(0))
 	    var j=1
 	    var opID = 0
 	    op match {
@@ -135,11 +143,11 @@ object parseQuestion {
             return (r findAllIn e).toList map (_.toString)
         }
 
+
         def solveProblem(w:World, a:Float, e:String): Int = {
             //val numbers = w.numbers map (_.card)//w.EntityID map (_._2) filter (_.card != None) filter (_.card.asInstanceOf[String].charAt(0).isDigit) map (_.card.asInstanceOf[String].toFloat)
-            val eqValues = parseEquation(e) filter (x=>(x.charAt(0).isDigit)&&(x != "0.0"))
+            val eqValues = w.numbers map (_.card) filter (x=>(x!=0.0)) //parseEquation(e) filter (x=>(x.charAt(0).isDigit)&&(x != "0.0"))
             var op = cannonicalize(eqValues(0).toFloat,eqValues(1).toFloat,a)
-            if (eqValues.toList.length>2) op = "fail"
             /*
             val eqValues = parseEquation(e) map (x=>if (x=="x") "0.0" else x)
 	    val op = eqValues filter (List("+","-","/","*") contains _)
@@ -150,7 +158,8 @@ object parseQuestion {
             //if (op=="fail") {print(eqValues);print(a)}
 	    val lOperand = w.numbers filter (x => x.card == eqValues(0).toFloat) 
 	    val rOperand = w.numbers filter (x => x.card == eqValues(1).toFloat)
-	    val vec = w.vector(globals.REL_LIST,lOperand(0),rOperand(0))
+	    //val vec = w.vector(g.REL_LIST,lOperand(0),rOperand(0))
+	    val vec = w.handmadeVector(g.m,g.REL_LIST,lOperand(0),rOperand(0))
 	    var j=1
 	    var opID = 0
 	    //op(0) match {
@@ -160,6 +169,7 @@ object parseQuestion {
 		    case "*" => opID = 2
 		    case "/" => opID = 3
 	    }
+            //if (opID > 1) return 1
 	    print(opID.toString + " ")
             vec foreach {x => print(j.toString+":"+x.toString+" ");j+=1}
 	    println()
@@ -172,7 +182,7 @@ object parseQuestion {
             if (eqValues.toList.length>2) op = "fail"
 	    val lOperand = w.numbers filter (x => x.card == eqValues(0).toFloat) 
 	    val rOperand = w.numbers filter (x => x.card == eqValues(1).toFloat)
-	    val vec = w.bVector(globals.REL_LIST,lOperand(0),rOperand(0))
+	    val vec = w.bVector(g.REL_LIST,lOperand(0),rOperand(0))
             return vec
         }
 
@@ -189,6 +199,7 @@ object parseQuestion {
             return opID
         }
 
+
         def doPCA() {
             val probdir = "data/problems/"
             val dir = new File(probdir)
@@ -201,7 +212,7 @@ object parseQuestion {
             var answers = Source.fromFile("data/a.txt").mkString.split("\n") map (_.toFloat)
             var equations = Source.fromFile("data/eq.txt").mkString.split("\n")
 
-            var matrix = DenseMatrix.zeros[Double](globals.REL_LIST.length*2,problems.length)
+            var matrix = DenseMatrix.zeros[Double](g.REL_LIST.length*2,problems.length)
             var i = 0
             var ops = new ListBuffer[Int]
             //produce training vectors for each problem
@@ -275,8 +286,8 @@ object parseQuestion {
 
         def listRels() {
             var rels = new ListBuffer[String]
-            globals.problems foreach { x => 
-                var fi = Source.fromFile(globals.probdir+x)
+            g.problems foreach { x => 
+                var fi = Source.fromFile(g.probdir+x)
 		var sentences = fi.mkString.split("\n\n") filter (! _.trim.isEmpty)
 		fi.close()
                 val w = parseStory(sentences)
@@ -324,23 +335,81 @@ object parseQuestion {
 
         def dev() {
             val dev = Source.fromFile("data/dev.indexes").mkString.split("\n").toList 
-            val problems = globals.problems filter { x => (dev contains x)}
+            val problems = g.problems filter { x => (dev contains x)}
             val m = libsvm.svm.svm_load_model("data/simple.m")
             var right = 0
             problems foreach { x =>
-                var fi = Source.fromFile(globals.probdir+x)
+                var fi = Source.fromFile(g.probdir+x)
 
                 var pidx = x.split("\\.")(0).toInt
 		var sentences = fi.mkString.split("\n\n") filter (! _.trim.isEmpty)
 		fi.close()
                 val w = parseStory(sentences)
-                right += dev_results(m,w,globals.answers(pidx),globals.REL_LIST)
+                right += dev_results(m,w,g.answers(pidx),g.REL_LIST)
             }
             println(f"right $right%d ; total ${problems.length}%d ; acc ${right/problems.length}%2.2f")
         }
 
 
 
+        def printOut() {
+            val probdir = "data/problems/"
+            val dir = new File(probdir)
+
+            //Dont train on the dev or test sets
+            val dontrain = Source.fromFile("data/dev.indexes").mkString.split("\n").toList ++ Source.fromFile("data/test.indexes").mkString.split("\n").toList
+            val problems = dir.list filter (_.endsWith("mrs")) filter { x => !(dontrain contains x)}
+            problems foreach { x => 
+
+                //this reads the MRSes of each problem
+		var fi = Source.fromFile(probdir+x)
+		var sentences = fi.mkString.split("\n\n") filter (! _.trim.isEmpty)
+		fi.close()
+
+                // create a World from MRSes of problem statement sentences
+                val w = parseStory(sentences)
+                println(x.split("\\.")(0))
+                var fi2 = Source.fromFile(probdir+x.split("\\.")(0)+".txt")
+                println(fi2.mkString)
+                fi2.close()
+                w.EntityID foreach {case (k,v) => v.print()}
+
+                //ILP
+                var pidx = x.split("\\.")(0).toInt
+                var eqs = getEqs(pidx) 
+                if (verify(eqs,w)) eqs foreach {x => procEq(x,w)}
+            }
+        }
+
+        def verify(eqs:ArrayBuffer[String],w:World): Boolean = {
+            if (eqs.length == 0) return false 
+
+            var e = eqs(0).split(" ") filter (_.charAt(0).isDigit) map (_.toFloat)
+            print(e.toList,w.numbers.map(_.card))
+            if (w.numbers map (_.card) forall (x => e exists (g.close(x,_)))) return true
+            else return false
+        }
+
+        class Trip(e1:String,e2:String,op:String){
+        }
+
+        def procEq(e:String,w:World): ArrayBuffer[Trip] = {
+            var spl = e.split(" ")
+            var triples = new ArrayBuffer[Trip]
+            var stack = new Stack[String]()
+            spl foreach {x =>
+                if ("/-+=*" contains x) {
+                    var a = stack.pop
+                    var b = stack.pop
+                    stack.push(b+" "+a+" "+x)
+                    triples.append(new Trip(a,b,x))
+
+                }
+                else stack.push(x)
+                //println(stack)
+            }
+            return triples
+        }
 
 
         def train() {
@@ -370,16 +439,33 @@ object parseQuestion {
                 //this gets the associated answer and equation
                 var pidx = x.split("\\.")(0).toInt
                 var a = answers(pidx)
-                var e = equations(pidx)
+                //var e = equations(pidx)
+                var eqs = getEqs(pidx)
+                var trips = new ArrayBuffer[Trip]
+                eqs foreach {e => 
+                    trips ++= procEq(e,w) 
+                }
+                println(trips.length)
+                trips.toSet
+                println(trips.length)
 
+                /*
 		try {
 			val s = solveProblem(w,a,e)
-            } catch {case _ : Throwable => println(x)}
-                //w.vectorize(REL_LIST,s)
-                //rel_list(w)
+            } catch {case _ : Throwable => {} } //println(x)}
+                */
             }
         }
-	
+
+        def getEqs(i:Int,k:Int=100): ArrayBuffer[String] = {
+            var fi = Source.fromFile(f"data/ILP.out/q$i%03d.txt.out").mkString.split("\n") filter (_ contains "EXPR: 1")
+            var cEqs = new ArrayBuffer[String]
+            fi foreach {x =>
+                cEqs += x.split("\\|")(7).trim
+            }
+            return cEqs
+        }
+
 	def main(args:Array[String]) {
             val probdir = "data/problems/"
             val REL_LIST= Source.fromFile("data/rel_list.txt").mkString.split("\n").distinct
@@ -387,6 +473,9 @@ object parseQuestion {
             val dir = new File(probdir)
             var files = new Array[String](0)
             args(0) match {
+                case "printout" => {
+                    printOut()
+                }
                 case "PCA" => {
                     doPCA()
                 }
@@ -411,11 +500,6 @@ object parseQuestion {
                 }
                 case "dev" => {
 			dev()
-
-
-                }
-                case "parse" => {
-                    files = dir.list filter (_.endsWith("mrs"))
                 }
                 case _ => {
                     println("requrires test, train, or dev arg"); System.exit(1)

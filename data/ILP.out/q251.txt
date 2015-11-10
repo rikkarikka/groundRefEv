@@ -1,0 +1,7 @@
+constants : 14,797 4,969
+unknowns : x
+operators : + - * / =
+objtypes : suit bathing
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 19766.0

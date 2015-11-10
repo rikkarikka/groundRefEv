@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 12.3 | 12.3 | x=(5.71+6.59) | x 5.71 6.59 + = | x:dollar 5.71:dollar 6.59:dollar +:dollar =:dollar
+EXPR: 1 | POS | FRA | 0 | 12.3 | 12.3 | (5.71+6.59)=x | 5.71 6.59 + x = | 5.71:dollar 6.59:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 12.3 | 0.88 | (x+5.71)=6.59 | x 5.71 + 6.59 = | x:dollar 5.71:dollar +:dollar 6.59:dollar =:dollar
+EXPR: 1 | POS | FRA | 2 | 12.3 | 12.3 | (x-5.71)=6.59 | x 5.71 - 6.59 = | x:dollar 5.71:dollar -:dollar 6.59:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 12.3 | 0.88 | (5.71+x)=6.59 | 5.71 x + 6.59 = | 5.71:dollar x:dollar +:dollar 6.59:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 12.3 | 0.88 | 5.71=(6.59-x) | 5.71 6.59 x - = | 5.71:dollar 6.59:dollar x:dollar -:dollar =:dollar
+EXPR: 1 | POS | FRA | 2 | 12.3 | 12.3 | 5.71=(x-6.59) | 5.71 x 6.59 - = | 5.71:dollar x:dollar 6.59:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 12.3 | 0.88 | (6.59-5.71)=x | 6.59 5.71 - x = | 6.59:dollar 5.71:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 12.3 | 0.88 | x=(6.59-5.71) | x 6.59 5.71 - = | x:dollar 6.59:dollar 5.71:dollar -:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 12.3 | 12.3 | (x-6.59)=5.71 | x 6.59 - 5.71 = | x:dollar 6.59:dollar -:dollar 5.71:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 12.3 | 0.88 | 6.59=(x+5.71) | 6.59 x 5.71 + = | 6.59:dollar x:dollar 5.71:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 12.3 | 0.88 | 6.59=(5.71+x) | 6.59 5.71 x + = | 6.59:dollar 5.71:dollar x:dollar +:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 12.3 | 12.3 | 6.59=(x-5.71) | 6.59 x 5.71 - = | 6.59:dollar x:dollar 5.71:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 12.3 | 0.88 | (6.59-x)=5.71 | 6.59 x - 5.71 = | 6.59:dollar x:dollar -:dollar 5.71:dollar =:dollar
+NET 14 unique, non-negative solutions found out of 28 total solutions

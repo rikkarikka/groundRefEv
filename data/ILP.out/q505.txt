@@ -1,0 +1,7 @@
+constants : 12 84
+unknowns : x
+operators : + - * / =
+objtypes : ounce cent cost
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 7.0

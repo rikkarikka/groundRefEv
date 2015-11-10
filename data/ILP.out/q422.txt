@@ -1,0 +1,7 @@
+constants : 4 36
+unknowns : x
+operators : + - * / =
+objtypes : ball bag
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 9

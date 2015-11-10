@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 12 | 6 | (9-3)=x | 9 3 - x = | 9:marble 3:marble -:marble x:marble =:marble
+EXPR: 1 | POS | INT | 0 | 12 | 12 | x=(9+3) | x 9 3 + = | x:marble 9:marble 3:marble +:marble =:marble
+EXPR: 0 | POS | INT | 0 | 12 | 6 | x=(9-3) | x 9 3 - = | x:marble 9:marble 3:marble -:marble =:marble
+EXPR: 1 | POS | INT | 0 | 12 | 12 | (9+3)=x | 9 3 + x = | 9:marble 3:marble +:marble x:marble =:marble
+EXPR: 0 | POS | INT | 2 | 12 | 6 | 9=(3+x) | 9 3 x + = | 9:marble 3:marble x:marble +:marble =:marble
+EXPR: 1 | POS | INT | 2 | 12 | 12 | (x-9)=3 | x 9 - 3 = | x:marble 9:marble -:marble 3:marble =:marble
+EXPR: 0 | POS | INT | 2 | 12 | 6 | 9=(x+3) | 9 x 3 + = | 9:marble x:marble 3:marble +:marble =:marble
+EXPR: 0 | POS | INT | 2 | 12 | 6 | (9-x)=3 | 9 x - 3 = | 9:marble x:marble -:marble 3:marble =:marble
+EXPR: 1 | POS | INT | 2 | 12 | 12 | 9=(x-3) | 9 x 3 - = | 9:marble x:marble 3:marble -:marble =:marble
+EXPR: 0 | POS | INT | 12 | 12 | 6 | (x+3)=9 | x 3 + 9 = | x:marble 3:marble +:marble 9:marble =:marble
+EXPR: 1 | POS | INT | 12 | 12 | 12 | (x-3)=9 | x 3 - 9 = | x:marble 3:marble -:marble 9:marble =:marble
+EXPR: 0 | POS | INT | 12 | 12 | 6 | (3+x)=9 | 3 x + 9 = | 3:marble x:marble +:marble 9:marble =:marble
+EXPR: 1 | POS | INT | 12 | 12 | 12 | 3=(x-9) | 3 x 9 - = | 3:marble x:marble 9:marble -:marble =:marble
+EXPR: 0 | POS | INT | 12 | 12 | 6 | 3=(9-x) | 3 9 x - = | 3:marble 9:marble x:marble -:marble =:marble
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

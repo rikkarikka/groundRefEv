@@ -1,0 +1,7 @@
+constants : 7.19 6.83 20
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 5.98

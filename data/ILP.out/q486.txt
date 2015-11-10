@@ -1,0 +1,7 @@
+constants : 7 5 15
+unknowns : x
+operators : + - * / =
+objtypes : student minute
+constantOrUnknownType : 0 1 1 0
+n : 7
+answer : 21

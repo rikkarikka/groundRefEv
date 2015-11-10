@@ -1,0 +1,7 @@
+constants : 22 11
+unknowns : x
+operators : + - * / =
+objtypes : player basketball
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 242

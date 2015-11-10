@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 629 | 629 | x=(37*17) | x 37 17 * = | x:apple 37:basket 17:apple *:apple =:apple
+EXPR: 1 | POS | INT | 0 | 629 | 629 | (37*17)=x | 37 17 * x = | 37:basket 17:apple *:apple x:apple =:apple
+EXPR: 1 | POS | INT | 2 | 629 | 629 | (x/37)=17 | x 37 / 17 = | x:apple 37:basket /:apple 17:apple =:apple
+EXPR: 0 | POS | INT | 10 | 629 | 54 | x=(37+17) | x 37 17 + = | x:apple 37:apple 17:apple +:apple =:apple
+EXPR: 0 | POS | INT | 10 | 629 | 54 | (37+17)=x | 37 17 + x = | 37:apple 17:apple +:apple x:apple =:apple
+EXPR: 0 | POS | INT | 10 | 629 | 20 | (37-17)=x | 37 17 - x = | 37:apple 17:apple -:apple x:apple =:apple
+EXPR: 0 | POS | INT | 10 | 629 | 20 | x=(37-17) | x 37 17 - = | x:apple 37:apple 17:apple -:apple =:apple
+EXPR: 0 | POS | INT | 12 | 629 | 20 | (37-x)=17 | 37 x - 17 = | 37:apple x:apple -:apple 17:apple =:apple
+EXPR: 0 | POS | INT | 12 | 629 | 20 | 37=(17+x) | 37 17 x + = | 37:apple 17:apple x:apple +:apple =:apple
+EXPR: 1 | POS | INT | 12 | 629 | 629 | 17=(x/37) | 17 x 37 / = | 17:apple x:apple 37:basket /:apple =:apple
+EXPR: 0 | POS | INT | 12 | 629 | 54 | (x-37)=17 | x 37 - 17 = | x:apple 37:apple -:apple 17:apple =:apple
+EXPR: 0 | POS | INT | 12 | 629 | 20 | 37=(x+17) | 37 x 17 + = | 37:apple x:apple 17:apple +:apple =:apple
+EXPR: 0 | POS | INT | 12 | 629 | 54 | 37=(x-17) | 37 x 17 - = | 37:apple x:apple 17:apple -:apple =:apple
+EXPR: 1 | POS | INT | 12 | 629 | 629 | 37=(x/17) | 37 x 17 / = | 37:basket x:basket 17:apple /:basket =:basket
+EXPR: 1 | POS | INT | 22 | 629 | 629 | (x/17)=37 | x 17 / 37 = | x:basket 17:apple /:basket 37:basket =:basket
+EXPR: 0 | POS | INT | 22 | 629 | 20 | 17=(37-x) | 17 37 x - = | 17:apple 37:apple x:apple -:apple =:apple
+EXPR: 0 | POS | INT | 22 | 629 | 20 | (x+17)=37 | x 17 + 37 = | x:apple 17:apple +:apple 37:apple =:apple
+EXPR: 0 | POS | INT | 22 | 629 | 54 | (x-17)=37 | x 17 - 37 = | x:apple 17:apple -:apple 37:apple =:apple
+EXPR: 0 | POS | INT | 22 | 629 | 20 | (17+x)=37 | 17 x + 37 = | 17:apple x:apple +:apple 37:apple =:apple
+EXPR: 0 | POS | INT | 22 | 629 | 54 | 17=(x-37) | 17 x 37 - = | 17:apple x:apple 37:apple -:apple =:apple
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

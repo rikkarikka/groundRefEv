@@ -1,0 +1,7 @@
+constants : 6 3
+unknowns : x
+operators : + - * / =
+objtypes : carrot
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 9.0

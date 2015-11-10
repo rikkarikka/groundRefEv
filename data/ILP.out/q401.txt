@@ -1,0 +1,7 @@
+constants : 5 28
+unknowns : x
+operators : + - * / =
+objtypes : mobile clown
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 140

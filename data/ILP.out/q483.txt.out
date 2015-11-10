@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 68 | 68 | x=(4*17) | x 4 17 * = | x:UNKNOWN 4:UNKNOWN 17:chapter *:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | INT | 10 | 68 | 68 | (4*17)=x | 4 17 * x = | 4:book 17:chapter *:book x:book =:book
+EXPR: 1 | POS | INT | 12 | 68 | 68 | 4=(x/17) | 4 x 17 / = | 4:UNKNOWN x:UNKNOWN 17:chapter /:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | INT | 12 | 68 | 68 | (x/4)=17 | x 4 / 17 = | x:UNKNOWN 4:book /:UNKNOWN 17:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 20 | 68 | 21 | (4+17)=x | 4 17 + x = | 4:book 17:book +:book x:book =:book
+EXPR: 0 | POS | INT | 20 | 68 | 21 | x=(4+17) | x 4 17 + = | x:chapter 4:chapter 17:chapter +:chapter =:chapter
+EXPR: 0 | POS | INT | 22 | 68 | 21 | (x-4)=17 | x 4 - 17 = | x:chapter 4:chapter -:chapter 17:chapter =:chapter
+EXPR: 1 | POS | INT | 22 | 68 | 68 | 17=(x/4) | 17 x 4 / = | 17:UNKNOWN x:UNKNOWN 4:book /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 22 | 68 | 13 | 4=(17-x) | 4 17 x - = | 4:chapter 17:chapter x:chapter -:chapter =:chapter
+EXPR: 0 | POS | INT | 22 | 68 | 13 | (4+x)=17 | 4 x + 17 = | 4:UNKNOWN x:UNKNOWN +:UNKNOWN 17:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 22 | 68 | 13 | (x+4)=17 | x 4 + 17 = | x:book 4:book +:book 17:book =:book
+EXPR: 0 | POS | INT | 22 | 68 | 21 | 4=(x-17) | 4 x 17 - = | 4:UNKNOWN x:UNKNOWN 17:UNKNOWN -:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | INT | 22 | 68 | 68 | (x/17)=4 | x 17 / 4 = | x:UNKNOWN 17:chapter /:UNKNOWN 4:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 30 | 68 | 13 | x=(17-4) | x 17 4 - = | x:chapter 17:chapter 4:chapter -:chapter =:chapter
+EXPR: 0 | POS | INT | 30 | 68 | 13 | (17-4)=x | 17 4 - x = | 17:UNKNOWN 4:UNKNOWN -:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 32 | 68 | 21 | (x-17)=4 | x 17 - 4 = | x:chapter 17:chapter -:chapter 4:chapter =:chapter
+EXPR: 0 | POS | INT | 32 | 68 | 13 | (17-x)=4 | 17 x - 4 = | 17:chapter x:chapter -:chapter 4:chapter =:chapter
+EXPR: 0 | POS | INT | 32 | 68 | 13 | 17=(4+x) | 17 4 x + = | 17:chapter 4:chapter x:chapter +:chapter =:chapter
+EXPR: 0 | POS | INT | 32 | 68 | 13 | 17=(x+4) | 17 x 4 + = | 17:chapter x:chapter 4:chapter +:chapter =:chapter
+EXPR: 0 | POS | INT | 32 | 68 | 21 | 17=(x-4) | 17 x 4 - = | 17:chapter x:chapter 4:chapter -:chapter =:chapter
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

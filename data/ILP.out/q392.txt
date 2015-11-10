@@ -1,0 +1,7 @@
+constants : 37 17
+unknowns : x
+operators : + - * / =
+objtypes : basket apple
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 629

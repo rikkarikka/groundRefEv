@@ -1,0 +1,7 @@
+constants : 49 9
+unknowns : x
+operators : + - * / =
+objtypes : booklet page
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 441

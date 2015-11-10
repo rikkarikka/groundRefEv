@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 220 | 220 | x=(10*22) | x 10 22 * = | x:sticker 10:sticker 22:page *:sticker =:sticker
+EXPR: 1 | POS | INT | 0 | 220 | 220 | (10*22)=x | 10 22 * x = | 10:sticker 22:page *:sticker x:sticker =:sticker
+EXPR: 1 | POS | INT | 2 | 220 | 220 | 10=(x/22) | 10 x 22 / = | 10:sticker x:sticker 22:page /:sticker =:sticker
+EXPR: 0 | POS | INT | 10 | 220 | 32 | x=(10+22) | x 10 22 + = | x:sticker 10:sticker 22:sticker +:sticker =:sticker
+EXPR: 0 | POS | INT | 10 | 220 | 32 | (10+22)=x | 10 22 + x = | 10:sticker 22:sticker +:sticker x:sticker =:sticker
+EXPR: 0 | POS | INT | 12 | 220 | 32 | 10=(x-22) | 10 x 22 - = | 10:sticker x:sticker 22:sticker -:sticker =:sticker
+EXPR: 0 | POS | INT | 12 | 220 | 12 | (x+10)=22 | x 10 + 22 = | x:sticker 10:sticker +:sticker 22:sticker =:sticker
+EXPR: 0 | POS | INT | 12 | 220 | 32 | (x-10)=22 | x 10 - 22 = | x:sticker 10:sticker -:sticker 22:sticker =:sticker
+EXPR: 0 | POS | INT | 12 | 220 | 12 | 10=(22-x) | 10 22 x - = | 10:sticker 22:sticker x:sticker -:sticker =:sticker
+EXPR: 0 | POS | INT | 12 | 220 | 12 | (10+x)=22 | 10 x + 22 = | 10:sticker x:sticker +:sticker 22:sticker =:sticker
+EXPR: 1 | POS | INT | 12 | 220 | 220 | (x/10)=22 | x 10 / 22 = | x:page 10:sticker /:page 22:page =:page
+EXPR: 1 | POS | INT | 12 | 220 | 220 | (x/22)=10 | x 22 / 10 = | x:sticker 22:page /:sticker 10:sticker =:sticker
+EXPR: 0 | POS | INT | 20 | 220 | 12 | (22-10)=x | 22 10 - x = | 22:sticker 10:sticker -:sticker x:sticker =:sticker
+EXPR: 0 | POS | INT | 20 | 220 | 12 | x=(22-10) | x 22 10 - = | x:sticker 22:sticker 10:sticker -:sticker =:sticker
+EXPR: 0 | POS | INT | 22 | 220 | 12 | 22=(x+10) | 22 x 10 + = | 22:sticker x:sticker 10:sticker +:sticker =:sticker
+EXPR: 0 | POS | INT | 22 | 220 | 12 | (22-x)=10 | 22 x - 10 = | 22:sticker x:sticker -:sticker 10:sticker =:sticker
+EXPR: 0 | POS | INT | 22 | 220 | 32 | 22=(x-10) | 22 x 10 - = | 22:sticker x:sticker 10:sticker -:sticker =:sticker
+EXPR: 1 | POS | INT | 22 | 220 | 220 | 22=(x/10) | 22 x 10 / = | 22:page x:page 10:sticker /:page =:page
+EXPR: 0 | POS | INT | 22 | 220 | 12 | 22=(10+x) | 22 10 x + = | 22:sticker 10:sticker x:sticker +:sticker =:sticker
+EXPR: 0 | POS | INT | 22 | 220 | 32 | (x-22)=10 | x 22 - 10 = | x:sticker 22:sticker -:sticker 10:sticker =:sticker
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

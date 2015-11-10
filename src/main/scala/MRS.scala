@@ -5,6 +5,18 @@ class MRS(sent:String,specs:String){
 	val wb = parseWB
 	val word = sent substring(wb(0),wb(1))
 	val rel = specs.split("\\[")(1).split("<")(0).trim
+        var pos = "?"
+        if (rel contains "_n_") pos = "n"
+        //if (rel contains "_v_") pos = "v"
+        //if (rel contains "_a_") pos = "a"
+        
+        var pRel = "?"
+        if (pos != "?") {
+            pRel = rel.split("_"+pos+"_")(0) filter {x => !("_\"" contains x)}
+        }
+        else pRel = rel
+
+
 	val lbl = specs.split("LBL: ")(1).split(" ")(0)
 	val args = parseArgs
         val carg = parseCarg

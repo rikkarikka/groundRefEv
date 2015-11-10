@@ -1,0 +1,7 @@
+constants : 2315 1028
+unknowns : x
+operators : + - * / =
+objtypes : marker
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3343

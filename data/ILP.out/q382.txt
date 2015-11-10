@@ -1,0 +1,7 @@
+constants : 0.14 0.38
+unknowns : x
+operators : + - * / =
+objtypes : kilogram
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.52

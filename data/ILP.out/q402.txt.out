@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 2268 | 2268 | x=(378*6) | x 378 6 * = | x:ball 378:juggler 6:ball *:ball =:ball
+EXPR: 1 | POS | INT | 0 | 2268 | 2268 | (378*6)=x | 378 6 * x = | 378:juggler 6:ball *:ball x:ball =:ball
+EXPR: 1 | POS | INT | 2 | 2268 | 2268 | (x/378)=6 | x 378 / 6 = | x:ball 378:juggler /:ball 6:ball =:ball
+EXPR: 0 | POS | INT | 10 | 2268 | 63 | (378/6)=x | 378 6 / x = | 378:juggler 6:ball /:juggler x:juggler =:juggler
+EXPR: 0 | POS | INT | 10 | 2268 | 384 | x=(378+6) | x 378 6 + = | x:ball 378:ball 6:ball +:ball =:ball
+EXPR: 0 | POS | INT | 10 | 2268 | 384 | (378+6)=x | 378 6 + x = | 378:ball 6:ball +:ball x:ball =:ball
+EXPR: 0 | POS | INT | 10 | 2268 | 63 | x=(378/6) | x 378 6 / = | x:juggler 378:juggler 6:ball /:juggler =:juggler
+EXPR: 0 | POS | INT | 10 | 2268 | 372 | (378-6)=x | 378 6 - x = | 378:ball 6:ball -:ball x:ball =:ball
+EXPR: 0 | POS | INT | 10 | 2268 | 372 | x=(378-6) | x 378 6 - = | x:ball 378:ball 6:ball -:ball =:ball
+EXPR: 0 | POS | INT | 12 | 2268 | 63 | 378=(x*6) | 378 x 6 * = | 378:juggler x:ball 6:juggler *:juggler =:juggler
+EXPR: 0 | POS | INT | 12 | 2268 | 63 | 378=(6*x) | 378 6 x * = | 378:juggler 6:juggler x:ball *:juggler =:juggler
+EXPR: 0 | POS | INT | 12 | 2268 | 63 | (378/x)=6 | 378 x / 6 = | 378:juggler x:ball /:juggler 6:juggler =:juggler
+EXPR: 0 | POS | INT | 12 | 2268 | 372 | (378-x)=6 | 378 x - 6 = | 378:ball x:ball -:ball 6:ball =:ball
+EXPR: 0 | POS | INT | 12 | 2268 | 372 | 378=(6+x) | 378 6 x + = | 378:ball 6:ball x:ball +:ball =:ball
+EXPR: 1 | POS | INT | 12 | 2268 | 2268 | 6=(x/378) | 6 x 378 / = | 6:ball x:ball 378:juggler /:ball =:ball
+EXPR: 0 | POS | INT | 12 | 2268 | 384 | (x-378)=6 | x 378 - 6 = | x:ball 378:ball -:ball 6:ball =:ball
+EXPR: 0 | POS | INT | 12 | 2268 | 372 | 378=(x+6) | 378 x 6 + = | 378:ball x:ball 6:ball +:ball =:ball
+EXPR: 0 | POS | INT | 12 | 2268 | 384 | 378=(x-6) | 378 x 6 - = | 378:ball x:ball 6:ball -:ball =:ball
+EXPR: 1 | POS | INT | 12 | 2268 | 2268 | 378=(x/6) | 378 x 6 / = | 378:juggler x:juggler 6:ball /:juggler =:juggler
+EXPR: 1 | POS | INT | 22 | 2268 | 2268 | (x/6)=378 | x 6 / 378 = | x:juggler 6:ball /:juggler 378:juggler =:juggler
+EXPR: 0 | POS | INT | 22 | 2268 | 372 | 6=(378-x) | 6 378 x - = | 6:ball 378:ball x:ball -:ball =:ball
+EXPR: 0 | POS | INT | 22 | 2268 | 63 | (x*6)=378 | x 6 * 378 = | x:ball 6:juggler *:juggler 378:juggler =:juggler
+EXPR: 0 | POS | INT | 22 | 2268 | 372 | (x+6)=378 | x 6 + 378 = | x:ball 6:ball +:ball 378:ball =:ball
+EXPR: 0 | POS | INT | 22 | 2268 | 63 | 6=(378/x) | 6 378 x / = | 6:juggler 378:juggler x:ball /:juggler =:juggler
+EXPR: 0 | POS | INT | 22 | 2268 | 63 | (6*x)=378 | 6 x * 378 = | 6:ball x:juggler *:juggler 378:juggler =:juggler
+EXPR: 0 | POS | INT | 22 | 2268 | 384 | (x-6)=378 | x 6 - 378 = | x:ball 6:ball -:ball 378:ball =:ball
+EXPR: 0 | POS | INT | 22 | 2268 | 372 | (6+x)=378 | 6 x + 378 = | 6:ball x:ball +:ball 378:ball =:ball
+EXPR: 0 | POS | INT | 22 | 2268 | 384 | 6=(x-378) | 6 x 378 - = | 6:ball x:ball 378:ball -:ball =:ball
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

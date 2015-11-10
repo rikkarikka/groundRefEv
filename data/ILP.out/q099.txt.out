@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 9 | 9 | x=(45/5) | x 45 5 / = | x:dollar 45:dollar 5:bill /:dollar =:dollar
+EXPR: 1 | POS | INT | 0 | 9 | 9 | (45/5)=x | 45 5 / x = | 45:dollar 5:bill /:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 0 | 9 | 225 | x=(45*5) | x 45 5 * = | x:dollar 45:dollar 5:bill *:dollar =:dollar
+EXPR: 0 | POS | INT | 0 | 9 | 225 | (45*5)=x | 45 5 * x = | 45:dollar 5:bill *:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 9 | 9 | 45=(5*x) | 45 5 x * = | 45:dollar 5:bill x:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 9 | 225 | 45=(x/5) | 45 x 5 / = | 45:dollar x:dollar 5:bill /:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 9 | 9 | 45=(x*5) | 45 x 5 * = | 45:dollar x:dollar 5:bill *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 9 | 40 | (45-5)=x | 45 5 - x = | 45:dollar 5:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 9 | 50 | x=(45+5) | x 45 5 + = | x:dollar 45:dollar 5:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 9 | 40 | x=(45-5) | x 45 5 - = | x:dollar 45:dollar 5:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 9 | 50 | (45+5)=x | 45 5 + x = | 45:dollar 5:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 9 | 40 | 45=(x+5) | 45 x 5 + = | 45:dollar x:dollar 5:dollar +:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 9 | 9 | (45/x)=5 | 45 x / 5 = | 45:bill x:dollar /:bill 5:bill =:bill
+EXPR: 1 | POS | INT | 12 | 9 | 9 | (5*x)=45 | 5 x * 45 = | 5:bill x:dollar *:dollar 45:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 9 | 50 | 45=(x-5) | 45 x 5 - = | 45:dollar x:dollar 5:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 9 | 40 | 45=(5+x) | 45 5 x + = | 45:dollar 5:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 9 | 50 | (x-45)=5 | x 45 - 5 = | x:dollar 45:dollar -:dollar 5:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 9 | 40 | (45-x)=5 | 45 x - 5 = | 45:dollar x:dollar -:dollar 5:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 9 | 225 | (x/45)=5 | x 45 / 5 = | x:bill 45:dollar /:bill 5:bill =:bill
+EXPR: 0 | POS | INT | 12 | 9 | 225 | (x/5)=45 | x 5 / 45 = | x:dollar 5:bill /:dollar 45:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 9 | 9 | (x*5)=45 | x 5 * 45 = | x:dollar 5:bill *:dollar 45:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 9 | 40 | (x+5)=45 | x 5 + 45 = | x:dollar 5:dollar +:dollar 45:dollar =:dollar
+EXPR: 1 | POS | INT | 22 | 9 | 9 | 5=(45/x) | 5 45 x / = | 5:bill 45:bill x:dollar /:bill =:bill
+EXPR: 0 | POS | INT | 22 | 9 | 40 | (5+x)=45 | 5 x + 45 = | 5:dollar x:dollar +:dollar 45:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 9 | 50 | 5=(x-45) | 5 x 45 - = | 5:dollar x:dollar 45:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 9 | 225 | 5=(x/45) | 5 x 45 / = | 5:bill x:bill 45:dollar /:bill =:bill
+EXPR: 0 | POS | INT | 22 | 9 | 40 | 5=(45-x) | 5 45 x - = | 5:dollar 45:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 9 | 50 | (x-5)=45 | x 5 - 45 = | x:dollar 5:dollar -:dollar 45:dollar =:dollar
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 18 | 18 | x=(2*9) | x 2 9 * = | x:UNKNOWN 2:UNKNOWN 9:pound *:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | INT | 10 | 18 | 18 | (2*9)=x | 2 9 * x = | 2:ounce 9:pound *:ounce x:ounce =:ounce
+EXPR: 1 | POS | INT | 12 | 18 | 18 | 2=(x/9) | 2 x 9 / = | 2:UNKNOWN x:UNKNOWN 9:pound /:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | INT | 12 | 18 | 18 | (x/2)=9 | x 2 / 9 = | x:UNKNOWN 2:ounce /:UNKNOWN 9:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 20 | 18 | 11 | (2+9)=x | 2 9 + x = | 2:ounce 9:ounce +:ounce x:ounce =:ounce
+EXPR: 0 | POS | INT | 20 | 18 | 11 | x=(2+9) | x 2 9 + = | x:pound 2:pound 9:pound +:pound =:pound
+EXPR: 0 | POS | INT | 22 | 18 | 11 | (x-2)=9 | x 2 - 9 = | x:pound 2:pound -:pound 9:pound =:pound
+EXPR: 1 | POS | INT | 22 | 18 | 18 | 9=(x/2) | 9 x 2 / = | 9:UNKNOWN x:UNKNOWN 2:ounce /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 22 | 18 | 7 | 2=(9-x) | 2 9 x - = | 2:pound 9:pound x:pound -:pound =:pound
+EXPR: 0 | POS | INT | 22 | 18 | 7 | (2+x)=9 | 2 x + 9 = | 2:UNKNOWN x:UNKNOWN +:UNKNOWN 9:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 22 | 18 | 7 | (x+2)=9 | x 2 + 9 = | x:ounce 2:ounce +:ounce 9:ounce =:ounce
+EXPR: 0 | POS | INT | 22 | 18 | 11 | 2=(x-9) | 2 x 9 - = | 2:UNKNOWN x:UNKNOWN 9:UNKNOWN -:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | INT | 22 | 18 | 18 | (x/9)=2 | x 9 / 2 = | x:UNKNOWN 9:pound /:UNKNOWN 2:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 30 | 18 | 7 | x=(9-2) | x 9 2 - = | x:pound 9:pound 2:pound -:pound =:pound
+EXPR: 0 | POS | INT | 30 | 18 | 7 | (9-2)=x | 9 2 - x = | 9:UNKNOWN 2:UNKNOWN -:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 32 | 18 | 11 | (x-9)=2 | x 9 - 2 = | x:pound 9:pound -:pound 2:pound =:pound
+EXPR: 0 | POS | INT | 32 | 18 | 7 | (9-x)=2 | 9 x - 2 = | 9:pound x:pound -:pound 2:pound =:pound
+EXPR: 0 | POS | INT | 32 | 18 | 7 | 9=(2+x) | 9 2 x + = | 9:pound 2:pound x:pound +:pound =:pound
+EXPR: 0 | POS | INT | 32 | 18 | 7 | 9=(x+2) | 9 x 2 + = | 9:pound x:pound 2:pound +:pound =:pound
+EXPR: 0 | POS | INT | 32 | 18 | 11 | 9=(x-2) | 9 x 2 - = | 9:pound x:pound 2:pound -:pound =:pound
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

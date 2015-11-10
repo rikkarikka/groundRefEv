@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 6003 | 6003 | x=(261*23) | x 261 23 * = | x:fish 261:fishbowl 23:fish *:fish =:fish
+EXPR: 1 | POS | INT | 0 | 6003 | 6003 | (261*23)=x | 261 23 * x = | 261:fishbowl 23:fish *:fish x:fish =:fish
+EXPR: 1 | POS | INT | 2 | 6003 | 6003 | (x/261)=23 | x 261 / 23 = | x:fish 261:fishbowl /:fish 23:fish =:fish
+EXPR: 0 | POS | INT | 10 | 6003 | 284 | x=(261+23) | x 261 23 + = | x:fish 261:fish 23:fish +:fish =:fish
+EXPR: 0 | POS | INT | 10 | 6003 | 284 | (261+23)=x | 261 23 + x = | 261:fish 23:fish +:fish x:fish =:fish
+EXPR: 0 | POS | INT | 10 | 6003 | 238 | (261-23)=x | 261 23 - x = | 261:fish 23:fish -:fish x:fish =:fish
+EXPR: 0 | POS | INT | 10 | 6003 | 238 | x=(261-23) | x 261 23 - = | x:fish 261:fish 23:fish -:fish =:fish
+EXPR: 0 | POS | INT | 12 | 6003 | 238 | (261-x)=23 | 261 x - 23 = | 261:fish x:fish -:fish 23:fish =:fish
+EXPR: 0 | POS | INT | 12 | 6003 | 238 | 261=(23+x) | 261 23 x + = | 261:fish 23:fish x:fish +:fish =:fish
+EXPR: 1 | POS | INT | 12 | 6003 | 6003 | 23=(x/261) | 23 x 261 / = | 23:fish x:fish 261:fishbowl /:fish =:fish
+EXPR: 0 | POS | INT | 12 | 6003 | 284 | (x-261)=23 | x 261 - 23 = | x:fish 261:fish -:fish 23:fish =:fish
+EXPR: 0 | POS | INT | 12 | 6003 | 238 | 261=(x+23) | 261 x 23 + = | 261:fish x:fish 23:fish +:fish =:fish
+EXPR: 0 | POS | INT | 12 | 6003 | 284 | 261=(x-23) | 261 x 23 - = | 261:fish x:fish 23:fish -:fish =:fish
+EXPR: 1 | POS | INT | 12 | 6003 | 6003 | 261=(x/23) | 261 x 23 / = | 261:fishbowl x:fishbowl 23:fish /:fishbowl =:fishbowl
+EXPR: 1 | POS | INT | 22 | 6003 | 6003 | (x/23)=261 | x 23 / 261 = | x:fishbowl 23:fish /:fishbowl 261:fishbowl =:fishbowl
+EXPR: 0 | POS | INT | 22 | 6003 | 238 | 23=(261-x) | 23 261 x - = | 23:fish 261:fish x:fish -:fish =:fish
+EXPR: 0 | POS | INT | 22 | 6003 | 238 | (x+23)=261 | x 23 + 261 = | x:fish 23:fish +:fish 261:fish =:fish
+EXPR: 0 | POS | INT | 22 | 6003 | 284 | (x-23)=261 | x 23 - 261 = | x:fish 23:fish -:fish 261:fish =:fish
+EXPR: 0 | POS | INT | 22 | 6003 | 238 | (23+x)=261 | 23 x + 261 = | 23:fish x:fish +:fish 261:fish =:fish
+EXPR: 0 | POS | INT | 22 | 6003 | 284 | 23=(x-261) | 23 x 261 - = | 23:fish x:fish 261:fish -:fish =:fish
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

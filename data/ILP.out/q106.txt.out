@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 13 | 13 | 390=(x*30) | 390 x 30 * = | 390:student x:classroom 30:student *:student =:student
+EXPR: 1 | POS | INT | 2 | 13 | 13 | 390=(30*x) | 390 30 x * = | 390:student 30:student x:classroom *:student =:student
+EXPR: 1 | POS | INT | 2 | 13 | 13 | (390/x)=30 | 390 x / 30 = | 390:student x:classroom /:student 30:student =:student
+EXPR: 0 | POS | INT | 10 | 13 | 11700 | (390*30)=x | 390 30 * x = | 390:student 30:classroom *:classroom x:classroom =:classroom
+EXPR: 0 | POS | INT | 10 | 13 | 420 | (390+30)=x | 390 30 + x = | 390:student 30:student +:student x:student =:student
+EXPR: 0 | POS | INT | 10 | 13 | 360 | x=(390-30) | x 390 30 - = | x:student 390:student 30:student -:student =:student
+EXPR: 0 | POS | INT | 10 | 13 | 11700 | x=(390*30) | x 390 30 * = | x:classroom 390:student 30:classroom *:classroom =:classroom
+EXPR: 0 | POS | INT | 10 | 13 | 420 | x=(390+30) | x 390 30 + = | x:student 390:student 30:student +:student =:student
+EXPR: 0 | POS | INT | 10 | 13 | 360 | (390-30)=x | 390 30 - x = | 390:student 30:student -:student x:student =:student
+EXPR: 1 | POS | INT | 10 | 13 | 13 | x=(390/30) | x 390 30 / = | x:classroom 390:classroom 30:student /:classroom =:classroom
+EXPR: 1 | POS | INT | 10 | 13 | 13 | (390/30)=x | 390 30 / x = | 390:classroom 30:student /:classroom x:classroom =:classroom
+EXPR: 1 | POS | INT | 12 | 13 | 13 | 30=(390/x) | 30 390 x / = | 30:student 390:student x:classroom /:student =:student
+EXPR: 1 | POS | INT | 12 | 13 | 13 | (x*30)=390 | x 30 * 390 = | x:classroom 30:student *:student 390:student =:student
+EXPR: 0 | POS | INT | 12 | 13 | 11700 | 390=(x/30) | 390 x 30 / = | 390:classroom x:classroom 30:student /:classroom =:classroom
+EXPR: 0 | POS | INT | 12 | 13 | 420 | 390=(x-30) | 390 x 30 - = | 390:student x:student 30:student -:student =:student
+EXPR: 0 | POS | INT | 12 | 13 | 360 | (390-x)=30 | 390 x - 30 = | 390:student x:student -:student 30:student =:student
+EXPR: 1 | POS | INT | 12 | 13 | 13 | (30*x)=390 | 30 x * 390 = | 30:student x:classroom *:student 390:student =:student
+EXPR: 0 | POS | INT | 12 | 13 | 360 | 390=(x+30) | 390 x 30 + = | 390:student x:student 30:student +:student =:student
+EXPR: 0 | POS | INT | 12 | 13 | 360 | 390=(30+x) | 390 30 x + = | 390:student 30:student x:student +:student =:student
+EXPR: 0 | POS | INT | 12 | 13 | 420 | (x-390)=30 | x 390 - 30 = | x:student 390:student -:student 30:student =:student
+EXPR: 0 | POS | INT | 12 | 13 | 11700 | (x/390)=30 | x 390 / 30 = | x:classroom 390:student /:classroom 30:classroom =:classroom
+EXPR: 0 | POS | INT | 22 | 13 | 11700 | (x/30)=390 | x 30 / 390 = | x:classroom 30:student /:classroom 390:classroom =:classroom
+EXPR: 0 | POS | INT | 22 | 13 | 420 | (x-30)=390 | x 30 - 390 = | x:student 30:student -:student 390:student =:student
+EXPR: 0 | POS | INT | 22 | 13 | 360 | (30+x)=390 | 30 x + 390 = | 30:student x:student +:student 390:student =:student
+EXPR: 0 | POS | INT | 22 | 13 | 420 | 30=(x-390) | 30 x 390 - = | 30:student x:student 390:student -:student =:student
+EXPR: 0 | POS | INT | 22 | 13 | 360 | (x+30)=390 | x 30 + 390 = | x:student 30:student +:student 390:student =:student
+EXPR: 0 | POS | INT | 22 | 13 | 11700 | 30=(x/390) | 30 x 390 / = | 30:classroom x:classroom 390:student /:classroom =:classroom
+EXPR: 0 | POS | INT | 22 | 13 | 360 | 30=(390-x) | 30 390 x - = | 30:student 390:student x:student -:student =:student
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

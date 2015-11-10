@@ -1,0 +1,28 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 288 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 32 | 4 | (4*1)=x | 4 1 * x = | 4:gumball 1:person *:person x:person =:person
+EXPR: 0 | POS | INT | 10 | 32 | 4 | x=(4*1) | x 4 1 * = | x:money 4:money 1:person *:money =:money
+EXPR: 0 | POS | INT | 12 | 32 | 4 | 4=(1*x) | 4 1 x * = | 4:gumball 1:gumball x:money *:gumball =:gumball
+EXPR: 0 | POS | INT | 12 | 32 | 4 | (4/x)=1 | 4 x / 1 = | 4:gumball x:money /:gumball 1:gumball =:gumball
+EXPR: 0 | POS | INT | 12 | 32 | 4 | 4=(x*1) | 4 x 1 * = | 4:gumball x:money 1:gumball *:gumball =:gumball
+EXPR: 0 | POS | INT | 12 | 32 | 4 | (x/4)=1 | x 4 / 1 = | x:person 4:gumball /:person 1:person =:person
+EXPR: 0 | POS | INT | 20 | 32 | 5 | (4+1)=x | 4 1 + x = | 4:money 1:money +:money x:money =:money
+EXPR: 0 | POS | INT | 20 | 32 | 3 | (4-1)=x | 4 1 - x = | 4:money 1:money -:money x:money =:money
+EXPR: 0 | POS | INT | 20 | 32 | 3 | x=(4-1) | x 4 1 - = | x:money 4:money 1:money -:money =:money
+EXPR: 0 | POS | INT | 20 | 32 | 5 | x=(4+1) | x 4 1 + = | x:gumball 4:gumball 1:gumball +:gumball =:gumball
+EXPR: 0 | POS | INT | 22 | 32 | 4 | (x*1)=4 | x 1 * 4 = | x:money 1:person *:money 4:money =:money
+EXPR: 0 | POS | INT | 22 | 32 | 5 | (x-4)=1 | x 4 - 1 = | x:gumball 4:gumball -:gumball 1:gumball =:gumball
+EXPR: 0 | POS | INT | 22 | 32 | 4 | 1=(4/x) | 1 4 x / = | 1:gumball 4:gumball x:money /:gumball =:gumball
+EXPR: 0 | POS | INT | 22 | 32 | 3 | (4-x)=1 | 4 x - 1 = | 4:person x:person -:person 1:person =:person
+EXPR: 0 | POS | INT | 22 | 32 | 4 | 1=(x/4) | 1 x 4 / = | 1:money x:money 4:gumball /:money =:money
+EXPR: 0 | POS | INT | 22 | 32 | 3 | 4=(x+1) | 4 x 1 + = | 4:money x:money 1:money +:money =:money
+EXPR: 0 | POS | INT | 22 | 32 | 5 | 4=(x-1) | 4 x 1 - = | 4:money x:money 1:money -:money =:money
+EXPR: 0 | POS | INT | 22 | 32 | 3 | 4=(1+x) | 4 1 x + = | 4:money 1:money x:money +:money =:money
+EXPR: 0 | POS | INT | 22 | 32 | 4 | (1*x)=4 | 1 x * 4 = | 1:gumball x:money *:gumball 4:gumball =:gumball
+EXPR: 0 | POS | INT | 32 | 32 | 3 | (1+x)=4 | 1 x + 4 = | 1:money x:money +:money 4:money =:money
+EXPR: 0 | POS | INT | 32 | 32 | 5 | (x-1)=4 | x 1 - 4 = | x:money 1:money -:money 4:money =:money
+EXPR: 0 | POS | INT | 32 | 32 | 3 | (x+1)=4 | x 1 + 4 = | x:money 1:money +:money 4:money =:money
+EXPR: 0 | POS | INT | 32 | 32 | 5 | 1=(x-4) | 1 x 4 - = | 1:money x:money 4:money -:money =:money
+EXPR: 0 | POS | INT | 32 | 32 | 3 | 1=(4-x) | 1 4 x - = | 1:gumball 4:gumball x:gumball -:gumball =:gumball
+NET 24 unique, non-negative, integer-valued solutions found out of 288 total solutions

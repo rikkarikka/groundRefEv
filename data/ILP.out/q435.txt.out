@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 48 | 118 | x=(35+83) | x 35 83 + = | x:muffin 35:muffin 83:muffin +:muffin =:muffin
+EXPR: 0 | POS | INT | 0 | 48 | 118 | (35+83)=x | 35 83 + x = | 35:muffin 83:muffin +:muffin x:muffin =:muffin
+EXPR: 1 | POS | INT | 2 | 48 | 48 | (x+35)=83 | x 35 + 83 = | x:muffin 35:muffin +:muffin 83:muffin =:muffin
+EXPR: 0 | POS | INT | 2 | 48 | 118 | (x-35)=83 | x 35 - 83 = | x:muffin 35:muffin -:muffin 83:muffin =:muffin
+EXPR: 1 | POS | INT | 2 | 48 | 48 | (35+x)=83 | 35 x + 83 = | 35:muffin x:muffin +:muffin 83:muffin =:muffin
+EXPR: 1 | POS | INT | 2 | 48 | 48 | 35=(83-x) | 35 83 x - = | 35:muffin 83:muffin x:muffin -:muffin =:muffin
+EXPR: 0 | POS | INT | 2 | 48 | 118 | 35=(x-83) | 35 x 83 - = | 35:muffin x:muffin 83:muffin -:muffin =:muffin
+EXPR: 1 | POS | INT | 10 | 48 | 48 | (83-35)=x | 83 35 - x = | 83:muffin 35:muffin -:muffin x:muffin =:muffin
+EXPR: 1 | POS | INT | 10 | 48 | 48 | x=(83-35) | x 83 35 - = | x:muffin 83:muffin 35:muffin -:muffin =:muffin
+EXPR: 0 | POS | INT | 12 | 48 | 118 | (x-83)=35 | x 83 - 35 = | x:muffin 83:muffin -:muffin 35:muffin =:muffin
+EXPR: 1 | POS | INT | 12 | 48 | 48 | 83=(x+35) | 83 x 35 + = | 83:muffin x:muffin 35:muffin +:muffin =:muffin
+EXPR: 1 | POS | INT | 12 | 48 | 48 | 83=(35+x) | 83 35 x + = | 83:muffin 35:muffin x:muffin +:muffin =:muffin
+EXPR: 0 | POS | INT | 12 | 48 | 118 | 83=(x-35) | 83 x 35 - = | 83:muffin x:muffin 35:muffin -:muffin =:muffin
+EXPR: 1 | POS | INT | 12 | 48 | 48 | (83-x)=35 | 83 x - 35 = | 83:muffin x:muffin -:muffin 35:muffin =:muffin
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

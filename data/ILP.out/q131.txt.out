@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 10 | 10 | x=(5*2) | x 5 2 * = | x:marble 5:marble 2:Dan *:marble =:marble
+EXPR: 1 | POS | INT | 0 | 10 | 10 | (5*2)=x | 5 2 * x = | 5:marble 2:Dan *:marble x:marble =:marble
+EXPR: 1 | POS | INT | 2 | 10 | 10 | 5=(x/2) | 5 x 2 / = | 5:marble x:marble 2:Dan /:marble =:marble
+EXPR: 0 | POS | INT | 10 | 10 | 3 | (5-2)=x | 5 2 - x = | 5:marble 2:marble -:marble x:marble =:marble
+EXPR: 0 | POS | INT | 10 | 10 | 7 | x=(5+2) | x 5 2 + = | x:marble 5:marble 2:marble +:marble =:marble
+EXPR: 0 | POS | INT | 10 | 10 | 3 | x=(5-2) | x 5 2 - = | x:marble 5:marble 2:marble -:marble =:marble
+EXPR: 0 | POS | INT | 10 | 10 | 7 | (5+2)=x | 5 2 + x = | 5:marble 2:marble +:marble x:marble =:marble
+EXPR: 0 | POS | INT | 12 | 10 | 3 | 5=(x+2) | 5 x 2 + = | 5:marble x:marble 2:marble +:marble =:marble
+EXPR: 0 | POS | INT | 12 | 10 | 7 | 5=(x-2) | 5 x 2 - = | 5:marble x:marble 2:marble -:marble =:marble
+EXPR: 0 | POS | INT | 12 | 10 | 3 | 5=(2+x) | 5 2 x + = | 5:marble 2:marble x:marble +:marble =:marble
+EXPR: 0 | POS | INT | 12 | 10 | 7 | (x-5)=2 | x 5 - 2 = | x:marble 5:marble -:marble 2:marble =:marble
+EXPR: 0 | POS | INT | 12 | 10 | 3 | (5-x)=2 | 5 x - 2 = | 5:marble x:marble -:marble 2:marble =:marble
+EXPR: 1 | POS | INT | 12 | 10 | 10 | (x/5)=2 | x 5 / 2 = | x:Dan 5:marble /:Dan 2:Dan =:Dan
+EXPR: 1 | POS | INT | 12 | 10 | 10 | (x/2)=5 | x 2 / 5 = | x:marble 2:Dan /:marble 5:marble =:marble
+EXPR: 0 | POS | INT | 22 | 10 | 3 | (x+2)=5 | x 2 + 5 = | x:marble 2:marble +:marble 5:marble =:marble
+EXPR: 0 | POS | INT | 22 | 10 | 3 | (2+x)=5 | 2 x + 5 = | 2:marble x:marble +:marble 5:marble =:marble
+EXPR: 0 | POS | INT | 22 | 10 | 7 | 2=(x-5) | 2 x 5 - = | 2:marble x:marble 5:marble -:marble =:marble
+EXPR: 1 | POS | INT | 22 | 10 | 10 | 2=(x/5) | 2 x 5 / = | 2:Dan x:Dan 5:marble /:Dan =:Dan
+EXPR: 0 | POS | INT | 22 | 10 | 3 | 2=(5-x) | 2 5 x - = | 2:marble 5:marble x:marble -:marble =:marble
+EXPR: 0 | POS | INT | 22 | 10 | 7 | (x-2)=5 | x 2 - 5 = | x:marble 2:marble -:marble 5:marble =:marble
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

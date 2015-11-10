@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 68.25 | 0.122186495176849 | 77.75=(9.5/x) | 77.75 9.5 x / = | 77.75:inch 9.5:inch x:UNKNOWN /:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 68.25 | 8.18421052631579 | 77.75=(x*9.5) | 77.75 x 9.5 * = | 77.75:inch x:UNKNOWN 9.5:inch *:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 68.25 | 8.18421052631579 | 77.75=(9.5*x) | 77.75 9.5 x * = | 77.75:inch 9.5:inch x:UNKNOWN *:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 68.25 | 0.122186495176849 | (x*77.75)=9.5 | x 77.75 * 9.5 = | x:UNKNOWN 77.75:inch *:inch 9.5:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 68.25 | 0.122186495176849 | (77.75*x)=9.5 | 77.75 x * 9.5 = | 77.75:inch x:UNKNOWN *:inch 9.5:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 68.25 | 8.18421052631579 | (77.75/x)=9.5 | 77.75 x / 9.5 = | 77.75:inch x:UNKNOWN /:inch 9.5:inch =:inch
+EXPR: 0 | POS | FRA | 10 | 68.25 | 738.625 | (77.75*9.5)=x | 77.75 9.5 * x = | 77.75:inch 9.5:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 10 | 68.25 | 87.25 | (77.75+9.5)=x | 77.75 9.5 + x = | 77.75:inch 9.5:inch +:inch x:inch =:inch
+EXPR: 1 | POS | FRA | 10 | 68.25 | 68.25 | x=(77.75-9.5) | x 77.75 9.5 - = | x:inch 77.75:inch 9.5:inch -:inch =:inch
+EXPR: 0 | POS | FRA | 10 | 68.25 | 738.625 | x=(77.75*9.5) | x 77.75 9.5 * = | x:UNKNOWN 77.75:inch 9.5:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 10 | 68.25 | 87.25 | x=(77.75+9.5) | x 77.75 9.5 + = | x:inch 77.75:inch 9.5:inch +:inch =:inch
+EXPR: 1 | POS | FRA | 10 | 68.25 | 68.25 | (77.75-9.5)=x | 77.75 9.5 - x = | 77.75:inch 9.5:inch -:inch x:inch =:inch
+EXPR: 0 | POS | FRA | 10 | 68.25 | 8.18421052631579 | x=(77.75/9.5) | x 77.75 9.5 / = | x:UNKNOWN 77.75:UNKNOWN 9.5:inch /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 10 | 68.25 | 8.18421052631579 | (77.75/9.5)=x | 77.75 9.5 / x = | 77.75:UNKNOWN 9.5:inch /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 68.25 | 8.18421052631579 | 9.5=(77.75/x) | 9.5 77.75 x / = | 9.5:inch 77.75:inch x:UNKNOWN /:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 68.25 | 8.18421052631579 | (x*9.5)=77.75 | x 9.5 * 77.75 = | x:UNKNOWN 9.5:inch *:inch 77.75:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 68.25 | 738.625 | 77.75=(x/9.5) | 77.75 x 9.5 / = | 77.75:UNKNOWN x:UNKNOWN 9.5:inch /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 68.25 | 0.122186495176849 | 9.5=(77.75*x) | 9.5 77.75 x * = | 9.5:inch 77.75:inch x:UNKNOWN *:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 68.25 | 87.25 | 77.75=(x-9.5) | 77.75 x 9.5 - = | 77.75:inch x:inch 9.5:inch -:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 68.25 | 0.122186495176849 | 9.5=(x*77.75) | 9.5 x 77.75 * = | 9.5:inch x:UNKNOWN 77.75:inch *:inch =:inch
+EXPR: 1 | POS | FRA | 12 | 68.25 | 68.25 | (77.75-x)=9.5 | 77.75 x - 9.5 = | 77.75:inch x:inch -:inch 9.5:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 68.25 | 8.18421052631579 | (9.5*x)=77.75 | 9.5 x * 77.75 = | 9.5:inch x:UNKNOWN *:inch 77.75:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 68.25 | 0.122186495176849 | (9.5/x)=77.75 | 9.5 x / 77.75 = | 9.5:inch x:UNKNOWN /:inch 77.75:inch =:inch
+EXPR: 1 | POS | FRA | 12 | 68.25 | 68.25 | 77.75=(x+9.5) | 77.75 x 9.5 + = | 77.75:inch x:inch 9.5:inch +:inch =:inch
+EXPR: 1 | POS | FRA | 12 | 68.25 | 68.25 | 77.75=(9.5+x) | 77.75 9.5 x + = | 77.75:inch 9.5:inch x:inch +:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 68.25 | 87.25 | (x-77.75)=9.5 | x 77.75 - 9.5 = | x:inch 77.75:inch -:inch 9.5:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 68.25 | 738.625 | (x/77.75)=9.5 | x 77.75 / 9.5 = | x:UNKNOWN 77.75:inch /:UNKNOWN 9.5:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 20 | 68.25 | 0.122186495176849 | (9.5/77.75)=x | 9.5 77.75 / x = | 9.5:UNKNOWN 77.75:inch /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 20 | 68.25 | 0.122186495176849 | x=(9.5/77.75) | x 9.5 77.75 / = | x:UNKNOWN 9.5:UNKNOWN 77.75:inch /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 22 | 68.25 | 738.625 | (x/9.5)=77.75 | x 9.5 / 77.75 = | x:UNKNOWN 9.5:inch /:UNKNOWN 77.75:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 22 | 68.25 | 87.25 | (x-9.5)=77.75 | x 9.5 - 77.75 = | x:inch 9.5:inch -:inch 77.75:inch =:inch
+EXPR: 1 | POS | FRA | 22 | 68.25 | 68.25 | (9.5+x)=77.75 | 9.5 x + 77.75 = | 9.5:inch x:inch +:inch 77.75:inch =:inch
+EXPR: 0 | POS | FRA | 22 | 68.25 | 87.25 | 9.5=(x-77.75) | 9.5 x 77.75 - = | 9.5:inch x:inch 77.75:inch -:inch =:inch
+EXPR: 1 | POS | FRA | 22 | 68.25 | 68.25 | (x+9.5)=77.75 | x 9.5 + 77.75 = | x:inch 9.5:inch +:inch 77.75:inch =:inch
+EXPR: 0 | POS | FRA | 22 | 68.25 | 738.625 | 9.5=(x/77.75) | 9.5 x 77.75 / = | 9.5:UNKNOWN x:UNKNOWN 77.75:inch /:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | FRA | 22 | 68.25 | 68.25 | 9.5=(77.75-x) | 9.5 77.75 x - = | 9.5:inch 77.75:inch x:inch -:inch =:inch
+NET 36 unique, non-negative solutions found out of 136 total solutions

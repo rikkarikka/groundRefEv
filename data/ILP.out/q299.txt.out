@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 0.9 | 0.285714285714286 | 0.7=(0.2/x) | 0.7 0.2 x / = | 0.7:student 0.2:student x:UNKNOWN /:student =:student
+EXPR: 0 | POS | FRA | 2 | 0.9 | 3.5 | 0.7=(x*0.2) | 0.7 x 0.2 * = | 0.7:student x:UNKNOWN 0.2:student *:student =:student
+EXPR: 0 | POS | FRA | 2 | 0.9 | 3.5 | 0.7=(0.2*x) | 0.7 0.2 x * = | 0.7:student 0.2:student x:UNKNOWN *:student =:student
+EXPR: 0 | POS | FRA | 2 | 0.9 | 0.285714285714286 | (x*0.7)=0.2 | x 0.7 * 0.2 = | x:UNKNOWN 0.7:student *:student 0.2:student =:student
+EXPR: 0 | POS | FRA | 2 | 0.9 | 0.285714285714286 | (0.7*x)=0.2 | 0.7 x * 0.2 = | 0.7:student x:UNKNOWN *:student 0.2:student =:student
+EXPR: 0 | POS | FRA | 2 | 0.9 | 3.5 | (0.7/x)=0.2 | 0.7 x / 0.2 = | 0.7:student x:UNKNOWN /:student 0.2:student =:student
+EXPR: 0 | POS | FRA | 10 | 0.9 | 0.14 | (0.7*0.2)=x | 0.7 0.2 * x = | 0.7:student 0.2:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | FRA | 10 | 0.9 | 0.9 | (0.7+0.2)=x | 0.7 0.2 + x = | 0.7:student 0.2:student +:student x:student =:student
+EXPR: 0 | POS | FRA | 10 | 0.9 | 0.5 | x=(0.7-0.2) | x 0.7 0.2 - = | x:student 0.7:student 0.2:student -:student =:student
+EXPR: 0 | POS | FRA | 10 | 0.9 | 0.14 | x=(0.7*0.2) | x 0.7 0.2 * = | x:UNKNOWN 0.7:student 0.2:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | FRA | 10 | 0.9 | 0.9 | x=(0.7+0.2) | x 0.7 0.2 + = | x:student 0.7:student 0.2:student +:student =:student
+EXPR: 0 | POS | FRA | 10 | 0.9 | 0.5 | (0.7-0.2)=x | 0.7 0.2 - x = | 0.7:student 0.2:student -:student x:student =:student
+EXPR: 0 | POS | FRA | 10 | 0.9 | 3.5 | x=(0.7/0.2) | x 0.7 0.2 / = | x:UNKNOWN 0.7:UNKNOWN 0.2:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 10 | 0.9 | 3.5 | (0.7/0.2)=x | 0.7 0.2 / x = | 0.7:UNKNOWN 0.2:student /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 0.9 | 3.5 | 0.2=(0.7/x) | 0.2 0.7 x / = | 0.2:student 0.7:student x:UNKNOWN /:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.9 | 3.5 | (x*0.2)=0.7 | x 0.2 * 0.7 = | x:UNKNOWN 0.2:student *:student 0.7:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.9 | 0.14 | 0.7=(x/0.2) | 0.7 x 0.2 / = | 0.7:UNKNOWN x:UNKNOWN 0.2:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 0.9 | 0.285714285714286 | 0.2=(0.7*x) | 0.2 0.7 x * = | 0.2:student 0.7:student x:UNKNOWN *:student =:student
+EXPR: 1 | POS | FRA | 12 | 0.9 | 0.9 | 0.7=(x-0.2) | 0.7 x 0.2 - = | 0.7:student x:student 0.2:student -:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.9 | 0.285714285714286 | 0.2=(x*0.7) | 0.2 x 0.7 * = | 0.2:student x:UNKNOWN 0.7:student *:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.9 | 0.5 | (0.7-x)=0.2 | 0.7 x - 0.2 = | 0.7:student x:student -:student 0.2:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.9 | 3.5 | (0.2*x)=0.7 | 0.2 x * 0.7 = | 0.2:student x:UNKNOWN *:student 0.7:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.9 | 0.285714285714286 | (0.2/x)=0.7 | 0.2 x / 0.7 = | 0.2:student x:UNKNOWN /:student 0.7:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.9 | 0.5 | 0.7=(x+0.2) | 0.7 x 0.2 + = | 0.7:student x:student 0.2:student +:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.9 | 0.5 | 0.7=(0.2+x) | 0.7 0.2 x + = | 0.7:student 0.2:student x:student +:student =:student
+EXPR: 1 | POS | FRA | 12 | 0.9 | 0.9 | (x-0.7)=0.2 | x 0.7 - 0.2 = | x:student 0.7:student -:student 0.2:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.9 | 0.14 | (x/0.7)=0.2 | x 0.7 / 0.2 = | x:UNKNOWN 0.7:student /:UNKNOWN 0.2:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 20 | 0.9 | 0.285714285714286 | (0.2/0.7)=x | 0.2 0.7 / x = | 0.2:UNKNOWN 0.7:student /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 20 | 0.9 | 0.285714285714286 | x=(0.2/0.7) | x 0.2 0.7 / = | x:UNKNOWN 0.2:UNKNOWN 0.7:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 22 | 0.9 | 0.14 | (x/0.2)=0.7 | x 0.2 / 0.7 = | x:UNKNOWN 0.2:student /:UNKNOWN 0.7:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | FRA | 22 | 0.9 | 0.9 | (x-0.2)=0.7 | x 0.2 - 0.7 = | x:student 0.2:student -:student 0.7:student =:student
+EXPR: 0 | POS | FRA | 22 | 0.9 | 0.5 | (0.2+x)=0.7 | 0.2 x + 0.7 = | 0.2:student x:student +:student 0.7:student =:student
+EXPR: 1 | POS | FRA | 22 | 0.9 | 0.9 | 0.2=(x-0.7) | 0.2 x 0.7 - = | 0.2:student x:student 0.7:student -:student =:student
+EXPR: 0 | POS | FRA | 22 | 0.9 | 0.5 | (x+0.2)=0.7 | x 0.2 + 0.7 = | x:student 0.2:student +:student 0.7:student =:student
+EXPR: 0 | POS | FRA | 22 | 0.9 | 0.14 | 0.2=(x/0.7) | 0.2 x 0.7 / = | 0.2:UNKNOWN x:UNKNOWN 0.7:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 22 | 0.9 | 0.5 | 0.2=(0.7-x) | 0.2 0.7 x - = | 0.2:student 0.7:student x:student -:student =:student
+NET 36 unique, non-negative solutions found out of 136 total solutions

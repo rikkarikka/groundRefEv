@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 17 | 17 | (35-18)=x | 35 18 - x = | 35:seashell 18:seashell -:seashell x:seashell =:seashell
+EXPR: 0 | POS | INT | 0 | 17 | 53 | x=(35+18) | x 35 18 + = | x:seashell 35:seashell 18:seashell +:seashell =:seashell
+EXPR: 1 | POS | INT | 0 | 17 | 17 | x=(35-18) | x 35 18 - = | x:seashell 35:seashell 18:seashell -:seashell =:seashell
+EXPR: 0 | POS | INT | 0 | 17 | 53 | (35+18)=x | 35 18 + x = | 35:seashell 18:seashell +:seashell x:seashell =:seashell
+EXPR: 1 | POS | INT | 2 | 17 | 17 | 35=(18+x) | 35 18 x + = | 35:seashell 18:seashell x:seashell +:seashell =:seashell
+EXPR: 0 | POS | INT | 2 | 17 | 53 | (x-35)=18 | x 35 - 18 = | x:seashell 35:seashell -:seashell 18:seashell =:seashell
+EXPR: 1 | POS | INT | 2 | 17 | 17 | 35=(x+18) | 35 x 18 + = | 35:seashell x:seashell 18:seashell +:seashell =:seashell
+EXPR: 1 | POS | INT | 2 | 17 | 17 | (35-x)=18 | 35 x - 18 = | 35:seashell x:seashell -:seashell 18:seashell =:seashell
+EXPR: 0 | POS | INT | 2 | 17 | 53 | 35=(x-18) | 35 x 18 - = | 35:seashell x:seashell 18:seashell -:seashell =:seashell
+EXPR: 1 | POS | INT | 12 | 17 | 17 | (x+18)=35 | x 18 + 35 = | x:seashell 18:seashell +:seashell 35:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 17 | 53 | (x-18)=35 | x 18 - 35 = | x:seashell 18:seashell -:seashell 35:seashell =:seashell
+EXPR: 1 | POS | INT | 12 | 17 | 17 | (18+x)=35 | 18 x + 35 = | 18:seashell x:seashell +:seashell 35:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 17 | 53 | 18=(x-35) | 18 x 35 - = | 18:seashell x:seashell 35:seashell -:seashell =:seashell
+EXPR: 1 | POS | INT | 12 | 17 | 17 | 18=(35-x) | 18 35 x - = | 18:seashell 35:seashell x:seashell -:seashell =:seashell
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

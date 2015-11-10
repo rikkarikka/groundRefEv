@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 0.1 | 0.1 | (0.4-0.3)=x | 0.4 0.3 - x = | 0.4:box 0.3:box -:box x:box =:box
+EXPR: 0 | POS | FRA | 0 | 0.1 | 0.7 | x=(0.4+0.3) | x 0.4 0.3 + = | x:box 0.4:box 0.3:box +:box =:box
+EXPR: 1 | POS | FRA | 0 | 0.1 | 0.1 | x=(0.4-0.3) | x 0.4 0.3 - = | x:box 0.4:box 0.3:box -:box =:box
+EXPR: 0 | POS | FRA | 0 | 0.1 | 0.7 | (0.4+0.3)=x | 0.4 0.3 + x = | 0.4:box 0.3:box +:box x:box =:box
+EXPR: 1 | POS | FRA | 2 | 0.1 | 0.1 | 0.4=(0.3+x) | 0.4 0.3 x + = | 0.4:box 0.3:box x:box +:box =:box
+EXPR: 0 | POS | FRA | 2 | 0.1 | 0.7 | (x-0.4)=0.3 | x 0.4 - 0.3 = | x:box 0.4:box -:box 0.3:box =:box
+EXPR: 1 | POS | FRA | 2 | 0.1 | 0.1 | 0.4=(x+0.3) | 0.4 x 0.3 + = | 0.4:box x:box 0.3:box +:box =:box
+EXPR: 1 | POS | FRA | 2 | 0.1 | 0.1 | (0.4-x)=0.3 | 0.4 x - 0.3 = | 0.4:box x:box -:box 0.3:box =:box
+EXPR: 0 | POS | FRA | 2 | 0.1 | 0.7 | 0.4=(x-0.3) | 0.4 x 0.3 - = | 0.4:box x:box 0.3:box -:box =:box
+EXPR: 1 | POS | FRA | 12 | 0.1 | 0.1 | (x+0.3)=0.4 | x 0.3 + 0.4 = | x:box 0.3:box +:box 0.4:box =:box
+EXPR: 0 | POS | FRA | 12 | 0.1 | 0.7 | (x-0.3)=0.4 | x 0.3 - 0.4 = | x:box 0.3:box -:box 0.4:box =:box
+EXPR: 1 | POS | FRA | 12 | 0.1 | 0.1 | (0.3+x)=0.4 | 0.3 x + 0.4 = | 0.3:box x:box +:box 0.4:box =:box
+EXPR: 0 | POS | FRA | 12 | 0.1 | 0.7 | 0.3=(x-0.4) | 0.3 x 0.4 - = | 0.3:box x:box 0.4:box -:box =:box
+EXPR: 1 | POS | FRA | 12 | 0.1 | 0.1 | 0.3=(0.4-x) | 0.3 0.4 x - = | 0.3:box 0.4:box x:box -:box =:box
+NET 14 unique, non-negative solutions found out of 28 total solutions

@@ -1,0 +1,7 @@
+constants : 0.75 0.5
+unknowns : x
+operators : + - * / =
+objtypes : gallon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 0.25

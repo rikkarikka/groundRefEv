@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 18 | 18 | (31-13)=x | 31 13 - x = | 31:game 13:game -:game x:game =:game
+EXPR: 0 | POS | INT | 0 | 18 | 44 | x=(31+13) | x 31 13 + = | x:game 31:game 13:game +:game =:game
+EXPR: 1 | POS | INT | 0 | 18 | 18 | x=(31-13) | x 31 13 - = | x:game 31:game 13:game -:game =:game
+EXPR: 0 | POS | INT | 0 | 18 | 44 | (31+13)=x | 31 13 + x = | 31:game 13:game +:game x:game =:game
+EXPR: 1 | POS | INT | 2 | 18 | 18 | 31=(13+x) | 31 13 x + = | 31:game 13:game x:game +:game =:game
+EXPR: 0 | POS | INT | 2 | 18 | 44 | (x-31)=13 | x 31 - 13 = | x:game 31:game -:game 13:game =:game
+EXPR: 1 | POS | INT | 2 | 18 | 18 | 31=(x+13) | 31 x 13 + = | 31:game x:game 13:game +:game =:game
+EXPR: 1 | POS | INT | 2 | 18 | 18 | (31-x)=13 | 31 x - 13 = | 31:game x:game -:game 13:game =:game
+EXPR: 0 | POS | INT | 2 | 18 | 44 | 31=(x-13) | 31 x 13 - = | 31:game x:game 13:game -:game =:game
+EXPR: 1 | POS | INT | 12 | 18 | 18 | (x+13)=31 | x 13 + 31 = | x:game 13:game +:game 31:game =:game
+EXPR: 0 | POS | INT | 12 | 18 | 44 | (x-13)=31 | x 13 - 31 = | x:game 13:game -:game 31:game =:game
+EXPR: 1 | POS | INT | 12 | 18 | 18 | (13+x)=31 | 13 x + 31 = | 13:game x:game +:game 31:game =:game
+EXPR: 0 | POS | INT | 12 | 18 | 44 | 13=(x-31) | 13 x 31 - = | 13:game x:game 31:game -:game =:game
+EXPR: 1 | POS | INT | 12 | 18 | 18 | 13=(31-x) | 13 31 x - = | 13:game 31:game x:game -:game =:game
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

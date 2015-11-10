@@ -1,0 +1,7 @@
+constants : 127 88
+unknowns : x
+operators : + - * / =
+objtypes : apple
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 39

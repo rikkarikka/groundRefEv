@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 215 | 15 | (115-100)=x | 115 100 - x = | 115:pencil 100:pencil -:pencil x:pencil =:pencil
+EXPR: 1 | POS | INT | 0 | 215 | 215 | x=(115+100) | x 115 100 + = | x:pencil 115:pencil 100:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 0 | 215 | 15 | x=(115-100) | x 115 100 - = | x:pencil 115:pencil 100:pencil -:pencil =:pencil
+EXPR: 1 | POS | INT | 0 | 215 | 215 | (115+100)=x | 115 100 + x = | 115:pencil 100:pencil +:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 215 | 15 | 115=(100+x) | 115 100 x + = | 115:pencil 100:pencil x:pencil +:pencil =:pencil
+EXPR: 1 | POS | INT | 2 | 215 | 215 | (x-115)=100 | x 115 - 100 = | x:pencil 115:pencil -:pencil 100:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 215 | 15 | 115=(x+100) | 115 x 100 + = | 115:pencil x:pencil 100:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 215 | 15 | (115-x)=100 | 115 x - 100 = | 115:pencil x:pencil -:pencil 100:pencil =:pencil
+EXPR: 1 | POS | INT | 2 | 215 | 215 | 115=(x-100) | 115 x 100 - = | 115:pencil x:pencil 100:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 215 | 15 | (x+100)=115 | x 100 + 115 = | x:pencil 100:pencil +:pencil 115:pencil =:pencil
+EXPR: 1 | POS | INT | 12 | 215 | 215 | (x-100)=115 | x 100 - 115 = | x:pencil 100:pencil -:pencil 115:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 215 | 15 | (100+x)=115 | 100 x + 115 = | 100:pencil x:pencil +:pencil 115:pencil =:pencil
+EXPR: 1 | POS | INT | 12 | 215 | 215 | 100=(x-115) | 100 x 115 - = | 100:pencil x:pencil 115:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 215 | 15 | 100=(115-x) | 100 115 x - = | 100:pencil 115:pencil x:pencil -:pencil =:pencil
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

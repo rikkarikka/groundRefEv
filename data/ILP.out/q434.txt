@@ -1,0 +1,7 @@
+constants : 380 57
+unknowns : x
+operators : + - * / =
+objtypes : lego
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 323

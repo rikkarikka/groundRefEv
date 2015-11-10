@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 100 | 4 | x=(20/5) | x 20 5 / = | x:mile 20:mile 5:gallon /:mile =:mile
+EXPR: 0 | POS | INT | 0 | 100 | 4 | (20/5)=x | 20 5 / x = | 20:mile 5:gallon /:mile x:mile =:mile
+EXPR: 1 | POS | INT | 0 | 100 | 100 | x=(20*5) | x 20 5 * = | x:mile 20:mile 5:gallon *:mile =:mile
+EXPR: 1 | POS | INT | 0 | 100 | 100 | (20*5)=x | 20 5 * x = | 20:mile 5:gallon *:mile x:mile =:mile
+EXPR: 0 | POS | INT | 2 | 100 | 4 | 20=(5*x) | 20 5 x * = | 20:mile 5:gallon x:mile *:mile =:mile
+EXPR: 1 | POS | INT | 2 | 100 | 100 | 20=(x/5) | 20 x 5 / = | 20:mile x:mile 5:gallon /:mile =:mile
+EXPR: 0 | POS | INT | 2 | 100 | 4 | 20=(x*5) | 20 x 5 * = | 20:mile x:mile 5:gallon *:mile =:mile
+EXPR: 0 | POS | INT | 10 | 100 | 15 | (20-5)=x | 20 5 - x = | 20:mile 5:mile -:mile x:mile =:mile
+EXPR: 0 | POS | INT | 10 | 100 | 25 | x=(20+5) | x 20 5 + = | x:mile 20:mile 5:mile +:mile =:mile
+EXPR: 0 | POS | INT | 10 | 100 | 15 | x=(20-5) | x 20 5 - = | x:mile 20:mile 5:mile -:mile =:mile
+EXPR: 0 | POS | INT | 10 | 100 | 25 | (20+5)=x | 20 5 + x = | 20:mile 5:mile +:mile x:mile =:mile
+EXPR: 0 | POS | INT | 12 | 100 | 15 | 20=(x+5) | 20 x 5 + = | 20:mile x:mile 5:mile +:mile =:mile
+EXPR: 0 | POS | INT | 12 | 100 | 4 | (20/x)=5 | 20 x / 5 = | 20:gallon x:mile /:gallon 5:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 100 | 4 | (5*x)=20 | 5 x * 20 = | 5:gallon x:mile *:mile 20:mile =:mile
+EXPR: 0 | POS | INT | 12 | 100 | 25 | 20=(x-5) | 20 x 5 - = | 20:mile x:mile 5:mile -:mile =:mile
+EXPR: 0 | POS | INT | 12 | 100 | 15 | 20=(5+x) | 20 5 x + = | 20:mile 5:mile x:mile +:mile =:mile
+EXPR: 0 | POS | INT | 12 | 100 | 25 | (x-20)=5 | x 20 - 5 = | x:mile 20:mile -:mile 5:mile =:mile
+EXPR: 0 | POS | INT | 12 | 100 | 15 | (20-x)=5 | 20 x - 5 = | 20:mile x:mile -:mile 5:mile =:mile
+EXPR: 1 | POS | INT | 12 | 100 | 100 | (x/20)=5 | x 20 / 5 = | x:gallon 20:mile /:gallon 5:gallon =:gallon
+EXPR: 1 | POS | INT | 12 | 100 | 100 | (x/5)=20 | x 5 / 20 = | x:mile 5:gallon /:mile 20:mile =:mile
+EXPR: 0 | POS | INT | 12 | 100 | 4 | (x*5)=20 | x 5 * 20 = | x:mile 5:gallon *:mile 20:mile =:mile
+EXPR: 0 | POS | INT | 22 | 100 | 15 | (x+5)=20 | x 5 + 20 = | x:mile 5:mile +:mile 20:mile =:mile
+EXPR: 0 | POS | INT | 22 | 100 | 4 | 5=(20/x) | 5 20 x / = | 5:gallon 20:gallon x:mile /:gallon =:gallon
+EXPR: 0 | POS | INT | 22 | 100 | 15 | (5+x)=20 | 5 x + 20 = | 5:mile x:mile +:mile 20:mile =:mile
+EXPR: 0 | POS | INT | 22 | 100 | 25 | 5=(x-20) | 5 x 20 - = | 5:mile x:mile 20:mile -:mile =:mile
+EXPR: 1 | POS | INT | 22 | 100 | 100 | 5=(x/20) | 5 x 20 / = | 5:gallon x:gallon 20:mile /:gallon =:gallon
+EXPR: 0 | POS | INT | 22 | 100 | 15 | 5=(20-x) | 5 20 x - = | 5:mile 20:mile x:mile -:mile =:mile
+EXPR: 0 | POS | INT | 22 | 100 | 25 | (x-5)=20 | x 5 - 20 = | x:mile 5:mile -:mile 20:mile =:mile
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

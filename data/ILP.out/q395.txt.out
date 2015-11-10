@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 14280 | 14280 | x=(8*1785.0) | x 8 1785.0 * = | x:money 8:stone 1785.0:money *:money =:money
+EXPR: 1 | POS | INT | 0 | 14280 | 14280 | (8*1785.0)=x | 8 1785.0 * x = | 8:stone 1785.0:money *:money x:money =:money
+EXPR: 1 | POS | INT | 2 | 14280 | 14280 | (x/8)=1785.0 | x 8 / 1785.0 = | x:money 8:stone /:money 1785.0:money =:money
+EXPR: 0 | POS | INT | 10 | 14280 | 1793 | x=(8+1785.0) | x 8 1785.0 + = | x:money 8:money 1785.0:money +:money =:money
+EXPR: 0 | POS | INT | 10 | 14280 | 1793 | (8+1785.0)=x | 8 1785.0 + x = | 8:money 1785.0:money +:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 14280 | 1777 | 8=(1785.0-x) | 8 1785.0 x - = | 8:money 1785.0:money x:money -:money =:money
+EXPR: 1 | POS | INT | 12 | 14280 | 14280 | 1785.0=(x/8) | 1785.0 x 8 / = | 1785.0:money x:money 8:stone /:money =:money
+EXPR: 0 | POS | INT | 12 | 14280 | 1777 | (x+8)=1785.0 | x 8 + 1785.0 = | x:money 8:money +:money 1785.0:money =:money
+EXPR: 0 | POS | INT | 12 | 14280 | 1793 | (x-8)=1785.0 | x 8 - 1785.0 = | x:money 8:money -:money 1785.0:money =:money
+EXPR: 0 | POS | INT | 12 | 14280 | 1777 | (8+x)=1785.0 | 8 x + 1785.0 = | 8:money x:money +:money 1785.0:money =:money
+EXPR: 0 | POS | INT | 12 | 14280 | 1793 | 8=(x-1785.0) | 8 x 1785.0 - = | 8:money x:money 1785.0:money -:money =:money
+EXPR: 1 | POS | INT | 12 | 14280 | 14280 | 8=(x/1785.0) | 8 x 1785.0 / = | 8:stone x:stone 1785.0:money /:stone =:stone
+EXPR: 0 | POS | INT | 20 | 14280 | 1777 | x=(1785.0-8) | x 1785.0 8 - = | x:money 1785.0:money 8:money -:money =:money
+EXPR: 0 | POS | INT | 20 | 14280 | 1777 | (1785.0-8)=x | 1785.0 8 - x = | 1785.0:money 8:money -:money x:money =:money
+EXPR: 0 | POS | INT | 22 | 14280 | 1777 | (1785.0-x)=8 | 1785.0 x - 8 = | 1785.0:money x:money -:money 8:money =:money
+EXPR: 1 | POS | INT | 22 | 14280 | 14280 | (x/1785.0)=8 | x 1785.0 / 8 = | x:stone 1785.0:money /:stone 8:stone =:stone
+EXPR: 0 | POS | INT | 22 | 14280 | 1777 | 1785.0=(8+x) | 1785.0 8 x + = | 1785.0:money 8:money x:money +:money =:money
+EXPR: 0 | POS | INT | 22 | 14280 | 1793 | (x-1785.0)=8 | x 1785.0 - 8 = | x:money 1785.0:money -:money 8:money =:money
+EXPR: 0 | POS | INT | 22 | 14280 | 1777 | 1785.0=(x+8) | 1785.0 x 8 + = | 1785.0:money x:money 8:money +:money =:money
+EXPR: 0 | POS | INT | 22 | 14280 | 1793 | 1785.0=(x-8) | 1785.0 x 8 - = | 1785.0:money x:money 8:money -:money =:money
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,7 @@
+constants : 600 327
+unknowns : x
+operators : + - * / =
+objtypes : bag
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 273

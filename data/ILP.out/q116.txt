@@ -1,0 +1,7 @@
+constants : 60 45 12
+unknowns : x
+operators : + - * / =
+objtypes : calorie bar dozen
+constantOrUnknownType : 0 1 0 2
+n : 7
+answer : 225.0

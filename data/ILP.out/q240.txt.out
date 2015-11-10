@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 118558 | 118558 | x=(20817+97741) | x 20817 97741 + = | x:house 20817:house 97741:house +:house =:house
+EXPR: 1 | POS | INT | 0 | 118558 | 118558 | (20817+97741)=x | 20817 97741 + x = | 20817:house 97741:house +:house x:house =:house
+EXPR: 0 | POS | INT | 2 | 118558 | 76924 | (x+20817)=97741 | x 20817 + 97741 = | x:house 20817:house +:house 97741:house =:house
+EXPR: 1 | POS | INT | 2 | 118558 | 118558 | (x-20817)=97741 | x 20817 - 97741 = | x:house 20817:house -:house 97741:house =:house
+EXPR: 0 | POS | INT | 2 | 118558 | 76924 | (20817+x)=97741 | 20817 x + 97741 = | 20817:house x:house +:house 97741:house =:house
+EXPR: 0 | POS | INT | 2 | 118558 | 76924 | 20817=(97741-x) | 20817 97741 x - = | 20817:house 97741:house x:house -:house =:house
+EXPR: 1 | POS | INT | 2 | 118558 | 118558 | 20817=(x-97741) | 20817 x 97741 - = | 20817:house x:house 97741:house -:house =:house
+EXPR: 0 | POS | INT | 10 | 118558 | 76924 | (97741-20817)=x | 97741 20817 - x = | 97741:house 20817:house -:house x:house =:house
+EXPR: 0 | POS | INT | 10 | 118558 | 76924 | x=(97741-20817) | x 97741 20817 - = | x:house 97741:house 20817:house -:house =:house
+EXPR: 1 | POS | INT | 12 | 118558 | 118558 | (x-97741)=20817 | x 97741 - 20817 = | x:house 97741:house -:house 20817:house =:house
+EXPR: 0 | POS | INT | 12 | 118558 | 76924 | 97741=(x+20817) | 97741 x 20817 + = | 97741:house x:house 20817:house +:house =:house
+EXPR: 0 | POS | INT | 12 | 118558 | 76924 | 97741=(20817+x) | 97741 20817 x + = | 97741:house 20817:house x:house +:house =:house
+EXPR: 1 | POS | INT | 12 | 118558 | 118558 | 97741=(x-20817) | 97741 x 20817 - = | 97741:house x:house 20817:house -:house =:house
+EXPR: 0 | POS | INT | 12 | 118558 | 76924 | (97741-x)=20817 | 97741 x - 20817 = | 97741:house x:house -:house 20817:house =:house
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

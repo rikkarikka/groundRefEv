@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 18 | 2 | x=(6/3) | x 6 3 / = | x:balloon 6:balloon 3:Sally /:balloon =:balloon
+EXPR: 0 | POS | INT | 0 | 18 | 2 | (6/3)=x | 6 3 / x = | 6:balloon 3:Sally /:balloon x:balloon =:balloon
+EXPR: 1 | POS | INT | 0 | 18 | 18 | x=(6*3) | x 6 3 * = | x:balloon 6:balloon 3:Sally *:balloon =:balloon
+EXPR: 1 | POS | INT | 0 | 18 | 18 | (6*3)=x | 6 3 * x = | 6:balloon 3:Sally *:balloon x:balloon =:balloon
+EXPR: 0 | POS | INT | 2 | 18 | 2 | 6=(3*x) | 6 3 x * = | 6:balloon 3:Sally x:balloon *:balloon =:balloon
+EXPR: 1 | POS | INT | 2 | 18 | 18 | 6=(x/3) | 6 x 3 / = | 6:balloon x:balloon 3:Sally /:balloon =:balloon
+EXPR: 0 | POS | INT | 2 | 18 | 2 | 6=(x*3) | 6 x 3 * = | 6:balloon x:balloon 3:Sally *:balloon =:balloon
+EXPR: 0 | POS | INT | 10 | 18 | 3 | (6-3)=x | 6 3 - x = | 6:balloon 3:balloon -:balloon x:balloon =:balloon
+EXPR: 0 | POS | INT | 10 | 18 | 9 | x=(6+3) | x 6 3 + = | x:balloon 6:balloon 3:balloon +:balloon =:balloon
+EXPR: 0 | POS | INT | 10 | 18 | 3 | x=(6-3) | x 6 3 - = | x:balloon 6:balloon 3:balloon -:balloon =:balloon
+EXPR: 0 | POS | INT | 10 | 18 | 9 | (6+3)=x | 6 3 + x = | 6:balloon 3:balloon +:balloon x:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 18 | 3 | 6=(x+3) | 6 x 3 + = | 6:balloon x:balloon 3:balloon +:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 18 | 2 | (6/x)=3 | 6 x / 3 = | 6:Sally x:balloon /:Sally 3:Sally =:Sally
+EXPR: 0 | POS | INT | 12 | 18 | 2 | (3*x)=6 | 3 x * 6 = | 3:Sally x:balloon *:balloon 6:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 18 | 9 | 6=(x-3) | 6 x 3 - = | 6:balloon x:balloon 3:balloon -:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 18 | 3 | 6=(3+x) | 6 3 x + = | 6:balloon 3:balloon x:balloon +:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 18 | 9 | (x-6)=3 | x 6 - 3 = | x:balloon 6:balloon -:balloon 3:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 18 | 3 | (6-x)=3 | 6 x - 3 = | 6:balloon x:balloon -:balloon 3:balloon =:balloon
+EXPR: 1 | POS | INT | 12 | 18 | 18 | (x/6)=3 | x 6 / 3 = | x:Sally 6:balloon /:Sally 3:Sally =:Sally
+EXPR: 1 | POS | INT | 12 | 18 | 18 | (x/3)=6 | x 3 / 6 = | x:balloon 3:Sally /:balloon 6:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 18 | 2 | (x*3)=6 | x 3 * 6 = | x:balloon 3:Sally *:balloon 6:balloon =:balloon
+EXPR: 0 | POS | INT | 22 | 18 | 3 | (x+3)=6 | x 3 + 6 = | x:balloon 3:balloon +:balloon 6:balloon =:balloon
+EXPR: 0 | POS | INT | 22 | 18 | 2 | 3=(6/x) | 3 6 x / = | 3:Sally 6:Sally x:balloon /:Sally =:Sally
+EXPR: 0 | POS | INT | 22 | 18 | 3 | (3+x)=6 | 3 x + 6 = | 3:balloon x:balloon +:balloon 6:balloon =:balloon
+EXPR: 0 | POS | INT | 22 | 18 | 9 | 3=(x-6) | 3 x 6 - = | 3:balloon x:balloon 6:balloon -:balloon =:balloon
+EXPR: 1 | POS | INT | 22 | 18 | 18 | 3=(x/6) | 3 x 6 / = | 3:Sally x:Sally 6:balloon /:Sally =:Sally
+EXPR: 0 | POS | INT | 22 | 18 | 3 | 3=(6-x) | 3 6 x - = | 3:balloon 6:balloon x:balloon -:balloon =:balloon
+EXPR: 0 | POS | INT | 22 | 18 | 9 | (x-3)=6 | x 3 - 6 = | x:balloon 3:balloon -:balloon 6:balloon =:balloon
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

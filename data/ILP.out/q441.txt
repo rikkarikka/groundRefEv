@@ -1,0 +1,7 @@
+constants : 813 125
+unknowns : x
+operators : + - * / =
+objtypes : stamp
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 688

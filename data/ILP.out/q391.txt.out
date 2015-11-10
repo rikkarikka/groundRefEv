@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 8484 | 8484 | x=(303*28) | x 303 28 * = | x:egg 303:basket 28:egg *:egg =:egg
+EXPR: 1 | POS | INT | 0 | 8484 | 8484 | (303*28)=x | 303 28 * x = | 303:basket 28:egg *:egg x:egg =:egg
+EXPR: 1 | POS | INT | 2 | 8484 | 8484 | (x/303)=28 | x 303 / 28 = | x:egg 303:basket /:egg 28:egg =:egg
+EXPR: 0 | POS | INT | 10 | 8484 | 331 | x=(303+28) | x 303 28 + = | x:egg 303:egg 28:egg +:egg =:egg
+EXPR: 0 | POS | INT | 10 | 8484 | 331 | (303+28)=x | 303 28 + x = | 303:egg 28:egg +:egg x:egg =:egg
+EXPR: 0 | POS | INT | 10 | 8484 | 275 | (303-28)=x | 303 28 - x = | 303:egg 28:egg -:egg x:egg =:egg
+EXPR: 0 | POS | INT | 10 | 8484 | 275 | x=(303-28) | x 303 28 - = | x:egg 303:egg 28:egg -:egg =:egg
+EXPR: 0 | POS | INT | 12 | 8484 | 275 | (303-x)=28 | 303 x - 28 = | 303:egg x:egg -:egg 28:egg =:egg
+EXPR: 0 | POS | INT | 12 | 8484 | 275 | 303=(28+x) | 303 28 x + = | 303:egg 28:egg x:egg +:egg =:egg
+EXPR: 1 | POS | INT | 12 | 8484 | 8484 | 28=(x/303) | 28 x 303 / = | 28:egg x:egg 303:basket /:egg =:egg
+EXPR: 0 | POS | INT | 12 | 8484 | 331 | (x-303)=28 | x 303 - 28 = | x:egg 303:egg -:egg 28:egg =:egg
+EXPR: 0 | POS | INT | 12 | 8484 | 275 | 303=(x+28) | 303 x 28 + = | 303:egg x:egg 28:egg +:egg =:egg
+EXPR: 0 | POS | INT | 12 | 8484 | 331 | 303=(x-28) | 303 x 28 - = | 303:egg x:egg 28:egg -:egg =:egg
+EXPR: 1 | POS | INT | 12 | 8484 | 8484 | 303=(x/28) | 303 x 28 / = | 303:basket x:basket 28:egg /:basket =:basket
+EXPR: 1 | POS | INT | 22 | 8484 | 8484 | (x/28)=303 | x 28 / 303 = | x:basket 28:egg /:basket 303:basket =:basket
+EXPR: 0 | POS | INT | 22 | 8484 | 275 | 28=(303-x) | 28 303 x - = | 28:egg 303:egg x:egg -:egg =:egg
+EXPR: 0 | POS | INT | 22 | 8484 | 275 | (x+28)=303 | x 28 + 303 = | x:egg 28:egg +:egg 303:egg =:egg
+EXPR: 0 | POS | INT | 22 | 8484 | 331 | (x-28)=303 | x 28 - 303 = | x:egg 28:egg -:egg 303:egg =:egg
+EXPR: 0 | POS | INT | 22 | 8484 | 275 | (28+x)=303 | 28 x + 303 = | 28:egg x:egg +:egg 303:egg =:egg
+EXPR: 0 | POS | INT | 22 | 8484 | 331 | 28=(x-303) | 28 x 303 - = | 28:egg x:egg 303:egg -:egg =:egg
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

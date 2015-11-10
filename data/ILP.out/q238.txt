@@ -1,0 +1,7 @@
+constants : 6,359 3,485
+unknowns : x
+operators : + - * / =
+objtypes : yen
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 9844.0

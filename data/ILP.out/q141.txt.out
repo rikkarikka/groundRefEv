@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 32 | 32 | 960=(x*30) | 960 x 30 * = | 960:student x:classroom 30:student *:student =:student
+EXPR: 1 | POS | INT | 2 | 32 | 32 | 960=(30*x) | 960 30 x * = | 960:student 30:student x:classroom *:student =:student
+EXPR: 1 | POS | INT | 2 | 32 | 32 | (960/x)=30 | 960 x / 30 = | 960:student x:classroom /:student 30:student =:student
+EXPR: 0 | POS | INT | 10 | 32 | 28800 | (960*30)=x | 960 30 * x = | 960:student 30:classroom *:classroom x:classroom =:classroom
+EXPR: 0 | POS | INT | 10 | 32 | 990 | (960+30)=x | 960 30 + x = | 960:student 30:student +:student x:student =:student
+EXPR: 0 | POS | INT | 10 | 32 | 930 | x=(960-30) | x 960 30 - = | x:student 960:student 30:student -:student =:student
+EXPR: 0 | POS | INT | 10 | 32 | 28800 | x=(960*30) | x 960 30 * = | x:classroom 960:student 30:classroom *:classroom =:classroom
+EXPR: 0 | POS | INT | 10 | 32 | 990 | x=(960+30) | x 960 30 + = | x:student 960:student 30:student +:student =:student
+EXPR: 0 | POS | INT | 10 | 32 | 930 | (960-30)=x | 960 30 - x = | 960:student 30:student -:student x:student =:student
+EXPR: 1 | POS | INT | 10 | 32 | 32 | x=(960/30) | x 960 30 / = | x:classroom 960:classroom 30:student /:classroom =:classroom
+EXPR: 1 | POS | INT | 10 | 32 | 32 | (960/30)=x | 960 30 / x = | 960:classroom 30:student /:classroom x:classroom =:classroom
+EXPR: 1 | POS | INT | 12 | 32 | 32 | 30=(960/x) | 30 960 x / = | 30:student 960:student x:classroom /:student =:student
+EXPR: 1 | POS | INT | 12 | 32 | 32 | (x*30)=960 | x 30 * 960 = | x:classroom 30:student *:student 960:student =:student
+EXPR: 0 | POS | INT | 12 | 32 | 28800 | 960=(x/30) | 960 x 30 / = | 960:classroom x:classroom 30:student /:classroom =:classroom
+EXPR: 0 | POS | INT | 12 | 32 | 990 | 960=(x-30) | 960 x 30 - = | 960:student x:student 30:student -:student =:student
+EXPR: 0 | POS | INT | 12 | 32 | 930 | (960-x)=30 | 960 x - 30 = | 960:student x:student -:student 30:student =:student
+EXPR: 1 | POS | INT | 12 | 32 | 32 | (30*x)=960 | 30 x * 960 = | 30:student x:classroom *:student 960:student =:student
+EXPR: 0 | POS | INT | 12 | 32 | 930 | 960=(x+30) | 960 x 30 + = | 960:student x:student 30:student +:student =:student
+EXPR: 0 | POS | INT | 12 | 32 | 930 | 960=(30+x) | 960 30 x + = | 960:student 30:student x:student +:student =:student
+EXPR: 0 | POS | INT | 12 | 32 | 990 | (x-960)=30 | x 960 - 30 = | x:student 960:student -:student 30:student =:student
+EXPR: 0 | POS | INT | 12 | 32 | 28800 | (x/960)=30 | x 960 / 30 = | x:classroom 960:student /:classroom 30:classroom =:classroom
+EXPR: 0 | POS | INT | 22 | 32 | 28800 | (x/30)=960 | x 30 / 960 = | x:classroom 30:student /:classroom 960:classroom =:classroom
+EXPR: 0 | POS | INT | 22 | 32 | 990 | (x-30)=960 | x 30 - 960 = | x:student 30:student -:student 960:student =:student
+EXPR: 0 | POS | INT | 22 | 32 | 930 | (30+x)=960 | 30 x + 960 = | 30:student x:student +:student 960:student =:student
+EXPR: 0 | POS | INT | 22 | 32 | 990 | 30=(x-960) | 30 x 960 - = | 30:student x:student 960:student -:student =:student
+EXPR: 0 | POS | INT | 22 | 32 | 930 | (x+30)=960 | x 30 + 960 = | x:student 30:student +:student 960:student =:student
+EXPR: 0 | POS | INT | 22 | 32 | 28800 | 30=(x/960) | 30 x 960 / = | 30:classroom x:classroom 960:student /:classroom =:classroom
+EXPR: 0 | POS | INT | 22 | 32 | 930 | 30=(960-x) | 30 960 x - = | 30:student 960:student x:student -:student =:student
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

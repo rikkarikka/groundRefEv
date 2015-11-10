@@ -1,0 +1,7 @@
+constants : 615 15
+unknowns : x
+operators : + - * / =
+objtypes : crayon pack
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 41.0

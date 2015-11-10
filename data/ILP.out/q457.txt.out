@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 0.72 | 0.72 | (5.00-4.28)=x | 5.00 4.28 - x = | 5.00:dollar 4.28:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 0 | 0.72 | 9.28 | x=(5.00+4.28) | x 5.00 4.28 + = | x:dollar 5.00:dollar 4.28:dollar +:dollar =:dollar
+EXPR: 1 | POS | FRA | 0 | 0.72 | 0.72 | x=(5.00-4.28) | x 5.00 4.28 - = | x:dollar 5.00:dollar 4.28:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 0 | 0.72 | 9.28 | (5.00+4.28)=x | 5.00 4.28 + x = | 5.00:dollar 4.28:dollar +:dollar x:dollar =:dollar
+EXPR: 1 | POS | FRA | 2 | 0.72 | 0.72 | 5.00=(4.28+x) | 5.00 4.28 x + = | 5.00:dollar 4.28:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 0.72 | 9.28 | (x-5.00)=4.28 | x 5.00 - 4.28 = | x:dollar 5.00:dollar -:dollar 4.28:dollar =:dollar
+EXPR: 1 | POS | FRA | 2 | 0.72 | 0.72 | 5.00=(x+4.28) | 5.00 x 4.28 + = | 5.00:dollar x:dollar 4.28:dollar +:dollar =:dollar
+EXPR: 1 | POS | FRA | 2 | 0.72 | 0.72 | (5.00-x)=4.28 | 5.00 x - 4.28 = | 5.00:dollar x:dollar -:dollar 4.28:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 0.72 | 9.28 | 5.00=(x-4.28) | 5.00 x 4.28 - = | 5.00:dollar x:dollar 4.28:dollar -:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 0.72 | 0.72 | (x+4.28)=5.00 | x 4.28 + 5.00 = | x:dollar 4.28:dollar +:dollar 5.00:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 0.72 | 9.28 | (x-4.28)=5.00 | x 4.28 - 5.00 = | x:dollar 4.28:dollar -:dollar 5.00:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 0.72 | 0.72 | (4.28+x)=5.00 | 4.28 x + 5.00 = | 4.28:dollar x:dollar +:dollar 5.00:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 0.72 | 9.28 | 4.28=(x-5.00) | 4.28 x 5.00 - = | 4.28:dollar x:dollar 5.00:dollar -:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 0.72 | 0.72 | 4.28=(5.00-x) | 4.28 5.00 x - = | 4.28:dollar 5.00:dollar x:dollar -:dollar =:dollar
+NET 14 unique, non-negative solutions found out of 28 total solutions

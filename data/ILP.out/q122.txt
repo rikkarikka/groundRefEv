@@ -1,0 +1,7 @@
+constants : 9 12
+unknowns : x
+operators : + - * / =
+objtypes : dollar quarter dozen
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 3.0

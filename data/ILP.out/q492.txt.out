@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 121 | 121 | x=(36+85) | x 36 85 + = | x:flea 36:flea 85:flea +:flea =:flea
+EXPR: 1 | POS | INT | 0 | 121 | 121 | (36+85)=x | 36 85 + x = | 36:flea 85:flea +:flea x:flea =:flea
+EXPR: 0 | POS | INT | 2 | 121 | 49 | (x+36)=85 | x 36 + 85 = | x:flea 36:flea +:flea 85:flea =:flea
+EXPR: 1 | POS | INT | 2 | 121 | 121 | (x-36)=85 | x 36 - 85 = | x:flea 36:flea -:flea 85:flea =:flea
+EXPR: 0 | POS | INT | 2 | 121 | 49 | (36+x)=85 | 36 x + 85 = | 36:flea x:flea +:flea 85:flea =:flea
+EXPR: 0 | POS | INT | 2 | 121 | 49 | 36=(85-x) | 36 85 x - = | 36:flea 85:flea x:flea -:flea =:flea
+EXPR: 1 | POS | INT | 2 | 121 | 121 | 36=(x-85) | 36 x 85 - = | 36:flea x:flea 85:flea -:flea =:flea
+EXPR: 0 | POS | INT | 10 | 121 | 49 | (85-36)=x | 85 36 - x = | 85:flea 36:flea -:flea x:flea =:flea
+EXPR: 0 | POS | INT | 10 | 121 | 49 | x=(85-36) | x 85 36 - = | x:flea 85:flea 36:flea -:flea =:flea
+EXPR: 1 | POS | INT | 12 | 121 | 121 | (x-85)=36 | x 85 - 36 = | x:flea 85:flea -:flea 36:flea =:flea
+EXPR: 0 | POS | INT | 12 | 121 | 49 | 85=(x+36) | 85 x 36 + = | 85:flea x:flea 36:flea +:flea =:flea
+EXPR: 0 | POS | INT | 12 | 121 | 49 | 85=(36+x) | 85 36 x + = | 85:flea 36:flea x:flea +:flea =:flea
+EXPR: 1 | POS | INT | 12 | 121 | 121 | 85=(x-36) | 85 x 36 - = | 85:flea x:flea 36:flea -:flea =:flea
+EXPR: 0 | POS | INT | 12 | 121 | 49 | (85-x)=36 | 85 x - 36 = | 85:flea x:flea -:flea 36:flea =:flea
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

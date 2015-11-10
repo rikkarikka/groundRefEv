@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 13 | 13 | x=(6+7) | x 6 7 + = | x:potato 6:potato 7:potato +:potato =:potato
+EXPR: 1 | POS | INT | 0 | 13 | 13 | (6+7)=x | 6 7 + x = | 6:potato 7:potato +:potato x:potato =:potato
+EXPR: 0 | POS | INT | 2 | 13 | 1 | (x+6)=7 | x 6 + 7 = | x:potato 6:potato +:potato 7:potato =:potato
+EXPR: 1 | POS | INT | 2 | 13 | 13 | (x-6)=7 | x 6 - 7 = | x:potato 6:potato -:potato 7:potato =:potato
+EXPR: 0 | POS | INT | 2 | 13 | 1 | (6+x)=7 | 6 x + 7 = | 6:potato x:potato +:potato 7:potato =:potato
+EXPR: 0 | POS | INT | 2 | 13 | 1 | 6=(7-x) | 6 7 x - = | 6:potato 7:potato x:potato -:potato =:potato
+EXPR: 1 | POS | INT | 2 | 13 | 13 | 6=(x-7) | 6 x 7 - = | 6:potato x:potato 7:potato -:potato =:potato
+EXPR: 0 | POS | INT | 10 | 13 | 1 | (7-6)=x | 7 6 - x = | 7:potato 6:potato -:potato x:potato =:potato
+EXPR: 0 | POS | INT | 10 | 13 | 1 | x=(7-6) | x 7 6 - = | x:potato 7:potato 6:potato -:potato =:potato
+EXPR: 1 | POS | INT | 12 | 13 | 13 | (x-7)=6 | x 7 - 6 = | x:potato 7:potato -:potato 6:potato =:potato
+EXPR: 0 | POS | INT | 12 | 13 | 1 | 7=(x+6) | 7 x 6 + = | 7:potato x:potato 6:potato +:potato =:potato
+EXPR: 0 | POS | INT | 12 | 13 | 1 | 7=(6+x) | 7 6 x + = | 7:potato 6:potato x:potato +:potato =:potato
+EXPR: 1 | POS | INT | 12 | 13 | 13 | 7=(x-6) | 7 x 6 - = | 7:potato x:potato 6:potato -:potato =:potato
+EXPR: 0 | POS | INT | 12 | 13 | 1 | (7-x)=6 | 7 x - 6 = | 7:potato x:potato -:potato 6:potato =:potato
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

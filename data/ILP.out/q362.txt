@@ -1,0 +1,7 @@
+constants : 8.75 6
+unknowns : x
+operators : + - * / =
+objtypes : bucket
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 2.75

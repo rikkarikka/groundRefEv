@@ -1,0 +1,7 @@
+constants : 46 25
+unknowns : x
+operators : + - * / =
+objtypes : ruler
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 21.0

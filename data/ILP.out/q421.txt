@@ -1,0 +1,7 @@
+constants : 48 6
+unknowns : x
+operators : + - * / =
+objtypes : papers cousin
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 8

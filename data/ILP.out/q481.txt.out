@@ -1,0 +1,5 @@
+parameters: n=9 l=4 k=1 p=5 q=3 m=10
+TOTAL 6 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 7 | 381 | (((74+35)+18)*3)=x | 74 35 + 18 + 3 * x = | 74:cent 35:cent +:cent 18:cent +:cent 3:cost *:cost x:cost =:cost
+NET 1 unique, non-negative, integer-valued solutions found out of 6 total solutions

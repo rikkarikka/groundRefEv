@@ -1,0 +1,7 @@
+constants : 63 9
+unknowns : x
+operators : + - * / =
+objtypes : magazine box
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7

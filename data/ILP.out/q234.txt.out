@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 7790 | 7790 | x=(1346+6444) | x 1346 6444 + = | x:muff 1346:muff 6444:muff +:muff =:muff
+EXPR: 1 | POS | INT | 0 | 7790 | 7790 | (1346+6444)=x | 1346 6444 + x = | 1346:muff 6444:muff +:muff x:muff =:muff
+EXPR: 0 | POS | INT | 2 | 7790 | 5098 | (x+1346)=6444 | x 1346 + 6444 = | x:muff 1346:muff +:muff 6444:muff =:muff
+EXPR: 1 | POS | INT | 2 | 7790 | 7790 | (x-1346)=6444 | x 1346 - 6444 = | x:muff 1346:muff -:muff 6444:muff =:muff
+EXPR: 0 | POS | INT | 2 | 7790 | 5098 | (1346+x)=6444 | 1346 x + 6444 = | 1346:muff x:muff +:muff 6444:muff =:muff
+EXPR: 0 | POS | INT | 2 | 7790 | 5098 | 1346=(6444-x) | 1346 6444 x - = | 1346:muff 6444:muff x:muff -:muff =:muff
+EXPR: 1 | POS | INT | 2 | 7790 | 7790 | 1346=(x-6444) | 1346 x 6444 - = | 1346:muff x:muff 6444:muff -:muff =:muff
+EXPR: 0 | POS | INT | 10 | 7790 | 5098 | (6444-1346)=x | 6444 1346 - x = | 6444:muff 1346:muff -:muff x:muff =:muff
+EXPR: 0 | POS | INT | 10 | 7790 | 5098 | x=(6444-1346) | x 6444 1346 - = | x:muff 6444:muff 1346:muff -:muff =:muff
+EXPR: 1 | POS | INT | 12 | 7790 | 7790 | (x-6444)=1346 | x 6444 - 1346 = | x:muff 6444:muff -:muff 1346:muff =:muff
+EXPR: 0 | POS | INT | 12 | 7790 | 5098 | 6444=(x+1346) | 6444 x 1346 + = | 6444:muff x:muff 1346:muff +:muff =:muff
+EXPR: 0 | POS | INT | 12 | 7790 | 5098 | 6444=(1346+x) | 6444 1346 x + = | 6444:muff 1346:muff x:muff +:muff =:muff
+EXPR: 1 | POS | INT | 12 | 7790 | 7790 | 6444=(x-1346) | 6444 x 1346 - = | 6444:muff x:muff 1346:muff -:muff =:muff
+EXPR: 0 | POS | INT | 12 | 7790 | 5098 | (6444-x)=1346 | 6444 x - 1346 = | 6444:muff x:muff -:muff 1346:muff =:muff
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

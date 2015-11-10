@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 7 | 7 | 8=(56/x) | 8 56 x / = | 8:carving 56:carving x:shelf /:carving =:carving
+EXPR: 1 | POS | INT | 2 | 7 | 7 | (x*8)=56 | x 8 * 56 = | x:shelf 8:carving *:carving 56:carving =:carving
+EXPR: 1 | POS | INT | 2 | 7 | 7 | (8*x)=56 | 8 x * 56 = | 8:carving x:shelf *:carving 56:carving =:carving
+EXPR: 0 | POS | INT | 10 | 7 | 448 | (8*56)=x | 8 56 * x = | 8:carving 56:shelf *:shelf x:shelf =:shelf
+EXPR: 0 | POS | INT | 10 | 7 | 64 | (8+56)=x | 8 56 + x = | 8:carving 56:carving +:carving x:carving =:carving
+EXPR: 0 | POS | INT | 10 | 7 | 448 | x=(8*56) | x 8 56 * = | x:shelf 8:carving 56:shelf *:shelf =:shelf
+EXPR: 0 | POS | INT | 10 | 7 | 64 | x=(8+56) | x 8 56 + = | x:carving 8:carving 56:carving +:carving =:carving
+EXPR: 0 | POS | INT | 12 | 7 | 448 | 8=(x/56) | 8 x 56 / = | 8:shelf x:shelf 56:carving /:shelf =:shelf
+EXPR: 1 | POS | INT | 12 | 7 | 7 | 56=(8*x) | 56 8 x * = | 56:carving 8:carving x:shelf *:carving =:carving
+EXPR: 0 | POS | INT | 12 | 7 | 64 | 8=(x-56) | 8 x 56 - = | 8:carving x:carving 56:carving -:carving =:carving
+EXPR: 1 | POS | INT | 12 | 7 | 7 | 56=(x*8) | 56 x 8 * = | 56:carving x:shelf 8:carving *:carving =:carving
+EXPR: 0 | POS | INT | 12 | 7 | 48 | 8=(56-x) | 8 56 x - = | 8:carving 56:carving x:carving -:carving =:carving
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (56/x)=8 | 56 x / 8 = | 56:carving x:shelf /:carving 8:carving =:carving
+EXPR: 0 | POS | INT | 12 | 7 | 48 | (x+8)=56 | x 8 + 56 = | x:carving 8:carving +:carving 56:carving =:carving
+EXPR: 0 | POS | INT | 12 | 7 | 48 | (8+x)=56 | 8 x + 56 = | 8:carving x:carving +:carving 56:carving =:carving
+EXPR: 0 | POS | INT | 12 | 7 | 64 | (x-8)=56 | x 8 - 56 = | x:carving 8:carving -:carving 56:carving =:carving
+EXPR: 0 | POS | INT | 12 | 7 | 448 | (x/8)=56 | x 8 / 56 = | x:shelf 8:carving /:shelf 56:shelf =:shelf
+EXPR: 1 | POS | INT | 20 | 7 | 7 | (56/8)=x | 56 8 / x = | 56:shelf 8:carving /:shelf x:shelf =:shelf
+EXPR: 0 | POS | INT | 20 | 7 | 48 | x=(56-8) | x 56 8 - = | x:carving 56:carving 8:carving -:carving =:carving
+EXPR: 0 | POS | INT | 20 | 7 | 48 | (56-8)=x | 56 8 - x = | 56:carving 8:carving -:carving x:carving =:carving
+EXPR: 1 | POS | INT | 20 | 7 | 7 | x=(56/8) | x 56 8 / = | x:shelf 56:shelf 8:carving /:shelf =:shelf
+EXPR: 0 | POS | INT | 22 | 7 | 48 | (56-x)=8 | 56 x - 8 = | 56:carving x:carving -:carving 8:carving =:carving
+EXPR: 0 | POS | INT | 22 | 7 | 448 | (x/56)=8 | x 56 / 8 = | x:shelf 56:carving /:shelf 8:shelf =:shelf
+EXPR: 0 | POS | INT | 22 | 7 | 64 | (x-56)=8 | x 56 - 8 = | x:carving 56:carving -:carving 8:carving =:carving
+EXPR: 0 | POS | INT | 22 | 7 | 64 | 56=(x-8) | 56 x 8 - = | 56:carving x:carving 8:carving -:carving =:carving
+EXPR: 0 | POS | INT | 22 | 7 | 48 | 56=(x+8) | 56 x 8 + = | 56:carving x:carving 8:carving +:carving =:carving
+EXPR: 0 | POS | INT | 22 | 7 | 48 | 56=(8+x) | 56 8 x + = | 56:carving 8:carving x:carving +:carving =:carving
+EXPR: 0 | POS | INT | 22 | 7 | 448 | 56=(x/8) | 56 x 8 / = | 56:shelf x:shelf 8:carving /:shelf =:shelf
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 198 | 198 | x=(6*33) | x 6 33 * = | x:book 6:author 33:book *:book =:book
+EXPR: 1 | POS | INT | 0 | 198 | 198 | (6*33)=x | 6 33 * x = | 6:author 33:book *:book x:book =:book
+EXPR: 1 | POS | INT | 2 | 198 | 198 | (x/6)=33 | x 6 / 33 = | x:book 6:author /:book 33:book =:book
+EXPR: 0 | POS | INT | 10 | 198 | 39 | x=(6+33) | x 6 33 + = | x:book 6:book 33:book +:book =:book
+EXPR: 0 | POS | INT | 10 | 198 | 39 | (6+33)=x | 6 33 + x = | 6:book 33:book +:book x:book =:book
+EXPR: 0 | POS | INT | 12 | 198 | 27 | 6=(33-x) | 6 33 x - = | 6:book 33:book x:book -:book =:book
+EXPR: 1 | POS | INT | 12 | 198 | 198 | 33=(x/6) | 33 x 6 / = | 33:book x:book 6:author /:book =:book
+EXPR: 0 | POS | INT | 12 | 198 | 27 | (x+6)=33 | x 6 + 33 = | x:book 6:book +:book 33:book =:book
+EXPR: 0 | POS | INT | 12 | 198 | 39 | (x-6)=33 | x 6 - 33 = | x:book 6:book -:book 33:book =:book
+EXPR: 0 | POS | INT | 12 | 198 | 27 | (6+x)=33 | 6 x + 33 = | 6:book x:book +:book 33:book =:book
+EXPR: 0 | POS | INT | 12 | 198 | 39 | 6=(x-33) | 6 x 33 - = | 6:book x:book 33:book -:book =:book
+EXPR: 1 | POS | INT | 12 | 198 | 198 | 6=(x/33) | 6 x 33 / = | 6:author x:author 33:book /:author =:author
+EXPR: 0 | POS | INT | 20 | 198 | 27 | x=(33-6) | x 33 6 - = | x:book 33:book 6:book -:book =:book
+EXPR: 0 | POS | INT | 20 | 198 | 27 | (33-6)=x | 33 6 - x = | 33:book 6:book -:book x:book =:book
+EXPR: 0 | POS | INT | 22 | 198 | 27 | (33-x)=6 | 33 x - 6 = | 33:book x:book -:book 6:book =:book
+EXPR: 1 | POS | INT | 22 | 198 | 198 | (x/33)=6 | x 33 / 6 = | x:author 33:book /:author 6:author =:author
+EXPR: 0 | POS | INT | 22 | 198 | 27 | 33=(6+x) | 33 6 x + = | 33:book 6:book x:book +:book =:book
+EXPR: 0 | POS | INT | 22 | 198 | 39 | (x-33)=6 | x 33 - 6 = | x:book 33:book -:book 6:book =:book
+EXPR: 0 | POS | INT | 22 | 198 | 27 | 33=(x+6) | 33 x 6 + = | 33:book x:book 6:book +:book =:book
+EXPR: 0 | POS | INT | 22 | 198 | 39 | 33=(x-6) | 33 x 6 - = | 33:book x:book 6:book -:book =:book
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

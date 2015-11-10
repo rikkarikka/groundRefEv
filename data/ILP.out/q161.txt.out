@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 28 | 28 | x=(7*4) | x 7 4 * = | x:balloon 7:balloon 4:Nancy *:balloon =:balloon
+EXPR: 1 | POS | INT | 0 | 28 | 28 | (7*4)=x | 7 4 * x = | 7:balloon 4:Nancy *:balloon x:balloon =:balloon
+EXPR: 1 | POS | INT | 2 | 28 | 28 | 7=(x/4) | 7 x 4 / = | 7:balloon x:balloon 4:Nancy /:balloon =:balloon
+EXPR: 0 | POS | INT | 10 | 28 | 3 | (7-4)=x | 7 4 - x = | 7:balloon 4:balloon -:balloon x:balloon =:balloon
+EXPR: 0 | POS | INT | 10 | 28 | 11 | x=(7+4) | x 7 4 + = | x:balloon 7:balloon 4:balloon +:balloon =:balloon
+EXPR: 0 | POS | INT | 10 | 28 | 3 | x=(7-4) | x 7 4 - = | x:balloon 7:balloon 4:balloon -:balloon =:balloon
+EXPR: 0 | POS | INT | 10 | 28 | 11 | (7+4)=x | 7 4 + x = | 7:balloon 4:balloon +:balloon x:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 28 | 3 | 7=(x+4) | 7 x 4 + = | 7:balloon x:balloon 4:balloon +:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 28 | 11 | 7=(x-4) | 7 x 4 - = | 7:balloon x:balloon 4:balloon -:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 28 | 3 | 7=(4+x) | 7 4 x + = | 7:balloon 4:balloon x:balloon +:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 28 | 11 | (x-7)=4 | x 7 - 4 = | x:balloon 7:balloon -:balloon 4:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 28 | 3 | (7-x)=4 | 7 x - 4 = | 7:balloon x:balloon -:balloon 4:balloon =:balloon
+EXPR: 1 | POS | INT | 12 | 28 | 28 | (x/7)=4 | x 7 / 4 = | x:Nancy 7:balloon /:Nancy 4:Nancy =:Nancy
+EXPR: 1 | POS | INT | 12 | 28 | 28 | (x/4)=7 | x 4 / 7 = | x:balloon 4:Nancy /:balloon 7:balloon =:balloon
+EXPR: 0 | POS | INT | 22 | 28 | 3 | (x+4)=7 | x 4 + 7 = | x:balloon 4:balloon +:balloon 7:balloon =:balloon
+EXPR: 0 | POS | INT | 22 | 28 | 3 | (4+x)=7 | 4 x + 7 = | 4:balloon x:balloon +:balloon 7:balloon =:balloon
+EXPR: 0 | POS | INT | 22 | 28 | 11 | 4=(x-7) | 4 x 7 - = | 4:balloon x:balloon 7:balloon -:balloon =:balloon
+EXPR: 1 | POS | INT | 22 | 28 | 28 | 4=(x/7) | 4 x 7 / = | 4:Nancy x:Nancy 7:balloon /:Nancy =:Nancy
+EXPR: 0 | POS | INT | 22 | 28 | 3 | 4=(7-x) | 4 7 x - = | 4:balloon 7:balloon x:balloon -:balloon =:balloon
+EXPR: 0 | POS | INT | 22 | 28 | 11 | (x-4)=7 | x 4 - 7 = | x:balloon 4:balloon -:balloon 7:balloon =:balloon
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,7 @@
+constants : 20 12 20 5 8
+unknowns : x
+operators : + - * / =
+objtypes : sticker
+constantOrUnknownType : 0 0 0 0 0 0
+n : 11
+answer : 39.0

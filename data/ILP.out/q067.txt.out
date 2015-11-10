@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 9 | 20 | (5*4)=x | 5 4 * x = | 5:tree 4:oak *:oak x:oak =:oak
+EXPR: 1 | POS | INT | 10 | 9 | 9 | (5+4)=x | 5 4 + x = | 5:tree 4:tree +:tree x:tree =:tree
+EXPR: 0 | POS | INT | 10 | 9 | 1 | x=(5-4) | x 5 4 - = | x:tree 5:tree 4:tree -:tree =:tree
+EXPR: 0 | POS | INT | 10 | 9 | 20 | x=(5*4) | x 5 4 * = | x:oak 5:tree 4:oak *:oak =:oak
+EXPR: 1 | POS | INT | 10 | 9 | 9 | x=(5+4) | x 5 4 + = | x:tree 5:tree 4:tree +:tree =:tree
+EXPR: 0 | POS | INT | 10 | 9 | 1 | (5-4)=x | 5 4 - x = | 5:tree 4:tree -:tree x:tree =:tree
+EXPR: 0 | POS | INT | 12 | 9 | 20 | 5=(x/4) | 5 x 4 / = | 5:oak x:oak 4:tree /:oak =:oak
+EXPR: 1 | POS | INT | 12 | 9 | 9 | 5=(x-4) | 5 x 4 - = | 5:tree x:tree 4:tree -:tree =:tree
+EXPR: 0 | POS | INT | 12 | 9 | 1 | (5-x)=4 | 5 x - 4 = | 5:tree x:tree -:tree 4:tree =:tree
+EXPR: 0 | POS | INT | 12 | 9 | 1 | 5=(x+4) | 5 x 4 + = | 5:tree x:tree 4:tree +:tree =:tree
+EXPR: 0 | POS | INT | 12 | 9 | 1 | 5=(4+x) | 5 4 x + = | 5:tree 4:tree x:tree +:tree =:tree
+EXPR: 1 | POS | INT | 12 | 9 | 9 | (x-5)=4 | x 5 - 4 = | x:tree 5:tree -:tree 4:tree =:tree
+EXPR: 0 | POS | INT | 12 | 9 | 20 | (x/5)=4 | x 5 / 4 = | x:oak 5:tree /:oak 4:oak =:oak
+EXPR: 0 | POS | INT | 22 | 9 | 20 | (x/4)=5 | x 4 / 5 = | x:oak 4:tree /:oak 5:oak =:oak
+EXPR: 1 | POS | INT | 22 | 9 | 9 | (x-4)=5 | x 4 - 5 = | x:tree 4:tree -:tree 5:tree =:tree
+EXPR: 0 | POS | INT | 22 | 9 | 1 | (4+x)=5 | 4 x + 5 = | 4:tree x:tree +:tree 5:tree =:tree
+EXPR: 1 | POS | INT | 22 | 9 | 9 | 4=(x-5) | 4 x 5 - = | 4:tree x:tree 5:tree -:tree =:tree
+EXPR: 0 | POS | INT | 22 | 9 | 1 | (x+4)=5 | x 4 + 5 = | x:tree 4:tree +:tree 5:tree =:tree
+EXPR: 0 | POS | INT | 22 | 9 | 20 | 4=(x/5) | 4 x 5 / = | 4:oak x:oak 5:tree /:oak =:oak
+EXPR: 0 | POS | INT | 22 | 9 | 1 | 4=(5-x) | 4 5 x - = | 4:tree 5:tree x:tree -:tree =:tree
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

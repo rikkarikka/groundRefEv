@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 441 | 441 | x=(49*9) | x 49 9 * = | x:page 49:booklet 9:page *:page =:page
+EXPR: 1 | POS | INT | 0 | 441 | 441 | (49*9)=x | 49 9 * x = | 49:booklet 9:page *:page x:page =:page
+EXPR: 1 | POS | INT | 2 | 441 | 441 | (x/49)=9 | x 49 / 9 = | x:page 49:booklet /:page 9:page =:page
+EXPR: 0 | POS | INT | 10 | 441 | 58 | x=(49+9) | x 49 9 + = | x:page 49:page 9:page +:page =:page
+EXPR: 0 | POS | INT | 10 | 441 | 58 | (49+9)=x | 49 9 + x = | 49:page 9:page +:page x:page =:page
+EXPR: 0 | POS | INT | 10 | 441 | 40 | (49-9)=x | 49 9 - x = | 49:page 9:page -:page x:page =:page
+EXPR: 0 | POS | INT | 10 | 441 | 40 | x=(49-9) | x 49 9 - = | x:page 49:page 9:page -:page =:page
+EXPR: 0 | POS | INT | 12 | 441 | 40 | (49-x)=9 | 49 x - 9 = | 49:page x:page -:page 9:page =:page
+EXPR: 0 | POS | INT | 12 | 441 | 40 | 49=(9+x) | 49 9 x + = | 49:page 9:page x:page +:page =:page
+EXPR: 1 | POS | INT | 12 | 441 | 441 | 9=(x/49) | 9 x 49 / = | 9:page x:page 49:booklet /:page =:page
+EXPR: 0 | POS | INT | 12 | 441 | 58 | (x-49)=9 | x 49 - 9 = | x:page 49:page -:page 9:page =:page
+EXPR: 0 | POS | INT | 12 | 441 | 40 | 49=(x+9) | 49 x 9 + = | 49:page x:page 9:page +:page =:page
+EXPR: 0 | POS | INT | 12 | 441 | 58 | 49=(x-9) | 49 x 9 - = | 49:page x:page 9:page -:page =:page
+EXPR: 1 | POS | INT | 12 | 441 | 441 | 49=(x/9) | 49 x 9 / = | 49:booklet x:booklet 9:page /:booklet =:booklet
+EXPR: 1 | POS | INT | 22 | 441 | 441 | (x/9)=49 | x 9 / 49 = | x:booklet 9:page /:booklet 49:booklet =:booklet
+EXPR: 0 | POS | INT | 22 | 441 | 40 | 9=(49-x) | 9 49 x - = | 9:page 49:page x:page -:page =:page
+EXPR: 0 | POS | INT | 22 | 441 | 40 | (x+9)=49 | x 9 + 49 = | x:page 9:page +:page 49:page =:page
+EXPR: 0 | POS | INT | 22 | 441 | 58 | (x-9)=49 | x 9 - 49 = | x:page 9:page -:page 49:page =:page
+EXPR: 0 | POS | INT | 22 | 441 | 40 | (9+x)=49 | 9 x + 49 = | 9:page x:page +:page 49:page =:page
+EXPR: 0 | POS | INT | 22 | 441 | 58 | 9=(x-49) | 9 x 49 - = | 9:page x:page 49:page -:page =:page
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

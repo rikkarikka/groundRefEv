@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 13 | 5 | (9-4)=x | 9 4 - x = | 9:pokemon 4:pokemon -:pokemon x:pokemon =:pokemon
+EXPR: 1 | POS | INT | 0 | 13 | 13 | x=(9+4) | x 9 4 + = | x:pokemon 9:pokemon 4:pokemon +:pokemon =:pokemon
+EXPR: 0 | POS | INT | 0 | 13 | 5 | x=(9-4) | x 9 4 - = | x:pokemon 9:pokemon 4:pokemon -:pokemon =:pokemon
+EXPR: 1 | POS | INT | 0 | 13 | 13 | (9+4)=x | 9 4 + x = | 9:pokemon 4:pokemon +:pokemon x:pokemon =:pokemon
+EXPR: 0 | POS | INT | 2 | 13 | 5 | 9=(4+x) | 9 4 x + = | 9:pokemon 4:pokemon x:pokemon +:pokemon =:pokemon
+EXPR: 1 | POS | INT | 2 | 13 | 13 | (x-9)=4 | x 9 - 4 = | x:pokemon 9:pokemon -:pokemon 4:pokemon =:pokemon
+EXPR: 0 | POS | INT | 2 | 13 | 5 | 9=(x+4) | 9 x 4 + = | 9:pokemon x:pokemon 4:pokemon +:pokemon =:pokemon
+EXPR: 0 | POS | INT | 2 | 13 | 5 | (9-x)=4 | 9 x - 4 = | 9:pokemon x:pokemon -:pokemon 4:pokemon =:pokemon
+EXPR: 1 | POS | INT | 2 | 13 | 13 | 9=(x-4) | 9 x 4 - = | 9:pokemon x:pokemon 4:pokemon -:pokemon =:pokemon
+EXPR: 0 | POS | INT | 12 | 13 | 5 | (x+4)=9 | x 4 + 9 = | x:pokemon 4:pokemon +:pokemon 9:pokemon =:pokemon
+EXPR: 1 | POS | INT | 12 | 13 | 13 | (x-4)=9 | x 4 - 9 = | x:pokemon 4:pokemon -:pokemon 9:pokemon =:pokemon
+EXPR: 0 | POS | INT | 12 | 13 | 5 | (4+x)=9 | 4 x + 9 = | 4:pokemon x:pokemon +:pokemon 9:pokemon =:pokemon
+EXPR: 1 | POS | INT | 12 | 13 | 13 | 4=(x-9) | 4 x 9 - = | 4:pokemon x:pokemon 9:pokemon -:pokemon =:pokemon
+EXPR: 0 | POS | INT | 12 | 13 | 5 | 4=(9-x) | 4 9 x - = | 4:pokemon 9:pokemon x:pokemon -:pokemon =:pokemon
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 43 | 43 | x=(14+29) | x 14 29 + = | x:game 14:game 29:game +:game =:game
+EXPR: 1 | POS | INT | 0 | 43 | 43 | (14+29)=x | 14 29 + x = | 14:game 29:game +:game x:game =:game
+EXPR: 0 | POS | INT | 2 | 43 | 15 | (x+14)=29 | x 14 + 29 = | x:game 14:game +:game 29:game =:game
+EXPR: 1 | POS | INT | 2 | 43 | 43 | (x-14)=29 | x 14 - 29 = | x:game 14:game -:game 29:game =:game
+EXPR: 0 | POS | INT | 2 | 43 | 15 | (14+x)=29 | 14 x + 29 = | 14:game x:game +:game 29:game =:game
+EXPR: 0 | POS | INT | 2 | 43 | 15 | 14=(29-x) | 14 29 x - = | 14:game 29:game x:game -:game =:game
+EXPR: 1 | POS | INT | 2 | 43 | 43 | 14=(x-29) | 14 x 29 - = | 14:game x:game 29:game -:game =:game
+EXPR: 0 | POS | INT | 10 | 43 | 15 | (29-14)=x | 29 14 - x = | 29:game 14:game -:game x:game =:game
+EXPR: 0 | POS | INT | 10 | 43 | 15 | x=(29-14) | x 29 14 - = | x:game 29:game 14:game -:game =:game
+EXPR: 1 | POS | INT | 12 | 43 | 43 | (x-29)=14 | x 29 - 14 = | x:game 29:game -:game 14:game =:game
+EXPR: 0 | POS | INT | 12 | 43 | 15 | 29=(x+14) | 29 x 14 + = | 29:game x:game 14:game +:game =:game
+EXPR: 0 | POS | INT | 12 | 43 | 15 | 29=(14+x) | 29 14 x + = | 29:game 14:game x:game +:game =:game
+EXPR: 1 | POS | INT | 12 | 43 | 43 | 29=(x-14) | 29 x 14 - = | 29:game x:game 14:game -:game =:game
+EXPR: 0 | POS | INT | 12 | 43 | 15 | (29-x)=14 | 29 x - 14 = | 29:game x:game -:game 14:game =:game
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

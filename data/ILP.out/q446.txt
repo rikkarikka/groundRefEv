@@ -1,0 +1,7 @@
+constants : 126 81
+unknowns : x
+operators : + - * / =
+objtypes : dvd
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 45

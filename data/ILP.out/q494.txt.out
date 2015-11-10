@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 28 | 28 | x=(7*4) | x 7 4 * = | x:dog 7:box 4:dog *:dog =:dog
+EXPR: 1 | POS | INT | 0 | 28 | 28 | (7*4)=x | 7 4 * x = | 7:box 4:dog *:dog x:dog =:dog
+EXPR: 1 | POS | INT | 2 | 28 | 28 | (x/7)=4 | x 7 / 4 = | x:dog 7:box /:dog 4:dog =:dog
+EXPR: 0 | POS | INT | 10 | 28 | 11 | x=(7+4) | x 7 4 + = | x:dog 7:dog 4:dog +:dog =:dog
+EXPR: 0 | POS | INT | 10 | 28 | 11 | (7+4)=x | 7 4 + x = | 7:dog 4:dog +:dog x:dog =:dog
+EXPR: 0 | POS | INT | 10 | 28 | 3 | (7-4)=x | 7 4 - x = | 7:dog 4:dog -:dog x:dog =:dog
+EXPR: 0 | POS | INT | 10 | 28 | 3 | x=(7-4) | x 7 4 - = | x:dog 7:dog 4:dog -:dog =:dog
+EXPR: 0 | POS | INT | 12 | 28 | 3 | (7-x)=4 | 7 x - 4 = | 7:dog x:dog -:dog 4:dog =:dog
+EXPR: 0 | POS | INT | 12 | 28 | 3 | 7=(4+x) | 7 4 x + = | 7:dog 4:dog x:dog +:dog =:dog
+EXPR: 1 | POS | INT | 12 | 28 | 28 | 4=(x/7) | 4 x 7 / = | 4:dog x:dog 7:box /:dog =:dog
+EXPR: 0 | POS | INT | 12 | 28 | 11 | (x-7)=4 | x 7 - 4 = | x:dog 7:dog -:dog 4:dog =:dog
+EXPR: 0 | POS | INT | 12 | 28 | 3 | 7=(x+4) | 7 x 4 + = | 7:dog x:dog 4:dog +:dog =:dog
+EXPR: 0 | POS | INT | 12 | 28 | 11 | 7=(x-4) | 7 x 4 - = | 7:dog x:dog 4:dog -:dog =:dog
+EXPR: 1 | POS | INT | 12 | 28 | 28 | 7=(x/4) | 7 x 4 / = | 7:box x:box 4:dog /:box =:box
+EXPR: 1 | POS | INT | 22 | 28 | 28 | (x/4)=7 | x 4 / 7 = | x:box 4:dog /:box 7:box =:box
+EXPR: 0 | POS | INT | 22 | 28 | 3 | 4=(7-x) | 4 7 x - = | 4:dog 7:dog x:dog -:dog =:dog
+EXPR: 0 | POS | INT | 22 | 28 | 3 | (x+4)=7 | x 4 + 7 = | x:dog 4:dog +:dog 7:dog =:dog
+EXPR: 0 | POS | INT | 22 | 28 | 11 | (x-4)=7 | x 4 - 7 = | x:dog 4:dog -:dog 7:dog =:dog
+EXPR: 0 | POS | INT | 22 | 28 | 3 | (4+x)=7 | 4 x + 7 = | 4:dog x:dog +:dog 7:dog =:dog
+EXPR: 0 | POS | INT | 22 | 28 | 11 | 4=(x-7) | 4 x 7 - = | 4:dog x:dog 7:dog -:dog =:dog
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,7 @@
+constants : 4.4 2.86
+unknowns : x
+operators : + - * / =
+objtypes : foot UNKNOWN
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 7.26

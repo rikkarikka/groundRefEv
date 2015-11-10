@@ -1,0 +1,7 @@
+constants : 51 23
+unknowns : x
+operators : + - * / =
+objtypes : pumpkin
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 74.0

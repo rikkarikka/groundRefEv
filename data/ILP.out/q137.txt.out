@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 8 | 8 | x=(4*2) | x 4 2 * = | x:pencil 4:child 2:pencil *:pencil =:pencil
+EXPR: 1 | POS | INT | 0 | 8 | 8 | (4*2)=x | 4 2 * x = | 4:child 2:pencil *:pencil x:pencil =:pencil
+EXPR: 1 | POS | INT | 2 | 8 | 8 | (x/4)=2 | x 4 / 2 = | x:pencil 4:child /:pencil 2:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 8 | 2 | (4/2)=x | 4 2 / x = | 4:child 2:pencil /:child x:child =:child
+EXPR: 0 | POS | INT | 10 | 8 | 6 | x=(4+2) | x 4 2 + = | x:pencil 4:pencil 2:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 8 | 6 | (4+2)=x | 4 2 + x = | 4:pencil 2:pencil +:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 8 | 2 | x=(4/2) | x 4 2 / = | x:child 4:child 2:pencil /:child =:child
+EXPR: 0 | POS | INT | 10 | 8 | 2 | (4-2)=x | 4 2 - x = | 4:pencil 2:pencil -:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 8 | 2 | x=(4-2) | x 4 2 - = | x:pencil 4:pencil 2:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 8 | 2 | 4=(x*2) | 4 x 2 * = | 4:child x:pencil 2:child *:child =:child
+EXPR: 0 | POS | INT | 12 | 8 | 2 | 4=(2*x) | 4 2 x * = | 4:child 2:child x:pencil *:child =:child
+EXPR: 0 | POS | INT | 12 | 8 | 2 | (4/x)=2 | 4 x / 2 = | 4:child x:pencil /:child 2:child =:child
+EXPR: 0 | POS | INT | 12 | 8 | 2 | (4-x)=2 | 4 x - 2 = | 4:pencil x:pencil -:pencil 2:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 8 | 2 | 4=(2+x) | 4 2 x + = | 4:pencil 2:pencil x:pencil +:pencil =:pencil
+EXPR: 1 | POS | INT | 12 | 8 | 8 | 2=(x/4) | 2 x 4 / = | 2:pencil x:pencil 4:child /:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 8 | 6 | (x-4)=2 | x 4 - 2 = | x:pencil 4:pencil -:pencil 2:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 8 | 2 | 4=(x+2) | 4 x 2 + = | 4:pencil x:pencil 2:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 8 | 6 | 4=(x-2) | 4 x 2 - = | 4:pencil x:pencil 2:pencil -:pencil =:pencil
+EXPR: 1 | POS | INT | 12 | 8 | 8 | 4=(x/2) | 4 x 2 / = | 4:child x:child 2:pencil /:child =:child
+EXPR: 1 | POS | INT | 22 | 8 | 8 | (x/2)=4 | x 2 / 4 = | x:child 2:pencil /:child 4:child =:child
+EXPR: 0 | POS | INT | 22 | 8 | 2 | 2=(4-x) | 2 4 x - = | 2:pencil 4:pencil x:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 22 | 8 | 2 | (x*2)=4 | x 2 * 4 = | x:pencil 2:child *:child 4:child =:child
+EXPR: 0 | POS | INT | 22 | 8 | 2 | (x+2)=4 | x 2 + 4 = | x:pencil 2:pencil +:pencil 4:pencil =:pencil
+EXPR: 0 | POS | INT | 22 | 8 | 2 | 2=(4/x) | 2 4 x / = | 2:child 4:child x:pencil /:child =:child
+EXPR: 0 | POS | INT | 22 | 8 | 2 | (2*x)=4 | 2 x * 4 = | 2:pencil x:child *:child 4:child =:child
+EXPR: 0 | POS | INT | 22 | 8 | 6 | (x-2)=4 | x 2 - 4 = | x:pencil 2:pencil -:pencil 4:pencil =:pencil
+EXPR: 0 | POS | INT | 22 | 8 | 2 | (2+x)=4 | 2 x + 4 = | 2:pencil x:pencil +:pencil 4:pencil =:pencil
+EXPR: 0 | POS | INT | 22 | 8 | 6 | 2=(x-4) | 2 x 4 - = | 2:pencil x:pencil 4:pencil -:pencil =:pencil
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

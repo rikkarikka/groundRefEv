@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 22 | 22 | (47-25)=x | 47 25 - x = | 47:seashell 25:seashell -:seashell x:seashell =:seashell
+EXPR: 0 | POS | INT | 0 | 22 | 72 | x=(47+25) | x 47 25 + = | x:seashell 47:seashell 25:seashell +:seashell =:seashell
+EXPR: 1 | POS | INT | 0 | 22 | 22 | x=(47-25) | x 47 25 - = | x:seashell 47:seashell 25:seashell -:seashell =:seashell
+EXPR: 0 | POS | INT | 0 | 22 | 72 | (47+25)=x | 47 25 + x = | 47:seashell 25:seashell +:seashell x:seashell =:seashell
+EXPR: 1 | POS | INT | 2 | 22 | 22 | 47=(25+x) | 47 25 x + = | 47:seashell 25:seashell x:seashell +:seashell =:seashell
+EXPR: 0 | POS | INT | 2 | 22 | 72 | (x-47)=25 | x 47 - 25 = | x:seashell 47:seashell -:seashell 25:seashell =:seashell
+EXPR: 1 | POS | INT | 2 | 22 | 22 | 47=(x+25) | 47 x 25 + = | 47:seashell x:seashell 25:seashell +:seashell =:seashell
+EXPR: 1 | POS | INT | 2 | 22 | 22 | (47-x)=25 | 47 x - 25 = | 47:seashell x:seashell -:seashell 25:seashell =:seashell
+EXPR: 0 | POS | INT | 2 | 22 | 72 | 47=(x-25) | 47 x 25 - = | 47:seashell x:seashell 25:seashell -:seashell =:seashell
+EXPR: 1 | POS | INT | 12 | 22 | 22 | (x+25)=47 | x 25 + 47 = | x:seashell 25:seashell +:seashell 47:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 22 | 72 | (x-25)=47 | x 25 - 47 = | x:seashell 25:seashell -:seashell 47:seashell =:seashell
+EXPR: 1 | POS | INT | 12 | 22 | 22 | (25+x)=47 | 25 x + 47 = | 25:seashell x:seashell +:seashell 47:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 22 | 72 | 25=(x-47) | 25 x 47 - = | 25:seashell x:seashell 47:seashell -:seashell =:seashell
+EXPR: 1 | POS | INT | 12 | 22 | 22 | 25=(47-x) | 25 47 x - = | 25:seashell 47:seashell x:seashell -:seashell =:seashell
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

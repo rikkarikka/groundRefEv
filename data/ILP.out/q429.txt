@@ -1,0 +1,7 @@
+constants : 54 9
+unknowns : x
+operators : + - * / =
+objtypes : seed can
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 6

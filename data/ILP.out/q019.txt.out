@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 10 | 24 | (4*6)=x | 4 6 * x = | 4:tree 6:walnut *:walnut x:walnut =:walnut
+EXPR: 1 | POS | INT | 10 | 10 | 10 | (4+6)=x | 4 6 + x = | 4:tree 6:tree +:tree x:tree =:tree
+EXPR: 0 | POS | INT | 10 | 10 | 24 | x=(4*6) | x 4 6 * = | x:walnut 4:tree 6:walnut *:walnut =:walnut
+EXPR: 1 | POS | INT | 10 | 10 | 10 | x=(4+6) | x 4 6 + = | x:tree 4:tree 6:tree +:tree =:tree
+EXPR: 0 | POS | INT | 12 | 10 | 24 | 4=(x/6) | 4 x 6 / = | 4:walnut x:walnut 6:tree /:walnut =:walnut
+EXPR: 1 | POS | INT | 12 | 10 | 10 | 4=(x-6) | 4 x 6 - = | 4:tree x:tree 6:tree -:tree =:tree
+EXPR: 0 | POS | INT | 12 | 10 | 2 | 4=(6-x) | 4 6 x - = | 4:tree 6:tree x:tree -:tree =:tree
+EXPR: 0 | POS | INT | 12 | 10 | 2 | (x+4)=6 | x 4 + 6 = | x:tree 4:tree +:tree 6:tree =:tree
+EXPR: 0 | POS | INT | 12 | 10 | 2 | (4+x)=6 | 4 x + 6 = | 4:tree x:tree +:tree 6:tree =:tree
+EXPR: 1 | POS | INT | 12 | 10 | 10 | (x-4)=6 | x 4 - 6 = | x:tree 4:tree -:tree 6:tree =:tree
+EXPR: 0 | POS | INT | 12 | 10 | 24 | (x/4)=6 | x 4 / 6 = | x:walnut 4:tree /:walnut 6:walnut =:walnut
+EXPR: 0 | POS | INT | 20 | 10 | 2 | x=(6-4) | x 6 4 - = | x:tree 6:tree 4:tree -:tree =:tree
+EXPR: 0 | POS | INT | 20 | 10 | 2 | (6-4)=x | 6 4 - x = | 6:tree 4:tree -:tree x:tree =:tree
+EXPR: 0 | POS | INT | 22 | 10 | 2 | (6-x)=4 | 6 x - 4 = | 6:tree x:tree -:tree 4:tree =:tree
+EXPR: 0 | POS | INT | 22 | 10 | 24 | (x/6)=4 | x 6 / 4 = | x:walnut 6:tree /:walnut 4:walnut =:walnut
+EXPR: 1 | POS | INT | 22 | 10 | 10 | (x-6)=4 | x 6 - 4 = | x:tree 6:tree -:tree 4:tree =:tree
+EXPR: 1 | POS | INT | 22 | 10 | 10 | 6=(x-4) | 6 x 4 - = | 6:tree x:tree 4:tree -:tree =:tree
+EXPR: 0 | POS | INT | 22 | 10 | 2 | 6=(x+4) | 6 x 4 + = | 6:tree x:tree 4:tree +:tree =:tree
+EXPR: 0 | POS | INT | 22 | 10 | 2 | 6=(4+x) | 6 4 x + = | 6:tree 4:tree x:tree +:tree =:tree
+EXPR: 0 | POS | INT | 22 | 10 | 24 | 6=(x/4) | 6 x 4 / = | 6:walnut x:walnut 4:tree /:walnut =:walnut
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

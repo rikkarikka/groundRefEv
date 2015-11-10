@@ -1,0 +1,7 @@
+constants : 7 9
+unknowns : x
+operators : + - * / =
+objtypes : lemon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 16.0

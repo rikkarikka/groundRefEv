@@ -1,0 +1,7 @@
+constants : 7.666666666666667 3.3333333333333335
+unknowns : x
+operators : + - * / =
+objtypes : inch line
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 4.333333333333333
