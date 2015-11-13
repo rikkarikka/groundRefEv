@@ -8,6 +8,7 @@ class World() {
     var EntityLBL = Map[String,String]()
     var IDtoID = Map[String,String]()
     var EntityList = new ListBuffer[(String,String)]
+    var Compounds = Map[String,Entity]()
     var sidx = 0
     var entIdx = 0
     var myobjs = List[MRS]()
@@ -51,7 +52,7 @@ class World() {
 
         def nvaap() {
             var mention = mentions(0)
-            n = mention._2.rel.split("_n_")(0) filter {x => !("_\"" contains x)}
+            n = mention._2.word filter {x => !("_\".,?!" contains x) }//mention._2.rel.split("_n_")(0) filter {x => !("_\"" contains x)}
             val verbs = relations filter (x=> x.r contains "_v_")
             /*
             if (verbs.length > 0) {
@@ -84,6 +85,7 @@ class World() {
             case e : Throwable => None
         }
     }
+
 
     def associate(id: String, ent: Entity) {
         val ids = for (m <- ent.mentions) yield m._2.idx
@@ -138,28 +140,7 @@ class World() {
         }
     }
 
-    /*
-    def old_associate(id: String, ent: Entity) {
-        val ids = for (m <- ent.mentions) yield m._2.idx
-        var spl = id split("x")
-        var s = spl(0)
-        var idx = "x" + spl(1)
-        val sEnts = myobjs filter (_.idx.startsWith(s)) filter (_.args.drop(1) contains idx)
-        for (e <- sEnts) {
-            var argidx = e.args.indexOf(idx)
-            if (e.rel == "card_rel"){
-                ent.card = e.carg
-            }
-            ent.relations += new Reln(e.rel,argidx)
-            for (oidx <- e.args filter (_.startsWith("x"))) {
-                if (oidx != idx) {
-                    var oargidx = e.args.indexOf(oidx)
-                    ent.relations += new Reln(e.rel, argidx, IDtoID(s+oidx),oargidx)
-                }
-            }
-        }
-    }
-    */
+
 
     def numbers = EntityID.toList sortWith (_._1 < _._1) map (_._2) filter (x=>((x.card != 0.0)))//||x.has_rel("much-many_a_rel")))
 
@@ -204,6 +185,12 @@ class World() {
             EntityList += ((name,id))
         }
         EntityID foreach {case (k,v) => associate(k,v);v.nvaap()}
+
+        //deal w/ part_of_rel
+        objs filter {x => x.rel contains "part_of_rel"} foreach { x=>
+            EntityID(IDtoID(sidx.toString + x.args(1))).card = EntityID(IDtoID(sidx.toString + x.args(0))).card 
+            EntityID(IDtoID(sidx.toString + x.args(0))).card = 0:Float
+        }
         //EntityID foreach {case (k,v) => v.print()}
 
     }
@@ -213,6 +200,14 @@ class World() {
         //vars foreach {case (k,v) => v.print()}
         return vars
 
+    }
+
+    def compoundEntity(x:String,e1:Entity,e2:Entity){
+        if ("+*" contains x.takeRight(1)) {
+            Compounds += ((x,e2))
+        } else {
+            Compounds += ((x,e1))
+        }
     }
         
 
@@ -282,27 +277,25 @@ class World() {
         return vec
     }
 
-    /*
-    def lookup(i:String): Option[Entity] = {
-        return EntityID map (_._2) filter (x:Entity=>g.close(x.card,i)) (0)
-    }
-    */
 
     def handmadeVector(m:Word2Vec,REL_LIST:Array[String],e1:Entity,e2:Entity): Array[Double] = {
         var vec = new ArrayBuffer[Double]
-        //val e1nvec += if ( m.contains(e1.n) ) m.vector(e1.n) else new Array[Float](300)
-        //val e2nvec += if ( m.contains(e2.n) ) m.vector(e2.n) else new Array[Float](300)
         //vec += e1nvec
         //vec += e2nvec
-        //println(e1.n, e2.n, m vector (e1.n))
+        println(e1.n, e2.n, m vector (e1.n))
         if ((m contains e1.n) && (m contains e2.n)) vec += m cosine (e1.n, e2.n); else vec+= -1
         if ((e1.v.length>0) && (e2.v.length>0)) {
+            vec ++= m vector(e1.v(0)) map (_.toDouble)
+            vec ++= m vector(e2.v(0)) map (_.toDouble)
             if ((m contains e1.v(0)) && (m contains e2.v(0))) vec += m cosine (e1.v(0), e2.v(0)); else vec+= -1
-        } else vec += -1
+        } else {vec += -1; vec ++= Array[Double](400)}
+        /*
         if ((e1.v.length>1) && (e2.v.length>1)) {
             if ((m contains e1.v(1)) && (m contains e2.v(1))) vec += m cosine (e1.v(1), e2.v(1)); else vec+= -1
         } else vec += -1
+        */
         REL_LIST foreach {x => if (e1.relations map (_.r) contains x) vec += 1.0 ; else vec += 0.0 }
+        REL_LIST foreach {x => if (e2.relations map (_.r) contains x) vec += 1.0 ; else vec += 0.0 }
         return vec.toArray
     }
 

@@ -8,7 +8,8 @@ import libsvm.svm._
 import breeze.linalg._
 
 object g {
-        def REL_LIST= Source.fromFile("data/rel_list.txt").mkString.split("\n").distinct
+        //def REL_LIST= Source.fromFile("data/rel_list.txt").mkString.split("\n").distinct
+        def REL_LIST= Source.fromFile("data/rel_list.reduced.txt").mkString.split("\n").distinct
         val probdir = "data/problems/"
         val dir = new File(probdir)
         val problems = dir.list filter (_.endsWith("mrs"))
@@ -19,6 +20,7 @@ object g {
         }
         var m = new Word2Vec()
         m.load("data/smallvectors.bin")
+        val ops = List("+","-","*","/","=")
 
 
         
@@ -292,8 +294,9 @@ object parseQuestion {
 		fi.close()
                 val w = parseStory(sentences)
                 w.numbers foreach {x=>x.relations foreach {y=>rels += y.r}}
+                w.variables foreach {x=>x._2.relations foreach {y=>rels += y.r}}
             }
-            rels.distinct foreach println
+            rels.distinct filter {x=>x.charAt(0)!='\"'} foreach println
         }
 
         def rel_list(w:World) {
@@ -385,12 +388,12 @@ object parseQuestion {
             if (eqs.length == 0) return false 
 
             var e = eqs(0).split(" ") filter (_.charAt(0).isDigit) map (_.toFloat)
-            print(e.toList,w.numbers.map(_.card))
+            //print(e.toList,w.numbers.map(_.card))
             if (w.numbers map (_.card) forall (x => e exists (g.close(x,_)))) return true
             else return false
         }
 
-        class Trip(e1:String,e2:String,op:String){
+        class Trip(val e1:String,val e2:String,val op:String){
         }
 
         def procEq(e:String,w:World): ArrayBuffer[Trip] = {
@@ -401,8 +404,13 @@ object parseQuestion {
                 if ("/-+=*" contains x) {
                     var a = stack.pop
                     var b = stack.pop
-                    stack.push(b+" "+a+" "+x)
+                    var c = b+" "+a+" "+x
+                    stack.push(c)
                     triples.append(new Trip(a,b,x))
+                    if (!(w.Compounds contains c)) {
+                        //print(a,b,c)
+                        w.compoundEntity(c,lookup(a,w).get,lookup(b,w).get)
+                    }
 
                 }
                 else stack.push(x)
@@ -411,8 +419,21 @@ object parseQuestion {
             return triples
         }
 
+        def lookup(i:String,w:World): Option[w.Entity] = {
+            if (i == "x") {
+                var matches = w.variables() map (_._2)
+                return matches.headOption
+            } else if ("+-=/*" contains i.takeRight(1)) {
+                return Some(w.Compounds(i))
+            } else {
+                var matches = w.EntityID map (_._2) filter (x => g.close(x.card,i.toFloat))
+                return matches.headOption
+            }
+            return None
+        }
 
-        def train() {
+
+        def train(ofi:String) {
 
             val probdir = "data/problems/"
             val dir = new File(probdir)
@@ -426,6 +447,8 @@ object parseQuestion {
             var equations = Source.fromFile("data/eq.txt").mkString.split("\n")
 
             //produce training vectors for each problem
+            var vecs = new ArrayBuffer[Array[Double]]
+            val output = new PrintWriter(ofi)
             problems foreach { x => 
 
                 //this reads the MRSes of each problem
@@ -435,26 +458,46 @@ object parseQuestion {
 
                 // create a World from MRSes of problem statement sentences
                 val w = parseStory(sentences)
+                //w.numbers foreach {x=>x.print()}
 
                 //this gets the associated answer and equation
                 var pidx = x.split("\\.")(0).toInt
                 var a = answers(pidx)
                 //var e = equations(pidx)
                 var eqs = getEqs(pidx)
-                var trips = new ArrayBuffer[Trip]
-                eqs foreach {e => 
-                    trips ++= procEq(e,w) 
-                }
-                println(trips.length)
-                trips.toSet
-                println(trips.length)
+                if (verify(eqs,w)) {
+                    var trips = new ArrayBuffer[Trip]
+                    eqs foreach {e => 
+                        //println(e)
+                        try {
+                            trips ++= procEq(e,w) 
+                        } catch {case _ : Throwable => {} } 
+                    }
+                    //println(trips.length)
+                    trips.toSet
+                    trips filter {_.op != "="} foreach {y =>
+                        val e1 = lookup(y.e1,w)
+                        val e2 = lookup(y.e2,w)
+                        e1 match {
+                            case Some(a) => {
+                                e2 match {
+                                    case Some(b) =>  {
 
-                /*
-		try {
-			val s = solveProblem(w,a,e)
-            } catch {case _ : Throwable => {} } //println(x)}
-                */
+                                        output.write(g.ops.indexOf(y.op)+" ")
+                                        var j = 1
+                                        var vec = w.handmadeVector(g.m,g.REL_LIST,a,b)
+                                        vec foreach {z => output.write(j.toString+":"+z+" ");j+=1}
+                                        output.write("\n")
+                                    }
+                                    case None => {} 
+                                }
+                            }
+                            case None => {}
+                        }
+                    }
+                }
             }
+            output.close
         }
 
         def getEqs(i:Int,k:Int=100): ArrayBuffer[String] = {
@@ -492,7 +535,7 @@ object parseQuestion {
                     split()
                 }
                 case "train" => {
-                    train()
+                    train(args(1))
                 }
                 case "test" => {
                     val test = Source.fromFile("data/test.indexes").mkString.split("\n").toList
