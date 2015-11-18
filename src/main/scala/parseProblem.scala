@@ -449,6 +449,7 @@ object parseQuestion {
             //produce training vectors for each problem
             var vecs = new ArrayBuffer[Array[Double]]
             val output = new PrintWriter(ofi)
+            var count = 0
             problems foreach { x => 
 
                 //this reads the MRSes of each problem
@@ -482,12 +483,23 @@ object parseQuestion {
                             case Some(a) => {
                                 e2 match {
                                     case Some(b) =>  {
+                                        //This is dumb erase it after press
+                                        if (count%5==0) {
+                                            println("+++++++++")
+                                            println(count/5)
+                                            a.print()
+                                            b.print()
+                                        }
+                                        count += 1
+                                        
 
-                                        output.write(g.ops.indexOf(y.op)+" ")
-                                        var j = 1
-                                        var vec = w.handmadeVector(g.m,g.REL_LIST,a,b)
-                                        vec foreach {z => output.write(j.toString+":"+z+" ");j+=1}
-                                        output.write("\n")
+
+
+                                        //output.write(g.ops.indexOf(y.op)+" ")
+                                        //var j = 1
+                                        //var vec = w.handmadeVector(g.m,g.REL_LIST,a,b)
+                                        //vec foreach {z => output.write(j.toString+":"+z+" ");j+=1}
+                                        //output.write("\n")
                                     }
                                     case None => {} 
                                 }

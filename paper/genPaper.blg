@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: genPaper.aux
+The style file: acl2012.bst
+Database file #1: grounding.bib
+Warning--empty journal in bobrow1964natural
+You've used 31 entries,
+            2490 wiz_defined-function locations,
+            711 strings with 9675 characters,
+and the built_in function-call counts, 13138 in all, are:
+= -- 1367
+> -- 532
+< -- 11
++ -- 179
+- -- 178
+* -- 899
+:= -- 2060
+add.period$ -- 125
+call.type$ -- 31
+change.case$ -- 212
+chr.to.int$ -- 30
+cite$ -- 32
+duplicate$ -- 608
+empty$ -- 1014
+format.name$ -- 216
+if$ -- 2815
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 31
+newline$ -- 187
+num.names$ -- 93
+pop$ -- 279
+preamble$ -- 1
+purify$ -- 244
+quote$ -- 0
+skip$ -- 465
+stack$ -- 0
+substring$ -- 543
+swap$ -- 170
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 244
+warning$ -- 1
+while$ -- 96
+width$ -- 36
+write$ -- 426
+(There was 1 warning)

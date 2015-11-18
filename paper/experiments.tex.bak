@@ -1,0 +1,42 @@
+\section{Experiments}
+
+We evaluate the effectiveness of an MRS-based semantic representation for determining the correct operator for combining two text quantities in a word problem. 
+Our MRS representations come from the ERG version 1214 parsed by ACE parser version 0.9.20.
+Our data is taken from the {\sc SingleEQ} dataset of 508 math word problems presented in \cite{koncel2015parsing}.
+We take a subset of these where every sentence is parsable and the quantities needed to solve each problem appear in the text (e.g. it is not necessary to resolve ``week'' to ``7 days'' in order to solve the problem). 
+So as to leave some problems untouched for future work, we take 3/5ths of the remaining problems for use in this work, leaving us with 191 problems.
+Using ILP, we obtain 1082 subtrees of correct equations for these problems, which we convert to quantity/operator triples. 
+We then train a multi-class SVC to distinguish operators based on the vector representations of the text quantities described in the previous section.  
+We use LIBSVM version 3.20 \cite{CC01a} to build an SVC with an RBF kernel. 
+Our results are obtained using the best value of the cost hyperparameter as discovered through a grid search of the parameter space.
+We report 5-fold cross validation in all results. 
+
+\paragraph{Results}
+
+\begin{table*}[t]
+ \begin{center}
+\begin{small}
+\begin{tabular}{|lcc|}
+\hline 
+\small System & Accuracy & Rel. Error Reduction (\%)\\ \hline
+\small Koncel-Kedziorski & 0.840 & -  \\
+\small All Predicates & 0.851 & 6.9 \\
+\small Abstract Predicates Only& 0.660 & - \\
+\small Abstr. Preds + Verbs \& Dist. & 0.870 & 18.8 \\
+\hline
+\end{tabular}
+\end{small}
+\caption{Results of classifying quantity/operator triples using different semantic representations}
+\label{tab:res}
+\end{center}
+\end{table*}
+
+Table~\ref{tab:res} shows our results. 
+We see that the use of MRS predicates compared the the home-brewed semantics outlined in \cite{koncel2015parsing} yields a 6.9\% relative reduction in errors. 
+This is the vector representation that is closest to the semantics as provided by the ERG: all predicates related to number quantities are directly incorporated into the feature vector without domain-specific pruning or manipulation.
+However, as noted above, the brittleness of such lexical systems has been recorded. 
+
+Reducing to only the abstract predicates, we note a significant drop in performance, showing that lexical verb and noun information is necessary in classifying operations. 
+When abstract predicates are augmented by noun and verb distances and verb vectors we see a significant boost, performing better than the ``bag-of-predicates'' vector.
+ 
+

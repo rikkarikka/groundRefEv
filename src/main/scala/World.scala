@@ -282,18 +282,18 @@ class World() {
         var vec = new ArrayBuffer[Double]
         //vec += e1nvec
         //vec += e2nvec
-        println(e1.n, e2.n, m vector (e1.n))
+        //println(e1.n, e2.n, m vector (e1.n))
         if ((m contains e1.n) && (m contains e2.n)) vec += m cosine (e1.n, e2.n); else vec+= -1
         if ((e1.v.length>0) && (e2.v.length>0)) {
             vec ++= m vector(e1.v(0)) map (_.toDouble)
             vec ++= m vector(e2.v(0)) map (_.toDouble)
             if ((m contains e1.v(0)) && (m contains e2.v(0))) vec += m cosine (e1.v(0), e2.v(0)); else vec+= -1
         } else {vec += -1; vec ++= Array[Double](400)}
-        /*
         if ((e1.v.length>1) && (e2.v.length>1)) {
+            //vec ++= m vector(e1.v(1)) map (_.toDouble)
+            //vec ++= m vector(e2.v(1)) map (_.toDouble)
             if ((m contains e1.v(1)) && (m contains e2.v(1))) vec += m cosine (e1.v(1), e2.v(1)); else vec+= -1
-        } else vec += -1
-        */
+        } else {vec += -1}//; vec ++= Array[Double](400)}
         REL_LIST foreach {x => if (e1.relations map (_.r) contains x) vec += 1.0 ; else vec += 0.0 }
         REL_LIST foreach {x => if (e2.relations map (_.r) contains x) vec += 1.0 ; else vec += 0.0 }
         return vec.toArray

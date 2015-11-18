@@ -1,0 +1,219 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citename{Bender \bgroup et al.\egroup
+  }2015]{bender-EtAl:2015:IWCS2015}
+Emily~M. Bender, Dan Flickinger, Stephan Oepen, Woodley Packard, and Ann
+  Copestake.
+\newblock 2015.
+\newblock Layers of interpretation: On grammar and compositionality.
+\newblock In {\em Proceedings of the 11th International Conference on
+  Computational Semantics}, pages 239--249, London, UK, April. Association for
+  Computational Linguistics.
+
+\bibitem[\protect\citename{Bobrow}1964]{bobrow1964natural}
+Daniel~G Bobrow.
+\newblock 1964.
+\newblock Natural language input for a computer problem solving system.
+
+\bibitem[\protect\citename{Chang and Lin}2011]{CC01a}
+Chih-Chung Chang and Chih-Jen Lin.
+\newblock 2011.
+\newblock {LIBSVM}: A library for support vector machines.
+\newblock {\em ACM Transactions on Intelligent Systems and Technology},
+  2:27:1--27:27.
+
+\bibitem[\protect\citename{Charniak}1969]{charniak1969computer}
+Eugene Charniak.
+\newblock 1969.
+\newblock Computer solution of calculus word problems.
+\newblock In {\em international joint conference on Artificial intelligence},
+  pages 303--316.
+
+\bibitem[\protect\citename{Copestake \bgroup et al.\egroup
+  }2005]{copestake2005minimal}
+Ann Copestake, Dan Flickinger, Carl Pollard, and Ivan~A Sag.
+\newblock 2005.
+\newblock Minimal recursion semantics: An introduction.
+\newblock {\em Research on Language and Computation}, 3(2-3):281--332.
+
+\bibitem[\protect\citename{Fader \bgroup et al.\egroup
+  }2013]{fader2013paraphrase}
+Anthony Fader, Luke~S Zettlemoyer, and Oren Etzioni.
+\newblock 2013.
+\newblock Paraphrase-driven learning for open question answering.
+\newblock In {\em ACL (1)}, pages 1608--1618. Citeseer.
+
+\bibitem[\protect\citename{Flickinger}2000]{flickinger2000building}
+Dan Flickinger.
+\newblock 2000.
+\newblock On building a more effcient grammar by exploiting types.
+\newblock {\em Natural Language Engineering}, 6(01):15--28.
+
+\bibitem[\protect\citename{Flickinger}2011]{flickinger2011accuracy}
+Dan Flickinger.
+\newblock 2011.
+\newblock Accuracy vs. robustness in grammar engineering.
+\newblock {\em Language from a cognitive perspective: Grammar, usage, and
+  processing}, pages 31--50.
+
+\bibitem[\protect\citename{Ge and Mooney}2006]{GeM:ACL06}
+Ruifang Ge and Raymond~J. Mooney.
+\newblock 2006.
+\newblock Discriminative reranking for semantic parsing.
+\newblock In {\em Proceedings of the 44th Annual Meeting of the Association for
+  Computational Linguistics}.
+
+\bibitem[\protect\citename{Hixon \bgroup et al.\egroup
+  }2015]{hixon2015learning}
+Ben Hixon, Peter Clark, and Hannaneh Hajishirzi.
+\newblock 2015.
+\newblock Learning knowledge graphs for question answering through
+  conversational dialog.
+\newblock In {\em NAACL}.
+
+\bibitem[\protect\citename{Hosseini \bgroup et al.\egroup
+  }2014]{hosseini2014learning}
+Mohammad~Javad Hosseini, Hannaneh Hajishirzi, Oren Etzioni, and Nate Kushman.
+\newblock 2014.
+\newblock Learning to solve arithmetic word problems with verb categorization.
+\newblock In {\em Empirical Methods in Natural Language Processing (EMNLP)},
+  pages 523--533.
+
+\bibitem[\protect\citename{Jansen \bgroup et al.\egroup
+  }2014]{jansen2014discourse}
+Peter Jansen, Mihai Surdeanu, and Peter Clark.
+\newblock 2014.
+\newblock Discourse complements lexical semantics for non-factoid answer
+  reranking.
+\newblock In {\em Proceedings of the 52nd Annual Meeting of the Association for
+  Computational Linguistics (ACL)}.
+
+\bibitem[\protect\citename{Koncel-Kedziorski \bgroup et al.\egroup
+  }2015]{koncel2015parsing}
+Rik Koncel-Kedziorski, Hannaneh Hajishirzi, Ashish Sabharwal, Oren Etzioni, and
+  Siena Damon~Ang.
+\newblock 2015.
+\newblock Parsing algebraic word problems into equations.
+\newblock {\em Transactions of the Association for Computational Linguistics}.
+
+\bibitem[\protect\citename{Kushman \bgroup et al.\egroup
+  }2014]{kushman2014learning}
+Nate Kushman, Yoav Artzi, Luke Zettlemoyer, and Regina Barzilay.
+\newblock 2014.
+\newblock Learning to automatically solve algebra word problems.
+\newblock In {\em Annual Meeting of the Association for Computational
+  Linguistics}, pages 271--281.
+
+\bibitem[\protect\citename{Kwiatkowski \bgroup et al.\egroup
+  }2010]{kwiatkowski2010inducing}
+Tom Kwiatkowski, Luke Zettlemoyer, Sharon Goldwater, and Mark Steedman.
+\newblock 2010.
+\newblock Inducing probabilistic ccg grammars from logical form with
+  higher-order unification.
+\newblock In {\em Proceedings of the 2010 conference on empirical methods in
+  natural language processing}, pages 1223--1233.
+
+\bibitem[\protect\citename{Lien and Kouylekov}2015]{lien2015semantic}
+Elisabeth Lien and Milen Kouylekov.
+\newblock 2015.
+\newblock Semantic parsing for textual entailment.
+\newblock {\em IWPT 2015}, page~40.
+
+\bibitem[\protect\citename{Mikolov \bgroup et al.\egroup
+  }2013]{mikolov2013efficient}
+Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean.
+\newblock 2013.
+\newblock Efficient estimation of word representations in vector space.
+\newblock {\em arXiv preprint arXiv:1301.3781}.
+
+\bibitem[\protect\citename{Mitra and Baral}2015]{mitralearning}
+Arindam Mitra and Chitta Baral.
+\newblock 2015.
+\newblock Learning to automatically solve logic grid puzzles.
+\newblock In {\em Proceedings of EMNLP}, Lisbon,Portugal.
+
+\bibitem[\protect\citename{Packard}2014]{packard2014uw}
+Woodley Packard.
+\newblock 2014.
+\newblock Uw-mrs: Leveraging a deep grammar for robotic spatial commands.
+\newblock {\em SemEval 2014}, page 812.
+
+\bibitem[\protect\citename{Packard}2015]{ace}
+Woodley Packard.
+\newblock 2015.
+\newblock Ace: the answer constraint engine.
+
+\bibitem[\protect\citename{Pollard and Sag}1994]{Pol:Sag:94}
+Carl Pollard and Ivan~A. Sag.
+\newblock 1994.
+\newblock {\em {H}ead-{D}riven {P}hrase {S}tructure {G}rammar}.
+\newblock Studies in Contemporary Linguistics. The University of Chicago Press
+  and CSLI Publications, Chicago, IL and Stanford, CA.
+
+\bibitem[\protect\citename{Roy \bgroup et al.\egroup }2015a]{roy2015solving}
+Subhro Roy, Urbana Champaign, and Dan Roth.
+\newblock 2015a.
+\newblock Solving general arithmetic word problems.
+\newblock In {\em Proceedings of EMNLP}, Lisbon,Portugal.
+
+\bibitem[\protect\citename{Roy \bgroup et al.\egroup }2015b]{Roy15}
+Subhro Roy, Tim Vieira, and Dan Roth.
+\newblock 2015b.
+\newblock Reasoning about quantities in natural language.
+\newblock {\em Transactions of the Association for Computational Linguistics
+  (TACL)}.
+
+\bibitem[\protect\citename{Sachan \bgroup et al.\egroup
+  }2015]{sachan2015learning}
+Mrinmaya Sachan, Avinava Dubey, Eric~P Xing, and Matthew Richardson.
+\newblock 2015.
+\newblock Learning answerentailing structures for machine comprehension.
+\newblock In {\em Proceedings of ACL}.
+
+\bibitem[\protect\citename{Seo \bgroup et al.\egroup }2014]{seo2014diagram}
+Min~Joon Seo, Hannaneh Hajishirzi, Ali Farhadi, and Oren Etzioni.
+\newblock 2014.
+\newblock Diagram understanding in geometry questions.
+\newblock In {\em AAAI}.
+
+\bibitem[\protect\citename{Seo \bgroup et al.\egroup }2015]{seo2015solving}
+Minjoon Seo, Hannaneh Hajishirzi, Ali Farhadi, Oren Etzioni, and Clint Malcolm.
+\newblock 2015.
+\newblock Solving geometry problems: Combining text and diagram interpretation.
+\newblock In {\em Proceedings of EMNLP}, Lisbon,Portugal.
+
+\bibitem[\protect\citename{Shi \bgroup et al.\egroup
+  }2015]{shi2015automatically}
+Shuming Shi, Yuehui Wang, Chin-Yew Lin, Xiaojiang Liu, and Yong Rui.
+\newblock 2015.
+\newblock Automatically solving number word problems by semantic parsing and
+  reasoning.
+\newblock In {\em Proceedings of EMNLP}, Lisbon,Portugal.
+
+\bibitem[\protect\citename{Weston \bgroup et al.\egroup
+  }2014]{weston2014memory}
+Jason Weston, Sumit Chopra, and Antoine Bordes.
+\newblock 2014.
+\newblock Memory networks.
+\newblock {\em arXiv preprint arXiv:1410.3916}.
+
+\bibitem[\protect\citename{Zelle and Mooney}1996]{zelle1996learning}
+John~M Zelle and Raymond~J Mooney.
+\newblock 1996.
+\newblock Learning to parse database queries using inductive logic programming.
+\newblock In {\em AAAI}, pages 1050--1055.
+
+\bibitem[\protect\citename{Zettlemoyer and Collins}2005]{Zettlemoyer:UAIC05}
+Luke~S. Zettlemoyer and Michael Collins.
+\newblock 2005.
+\newblock Learning to map sentences to logical form: Structured classification
+  with probabilistic categorial grammars.
+\newblock In {\em UAI}, pages 658--666.
+
+\bibitem[\protect\citename{Zhou \bgroup et al.\egroup }2015]{zhou2015learn}
+Lipu Zhou, Shuaixiang Dai, and Liwei Chen.
+\newblock 2015.
+\newblock Learn to solve algebra word problems using quadratic programming.
+\newblock In {\em Proceedings of EMNLP}, Lisbon,Portugal.
+
+\end{thebibliography}

@@ -1,0 +1,19 @@
+\section{Quantitative Results}
+The system outlined here performs quite well, even on somewhat difficult questions.
+For example, for the questions ``Mary earns \$46 cleaning a home. How many homes did she clean, if she made 276 dollars?''
+the system is able to correctly identify that ``\$46'' should be multiplied by ``x homes'' (remember that variables are instantiated by ``much-many\_a\_rel'' predicates, and they are associated with the ARG1 entity, here ``homes'').
+Here, the system can use only the distance between the entity noun vectors and the verbs associated with each, as no other abstract predications obtain (besides ``much-many\_a\_rel'', common to all variables regardless of operation). 
+
+However, the system does still make many significant errors. 
+For the questions ``There are 8 calories in a candy bar. How many calories are there in 3 candy bars?'' 
+the system erroneously predicts that ``x calories'' should be subtracted from ``3 candy bars'', whereas in a correct equation the latter would be divided by the former. 
+This error is in part due to the fact that ``3 candy bars'' is not associated with any verbal predication, and ``x calories'' is only associated with a relatively neutral ``\_be\_v\_there\_rel'' verbal predication. 
+However, according to the parse, the ARG1 of the ``\_in\_p\_rel'' associated with the candy bars is the ARG0 of the verbal predicate associated with the calories. 
+At present, our system is not capable of exploring such connections between event predicates, but we plan to improve this in future work. 
+
+
+\section{Conclusion}
+This paper has presented a method for utilizing Minimal Recursion Semantics for improving a math word problem solving system. 
+We show that with limited adaptation to the math word problem domain, we can achieve a 3.0\% absolute improvement in operator prediction accuracy compared to a previous state-of-the-art semantic-based technique.
+Furthermore, the techniques for relating entities across sentences discussed here are more applicable to other domains besides math word problems due to the general nature of the semantic representation over which they work. 
+Finally, we make our code available to the public to support further development of applications which take advantage of Minimal Recursion Semantics.

@@ -1,0 +1,81 @@
+\section{Related Work}
+The current work is situated within a tradition of work on mapping natural language text to executable formal representations \cite{zelle1996learning,Zettlemoyer:UAIC05,GeM:ACL06,kwiatkowski2010inducing}.
+More closely related are works on automatic problem solving such as \cite{mitralearning,seo2014diagram,dialogQA}.
+The techniques developed in this line of work are especially relevant to the problem of solving algebra word problems, and merit discussion here.
+
+\subsection{Question Answering}
+A number of systems seek to provide answers for single sentence questions such as ``What is the tallest mountain in California?'' or ``What are social networking sites used for?''. 
+
+\newcite{fader2013paraphrase} treats the problem of open domain question answering as a machine learning problem. 
+Their method uses a community-authored question paraphrase database (the WikiAnswers corpus) to learn a semantic lexicon and ranking function.
+Notably, their method does not require manually annotating questions with semantic forms. 
+Instead, they aggressively generalize a seed lexicon using just 16 question templates.
+
+\newcite{weston2014memory} show that Memory Networks can be used to improve question answering systems. 
+A memory network consists of a memory, input feature map, a generalization component which updates the memory based on the input, an output layer of the network, and a response - a translation of the output to the desired format (i.e. text). 
+They demonstrate the power of this formalism for modeling natural language on 20 ``toy'' QA tasks with great success.
+
+\newcite{hixon2015learning} learn to augment knowledge bases through dialogs with users, resulting in improved question answering in the science domain. 
+Their system learns to relate concepts in science questions to a knowledge graph, and learns to update links and nodes in this graph from open, convseational dialogs with users. 
+In an example dialog, the system, investigating an error in its QA performance, asks the user ``What is the relationship between `electricity' and `iron', if any?''
+The user's reply, ``iron conducts electricity because its metal'', allows the system to link iron and metal and solve the question correctly.
+
+\newcite{jansen2014discourse} show that discourse theory, both shallow and based in Rhetorical Structure Theory, can be used to improve non-factoid question answering compared to approaches using lexical semantics (in the form of word vectors) alone. 
+They focus on answering manner and reason questions from both Yahoo answers and biology domains. 
+Their results show that discourse-based models that make use of inter-sentential features do better than single-sentence models when the information leading to the correct answer is located in several sentences. 
+
+\newcite{sachan2015learning} also focus on modeling structure to improve question answering. 
+They make use of Latent Structural SVMs to model latent structure between narrative text and multiple choice questions over the MCTest dataset. 
+MCTest consists of 650 short narratives each paired with several multiple choice questions which can allegedly be answered given only the narrative text (absent any world knowledge). 
+\newcite{sachan2015learning} include a bevy of features in their model including predicate arguement structure, discourse structural features, dependency parse features, semantic role labels, and lexical semantic features. 
+They are able to show that LSSVM outperform Long Short Term Memory neural networks on this task on this dataset. 
+
+\subsection{Math Word Problems}
+Closer still to this line of inquiry are those works who take on the task of solving math word problems.
+ 
+In two recent works, Seo et al. 2014 and Seo et al 2015, combine techniques from computer vision with natural language processing and logical inference to solve SAT geometry problems. The vision components are used to parse diagrams which are referenced in the question text. Their work shows that grounding the text in the diagram improves accuracy versus text-only systems.
+
+Shi et al provide a method for solving number word problems such as ``Nine plus the sum of an even integer and its square is 3 raised to the power of 4. What is the number?''  Their method involves training a CFG parser which translates sentences of a number word problem to a meaning representation language called DOlphin Language (DOL). DOL consists of constants, classes, and functions, a semantics which allows for the mathematical computation of a DOL tree. The method for translating a natural language sentence to a DOL tree involves the ``semi-automatic'' learning of 9600 CFG rules from text to semantic forms. 
+
+\newcite{roy2015solving} learn to solve multistep single equation problems using equation trees. 
+They define a canonical form for equations and then learn to identify the least govnering intermediate node of any two quantities. 
+However, their cannonical form divorces them from the text. 
+Especially, it destroys the narrative structure of the problem, reducing the value of this approach to the general goal of narrative understanding.
+
+\newcite{hosseini2014learning} solve elementary addition and subtraction problems by learning verb categories. 
+They ground the problem text to a semantics of {\it entities} and {\it containers}, and  decide if quantities are increasing or
+decreasing in a container based upon the learned verb categories.
+While relying only on verb categories works well for $+,-$, 
+modeling $*,/$ requires going beyond verbs. 
+For instance, ``Tina has 2 cats. John has 3 more cats than Tina. How many cats do they have together?" and ``Tina has 2 cats. John has 3 times as many cats as Tina. How many cats do they have together?'' have identical verbs, but the indicated operation  (+ and * resp.) is different. 
+
+
+\newcite{kushman2014learning} introduce a general method for solving algebra problems. 
+This work can align a word problem to a system of equations with one or two unknowns. 
+They learn a mapping from word problems to equation templates using global and local features from the problem text. 
+However, the large space of equation templates makes it challenging for this model to learn to find the best equation directly, as a sufficiently similar template may not have been observed during training. 
+
+\newcite{zhou2015learn} improve upon the technique of Kushman et al by using quadratic programming. 
+Interestingly, a helpful innovation of their work is the reduction of semantic information. 
+Specifically, they no longer pair numbers with variables, significantly reducing the space of possible template alignments and use only numbers in their solution.
+However, these innovations move the problem only further away from the task of narrative understanding. 
+
+
+\subsection{HPSG and MRS}
+
+The syntactic theory behind this work is Head-driven Phrase Structure Grammar \cite{Pol:Sag:94}. 
+HPSG is a constraint-based grammar makes use of a large lexicon related by a type hierarchy.
+The mechanism for composition is based on unification of types, and a word or phrase is represented by a feature structure, which also includes a semantic component. 
+
+The semantic formalism used in this work is Minimal Recursion Semantics \cite{copestake2005minimal}. 
+MRS is a flat semantics which is sufficiently expressive, computationally tractable, and can be integrated with an HPSG implementation. 
+In our case, we use a broad coverage HPSG for the English language which provides parses using MSR semantics called the English Resource Grammar \cite{flickinger2000building,flickinger2011accuracy}.
+The English Resource Grammar is a hand built HPSG grammar that has been in continual development for over 20 person-years. 
+
+Previous work has applied the effective parses and semantic forms provided by the ERG to problems of AI. 
+\newcite{packard2014uw} maps MRS to Robot Control Language instructions. 
+Here manual rules are used to translate between MRS and RCL. 
+\newcite{lien2015semantic} applies Elementry Dependency Structures, a reduced form of MRS, to the task of recognizing textual entailment. 
+They create a battery of rules for enriching EDS graphs for the purposes of textual entailment, including abstraction, simplification, and structure-improving rules. 
+After such graphs are generated for both the text and hypothesis, entailment is determined by subsumption.
+

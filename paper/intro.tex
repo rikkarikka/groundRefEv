@@ -4,26 +4,63 @@ A popular strain of current work focuses on solving algebra word problems which 
 Unlike a child, an NLP system struggles to solve such problems not because of the mechanics of the algebraic manipulations involved, but rather due to the immense difficulty of understanding the narrative which occludes the equational form. 
 These narratives may draw from arbitrary aspects of human life with which school children are familiar, such as harvesting crops or trading Pokemon cards. The open-domain aspect of these problems compounds the difficult of automatically solving them.
 
+\begin{figure}[tb]
+\input{figure.tex}
+\caption{Example problem and solution}
+\label{fig:teaser}
+\end{figure}
+
 A recent line of work has focused on a semantics-based solution to the narrative understanding task presented by algebra word problems. Sets of relevant entities are extracted from the text of the problem and the algebraic relationships between these sets are learned from data. 
 \newcite{hosseini2014learning} uses a state-based model of entities and containers and learns to determine state transitions based on verb categorization. 
-\newceite{koncel2015parsing} deterministically extracts a recursive formal object called a Qset for each quantity from the dependency parse of a word problem. 
-Qsets are constructed from a host of dependency relations deemed significant in the solving of math word problems. Learning then takes place over all properties of the Qsets combined by a given operator, as well as global properties of the problem.
+\newcite{koncel2015parsing} deterministically extracts a recursive formal object called a Qset for each quantity in a word problem text. 
+Qsets are constructed from a host of syntactic dependency relations deemed significant in the solving of math word problems. 
+Learning then takes place over all properties of the Qsets combined by a given operator, as well as global properties of the problem.
 
 Both approaches, however, suffer from a number of scope limitations. 
 \newcite{hosseini2014learning} can handle only addition, subtraction, and mixed addition subtraction problems. 
 \newcite{koncel2015parsing} can handle addition, subtraction, multiplication, division, and mixed problems in one variable. 
-However, template-based methods such as \newcite{kushman2014learning} and \newcite{zhou2015learn} can solve all these as well as problems involving simultaneous equations. Additionally, it’s difficult to see how either semantic-based method can be extended to solve other narrative understanding problems such as science or reading comprehension questions, or provide for general tasks like character representation or event sequencing.
+However, template-based methods such as \newcite{kushman2014learning} and \newcite{zhou2015learn} can solve all these as well as problems involving simultaneous equations. Additionally, it's difficult to see how either semantic-based method can be extended to solve other narrative understanding problems such as science or reading comprehension questions, or provide for general tasks like character representation or event sequencing.
 
-One reason the semantic-based approaches suffer these scope limitations is due to the “home-brewed” semantic representations used by each. Both works extract unique, domain-specific semantic representations of sets from the dependency parse structure of the problems. These representations significantly reduce the information provided in the text signal, making it difficult to learn the more complex set relationships necessary to solve harder problems.
+One reason the semantic-based approaches suffer these scope limitations is due to the ``home-brewed'' semantic representations used by each.
+Both works extract unique, domain-specific semantic representations of sets from the dependency parse structure of the problems. 
+These representations significantly reduce the information provided in the text signal, making it difficult to learn the more complex set relationships necessary to solve harder problems.
 
-This paper explores the use of Minimal Recursion Semantic \cite{copestake2005minimal} in the solving of algebra word problems. 
-Minimal Recursion Semantics is a rich compositional semantic formalism that can be automatically induced for English sentences via the English Resource Grammar \cite{flickinger2000building, flickinger2011accuracy}. 
+This paper explores the use of Minimal Recursion Semantics \cite{copestake2005minimal} in the solving of algebra word problems. 
+Minimal Recursion Semantics is a rich compositional semantic formalism that can be automatically induced for English sentences via the English Resource Grammar \cite{flickinger2000building,flickinger2011accuracy}. 
 The robustness of this formalism, if utilized well, should significantly reduce the information loss cited above.
 Moreover, the domain-independence of this semantic formalism will allow for the development of learning methods which can be extended to solve other narrative understanding problems \cite{bender-EtAl:2015:IWCS2015}.
 
-Our (preliminary) method utilizes the entities expressed in the MRS representation. 
-The entities are then filtered by those which have been quantified with a cardinal number. 
-Variables are those which are the argument of a much-many a rel predicate.
-We then learn from the predications that take these entities as arguments which operations obtain between them. 
-Our method achieves 87.7\% accuracy in predicting +,-,*, or / operations between text quantities, a 3.7 percent abolute accuracy improvement versus the state-of-the-art classifier used in \cite{koncel2015parsing}.
+\begin{figure*}[tb]
+\begin{footnotesize}
+\begin{verbatim}
+SENT: How many bales did he store in the barn ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 
+        BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] 
+        ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_bale_n_1_rel"<9:14> LBL: h13 ARG0: x5 ]
+ [ pron_rel<19:21> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m PT: std ] ]
+ [ pronoun_q_rel<19:21> LBL: h17 ARG0: x3 RSTR: h18 BODY: h19 ]
+ [ "_store_v_cause_rel"<22:27> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ _in_p_rel<28:30> LBL: h1 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] 
+        ARG1: e2 ARG2: x21 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<31:34> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ "_barn_n_1_rel"<35:41> LBL: h25 ARG0: x21 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h16 h23 qeq h25 > ]
+\end{verbatim}
+\end{footnotesize}
+\caption{MRS representation of a part of a Math Word Problem}
+\label{fig:mrs}
+\end{figure*}
 
+Our (preliminary) method makes use of the entities expressed in the MRS representation of a word problem. 
+The entities which have been quantified with a cardinal number are processed into Number Entities, a lightweight formalism for working with text quantities. 
+Those entities which are the argument of a ``much-many\_a\_rel'' predicate are considered variables.
+We then learn from the predications that take these entities as arguments which operations obtain between them. 
+Our method achieves 87.0\% accuracy in predicting +,-,*, or / operations between text quantities, a 3.0\% absolute accuracy improvement versus the state-of-the-art classifier used in \cite{koncel2015parsing}.
+We also offer the code publicly, which includes Scala language tools for processing MRS representations of text.

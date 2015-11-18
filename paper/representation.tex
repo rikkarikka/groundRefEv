@@ -1,21 +1,21 @@
 \section{Representations}
 We make use of layers of representation between the surface text of a word problem and the learned model. 
 The first of these is a domain-independent semantic representation derived directly from the text using pre-existing language processing tools.
-This semantic representation is then transformed into a domain-specific intermediate representation of sets similar to the {\it Qset} representation used by \cite{konked2015}. 
+This semantic representation is then transformed into a domain-specific intermediate representation of sets similar to the {\it Qset} representation used by \cite{koncel2015parsing}. 
 Finally, a pair of intermediate representations are used to produce a vector for training. 
 Each step of this process is described below.
 
 \subsection{Semantic Representation}
 \label{semantics}
-The text of each sentence of a word problem is represented as a collection of predicates as provided by the Answer Constraint Engine parser (CITE woodley's website).
-ACE parses text using HPSG grammars, and we use the English Resource Grammar (CITE Flickenger), a high precision, handbuilt grammar for the English language. 
+The text of each sentence of a word problem is represented as a collection of predicates as provided by the Answer Constraint Engine parser \cite{ace}.
+ACE parses text using HPSG grammars, and we use the English Resource Grammar \cite{flickinger2000building,flickinger2011accuracy}, a high precision, hand-built grammar for the English language. 
 The predications instantiate a collection of entity and event variables and express the different interactions of these variables according to the compositional meaning of the text. 
 We track all predications in which a given entity variable appears as an argument.
 We also track relations between entities appearing as arguments of the same predication.
 
 Relevant to the task of solving math word problems are those entities that are related to numbers.
-These entities often appear as the ARG1 of a CARD_REL whose CARG (and text span) is a number. 
-If a CARD_REL has a non-entity ARG1, we associate it's CARG to an instantiated entity which shares the same label. 
+These entities often appear as the ARG1 of a CARD\_REL whose CARG (and text span) is a number. 
+If a CARD\_REL has a non-entity ARG1, we associate it's CARG to an instantiated entity which shares the same label. 
 These distinguished entities form our domain-specific intermediate representation, which for the sake of simplicity we will call {\it Number Entities}.
 
 \subsection{Vector Representation}
@@ -23,11 +23,14 @@ These distinguished entities form our domain-specific intermediate representatio
 As mentioned above, our system learns from triples consisting of two text quantities and an operator which appears in an equation leading to the correct solution. 
 We represent a triple as a vector by considering the Number Entities corresponding to the text quantities in the triple. 
 We evaluate several methods of vectorizing these semantic representations:
-\begin{compactenum}
-\item Predicates Only: For each of the ### predicates in the training data, the vector contains a 1 if the predicate is av
-\item Predicates SVD: 50, 100 dimensions
-\item POS-based predicate word2vec distance 
-\end{compactenum}
-Additionally, we report the results for the best classification system which combines these ideas. 
-
+\paragraph{All Predicates} For each Number Entity we add a 196 dimension vector, the number of predicates associated with any Number Entity in the training data. The vector contains a 1 if the Number Entity appears as an ARG$N$ for $N>0$ of the corresponding predicate.  
+\paragraph{Abstract Predicates}
+ Due to the nature of predicate naming, specific content noun and verb lexemes are encoded in the predicates, and these can be used to determine the correct operation between Number Entities.
+For example, problems about {\it seashells} (and thus ``\_seashell\_n\_1\_rel'') are generally addition or subtraction problems due to the nature of the data sources. 
+Such lexical overlap was shown to be a significant factor for the success of template-based methods; however, it is theoretically unsatisfying as we would like a method which does not ``memorize'' spurious features of the data but rather learns something more fundamental about the nature of the natural language representation of mathematical operations.
+To combat this, we consider abstract predicates to be those MRS predicates whose names begin with an underscore (rather than an open-quotation). 
+45 predicates meet this definition. 
+\paragraph{Abstract Predicates + Word2Vec} Previous work \cite{koncel2015parsing} has shown that verb lexemes, along with distances between the two Number Entity's nouns and verbs respectively improve classification performance. 
+We use Word2Vec \cite{mikolov2013efficient} to obtain 200-dimensional representations of verbs and nouns associated with each Number Entity.
+We incorporate the verb vectors of both Number Entities directly into our feature vector, as well as the cosine distances of their nouns and verbs.
 
