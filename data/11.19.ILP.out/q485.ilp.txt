@@ -1,0 +1,7 @@
+constants : 1.3 
+unknowns : x
+operators : + - * / =
+objtypes : dollar nickel 
+constantOrUnknownType : 0 1
+n : 3
+answer : 26.0

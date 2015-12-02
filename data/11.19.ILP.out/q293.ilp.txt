@@ -1,0 +1,7 @@
+constants : 1.0 0.3 0.2 
+unknowns : x
+operators : + - * / =
+objtypes : fish foot UK
+constantOrUnknownType : 0 1 1 2
+n : 7
+answer : 0.1

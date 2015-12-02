@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 144 | 3 | x=(12.0/4.0) | x 12.0 4.0 / = | x:marble 12.0:marble 4.0:time /:marble =:marble
+EXPR: 0 | POS | INT | 0 | 144 | 3 | (12.0/4.0)=x | 12.0 4.0 / x = | 12.0:marble 4.0:time /:marble x:marble =:marble
+EXPR: 0 | POS | INT | 0 | 144 | 48 | x=(12.0*4.0) | x 12.0 4.0 * = | x:marble 12.0:marble 4.0:time *:marble =:marble
+EXPR: 0 | POS | INT | 0 | 144 | 48 | (12.0*4.0)=x | 12.0 4.0 * x = | 12.0:marble 4.0:time *:marble x:marble =:marble
+EXPR: 0 | POS | INT | 2 | 144 | 3 | 12.0=(4.0*x) | 12.0 4.0 x * = | 12.0:marble 4.0:time x:marble *:marble =:marble
+EXPR: 0 | POS | INT | 2 | 144 | 48 | 12.0=(x/4.0) | 12.0 x 4.0 / = | 12.0:marble x:marble 4.0:time /:marble =:marble
+EXPR: 0 | POS | INT | 2 | 144 | 3 | 12.0=(x*4.0) | 12.0 x 4.0 * = | 12.0:marble x:marble 4.0:time *:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 8 | (12.0-4.0)=x | 12.0 4.0 - x = | 12.0:marble 4.0:marble -:marble x:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 16 | x=(12.0+4.0) | x 12.0 4.0 + = | x:marble 12.0:marble 4.0:marble +:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 8 | x=(12.0-4.0) | x 12.0 4.0 - = | x:marble 12.0:marble 4.0:marble -:marble =:marble
+EXPR: 0 | POS | INT | 10 | 144 | 16 | (12.0+4.0)=x | 12.0 4.0 + x = | 12.0:marble 4.0:marble +:marble x:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 8 | 12.0=(x+4.0) | 12.0 x 4.0 + = | 12.0:marble x:marble 4.0:marble +:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 3 | (12.0/x)=4.0 | 12.0 x / 4.0 = | 12.0:time x:marble /:time 4.0:time =:time
+EXPR: 0 | POS | INT | 12 | 144 | 3 | (4.0*x)=12.0 | 4.0 x * 12.0 = | 4.0:time x:marble *:marble 12.0:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 16 | 12.0=(x-4.0) | 12.0 x 4.0 - = | 12.0:marble x:marble 4.0:marble -:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 8 | 12.0=(4.0+x) | 12.0 4.0 x + = | 12.0:marble 4.0:marble x:marble +:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 16 | (x-12.0)=4.0 | x 12.0 - 4.0 = | x:marble 12.0:marble -:marble 4.0:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 8 | (12.0-x)=4.0 | 12.0 x - 4.0 = | 12.0:marble x:marble -:marble 4.0:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 48 | (x/12.0)=4.0 | x 12.0 / 4.0 = | x:time 12.0:marble /:time 4.0:time =:time
+EXPR: 0 | POS | INT | 12 | 144 | 48 | (x/4.0)=12.0 | x 4.0 / 12.0 = | x:marble 4.0:time /:marble 12.0:marble =:marble
+EXPR: 0 | POS | INT | 12 | 144 | 3 | (x*4.0)=12.0 | x 4.0 * 12.0 = | x:marble 4.0:time *:marble 12.0:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 8 | (x+4.0)=12.0 | x 4.0 + 12.0 = | x:marble 4.0:marble +:marble 12.0:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 3 | 4.0=(12.0/x) | 4.0 12.0 x / = | 4.0:time 12.0:time x:marble /:time =:time
+EXPR: 0 | POS | INT | 22 | 144 | 8 | (4.0+x)=12.0 | 4.0 x + 12.0 = | 4.0:marble x:marble +:marble 12.0:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 16 | 4.0=(x-12.0) | 4.0 x 12.0 - = | 4.0:marble x:marble 12.0:marble -:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 48 | 4.0=(x/12.0) | 4.0 x 12.0 / = | 4.0:time x:time 12.0:marble /:time =:time
+EXPR: 0 | POS | INT | 22 | 144 | 8 | 4.0=(12.0-x) | 4.0 12.0 x - = | 4.0:marble 12.0:marble x:marble -:marble =:marble
+EXPR: 0 | POS | INT | 22 | 144 | 16 | (x-4.0)=12.0 | x 4.0 - 12.0 = | x:marble 4.0:marble -:marble 12.0:marble =:marble
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

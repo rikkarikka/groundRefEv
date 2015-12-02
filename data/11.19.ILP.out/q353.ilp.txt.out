@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 3.25 | 3.25 | x=(1.125+2.125) | x 1.125 2.125 + = | x:lap 1.125:lap 2.125:lap +:lap =:lap
+EXPR: 1 | POS | FRA | 0 | 3.25 | 3.25 | (1.125+2.125)=x | 1.125 2.125 + x = | 1.125:lap 2.125:lap +:lap x:lap =:lap
+EXPR: 0 | POS | INT | 2 | 3.25 | 1 | (x+1.125)=2.125 | x 1.125 + 2.125 = | x:lap 1.125:lap +:lap 2.125:lap =:lap
+EXPR: 1 | POS | FRA | 2 | 3.25 | 3.25 | (x-1.125)=2.125 | x 1.125 - 2.125 = | x:lap 1.125:lap -:lap 2.125:lap =:lap
+EXPR: 0 | POS | INT | 2 | 3.25 | 1 | (1.125+x)=2.125 | 1.125 x + 2.125 = | 1.125:lap x:lap +:lap 2.125:lap =:lap
+EXPR: 0 | POS | INT | 2 | 3.25 | 1 | 1.125=(2.125-x) | 1.125 2.125 x - = | 1.125:lap 2.125:lap x:lap -:lap =:lap
+EXPR: 1 | POS | FRA | 2 | 3.25 | 3.25 | 1.125=(x-2.125) | 1.125 x 2.125 - = | 1.125:lap x:lap 2.125:lap -:lap =:lap
+EXPR: 0 | POS | INT | 10 | 3.25 | 1 | (2.125-1.125)=x | 2.125 1.125 - x = | 2.125:lap 1.125:lap -:lap x:lap =:lap
+EXPR: 0 | POS | INT | 10 | 3.25 | 1 | x=(2.125-1.125) | x 2.125 1.125 - = | x:lap 2.125:lap 1.125:lap -:lap =:lap
+EXPR: 1 | POS | FRA | 12 | 3.25 | 3.25 | (x-2.125)=1.125 | x 2.125 - 1.125 = | x:lap 2.125:lap -:lap 1.125:lap =:lap
+EXPR: 0 | POS | INT | 12 | 3.25 | 1 | 2.125=(x+1.125) | 2.125 x 1.125 + = | 2.125:lap x:lap 1.125:lap +:lap =:lap
+EXPR: 0 | POS | INT | 12 | 3.25 | 1 | 2.125=(1.125+x) | 2.125 1.125 x + = | 2.125:lap 1.125:lap x:lap +:lap =:lap
+EXPR: 1 | POS | FRA | 12 | 3.25 | 3.25 | 2.125=(x-1.125) | 2.125 x 1.125 - = | 2.125:lap x:lap 1.125:lap -:lap =:lap
+EXPR: 0 | POS | INT | 12 | 3.25 | 1 | (2.125-x)=1.125 | 2.125 x - 1.125 = | 2.125:lap x:lap -:lap 1.125:lap =:lap
+NET 14 unique, non-negative solutions found out of 28 total solutions

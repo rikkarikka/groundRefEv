@@ -1,0 +1,7 @@
+constants : 13.0 15.0 8.0 21.0 
+unknowns : x
+operators : + - * / =
+objtypes : coin 
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 15.0

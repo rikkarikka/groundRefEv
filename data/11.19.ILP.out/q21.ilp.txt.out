@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 12 | 35 | x=(7.0*5.0) | x 7.0 5.0 * = | x:puppy 7.0:UK 5.0:puppy *:puppy =:puppy
+EXPR: 0 | POS | INT | 0 | 12 | 35 | (7.0*5.0)=x | 7.0 5.0 * x = | 7.0:UK 5.0:puppy *:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 2 | 12 | 35 | (x/7.0)=5.0 | x 7.0 / 5.0 = | x:puppy 7.0:UK /:puppy 5.0:puppy =:puppy
+EXPR: 1 | POS | INT | 10 | 12 | 12 | x=(7.0+5.0) | x 7.0 5.0 + = | x:puppy 7.0:puppy 5.0:puppy +:puppy =:puppy
+EXPR: 1 | POS | INT | 10 | 12 | 12 | (7.0+5.0)=x | 7.0 5.0 + x = | 7.0:puppy 5.0:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 10 | 12 | 2 | (7.0-5.0)=x | 7.0 5.0 - x = | 7.0:puppy 5.0:puppy -:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 10 | 12 | 2 | x=(7.0-5.0) | x 7.0 5.0 - = | x:puppy 7.0:puppy 5.0:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 12 | 2 | (7.0-x)=5.0 | 7.0 x - 5.0 = | 7.0:puppy x:puppy -:puppy 5.0:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 12 | 2 | 7.0=(5.0+x) | 7.0 5.0 x + = | 7.0:puppy 5.0:puppy x:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 12 | 35 | 5.0=(x/7.0) | 5.0 x 7.0 / = | 5.0:puppy x:puppy 7.0:UK /:puppy =:puppy
+EXPR: 1 | POS | INT | 12 | 12 | 12 | (x-7.0)=5.0 | x 7.0 - 5.0 = | x:puppy 7.0:puppy -:puppy 5.0:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 12 | 2 | 7.0=(x+5.0) | 7.0 x 5.0 + = | 7.0:puppy x:puppy 5.0:puppy +:puppy =:puppy
+EXPR: 1 | POS | INT | 12 | 12 | 12 | 7.0=(x-5.0) | 7.0 x 5.0 - = | 7.0:puppy x:puppy 5.0:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 12 | 35 | 7.0=(x/5.0) | 7.0 x 5.0 / = | 7.0:UK x:UK 5.0:puppy /:UK =:UK
+EXPR: 0 | POS | INT | 22 | 12 | 35 | (x/5.0)=7.0 | x 5.0 / 7.0 = | x:UK 5.0:puppy /:UK 7.0:UK =:UK
+EXPR: 0 | POS | INT | 22 | 12 | 2 | 5.0=(7.0-x) | 5.0 7.0 x - = | 5.0:puppy 7.0:puppy x:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 22 | 12 | 2 | (x+5.0)=7.0 | x 5.0 + 7.0 = | x:puppy 5.0:puppy +:puppy 7.0:puppy =:puppy
+EXPR: 1 | POS | INT | 22 | 12 | 12 | (x-5.0)=7.0 | x 5.0 - 7.0 = | x:puppy 5.0:puppy -:puppy 7.0:puppy =:puppy
+EXPR: 0 | POS | INT | 22 | 12 | 2 | (5.0+x)=7.0 | 5.0 x + 7.0 = | 5.0:puppy x:puppy +:puppy 7.0:puppy =:puppy
+EXPR: 1 | POS | INT | 22 | 12 | 12 | 5.0=(x-7.0) | 5.0 x 7.0 - = | 5.0:puppy x:puppy 7.0:puppy -:puppy =:puppy
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,7 @@
+constants : 34.0 1.0 4.0 
+unknowns : x
+operators : + - * / =
+objtypes : cent stamp UK 
+constantOrUnknownType : 0 1 1 2
+n : 7
+answer : 134.0

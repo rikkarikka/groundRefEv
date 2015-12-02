@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 7 | 7 | 63.0=(x*9.0) | 63.0 x 9.0 * = | 63.0:magazine x:box 9.0:magazine *:magazine =:magazine
+EXPR: 1 | POS | INT | 2 | 7 | 7 | 63.0=(9.0*x) | 63.0 9.0 x * = | 63.0:magazine 9.0:magazine x:box *:magazine =:magazine
+EXPR: 1 | POS | INT | 2 | 7 | 7 | (63.0/x)=9.0 | 63.0 x / 9.0 = | 63.0:magazine x:box /:magazine 9.0:magazine =:magazine
+EXPR: 0 | POS | INT | 10 | 7 | 567 | (63.0*9.0)=x | 63.0 9.0 * x = | 63.0:magazine 9.0:box *:box x:box =:box
+EXPR: 0 | POS | INT | 10 | 7 | 72 | (63.0+9.0)=x | 63.0 9.0 + x = | 63.0:magazine 9.0:magazine +:magazine x:magazine =:magazine
+EXPR: 0 | POS | INT | 10 | 7 | 54 | x=(63.0-9.0) | x 63.0 9.0 - = | x:magazine 63.0:magazine 9.0:magazine -:magazine =:magazine
+EXPR: 0 | POS | INT | 10 | 7 | 567 | x=(63.0*9.0) | x 63.0 9.0 * = | x:box 63.0:magazine 9.0:box *:box =:box
+EXPR: 0 | POS | INT | 10 | 7 | 72 | x=(63.0+9.0) | x 63.0 9.0 + = | x:magazine 63.0:magazine 9.0:magazine +:magazine =:magazine
+EXPR: 0 | POS | INT | 10 | 7 | 54 | (63.0-9.0)=x | 63.0 9.0 - x = | 63.0:magazine 9.0:magazine -:magazine x:magazine =:magazine
+EXPR: 1 | POS | INT | 10 | 7 | 7 | x=(63.0/9.0) | x 63.0 9.0 / = | x:box 63.0:box 9.0:magazine /:box =:box
+EXPR: 1 | POS | INT | 10 | 7 | 7 | (63.0/9.0)=x | 63.0 9.0 / x = | 63.0:box 9.0:magazine /:box x:box =:box
+EXPR: 1 | POS | INT | 12 | 7 | 7 | 9.0=(63.0/x) | 9.0 63.0 x / = | 9.0:magazine 63.0:magazine x:box /:magazine =:magazine
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (x*9.0)=63.0 | x 9.0 * 63.0 = | x:box 9.0:magazine *:magazine 63.0:magazine =:magazine
+EXPR: 0 | POS | INT | 12 | 7 | 567 | 63.0=(x/9.0) | 63.0 x 9.0 / = | 63.0:box x:box 9.0:magazine /:box =:box
+EXPR: 0 | POS | INT | 12 | 7 | 72 | 63.0=(x-9.0) | 63.0 x 9.0 - = | 63.0:magazine x:magazine 9.0:magazine -:magazine =:magazine
+EXPR: 0 | POS | INT | 12 | 7 | 54 | (63.0-x)=9.0 | 63.0 x - 9.0 = | 63.0:magazine x:magazine -:magazine 9.0:magazine =:magazine
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (9.0*x)=63.0 | 9.0 x * 63.0 = | 9.0:magazine x:box *:magazine 63.0:magazine =:magazine
+EXPR: 0 | POS | INT | 12 | 7 | 54 | 63.0=(x+9.0) | 63.0 x 9.0 + = | 63.0:magazine x:magazine 9.0:magazine +:magazine =:magazine
+EXPR: 0 | POS | INT | 12 | 7 | 54 | 63.0=(9.0+x) | 63.0 9.0 x + = | 63.0:magazine 9.0:magazine x:magazine +:magazine =:magazine
+EXPR: 0 | POS | INT | 12 | 7 | 72 | (x-63.0)=9.0 | x 63.0 - 9.0 = | x:magazine 63.0:magazine -:magazine 9.0:magazine =:magazine
+EXPR: 0 | POS | INT | 12 | 7 | 567 | (x/63.0)=9.0 | x 63.0 / 9.0 = | x:box 63.0:magazine /:box 9.0:box =:box
+EXPR: 0 | POS | INT | 22 | 7 | 567 | (x/9.0)=63.0 | x 9.0 / 63.0 = | x:box 9.0:magazine /:box 63.0:box =:box
+EXPR: 0 | POS | INT | 22 | 7 | 72 | (x-9.0)=63.0 | x 9.0 - 63.0 = | x:magazine 9.0:magazine -:magazine 63.0:magazine =:magazine
+EXPR: 0 | POS | INT | 22 | 7 | 54 | (9.0+x)=63.0 | 9.0 x + 63.0 = | 9.0:magazine x:magazine +:magazine 63.0:magazine =:magazine
+EXPR: 0 | POS | INT | 22 | 7 | 72 | 9.0=(x-63.0) | 9.0 x 63.0 - = | 9.0:magazine x:magazine 63.0:magazine -:magazine =:magazine
+EXPR: 0 | POS | INT | 22 | 7 | 54 | (x+9.0)=63.0 | x 9.0 + 63.0 = | x:magazine 9.0:magazine +:magazine 63.0:magazine =:magazine
+EXPR: 0 | POS | INT | 22 | 7 | 567 | 9.0=(x/63.0) | 9.0 x 63.0 / = | 9.0:box x:box 63.0:magazine /:box =:box
+EXPR: 0 | POS | INT | 22 | 7 | 54 | 9.0=(63.0-x) | 9.0 63.0 x - = | 9.0:magazine 63.0:magazine x:magazine -:magazine =:magazine
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

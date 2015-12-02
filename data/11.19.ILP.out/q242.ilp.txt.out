@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 27004 | 1858515 | (69.0*26935.0)=x | 69.0 26935.0 * x = | 69.0:dollar 26935.0:money *:money x:money =:money
+EXPR: 1 | POS | INT | 10 | 27004 | 27004 | (69.0+26935.0)=x | 69.0 26935.0 + x = | 69.0:dollar 26935.0:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 27004 | 1858515 | x=(69.0*26935.0) | x 69.0 26935.0 * = | x:money 69.0:dollar 26935.0:money *:money =:money
+EXPR: 1 | POS | INT | 10 | 27004 | 27004 | x=(69.0+26935.0) | x 69.0 26935.0 + = | x:dollar 69.0:dollar 26935.0:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 27004 | 1858515 | 69.0=(x/26935.0) | 69.0 x 26935.0 / = | 69.0:money x:money 26935.0:dollar /:money =:money
+EXPR: 1 | POS | INT | 12 | 27004 | 27004 | 69.0=(x-26935.0) | 69.0 x 26935.0 - = | 69.0:dollar x:dollar 26935.0:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 27004 | 26866 | 69.0=(26935.0-x) | 69.0 26935.0 x - = | 69.0:dollar 26935.0:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 27004 | 26866 | (x+69.0)=26935.0 | x 69.0 + 26935.0 = | x:dollar 69.0:dollar +:dollar 26935.0:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 27004 | 26866 | (69.0+x)=26935.0 | 69.0 x + 26935.0 = | 69.0:dollar x:dollar +:dollar 26935.0:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 27004 | 27004 | (x-69.0)=26935.0 | x 69.0 - 26935.0 = | x:dollar 69.0:dollar -:dollar 26935.0:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 27004 | 1858515 | (x/69.0)=26935.0 | x 69.0 / 26935.0 = | x:money 69.0:dollar /:money 26935.0:money =:money
+EXPR: 0 | POS | INT | 20 | 27004 | 26866 | x=(26935.0-69.0) | x 26935.0 69.0 - = | x:dollar 26935.0:dollar 69.0:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 27004 | 26866 | (26935.0-69.0)=x | 26935.0 69.0 - x = | 26935.0:dollar 69.0:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 27004 | 26866 | (26935.0-x)=69.0 | 26935.0 x - 69.0 = | 26935.0:dollar x:dollar -:dollar 69.0:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 27004 | 1858515 | (x/26935.0)=69.0 | x 26935.0 / 69.0 = | x:money 26935.0:dollar /:money 69.0:money =:money
+EXPR: 1 | POS | INT | 22 | 27004 | 27004 | (x-26935.0)=69.0 | x 26935.0 - 69.0 = | x:dollar 26935.0:dollar -:dollar 69.0:dollar =:dollar
+EXPR: 1 | POS | INT | 22 | 27004 | 27004 | 26935.0=(x-69.0) | 26935.0 x 69.0 - = | 26935.0:dollar x:dollar 69.0:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 27004 | 26866 | 26935.0=(x+69.0) | 26935.0 x 69.0 + = | 26935.0:dollar x:dollar 69.0:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 27004 | 26866 | 26935.0=(69.0+x) | 26935.0 69.0 x + = | 26935.0:dollar 69.0:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 27004 | 1858515 | 26935.0=(x/69.0) | 26935.0 x 69.0 / = | 26935.0:money x:money 69.0:dollar /:money =:money
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 6 | 6 | 72.0=(x*12.0) | 72.0 x 12.0 * = | 72.0:egg x:UK 12.0:egg *:egg =:egg
+EXPR: 1 | POS | INT | 2 | 6 | 6 | 72.0=(12.0*x) | 72.0 12.0 x * = | 72.0:egg 12.0:egg x:UK *:egg =:egg
+EXPR: 1 | POS | INT | 2 | 6 | 6 | (72.0/x)=12.0 | 72.0 x / 12.0 = | 72.0:egg x:UK /:egg 12.0:egg =:egg
+EXPR: 0 | POS | INT | 10 | 6 | 864 | (72.0*12.0)=x | 72.0 12.0 * x = | 72.0:egg 12.0:UK *:UK x:UK =:UK
+EXPR: 0 | POS | INT | 10 | 6 | 84 | (72.0+12.0)=x | 72.0 12.0 + x = | 72.0:egg 12.0:egg +:egg x:egg =:egg
+EXPR: 0 | POS | INT | 10 | 6 | 60 | x=(72.0-12.0) | x 72.0 12.0 - = | x:egg 72.0:egg 12.0:egg -:egg =:egg
+EXPR: 0 | POS | INT | 10 | 6 | 864 | x=(72.0*12.0) | x 72.0 12.0 * = | x:UK 72.0:egg 12.0:UK *:UK =:UK
+EXPR: 0 | POS | INT | 10 | 6 | 84 | x=(72.0+12.0) | x 72.0 12.0 + = | x:egg 72.0:egg 12.0:egg +:egg =:egg
+EXPR: 0 | POS | INT | 10 | 6 | 60 | (72.0-12.0)=x | 72.0 12.0 - x = | 72.0:egg 12.0:egg -:egg x:egg =:egg
+EXPR: 1 | POS | INT | 10 | 6 | 6 | x=(72.0/12.0) | x 72.0 12.0 / = | x:UK 72.0:UK 12.0:egg /:UK =:UK
+EXPR: 1 | POS | INT | 10 | 6 | 6 | (72.0/12.0)=x | 72.0 12.0 / x = | 72.0:UK 12.0:egg /:UK x:UK =:UK
+EXPR: 1 | POS | INT | 12 | 6 | 6 | 12.0=(72.0/x) | 12.0 72.0 x / = | 12.0:egg 72.0:egg x:UK /:egg =:egg
+EXPR: 1 | POS | INT | 12 | 6 | 6 | (x*12.0)=72.0 | x 12.0 * 72.0 = | x:UK 12.0:egg *:egg 72.0:egg =:egg
+EXPR: 0 | POS | INT | 12 | 6 | 864 | 72.0=(x/12.0) | 72.0 x 12.0 / = | 72.0:UK x:UK 12.0:egg /:UK =:UK
+EXPR: 0 | POS | INT | 12 | 6 | 84 | 72.0=(x-12.0) | 72.0 x 12.0 - = | 72.0:egg x:egg 12.0:egg -:egg =:egg
+EXPR: 0 | POS | INT | 12 | 6 | 60 | (72.0-x)=12.0 | 72.0 x - 12.0 = | 72.0:egg x:egg -:egg 12.0:egg =:egg
+EXPR: 1 | POS | INT | 12 | 6 | 6 | (12.0*x)=72.0 | 12.0 x * 72.0 = | 12.0:egg x:UK *:egg 72.0:egg =:egg
+EXPR: 0 | POS | INT | 12 | 6 | 60 | 72.0=(x+12.0) | 72.0 x 12.0 + = | 72.0:egg x:egg 12.0:egg +:egg =:egg
+EXPR: 0 | POS | INT | 12 | 6 | 60 | 72.0=(12.0+x) | 72.0 12.0 x + = | 72.0:egg 12.0:egg x:egg +:egg =:egg
+EXPR: 0 | POS | INT | 12 | 6 | 84 | (x-72.0)=12.0 | x 72.0 - 12.0 = | x:egg 72.0:egg -:egg 12.0:egg =:egg
+EXPR: 0 | POS | INT | 12 | 6 | 864 | (x/72.0)=12.0 | x 72.0 / 12.0 = | x:UK 72.0:egg /:UK 12.0:UK =:UK
+EXPR: 0 | POS | INT | 22 | 6 | 864 | (x/12.0)=72.0 | x 12.0 / 72.0 = | x:UK 12.0:egg /:UK 72.0:UK =:UK
+EXPR: 0 | POS | INT | 22 | 6 | 84 | (x-12.0)=72.0 | x 12.0 - 72.0 = | x:egg 12.0:egg -:egg 72.0:egg =:egg
+EXPR: 0 | POS | INT | 22 | 6 | 60 | (12.0+x)=72.0 | 12.0 x + 72.0 = | 12.0:egg x:egg +:egg 72.0:egg =:egg
+EXPR: 0 | POS | INT | 22 | 6 | 84 | 12.0=(x-72.0) | 12.0 x 72.0 - = | 12.0:egg x:egg 72.0:egg -:egg =:egg
+EXPR: 0 | POS | INT | 22 | 6 | 60 | (x+12.0)=72.0 | x 12.0 + 72.0 = | x:egg 12.0:egg +:egg 72.0:egg =:egg
+EXPR: 0 | POS | INT | 22 | 6 | 864 | 12.0=(x/72.0) | 12.0 x 72.0 / = | 12.0:UK x:UK 72.0:egg /:UK =:UK
+EXPR: 0 | POS | INT | 22 | 6 | 60 | 12.0=(72.0-x) | 12.0 72.0 x - = | 12.0:egg 72.0:egg x:egg -:egg =:egg
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

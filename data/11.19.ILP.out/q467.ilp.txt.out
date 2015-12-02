@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 360 | 360 | x=(8.0*45.0) | x 8.0 45.0 * = | x:student 8.0:bus 45.0:student *:student =:student
+EXPR: 1 | POS | INT | 0 | 360 | 360 | (8.0*45.0)=x | 8.0 45.0 * x = | 8.0:bus 45.0:student *:student x:student =:student
+EXPR: 1 | POS | INT | 2 | 360 | 360 | (x/8.0)=45.0 | x 8.0 / 45.0 = | x:student 8.0:bus /:student 45.0:student =:student
+EXPR: 0 | POS | INT | 10 | 360 | 53 | x=(8.0+45.0) | x 8.0 45.0 + = | x:student 8.0:student 45.0:student +:student =:student
+EXPR: 0 | POS | INT | 10 | 360 | 53 | (8.0+45.0)=x | 8.0 45.0 + x = | 8.0:student 45.0:student +:student x:student =:student
+EXPR: 0 | POS | INT | 12 | 360 | 37 | 8.0=(45.0-x) | 8.0 45.0 x - = | 8.0:student 45.0:student x:student -:student =:student
+EXPR: 1 | POS | INT | 12 | 360 | 360 | 45.0=(x/8.0) | 45.0 x 8.0 / = | 45.0:student x:student 8.0:bus /:student =:student
+EXPR: 0 | POS | INT | 12 | 360 | 37 | (x+8.0)=45.0 | x 8.0 + 45.0 = | x:student 8.0:student +:student 45.0:student =:student
+EXPR: 0 | POS | INT | 12 | 360 | 53 | (x-8.0)=45.0 | x 8.0 - 45.0 = | x:student 8.0:student -:student 45.0:student =:student
+EXPR: 0 | POS | INT | 12 | 360 | 37 | (8.0+x)=45.0 | 8.0 x + 45.0 = | 8.0:student x:student +:student 45.0:student =:student
+EXPR: 0 | POS | INT | 12 | 360 | 53 | 8.0=(x-45.0) | 8.0 x 45.0 - = | 8.0:student x:student 45.0:student -:student =:student
+EXPR: 1 | POS | INT | 12 | 360 | 360 | 8.0=(x/45.0) | 8.0 x 45.0 / = | 8.0:bus x:bus 45.0:student /:bus =:bus
+EXPR: 0 | POS | INT | 20 | 360 | 37 | x=(45.0-8.0) | x 45.0 8.0 - = | x:student 45.0:student 8.0:student -:student =:student
+EXPR: 0 | POS | INT | 20 | 360 | 37 | (45.0-8.0)=x | 45.0 8.0 - x = | 45.0:student 8.0:student -:student x:student =:student
+EXPR: 0 | POS | INT | 22 | 360 | 37 | (45.0-x)=8.0 | 45.0 x - 8.0 = | 45.0:student x:student -:student 8.0:student =:student
+EXPR: 1 | POS | INT | 22 | 360 | 360 | (x/45.0)=8.0 | x 45.0 / 8.0 = | x:bus 45.0:student /:bus 8.0:bus =:bus
+EXPR: 0 | POS | INT | 22 | 360 | 37 | 45.0=(8.0+x) | 45.0 8.0 x + = | 45.0:student 8.0:student x:student +:student =:student
+EXPR: 0 | POS | INT | 22 | 360 | 53 | (x-45.0)=8.0 | x 45.0 - 8.0 = | x:student 45.0:student -:student 8.0:student =:student
+EXPR: 0 | POS | INT | 22 | 360 | 37 | 45.0=(x+8.0) | 45.0 x 8.0 + = | 45.0:student x:student 8.0:student +:student =:student
+EXPR: 0 | POS | INT | 22 | 360 | 53 | 45.0=(x-8.0) | 45.0 x 8.0 - = | 45.0:student x:student 8.0:student -:student =:student
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

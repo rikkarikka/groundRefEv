@@ -1,0 +1,308 @@
+parameters: n=7 l=3 k=1 p=5 q=1 m=9
+TOTAL 480 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 0.75 | 0.75 | (0.25+(0.375+0.125))=x | 0.25 0.375 0.125 + + x = | 0.25:gallon 0.375:gallon 0.125:gallon +:gallon +:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 0 | 0.75 | 0.5 | x=((0.25+0.375)-0.125) | x 0.25 0.375 + 0.125 - = | x:gallon 0.25:gallon 0.375:gallon +:gallon 0.125:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 0 | 0.75 |  | x=((0.25-0.375)+0.125) | x 0.25 0.375 - 0.125 + = | x:gallon 0.25:gallon 0.375:gallon -:gallon 0.125:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 0 | 0.75 |  | x=(0.25-(0.375-0.125)) | x 0.25 0.375 0.125 - - = | x:gallon 0.25:gallon 0.375:gallon 0.125:gallon -:gallon -:gallon =:gallon
+EXPR: 1 | POS | FRA | 0 | 0.75 | 0.75 | x=(0.25+(0.375+0.125)) | x 0.25 0.375 0.125 + + = | x:gallon 0.25:gallon 0.375:gallon 0.125:gallon +:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 0 | 0.75 | 0.5 | x=(0.25+(0.375-0.125)) | x 0.25 0.375 0.125 - + = | x:gallon 0.25:gallon 0.375:gallon 0.125:gallon -:gallon +:gallon =:gallon
+EXPR: 1 | POS | FRA | 0 | 0.75 | 0.75 | x=((0.25+0.375)+0.125) | x 0.25 0.375 + 0.125 + = | x:gallon 0.25:gallon 0.375:gallon +:gallon 0.125:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 0 | 0.75 | 0.5 | ((0.25+0.375)-0.125)=x | 0.25 0.375 + 0.125 - x = | 0.25:gallon 0.375:gallon +:gallon 0.125:gallon -:gallon x:gallon =:gallon
+EXPR: 0 | POS | INT | 0 | 0.75 | 0 | (0.25-(0.375-0.125))=x | 0.25 0.375 0.125 - - x = | 0.25:gallon 0.375:gallon 0.125:gallon -:gallon -:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 0 | 0.75 | 0.5 | (0.25+(0.375-0.125))=x | 0.25 0.375 0.125 - + x = | 0.25:gallon 0.375:gallon 0.125:gallon -:gallon +:gallon x:gallon =:gallon
+EXPR: 0 | POS | INT | 0 | 0.75 | 0 | ((0.25-0.375)+0.125)=x | 0.25 0.375 - 0.125 + x = | 0.25:gallon 0.375:gallon -:gallon 0.125:gallon +:gallon x:gallon =:gallon
+EXPR: 1 | POS | FRA | 0 | 0.75 | 0.75 | ((0.25+0.375)+0.125)=x | 0.25 0.375 + 0.125 + x = | 0.25:gallon 0.375:gallon +:gallon 0.125:gallon +:gallon x:gallon =:gallon
+EXPR: 1 | POS | FRA | 2 | 0.75 | 0.75 | 0.25=((x-0.375)-0.125) | 0.25 x 0.375 - 0.125 - = | 0.25:gallon x:gallon 0.375:gallon -:gallon 0.125:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 2 | 0.75 | 0.25 | 0.25=(0.375+(0.125-x)) | 0.25 0.375 0.125 x - + = | 0.25:gallon 0.375:gallon 0.125:gallon x:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 2 | 0.75 | 0 | 0.25=(0.375-(0.125-x)) | 0.25 0.375 0.125 x - - = | 0.25:gallon 0.375:gallon 0.125:gallon x:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 2 | 0.75 | 0.25 | 0.25=((0.375+0.125)-x) | 0.25 0.375 0.125 + x - = | 0.25:gallon 0.375:gallon 0.125:gallon +:gallon x:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 2 | 0.75 | 0 | 0.25=(0.375-(0.125+x)) | 0.25 0.375 0.125 x + - = | 0.25:gallon 0.375:gallon 0.125:gallon x:gallon +:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 2 | 0.75 | 0 | 0.25=((0.375-x)-0.125) | 0.25 0.375 x - 0.125 - = | 0.25:gallon 0.375:gallon x:gallon -:gallon 0.125:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 2 | 0.75 | 0 | 0.25=((0.375+x)-0.125) | 0.25 0.375 x + 0.125 - = | 0.25:gallon 0.375:gallon x:gallon +:gallon 0.125:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 2 | 0.75 | 0 | 0.25=((0.375-0.125)-x) | 0.25 0.375 0.125 - x - = | 0.25:gallon 0.375:gallon 0.125:gallon -:gallon x:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 2 | 0.75 | 0.25 | ((0.25-0.375)+x)=0.125 | 0.25 0.375 - x + 0.125 = | 0.25:gallon 0.375:gallon -:gallon x:gallon +:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | FRA | 2 | 0.75 | 0.5 | ((0.25+0.375)-x)=0.125 | 0.25 0.375 + x - 0.125 = | 0.25:gallon 0.375:gallon +:gallon x:gallon -:gallon 0.125:gallon =:gallon
+EXPR: 1 | POS | FRA | 2 | 0.75 | 0.75 | 0.25=(x-(0.375+0.125)) | 0.25 x 0.375 0.125 + - = | 0.25:gallon x:gallon 0.375:gallon 0.125:gallon +:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 2 | 0.75 | 0.5 | 0.25=(x-(0.375-0.125)) | 0.25 x 0.375 0.125 - - = | 0.25:gallon x:gallon 0.375:gallon 0.125:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 2 | 0.75 | 0 | 0.25=((0.375-0.125)+x) | 0.25 0.375 0.125 - x + = | 0.25:gallon 0.375:gallon 0.125:gallon -:gallon x:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 2 | 0.75 | 0 | 0.25=(x+(0.375-0.125)) | 0.25 x 0.375 0.125 - + = | 0.25:gallon x:gallon 0.375:gallon 0.125:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 2 | 0.75 | 0 | 0.25=((x+0.375)-0.125) | 0.25 x 0.375 + 0.125 - = | 0.25:gallon x:gallon 0.375:gallon +:gallon 0.125:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 2 | 0.75 | 0.5 | 0.25=((x-0.375)+0.125) | 0.25 x 0.375 - 0.125 + = | 0.25:gallon x:gallon 0.375:gallon -:gallon 0.125:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 2 | 0.75 | 0.25 | 0.25=((0.375-x)+0.125) | 0.25 0.375 x - 0.125 + = | 0.25:gallon 0.375:gallon x:gallon -:gallon 0.125:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 2 | 0.75 | 0.25 | (0.25-(0.375-x))=0.125 | 0.25 0.375 x - - 0.125 = | 0.25:gallon 0.375:gallon x:gallon -:gallon -:gallon 0.125:gallon =:gallon
+EXPR: 1 | POS | FRA | 2 | 0.75 | 0.75 | (x-(0.25+0.375))=0.125 | x 0.25 0.375 + - 0.125 = | x:gallon 0.25:gallon 0.375:gallon +:gallon -:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | INT | 2 | 0.75 |  | ((x-0.25)+0.375)=0.125 | x 0.25 - 0.375 + 0.125 = | x:gallon 0.25:gallon -:gallon 0.375:gallon +:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | FRA | 2 | 0.75 | 0.25 | ((0.25+x)-0.375)=0.125 | 0.25 x + 0.375 - 0.125 = | 0.25:gallon x:gallon +:gallon 0.375:gallon -:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | FRA | 2 | 0.75 | 0.25 | ((x+0.25)-0.375)=0.125 | x 0.25 + 0.375 - 0.125 = | x:gallon 0.25:gallon +:gallon 0.375:gallon -:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | FRA | 2 | 0.75 | 0.5 | (0.25+(0.375-x))=0.125 | 0.25 0.375 x - + 0.125 = | 0.25:gallon 0.375:gallon x:gallon -:gallon +:gallon 0.125:gallon =:gallon
+EXPR: 1 | POS | FRA | 2 | 0.75 | 0.75 | ((x-0.25)-0.375)=0.125 | x 0.25 - 0.375 - 0.125 = | x:gallon 0.25:gallon -:gallon 0.375:gallon -:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | INT | 2 | 0.75 |  | (x-(0.25-0.375))=0.125 | x 0.25 0.375 - - 0.125 = | x:gallon 0.25:gallon 0.375:gallon -:gallon -:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | FRA | 2 | 0.75 | 0.25 | (0.25+(x-0.375))=0.125 | 0.25 x 0.375 - + 0.125 = | 0.25:gallon x:gallon 0.375:gallon -:gallon +:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | FRA | 2 | 0.75 | 0.5 | ((0.25-x)+0.375)=0.125 | 0.25 x - 0.375 + 0.125 = | 0.25:gallon x:gallon -:gallon 0.375:gallon +:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | INT | 2 | 0.75 | 0 | 0.25=(0.375-(x+0.125)) | 0.25 0.375 x 0.125 + - = | 0.25:gallon 0.375:gallon x:gallon 0.125:gallon +:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 2 | 0.75 | 0.5 | (0.25-(x-0.375))=0.125 | 0.25 x 0.375 - - 0.125 = | 0.25:gallon x:gallon 0.375:gallon -:gallon -:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | FRA | 2 | 0.75 | 0.25 | 0.25=(0.375-(x-0.125)) | 0.25 0.375 x 0.125 - - = | 0.25:gallon 0.375:gallon x:gallon 0.125:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 2 | 0.75 | 0 | 0.25=(0.375+(x-0.125)) | 0.25 0.375 x 0.125 - + = | 0.25:gallon 0.375:gallon x:gallon 0.125:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 2 | 0.75 | 0.25 | (x+(0.25-0.375))=0.125 | x 0.25 0.375 - + 0.125 = | x:gallon 0.25:gallon 0.375:gallon -:gallon +:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | INT | 10 | 0.75 |  | x=(0.375-(0.25+0.125)) | x 0.375 0.25 0.125 + - = | x:gallon 0.375:gallon 0.25:gallon 0.125:gallon +:gallon -:gallon =:gallon
+EXPR: 1 | POS | FRA | 10 | 0.75 | 0.75 | x=(0.375+(0.25+0.125)) | x 0.375 0.25 0.125 + + = | x:gallon 0.375:gallon 0.25:gallon 0.125:gallon +:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 10 | 0.75 | 0 | (0.25+(0.125-0.375))=x | 0.25 0.125 0.375 - + x = | 0.25:gallon 0.125:gallon 0.375:gallon -:gallon +:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 10 | 0.75 | 0.5 | (0.25-(0.125-0.375))=x | 0.25 0.125 0.375 - - x = | 0.25:gallon 0.125:gallon 0.375:gallon -:gallon -:gallon x:gallon =:gallon
+EXPR: 0 | POS | INT | 10 | 0.75 |  | x=((0.25+0.125)-0.375) | x 0.25 0.125 + 0.375 - = | x:gallon 0.25:gallon 0.125:gallon +:gallon 0.375:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 10 | 0.75 | 0.25 | x=((0.375-0.25)+0.125) | x 0.375 0.25 - 0.125 + = | x:gallon 0.375:gallon 0.25:gallon -:gallon 0.125:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 10 | 0.75 |  | x=((0.375-0.25)-0.125) | x 0.375 0.25 - 0.125 - = | x:gallon 0.375:gallon 0.25:gallon -:gallon 0.125:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 10 | 0.75 | 0.5 | x=(0.25-(0.125-0.375)) | x 0.25 0.125 0.375 - - = | x:gallon 0.25:gallon 0.125:gallon 0.375:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 10 | 0.75 | 0.5 | ((0.25-0.125)+0.375)=x | 0.25 0.125 - 0.375 + x = | 0.25:gallon 0.125:gallon -:gallon 0.375:gallon +:gallon x:gallon =:gallon
+EXPR: 0 | POS | INT | 10 | 0.75 | 0 | ((0.375-0.25)-0.125)=x | 0.375 0.25 - 0.125 - x = | 0.375:gallon 0.25:gallon -:gallon 0.125:gallon -:gallon x:gallon =:gallon
+EXPR: 0 | POS | INT | 10 | 0.75 | 0 | ((0.25+0.125)-0.375)=x | 0.25 0.125 + 0.375 - x = | 0.25:gallon 0.125:gallon +:gallon 0.375:gallon -:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 10 | 0.75 | 0.25 | ((0.375-0.25)+0.125)=x | 0.375 0.25 - 0.125 + x = | 0.375:gallon 0.25:gallon -:gallon 0.125:gallon +:gallon x:gallon =:gallon
+EXPR: 1 | POS | FRA | 10 | 0.75 | 0.75 | ((0.25+0.125)+0.375)=x | 0.25 0.125 + 0.375 + x = | 0.25:gallon 0.125:gallon +:gallon 0.375:gallon +:gallon x:gallon =:gallon
+EXPR: 1 | POS | FRA | 10 | 0.75 | 0.75 | x=((0.25+0.125)+0.375) | x 0.25 0.125 + 0.375 + = | x:gallon 0.25:gallon 0.125:gallon +:gallon 0.375:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 10 | 0.75 |  | x=(0.25+(0.125-0.375)) | x 0.25 0.125 0.375 - + = | x:gallon 0.25:gallon 0.125:gallon 0.375:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 10 | 0.75 | 0.25 | (0.375-(0.25-0.125))=x | 0.375 0.25 0.125 - - x = | 0.375:gallon 0.25:gallon 0.125:gallon -:gallon -:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 10 | 0.75 | 0.5 | (0.375+(0.25-0.125))=x | 0.375 0.25 0.125 - + x = | 0.375:gallon 0.25:gallon 0.125:gallon -:gallon +:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 10 | 0.75 | 0.5 | x=((0.25-0.125)+0.375) | x 0.25 0.125 - 0.375 + = | x:gallon 0.25:gallon 0.125:gallon -:gallon 0.375:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 10 | 0.75 | 0.25 | x=(0.375-(0.25-0.125)) | x 0.375 0.25 0.125 - - = | x:gallon 0.375:gallon 0.25:gallon 0.125:gallon -:gallon -:gallon =:gallon
+EXPR: 1 | POS | FRA | 10 | 0.75 | 0.75 | (0.375+(0.25+0.125))=x | 0.375 0.25 0.125 + + x = | 0.375:gallon 0.25:gallon 0.125:gallon +:gallon +:gallon x:gallon =:gallon
+EXPR: 0 | POS | INT | 10 | 0.75 | 0 | (0.375-(0.25+0.125))=x | 0.375 0.25 0.125 + - x = | 0.375:gallon 0.25:gallon 0.125:gallon +:gallon -:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 10 | 0.75 | 0.5 | x=(0.375+(0.25-0.125)) | x 0.375 0.25 0.125 - + = | x:gallon 0.375:gallon 0.25:gallon 0.125:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | (0.25-x)=(0.375-0.125) | 0.25 x - 0.375 0.125 - = | 0.25:gallon x:gallon -:gallon 0.375:gallon 0.125:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.5 | 0.375=((x-0.25)+0.125) | 0.375 x 0.25 - 0.125 + = | 0.375:gallon x:gallon 0.25:gallon -:gallon 0.125:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 | 0 | 0.375=(0.25-(x-0.125)) | 0.375 0.25 x 0.125 - - = | 0.375:gallon 0.25:gallon x:gallon 0.125:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.5 | ((x-0.25)+0.125)=0.375 | x 0.25 - 0.125 + 0.375 = | x:gallon 0.25:gallon -:gallon 0.125:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 | 0 | 0.25=(x-(0.125-0.375)) | 0.25 x 0.125 0.375 - - = | 0.25:gallon x:gallon 0.125:gallon 0.375:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 | 0 | 0.375=((x+0.25)+0.125) | 0.375 x 0.25 + 0.125 + = | 0.375:gallon x:gallon 0.25:gallon +:gallon 0.125:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | (0.375-(0.25-x))=0.125 | 0.375 0.25 x - - 0.125 = | 0.375:gallon 0.25:gallon x:gallon -:gallon -:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | 0.375=(0.25+(x-0.125)) | 0.375 0.25 x 0.125 - + = | 0.375:gallon 0.25:gallon x:gallon 0.125:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | (0.25+x)=(0.375-0.125) | 0.25 x + 0.375 0.125 - = | 0.25:gallon x:gallon +:gallon 0.375:gallon 0.125:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 | 0 | 0.375=((0.25-x)+0.125) | 0.375 0.25 x - 0.125 + = | 0.375:gallon 0.25:gallon x:gallon -:gallon 0.125:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | 0.25=(0.125-(x-0.375)) | 0.25 0.125 x 0.375 - - = | 0.25:gallon 0.125:gallon x:gallon 0.375:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | ((0.25+x)-0.125)=0.375 | 0.25 x + 0.125 - 0.375 = | 0.25:gallon x:gallon +:gallon 0.125:gallon -:gallon 0.375:gallon =:gallon
+EXPR: 1 | POS | FRA | 12 | 0.75 | 0.75 | (x-0.25)=(0.375+0.125) | x 0.25 - 0.375 0.125 + = | x:gallon 0.25:gallon -:gallon 0.375:gallon 0.125:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | (0.25-(0.125-x))=0.375 | 0.25 0.125 x - - 0.375 = | 0.25:gallon 0.125:gallon x:gallon -:gallon -:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | (0.25+(0.125-x))=0.375 | 0.25 0.125 x - + 0.375 = | 0.25:gallon 0.125:gallon x:gallon -:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | 0.375=(0.25-(0.125-x)) | 0.375 0.25 0.125 x - - = | 0.375:gallon 0.25:gallon 0.125:gallon x:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.5 | 0.25=((0.125+x)-0.375) | 0.25 0.125 x + 0.375 - = | 0.25:gallon 0.125:gallon x:gallon +:gallon 0.375:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | (0.25-0.375)=(0.125-x) | 0.25 0.375 - 0.125 x - = | 0.25:gallon 0.375:gallon -:gallon 0.125:gallon x:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | ((0.375-0.25)+x)=0.125 | 0.375 0.25 - x + 0.125 = | 0.375:gallon 0.25:gallon -:gallon x:gallon +:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.5 | (0.375+(0.25-x))=0.125 | 0.375 0.25 x - + 0.125 = | 0.375:gallon 0.25:gallon x:gallon -:gallon +:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | ((0.25-0.125)+x)=0.375 | 0.25 0.125 - x + 0.375 = | 0.25:gallon 0.125:gallon -:gallon x:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | (0.25+(0.125+x))=0.375 | 0.25 0.125 x + + 0.375 = | 0.25:gallon 0.125:gallon x:gallon +:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | (0.375-(0.25+x))=0.125 | 0.375 0.25 x + - 0.125 = | 0.375:gallon 0.25:gallon x:gallon +:gallon -:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | ((x+0.25)+0.125)=0.375 | x 0.25 + 0.125 + 0.375 = | x:gallon 0.25:gallon +:gallon 0.125:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | (x+(0.375-0.25))=0.125 | x 0.375 0.25 - + 0.125 = | x:gallon 0.375:gallon 0.25:gallon -:gallon +:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | (0.25+x)=(0.375+0.125) | 0.25 x + 0.375 0.125 + = | 0.25:gallon x:gallon +:gallon 0.375:gallon 0.125:gallon +:gallon =:gallon
+EXPR: 1 | POS | FRA | 12 | 0.75 | 0.75 | 0.375=((x-0.25)-0.125) | 0.375 x 0.25 - 0.125 - = | 0.375:gallon x:gallon 0.25:gallon -:gallon 0.125:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | (x+(0.25+0.125))=0.375 | x 0.25 0.125 + + 0.375 = | x:gallon 0.25:gallon 0.125:gallon +:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | 0.375=((0.25+x)-0.125) | 0.375 0.25 x + 0.125 - = | 0.375:gallon 0.25:gallon x:gallon +:gallon 0.125:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | (x+(0.25-0.125))=0.375 | x 0.25 0.125 - + 0.375 = | x:gallon 0.25:gallon 0.125:gallon -:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 | 0 | 0.375=(0.25+(x+0.125)) | 0.375 0.25 x 0.125 + + = | 0.375:gallon 0.25:gallon x:gallon 0.125:gallon +:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.5 | 0.25=((x+0.125)-0.375) | 0.25 x 0.125 + 0.375 - = | 0.25:gallon x:gallon 0.125:gallon +:gallon 0.375:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.5 | 0.25=(x+(0.125-0.375)) | 0.25 x 0.125 0.375 - + = | 0.25:gallon x:gallon 0.125:gallon 0.375:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.5 | (x-(0.25-0.125))=0.375 | x 0.25 0.125 - - 0.375 = | x:gallon 0.25:gallon 0.125:gallon -:gallon -:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | (x-(0.375-0.25))=0.125 | x 0.375 0.25 - - 0.125 = | x:gallon 0.375:gallon 0.25:gallon -:gallon -:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | ((x-0.375)+0.25)=0.125 | x 0.375 - 0.25 + 0.125 = | x:gallon 0.375:gallon -:gallon 0.25:gallon +:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | 0.375=((x+0.25)-0.125) | 0.375 x 0.25 + 0.125 - = | 0.375:gallon x:gallon 0.25:gallon +:gallon 0.125:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.5 | 0.25=((0.125-0.375)+x) | 0.25 0.125 0.375 - x + = | 0.25:gallon 0.125:gallon 0.375:gallon -:gallon x:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | ((x+0.25)-0.125)=0.375 | x 0.25 + 0.125 - 0.375 = | x:gallon 0.25:gallon +:gallon 0.125:gallon -:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 | 0 | 0.375=((0.25+x)+0.125) | 0.375 0.25 x + 0.125 + = | 0.375:gallon 0.25:gallon x:gallon +:gallon 0.125:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | ((x+0.375)-0.25)=0.125 | x 0.375 + 0.25 - 0.125 = | x:gallon 0.375:gallon +:gallon 0.25:gallon -:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | 0.25=((0.125-x)+0.375) | 0.25 0.125 x - 0.375 + = | 0.25:gallon 0.125:gallon x:gallon -:gallon 0.375:gallon +:gallon =:gallon
+EXPR: 1 | POS | FRA | 12 | 0.75 | 0.75 | 0.375=(x-(0.25+0.125)) | 0.375 x 0.25 0.125 + - = | 0.375:gallon x:gallon 0.25:gallon 0.125:gallon +:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | ((0.25-x)+0.125)=0.375 | 0.25 x - 0.125 + 0.375 = | 0.25:gallon x:gallon -:gallon 0.125:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 | 0 | 0.375=((0.25+0.125)-x) | 0.375 0.25 0.125 + x - = | 0.375:gallon 0.25:gallon 0.125:gallon +:gallon x:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.5 | (x-0.25)=(0.375-0.125) | x 0.25 - 0.375 0.125 - = | x:gallon 0.25:gallon -:gallon 0.375:gallon 0.125:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 | 0 | 0.375=(x+(0.25+0.125)) | 0.375 x 0.25 0.125 + + = | 0.375:gallon x:gallon 0.25:gallon 0.125:gallon +:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | (0.25-(x-0.125))=0.375 | 0.25 x 0.125 - - 0.375 = | 0.25:gallon x:gallon 0.125:gallon -:gallon -:gallon 0.375:gallon =:gallon
+EXPR: 1 | POS | FRA | 12 | 0.75 | 0.75 | (x-(0.25+0.125))=0.375 | x 0.25 0.125 + - 0.375 = | x:gallon 0.25:gallon 0.125:gallon +:gallon -:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | ((0.25+0.125)+x)=0.375 | 0.25 0.125 + x + 0.375 = | 0.25:gallon 0.125:gallon +:gallon x:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 | 0 | 0.375=((0.25+0.125)+x) | 0.375 0.25 0.125 + x + = | 0.375:gallon 0.25:gallon 0.125:gallon +:gallon x:gallon +:gallon =:gallon
+EXPR: 1 | POS | FRA | 12 | 0.75 | 0.75 | ((x-0.375)-0.25)=0.125 | x 0.375 - 0.25 - 0.125 = | x:gallon 0.375:gallon -:gallon 0.25:gallon -:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | (0.25+(x-0.125))=0.375 | 0.25 x 0.125 - + 0.375 = | 0.25:gallon x:gallon 0.125:gallon -:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.5 | 0.25=(0.125-(0.375-x)) | 0.25 0.125 0.375 x - - = | 0.25:gallon 0.125:gallon 0.375:gallon x:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | ((0.25+x)+0.125)=0.375 | 0.25 x + 0.125 + 0.375 = | 0.25:gallon x:gallon +:gallon 0.125:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.5 | 0.25=(0.125+(x-0.375)) | 0.25 0.125 x 0.375 - + = | 0.25:gallon 0.125:gallon x:gallon 0.375:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | (0.25+(x+0.125))=0.375 | 0.25 x 0.125 + + 0.375 = | 0.25:gallon x:gallon 0.125:gallon +:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | (x+0.25)=(0.375-0.125) | x 0.25 + 0.375 0.125 - = | x:gallon 0.25:gallon +:gallon 0.375:gallon 0.125:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.5 | 0.375=(x-(0.25-0.125)) | 0.375 x 0.25 0.125 - - = | 0.375:gallon x:gallon 0.25:gallon 0.125:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | 0.375=(x+(0.25-0.125)) | 0.375 x 0.25 0.125 - + = | 0.375:gallon x:gallon 0.25:gallon 0.125:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 | 0 | 0.375=(0.25+(0.125+x)) | 0.375 0.25 0.125 x + + = | 0.375:gallon 0.25:gallon 0.125:gallon x:gallon +:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | (x+0.25)=(0.375+0.125) | x 0.25 + 0.375 0.125 + = | x:gallon 0.25:gallon +:gallon 0.375:gallon 0.125:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | ((0.375+x)-0.25)=0.125 | 0.375 x + 0.25 - 0.125 = | 0.375:gallon x:gallon +:gallon 0.25:gallon -:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 | 0 | 0.375=(0.25+(0.125-x)) | 0.375 0.25 0.125 x - + = | 0.375:gallon 0.25:gallon 0.125:gallon x:gallon -:gallon +:gallon =:gallon
+EXPR: 1 | POS | FRA | 12 | 0.75 | 0.75 | ((x-0.25)-0.125)=0.375 | x 0.25 - 0.125 - 0.375 = | x:gallon 0.25:gallon -:gallon 0.125:gallon -:gallon 0.375:gallon =:gallon
+EXPR: 1 | POS | FRA | 12 | 0.75 | 0.75 | 0.25=((x-0.125)-0.375) | 0.25 x 0.125 - 0.375 - = | 0.25:gallon x:gallon 0.125:gallon -:gallon 0.375:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | ((0.375-0.25)-x)=0.125 | 0.375 0.25 - x - 0.125 = | 0.375:gallon 0.25:gallon -:gallon x:gallon -:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | 0.375=((0.25-0.125)+x) | 0.375 0.25 0.125 - x + = | 0.375:gallon 0.25:gallon 0.125:gallon -:gallon x:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.5 | ((0.375-x)+0.25)=0.125 | 0.375 x - 0.25 + 0.125 = | 0.375:gallon x:gallon -:gallon 0.25:gallon +:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.5 | (0.375-(x-0.25))=0.125 | 0.375 x 0.25 - - 0.125 = | 0.375:gallon x:gallon 0.25:gallon -:gallon -:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | ((0.25+0.125)-x)=0.375 | 0.25 0.125 + x - 0.375 = | 0.25:gallon 0.125:gallon +:gallon x:gallon -:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | (0.375+(x-0.25))=0.125 | 0.375 x 0.25 - + 0.125 = | 0.375:gallon x:gallon 0.25:gallon -:gallon +:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.5 | (0.25+0.375)=(0.125+x) | 0.25 0.375 + 0.125 x + = | 0.25:gallon 0.375:gallon +:gallon 0.125:gallon x:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | (0.375-(x+0.25))=0.125 | 0.375 x 0.25 + - 0.125 = | 0.375:gallon x:gallon 0.25:gallon +:gallon -:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 |  | ((0.375-x)-0.25)=0.125 | 0.375 x - 0.25 - 0.125 = | 0.375:gallon x:gallon -:gallon 0.25:gallon -:gallon 0.125:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.25 | 0.25=(0.125+(0.375-x)) | 0.25 0.125 0.375 x - + = | 0.25:gallon 0.125:gallon 0.375:gallon x:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 | 0 | (0.25-0.375)=(x-0.125) | 0.25 0.375 - x 0.125 - = | 0.25:gallon 0.375:gallon -:gallon x:gallon 0.125:gallon -:gallon =:gallon
+EXPR: 1 | POS | FRA | 12 | 0.75 | 0.75 | (0.25+0.375)=(x-0.125) | 0.25 0.375 + x 0.125 - = | 0.25:gallon 0.375:gallon +:gallon x:gallon 0.125:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 0.75 | 0.5 | (0.25+0.375)=(x+0.125) | 0.25 0.375 + x 0.125 + = | 0.25:gallon 0.375:gallon +:gallon x:gallon 0.125:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 0.75 | 0 | 0.25=((x-0.125)+0.375) | 0.25 x 0.125 - 0.375 + = | 0.25:gallon x:gallon 0.125:gallon -:gallon 0.375:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 22 | 0.75 |  | (0.375-x)=(0.25+0.125) | 0.375 x - 0.25 0.125 + = | 0.375:gallon x:gallon -:gallon 0.25:gallon 0.125:gallon +:gallon =:gallon
+EXPR: 1 | POS | FRA | 22 | 0.75 | 0.75 | (x-0.375)=(0.25+0.125) | x 0.375 - 0.25 0.125 + = | x:gallon 0.375:gallon -:gallon 0.25:gallon 0.125:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 22 | 0.75 | 0.5 | (x-0.375)=(0.25-0.125) | x 0.375 - 0.25 0.125 - = | x:gallon 0.375:gallon -:gallon 0.25:gallon 0.125:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 22 | 0.75 |  | (x-0.25)=(0.125-0.375) | x 0.25 - 0.125 0.375 - = | x:gallon 0.25:gallon -:gallon 0.125:gallon 0.375:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 22 | 0.75 | 0.5 | (0.25-x)=(0.125-0.375) | 0.25 x - 0.125 0.375 - = | 0.25:gallon x:gallon -:gallon 0.125:gallon 0.375:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 22 | 0.75 | 0.25 | (0.25-0.125)=(0.375-x) | 0.25 0.125 - 0.375 x - = | 0.25:gallon 0.125:gallon -:gallon 0.375:gallon x:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 22 | 0.75 | 0 | (0.25+0.125)=(0.375-x) | 0.25 0.125 + 0.375 x - = | 0.25:gallon 0.125:gallon +:gallon 0.375:gallon x:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 22 | 0.75 | 0.25 | (0.375-x)=(0.25-0.125) | 0.375 x - 0.25 0.125 - = | 0.375:gallon x:gallon -:gallon 0.25:gallon 0.125:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 22 | 0.75 | 0.5 | (0.25-0.125)=(x-0.375) | 0.25 0.125 - x 0.375 - = | 0.25:gallon 0.125:gallon -:gallon x:gallon 0.375:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 22 | 0.75 | 0 | (0.375-0.25)=(x+0.125) | 0.375 0.25 - x 0.125 + = | 0.375:gallon 0.25:gallon -:gallon x:gallon 0.125:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 22 | 0.75 | 0.25 | (0.375-0.25)=(x-0.125) | 0.375 0.25 - x 0.125 - = | 0.375:gallon 0.25:gallon -:gallon x:gallon 0.125:gallon -:gallon =:gallon
+EXPR: 1 | POS | FRA | 22 | 0.75 | 0.75 | (0.25+0.125)=(x-0.375) | 0.25 0.125 + x 0.375 - = | 0.25:gallon 0.125:gallon +:gallon x:gallon 0.375:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 22 | 0.75 | 0 | (0.25+0.125)=(0.375+x) | 0.25 0.125 + 0.375 x + = | 0.25:gallon 0.125:gallon +:gallon 0.375:gallon x:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 22 | 0.75 |  | (0.375+x)=(0.25+0.125) | 0.375 x + 0.25 0.125 + = | 0.375:gallon x:gallon +:gallon 0.25:gallon 0.125:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 22 | 0.75 | 0 | (0.25+0.125)=(x+0.375) | 0.25 0.125 + x 0.375 + = | 0.25:gallon 0.125:gallon +:gallon x:gallon 0.375:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 22 | 0.75 |  | (x+0.375)=(0.25+0.125) | x 0.375 + 0.25 0.125 + = | x:gallon 0.375:gallon +:gallon 0.25:gallon 0.125:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 22 | 0.75 | 0 | (0.375-0.25)=(0.125+x) | 0.375 0.25 - 0.125 x + = | 0.375:gallon 0.25:gallon -:gallon 0.125:gallon x:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 22 | 0.75 | 0 | (0.375-0.25)=(0.125-x) | 0.375 0.25 - 0.125 x - = | 0.375:gallon 0.25:gallon -:gallon 0.125:gallon x:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 25 | 0.75 | 0.25 | x=((0.375+0.125)-0.25) | x 0.375 0.125 + 0.25 - = | x:gallon 0.375:gallon 0.125:gallon +:gallon 0.25:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 25 | 0.75 | 0.5 | x=((0.375-0.125)+0.25) | x 0.375 0.125 - 0.25 + = | x:gallon 0.375:gallon 0.125:gallon -:gallon 0.25:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 25 | 0.75 |  | x=((0.375-0.125)-0.25) | x 0.375 0.125 - 0.25 - = | x:gallon 0.375:gallon 0.125:gallon -:gallon 0.25:gallon -:gallon =:gallon
+EXPR: 1 | POS | FRA | 25 | 0.75 | 0.75 | (0.125+(0.25+0.375))=x | 0.125 0.25 0.375 + + x = | 0.125:gallon 0.25:gallon 0.375:gallon +:gallon +:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 25 | 0.75 | 0.25 | ((0.125-0.25)+0.375)=x | 0.125 0.25 - 0.375 + x = | 0.125:gallon 0.25:gallon -:gallon 0.375:gallon +:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 25 | 0.75 | 0.5 | x=(0.375-(0.125-0.25)) | x 0.375 0.125 0.25 - - = | x:gallon 0.375:gallon 0.125:gallon 0.25:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 25 | 0.75 |  | x=(0.125+(0.25-0.375)) | x 0.125 0.25 0.375 - + = | x:gallon 0.125:gallon 0.25:gallon 0.375:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 25 | 0.75 | 0.5 | (0.375-(0.125-0.25))=x | 0.375 0.125 0.25 - - x = | 0.375:gallon 0.125:gallon 0.25:gallon -:gallon -:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 25 | 0.75 | 0.25 | (0.375+(0.125-0.25))=x | 0.375 0.125 0.25 - + x = | 0.375:gallon 0.125:gallon 0.25:gallon -:gallon +:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 25 | 0.75 | 0.25 | x=(0.375+(0.125-0.25)) | x 0.375 0.125 0.25 - + = | x:gallon 0.375:gallon 0.125:gallon 0.25:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 25 | 0.75 | 0 | ((0.375-0.125)-0.25)=x | 0.375 0.125 - 0.25 - x = | 0.375:gallon 0.125:gallon -:gallon 0.25:gallon -:gallon x:gallon =:gallon
+EXPR: 0 | POS | INT | 25 | 0.75 | 0 | (0.125+(0.25-0.375))=x | 0.125 0.25 0.375 - + x = | 0.125:gallon 0.25:gallon 0.375:gallon -:gallon +:gallon x:gallon =:gallon
+EXPR: 1 | POS | FRA | 25 | 0.75 | 0.75 | x=((0.375+0.125)+0.25) | x 0.375 0.125 + 0.25 + = | x:gallon 0.375:gallon 0.125:gallon +:gallon 0.25:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 25 | 0.75 | 0.25 | x=(0.125-(0.25-0.375)) | x 0.125 0.25 0.375 - - = | x:gallon 0.125:gallon 0.25:gallon 0.375:gallon -:gallon -:gallon =:gallon
+EXPR: 1 | POS | FRA | 25 | 0.75 | 0.75 | ((0.375+0.125)+0.25)=x | 0.375 0.125 + 0.25 + x = | 0.375:gallon 0.125:gallon +:gallon 0.25:gallon +:gallon x:gallon =:gallon
+EXPR: 1 | POS | FRA | 25 | 0.75 | 0.75 | x=(0.125+(0.25+0.375)) | x 0.125 0.25 0.375 + + = | x:gallon 0.125:gallon 0.25:gallon 0.375:gallon +:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 25 | 0.75 | 0.25 | x=((0.125-0.25)+0.375) | x 0.125 0.25 - 0.375 + = | x:gallon 0.125:gallon 0.25:gallon -:gallon 0.375:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 25 | 0.75 | 0.5 | ((0.375-0.125)+0.25)=x | 0.375 0.125 - 0.25 + x = | 0.375:gallon 0.125:gallon -:gallon 0.25:gallon +:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 25 | 0.75 | 0.25 | ((0.375+0.125)-0.25)=x | 0.375 0.125 + 0.25 - x = | 0.375:gallon 0.125:gallon +:gallon 0.25:gallon -:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 25 | 0.75 | 0.25 | (0.125-(0.25-0.375))=x | 0.125 0.25 0.375 - - x = | 0.125:gallon 0.25:gallon 0.375:gallon -:gallon -:gallon x:gallon =:gallon
+EXPR: 1 | POS | FRA | 27 | 0.75 | 0.75 | 0.125=((x-0.25)-0.375) | 0.125 x 0.25 - 0.375 - = | 0.125:gallon x:gallon 0.25:gallon -:gallon 0.375:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 |  | ((x+0.375)-0.125)=0.25 | x 0.375 + 0.125 - 0.25 = | x:gallon 0.375:gallon +:gallon 0.125:gallon -:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.5 | ((x-0.375)+0.125)=0.25 | x 0.375 - 0.125 + 0.25 = | x:gallon 0.375:gallon -:gallon 0.125:gallon +:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.5 | ((x+0.125)-0.25)=0.375 | x 0.125 + 0.25 - 0.375 = | x:gallon 0.125:gallon +:gallon 0.25:gallon -:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 |  | ((0.375+x)-0.125)=0.25 | 0.375 x + 0.125 - 0.25 = | 0.375:gallon x:gallon +:gallon 0.125:gallon -:gallon 0.25:gallon =:gallon
+EXPR: 1 | POS | FRA | 27 | 0.75 | 0.75 | ((x-0.375)-0.125)=0.25 | x 0.375 - 0.125 - 0.25 = | x:gallon 0.375:gallon -:gallon 0.125:gallon -:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 |  | ((0.375-x)-0.125)=0.25 | 0.375 x - 0.125 - 0.25 = | 0.375:gallon x:gallon -:gallon 0.125:gallon -:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.25 | 0.375=(x-(0.125-0.25)) | 0.375 x 0.125 0.25 - - = | 0.375:gallon x:gallon 0.125:gallon 0.25:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.5 | 0.375=(x+(0.125-0.25)) | 0.375 x 0.125 0.25 - + = | 0.375:gallon x:gallon 0.125:gallon 0.25:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.5 | 0.125=(0.25+(0.375-x)) | 0.125 0.25 0.375 x - + = | 0.125:gallon 0.25:gallon 0.375:gallon x:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.5 | 0.375=((0.125-0.25)+x) | 0.375 0.125 0.25 - x + = | 0.375:gallon 0.125:gallon 0.25:gallon -:gallon x:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.5 | (0.125-(0.25-x))=0.375 | 0.125 0.25 x - - 0.375 = | 0.125:gallon 0.25:gallon x:gallon -:gallon -:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 |  | (0.125+(0.25-x))=0.375 | 0.125 0.25 x - + 0.375 = | 0.125:gallon 0.25:gallon x:gallon -:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.5 | 0.375=((x+0.125)-0.25) | 0.375 x 0.125 + 0.25 - = | 0.375:gallon x:gallon 0.125:gallon +:gallon 0.25:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.25 | 0.125=((x+0.25)-0.375) | 0.125 x 0.25 + 0.375 - = | 0.125:gallon x:gallon 0.25:gallon +:gallon 0.375:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.5 | (x-(0.375-0.125))=0.25 | x 0.375 0.125 - - 0.25 = | x:gallon 0.375:gallon 0.125:gallon -:gallon -:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 |  | ((0.375-0.125)+x)=0.25 | 0.375 0.125 - x + 0.25 = | 0.375:gallon 0.125:gallon -:gallon x:gallon +:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.5 | 0.375=(0.125-(0.25-x)) | 0.375 0.125 0.25 x - - = | 0.375:gallon 0.125:gallon 0.25:gallon x:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 | 0 | 0.375=((0.125-x)+0.25) | 0.375 0.125 x - 0.25 + = | 0.375:gallon 0.125:gallon x:gallon -:gallon 0.25:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 | 0 | 0.375=(0.125+(0.25+x)) | 0.375 0.125 0.25 x + + = | 0.375:gallon 0.125:gallon 0.25:gallon x:gallon +:gallon +:gallon =:gallon
+EXPR: 1 | POS | FRA | 27 | 0.75 | 0.75 | ((x-0.125)-0.25)=0.375 | x 0.125 - 0.25 - 0.375 = | x:gallon 0.125:gallon -:gallon 0.25:gallon -:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 | 0 | 0.375=((x+0.125)+0.25) | 0.375 x 0.125 + 0.25 + = | 0.375:gallon x:gallon 0.125:gallon +:gallon 0.25:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.25 | ((0.375-x)+0.125)=0.25 | 0.375 x - 0.125 + 0.25 = | 0.375:gallon x:gallon -:gallon 0.125:gallon +:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 | 0 | 0.375=(0.125-(x-0.25)) | 0.375 0.125 x 0.25 - - = | 0.375:gallon 0.125:gallon x:gallon 0.25:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.5 | 0.375=((0.125+x)-0.25) | 0.375 0.125 x + 0.25 - = | 0.375:gallon 0.125:gallon x:gallon +:gallon 0.25:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.25 | 0.125=((0.25-0.375)+x) | 0.125 0.25 0.375 - x + = | 0.125:gallon 0.25:gallon 0.375:gallon -:gallon x:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.25 | ((x-0.125)+0.25)=0.375 | x 0.125 - 0.25 + 0.375 = | x:gallon 0.125:gallon -:gallon 0.25:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 |  | ((0.125+x)+0.25)=0.375 | 0.125 x + 0.25 + 0.375 = | 0.125:gallon x:gallon +:gallon 0.25:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.5 | 0.125=((0.25+0.375)-x) | 0.125 0.25 0.375 + x - = | 0.125:gallon 0.25:gallon 0.375:gallon +:gallon x:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.25 | ((0.375+0.125)-x)=0.25 | 0.375 0.125 + x - 0.25 = | 0.375:gallon 0.125:gallon +:gallon x:gallon -:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.5 | ((0.125-0.25)+x)=0.375 | 0.125 0.25 - x + 0.375 = | 0.125:gallon 0.25:gallon -:gallon x:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 | 0 | 0.375=(0.125+(x+0.25)) | 0.375 0.125 x 0.25 + + = | 0.375:gallon 0.125:gallon x:gallon 0.25:gallon +:gallon +:gallon =:gallon
+EXPR: 1 | POS | FRA | 27 | 0.75 | 0.75 | (x-(0.375+0.125))=0.25 | x 0.375 0.125 + - 0.25 = | x:gallon 0.375:gallon 0.125:gallon +:gallon -:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 | 0 | 0.125=((x-0.25)+0.375) | 0.125 x 0.25 - 0.375 + = | 0.125:gallon x:gallon 0.25:gallon -:gallon 0.375:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 |  | (0.375-(0.125-x))=0.25 | 0.375 0.125 x - - 0.25 = | 0.375:gallon 0.125:gallon x:gallon -:gallon -:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.5 | 0.375=(0.125+(x-0.25)) | 0.375 0.125 x 0.25 - + = | 0.375:gallon 0.125:gallon x:gallon 0.25:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.25 | (0.375-(x-0.125))=0.25 | 0.375 x 0.125 - - 0.25 = | 0.375:gallon x:gallon 0.125:gallon -:gallon -:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 |  | ((x+0.125)+0.25)=0.375 | x 0.125 + 0.25 + 0.375 = | x:gallon 0.125:gallon +:gallon 0.25:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 |  | (x+(0.375-0.125))=0.25 | x 0.375 0.125 - + 0.25 = | x:gallon 0.375:gallon 0.125:gallon -:gallon +:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 |  | (0.125+(0.25+x))=0.375 | 0.125 0.25 x + + 0.375 = | 0.125:gallon 0.25:gallon x:gallon +:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.5 | ((0.125+x)-0.25)=0.375 | 0.125 x + 0.25 - 0.375 = | 0.125:gallon x:gallon +:gallon 0.25:gallon -:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.25 | (0.375+(0.125-x))=0.25 | 0.375 0.125 x - + 0.25 = | 0.375:gallon 0.125:gallon x:gallon -:gallon +:gallon 0.25:gallon =:gallon
+EXPR: 1 | POS | FRA | 27 | 0.75 | 0.75 | 0.375=((x-0.125)-0.25) | 0.375 x 0.125 - 0.25 - = | 0.375:gallon x:gallon 0.125:gallon -:gallon 0.25:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.25 | 0.375=((x-0.125)+0.25) | 0.375 x 0.125 - 0.25 + = | 0.375:gallon x:gallon 0.125:gallon -:gallon 0.25:gallon +:gallon =:gallon
+EXPR: 1 | POS | FRA | 27 | 0.75 | 0.75 | 0.125=(x-(0.25+0.375)) | 0.125 x 0.25 0.375 + - = | 0.125:gallon x:gallon 0.25:gallon 0.375:gallon +:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 | 0 | 0.125=(x-(0.25-0.375)) | 0.125 x 0.25 0.375 - - = | 0.125:gallon x:gallon 0.25:gallon 0.375:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 |  | (0.375-(0.125+x))=0.25 | 0.375 0.125 x + - 0.25 = | 0.375:gallon 0.125:gallon x:gallon +:gallon -:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 |  | ((0.375-0.125)-x)=0.25 | 0.375 0.125 - x - 0.25 = | 0.375:gallon 0.125:gallon -:gallon x:gallon -:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.25 | 0.125=((0.25+x)-0.375) | 0.125 0.25 x + 0.375 - = | 0.125:gallon 0.25:gallon x:gallon +:gallon 0.375:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.25 | 0.125=(0.25-(0.375-x)) | 0.125 0.25 0.375 x - - = | 0.125:gallon 0.25:gallon 0.375:gallon x:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 | 0 | 0.375=((0.125+x)+0.25) | 0.375 0.125 x + 0.25 + = | 0.375:gallon 0.125:gallon x:gallon +:gallon 0.25:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.25 | 0.125=(x+(0.25-0.375)) | 0.125 x 0.25 0.375 - + = | 0.125:gallon x:gallon 0.25:gallon 0.375:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 |  | ((0.125-x)+0.25)=0.375 | 0.125 x - 0.25 + 0.375 = | 0.125:gallon x:gallon -:gallon 0.25:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 | 0 | 0.375=(0.125+(0.25-x)) | 0.375 0.125 0.25 x - + = | 0.375:gallon 0.125:gallon 0.25:gallon x:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.5 | 0.125=(0.25-(x-0.375)) | 0.125 0.25 x 0.375 - - = | 0.125:gallon 0.25:gallon x:gallon 0.375:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.5 | 0.125=((0.25-x)+0.375) | 0.125 0.25 x - 0.375 + = | 0.125:gallon 0.25:gallon x:gallon -:gallon 0.375:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.25 | (x-(0.125-0.25))=0.375 | x 0.125 0.25 - - 0.375 = | x:gallon 0.125:gallon 0.25:gallon -:gallon -:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.5 | (x+(0.125-0.25))=0.375 | x 0.125 0.25 - + 0.375 = | x:gallon 0.125:gallon 0.25:gallon -:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 |  | (0.125+(x+0.25))=0.375 | 0.125 x 0.25 + + 0.375 = | 0.125:gallon x:gallon 0.25:gallon +:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 |  | (0.125-(x-0.25))=0.375 | 0.125 x 0.25 - - 0.375 = | 0.125:gallon x:gallon 0.25:gallon -:gallon -:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 |  | (0.375-(x+0.125))=0.25 | 0.375 x 0.125 + - 0.25 = | 0.375:gallon x:gallon 0.125:gallon +:gallon -:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | INT | 27 | 0.75 |  | (0.375+(x-0.125))=0.25 | 0.375 x 0.125 - + 0.25 = | 0.375:gallon x:gallon 0.125:gallon -:gallon +:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.25 | 0.125=(0.25+(x-0.375)) | 0.125 0.25 x 0.375 - + = | 0.125:gallon 0.25:gallon x:gallon 0.375:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 27 | 0.75 | 0.5 | (0.125+(x-0.25))=0.375 | 0.125 x 0.25 - + 0.375 = | 0.125:gallon x:gallon 0.25:gallon -:gallon +:gallon 0.375:gallon =:gallon
+EXPR: 0 | POS | INT | 35 | 0.75 |  | x=(0.125-(0.375-0.25)) | x 0.125 0.375 0.25 - - = | x:gallon 0.125:gallon 0.375:gallon 0.25:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 35 | 0.75 | 0 | (0.125-(0.375-0.25))=x | 0.125 0.375 0.25 - - x = | 0.125:gallon 0.375:gallon 0.25:gallon -:gallon -:gallon x:gallon =:gallon
+EXPR: 0 | POS | INT | 35 | 0.75 | 0 | ((0.125-0.375)+0.25)=x | 0.125 0.375 - 0.25 + x = | 0.125:gallon 0.375:gallon -:gallon 0.25:gallon +:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 35 | 0.75 | 0.25 | (0.125+(0.375-0.25))=x | 0.125 0.375 0.25 - + x = | 0.125:gallon 0.375:gallon 0.25:gallon -:gallon +:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 35 | 0.75 | 0.25 | x=(0.125+(0.375-0.25)) | x 0.125 0.375 0.25 - + = | x:gallon 0.125:gallon 0.375:gallon 0.25:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 35 | 0.75 |  | x=((0.125-0.375)+0.25) | x 0.125 0.375 - 0.25 + = | x:gallon 0.125:gallon 0.375:gallon -:gallon 0.25:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.5 | (0.125+(x-0.375))=0.25 | 0.125 x 0.375 - + 0.25 = | 0.125:gallon x:gallon 0.375:gallon -:gallon +:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.5 | (0.125-(0.375-x))=0.25 | 0.125 0.375 x - - 0.25 = | 0.125:gallon 0.375:gallon x:gallon -:gallon -:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.5 | ((x+0.125)-0.375)=0.25 | x 0.125 + 0.375 - 0.25 = | x:gallon 0.125:gallon +:gallon 0.375:gallon -:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | INT | 37 | 0.75 | 0 | 0.125=(0.375-(0.25+x)) | 0.125 0.375 0.25 x + - = | 0.125:gallon 0.375:gallon 0.25:gallon x:gallon +:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 37 | 0.75 | 0 | 0.125=((0.375+x)-0.25) | 0.125 0.375 x + 0.25 - = | 0.125:gallon 0.375:gallon x:gallon +:gallon 0.25:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.5 | (0.375-x)=(0.125-0.25) | 0.375 x - 0.125 0.25 - = | 0.375:gallon x:gallon -:gallon 0.125:gallon 0.25:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.5 | (x+(0.125-0.375))=0.25 | x 0.125 0.375 - + 0.25 = | x:gallon 0.125:gallon 0.375:gallon -:gallon +:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.25 | (x-0.375)=(0.125-0.25) | x 0.375 - 0.125 0.25 - = | x:gallon 0.375:gallon -:gallon 0.125:gallon 0.25:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.25 | 0.125=(x-(0.375-0.25)) | 0.125 x 0.375 0.25 - - = | 0.125:gallon x:gallon 0.375:gallon 0.25:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 37 | 0.75 | 0 | 0.125=((0.375-0.25)-x) | 0.125 0.375 0.25 - x - = | 0.125:gallon 0.375:gallon 0.25:gallon -:gallon x:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.5 | 0.125=(0.375+(0.25-x)) | 0.125 0.375 0.25 x - + = | 0.125:gallon 0.375:gallon 0.25:gallon x:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 37 | 0.75 | 0 | 0.125=((x+0.375)-0.25) | 0.125 x 0.375 + 0.25 - = | 0.125:gallon x:gallon 0.375:gallon +:gallon 0.25:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 37 | 0.75 | 0 | 0.125=((0.375-0.25)+x) | 0.125 0.375 0.25 - x + = | 0.125:gallon 0.375:gallon 0.25:gallon -:gallon x:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 37 | 0.75 | 0 | 0.125=(x+(0.375-0.25)) | 0.125 x 0.375 0.25 - + = | 0.125:gallon x:gallon 0.375:gallon 0.25:gallon -:gallon +:gallon =:gallon
+EXPR: 1 | POS | FRA | 37 | 0.75 | 0.75 | ((x-0.125)-0.375)=0.25 | x 0.125 - 0.375 - 0.25 = | x:gallon 0.125:gallon -:gallon 0.375:gallon -:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | INT | 37 | 0.75 |  | (x-(0.125-0.375))=0.25 | x 0.125 0.375 - - 0.25 = | x:gallon 0.125:gallon 0.375:gallon -:gallon -:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.25 | (0.125-x)=(0.25-0.375) | 0.125 x - 0.25 0.375 - = | 0.125:gallon x:gallon -:gallon 0.25:gallon 0.375:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.25 | (0.125-(x-0.375))=0.25 | 0.125 x 0.375 - - 0.25 = | 0.125:gallon x:gallon 0.375:gallon -:gallon -:gallon 0.25:gallon =:gallon
+EXPR: 1 | POS | FRA | 37 | 0.75 | 0.75 | (x-0.125)=(0.25+0.375) | x 0.125 - 0.25 0.375 + = | x:gallon 0.125:gallon -:gallon 0.25:gallon 0.375:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 37 | 0.75 |  | ((x-0.125)+0.375)=0.25 | x 0.125 - 0.375 + 0.25 = | x:gallon 0.125:gallon -:gallon 0.375:gallon +:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | INT | 37 | 0.75 | 0 | 0.125=(0.375-(0.25-x)) | 0.125 0.375 0.25 x - - = | 0.125:gallon 0.375:gallon 0.25:gallon x:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 37 | 0.75 | 0 | 0.125=((0.375-x)-0.25) | 0.125 0.375 x - 0.25 - = | 0.125:gallon 0.375:gallon x:gallon -:gallon 0.25:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 37 | 0.75 | 0 | (0.375-0.125)=(0.25+x) | 0.375 0.125 - 0.25 x + = | 0.375:gallon 0.125:gallon -:gallon 0.25:gallon x:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.5 | ((0.125-0.375)+x)=0.25 | 0.125 0.375 - x + 0.25 = | 0.125:gallon 0.375:gallon -:gallon x:gallon +:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.5 | (0.125+x)=(0.25+0.375) | 0.125 x + 0.25 0.375 + = | 0.125:gallon x:gallon +:gallon 0.25:gallon 0.375:gallon +:gallon =:gallon
+EXPR: 1 | POS | FRA | 37 | 0.75 | 0.75 | 0.125=((x-0.375)-0.25) | 0.125 x 0.375 - 0.25 - = | 0.125:gallon x:gallon 0.375:gallon -:gallon 0.25:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.25 | 0.125=((x-0.375)+0.25) | 0.125 x 0.375 - 0.25 + = | 0.125:gallon x:gallon 0.375:gallon -:gallon 0.25:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.25 | (0.125-0.25)=(x-0.375) | 0.125 0.25 - x 0.375 - = | 0.125:gallon 0.25:gallon -:gallon x:gallon 0.375:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.5 | ((0.125+x)-0.375)=0.25 | 0.125 x + 0.375 - 0.25 = | 0.125:gallon x:gallon +:gallon 0.375:gallon -:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.25 | (0.125+(0.375-x))=0.25 | 0.125 0.375 x - + 0.25 = | 0.125:gallon 0.375:gallon x:gallon -:gallon +:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | INT | 37 | 0.75 | 0 | (0.375-0.125)=(0.25-x) | 0.375 0.125 - 0.25 x - = | 0.375:gallon 0.125:gallon -:gallon 0.25:gallon x:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.5 | 0.125=((0.375-x)+0.25) | 0.125 0.375 x - 0.25 + = | 0.125:gallon 0.375:gallon x:gallon -:gallon 0.25:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.25 | ((0.125-x)+0.375)=0.25 | 0.125 x - 0.375 + 0.25 = | 0.125:gallon x:gallon -:gallon 0.375:gallon +:gallon 0.25:gallon =:gallon
+EXPR: 0 | POS | INT | 37 | 0.75 | 0 | 0.125=(0.375-(x+0.25)) | 0.125 0.375 x 0.25 + - = | 0.125:gallon 0.375:gallon x:gallon 0.25:gallon +:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 37 | 0.75 | 0 | (0.375-0.125)=(x+0.25) | 0.375 0.125 - x 0.25 + = | 0.375:gallon 0.125:gallon -:gallon x:gallon 0.25:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.5 | (x+0.125)=(0.25+0.375) | x 0.125 + 0.25 0.375 + = | x:gallon 0.125:gallon +:gallon 0.25:gallon 0.375:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.5 | 0.125=(0.375-(x-0.25)) | 0.125 0.375 x 0.25 - - = | 0.125:gallon 0.375:gallon x:gallon 0.25:gallon -:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.5 | (0.375-0.125)=(x-0.25) | 0.375 0.125 - x 0.25 - = | 0.375:gallon 0.125:gallon -:gallon x:gallon 0.25:gallon -:gallon =:gallon
+EXPR: 1 | POS | FRA | 37 | 0.75 | 0.75 | (0.375+0.125)=(x-0.25) | 0.375 0.125 + x 0.25 - = | 0.375:gallon 0.125:gallon +:gallon x:gallon 0.25:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.25 | (0.375+0.125)=(0.25+x) | 0.375 0.125 + 0.25 x + = | 0.375:gallon 0.125:gallon +:gallon 0.25:gallon x:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 37 | 0.75 |  | (x-0.125)=(0.25-0.375) | x 0.125 - 0.25 0.375 - = | x:gallon 0.125:gallon -:gallon 0.25:gallon 0.375:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.5 | (0.125-0.25)=(0.375-x) | 0.125 0.25 - 0.375 x - = | 0.125:gallon 0.25:gallon -:gallon 0.375:gallon x:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 37 | 0.75 | 0.25 | (0.375+0.125)=(x+0.25) | 0.375 0.125 + x 0.25 + = | 0.375:gallon 0.125:gallon +:gallon x:gallon 0.25:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 37 | 0.75 | 0 | 0.125=(0.375+(x-0.25)) | 0.125 0.375 x 0.25 - + = | 0.125:gallon 0.375:gallon x:gallon 0.25:gallon -:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 47 | 0.75 | 0.25 | (x-0.125)=(0.375-0.25) | x 0.125 - 0.375 0.25 - = | x:gallon 0.125:gallon -:gallon 0.375:gallon 0.25:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 47 | 0.75 | 0.5 | (0.125-0.375)=(0.25-x) | 0.125 0.375 - 0.25 x - = | 0.125:gallon 0.375:gallon -:gallon 0.25:gallon x:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 47 | 0.75 |  | (0.125-x)=(0.375-0.25) | 0.125 x - 0.375 0.25 - = | 0.125:gallon x:gallon -:gallon 0.375:gallon 0.25:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 47 | 0.75 |  | (0.125+x)=(0.375-0.25) | 0.125 x + 0.375 0.25 - = | 0.125:gallon x:gallon +:gallon 0.375:gallon 0.25:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 47 | 0.75 | 0 | (0.125-0.375)=(x-0.25) | 0.125 0.375 - x 0.25 - = | 0.125:gallon 0.375:gallon -:gallon x:gallon 0.25:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 47 | 0.75 |  | (x+0.125)=(0.375-0.25) | x 0.125 + 0.375 0.25 - = | x:gallon 0.125:gallon +:gallon 0.375:gallon 0.25:gallon -:gallon =:gallon
+NET 304 unique, non-negative solutions found out of 480 total solutions

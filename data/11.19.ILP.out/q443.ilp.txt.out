@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 162 | 162 | 648.0=(x*4.0) | 648.0 x 4.0 * = | 648.0:pencil x:box 4.0:pencil *:pencil =:pencil
+EXPR: 1 | POS | INT | 2 | 162 | 162 | 648.0=(4.0*x) | 648.0 4.0 x * = | 648.0:pencil 4.0:pencil x:box *:pencil =:pencil
+EXPR: 1 | POS | INT | 2 | 162 | 162 | (648.0/x)=4.0 | 648.0 x / 4.0 = | 648.0:pencil x:box /:pencil 4.0:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 162 | 2592 | (648.0*4.0)=x | 648.0 4.0 * x = | 648.0:pencil 4.0:box *:box x:box =:box
+EXPR: 0 | POS | INT | 10 | 162 | 652 | (648.0+4.0)=x | 648.0 4.0 + x = | 648.0:pencil 4.0:pencil +:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 162 | 644 | x=(648.0-4.0) | x 648.0 4.0 - = | x:pencil 648.0:pencil 4.0:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 162 | 2592 | x=(648.0*4.0) | x 648.0 4.0 * = | x:box 648.0:pencil 4.0:box *:box =:box
+EXPR: 0 | POS | INT | 10 | 162 | 652 | x=(648.0+4.0) | x 648.0 4.0 + = | x:pencil 648.0:pencil 4.0:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 162 | 644 | (648.0-4.0)=x | 648.0 4.0 - x = | 648.0:pencil 4.0:pencil -:pencil x:pencil =:pencil
+EXPR: 1 | POS | INT | 10 | 162 | 162 | x=(648.0/4.0) | x 648.0 4.0 / = | x:box 648.0:box 4.0:pencil /:box =:box
+EXPR: 1 | POS | INT | 10 | 162 | 162 | (648.0/4.0)=x | 648.0 4.0 / x = | 648.0:box 4.0:pencil /:box x:box =:box
+EXPR: 1 | POS | INT | 12 | 162 | 162 | 4.0=(648.0/x) | 4.0 648.0 x / = | 4.0:pencil 648.0:pencil x:box /:pencil =:pencil
+EXPR: 1 | POS | INT | 12 | 162 | 162 | (x*4.0)=648.0 | x 4.0 * 648.0 = | x:box 4.0:pencil *:pencil 648.0:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 162 | 2592 | 648.0=(x/4.0) | 648.0 x 4.0 / = | 648.0:box x:box 4.0:pencil /:box =:box
+EXPR: 0 | POS | INT | 12 | 162 | 652 | 648.0=(x-4.0) | 648.0 x 4.0 - = | 648.0:pencil x:pencil 4.0:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 162 | 644 | (648.0-x)=4.0 | 648.0 x - 4.0 = | 648.0:pencil x:pencil -:pencil 4.0:pencil =:pencil
+EXPR: 1 | POS | INT | 12 | 162 | 162 | (4.0*x)=648.0 | 4.0 x * 648.0 = | 4.0:pencil x:box *:pencil 648.0:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 162 | 644 | 648.0=(x+4.0) | 648.0 x 4.0 + = | 648.0:pencil x:pencil 4.0:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 162 | 644 | 648.0=(4.0+x) | 648.0 4.0 x + = | 648.0:pencil 4.0:pencil x:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 162 | 652 | (x-648.0)=4.0 | x 648.0 - 4.0 = | x:pencil 648.0:pencil -:pencil 4.0:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 162 | 2592 | (x/648.0)=4.0 | x 648.0 / 4.0 = | x:box 648.0:pencil /:box 4.0:box =:box
+EXPR: 0 | POS | INT | 22 | 162 | 2592 | (x/4.0)=648.0 | x 4.0 / 648.0 = | x:box 4.0:pencil /:box 648.0:box =:box
+EXPR: 0 | POS | INT | 22 | 162 | 652 | (x-4.0)=648.0 | x 4.0 - 648.0 = | x:pencil 4.0:pencil -:pencil 648.0:pencil =:pencil
+EXPR: 0 | POS | INT | 22 | 162 | 644 | (4.0+x)=648.0 | 4.0 x + 648.0 = | 4.0:pencil x:pencil +:pencil 648.0:pencil =:pencil
+EXPR: 0 | POS | INT | 22 | 162 | 652 | 4.0=(x-648.0) | 4.0 x 648.0 - = | 4.0:pencil x:pencil 648.0:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 22 | 162 | 644 | (x+4.0)=648.0 | x 4.0 + 648.0 = | x:pencil 4.0:pencil +:pencil 648.0:pencil =:pencil
+EXPR: 0 | POS | INT | 22 | 162 | 2592 | 4.0=(x/648.0) | 4.0 x 648.0 / = | 4.0:box x:box 648.0:pencil /:box =:box
+EXPR: 0 | POS | INT | 22 | 162 | 644 | 4.0=(648.0-x) | 4.0 648.0 x - = | 4.0:pencil 648.0:pencil x:pencil -:pencil =:pencil
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

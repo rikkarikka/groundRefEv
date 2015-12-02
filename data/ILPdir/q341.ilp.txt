@@ -1,0 +1,7 @@
+constants : 0.33333334 0.33333334 0.22222222 
+unknowns : x
+operators : + - * / =
+objtypes : centimeter 
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.8888888888888888

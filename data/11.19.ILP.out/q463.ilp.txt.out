@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 8243 | 15699672 | x=(5256.0*2987.0) | x 5256.0 2987.0 * = | x:people 5256.0:people 2987.0:child *:people =:people
+EXPR: 0 | POS | INT | 10 | 8243 | 15699672 | (5256.0*2987.0)=x | 5256.0 2987.0 * x = | 5256.0:grownup 2987.0:child *:grownup x:grownup =:grownup
+EXPR: 0 | POS | INT | 12 | 8243 | 15699672 | 5256.0=(x/2987.0) | 5256.0 x 2987.0 / = | 5256.0:people x:people 2987.0:child /:people =:people
+EXPR: 0 | POS | INT | 12 | 8243 | 15699672 | (x/5256.0)=2987.0 | x 5256.0 / 2987.0 = | x:people 5256.0:grownup /:people 2987.0:people =:people
+EXPR: 1 | POS | INT | 20 | 8243 | 8243 | (5256.0+2987.0)=x | 5256.0 2987.0 + x = | 5256.0:grownup 2987.0:grownup +:grownup x:grownup =:grownup
+EXPR: 1 | POS | INT | 20 | 8243 | 8243 | x=(5256.0+2987.0) | x 5256.0 2987.0 + = | x:child 5256.0:child 2987.0:child +:child =:child
+EXPR: 0 | POS | INT | 20 | 8243 | 2269 | (5256.0-2987.0)=x | 5256.0 2987.0 - x = | 5256.0:grownup 2987.0:grownup -:grownup x:grownup =:grownup
+EXPR: 0 | POS | INT | 20 | 8243 | 2269 | x=(5256.0-2987.0) | x 5256.0 2987.0 - = | x:people 5256.0:people 2987.0:people -:people =:people
+EXPR: 1 | POS | INT | 22 | 8243 | 8243 | (x-5256.0)=2987.0 | x 5256.0 - 2987.0 = | x:child 5256.0:child -:child 2987.0:child =:child
+EXPR: 0 | POS | INT | 22 | 8243 | 15699672 | 2987.0=(x/5256.0) | 2987.0 x 5256.0 / = | 2987.0:people x:people 5256.0:grownup /:people =:people
+EXPR: 0 | POS | INT | 22 | 8243 | 2269 | 5256.0=(2987.0+x) | 5256.0 2987.0 x + = | 5256.0:child 2987.0:child x:child +:child =:child
+EXPR: 0 | POS | INT | 22 | 8243 | 2269 | (5256.0-x)=2987.0 | 5256.0 x - 2987.0 = | 5256.0:people x:people -:people 2987.0:people =:people
+EXPR: 0 | POS | INT | 22 | 8243 | 2269 | 5256.0=(x+2987.0) | 5256.0 x 2987.0 + = | 5256.0:people x:people 2987.0:people +:people =:people
+EXPR: 1 | POS | INT | 22 | 8243 | 8243 | 5256.0=(x-2987.0) | 5256.0 x 2987.0 - = | 5256.0:people x:people 2987.0:people -:people =:people
+EXPR: 0 | POS | INT | 22 | 8243 | 15699672 | (x/2987.0)=5256.0 | x 2987.0 / 5256.0 = | x:people 2987.0:child /:people 5256.0:people =:people
+EXPR: 1 | POS | INT | 32 | 8243 | 8243 | (x-2987.0)=5256.0 | x 2987.0 - 5256.0 = | x:child 2987.0:child -:child 5256.0:child =:child
+EXPR: 0 | POS | INT | 32 | 8243 | 2269 | (2987.0+x)=5256.0 | 2987.0 x + 5256.0 = | 2987.0:child x:child +:child 5256.0:child =:child
+EXPR: 0 | POS | INT | 32 | 8243 | 2269 | (x+2987.0)=5256.0 | x 2987.0 + 5256.0 = | x:grownup 2987.0:grownup +:grownup 5256.0:grownup =:grownup
+EXPR: 0 | POS | INT | 32 | 8243 | 2269 | 2987.0=(5256.0-x) | 2987.0 5256.0 x - = | 2987.0:child 5256.0:child x:child -:child =:child
+EXPR: 1 | POS | INT | 32 | 8243 | 8243 | 2987.0=(x-5256.0) | 2987.0 x 5256.0 - = | 2987.0:child x:child 5256.0:child -:child =:child
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

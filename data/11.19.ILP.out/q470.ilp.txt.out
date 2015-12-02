@@ -1,0 +1,19 @@
+parameters: n=9 l=4 k=1 p=5 q=3 m=10
+TOTAL 80 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 7827 | 7827 | ((1134.0+(1475.0*1.0))*3.0)=x | 1134.0 1475.0 1.0 * + 3.0 * x = | 1134.0:mile 1475.0:mile 1.0:week *:mile +:mile 3.0:UK *:mile x:mile =:mile
+EXPR: 0 | POS | INT | 10 | 7827 | 7034 | (1134.0+(1475.0*(1.0+3.0)))=x | 1134.0 1475.0 1.0 3.0 + * + x = | 1134.0:mile 1475.0:mile 1.0:week 3.0:week +:week *:mile +:mile x:mile =:mile
+EXPR: 0 | POS | INT | 10 | 7827 | 4084 | (1134.0-(1475.0*(1.0-3.0)))=x | 1134.0 1475.0 1.0 3.0 - * - x = | 1134.0:mile 1475.0:mile 1.0:week 3.0:week -:week *:mile -:mile x:mile =:mile
+EXPR: 0 | POS | INT | 20 | 7827 | 1670382 | (1134.0*(1475.0+(1.0-3.0)))=x | 1134.0 1475.0 1.0 3.0 - + * x = | 1134.0:mile 1475.0:UK 1.0:UK 3.0:UK -:UK +:UK *:mile x:mile =:mile
+EXPR: 0 | POS | INT | 22 | 7827 | 1677075 | 1134.0=((x/1475.0)-(1.0*3.0)) | 1134.0 x 1475.0 / 1.0 3.0 * - = | 1134.0:UK x:UK 1475.0:mile /:UK 1.0:week 3.0:UK *:UK -:UK =:UK
+EXPR: 0 | POS | INT | 37 | 7827 | 2606 | (((1475.0-x)*1.0)+1134.0)=3.0 | 1475.0 x - 1.0 * 1134.0 + 3.0 = | 1475.0:mile x:mile -:mile 1.0:week *:mile 1134.0:mile +:mile 3.0:mile =:mile
+EXPR: 0 | POS | INT | 37 | 7827 | 2606 | (((1475.0-x)/1.0)+1134.0)=3.0 | 1475.0 x - 1.0 / 1134.0 + 3.0 = | 1475.0:mile x:mile -:mile 1.0:week /:mile 1134.0:mile +:mile 3.0:mile =:mile
+EXPR: 0 | POS | INT | 40 | 7827 | 2606 | (1134.0+(1475.0-(1.0*3.0)))=x | 1134.0 1475.0 1.0 3.0 * - + x = | 1134.0:UK 1475.0:UK 1.0:mile 3.0:UK *:UK -:UK +:UK x:UK =:UK
+EXPR: 0 | POS | INT | 42 | 7827 | 1930 | ((x+1475.0)/(1134.0+1.0))=3.0 | x 1475.0 + 1134.0 1.0 + / 3.0 = | x:UK 1475.0:UK +:UK 1134.0:week 1.0:week +:week /:UK 3.0:UK =:UK
+EXPR: 0 | POS | INT | 45 | 7827 | 1677075 | (((1134.0/1.0)+3.0)*1475.0)=x | 1134.0 1.0 / 3.0 + 1475.0 * x = | 1134.0:mile 1.0:week /:mile 3.0:mile +:mile 1475.0:UK *:mile x:mile =:mile
+EXPR: 0 | POS | INT | 55 | 7827 | 1668225 | ((1134.0-(1.0*3.0))*1475.0)=x | 1134.0 1.0 3.0 * - 1475.0 * x = | 1134.0:mile 1.0:mile 3.0:week *:mile -:mile 1475.0:UK *:mile x:mile =:mile
+EXPR: 0 | POS | INT | 55 | 7827 | 4877 | ((1134.0*3.0)+(1475.0*1.0))=x | 1134.0 3.0 * 1475.0 1.0 * + x = | 1134.0:week 3.0:UK *:UK 1475.0:mile 1.0:UK *:UK +:UK x:UK =:UK
+EXPR: 0 | POS | INT | 57 | 7827 | 2606 | 1134.0=((3.0+x)-(1475.0*1.0)) | 1134.0 3.0 x + 1475.0 1.0 * - = | 1134.0:week 3.0:week x:week +:week 1475.0:mile 1.0:week *:week -:week =:week
+EXPR: 0 | POS | INT | 60 | 7827 | 345 | x=(1475.0+((3.0-1134.0)+1.0)) | x 1475.0 3.0 1134.0 - 1.0 + + = | x:mile 1475.0:mile 3.0:mile 1134.0:mile -:mile 1.0:mile +:mile +:mile =:mile
+EXPR: 0 | POS | INT | 120 | 7827 | 1023 | x=((1.0*3.0)*(1475.0-1134.0)) | x 1.0 3.0 * 1475.0 1134.0 - * = | x:week 1.0:UK 3.0:mile *:UK 1475.0:week 1134.0:week -:week *:week =:week
+NET 15 unique, non-negative, integer-valued solutions found out of 80 total solutions

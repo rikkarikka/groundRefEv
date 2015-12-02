@@ -1,0 +1,8 @@
+parameters: n=9 l=4 k=1 p=5 q=3 m=10
+TOTAL 6 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 22 | 12.7 | 33.8 | 2.0=(((4.0*8.7)-x)*2.0) | 2.0 4.0 8.7 * x - 2.0 * = | 2.0:UK 4.0:pound 8.7:UK *:UK x:UK -:UK 2.0:pumpkin *:UK =:UK
+EXPR: 0 | POS | FRA | 40 | 12.7 | 3.3 | x=(((2.0+4.0)*2.0)-8.7) | x 2.0 4.0 + 2.0 * 8.7 - = | x:UK 2.0:UK 4.0:UK +:UK 2.0:pumpkin *:UK 8.7:UK -:UK =:UK
+EXPR: 0 | POS | FRA | 40 | 12.7 | 40.8 | x=((4.0*(2.0+8.7))-2.0) | x 4.0 2.0 8.7 + * 2.0 - = | x:UK 4.0:UK 2.0:pound 8.7:pound +:pound *:UK 2.0:UK -:UK =:UK
+EXPR: 0 | POS | FRA | 90 | 12.7 | 11.4 | x=(((8.7*2.0)-2.0)-4.0) | x 8.7 2.0 * 2.0 - 4.0 - = | x:UK 8.7:pound 2.0:UK *:UK 2.0:UK -:UK 4.0:UK -:UK =:UK
+NET 4 unique, non-negative solutions found out of 6 total solutions

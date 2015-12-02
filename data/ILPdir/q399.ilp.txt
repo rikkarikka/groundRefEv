@@ -1,0 +1,7 @@
+constants : 44.0 7.0 
+unknowns : x
+operators : + - * / =
+objtypes : UK dollar ticket money 
+constantOrUnknownType : 1 2 3
+n : 5
+answer : 308.0

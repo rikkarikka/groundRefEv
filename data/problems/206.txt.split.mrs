@@ -1,0 +1,44 @@
+SENT: Sam got 9 pennies for washing clothes, and 7 quarters for mowing lawns.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:3> LBL: h7 CARG: "Sam" ARG0: x3 ]
+ [ "_get_v_1_rel"<4:7> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<8:71> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ udef_q_rel<8:38> LBL: h13 ARG0: x14 [ x PERS: 3 NUM: pl IND: + ] RSTR: h15 BODY: h16 ]
+ [ card_rel<8:9> LBL: h17 CARG: "9" ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x14 ]
+ [ "_penny_n_1_rel"<10:17> LBL: h17 ARG0: x14 ]
+ [ _for_p_rel<18:21> LBL: h17 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x14 ARG2: x21 [ x PERS: 3 NUM: sg GEND: n ] ]
+ [ udef_q_rel<22:38> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ nominalization_rel<22:38> LBL: h25 ARG0: x21 ARG1: h26 ]
+ [ "_wash_v_1_rel"<22:29> LBL: h26 ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative PROG: + PERF: - ] ARG1: i28 ARG2: x29 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<30:38> LBL: h30 ARG0: x29 RSTR: h31 BODY: h32 ]
+ [ "_clothes_n_1_rel"<30:38> LBL: h33 ARG0: x29 ]
+ [ _and_c_rel<39:42> LBL: h34 ARG0: x9 L-INDEX: x14 R-INDEX: x35 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<43:44> LBL: h36 ARG0: x35 RSTR: h37 BODY: h38 ]
+ [ card_rel<43:44> LBL: h39 CARG: "7" ARG0: e41 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x35 ]
+ [ "_quarter_n_of_rel"<45:53> LBL: h39 ARG0: x35 ARG1: i42 ]
+ [ _for_p_rel<54:57> LBL: h39 ARG0: e43 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x35 ARG2: x44 [ x PERS: 3 NUM: sg GEND: n ] ]
+ [ udef_q_rel<58:71> LBL: h45 ARG0: x44 RSTR: h46 BODY: h47 ]
+ [ nominalization_rel<58:71> LBL: h48 ARG0: x44 ARG1: h49 ]
+ [ "_mow_v_1_rel"<58:64> LBL: h49 ARG0: e50 [ e SF: prop TENSE: untensed MOOD: indicative PROG: + PERF: - ] ARG1: i51 ARG2: x52 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<65:71> LBL: h53 ARG0: x52 RSTR: h54 BODY: h55 ]
+ [ "_lawn_n_1_rel"<65:71> LBL: h56 ARG0: x52 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h34 h15 qeq h17 h23 qeq h25 h31 qeq h33 h37 qeq h39 h46 qeq h48 h54 qeq h56 > ]
+
+
+SENT: How much money does Sam have?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_money_n_1_rel"<9:14> LBL: h13 ARG0: x5 ]
+ [ proper_q_rel<20:23> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h17 BODY: h18 ]
+ [ named_rel<20:23> LBL: h19 CARG: "Sam" ARG0: x3 ]
+ [ "_have_v_1_rel"<24:29> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h17 qeq h19 > ]
+
+

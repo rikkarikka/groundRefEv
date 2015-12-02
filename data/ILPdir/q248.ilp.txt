@@ -1,0 +1,7 @@
+constants : 61921.0 49500.0 
+unknowns : x
+operators : + - * / =
+objtypes : yard 
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 111421.0

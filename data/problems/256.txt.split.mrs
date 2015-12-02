@@ -1,0 +1,76 @@
+SENT: Jonathan wants to buy a dictionary that costs $11, a dinosaur book that costs $19, and a children's cookbook that costs $7.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:8> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:8> LBL: h7 CARG: "Jonathan" ARG0: x3 ]
+ [ "_want_v_1_rel"<9:14> LBL: h1 ARG0: e2 ARG1: x3 ARG2: h9 ]
+ [ "_buy_v_1_rel"<18:21> LBL: h10 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x12 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<22:23> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
+ [ "_dictionary_n_of_rel"<24:34> LBL: h16 ARG0: x12 ARG1: i17 ]
+ [ "_cost_v_1_rel"<40:45> LBL: h16 ARG0: e18 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x12 ARG2: x19 [ x PERS: 3 NUM: sg IND: + ] ARG3: x20 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<46:50> LBL: h21 ARG0: x20 RSTR: h22 BODY: h23 ]
+ [ "_dollar_n_1_rel"<46:47> LBL: h24 ARG0: x20 ]
+ [ card_rel<47:50> LBL: h24 CARG: "11" ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x20 ]
+ [ _a_q_rel<51:52> LBL: h27 ARG0: x19 RSTR: h28 BODY: h29 ]
+ [ compound_rel<53:66> LBL: h30 ARG0: e31 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x19 ARG2: x32 [ x IND: + ] ]
+ [ udef_q_rel<53:61> LBL: h33 ARG0: x32 RSTR: h34 BODY: h35 ]
+ [ "_dinosaur_n_1_rel"<53:61> LBL: h36 ARG0: x32 ]
+ [ "_book_n_of_rel"<62:66> LBL: h30 ARG0: x19 ARG1: i37 ]
+ [ "_cost_v_1_rel"<72:77> LBL: h30 ARG0: e38 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x19 ARG2: x39 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<78:123> LBL: h40 ARG0: x39 RSTR: h41 BODY: h42 ]
+ [ udef_q_rel<78:82> LBL: h43 ARG0: x44 [ x PERS: 3 NUM: pl IND: + ] RSTR: h45 BODY: h46 ]
+ [ "_dollar_n_1_rel"<78:79> LBL: h47 ARG0: x44 ]
+ [ card_rel<79:82> LBL: h47 CARG: "19" ARG0: e49 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x44 ]
+ [ _and_c_rel<83:86> LBL: h50 ARG0: x39 L-INDEX: x44 R-INDEX: x51 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<87:88> LBL: h52 ARG0: x51 RSTR: h53 BODY: h54 ]
+ [ "_childrens_a_1_rel"<89:99> LBL: h55 ARG0: e56 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x51 ]
+ [ compound_rel<89:99> LBL: h55 ARG0: e57 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x51 ARG2: x51 ]
+ [ "_cookbook_n_1_rel"<100:108> LBL: h55 ARG0: x51 ]
+ [ "_cost_v_1_rel"<114:119> LBL: h55 ARG0: e58 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x51 ARG2: x59 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<120:123> LBL: h60 ARG0: x59 RSTR: h61 BODY: h62 ]
+ [ "_dollar_n_1_rel"<120:121> LBL: h63 ARG0: x59 ]
+ [ card_rel<121:123> LBL: h63 CARG: "7" ARG0: e65 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x59 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h9 qeq h10 h14 qeq h16 h22 qeq h24 h28 qeq h30 h34 qeq h36 h41 qeq h50 h45 qeq h47 h53 qeq h55 h61 qeq h63 > ]
+
+
+SENT: He has saved $8 from his allowance.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: + ]
+RELS: < [ pron_rel<0:2> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m PT: std ] ]
+ [ pronoun_q_rel<0:2> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_save_v_1_rel"<7:12> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<13:15> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ "_dollar_n_1_rel"<13:14> LBL: h12 ARG0: x8 ]
+ [ card_rel<14:15> LBL: h12 CARG: "8" ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x8 ]
+ [ _from_p_rel<16:20> LBL: h1 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x16 [ x PERS: 3 NUM: sg ] ]
+ [ def_explicit_q_rel<21:24> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ poss_rel<21:24> LBL: h20 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x16 ARG2: x22 [ x PERS: 3 NUM: sg GEND: m PT: std ] ]
+ [ pronoun_q_rel<21:24> LBL: h23 ARG0: x22 RSTR: h24 BODY: h25 ]
+ [ pron_rel<21:24> LBL: h26 ARG0: x22 ]
+ [ "_allowance_n_1_rel"<25:35> LBL: h20 ARG0: x16 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h10 qeq h12 h18 qeq h20 h24 qeq h26 > ]
+
+
+SENT: How much more money does Jonathan need to buy all three books?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:19> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ much-many_a_rel<9:13> LBL: h13 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x5 ]
+ [ comp_rel<9:13> LBL: h13 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e16 ARG2: u18 ]
+ [ "_money_n_1_rel"<14:19> LBL: h13 ARG0: x5 ]
+ [ proper_q_rel<25:33> LBL: h19 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h20 BODY: h21 ]
+ [ named_rel<25:33> LBL: h22 CARG: "Jonathan" ARG0: x3 ]
+ [ "_need_v_1_rel"<34:38> LBL: h1 ARG0: e2 ARG1: x3 ARG2: h24 ]
+ [ "_buy_v_1_rel"<42:45> LBL: h25 ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x5 ARG3: x27 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<46:49> LBL: h28 ARG0: x27 ARG1: x29 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ _all_q_rel<46:49> LBL: h30 ARG0: x27 RSTR: h31 BODY: h32 ]
+ [ udef_q_rel<50:55> LBL: h33 ARG0: x29 RSTR: h34 BODY: h35 ]
+ [ card_rel<50:55> LBL: h36 CARG: "3" ARG0: e38 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x29 ]
+ [ "_book_n_of_rel"<56:62> LBL: h36 ARG0: x29 ARG1: i39 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h20 qeq h22 h24 qeq h25 h31 qeq h28 h34 qeq h36 > ]
+
+

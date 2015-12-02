@@ -1,0 +1,6 @@
+parameters: n=13 l=6 k=1 p=5 q=3 m=12
+TOTAL 3 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 40 | 0.75 | 4.25 | (((((0.25-2.0)/4.0)-0.5)+2.0)*4.0)=x | 0.25 2.0 - 4.0 / 0.5 - 2.0 + 4.0 * x = | 0.25:nail 2.0:nail -:nail 4.0:UK /:nail 0.5:nail -:nail 2.0:nail +:nail 4.0:UK *:nail x:nail =:nail
+EXPR: 0 | POS | INT | 75 | 0.75 | 58 | (((((2.0-0.25)+2.0)*4.0)-0.5)*4.0)=x | 2.0 0.25 - 2.0 + 4.0 * 0.5 - 4.0 * x = | 2.0:nail 0.25:nail -:nail 2.0:nail +:nail 4.0:UK *:nail 0.5:nail -:nail 4.0:UK *:UK x:UK =:UK
+NET 2 unique, non-negative solutions found out of 3 total solutions

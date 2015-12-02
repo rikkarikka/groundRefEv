@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 2268 | 2268 | x=(6.0*378.0) | x 6.0 378.0 * = | x:ball 6.0:ball 378.0:UK *:ball =:ball
+EXPR: 1 | POS | INT | 0 | 2268 | 2268 | (6.0*378.0)=x | 6.0 378.0 * x = | 6.0:ball 378.0:UK *:ball x:ball =:ball
+EXPR: 1 | POS | INT | 2 | 2268 | 2268 | 6.0=(x/378.0) | 6.0 x 378.0 / = | 6.0:ball x:ball 378.0:UK /:ball =:ball
+EXPR: 0 | POS | INT | 10 | 2268 | 384 | x=(6.0+378.0) | x 6.0 378.0 + = | x:ball 6.0:ball 378.0:ball +:ball =:ball
+EXPR: 0 | POS | INT | 10 | 2268 | 384 | (6.0+378.0)=x | 6.0 378.0 + x = | 6.0:ball 378.0:ball +:ball x:ball =:ball
+EXPR: 0 | POS | INT | 12 | 2268 | 63 | 6.0=(378.0/x) | 6.0 378.0 x / = | 6.0:UK 378.0:UK x:ball /:UK =:UK
+EXPR: 0 | POS | INT | 12 | 2268 | 63 | (x*6.0)=378.0 | x 6.0 * 378.0 = | x:ball 6.0:UK *:UK 378.0:UK =:UK
+EXPR: 0 | POS | INT | 12 | 2268 | 384 | 6.0=(x-378.0) | 6.0 x 378.0 - = | 6.0:ball x:ball 378.0:ball -:ball =:ball
+EXPR: 0 | POS | INT | 12 | 2268 | 63 | (6.0*x)=378.0 | 6.0 x * 378.0 = | 6.0:UK x:ball *:UK 378.0:UK =:UK
+EXPR: 0 | POS | INT | 12 | 2268 | 372 | (x+6.0)=378.0 | x 6.0 + 378.0 = | x:ball 6.0:ball +:ball 378.0:ball =:ball
+EXPR: 0 | POS | INT | 12 | 2268 | 384 | (x-6.0)=378.0 | x 6.0 - 378.0 = | x:ball 6.0:ball -:ball 378.0:ball =:ball
+EXPR: 0 | POS | INT | 12 | 2268 | 372 | 6.0=(378.0-x) | 6.0 378.0 x - = | 6.0:ball 378.0:ball x:ball -:ball =:ball
+EXPR: 0 | POS | INT | 12 | 2268 | 372 | (6.0+x)=378.0 | 6.0 x + 378.0 = | 6.0:ball x:ball +:ball 378.0:ball =:ball
+EXPR: 1 | POS | INT | 12 | 2268 | 2268 | (x/6.0)=378.0 | x 6.0 / 378.0 = | x:UK 6.0:ball /:UK 378.0:UK =:UK
+EXPR: 1 | POS | INT | 12 | 2268 | 2268 | (x/378.0)=6.0 | x 378.0 / 6.0 = | x:ball 378.0:UK /:ball 6.0:ball =:ball
+EXPR: 0 | POS | INT | 20 | 2268 | 372 | (378.0-6.0)=x | 378.0 6.0 - x = | 378.0:ball 6.0:ball -:ball x:ball =:ball
+EXPR: 0 | POS | INT | 20 | 2268 | 63 | (378.0/6.0)=x | 378.0 6.0 / x = | 378.0:UK 6.0:ball /:UK x:UK =:UK
+EXPR: 0 | POS | INT | 20 | 2268 | 63 | x=(378.0/6.0) | x 378.0 6.0 / = | x:UK 378.0:UK 6.0:ball /:UK =:UK
+EXPR: 0 | POS | INT | 20 | 2268 | 372 | x=(378.0-6.0) | x 378.0 6.0 - = | x:ball 378.0:ball 6.0:ball -:ball =:ball
+EXPR: 0 | POS | INT | 22 | 2268 | 63 | 378.0=(x*6.0) | 378.0 x 6.0 * = | 378.0:UK x:UK 6.0:ball *:UK =:UK
+EXPR: 0 | POS | INT | 22 | 2268 | 63 | 378.0=(6.0*x) | 378.0 6.0 x * = | 378.0:UK 6.0:UK x:ball *:UK =:UK
+EXPR: 0 | POS | INT | 22 | 2268 | 372 | 378.0=(x+6.0) | 378.0 x 6.0 + = | 378.0:ball x:ball 6.0:ball +:ball =:ball
+EXPR: 0 | POS | INT | 22 | 2268 | 63 | (378.0/x)=6.0 | 378.0 x / 6.0 = | 378.0:UK x:ball /:UK 6.0:UK =:UK
+EXPR: 0 | POS | INT | 22 | 2268 | 372 | (378.0-x)=6.0 | 378.0 x - 6.0 = | 378.0:ball x:ball -:ball 6.0:ball =:ball
+EXPR: 0 | POS | INT | 22 | 2268 | 384 | 378.0=(x-6.0) | 378.0 x 6.0 - = | 378.0:ball x:ball 6.0:ball -:ball =:ball
+EXPR: 1 | POS | INT | 22 | 2268 | 2268 | 378.0=(x/6.0) | 378.0 x 6.0 / = | 378.0:UK x:UK 6.0:ball /:UK =:UK
+EXPR: 0 | POS | INT | 22 | 2268 | 372 | 378.0=(6.0+x) | 378.0 6.0 x + = | 378.0:ball 6.0:ball x:ball +:ball =:ball
+EXPR: 0 | POS | INT | 22 | 2268 | 384 | (x-378.0)=6.0 | x 378.0 - 6.0 = | x:ball 378.0:ball -:ball 6.0:ball =:ball
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

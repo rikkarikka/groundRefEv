@@ -1,0 +1,7 @@
+constants : 56.0 22.0 
+unknowns : x
+operators : + - * / =
+objtypes : seashell UK 
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 34.0

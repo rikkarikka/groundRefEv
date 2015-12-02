@@ -1,0 +1,5 @@
+parameters: n=9 l=4 k=1 p=5 q=3 m=10
+TOTAL 4 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 20 | 286 | 157 | ((13.0*10.0)+(3.0*9.0))=x | 13.0 10.0 * 3.0 9.0 * + x = | 13.0:dollar 10.0:money *:money 3.0:hour 9.0:money *:money +:money x:money =:money
+NET 1 unique, non-negative, integer-valued solutions found out of 4 total solutions

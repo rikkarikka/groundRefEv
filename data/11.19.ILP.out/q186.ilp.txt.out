@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 32 | 32 | x=(8.0*4.0) | x 8.0 4.0 * = | x:money 8.0:money 4.0:UK *:money =:money
+EXPR: 1 | POS | INT | 10 | 32 | 32 | (8.0*4.0)=x | 8.0 4.0 * x = | 8.0:cent 4.0:UK *:cent x:cent =:cent
+EXPR: 0 | POS | INT | 10 | 32 | 2 | (8.0/4.0)=x | 8.0 4.0 / x = | 8.0:money 4.0:UK /:money x:money =:money
+EXPR: 0 | POS | INT | 10 | 32 | 2 | x=(8.0/4.0) | x 8.0 4.0 / = | x:cent 8.0:cent 4.0:UK /:cent =:cent
+EXPR: 0 | POS | INT | 12 | 32 | 2 | 8.0=(x*4.0) | 8.0 x 4.0 * = | 8.0:UK x:money 4.0:UK *:UK =:UK
+EXPR: 1 | POS | INT | 12 | 32 | 32 | 8.0=(x/4.0) | 8.0 x 4.0 / = | 8.0:money x:money 4.0:UK /:money =:money
+EXPR: 0 | POS | INT | 12 | 32 | 2 | 8.0=(4.0*x) | 8.0 4.0 x * = | 8.0:money 4.0:UK x:money *:money =:money
+EXPR: 0 | POS | INT | 12 | 32 | 2 | (8.0/x)=4.0 | 8.0 x / 4.0 = | 8.0:cent x:money /:cent 4.0:cent =:cent
+EXPR: 1 | POS | INT | 12 | 32 | 32 | (x/8.0)=4.0 | x 8.0 / 4.0 = | x:money 8.0:cent /:money 4.0:money =:money
+EXPR: 0 | POS | INT | 20 | 32 | 12 | (8.0+4.0)=x | 8.0 4.0 + x = | 8.0:cent 4.0:cent +:cent x:cent =:cent
+EXPR: 0 | POS | INT | 20 | 32 | 12 | x=(8.0+4.0) | x 8.0 4.0 + = | x:UK 8.0:UK 4.0:UK +:UK =:UK
+EXPR: 0 | POS | INT | 20 | 32 | 4 | (8.0-4.0)=x | 8.0 4.0 - x = | 8.0:cent 4.0:cent -:cent x:cent =:cent
+EXPR: 0 | POS | INT | 20 | 32 | 4 | x=(8.0-4.0) | x 8.0 4.0 - = | x:money 8.0:money 4.0:money -:money =:money
+EXPR: 0 | POS | INT | 22 | 32 | 12 | (x-8.0)=4.0 | x 8.0 - 4.0 = | x:UK 8.0:UK -:UK 4.0:UK =:UK
+EXPR: 0 | POS | INT | 22 | 32 | 2 | (x*4.0)=8.0 | x 4.0 * 8.0 = | x:money 4.0:UK *:UK 8.0:UK =:UK
+EXPR: 0 | POS | INT | 22 | 32 | 2 | (4.0*x)=8.0 | 4.0 x * 8.0 = | 4.0:cent x:money *:cent 8.0:cent =:cent
+EXPR: 1 | POS | INT | 22 | 32 | 32 | 4.0=(x/8.0) | 4.0 x 8.0 / = | 4.0:money x:money 8.0:cent /:money =:money
+EXPR: 0 | POS | INT | 22 | 32 | 4 | 8.0=(4.0+x) | 8.0 4.0 x + = | 8.0:UK 4.0:UK x:UK +:UK =:UK
+EXPR: 0 | POS | INT | 22 | 32 | 4 | (8.0-x)=4.0 | 8.0 x - 4.0 = | 8.0:money x:money -:money 4.0:money =:money
+EXPR: 0 | POS | INT | 22 | 32 | 4 | 8.0=(x+4.0) | 8.0 x 4.0 + = | 8.0:money x:money 4.0:money +:money =:money
+EXPR: 0 | POS | INT | 22 | 32 | 12 | 8.0=(x-4.0) | 8.0 x 4.0 - = | 8.0:money x:money 4.0:money -:money =:money
+EXPR: 1 | POS | INT | 22 | 32 | 32 | (x/4.0)=8.0 | x 4.0 / 8.0 = | x:money 4.0:UK /:money 8.0:money =:money
+EXPR: 0 | POS | INT | 22 | 32 | 2 | 4.0=(8.0/x) | 4.0 8.0 x / = | 4.0:UK 8.0:UK x:money /:UK =:UK
+EXPR: 0 | POS | INT | 32 | 32 | 12 | (x-4.0)=8.0 | x 4.0 - 8.0 = | x:UK 4.0:UK -:UK 8.0:UK =:UK
+EXPR: 0 | POS | INT | 32 | 32 | 4 | (4.0+x)=8.0 | 4.0 x + 8.0 = | 4.0:UK x:UK +:UK 8.0:UK =:UK
+EXPR: 0 | POS | INT | 32 | 32 | 4 | (x+4.0)=8.0 | x 4.0 + 8.0 = | x:cent 4.0:cent +:cent 8.0:cent =:cent
+EXPR: 0 | POS | INT | 32 | 32 | 4 | 4.0=(8.0-x) | 4.0 8.0 x - = | 4.0:UK 8.0:UK x:UK -:UK =:UK
+EXPR: 0 | POS | INT | 32 | 32 | 12 | 4.0=(x-8.0) | 4.0 x 8.0 - = | 4.0:UK x:UK 8.0:UK -:UK =:UK
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

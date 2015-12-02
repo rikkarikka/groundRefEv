@@ -1,0 +1,7 @@
+constants : 2.0 0.8 1.0 0.1 
+unknowns : x
+operators : + - * / =
+objtypes : worm inch UK
+constantOrUnknownType : 0 1 0 1 2
+n : 9
+answer : 0.7

@@ -1,0 +1,7 @@
+constants : 19.0 43.0 16.0 
+unknowns : x
+operators : + - * / =
+objtypes : pencil 
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 78.0

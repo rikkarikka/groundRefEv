@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 7 | 7 | 49.0=(x*7.0) | 49.0 x 7.0 * = | 49.0:block x:color 7.0:block *:block =:block
+EXPR: 1 | POS | INT | 2 | 7 | 7 | 49.0=(7.0*x) | 49.0 7.0 x * = | 49.0:block 7.0:block x:color *:block =:block
+EXPR: 1 | POS | INT | 2 | 7 | 7 | (49.0/x)=7.0 | 49.0 x / 7.0 = | 49.0:block x:color /:block 7.0:block =:block
+EXPR: 0 | POS | INT | 10 | 7 | 343 | (49.0*7.0)=x | 49.0 7.0 * x = | 49.0:block 7.0:color *:color x:color =:color
+EXPR: 0 | POS | INT | 10 | 7 | 56 | (49.0+7.0)=x | 49.0 7.0 + x = | 49.0:block 7.0:block +:block x:block =:block
+EXPR: 0 | POS | INT | 10 | 7 | 42 | x=(49.0-7.0) | x 49.0 7.0 - = | x:block 49.0:block 7.0:block -:block =:block
+EXPR: 0 | POS | INT | 10 | 7 | 343 | x=(49.0*7.0) | x 49.0 7.0 * = | x:color 49.0:block 7.0:color *:color =:color
+EXPR: 0 | POS | INT | 10 | 7 | 56 | x=(49.0+7.0) | x 49.0 7.0 + = | x:block 49.0:block 7.0:block +:block =:block
+EXPR: 0 | POS | INT | 10 | 7 | 42 | (49.0-7.0)=x | 49.0 7.0 - x = | 49.0:block 7.0:block -:block x:block =:block
+EXPR: 1 | POS | INT | 10 | 7 | 7 | x=(49.0/7.0) | x 49.0 7.0 / = | x:color 49.0:color 7.0:block /:color =:color
+EXPR: 1 | POS | INT | 10 | 7 | 7 | (49.0/7.0)=x | 49.0 7.0 / x = | 49.0:color 7.0:block /:color x:color =:color
+EXPR: 1 | POS | INT | 12 | 7 | 7 | 7.0=(49.0/x) | 7.0 49.0 x / = | 7.0:block 49.0:block x:color /:block =:block
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (x*7.0)=49.0 | x 7.0 * 49.0 = | x:color 7.0:block *:block 49.0:block =:block
+EXPR: 0 | POS | INT | 12 | 7 | 343 | 49.0=(x/7.0) | 49.0 x 7.0 / = | 49.0:color x:color 7.0:block /:color =:color
+EXPR: 0 | POS | INT | 12 | 7 | 56 | 49.0=(x-7.0) | 49.0 x 7.0 - = | 49.0:block x:block 7.0:block -:block =:block
+EXPR: 0 | POS | INT | 12 | 7 | 42 | (49.0-x)=7.0 | 49.0 x - 7.0 = | 49.0:block x:block -:block 7.0:block =:block
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (7.0*x)=49.0 | 7.0 x * 49.0 = | 7.0:block x:color *:block 49.0:block =:block
+EXPR: 0 | POS | INT | 12 | 7 | 42 | 49.0=(x+7.0) | 49.0 x 7.0 + = | 49.0:block x:block 7.0:block +:block =:block
+EXPR: 0 | POS | INT | 12 | 7 | 42 | 49.0=(7.0+x) | 49.0 7.0 x + = | 49.0:block 7.0:block x:block +:block =:block
+EXPR: 0 | POS | INT | 12 | 7 | 56 | (x-49.0)=7.0 | x 49.0 - 7.0 = | x:block 49.0:block -:block 7.0:block =:block
+EXPR: 0 | POS | INT | 12 | 7 | 343 | (x/49.0)=7.0 | x 49.0 / 7.0 = | x:color 49.0:block /:color 7.0:color =:color
+EXPR: 0 | POS | INT | 22 | 7 | 343 | (x/7.0)=49.0 | x 7.0 / 49.0 = | x:color 7.0:block /:color 49.0:color =:color
+EXPR: 0 | POS | INT | 22 | 7 | 56 | (x-7.0)=49.0 | x 7.0 - 49.0 = | x:block 7.0:block -:block 49.0:block =:block
+EXPR: 0 | POS | INT | 22 | 7 | 42 | (7.0+x)=49.0 | 7.0 x + 49.0 = | 7.0:block x:block +:block 49.0:block =:block
+EXPR: 0 | POS | INT | 22 | 7 | 56 | 7.0=(x-49.0) | 7.0 x 49.0 - = | 7.0:block x:block 49.0:block -:block =:block
+EXPR: 0 | POS | INT | 22 | 7 | 42 | (x+7.0)=49.0 | x 7.0 + 49.0 = | x:block 7.0:block +:block 49.0:block =:block
+EXPR: 0 | POS | INT | 22 | 7 | 343 | 7.0=(x/49.0) | 7.0 x 49.0 / = | 7.0:color x:color 49.0:block /:color =:color
+EXPR: 0 | POS | INT | 22 | 7 | 42 | 7.0=(49.0-x) | 7.0 49.0 x - = | 7.0:block 49.0:block x:block -:block =:block
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

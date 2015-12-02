@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 203 | 203 | x=(29.0*7.0) | x 29.0 7.0 * = | x:balloon 29.0:balloon 7.0:time *:balloon =:balloon
+EXPR: 1 | POS | INT | 0 | 203 | 203 | (29.0*7.0)=x | 29.0 7.0 * x = | 29.0:balloon 7.0:time *:balloon x:balloon =:balloon
+EXPR: 1 | POS | INT | 2 | 203 | 203 | 29.0=(x/7.0) | 29.0 x 7.0 / = | 29.0:balloon x:balloon 7.0:time /:balloon =:balloon
+EXPR: 0 | POS | INT | 10 | 203 | 22 | (29.0-7.0)=x | 29.0 7.0 - x = | 29.0:balloon 7.0:balloon -:balloon x:balloon =:balloon
+EXPR: 0 | POS | INT | 10 | 203 | 36 | x=(29.0+7.0) | x 29.0 7.0 + = | x:balloon 29.0:balloon 7.0:balloon +:balloon =:balloon
+EXPR: 0 | POS | INT | 10 | 203 | 22 | x=(29.0-7.0) | x 29.0 7.0 - = | x:balloon 29.0:balloon 7.0:balloon -:balloon =:balloon
+EXPR: 0 | POS | INT | 10 | 203 | 36 | (29.0+7.0)=x | 29.0 7.0 + x = | 29.0:balloon 7.0:balloon +:balloon x:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 203 | 22 | 29.0=(x+7.0) | 29.0 x 7.0 + = | 29.0:balloon x:balloon 7.0:balloon +:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 203 | 36 | 29.0=(x-7.0) | 29.0 x 7.0 - = | 29.0:balloon x:balloon 7.0:balloon -:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 203 | 22 | 29.0=(7.0+x) | 29.0 7.0 x + = | 29.0:balloon 7.0:balloon x:balloon +:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 203 | 36 | (x-29.0)=7.0 | x 29.0 - 7.0 = | x:balloon 29.0:balloon -:balloon 7.0:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 203 | 22 | (29.0-x)=7.0 | 29.0 x - 7.0 = | 29.0:balloon x:balloon -:balloon 7.0:balloon =:balloon
+EXPR: 1 | POS | INT | 12 | 203 | 203 | (x/29.0)=7.0 | x 29.0 / 7.0 = | x:time 29.0:balloon /:time 7.0:time =:time
+EXPR: 1 | POS | INT | 12 | 203 | 203 | (x/7.0)=29.0 | x 7.0 / 29.0 = | x:balloon 7.0:time /:balloon 29.0:balloon =:balloon
+EXPR: 0 | POS | INT | 22 | 203 | 22 | (x+7.0)=29.0 | x 7.0 + 29.0 = | x:balloon 7.0:balloon +:balloon 29.0:balloon =:balloon
+EXPR: 0 | POS | INT | 22 | 203 | 22 | (7.0+x)=29.0 | 7.0 x + 29.0 = | 7.0:balloon x:balloon +:balloon 29.0:balloon =:balloon
+EXPR: 0 | POS | INT | 22 | 203 | 36 | 7.0=(x-29.0) | 7.0 x 29.0 - = | 7.0:balloon x:balloon 29.0:balloon -:balloon =:balloon
+EXPR: 1 | POS | INT | 22 | 203 | 203 | 7.0=(x/29.0) | 7.0 x 29.0 / = | 7.0:time x:time 29.0:balloon /:time =:time
+EXPR: 0 | POS | INT | 22 | 203 | 22 | 7.0=(29.0-x) | 7.0 29.0 x - = | 7.0:balloon 29.0:balloon x:balloon -:balloon =:balloon
+EXPR: 0 | POS | INT | 22 | 203 | 36 | (x-7.0)=29.0 | x 7.0 - 29.0 = | x:balloon 7.0:balloon -:balloon 29.0:balloon =:balloon
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

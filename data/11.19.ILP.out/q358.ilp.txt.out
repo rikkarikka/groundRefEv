@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 18.8 | 1.6 | (10.2-8.6)=x | 10.2 8.6 - x = | 10.2:page 8.6:page -:page x:page =:page
+EXPR: 1 | POS | FRA | 0 | 18.8 | 18.8 | x=(10.2+8.6) | x 10.2 8.6 + = | x:page 10.2:page 8.6:page +:page =:page
+EXPR: 0 | POS | FRA | 0 | 18.8 | 1.6 | x=(10.2-8.6) | x 10.2 8.6 - = | x:page 10.2:page 8.6:page -:page =:page
+EXPR: 1 | POS | FRA | 0 | 18.8 | 18.8 | (10.2+8.6)=x | 10.2 8.6 + x = | 10.2:page 8.6:page +:page x:page =:page
+EXPR: 0 | POS | FRA | 2 | 18.8 | 1.6 | 10.2=(8.6+x) | 10.2 8.6 x + = | 10.2:page 8.6:page x:page +:page =:page
+EXPR: 1 | POS | FRA | 2 | 18.8 | 18.8 | (x-10.2)=8.6 | x 10.2 - 8.6 = | x:page 10.2:page -:page 8.6:page =:page
+EXPR: 0 | POS | FRA | 2 | 18.8 | 1.6 | 10.2=(x+8.6) | 10.2 x 8.6 + = | 10.2:page x:page 8.6:page +:page =:page
+EXPR: 0 | POS | FRA | 2 | 18.8 | 1.6 | (10.2-x)=8.6 | 10.2 x - 8.6 = | 10.2:page x:page -:page 8.6:page =:page
+EXPR: 1 | POS | FRA | 2 | 18.8 | 18.8 | 10.2=(x-8.6) | 10.2 x 8.6 - = | 10.2:page x:page 8.6:page -:page =:page
+EXPR: 0 | POS | FRA | 12 | 18.8 | 1.6 | (x+8.6)=10.2 | x 8.6 + 10.2 = | x:page 8.6:page +:page 10.2:page =:page
+EXPR: 1 | POS | FRA | 12 | 18.8 | 18.8 | (x-8.6)=10.2 | x 8.6 - 10.2 = | x:page 8.6:page -:page 10.2:page =:page
+EXPR: 0 | POS | FRA | 12 | 18.8 | 1.6 | (8.6+x)=10.2 | 8.6 x + 10.2 = | 8.6:page x:page +:page 10.2:page =:page
+EXPR: 1 | POS | FRA | 12 | 18.8 | 18.8 | 8.6=(x-10.2) | 8.6 x 10.2 - = | 8.6:page x:page 10.2:page -:page =:page
+EXPR: 0 | POS | FRA | 12 | 18.8 | 1.6 | 8.6=(10.2-x) | 8.6 10.2 x - = | 8.6:page 10.2:page x:page -:page =:page
+NET 14 unique, non-negative solutions found out of 28 total solutions

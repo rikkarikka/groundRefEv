@@ -1,0 +1,7 @@
+constants : 1.54 3.0 
+unknowns : x
+operators : + - * / =
+objtypes : dollar UK ball 
+constantOrUnknownType : 0 2 1
+n : 5
+answer : 4.62

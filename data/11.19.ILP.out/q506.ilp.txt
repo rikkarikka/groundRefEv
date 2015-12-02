@@ -1,0 +1,7 @@
+constants : 177.0 500.0 19.0 
+unknowns : x
+operators : + - * / =
+objtypes : dollar week UK 
+constantOrUnknownType : 0 0 1 2
+n : 7
+answer : 17.0

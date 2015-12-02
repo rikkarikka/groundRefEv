@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 120 | 120 | x=(30.0*4.0) | x 30.0 4.0 * = | x:foot 30.0:foot 4.0:time *:foot =:foot
+EXPR: 1 | POS | INT | 0 | 120 | 120 | (30.0*4.0)=x | 30.0 4.0 * x = | 30.0:foot 4.0:time *:foot x:foot =:foot
+EXPR: 1 | POS | INT | 2 | 120 | 120 | 30.0=(x/4.0) | 30.0 x 4.0 / = | 30.0:foot x:foot 4.0:time /:foot =:foot
+EXPR: 0 | POS | INT | 10 | 120 | 26 | (30.0-4.0)=x | 30.0 4.0 - x = | 30.0:foot 4.0:foot -:foot x:foot =:foot
+EXPR: 0 | POS | INT | 10 | 120 | 34 | x=(30.0+4.0) | x 30.0 4.0 + = | x:foot 30.0:foot 4.0:foot +:foot =:foot
+EXPR: 0 | POS | INT | 10 | 120 | 26 | x=(30.0-4.0) | x 30.0 4.0 - = | x:foot 30.0:foot 4.0:foot -:foot =:foot
+EXPR: 0 | POS | INT | 10 | 120 | 34 | (30.0+4.0)=x | 30.0 4.0 + x = | 30.0:foot 4.0:foot +:foot x:foot =:foot
+EXPR: 0 | POS | INT | 12 | 120 | 26 | 30.0=(x+4.0) | 30.0 x 4.0 + = | 30.0:foot x:foot 4.0:foot +:foot =:foot
+EXPR: 0 | POS | INT | 12 | 120 | 34 | 30.0=(x-4.0) | 30.0 x 4.0 - = | 30.0:foot x:foot 4.0:foot -:foot =:foot
+EXPR: 0 | POS | INT | 12 | 120 | 26 | 30.0=(4.0+x) | 30.0 4.0 x + = | 30.0:foot 4.0:foot x:foot +:foot =:foot
+EXPR: 0 | POS | INT | 12 | 120 | 34 | (x-30.0)=4.0 | x 30.0 - 4.0 = | x:foot 30.0:foot -:foot 4.0:foot =:foot
+EXPR: 0 | POS | INT | 12 | 120 | 26 | (30.0-x)=4.0 | 30.0 x - 4.0 = | 30.0:foot x:foot -:foot 4.0:foot =:foot
+EXPR: 1 | POS | INT | 12 | 120 | 120 | (x/30.0)=4.0 | x 30.0 / 4.0 = | x:time 30.0:foot /:time 4.0:time =:time
+EXPR: 1 | POS | INT | 12 | 120 | 120 | (x/4.0)=30.0 | x 4.0 / 30.0 = | x:foot 4.0:time /:foot 30.0:foot =:foot
+EXPR: 0 | POS | INT | 22 | 120 | 26 | (x+4.0)=30.0 | x 4.0 + 30.0 = | x:foot 4.0:foot +:foot 30.0:foot =:foot
+EXPR: 0 | POS | INT | 22 | 120 | 26 | (4.0+x)=30.0 | 4.0 x + 30.0 = | 4.0:foot x:foot +:foot 30.0:foot =:foot
+EXPR: 0 | POS | INT | 22 | 120 | 34 | 4.0=(x-30.0) | 4.0 x 30.0 - = | 4.0:foot x:foot 30.0:foot -:foot =:foot
+EXPR: 1 | POS | INT | 22 | 120 | 120 | 4.0=(x/30.0) | 4.0 x 30.0 / = | 4.0:time x:time 30.0:foot /:time =:time
+EXPR: 0 | POS | INT | 22 | 120 | 26 | 4.0=(30.0-x) | 4.0 30.0 x - = | 4.0:foot 30.0:foot x:foot -:foot =:foot
+EXPR: 0 | POS | INT | 22 | 120 | 34 | (x-4.0)=30.0 | x 4.0 - 30.0 = | x:foot 4.0:foot -:foot 30.0:foot =:foot
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

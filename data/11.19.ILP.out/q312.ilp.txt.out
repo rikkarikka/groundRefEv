@@ -1,0 +1,7 @@
+parameters: n=11 l=5 k=1 p=5 q=4 m=11
+TOTAL 4 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 30 | 0.5 | 0.888888907777778 | (0.16666667*(1.0+(0.33333334+(2.0*2.0))))=x | 0.16666667 1.0 0.33333334 2.0 2.0 * + + * x = | 0.16666667:apartment 1.0:UK 0.33333334:UK 2.0:UK 2.0:bedroom *:UK +:UK +:UK *:apartment x:apartment =:apartment
+EXPR: 0 | POS | FRA | 40 | 0.5 | 0.482758620689655 | x=(1.0/((0.16666667/(0.33333334+2.0))+2.0)) | x 1.0 0.16666667 0.33333334 2.0 + / 2.0 + / = | x:bedroom 1.0:bedroom 0.16666667:apartment 0.33333334:bedroom 2.0:bedroom +:bedroom /:apartment 2.0:apartment +:apartment /:bedroom =:bedroom
+EXPR: 0 | POS | FRA | 65 | 0.5 | 0.464285714285714 | x=(1.0/((0.33333334/(0.16666667+2.0))+2.0)) | x 1.0 0.33333334 0.16666667 2.0 + / 2.0 + / = | x:UK 1.0:UK 0.33333334:apartment 0.16666667:bedroom 2.0:bedroom +:bedroom /:apartment 2.0:apartment +:apartment /:UK =:UK
+NET 3 unique, non-negative solutions found out of 4 total solutions

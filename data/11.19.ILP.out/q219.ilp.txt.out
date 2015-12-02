@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 19.02 | 3.0126582278481 | 4.74=(14.28/x) | 4.74 14.28 x / = | 4.74:dollar 14.28:dollar x:money /:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 19.02 | 0.331932773109244 | 4.74=(x*14.28) | 4.74 x 14.28 * = | 4.74:dollar x:money 14.28:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 19.02 | 0.331932773109244 | 4.74=(14.28*x) | 4.74 14.28 x * = | 4.74:dollar 14.28:dollar x:money *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 19.02 | 3.0126582278481 | (x*4.74)=14.28 | x 4.74 * 14.28 = | x:money 4.74:dollar *:dollar 14.28:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 19.02 | 3.0126582278481 | (4.74*x)=14.28 | 4.74 x * 14.28 = | 4.74:dollar x:money *:dollar 14.28:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 19.02 | 0.331932773109244 | (4.74/x)=14.28 | 4.74 x / 14.28 = | 4.74:dollar x:money /:dollar 14.28:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 19.02 | 67.6872 | (4.74*14.28)=x | 4.74 14.28 * x = | 4.74:dollar 14.28:money *:money x:money =:money
+EXPR: 1 | POS | FRA | 10 | 19.02 | 19.02 | (4.74+14.28)=x | 4.74 14.28 + x = | 4.74:dollar 14.28:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 19.02 | 67.6872 | x=(4.74*14.28) | x 4.74 14.28 * = | x:money 4.74:dollar 14.28:money *:money =:money
+EXPR: 1 | POS | FRA | 10 | 19.02 | 19.02 | x=(4.74+14.28) | x 4.74 14.28 + = | x:dollar 4.74:dollar 14.28:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 19.02 | 0.331932773109244 | x=(4.74/14.28) | x 4.74 14.28 / = | x:money 4.74:money 14.28:dollar /:money =:money
+EXPR: 0 | POS | FRA | 10 | 19.02 | 0.331932773109244 | (4.74/14.28)=x | 4.74 14.28 / x = | 4.74:money 14.28:dollar /:money x:money =:money
+EXPR: 0 | POS | FRA | 12 | 19.02 | 0.331932773109244 | 14.28=(4.74/x) | 14.28 4.74 x / = | 14.28:dollar 4.74:dollar x:money /:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 19.02 | 0.331932773109244 | (x*14.28)=4.74 | x 14.28 * 4.74 = | x:money 14.28:dollar *:dollar 4.74:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 19.02 | 67.6872 | 4.74=(x/14.28) | 4.74 x 14.28 / = | 4.74:money x:money 14.28:dollar /:money =:money
+EXPR: 0 | POS | FRA | 12 | 19.02 | 3.0126582278481 | 14.28=(4.74*x) | 14.28 4.74 x * = | 14.28:dollar 4.74:dollar x:money *:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 19.02 | 19.02 | 4.74=(x-14.28) | 4.74 x 14.28 - = | 4.74:dollar x:dollar 14.28:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 19.02 | 3.0126582278481 | 14.28=(x*4.74) | 14.28 x 4.74 * = | 14.28:dollar x:money 4.74:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 19.02 | 9.54 | 4.74=(14.28-x) | 4.74 14.28 x - = | 4.74:dollar 14.28:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 19.02 | 0.331932773109244 | (14.28*x)=4.74 | 14.28 x * 4.74 = | 14.28:dollar x:money *:dollar 4.74:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 19.02 | 3.0126582278481 | (14.28/x)=4.74 | 14.28 x / 4.74 = | 14.28:dollar x:money /:dollar 4.74:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 19.02 | 9.54 | (x+4.74)=14.28 | x 4.74 + 14.28 = | x:dollar 4.74:dollar +:dollar 14.28:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 19.02 | 9.54 | (4.74+x)=14.28 | 4.74 x + 14.28 = | 4.74:dollar x:dollar +:dollar 14.28:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 19.02 | 19.02 | (x-4.74)=14.28 | x 4.74 - 14.28 = | x:dollar 4.74:dollar -:dollar 14.28:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 19.02 | 67.6872 | (x/4.74)=14.28 | x 4.74 / 14.28 = | x:money 4.74:dollar /:money 14.28:money =:money
+EXPR: 0 | POS | FRA | 20 | 19.02 | 3.0126582278481 | (14.28/4.74)=x | 14.28 4.74 / x = | 14.28:money 4.74:dollar /:money x:money =:money
+EXPR: 0 | POS | FRA | 20 | 19.02 | 9.54 | x=(14.28-4.74) | x 14.28 4.74 - = | x:dollar 14.28:dollar 4.74:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 19.02 | 9.54 | (14.28-4.74)=x | 14.28 4.74 - x = | 14.28:dollar 4.74:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 19.02 | 3.0126582278481 | x=(14.28/4.74) | x 14.28 4.74 / = | x:money 14.28:money 4.74:dollar /:money =:money
+EXPR: 0 | POS | FRA | 22 | 19.02 | 9.54 | (14.28-x)=4.74 | 14.28 x - 4.74 = | 14.28:dollar x:dollar -:dollar 4.74:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 19.02 | 67.6872 | (x/14.28)=4.74 | x 14.28 / 4.74 = | x:money 14.28:dollar /:money 4.74:money =:money
+EXPR: 1 | POS | FRA | 22 | 19.02 | 19.02 | (x-14.28)=4.74 | x 14.28 - 4.74 = | x:dollar 14.28:dollar -:dollar 4.74:dollar =:dollar
+EXPR: 1 | POS | FRA | 22 | 19.02 | 19.02 | 14.28=(x-4.74) | 14.28 x 4.74 - = | 14.28:dollar x:dollar 4.74:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 19.02 | 9.54 | 14.28=(x+4.74) | 14.28 x 4.74 + = | 14.28:dollar x:dollar 4.74:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 19.02 | 9.54 | 14.28=(4.74+x) | 14.28 4.74 x + = | 14.28:dollar 4.74:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 19.02 | 67.6872 | 14.28=(x/4.74) | 14.28 x 4.74 / = | 14.28:money x:money 4.74:dollar /:money =:money
+NET 36 unique, non-negative solutions found out of 136 total solutions

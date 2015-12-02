@@ -1,0 +1,7 @@
+constants : 5.0 2.0 1.0 
+unknowns : x
+operators : + - * / =
+objtypes : cup loaf flour 
+constantOrUnknownType : 0 1 1 2
+n : 7
+answer : 2.5

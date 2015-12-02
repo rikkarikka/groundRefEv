@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 3.07 | 84 | x=(12.0*7.0) | x 12.0 7.0 * = | x:money 12.0:money 7.0:penny *:money =:money
+EXPR: 0 | POS | INT | 10 | 3.07 | 84 | (12.0*7.0)=x | 12.0 7.0 * x = | 12.0:quarter 7.0:penny *:quarter x:quarter =:quarter
+EXPR: 0 | POS | INT | 12 | 3.07 | 84 | 12.0=(x/7.0) | 12.0 x 7.0 / = | 12.0:money x:money 7.0:penny /:money =:money
+EXPR: 0 | POS | INT | 12 | 3.07 | 84 | (x/12.0)=7.0 | x 12.0 / 7.0 = | x:money 12.0:quarter /:money 7.0:money =:money
+EXPR: 0 | POS | INT | 20 | 3.07 | 19 | (12.0+7.0)=x | 12.0 7.0 + x = | 12.0:quarter 7.0:quarter +:quarter x:quarter =:quarter
+EXPR: 0 | POS | INT | 20 | 3.07 | 19 | x=(12.0+7.0) | x 12.0 7.0 + = | x:penny 12.0:penny 7.0:penny +:penny =:penny
+EXPR: 0 | POS | INT | 20 | 3.07 | 5 | (12.0-7.0)=x | 12.0 7.0 - x = | 12.0:quarter 7.0:quarter -:quarter x:quarter =:quarter
+EXPR: 0 | POS | INT | 20 | 3.07 | 5 | x=(12.0-7.0) | x 12.0 7.0 - = | x:money 12.0:money 7.0:money -:money =:money
+EXPR: 0 | POS | INT | 22 | 3.07 | 19 | (x-12.0)=7.0 | x 12.0 - 7.0 = | x:penny 12.0:penny -:penny 7.0:penny =:penny
+EXPR: 0 | POS | INT | 22 | 3.07 | 84 | 7.0=(x/12.0) | 7.0 x 12.0 / = | 7.0:money x:money 12.0:quarter /:money =:money
+EXPR: 0 | POS | INT | 22 | 3.07 | 5 | 12.0=(7.0+x) | 12.0 7.0 x + = | 12.0:penny 7.0:penny x:penny +:penny =:penny
+EXPR: 0 | POS | INT | 22 | 3.07 | 5 | (12.0-x)=7.0 | 12.0 x - 7.0 = | 12.0:money x:money -:money 7.0:money =:money
+EXPR: 0 | POS | INT | 22 | 3.07 | 5 | 12.0=(x+7.0) | 12.0 x 7.0 + = | 12.0:money x:money 7.0:money +:money =:money
+EXPR: 0 | POS | INT | 22 | 3.07 | 19 | 12.0=(x-7.0) | 12.0 x 7.0 - = | 12.0:money x:money 7.0:money -:money =:money
+EXPR: 0 | POS | INT | 22 | 3.07 | 84 | (x/7.0)=12.0 | x 7.0 / 12.0 = | x:money 7.0:penny /:money 12.0:money =:money
+EXPR: 0 | POS | INT | 32 | 3.07 | 19 | (x-7.0)=12.0 | x 7.0 - 12.0 = | x:penny 7.0:penny -:penny 12.0:penny =:penny
+EXPR: 0 | POS | INT | 32 | 3.07 | 5 | (7.0+x)=12.0 | 7.0 x + 12.0 = | 7.0:penny x:penny +:penny 12.0:penny =:penny
+EXPR: 0 | POS | INT | 32 | 3.07 | 5 | (x+7.0)=12.0 | x 7.0 + 12.0 = | x:quarter 7.0:quarter +:quarter 12.0:quarter =:quarter
+EXPR: 0 | POS | INT | 32 | 3.07 | 5 | 7.0=(12.0-x) | 7.0 12.0 x - = | 7.0:penny 12.0:penny x:penny -:penny =:penny
+EXPR: 0 | POS | INT | 32 | 3.07 | 19 | 7.0=(x-12.0) | 7.0 x 12.0 - = | 7.0:penny x:penny 12.0:penny -:penny =:penny
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

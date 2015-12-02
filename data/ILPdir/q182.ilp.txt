@@ -1,0 +1,7 @@
+constants : 49.0 
+unknowns : x
+operators : + - * / =
+objtypes : hamburger 
+constantOrUnknownType : 0 0
+n : 3
+answer : 7.0

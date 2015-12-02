@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 1.22 | 0.64327485380117 | 3.42=(2.2/x) | 3.42 2.2 x / = | 3.42:pound 2.2:pound x:fruit /:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 1.22 | 1.55454545454545 | 3.42=(x*2.2) | 3.42 x 2.2 * = | 3.42:pound x:fruit 2.2:pound *:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 1.22 | 1.55454545454545 | 3.42=(2.2*x) | 3.42 2.2 x * = | 3.42:pound 2.2:pound x:fruit *:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 1.22 | 0.64327485380117 | (x*3.42)=2.2 | x 3.42 * 2.2 = | x:fruit 3.42:pound *:pound 2.2:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 1.22 | 0.64327485380117 | (3.42*x)=2.2 | 3.42 x * 2.2 = | 3.42:pound x:fruit *:pound 2.2:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 1.22 | 1.55454545454545 | (3.42/x)=2.2 | 3.42 x / 2.2 = | 3.42:pound x:fruit /:pound 2.2:pound =:pound
+EXPR: 0 | POS | FRA | 10 | 1.22 | 7.524 | (3.42*2.2)=x | 3.42 2.2 * x = | 3.42:pound 2.2:fruit *:fruit x:fruit =:fruit
+EXPR: 0 | POS | FRA | 10 | 1.22 | 5.62 | (3.42+2.2)=x | 3.42 2.2 + x = | 3.42:pound 2.2:pound +:pound x:pound =:pound
+EXPR: 1 | POS | FRA | 10 | 1.22 | 1.22 | x=(3.42-2.2) | x 3.42 2.2 - = | x:pound 3.42:pound 2.2:pound -:pound =:pound
+EXPR: 0 | POS | FRA | 10 | 1.22 | 7.524 | x=(3.42*2.2) | x 3.42 2.2 * = | x:fruit 3.42:pound 2.2:fruit *:fruit =:fruit
+EXPR: 0 | POS | FRA | 10 | 1.22 | 5.62 | x=(3.42+2.2) | x 3.42 2.2 + = | x:pound 3.42:pound 2.2:pound +:pound =:pound
+EXPR: 1 | POS | FRA | 10 | 1.22 | 1.22 | (3.42-2.2)=x | 3.42 2.2 - x = | 3.42:pound 2.2:pound -:pound x:pound =:pound
+EXPR: 0 | POS | FRA | 10 | 1.22 | 1.55454545454545 | x=(3.42/2.2) | x 3.42 2.2 / = | x:fruit 3.42:fruit 2.2:pound /:fruit =:fruit
+EXPR: 0 | POS | FRA | 10 | 1.22 | 1.55454545454545 | (3.42/2.2)=x | 3.42 2.2 / x = | 3.42:fruit 2.2:pound /:fruit x:fruit =:fruit
+EXPR: 0 | POS | FRA | 12 | 1.22 | 1.55454545454545 | 2.2=(3.42/x) | 2.2 3.42 x / = | 2.2:pound 3.42:pound x:fruit /:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 1.22 | 1.55454545454545 | (x*2.2)=3.42 | x 2.2 * 3.42 = | x:fruit 2.2:pound *:pound 3.42:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 1.22 | 7.524 | 3.42=(x/2.2) | 3.42 x 2.2 / = | 3.42:fruit x:fruit 2.2:pound /:fruit =:fruit
+EXPR: 0 | POS | FRA | 12 | 1.22 | 0.64327485380117 | 2.2=(3.42*x) | 2.2 3.42 x * = | 2.2:pound 3.42:pound x:fruit *:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 1.22 | 5.62 | 3.42=(x-2.2) | 3.42 x 2.2 - = | 3.42:pound x:pound 2.2:pound -:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 1.22 | 0.64327485380117 | 2.2=(x*3.42) | 2.2 x 3.42 * = | 2.2:pound x:fruit 3.42:pound *:pound =:pound
+EXPR: 1 | POS | FRA | 12 | 1.22 | 1.22 | (3.42-x)=2.2 | 3.42 x - 2.2 = | 3.42:pound x:pound -:pound 2.2:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 1.22 | 1.55454545454545 | (2.2*x)=3.42 | 2.2 x * 3.42 = | 2.2:pound x:fruit *:pound 3.42:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 1.22 | 0.64327485380117 | (2.2/x)=3.42 | 2.2 x / 3.42 = | 2.2:pound x:fruit /:pound 3.42:pound =:pound
+EXPR: 1 | POS | FRA | 12 | 1.22 | 1.22 | 3.42=(x+2.2) | 3.42 x 2.2 + = | 3.42:pound x:pound 2.2:pound +:pound =:pound
+EXPR: 1 | POS | FRA | 12 | 1.22 | 1.22 | 3.42=(2.2+x) | 3.42 2.2 x + = | 3.42:pound 2.2:pound x:pound +:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 1.22 | 5.62 | (x-3.42)=2.2 | x 3.42 - 2.2 = | x:pound 3.42:pound -:pound 2.2:pound =:pound
+EXPR: 0 | POS | FRA | 12 | 1.22 | 7.524 | (x/3.42)=2.2 | x 3.42 / 2.2 = | x:fruit 3.42:pound /:fruit 2.2:fruit =:fruit
+EXPR: 0 | POS | FRA | 20 | 1.22 | 0.64327485380117 | (2.2/3.42)=x | 2.2 3.42 / x = | 2.2:fruit 3.42:pound /:fruit x:fruit =:fruit
+EXPR: 0 | POS | FRA | 20 | 1.22 | 0.64327485380117 | x=(2.2/3.42) | x 2.2 3.42 / = | x:fruit 2.2:fruit 3.42:pound /:fruit =:fruit
+EXPR: 0 | POS | FRA | 22 | 1.22 | 7.524 | (x/2.2)=3.42 | x 2.2 / 3.42 = | x:fruit 2.2:pound /:fruit 3.42:fruit =:fruit
+EXPR: 0 | POS | FRA | 22 | 1.22 | 5.62 | (x-2.2)=3.42 | x 2.2 - 3.42 = | x:pound 2.2:pound -:pound 3.42:pound =:pound
+EXPR: 1 | POS | FRA | 22 | 1.22 | 1.22 | (2.2+x)=3.42 | 2.2 x + 3.42 = | 2.2:pound x:pound +:pound 3.42:pound =:pound
+EXPR: 0 | POS | FRA | 22 | 1.22 | 5.62 | 2.2=(x-3.42) | 2.2 x 3.42 - = | 2.2:pound x:pound 3.42:pound -:pound =:pound
+EXPR: 1 | POS | FRA | 22 | 1.22 | 1.22 | (x+2.2)=3.42 | x 2.2 + 3.42 = | x:pound 2.2:pound +:pound 3.42:pound =:pound
+EXPR: 0 | POS | FRA | 22 | 1.22 | 7.524 | 2.2=(x/3.42) | 2.2 x 3.42 / = | 2.2:fruit x:fruit 3.42:pound /:fruit =:fruit
+EXPR: 1 | POS | FRA | 22 | 1.22 | 1.22 | 2.2=(3.42-x) | 2.2 3.42 x - = | 2.2:pound 3.42:pound x:pound -:pound =:pound
+NET 36 unique, non-negative solutions found out of 136 total solutions

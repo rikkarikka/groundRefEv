@@ -1,0 +1,7 @@
+constants : 3884.0 2871.0 
+unknowns : x
+operators : + - * / =
+objtypes : car 
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 6755.0

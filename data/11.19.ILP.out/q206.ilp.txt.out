@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 1.84 | 63 | x=(9.0*7.0) | x 9.0 7.0 * = | x:money 9.0:money 7.0:quarter *:money =:money
+EXPR: 0 | POS | INT | 10 | 1.84 | 63 | (9.0*7.0)=x | 9.0 7.0 * x = | 9.0:penny 7.0:quarter *:penny x:penny =:penny
+EXPR: 0 | POS | INT | 12 | 1.84 | 63 | 9.0=(x/7.0) | 9.0 x 7.0 / = | 9.0:money x:money 7.0:quarter /:money =:money
+EXPR: 0 | POS | INT | 12 | 1.84 | 63 | (x/9.0)=7.0 | x 9.0 / 7.0 = | x:money 9.0:penny /:money 7.0:money =:money
+EXPR: 0 | POS | INT | 20 | 1.84 | 16 | (9.0+7.0)=x | 9.0 7.0 + x = | 9.0:penny 7.0:penny +:penny x:penny =:penny
+EXPR: 0 | POS | INT | 20 | 1.84 | 16 | x=(9.0+7.0) | x 9.0 7.0 + = | x:quarter 9.0:quarter 7.0:quarter +:quarter =:quarter
+EXPR: 0 | POS | INT | 20 | 1.84 | 2 | (9.0-7.0)=x | 9.0 7.0 - x = | 9.0:penny 7.0:penny -:penny x:penny =:penny
+EXPR: 0 | POS | INT | 20 | 1.84 | 2 | x=(9.0-7.0) | x 9.0 7.0 - = | x:money 9.0:money 7.0:money -:money =:money
+EXPR: 0 | POS | INT | 22 | 1.84 | 16 | (x-9.0)=7.0 | x 9.0 - 7.0 = | x:quarter 9.0:quarter -:quarter 7.0:quarter =:quarter
+EXPR: 0 | POS | INT | 22 | 1.84 | 63 | 7.0=(x/9.0) | 7.0 x 9.0 / = | 7.0:money x:money 9.0:penny /:money =:money
+EXPR: 0 | POS | INT | 22 | 1.84 | 2 | 9.0=(7.0+x) | 9.0 7.0 x + = | 9.0:quarter 7.0:quarter x:quarter +:quarter =:quarter
+EXPR: 0 | POS | INT | 22 | 1.84 | 2 | (9.0-x)=7.0 | 9.0 x - 7.0 = | 9.0:money x:money -:money 7.0:money =:money
+EXPR: 0 | POS | INT | 22 | 1.84 | 2 | 9.0=(x+7.0) | 9.0 x 7.0 + = | 9.0:money x:money 7.0:money +:money =:money
+EXPR: 0 | POS | INT | 22 | 1.84 | 16 | 9.0=(x-7.0) | 9.0 x 7.0 - = | 9.0:money x:money 7.0:money -:money =:money
+EXPR: 0 | POS | INT | 22 | 1.84 | 63 | (x/7.0)=9.0 | x 7.0 / 9.0 = | x:money 7.0:quarter /:money 9.0:money =:money
+EXPR: 0 | POS | INT | 32 | 1.84 | 16 | (x-7.0)=9.0 | x 7.0 - 9.0 = | x:quarter 7.0:quarter -:quarter 9.0:quarter =:quarter
+EXPR: 0 | POS | INT | 32 | 1.84 | 2 | (7.0+x)=9.0 | 7.0 x + 9.0 = | 7.0:quarter x:quarter +:quarter 9.0:quarter =:quarter
+EXPR: 0 | POS | INT | 32 | 1.84 | 2 | (x+7.0)=9.0 | x 7.0 + 9.0 = | x:penny 7.0:penny +:penny 9.0:penny =:penny
+EXPR: 0 | POS | INT | 32 | 1.84 | 2 | 7.0=(9.0-x) | 7.0 9.0 x - = | 7.0:quarter 9.0:quarter x:quarter -:quarter =:quarter
+EXPR: 0 | POS | INT | 32 | 1.84 | 16 | 7.0=(x-9.0) | 7.0 x 9.0 - = | 7.0:quarter x:quarter 9.0:quarter -:quarter =:quarter
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

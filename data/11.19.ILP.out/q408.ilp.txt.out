@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 7 | 7 | 700.0=(x*100.0) | 700.0 x 100.0 * = | 700.0:sheet x:box 100.0:sheet *:sheet =:sheet
+EXPR: 1 | POS | INT | 2 | 7 | 7 | 700.0=(100.0*x) | 700.0 100.0 x * = | 700.0:sheet 100.0:sheet x:box *:sheet =:sheet
+EXPR: 1 | POS | INT | 2 | 7 | 7 | (700.0/x)=100.0 | 700.0 x / 100.0 = | 700.0:sheet x:box /:sheet 100.0:sheet =:sheet
+EXPR: 0 | POS | INT | 10 | 7 | 70000 | (700.0*100.0)=x | 700.0 100.0 * x = | 700.0:sheet 100.0:box *:box x:box =:box
+EXPR: 0 | POS | INT | 10 | 7 | 800 | (700.0+100.0)=x | 700.0 100.0 + x = | 700.0:sheet 100.0:sheet +:sheet x:sheet =:sheet
+EXPR: 0 | POS | INT | 10 | 7 | 600 | x=(700.0-100.0) | x 700.0 100.0 - = | x:sheet 700.0:sheet 100.0:sheet -:sheet =:sheet
+EXPR: 0 | POS | INT | 10 | 7 | 70000 | x=(700.0*100.0) | x 700.0 100.0 * = | x:box 700.0:sheet 100.0:box *:box =:box
+EXPR: 0 | POS | INT | 10 | 7 | 800 | x=(700.0+100.0) | x 700.0 100.0 + = | x:sheet 700.0:sheet 100.0:sheet +:sheet =:sheet
+EXPR: 0 | POS | INT | 10 | 7 | 600 | (700.0-100.0)=x | 700.0 100.0 - x = | 700.0:sheet 100.0:sheet -:sheet x:sheet =:sheet
+EXPR: 1 | POS | INT | 10 | 7 | 7 | x=(700.0/100.0) | x 700.0 100.0 / = | x:box 700.0:box 100.0:sheet /:box =:box
+EXPR: 1 | POS | INT | 10 | 7 | 7 | (700.0/100.0)=x | 700.0 100.0 / x = | 700.0:box 100.0:sheet /:box x:box =:box
+EXPR: 1 | POS | INT | 12 | 7 | 7 | 100.0=(700.0/x) | 100.0 700.0 x / = | 100.0:sheet 700.0:sheet x:box /:sheet =:sheet
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (x*100.0)=700.0 | x 100.0 * 700.0 = | x:box 100.0:sheet *:sheet 700.0:sheet =:sheet
+EXPR: 0 | POS | INT | 12 | 7 | 70000 | 700.0=(x/100.0) | 700.0 x 100.0 / = | 700.0:box x:box 100.0:sheet /:box =:box
+EXPR: 0 | POS | INT | 12 | 7 | 800 | 700.0=(x-100.0) | 700.0 x 100.0 - = | 700.0:sheet x:sheet 100.0:sheet -:sheet =:sheet
+EXPR: 0 | POS | INT | 12 | 7 | 600 | (700.0-x)=100.0 | 700.0 x - 100.0 = | 700.0:sheet x:sheet -:sheet 100.0:sheet =:sheet
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (100.0*x)=700.0 | 100.0 x * 700.0 = | 100.0:sheet x:box *:sheet 700.0:sheet =:sheet
+EXPR: 0 | POS | INT | 12 | 7 | 600 | 700.0=(x+100.0) | 700.0 x 100.0 + = | 700.0:sheet x:sheet 100.0:sheet +:sheet =:sheet
+EXPR: 0 | POS | INT | 12 | 7 | 600 | 700.0=(100.0+x) | 700.0 100.0 x + = | 700.0:sheet 100.0:sheet x:sheet +:sheet =:sheet
+EXPR: 0 | POS | INT | 12 | 7 | 800 | (x-700.0)=100.0 | x 700.0 - 100.0 = | x:sheet 700.0:sheet -:sheet 100.0:sheet =:sheet
+EXPR: 0 | POS | INT | 12 | 7 | 70000 | (x/700.0)=100.0 | x 700.0 / 100.0 = | x:box 700.0:sheet /:box 100.0:box =:box
+EXPR: 0 | POS | INT | 22 | 7 | 70000 | (x/100.0)=700.0 | x 100.0 / 700.0 = | x:box 100.0:sheet /:box 700.0:box =:box
+EXPR: 0 | POS | INT | 22 | 7 | 800 | (x-100.0)=700.0 | x 100.0 - 700.0 = | x:sheet 100.0:sheet -:sheet 700.0:sheet =:sheet
+EXPR: 0 | POS | INT | 22 | 7 | 600 | (100.0+x)=700.0 | 100.0 x + 700.0 = | 100.0:sheet x:sheet +:sheet 700.0:sheet =:sheet
+EXPR: 0 | POS | INT | 22 | 7 | 800 | 100.0=(x-700.0) | 100.0 x 700.0 - = | 100.0:sheet x:sheet 700.0:sheet -:sheet =:sheet
+EXPR: 0 | POS | INT | 22 | 7 | 600 | (x+100.0)=700.0 | x 100.0 + 700.0 = | x:sheet 100.0:sheet +:sheet 700.0:sheet =:sheet
+EXPR: 0 | POS | INT | 22 | 7 | 70000 | 100.0=(x/700.0) | 100.0 x 700.0 / = | 100.0:box x:box 700.0:sheet /:box =:box
+EXPR: 0 | POS | INT | 22 | 7 | 600 | 100.0=(700.0-x) | 100.0 700.0 x - = | 100.0:sheet 700.0:sheet x:sheet -:sheet =:sheet
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

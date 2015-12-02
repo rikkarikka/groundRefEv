@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 452 | 452 | (676.0-224.0)=x | 676.0 224.0 - x = | 676.0:card 224.0:card -:card x:card =:card
+EXPR: 0 | POS | INT | 0 | 452 | 900 | x=(676.0+224.0) | x 676.0 224.0 + = | x:card 676.0:card 224.0:card +:card =:card
+EXPR: 1 | POS | INT | 0 | 452 | 452 | x=(676.0-224.0) | x 676.0 224.0 - = | x:card 676.0:card 224.0:card -:card =:card
+EXPR: 0 | POS | INT | 0 | 452 | 900 | (676.0+224.0)=x | 676.0 224.0 + x = | 676.0:card 224.0:card +:card x:card =:card
+EXPR: 1 | POS | INT | 2 | 452 | 452 | 676.0=(224.0+x) | 676.0 224.0 x + = | 676.0:card 224.0:card x:card +:card =:card
+EXPR: 0 | POS | INT | 2 | 452 | 900 | (x-676.0)=224.0 | x 676.0 - 224.0 = | x:card 676.0:card -:card 224.0:card =:card
+EXPR: 1 | POS | INT | 2 | 452 | 452 | 676.0=(x+224.0) | 676.0 x 224.0 + = | 676.0:card x:card 224.0:card +:card =:card
+EXPR: 1 | POS | INT | 2 | 452 | 452 | (676.0-x)=224.0 | 676.0 x - 224.0 = | 676.0:card x:card -:card 224.0:card =:card
+EXPR: 0 | POS | INT | 2 | 452 | 900 | 676.0=(x-224.0) | 676.0 x 224.0 - = | 676.0:card x:card 224.0:card -:card =:card
+EXPR: 1 | POS | INT | 12 | 452 | 452 | (x+224.0)=676.0 | x 224.0 + 676.0 = | x:card 224.0:card +:card 676.0:card =:card
+EXPR: 0 | POS | INT | 12 | 452 | 900 | (x-224.0)=676.0 | x 224.0 - 676.0 = | x:card 224.0:card -:card 676.0:card =:card
+EXPR: 1 | POS | INT | 12 | 452 | 452 | (224.0+x)=676.0 | 224.0 x + 676.0 = | 224.0:card x:card +:card 676.0:card =:card
+EXPR: 0 | POS | INT | 12 | 452 | 900 | 224.0=(x-676.0) | 224.0 x 676.0 - = | 224.0:card x:card 676.0:card -:card =:card
+EXPR: 1 | POS | INT | 12 | 452 | 452 | 224.0=(676.0-x) | 224.0 676.0 x - = | 224.0:card 676.0:card x:card -:card =:card
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

@@ -1,0 +1,55 @@
+parameters: n=9 l=4 k=1 p=5 q=2 m=10
+TOTAL 286 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 50 | 13 | 91.0=((24.0+(x*6.0))-11.0) | 91.0 24.0 x 6.0 * + 11.0 - = | 91.0:dollar 24.0:dollar x:money 6.0:dollar *:dollar +:dollar 11.0:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 50 | 11 | (((91.0+24.0)+6.0)/x)=11.0 | 91.0 24.0 + 6.0 + x / 11.0 = | 91.0:dollar 24.0:dollar +:dollar 6.0:dollar +:dollar x:money /:dollar 11.0:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 50 | 11 | ((91.0+(24.0+6.0))/x)=11.0 | 91.0 24.0 6.0 + + x / 11.0 = | 91.0:dollar 24.0:dollar 6.0:dollar +:dollar +:dollar x:money /:dollar 11.0:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 50 | 803 | ((91.0-(24.0-6.0))*11.0)=x | 91.0 24.0 6.0 - - 11.0 * x = | 91.0:dollar 24.0:dollar 6.0:dollar -:dollar -:dollar 11.0:money *:money x:money =:money
+EXPR: 0 | POS | INT | 10 | 50 | 98 | x=((91.0+(24.0-6.0))-11.0) | x 91.0 24.0 6.0 - + 11.0 - = | x:dollar 91.0:dollar 24.0:dollar 6.0:dollar -:dollar +:dollar 11.0:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 50 | 98 | (((91.0+24.0)-x)-6.0)=11.0 | 91.0 24.0 + x - 6.0 - 11.0 = | 91.0:dollar 24.0:dollar +:dollar x:dollar -:dollar 6.0:dollar -:dollar 11.0:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 50 | 1045 | x=((91.0+(24.0/6.0))*11.0) | x 91.0 24.0 6.0 / + 11.0 * = | x:money 91.0:money 24.0:money 6.0:dollar /:money +:money 11.0:dollar *:money =:money
+EXPR: 0 | POS | INT | 22 | 50 | 456 | (91.0-((x+24.0)/6.0))=11.0 | 91.0 x 24.0 + 6.0 / - 11.0 = | 91.0:dollar x:dollar 24.0:dollar +:dollar 6.0:money /:dollar -:dollar 11.0:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 50 | 239 | 91.0=(((24.0+6.0)*11.0)-x) | 91.0 24.0 6.0 + 11.0 * x - = | 91.0:money 24.0:dollar 6.0:dollar +:dollar 11.0:money *:money x:money -:money =:money
+EXPR: 0 | POS | INT | 22 | 50 | 84 | ((x-(91.0+6.0))+24.0)=11.0 | x 91.0 6.0 + - 24.0 + 11.0 = | x:dollar 91.0:dollar 6.0:dollar +:dollar -:dollar 24.0:dollar +:dollar 11.0:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 50 | 84 | (24.0-(91.0+(6.0-x)))=11.0 | 24.0 91.0 6.0 x - + - 11.0 = | 24.0:dollar 91.0:dollar 6.0:dollar x:dollar -:dollar +:dollar -:dollar 11.0:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 50 | 64 | ((91.0-(24.0*6.0))+x)=11.0 | 91.0 24.0 6.0 * - x + 11.0 = | 91.0:dollar 24.0:money 6.0:dollar *:dollar -:dollar x:dollar +:dollar 11.0:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 50 | 12103 | 91.0=(x/((24.0*6.0)-11.0)) | 91.0 x 24.0 6.0 * 11.0 - / = | 91.0:money x:money 24.0:dollar 6.0:money *:dollar 11.0:dollar -:dollar /:money =:money
+EXPR: 0 | POS | INT | 22 | 50 | 14105 | 91.0=(x/((24.0*6.0)+11.0)) | 91.0 x 24.0 6.0 * 11.0 + / = | 91.0:money x:money 24.0:dollar 6.0:money *:dollar 11.0:dollar +:dollar /:money =:money
+EXPR: 0 | POS | INT | 27 | 50 | 21 | ((x*6.0)-(91.0+24.0))=11.0 | x 6.0 * 91.0 24.0 + - 11.0 = | x:money 6.0:dollar *:dollar 91.0:dollar 24.0:dollar +:dollar -:dollar 11.0:dollar =:dollar
+EXPR: 0 | POS | INT | 30 | 50 | 1729 | x=(91.0*((24.0+6.0)-11.0)) | x 91.0 24.0 6.0 + 11.0 - * = | x:money 91.0:dollar 24.0:money 6.0:money +:money 11.0:money -:money *:money =:money
+EXPR: 0 | POS | INT | 30 | 50 | 224 | x=((91.0+(24.0*6.0))-11.0) | x 91.0 24.0 6.0 * + 11.0 - = | x:money 91.0:money 24.0:dollar 6.0:money *:money +:money 11.0:money -:money =:money
+EXPR: 0 | POS | INT | 32 | 50 | 13038 | ((91.0*24.0)-(x/6.0))=11.0 | 91.0 24.0 * x 6.0 / - 11.0 = | 91.0:money 24.0:dollar *:dollar x:dollar 6.0:money /:dollar -:dollar 11.0:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 50 | 317 | 91.0=((24.0*(6.0+11.0))-x) | 91.0 24.0 6.0 11.0 + * x - = | 91.0:dollar 24.0:dollar 6.0:money 11.0:money +:money *:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 50 | 911 | (91.0-((x+24.0)/11.0))=6.0 | 91.0 x 24.0 + 11.0 / - 6.0 = | 91.0:dollar x:dollar 24.0:dollar +:dollar 11.0:money /:dollar -:dollar 6.0:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 50 | 1523 | (((x+24.0)/91.0)-6.0)=11.0 | x 24.0 + 91.0 / 6.0 - 11.0 = | x:dollar 24.0:dollar +:dollar 91.0:money /:dollar 6.0:dollar -:dollar 11.0:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 50 | 421 | 91.0=(x-((24.0+6.0)*11.0)) | 91.0 x 24.0 6.0 + 11.0 * - = | 91.0:money x:money 24.0:money 6.0:money +:money 11.0:dollar *:money -:money =:money
+EXPR: 0 | POS | INT | 37 | 50 | 120 | 91.0=((6.0-(11.0-x))-24.0) | 91.0 6.0 11.0 x - - 24.0 - = | 91.0:dollar 6.0:dollar 11.0:dollar x:dollar -:dollar -:dollar 24.0:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 37 | 50 | 13 | (((x*6.0)+24.0)-91.0)=11.0 | x 6.0 * 24.0 + 91.0 - 11.0 = | x:money 6.0:dollar *:dollar 24.0:dollar +:dollar 91.0:dollar -:dollar 11.0:dollar =:dollar
+EXPR: 0 | POS | INT | 37 | 50 | 84 | (((24.0-6.0)-91.0)+x)=11.0 | 24.0 6.0 - 91.0 - x + 11.0 = | 24.0:dollar 6.0:dollar -:dollar 91.0:dollar -:dollar x:dollar +:dollar 11.0:dollar =:dollar
+EXPR: 0 | POS | INT | 42 | 50 | 179 | (91.0+(x-6.0))=(24.0*11.0) | 91.0 x 6.0 - + 24.0 11.0 * = | 91.0:dollar x:dollar 6.0:dollar -:dollar +:dollar 24.0:money 11.0:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 42 | 50 | 1523 | (((x+24.0)/91.0)-11.0)=6.0 | x 24.0 + 91.0 / 11.0 - 6.0 = | x:dollar 24.0:dollar +:dollar 91.0:money /:dollar 11.0:dollar -:dollar 6.0:dollar =:dollar
+EXPR: 0 | POS | INT | 47 | 50 | 731 | (91.0-((x+6.0)/11.0))=24.0 | 91.0 x 6.0 + 11.0 / - 24.0 = | 91.0:dollar x:dollar 6.0:dollar +:dollar 11.0:money /:dollar -:dollar 24.0:dollar =:dollar
+EXPR: 0 | POS | INT | 47 | 50 | 1019 | 24.0=((x+6.0)-(91.0*11.0)) | 24.0 x 6.0 + 91.0 11.0 * - = | 24.0:dollar x:dollar 6.0:dollar +:dollar 91.0:dollar 11.0:money *:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 52 | 50 | 2167 | ((91.0*24.0)-11.0)=(6.0+x) | 91.0 24.0 * 11.0 - 6.0 x + = | 91.0:dollar 24.0:money *:money 11.0:money -:money 6.0:money x:money +:money =:money
+EXPR: 0 | POS | INT | 52 | 50 | 6270 | ((91.0*6.0)+24.0)=(x/11.0) | 91.0 6.0 * 24.0 + x 11.0 / = | 91.0:dollar 6.0:money *:dollar 24.0:dollar +:dollar x:dollar 11.0:money /:dollar =:dollar
+EXPR: 0 | POS | INT | 52 | 50 | 84 | (((24.0-11.0)-91.0)+x)=6.0 | 24.0 11.0 - 91.0 - x + 6.0 = | 24.0:dollar 11.0:dollar -:dollar 91.0:dollar -:dollar x:dollar +:dollar 6.0:dollar =:dollar
+EXPR: 0 | POS | INT | 55 | 50 | 2140 | ((91.0-(11.0/6.0))*24.0)=x | 91.0 11.0 6.0 / - 24.0 * x = | 91.0:money 11.0:money 6.0:dollar /:money -:money 24.0:dollar *:money x:money =:money
+EXPR: 0 | POS | INT | 57 | 50 | 391 | (91.0-((x+11.0)/6.0))=24.0 | 91.0 x 11.0 + 6.0 / - 24.0 = | 91.0:dollar x:dollar 11.0:dollar +:dollar 6.0:money /:dollar -:dollar 24.0:dollar =:dollar
+EXPR: 0 | POS | INT | 57 | 50 | 600 | 91.0=((6.0*11.0)+(x/24.0)) | 91.0 6.0 11.0 * x 24.0 / + = | 91.0:dollar 6.0:money 11.0:dollar *:dollar x:dollar 24.0:money /:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 57 | 50 | 84 | (((24.0-6.0)-11.0)+x)=91.0 | 24.0 6.0 - 11.0 - x + 91.0 = | 24.0:dollar 6.0:dollar -:dollar 11.0:dollar -:dollar x:dollar +:dollar 91.0:dollar =:dollar
+EXPR: 0 | POS | INT | 57 | 50 | 2442 | 6.0=((24.0*(91.0+11.0))-x) | 6.0 24.0 91.0 11.0 + * x - = | 6.0:dollar 24.0:money 91.0:dollar 11.0:dollar +:dollar *:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 62 | 50 | 911 | 24.0=((11.0*(91.0-6.0))-x) | 24.0 11.0 91.0 6.0 - * x - = | 24.0:dollar 11.0:money 91.0:dollar 6.0:dollar -:dollar *:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 62 | 50 | 6150 | ((x/6.0)-(91.0*11.0))=24.0 | x 6.0 / 91.0 11.0 * - 24.0 = | x:money 6.0:dollar /:money 91.0:dollar 11.0:money *:money -:money 24.0:money =:money
+EXPR: 0 | POS | INT | 67 | 50 | 1627 | 24.0=(6.0+((11.0+x)/91.0)) | 24.0 6.0 11.0 x + 91.0 / + = | 24.0:dollar 6.0:dollar 11.0:dollar x:dollar +:dollar 91.0:money /:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 67 | 50 | 5862 | ((91.0*11.0)-(x/6.0))=24.0 | 91.0 11.0 * x 6.0 / - 24.0 = | 91.0:money 11.0:dollar *:dollar x:dollar 6.0:money /:dollar -:dollar 24.0:dollar =:dollar
+EXPR: 0 | POS | INT | 72 | 50 | 624 | (x/6.0)=(91.0-(11.0-24.0)) | x 6.0 / 91.0 11.0 24.0 - - = | x:dollar 6.0:money /:dollar 91.0:dollar 11.0:dollar 24.0:dollar -:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 72 | 50 | 120 | (((6.0-11.0)-91.0)+x)=24.0 | 6.0 11.0 - 91.0 - x + 24.0 = | 6.0:dollar 11.0:dollar -:dollar 91.0:dollar -:dollar x:dollar +:dollar 24.0:dollar =:dollar
+EXPR: 0 | POS | INT | 72 | 50 | 62 | 6.0=((x+11.0)-(91.0-24.0)) | 6.0 x 11.0 + 91.0 24.0 - - = | 6.0:dollar x:dollar 11.0:dollar +:dollar 91.0:dollar 24.0:dollar -:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 77 | 50 | 479 | 24.0=(x-((11.0-6.0)*91.0)) | 24.0 x 11.0 6.0 - 91.0 * - = | 24.0:money x:money 11.0:dollar 6.0:dollar -:dollar 91.0:money *:money -:money =:money
+EXPR: 0 | POS | INT | 82 | 50 | 110 | 11.0=((24.0+(6.0-x))+91.0) | 11.0 24.0 6.0 x - + 91.0 + = | 11.0:dollar 24.0:dollar 6.0:dollar x:dollar -:dollar +:dollar 91.0:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 82 | 50 | 120 | (((6.0-11.0)-24.0)+x)=91.0 | 6.0 11.0 - 24.0 - x + 91.0 = | 6.0:dollar 11.0:dollar -:dollar 24.0:dollar -:dollar x:dollar +:dollar 91.0:dollar =:dollar
+EXPR: 0 | POS | INT | 87 | 50 | 84 | 6.0=(24.0/((11.0+x)-91.0)) | 6.0 24.0 11.0 x + 91.0 - / = | 6.0:money 24.0:money 11.0:dollar x:dollar +:dollar 91.0:dollar -:dollar /:money =:money
+EXPR: 0 | POS | INT | 87 | 50 | 624 | (x/6.0)=(24.0-(11.0-91.0)) | x 6.0 / 24.0 11.0 91.0 - - = | x:dollar 6.0:money /:dollar 24.0:dollar 11.0:dollar 91.0:dollar -:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 97 | 50 | 72 | 24.0=((11.0-(x+6.0))+91.0) | 24.0 11.0 x 6.0 + - 91.0 + = | 24.0:money 11.0:money x:money 6.0:money +:money -:money 91.0:money +:money =:money
+EXPR: 0 | POS | INT | 122 | 50 | 110 | 11.0=(((6.0-x)+24.0)+91.0) | 11.0 6.0 x - 24.0 + 91.0 + = | 11.0:money 6.0:money x:money -:money 24.0:money +:money 91.0:money +:money =:money
+NET 51 unique, non-negative, integer-valued solutions found out of 286 total solutions

@@ -1,0 +1,7 @@
+constants : 2.0 5.0 27.0 
+unknowns : x
+operators : + - * / =
+objtypes : dollar candy UK 
+constantOrUnknownType : 0 1 0 2
+n : 7
+answer : 5.0

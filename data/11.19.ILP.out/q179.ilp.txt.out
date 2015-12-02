@@ -1,0 +1,6 @@
+parameters: n=3 l=1 k=1 p=5 q=2 m=7
+TOTAL 8 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 8 | 24 | x=24.0 | x 24.0 = | x:crayon 24.0:crayon =:crayon
+EXPR: 0 | POS | INT | 10 | 8 | 24 | 24.0=x | 24.0 x = | 24.0:crayon x:crayon =:crayon
+NET 2 unique, non-negative, integer-valued solutions found out of 8 total solutions

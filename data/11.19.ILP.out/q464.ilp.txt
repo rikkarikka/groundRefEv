@@ -1,0 +1,7 @@
+constants : 4.8 4.0 
+unknowns : x
+operators : + - * / =
+objtypes : dollar dvd UK 
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 1.2

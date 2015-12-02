@@ -1,0 +1,7 @@
+constants : 36.0 85.0 
+unknowns : x
+operators : + - * / =
+objtypes : flea 
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 121.0

@@ -2,7 +2,8 @@ import scala.collection.mutable.ListBuffer
 import scala.collection.mutable.ArrayBuffer
 import breeze.linalg._
 
-class World() {
+@SerialVersionUID(666L)
+class World() extends Serializable{
     var EntityNames = Map[String,String]()
     var EntityID = Map[String,Entity]()
     var EntityLBL = Map[String,String]()
@@ -24,14 +25,16 @@ class World() {
         return List(spl(0),delim+spl(1))
     }
 
-    class Reln(val r:String, val idx:Int, val o:Option[Entity] = None, val oidx:Any = None) {
+    @SerialVersionUID(667L)
+    class Reln(val r:String, val idx:Int, val o:Option[Entity] = None, val oidx:Any = None) extends Serializable{
         //if (Some(o)) 
         def print() {
             println(r,idx,o,oidx)
         }
     }
 
-    class Entity(val cannonicalName:String) {
+    @SerialVersionUID(668L)
+    class Entity(val cannonicalName:String) extends Serializable {
         var mentions = new ListBuffer[(String,MRS)]
         // relns are of the form Type, Arg, 
         var relations = new ListBuffer[Reln]
@@ -51,8 +54,10 @@ class World() {
         }
 
         def nvaap() {
-            var mention = mentions(0)
-            n = mention._2.word filter {x => !("_\".,?!" contains x) }//mention._2.rel.split("_n_")(0) filter {x => !("_\"" contains x)}
+            //var mention = mentions(0)
+            var nmentions = mentions map (_._2.rel) filter {_ contains "_n_"}
+            if (!nmentions.isEmpty) n = nmentions.head.split("_n_")(0) filter {x => !("_\"" contains x)}
+            else n = "UK"
             val verbs = relations filter (x=> x.r contains "_v_")
             /*
             if (verbs.length > 0) {
@@ -143,6 +148,7 @@ class World() {
 
 
     def numbers = EntityID.toList sortWith (_._1 < _._1) map (_._2) filter (x=>((x.card != 0.0)))//||x.has_rel("much-many_a_rel")))
+    def numberEntities = EntityID.toList sortWith (_._1 < _._1) map (_._2) filter (x=>((x.card != 0.0)||(x.card==0.0&&x.has_rel("much-many_a_rel"))))
 
     def update(objs:List[MRS]) {
         this.myobjs = objs
@@ -188,8 +194,10 @@ class World() {
 
         //deal w/ part_of_rel
         objs filter {x => x.rel contains "part_of_rel"} foreach { x=>
-            EntityID(IDtoID(sidx.toString + x.args(1))).card = EntityID(IDtoID(sidx.toString + x.args(0))).card 
-            EntityID(IDtoID(sidx.toString + x.args(0))).card = 0:Float
+            if (x.args(0).charAt(0)=='x') {
+                EntityID(IDtoID(sidx.toString + x.args(1))).card = EntityID(IDtoID(sidx.toString + x.args(0))).card 
+                EntityID(IDtoID(sidx.toString + x.args(0))).card = 0:Float
+            }
         }
         //EntityID foreach {case (k,v) => v.print()}
 
@@ -197,6 +205,10 @@ class World() {
 
     def variables(): Map[String,Entity] = {
         var vars = EntityID filter {case (k,v) => v.has_rel("much-many_a_rel")} 
+        if (vars.toList.length == 0) { 
+            vars = EntityID filter {case (k,v) => k.charAt(0) == (sidx-1).toString} filter {case (k,v) => v.has_rel("time_n_rel")}
+        }
+                
         //vars foreach {case (k,v) => v.print()}
         return vars
 

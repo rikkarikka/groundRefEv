@@ -1,0 +1,7 @@
+constants : 2.0 1.0 0.125 0.125 2.0 
+unknowns : x
+operators : + - * / =
+objtypes : dog scoop food 
+constantOrUnknownType : 0 0 1 1 0 2
+n : 11
+answer : 0.25

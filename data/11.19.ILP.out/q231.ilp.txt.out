@@ -1,0 +1,6 @@
+parameters: n=9 l=4 k=1 p=5 q=3 m=10
+TOTAL 4 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 22 | 1.37 | 17.6991150442478 | (((5.92+2.0)-6.79)*x)=20.0 | 5.92 2.0 + 6.79 - x * 20.0 = | 5.92:dollar 2.0:dollar +:dollar 6.79:dollar -:dollar x:change *:change 20.0:change =:change
+EXPR: 0 | POS | FRA | 80 | 1.37 | 38.0064 | x=((20.0-(2.0*6.79))*5.92) | x 20.0 2.0 6.79 * - 5.92 * = | x:change 20.0:dollar 2.0:ticket 6.79:dollar *:dollar -:dollar 5.92:change *:change =:change
+NET 2 unique, non-negative solutions found out of 4 total solutions

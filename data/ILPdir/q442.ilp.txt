@@ -1,0 +1,7 @@
+constants : 6.0 71.0 
+unknowns : x
+operators : + - * / =
+objtypes : UK package tee+shirt 
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 426.0

@@ -1,0 +1,12 @@
+parameters: n=11 l=5 k=1 p=5 q=2 m=11
+TOTAL 47 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 37 | 39 | 141 | (x-20.0)=((20.0+5.0)+(12.0*8.0)) | x 20.0 - 20.0 5.0 + 12.0 8.0 * + = | x:sticker 20.0:sticker -:sticker 20.0:sticker 5.0:sticker +:sticker 12.0:sticker 8.0:UK *:sticker +:sticker =:sticker
+EXPR: 0 | POS | INT | 40 | 39 | 132 | (12.0-((20.0+20.0)*(5.0-8.0)))=x | 12.0 20.0 20.0 + 5.0 8.0 - * - x = | 12.0:sticker 20.0:UK 20.0:UK +:UK 5.0:sticker 8.0:sticker -:sticker *:sticker -:sticker x:sticker =:sticker
+EXPR: 0 | POS | INT | 42 | 39 | 56 | ((20.0-(20.0-x))/(12.0-5.0))=8.0 | 20.0 20.0 x - - 12.0 5.0 - / 8.0 = | 20.0:sticker 20.0:sticker x:sticker -:sticker -:sticker 12.0:UK 5.0:UK -:UK /:sticker 8.0:sticker =:sticker
+EXPR: 0 | POS | INT | 70 | 39 | 1600 | (((20.0*5.0)-(12.0+8.0))*20.0)=x | 20.0 5.0 * 12.0 8.0 + - 20.0 * x = | 20.0:UK 5.0:sticker *:sticker 12.0:sticker 8.0:sticker +:sticker -:sticker 20.0:UK *:sticker x:sticker =:sticker
+EXPR: 0 | POS | INT | 72 | 39 | 108 | (x-20.0)=((20.0+8.0)+(12.0*5.0)) | x 20.0 - 20.0 8.0 + 12.0 5.0 * + = | x:sticker 20.0:sticker -:sticker 20.0:sticker 8.0:sticker +:sticker 12.0:sticker 5.0:UK *:sticker +:sticker =:sticker
+EXPR: 0 | POS | INT | 115 | 39 | 1740 | x=(((5.0-20.0)+(20.0*8.0))*12.0) | x 5.0 20.0 - 20.0 8.0 * + 12.0 * = | x:sticker 5.0:UK 20.0:UK -:UK 20.0:UK 8.0:sticker *:UK +:UK 12.0:sticker *:sticker =:sticker
+EXPR: 0 | POS | INT | 125 | 39 | 116 | x=((8.0+(20.0-12.0))+(20.0*5.0)) | x 8.0 20.0 12.0 - + 20.0 5.0 * + = | x:sticker 8.0:sticker 20.0:sticker 12.0:sticker -:sticker +:sticker 20.0:UK 5.0:sticker *:sticker +:sticker =:sticker
+EXPR: 0 | POS | INT | 140 | 39 | 468 | x=((8.0+(12.0*5.0))+(20.0*20.0)) | x 8.0 12.0 5.0 * + 20.0 20.0 * + = | x:UK 8.0:UK 12.0:UK 5.0:sticker *:UK +:UK 20.0:sticker 20.0:UK *:UK +:UK =:UK
+NET 8 unique, non-negative, integer-valued solutions found out of 47 total solutions

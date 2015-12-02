@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 1 | 1 | (4.0-3.0)=x | 4.0 3.0 - x = | 4.0:UK 3.0:UK -:UK x:UK =:UK
+EXPR: 0 | POS | INT | 0 | 1 | 7 | x=(4.0+3.0) | x 4.0 3.0 + = | x:UK 4.0:UK 3.0:UK +:UK =:UK
+EXPR: 1 | POS | INT | 0 | 1 | 1 | x=(4.0-3.0) | x 4.0 3.0 - = | x:UK 4.0:UK 3.0:UK -:UK =:UK
+EXPR: 0 | POS | INT | 0 | 1 | 7 | (4.0+3.0)=x | 4.0 3.0 + x = | 4.0:UK 3.0:UK +:UK x:UK =:UK
+EXPR: 1 | POS | INT | 2 | 1 | 1 | 4.0=(3.0+x) | 4.0 3.0 x + = | 4.0:UK 3.0:UK x:UK +:UK =:UK
+EXPR: 0 | POS | INT | 2 | 1 | 7 | (x-4.0)=3.0 | x 4.0 - 3.0 = | x:UK 4.0:UK -:UK 3.0:UK =:UK
+EXPR: 1 | POS | INT | 2 | 1 | 1 | 4.0=(x+3.0) | 4.0 x 3.0 + = | 4.0:UK x:UK 3.0:UK +:UK =:UK
+EXPR: 1 | POS | INT | 2 | 1 | 1 | (4.0-x)=3.0 | 4.0 x - 3.0 = | 4.0:UK x:UK -:UK 3.0:UK =:UK
+EXPR: 0 | POS | INT | 2 | 1 | 7 | 4.0=(x-3.0) | 4.0 x 3.0 - = | 4.0:UK x:UK 3.0:UK -:UK =:UK
+EXPR: 1 | POS | INT | 12 | 1 | 1 | (x+3.0)=4.0 | x 3.0 + 4.0 = | x:UK 3.0:UK +:UK 4.0:UK =:UK
+EXPR: 0 | POS | INT | 12 | 1 | 7 | (x-3.0)=4.0 | x 3.0 - 4.0 = | x:UK 3.0:UK -:UK 4.0:UK =:UK
+EXPR: 1 | POS | INT | 12 | 1 | 1 | (3.0+x)=4.0 | 3.0 x + 4.0 = | 3.0:UK x:UK +:UK 4.0:UK =:UK
+EXPR: 0 | POS | INT | 12 | 1 | 7 | 3.0=(x-4.0) | 3.0 x 4.0 - = | 3.0:UK x:UK 4.0:UK -:UK =:UK
+EXPR: 1 | POS | INT | 12 | 1 | 1 | 3.0=(4.0-x) | 3.0 4.0 x - = | 3.0:UK 4.0:UK x:UK -:UK =:UK
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

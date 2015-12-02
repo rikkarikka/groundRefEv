@@ -1,0 +1,7 @@
+constants : 5.0 50.0 
+unknowns : x
+operators : + - * / =
+objtypes : member ball UK
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 10.0

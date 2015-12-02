@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 1250 | 1250 | x=(5.0*250.0) | x 5.0 250.0 * = | x:mile 5.0:day 250.0:mile *:mile =:mile
+EXPR: 1 | POS | INT | 0 | 1250 | 1250 | (5.0*250.0)=x | 5.0 250.0 * x = | 5.0:day 250.0:mile *:mile x:mile =:mile
+EXPR: 1 | POS | INT | 2 | 1250 | 1250 | (x/5.0)=250.0 | x 5.0 / 250.0 = | x:mile 5.0:day /:mile 250.0:mile =:mile
+EXPR: 0 | POS | INT | 2 | 1250 | 50 | (x*5.0)=250.0 | x 5.0 * 250.0 = | x:mile 5.0:day *:mile 250.0:mile =:mile
+EXPR: 0 | POS | INT | 2 | 1250 | 50 | (5.0*x)=250.0 | 5.0 x * 250.0 = | 5.0:day x:mile *:mile 250.0:mile =:mile
+EXPR: 0 | POS | INT | 10 | 1250 | 50 | (250.0/5.0)=x | 250.0 5.0 / x = | 250.0:mile 5.0:day /:mile x:mile =:mile
+EXPR: 0 | POS | INT | 10 | 1250 | 50 | x=(250.0/5.0) | x 250.0 5.0 / = | x:mile 250.0:mile 5.0:day /:mile =:mile
+EXPR: 0 | POS | INT | 10 | 1250 | 255 | x=(5.0+250.0) | x 5.0 250.0 + = | x:mile 5.0:mile 250.0:mile +:mile =:mile
+EXPR: 0 | POS | INT | 10 | 1250 | 255 | (5.0+250.0)=x | 5.0 250.0 + x = | 5.0:mile 250.0:mile +:mile x:mile =:mile
+EXPR: 0 | POS | INT | 12 | 1250 | 245 | 5.0=(250.0-x) | 5.0 250.0 x - = | 5.0:mile 250.0:mile x:mile -:mile =:mile
+EXPR: 1 | POS | INT | 12 | 1250 | 1250 | 250.0=(x/5.0) | 250.0 x 5.0 / = | 250.0:mile x:mile 5.0:day /:mile =:mile
+EXPR: 0 | POS | INT | 12 | 1250 | 245 | (x+5.0)=250.0 | x 5.0 + 250.0 = | x:mile 5.0:mile +:mile 250.0:mile =:mile
+EXPR: 0 | POS | INT | 12 | 1250 | 255 | (x-5.0)=250.0 | x 5.0 - 250.0 = | x:mile 5.0:mile -:mile 250.0:mile =:mile
+EXPR: 0 | POS | INT | 12 | 1250 | 245 | (5.0+x)=250.0 | 5.0 x + 250.0 = | 5.0:mile x:mile +:mile 250.0:mile =:mile
+EXPR: 0 | POS | INT | 12 | 1250 | 50 | 250.0=(5.0*x) | 250.0 5.0 x * = | 250.0:mile 5.0:day x:mile *:mile =:mile
+EXPR: 0 | POS | INT | 12 | 1250 | 50 | 5.0=(250.0/x) | 5.0 250.0 x / = | 5.0:day 250.0:day x:mile /:day =:day
+EXPR: 0 | POS | INT | 12 | 1250 | 50 | 250.0=(x*5.0) | 250.0 x 5.0 * = | 250.0:mile x:mile 5.0:day *:mile =:mile
+EXPR: 0 | POS | INT | 12 | 1250 | 255 | 5.0=(x-250.0) | 5.0 x 250.0 - = | 5.0:mile x:mile 250.0:mile -:mile =:mile
+EXPR: 1 | POS | INT | 12 | 1250 | 1250 | 5.0=(x/250.0) | 5.0 x 250.0 / = | 5.0:day x:day 250.0:mile /:day =:day
+EXPR: 0 | POS | INT | 20 | 1250 | 245 | x=(250.0-5.0) | x 250.0 5.0 - = | x:mile 250.0:mile 5.0:mile -:mile =:mile
+EXPR: 0 | POS | INT | 20 | 1250 | 245 | (250.0-5.0)=x | 250.0 5.0 - x = | 250.0:mile 5.0:mile -:mile x:mile =:mile
+EXPR: 0 | POS | INT | 22 | 1250 | 245 | (250.0-x)=5.0 | 250.0 x - 5.0 = | 250.0:mile x:mile -:mile 5.0:mile =:mile
+EXPR: 1 | POS | INT | 22 | 1250 | 1250 | (x/250.0)=5.0 | x 250.0 / 5.0 = | x:day 250.0:mile /:day 5.0:day =:day
+EXPR: 0 | POS | INT | 22 | 1250 | 245 | 250.0=(5.0+x) | 250.0 5.0 x + = | 250.0:mile 5.0:mile x:mile +:mile =:mile
+EXPR: 0 | POS | INT | 22 | 1250 | 50 | (250.0/x)=5.0 | 250.0 x / 5.0 = | 250.0:day x:mile /:day 5.0:day =:day
+EXPR: 0 | POS | INT | 22 | 1250 | 255 | (x-250.0)=5.0 | x 250.0 - 5.0 = | x:mile 250.0:mile -:mile 5.0:mile =:mile
+EXPR: 0 | POS | INT | 22 | 1250 | 245 | 250.0=(x+5.0) | 250.0 x 5.0 + = | 250.0:mile x:mile 5.0:mile +:mile =:mile
+EXPR: 0 | POS | INT | 22 | 1250 | 255 | 250.0=(x-5.0) | 250.0 x 5.0 - = | 250.0:mile x:mile 5.0:mile -:mile =:mile
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

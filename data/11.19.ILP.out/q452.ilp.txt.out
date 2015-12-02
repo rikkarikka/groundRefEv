@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 208 | 46784 | x=(344.0*136.0) | x 344.0 136.0 * = | x:book 344.0:book 136.0:UK *:book =:book
+EXPR: 0 | POS | INT | 0 | 208 | 46784 | (344.0*136.0)=x | 344.0 136.0 * x = | 344.0:book 136.0:UK *:book x:book =:book
+EXPR: 0 | POS | INT | 2 | 208 | 46784 | 344.0=(x/136.0) | 344.0 x 136.0 / = | 344.0:book x:book 136.0:UK /:book =:book
+EXPR: 1 | POS | INT | 10 | 208 | 208 | (344.0-136.0)=x | 344.0 136.0 - x = | 344.0:book 136.0:book -:book x:book =:book
+EXPR: 0 | POS | INT | 10 | 208 | 480 | x=(344.0+136.0) | x 344.0 136.0 + = | x:book 344.0:book 136.0:book +:book =:book
+EXPR: 1 | POS | INT | 10 | 208 | 208 | x=(344.0-136.0) | x 344.0 136.0 - = | x:book 344.0:book 136.0:book -:book =:book
+EXPR: 0 | POS | INT | 10 | 208 | 480 | (344.0+136.0)=x | 344.0 136.0 + x = | 344.0:book 136.0:book +:book x:book =:book
+EXPR: 1 | POS | INT | 12 | 208 | 208 | 344.0=(x+136.0) | 344.0 x 136.0 + = | 344.0:book x:book 136.0:book +:book =:book
+EXPR: 0 | POS | INT | 12 | 208 | 480 | 344.0=(x-136.0) | 344.0 x 136.0 - = | 344.0:book x:book 136.0:book -:book =:book
+EXPR: 1 | POS | INT | 12 | 208 | 208 | 344.0=(136.0+x) | 344.0 136.0 x + = | 344.0:book 136.0:book x:book +:book =:book
+EXPR: 0 | POS | INT | 12 | 208 | 480 | (x-344.0)=136.0 | x 344.0 - 136.0 = | x:book 344.0:book -:book 136.0:book =:book
+EXPR: 1 | POS | INT | 12 | 208 | 208 | (344.0-x)=136.0 | 344.0 x - 136.0 = | 344.0:book x:book -:book 136.0:book =:book
+EXPR: 0 | POS | INT | 12 | 208 | 46784 | (x/344.0)=136.0 | x 344.0 / 136.0 = | x:UK 344.0:book /:UK 136.0:UK =:UK
+EXPR: 0 | POS | INT | 12 | 208 | 46784 | (x/136.0)=344.0 | x 136.0 / 344.0 = | x:book 136.0:UK /:book 344.0:book =:book
+EXPR: 1 | POS | INT | 22 | 208 | 208 | (x+136.0)=344.0 | x 136.0 + 344.0 = | x:book 136.0:book +:book 344.0:book =:book
+EXPR: 1 | POS | INT | 22 | 208 | 208 | (136.0+x)=344.0 | 136.0 x + 344.0 = | 136.0:book x:book +:book 344.0:book =:book
+EXPR: 0 | POS | INT | 22 | 208 | 480 | 136.0=(x-344.0) | 136.0 x 344.0 - = | 136.0:book x:book 344.0:book -:book =:book
+EXPR: 0 | POS | INT | 22 | 208 | 46784 | 136.0=(x/344.0) | 136.0 x 344.0 / = | 136.0:UK x:UK 344.0:book /:UK =:UK
+EXPR: 1 | POS | INT | 22 | 208 | 208 | 136.0=(344.0-x) | 136.0 344.0 x - = | 136.0:book 344.0:book x:book -:book =:book
+EXPR: 0 | POS | INT | 22 | 208 | 480 | (x-136.0)=344.0 | x 136.0 - 344.0 = | x:book 136.0:book -:book 344.0:book =:book
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

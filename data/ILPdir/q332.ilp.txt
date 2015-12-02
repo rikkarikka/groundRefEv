@@ -1,0 +1,7 @@
+constants : 0.33333334 0.33333334 0.16666667 
+unknowns : x
+operators : + - * / =
+objtypes : UK carton 
+constantOrUnknownType : 0 1 1 1
+n : 7
+answer : 0.8333333333333334

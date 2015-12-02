@@ -1,0 +1,7 @@
+constants : 540.0 20.0 
+unknowns : x
+operators : + - * / =
+objtypes : card UK pack 
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 108.0

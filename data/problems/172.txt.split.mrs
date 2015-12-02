@@ -1,0 +1,35 @@
+SENT: Nancy has saved 1 dozen quarters from washing cars.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: + ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:5> LBL: h7 CARG: "Nancy" ARG0: x3 ]
+ [ "_save_v_1_rel"<10:15> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<16:23> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<16:17> LBL: h13 CARG: "1" ARG0: i15 ARG1: i16 ]
+ [ card_rel<18:23> LBL: h17 CARG: "12" ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ times_rel<18:23> LBL: h20 ARG0: i21 ARG1: i16 ARG2: h13 ARG3: h17 ]
+ [ "_quarter_n_of_rel"<24:32> LBL: h20 ARG0: x9 ARG1: i22 ]
+ [ _from_p_rel<33:37> LBL: h20 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ARG2: x24 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<38:51> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ compound_rel<38:51> LBL: h28 ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x24 ARG2: x30 ]
+ [ udef_q_rel<38:45> LBL: h31 ARG0: x30 RSTR: h32 BODY: h33 ]
+ [ "_washing_n_1_rel"<38:45> LBL: h34 ARG0: x30 ]
+ [ "_car_n_1_rel"<46:51> LBL: h28 ARG0: x24 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h20 h26 qeq h28 h32 qeq h34 > ]
+
+
+SENT: How much money does Nancy have ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_money_n_1_rel"<9:14> LBL: h13 ARG0: x5 ]
+ [ proper_q_rel<20:25> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h17 BODY: h18 ]
+ [ named_rel<20:25> LBL: h19 CARG: "Nancy" ARG0: x3 ]
+ [ "_have_v_1_rel"<26:32> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h17 qeq h19 > ]
+
+

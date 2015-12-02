@@ -1,6 +1,7 @@
 import scala.collection.mutable.ListBuffer
 
-class MRS(sent:String,specs:String){
+@SerialVersionUID(669L)
+class MRS(sent:String,specs:String) extends Serializable{
 
 	val wb = parseWB
 	val word = sent substring(wb(0),wb(1))

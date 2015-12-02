@@ -1,0 +1,7 @@
+constants : 3.0 124.0 
+unknowns : x
+operators : + - * / =
+objtypes : star student 
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 372.0

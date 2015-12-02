@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 151 | 0.0402314687241664 | 145.16=(5.84/x) | 145.16 5.84 x / = | 145.16:dollar 5.84:dollar x:UK /:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 151 | 24.8561643835616 | 145.16=(x*5.84) | 145.16 x 5.84 * = | 145.16:dollar x:UK 5.84:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 151 | 24.8561643835616 | 145.16=(5.84*x) | 145.16 5.84 x * = | 145.16:dollar 5.84:dollar x:UK *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 151 | 0.0402314687241664 | (x*145.16)=5.84 | x 145.16 * 5.84 = | x:UK 145.16:dollar *:dollar 5.84:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 151 | 0.0402314687241664 | (145.16*x)=5.84 | 145.16 x * 5.84 = | 145.16:dollar x:UK *:dollar 5.84:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 151 | 24.8561643835616 | (145.16/x)=5.84 | 145.16 x / 5.84 = | 145.16:dollar x:UK /:dollar 5.84:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 151 | 847.7344 | (145.16*5.84)=x | 145.16 5.84 * x = | 145.16:dollar 5.84:UK *:UK x:UK =:UK
+EXPR: 1 | POS | INT | 10 | 151 | 151 | (145.16+5.84)=x | 145.16 5.84 + x = | 145.16:dollar 5.84:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 151 | 139.32 | x=(145.16-5.84) | x 145.16 5.84 - = | x:dollar 145.16:dollar 5.84:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 151 | 847.7344 | x=(145.16*5.84) | x 145.16 5.84 * = | x:UK 145.16:dollar 5.84:UK *:UK =:UK
+EXPR: 1 | POS | INT | 10 | 151 | 151 | x=(145.16+5.84) | x 145.16 5.84 + = | x:dollar 145.16:dollar 5.84:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 151 | 139.32 | (145.16-5.84)=x | 145.16 5.84 - x = | 145.16:dollar 5.84:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 151 | 24.8561643835616 | x=(145.16/5.84) | x 145.16 5.84 / = | x:UK 145.16:UK 5.84:dollar /:UK =:UK
+EXPR: 0 | POS | FRA | 10 | 151 | 24.8561643835616 | (145.16/5.84)=x | 145.16 5.84 / x = | 145.16:UK 5.84:dollar /:UK x:UK =:UK
+EXPR: 0 | POS | FRA | 12 | 151 | 24.8561643835616 | 5.84=(145.16/x) | 5.84 145.16 x / = | 5.84:dollar 145.16:dollar x:UK /:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 151 | 24.8561643835616 | (x*5.84)=145.16 | x 5.84 * 145.16 = | x:UK 5.84:dollar *:dollar 145.16:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 151 | 847.7344 | 145.16=(x/5.84) | 145.16 x 5.84 / = | 145.16:UK x:UK 5.84:dollar /:UK =:UK
+EXPR: 0 | POS | FRA | 12 | 151 | 0.0402314687241664 | 5.84=(145.16*x) | 5.84 145.16 x * = | 5.84:dollar 145.16:dollar x:UK *:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 151 | 151 | 145.16=(x-5.84) | 145.16 x 5.84 - = | 145.16:dollar x:dollar 5.84:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 151 | 0.0402314687241664 | 5.84=(x*145.16) | 5.84 x 145.16 * = | 5.84:dollar x:UK 145.16:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 151 | 139.32 | (145.16-x)=5.84 | 145.16 x - 5.84 = | 145.16:dollar x:dollar -:dollar 5.84:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 151 | 24.8561643835616 | (5.84*x)=145.16 | 5.84 x * 145.16 = | 5.84:dollar x:UK *:dollar 145.16:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 151 | 0.0402314687241664 | (5.84/x)=145.16 | 5.84 x / 145.16 = | 5.84:dollar x:UK /:dollar 145.16:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 151 | 139.32 | 145.16=(x+5.84) | 145.16 x 5.84 + = | 145.16:dollar x:dollar 5.84:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 151 | 139.32 | 145.16=(5.84+x) | 145.16 5.84 x + = | 145.16:dollar 5.84:dollar x:dollar +:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 151 | 151 | (x-145.16)=5.84 | x 145.16 - 5.84 = | x:dollar 145.16:dollar -:dollar 5.84:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 151 | 847.7344 | (x/145.16)=5.84 | x 145.16 / 5.84 = | x:UK 145.16:dollar /:UK 5.84:UK =:UK
+EXPR: 0 | POS | FRA | 20 | 151 | 0.0402314687241664 | (5.84/145.16)=x | 5.84 145.16 / x = | 5.84:UK 145.16:dollar /:UK x:UK =:UK
+EXPR: 0 | POS | FRA | 20 | 151 | 0.0402314687241664 | x=(5.84/145.16) | x 5.84 145.16 / = | x:UK 5.84:UK 145.16:dollar /:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 151 | 847.7344 | (x/5.84)=145.16 | x 5.84 / 145.16 = | x:UK 5.84:dollar /:UK 145.16:UK =:UK
+EXPR: 1 | POS | INT | 22 | 151 | 151 | (x-5.84)=145.16 | x 5.84 - 145.16 = | x:dollar 5.84:dollar -:dollar 145.16:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 151 | 139.32 | (5.84+x)=145.16 | 5.84 x + 145.16 = | 5.84:dollar x:dollar +:dollar 145.16:dollar =:dollar
+EXPR: 1 | POS | INT | 22 | 151 | 151 | 5.84=(x-145.16) | 5.84 x 145.16 - = | 5.84:dollar x:dollar 145.16:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 151 | 139.32 | (x+5.84)=145.16 | x 5.84 + 145.16 = | x:dollar 5.84:dollar +:dollar 145.16:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 151 | 847.7344 | 5.84=(x/145.16) | 5.84 x 145.16 / = | 5.84:UK x:UK 145.16:dollar /:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 151 | 139.32 | 5.84=(145.16-x) | 5.84 145.16 x - = | 5.84:dollar 145.16:dollar x:dollar -:dollar =:dollar
+NET 36 unique, non-negative solutions found out of 136 total solutions

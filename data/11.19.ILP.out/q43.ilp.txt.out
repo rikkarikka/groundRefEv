@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 81 | 1640 | x=(40.0*41.0) | x 40.0 41.0 * = | x:balloon 40.0:balloon 41.0:UK *:balloon =:balloon
+EXPR: 0 | POS | INT | 0 | 81 | 1640 | (40.0*41.0)=x | 40.0 41.0 * x = | 40.0:balloon 41.0:UK *:balloon x:balloon =:balloon
+EXPR: 0 | POS | INT | 2 | 81 | 1640 | 40.0=(x/41.0) | 40.0 x 41.0 / = | 40.0:balloon x:balloon 41.0:UK /:balloon =:balloon
+EXPR: 1 | POS | INT | 10 | 81 | 81 | x=(40.0+41.0) | x 40.0 41.0 + = | x:balloon 40.0:balloon 41.0:balloon +:balloon =:balloon
+EXPR: 1 | POS | INT | 10 | 81 | 81 | (40.0+41.0)=x | 40.0 41.0 + x = | 40.0:balloon 41.0:balloon +:balloon x:balloon =:balloon
+EXPR: 1 | POS | INT | 12 | 81 | 81 | 40.0=(x-41.0) | 40.0 x 41.0 - = | 40.0:balloon x:balloon 41.0:balloon -:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 81 | 1 | (x+40.0)=41.0 | x 40.0 + 41.0 = | x:balloon 40.0:balloon +:balloon 41.0:balloon =:balloon
+EXPR: 1 | POS | INT | 12 | 81 | 81 | (x-40.0)=41.0 | x 40.0 - 41.0 = | x:balloon 40.0:balloon -:balloon 41.0:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 81 | 1 | 40.0=(41.0-x) | 40.0 41.0 x - = | 40.0:balloon 41.0:balloon x:balloon -:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 81 | 1 | (40.0+x)=41.0 | 40.0 x + 41.0 = | 40.0:balloon x:balloon +:balloon 41.0:balloon =:balloon
+EXPR: 0 | POS | INT | 12 | 81 | 1640 | (x/40.0)=41.0 | x 40.0 / 41.0 = | x:UK 40.0:balloon /:UK 41.0:UK =:UK
+EXPR: 0 | POS | INT | 12 | 81 | 1640 | (x/41.0)=40.0 | x 41.0 / 40.0 = | x:balloon 41.0:UK /:balloon 40.0:balloon =:balloon
+EXPR: 0 | POS | INT | 20 | 81 | 1 | (41.0-40.0)=x | 41.0 40.0 - x = | 41.0:balloon 40.0:balloon -:balloon x:balloon =:balloon
+EXPR: 0 | POS | INT | 20 | 81 | 1 | x=(41.0-40.0) | x 41.0 40.0 - = | x:balloon 41.0:balloon 40.0:balloon -:balloon =:balloon
+EXPR: 0 | POS | INT | 22 | 81 | 1 | 41.0=(x+40.0) | 41.0 x 40.0 + = | 41.0:balloon x:balloon 40.0:balloon +:balloon =:balloon
+EXPR: 0 | POS | INT | 22 | 81 | 1 | (41.0-x)=40.0 | 41.0 x - 40.0 = | 41.0:balloon x:balloon -:balloon 40.0:balloon =:balloon
+EXPR: 1 | POS | INT | 22 | 81 | 81 | 41.0=(x-40.0) | 41.0 x 40.0 - = | 41.0:balloon x:balloon 40.0:balloon -:balloon =:balloon
+EXPR: 0 | POS | INT | 22 | 81 | 1640 | 41.0=(x/40.0) | 41.0 x 40.0 / = | 41.0:UK x:UK 40.0:balloon /:UK =:UK
+EXPR: 0 | POS | INT | 22 | 81 | 1 | 41.0=(40.0+x) | 41.0 40.0 x + = | 41.0:balloon 40.0:balloon x:balloon +:balloon =:balloon
+EXPR: 1 | POS | INT | 22 | 81 | 81 | (x-41.0)=40.0 | x 41.0 - 40.0 = | x:balloon 41.0:balloon -:balloon 40.0:balloon =:balloon
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

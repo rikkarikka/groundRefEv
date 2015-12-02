@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 68 | 68 | x=(4.0*17.0) | x 4.0 17.0 * = | x:chapter 4.0:UK 17.0:chapter *:chapter =:chapter
+EXPR: 1 | POS | INT | 0 | 68 | 68 | (4.0*17.0)=x | 4.0 17.0 * x = | 4.0:UK 17.0:chapter *:chapter x:chapter =:chapter
+EXPR: 1 | POS | INT | 2 | 68 | 68 | (x/4.0)=17.0 | x 4.0 / 17.0 = | x:chapter 4.0:UK /:chapter 17.0:chapter =:chapter
+EXPR: 0 | POS | INT | 10 | 68 | 21 | x=(4.0+17.0) | x 4.0 17.0 + = | x:chapter 4.0:chapter 17.0:chapter +:chapter =:chapter
+EXPR: 0 | POS | INT | 10 | 68 | 21 | (4.0+17.0)=x | 4.0 17.0 + x = | 4.0:chapter 17.0:chapter +:chapter x:chapter =:chapter
+EXPR: 0 | POS | INT | 12 | 68 | 13 | 4.0=(17.0-x) | 4.0 17.0 x - = | 4.0:chapter 17.0:chapter x:chapter -:chapter =:chapter
+EXPR: 1 | POS | INT | 12 | 68 | 68 | 17.0=(x/4.0) | 17.0 x 4.0 / = | 17.0:chapter x:chapter 4.0:UK /:chapter =:chapter
+EXPR: 0 | POS | INT | 12 | 68 | 13 | (x+4.0)=17.0 | x 4.0 + 17.0 = | x:chapter 4.0:chapter +:chapter 17.0:chapter =:chapter
+EXPR: 0 | POS | INT | 12 | 68 | 21 | (x-4.0)=17.0 | x 4.0 - 17.0 = | x:chapter 4.0:chapter -:chapter 17.0:chapter =:chapter
+EXPR: 0 | POS | INT | 12 | 68 | 13 | (4.0+x)=17.0 | 4.0 x + 17.0 = | 4.0:chapter x:chapter +:chapter 17.0:chapter =:chapter
+EXPR: 0 | POS | INT | 12 | 68 | 21 | 4.0=(x-17.0) | 4.0 x 17.0 - = | 4.0:chapter x:chapter 17.0:chapter -:chapter =:chapter
+EXPR: 1 | POS | INT | 12 | 68 | 68 | 4.0=(x/17.0) | 4.0 x 17.0 / = | 4.0:UK x:UK 17.0:chapter /:UK =:UK
+EXPR: 0 | POS | INT | 20 | 68 | 13 | x=(17.0-4.0) | x 17.0 4.0 - = | x:chapter 17.0:chapter 4.0:chapter -:chapter =:chapter
+EXPR: 0 | POS | INT | 20 | 68 | 13 | (17.0-4.0)=x | 17.0 4.0 - x = | 17.0:chapter 4.0:chapter -:chapter x:chapter =:chapter
+EXPR: 0 | POS | INT | 22 | 68 | 13 | (17.0-x)=4.0 | 17.0 x - 4.0 = | 17.0:chapter x:chapter -:chapter 4.0:chapter =:chapter
+EXPR: 1 | POS | INT | 22 | 68 | 68 | (x/17.0)=4.0 | x 17.0 / 4.0 = | x:UK 17.0:chapter /:UK 4.0:UK =:UK
+EXPR: 0 | POS | INT | 22 | 68 | 13 | 17.0=(4.0+x) | 17.0 4.0 x + = | 17.0:chapter 4.0:chapter x:chapter +:chapter =:chapter
+EXPR: 0 | POS | INT | 22 | 68 | 21 | (x-17.0)=4.0 | x 17.0 - 4.0 = | x:chapter 17.0:chapter -:chapter 4.0:chapter =:chapter
+EXPR: 0 | POS | INT | 22 | 68 | 13 | 17.0=(x+4.0) | 17.0 x 4.0 + = | 17.0:chapter x:chapter 4.0:chapter +:chapter =:chapter
+EXPR: 0 | POS | INT | 22 | 68 | 21 | 17.0=(x-4.0) | 17.0 x 4.0 - = | 17.0:chapter x:chapter 4.0:chapter -:chapter =:chapter
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

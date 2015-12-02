@@ -1,0 +1,7 @@
+constants : 17.0 7.0 80.0 
+unknowns : x
+operators : + - * / =
+objtypes : dollar hour 
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 9.0

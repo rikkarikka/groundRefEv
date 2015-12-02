@@ -1,0 +1,5 @@
+parameters: n=11 l=5 k=1 p=5 q=3 m=11
+TOTAL 2 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 20 | 0.25 | 0.984375 | x=(((2.0+1.0)-(0.125*0.125))-2.0) | x 2.0 1.0 + 0.125 0.125 * - 2.0 - = | x:dog 2.0:dog 1.0:dog +:dog 0.125:scoop 0.125:dog *:dog -:dog 2.0:dog -:dog =:dog
+NET 1 unique, non-negative solutions found out of 2 total solutions

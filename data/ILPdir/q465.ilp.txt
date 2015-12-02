@@ -1,0 +1,7 @@
+constants : 3409.0 145.0 
+unknowns : x
+operators : + - * / =
+objtypes : piece UK 
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 3264.0

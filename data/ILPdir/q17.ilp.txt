@@ -1,0 +1,7 @@
+constants : 4.0 9.0 
+unknowns : x
+operators : + - * / =
+objtypes : game 
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 13.0

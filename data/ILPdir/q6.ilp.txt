@@ -1,0 +1,7 @@
+constants : 34.0 86.0 
+unknowns : x
+operators : + - * / =
+objtypes : peach UK 
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 52.0

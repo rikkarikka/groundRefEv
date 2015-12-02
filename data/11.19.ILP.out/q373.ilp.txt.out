@@ -1,0 +1,11 @@
+parameters: n=9 l=4 k=1 p=5 q=4 m=10
+TOTAL 10 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 10 | 9.12 | 17.76 | (((2.0*6.0)-3.12)*2.0)=x | 2.0 6.0 * 3.12 - 2.0 * x = | 2.0:color 6.0:pound *:pound 3.12:pound -:pound 2.0:ball *:ball x:ball =:ball
+EXPR: 0 | POS | FRA | 12 | 9.12 | 0.225225225225225 | (((2.0*6.0)-3.12)*x)=2.0 | 2.0 6.0 * 3.12 - x * 2.0 = | 2.0:color 6.0:pound *:pound 3.12:pound -:pound x:UK *:UK 2.0:UK =:UK
+EXPR: 0 | POS | FRA | 30 | 9.12 | 43.68 | (((2.0*6.0)+2.0)*3.12)=x | 2.0 6.0 * 2.0 + 3.12 * x = | 2.0:color 6.0:pound *:pound 2.0:pound +:pound 3.12:UK *:UK x:UK =:UK
+EXPR: 0 | POS | FRA | 42 | 9.12 | 1.45333333333333 | (((x+2.0)-3.12)*6.0)=2.0 | x 2.0 + 3.12 - 6.0 * 2.0 = | x:color 2.0:color +:color 3.12:color -:color 6.0:pound *:color 2.0:color =:color
+EXPR: 0 | POS | FRA | 57 | 9.12 | 0.686666666666667 | (((x*6.0)-3.12)*2.0)=2.0 | x 6.0 * 3.12 - 2.0 * 2.0 = | x:pound 6.0:ball *:pound 3.12:pound -:pound 2.0:color *:pound 2.0:pound =:pound
+EXPR: 0 | POS | FRA | 87 | 9.12 | 0.52 | (((3.12/6.0)+2.0)-x)=2.0 | 3.12 6.0 / 2.0 + x - 2.0 = | 3.12:UK 6.0:pound /:UK 2.0:UK +:UK x:UK -:UK 2.0:UK =:UK
+EXPR: 1 | POS | FRA | 92 | 9.12 | 9.12 | (3.12+(2.0-x))=(2.0-6.0) | 3.12 2.0 x - + 2.0 6.0 - = | 3.12:UK 2.0:UK x:UK -:UK +:UK 2.0:UK 6.0:UK -:UK =:UK
+NET 7 unique, non-negative solutions found out of 10 total solutions

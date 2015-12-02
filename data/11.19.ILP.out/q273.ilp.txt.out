@@ -1,0 +1,25 @@
+parameters: n=9 l=4 k=1 p=5 q=3 m=10
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 90 | 1680 | x=((14.0*24.0)*(2.0+3.0)) | x 14.0 24.0 * 2.0 3.0 + * = | x:wheel 14.0:UK 24.0:bicycle *:bicycle 2.0:wheel 3.0:wheel +:wheel *:wheel =:wheel
+EXPR: 0 | POS | INT | 10 | 90 | 337 | x=(((14.0*24.0)-2.0)+3.0) | x 14.0 24.0 * 2.0 - 3.0 + = | x:wheel 14.0:UK 24.0:wheel *:wheel 2.0:wheel -:wheel 3.0:wheel +:wheel =:wheel
+EXPR: 0 | POS | INT | 10 | 90 | 331 | x=((14.0*24.0)-(2.0+3.0)) | x 14.0 24.0 * 2.0 3.0 + - = | x:wheel 14.0:UK 24.0:wheel *:wheel 2.0:wheel 3.0:wheel +:wheel -:wheel =:wheel
+EXPR: 0 | POS | INT | 10 | 90 | 337 | x=((14.0*24.0)-(2.0-3.0)) | x 14.0 24.0 * 2.0 3.0 - - = | x:wheel 14.0:UK 24.0:wheel *:wheel 2.0:wheel 3.0:wheel -:wheel -:wheel =:wheel
+EXPR: 0 | POS | INT | 10 | 90 | 322 | x=(14.0*(24.0+(2.0-3.0))) | x 14.0 24.0 2.0 3.0 - + * = | x:wheel 14.0:UK 24.0:wheel 2.0:wheel 3.0:wheel -:wheel +:wheel *:wheel =:wheel
+EXPR: 0 | POS | INT | 20 | 90 | 406 | x=(14.0*(2.0+(24.0+3.0))) | x 14.0 2.0 24.0 3.0 + + * = | x:wheel 14.0:UK 2.0:wheel 24.0:wheel 3.0:wheel +:wheel +:wheel *:wheel =:wheel
+EXPR: 0 | POS | INT | 20 | 90 | 335 | x=((14.0*24.0)-(3.0-2.0)) | x 14.0 24.0 * 3.0 2.0 - - = | x:wheel 14.0:UK 24.0:wheel *:wheel 3.0:wheel 2.0:wheel -:wheel -:wheel =:wheel
+EXPR: 0 | POS | INT | 20 | 90 | 108 | x=(((14.0+24.0)-2.0)*3.0) | x 14.0 24.0 + 2.0 - 3.0 * = | x:wheel 14.0:bicycle 24.0:bicycle +:bicycle 2.0:bicycle -:bicycle 3.0:wheel *:wheel =:wheel
+EXPR: 0 | POS | INT | 30 | 90 | 456 | x=(24.0*(14.0+(2.0+3.0))) | x 24.0 14.0 2.0 3.0 + + * = | x:wheel 24.0:UK 14.0:wheel 2.0:wheel 3.0:wheel +:wheel +:wheel *:wheel =:wheel
+EXPR: 0 | POS | INT | 30 | 90 | 216 | x=(24.0*(14.0-(2.0+3.0))) | x 24.0 14.0 2.0 3.0 + - * = | x:wheel 24.0:UK 14.0:wheel 2.0:wheel 3.0:wheel +:wheel -:wheel *:wheel =:wheel
+EXPR: 0 | POS | INT | 30 | 90 | 756 | x=((14.0*2.0)*(24.0+3.0)) | x 14.0 2.0 * 24.0 3.0 + * = | x:bicycle 14.0:UK 2.0:wheel *:wheel 24.0:bicycle 3.0:bicycle +:bicycle *:bicycle =:bicycle
+EXPR: 0 | POS | INT | 30 | 90 | 70 | x=(((14.0+24.0)-3.0)*2.0) | x 14.0 24.0 + 3.0 - 2.0 * = | x:wheel 14.0:bicycle 24.0:bicycle +:bicycle 3.0:bicycle -:bicycle 2.0:wheel *:wheel =:wheel
+EXPR: 0 | POS | INT | 30 | 90 | 172 | x=((14.0+(24.0*3.0))*2.0) | x 14.0 24.0 3.0 * + 2.0 * = | x:wheel 14.0:UK 24.0:wheel 3.0:UK *:UK +:UK 2.0:wheel *:wheel =:wheel
+EXPR: 0 | POS | INT | 45 | 90 | 456 | x=(24.0*(2.0+(14.0+3.0))) | x 24.0 2.0 14.0 3.0 + + * = | x:wheel 24.0:UK 2.0:wheel 14.0:wheel 3.0:wheel +:wheel +:wheel *:wheel =:wheel
+EXPR: 0 | POS | INT | 45 | 90 | 24 | x=(((24.0-2.0)-14.0)*3.0) | x 24.0 2.0 - 14.0 - 3.0 * = | x:wheel 24.0:bicycle 2.0:bicycle -:bicycle 14.0:bicycle -:bicycle 3.0:wheel *:wheel =:wheel
+EXPR: 0 | POS | INT | 55 | 90 | 37 | x=((24.0*2.0)+(3.0-14.0)) | x 24.0 2.0 * 3.0 14.0 - + = | x:wheel 24.0:bicycle 2.0:wheel *:wheel 3.0:wheel 14.0:wheel -:wheel +:wheel =:wheel
+EXPR: 0 | POS | INT | 57 | 90 | 73 | 3.0=(((14.0+24.0)*2.0)-x) | 3.0 14.0 24.0 + 2.0 * x - = | 3.0:wheel 14.0:bicycle 24.0:bicycle +:bicycle 2.0:wheel *:wheel x:wheel -:wheel =:wheel
+EXPR: 0 | POS | INT | 60 | 90 | 39 | x=(((24.0+3.0)+14.0)-2.0) | x 24.0 3.0 + 14.0 + 2.0 - = | x:wheel 24.0:wheel 3.0:wheel +:wheel 14.0:wheel +:wheel 2.0:wheel -:wheel =:wheel
+EXPR: 0 | POS | INT | 67 | 90 | 43 | ((x-24.0)-(2.0+3.0))=14.0 | x 24.0 - 2.0 3.0 + - 14.0 = | x:wheel 24.0:wheel -:wheel 2.0:wheel 3.0:wheel +:wheel -:wheel 14.0:wheel =:wheel
+EXPR: 0 | POS | INT | 77 | 90 | 16 | 3.0=(((x+14.0)-24.0)/2.0) | 3.0 x 14.0 + 24.0 - 2.0 / = | 3.0:wheel x:wheel 14.0:wheel +:wheel 24.0:wheel -:wheel 2.0:UK /:wheel =:wheel
+EXPR: 0 | POS | INT | 87 | 90 | 381 | 3.0=(((14.0+2.0)*24.0)-x) | 3.0 14.0 2.0 + 24.0 * x - = | 3.0:wheel 14.0:bicycle 2.0:bicycle +:bicycle 24.0:wheel *:wheel x:wheel -:wheel =:wheel
+NET 21 unique, non-negative, integer-valued solutions found out of 100 total solutions

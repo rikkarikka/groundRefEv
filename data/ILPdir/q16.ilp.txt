@@ -1,0 +1,7 @@
+constants : 69.0 3.0 
+unknowns : x
+operators : + - * / =
+objtypes : UK number UK
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 21.0

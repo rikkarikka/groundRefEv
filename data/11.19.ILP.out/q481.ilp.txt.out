@@ -1,0 +1,6 @@
+parameters: n=11 l=5 k=1 p=5 q=3 m=11
+TOTAL 6 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 7 | 163 | (((74.0+35.0)+(18.0*3.0))/1.0)=x | 74.0 35.0 + 18.0 3.0 * + 1.0 / x = | 74.0:cent 35.0:cent +:cent 18.0:cent 3.0:pencil *:cent +:cent 1.0:pencil /:cent x:cent =:cent
+EXPR: 0 | POS | INT | 22 | 7 | 54 | (74.0+(35.0-((18.0*3.0)+x)))=1.0 | 74.0 35.0 18.0 3.0 * x + - + 1.0 = | 74.0:cent 35.0:cent 18.0:cent 3.0:pencil *:cent x:cent +:cent -:cent +:cent 1.0:cent =:cent
+NET 2 unique, non-negative, integer-valued solutions found out of 6 total solutions

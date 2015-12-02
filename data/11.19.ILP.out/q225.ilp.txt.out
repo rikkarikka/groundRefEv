@@ -1,0 +1,7 @@
+parameters: n=9 l=4 k=1 p=5 q=3 m=10
+TOTAL 7 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 20 | 18.42 | 11.1707636871508 | x=((2.73*4.01)+(2.0/8.95)) | x 2.73 4.01 * 2.0 8.95 / + = | x:UK 2.73:dollar 4.01:UK *:UK 2.0:UK 8.95:dollar /:UK +:UK =:UK
+EXPR: 0 | POS | FRA | 21 | 18.42 | 70.7616 | ((2.73*2.0)*(4.01+8.95))=x | 2.73 2.0 * 4.01 8.95 + * x = | 2.73:dollar 2.0:UK *:UK 4.01:dollar 8.95:dollar +:dollar *:UK x:UK =:UK
+EXPR: 0 | POS | FRA | 30 | 18.42 | 78.223 | (((2.73+4.01)+2.0)*8.95)=x | 2.73 4.01 + 2.0 + 8.95 * x = | 2.73:UK 4.01:UK +:UK 2.0:UK +:UK 8.95:dollar *:UK x:UK =:UK
+NET 3 unique, non-negative solutions found out of 7 total solutions

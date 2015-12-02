@@ -1,0 +1,7 @@
+constants : 14507.0 213.0 
+unknowns : x
+operators : + - * / =
+objtypes : passenger 
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 14720.0

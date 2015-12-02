@@ -1,0 +1,7 @@
+constants : 84.0 12.0 
+unknowns : x
+operators : + - * / =
+objtypes : cent ounce UK
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 7.0

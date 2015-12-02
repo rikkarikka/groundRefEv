@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 12 | 3 | x=(9.0/3.0) | x 9.0 3.0 / = | x:marble 9.0:marble 3.0:UK /:marble =:marble
+EXPR: 0 | POS | INT | 0 | 12 | 3 | (9.0/3.0)=x | 9.0 3.0 / x = | 9.0:marble 3.0:UK /:marble x:marble =:marble
+EXPR: 0 | POS | INT | 0 | 12 | 27 | x=(9.0*3.0) | x 9.0 3.0 * = | x:marble 9.0:marble 3.0:UK *:marble =:marble
+EXPR: 0 | POS | INT | 0 | 12 | 27 | (9.0*3.0)=x | 9.0 3.0 * x = | 9.0:marble 3.0:UK *:marble x:marble =:marble
+EXPR: 0 | POS | INT | 2 | 12 | 3 | 9.0=(3.0*x) | 9.0 3.0 x * = | 9.0:marble 3.0:UK x:marble *:marble =:marble
+EXPR: 0 | POS | INT | 2 | 12 | 27 | 9.0=(x/3.0) | 9.0 x 3.0 / = | 9.0:marble x:marble 3.0:UK /:marble =:marble
+EXPR: 0 | POS | INT | 2 | 12 | 3 | 9.0=(x*3.0) | 9.0 x 3.0 * = | 9.0:marble x:marble 3.0:UK *:marble =:marble
+EXPR: 0 | POS | INT | 10 | 12 | 6 | (9.0-3.0)=x | 9.0 3.0 - x = | 9.0:marble 3.0:marble -:marble x:marble =:marble
+EXPR: 1 | POS | INT | 10 | 12 | 12 | x=(9.0+3.0) | x 9.0 3.0 + = | x:marble 9.0:marble 3.0:marble +:marble =:marble
+EXPR: 0 | POS | INT | 10 | 12 | 6 | x=(9.0-3.0) | x 9.0 3.0 - = | x:marble 9.0:marble 3.0:marble -:marble =:marble
+EXPR: 1 | POS | INT | 10 | 12 | 12 | (9.0+3.0)=x | 9.0 3.0 + x = | 9.0:marble 3.0:marble +:marble x:marble =:marble
+EXPR: 0 | POS | INT | 12 | 12 | 6 | 9.0=(x+3.0) | 9.0 x 3.0 + = | 9.0:marble x:marble 3.0:marble +:marble =:marble
+EXPR: 0 | POS | INT | 12 | 12 | 3 | (9.0/x)=3.0 | 9.0 x / 3.0 = | 9.0:UK x:marble /:UK 3.0:UK =:UK
+EXPR: 0 | POS | INT | 12 | 12 | 3 | (3.0*x)=9.0 | 3.0 x * 9.0 = | 3.0:UK x:marble *:marble 9.0:marble =:marble
+EXPR: 1 | POS | INT | 12 | 12 | 12 | 9.0=(x-3.0) | 9.0 x 3.0 - = | 9.0:marble x:marble 3.0:marble -:marble =:marble
+EXPR: 0 | POS | INT | 12 | 12 | 6 | 9.0=(3.0+x) | 9.0 3.0 x + = | 9.0:marble 3.0:marble x:marble +:marble =:marble
+EXPR: 1 | POS | INT | 12 | 12 | 12 | (x-9.0)=3.0 | x 9.0 - 3.0 = | x:marble 9.0:marble -:marble 3.0:marble =:marble
+EXPR: 0 | POS | INT | 12 | 12 | 6 | (9.0-x)=3.0 | 9.0 x - 3.0 = | 9.0:marble x:marble -:marble 3.0:marble =:marble
+EXPR: 0 | POS | INT | 12 | 12 | 27 | (x/9.0)=3.0 | x 9.0 / 3.0 = | x:UK 9.0:marble /:UK 3.0:UK =:UK
+EXPR: 0 | POS | INT | 12 | 12 | 27 | (x/3.0)=9.0 | x 3.0 / 9.0 = | x:marble 3.0:UK /:marble 9.0:marble =:marble
+EXPR: 0 | POS | INT | 12 | 12 | 3 | (x*3.0)=9.0 | x 3.0 * 9.0 = | x:marble 3.0:UK *:marble 9.0:marble =:marble
+EXPR: 0 | POS | INT | 22 | 12 | 6 | (x+3.0)=9.0 | x 3.0 + 9.0 = | x:marble 3.0:marble +:marble 9.0:marble =:marble
+EXPR: 0 | POS | INT | 22 | 12 | 3 | 3.0=(9.0/x) | 3.0 9.0 x / = | 3.0:UK 9.0:UK x:marble /:UK =:UK
+EXPR: 0 | POS | INT | 22 | 12 | 6 | (3.0+x)=9.0 | 3.0 x + 9.0 = | 3.0:marble x:marble +:marble 9.0:marble =:marble
+EXPR: 1 | POS | INT | 22 | 12 | 12 | 3.0=(x-9.0) | 3.0 x 9.0 - = | 3.0:marble x:marble 9.0:marble -:marble =:marble
+EXPR: 0 | POS | INT | 22 | 12 | 27 | 3.0=(x/9.0) | 3.0 x 9.0 / = | 3.0:UK x:UK 9.0:marble /:UK =:UK
+EXPR: 0 | POS | INT | 22 | 12 | 6 | 3.0=(9.0-x) | 3.0 9.0 x - = | 3.0:marble 9.0:marble x:marble -:marble =:marble
+EXPR: 1 | POS | INT | 22 | 12 | 12 | (x-3.0)=9.0 | x 3.0 - 9.0 = | x:marble 3.0:marble -:marble 9.0:marble =:marble
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

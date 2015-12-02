@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 6 | 6 | x=(54.0/9.0) | x 54.0 9.0 / = | x:seed 54.0:seed 9.0:can /:seed =:seed
+EXPR: 1 | POS | INT | 0 | 6 | 6 | (54.0/9.0)=x | 54.0 9.0 / x = | 54.0:seed 9.0:can /:seed x:seed =:seed
+EXPR: 0 | POS | INT | 0 | 6 | 486 | x=(54.0*9.0) | x 54.0 9.0 * = | x:seed 54.0:seed 9.0:can *:seed =:seed
+EXPR: 0 | POS | INT | 0 | 6 | 486 | (54.0*9.0)=x | 54.0 9.0 * x = | 54.0:seed 9.0:can *:seed x:seed =:seed
+EXPR: 1 | POS | INT | 2 | 6 | 6 | 54.0=(9.0*x) | 54.0 9.0 x * = | 54.0:seed 9.0:can x:seed *:seed =:seed
+EXPR: 0 | POS | INT | 2 | 6 | 486 | 54.0=(x/9.0) | 54.0 x 9.0 / = | 54.0:seed x:seed 9.0:can /:seed =:seed
+EXPR: 1 | POS | INT | 2 | 6 | 6 | 54.0=(x*9.0) | 54.0 x 9.0 * = | 54.0:seed x:seed 9.0:can *:seed =:seed
+EXPR: 0 | POS | INT | 10 | 6 | 45 | (54.0-9.0)=x | 54.0 9.0 - x = | 54.0:seed 9.0:seed -:seed x:seed =:seed
+EXPR: 0 | POS | INT | 10 | 6 | 63 | x=(54.0+9.0) | x 54.0 9.0 + = | x:seed 54.0:seed 9.0:seed +:seed =:seed
+EXPR: 0 | POS | INT | 10 | 6 | 45 | x=(54.0-9.0) | x 54.0 9.0 - = | x:seed 54.0:seed 9.0:seed -:seed =:seed
+EXPR: 0 | POS | INT | 10 | 6 | 63 | (54.0+9.0)=x | 54.0 9.0 + x = | 54.0:seed 9.0:seed +:seed x:seed =:seed
+EXPR: 0 | POS | INT | 12 | 6 | 45 | 54.0=(x+9.0) | 54.0 x 9.0 + = | 54.0:seed x:seed 9.0:seed +:seed =:seed
+EXPR: 1 | POS | INT | 12 | 6 | 6 | (54.0/x)=9.0 | 54.0 x / 9.0 = | 54.0:can x:seed /:can 9.0:can =:can
+EXPR: 1 | POS | INT | 12 | 6 | 6 | (9.0*x)=54.0 | 9.0 x * 54.0 = | 9.0:can x:seed *:seed 54.0:seed =:seed
+EXPR: 0 | POS | INT | 12 | 6 | 63 | 54.0=(x-9.0) | 54.0 x 9.0 - = | 54.0:seed x:seed 9.0:seed -:seed =:seed
+EXPR: 0 | POS | INT | 12 | 6 | 45 | 54.0=(9.0+x) | 54.0 9.0 x + = | 54.0:seed 9.0:seed x:seed +:seed =:seed
+EXPR: 0 | POS | INT | 12 | 6 | 63 | (x-54.0)=9.0 | x 54.0 - 9.0 = | x:seed 54.0:seed -:seed 9.0:seed =:seed
+EXPR: 0 | POS | INT | 12 | 6 | 45 | (54.0-x)=9.0 | 54.0 x - 9.0 = | 54.0:seed x:seed -:seed 9.0:seed =:seed
+EXPR: 0 | POS | INT | 12 | 6 | 486 | (x/54.0)=9.0 | x 54.0 / 9.0 = | x:can 54.0:seed /:can 9.0:can =:can
+EXPR: 0 | POS | INT | 12 | 6 | 486 | (x/9.0)=54.0 | x 9.0 / 54.0 = | x:seed 9.0:can /:seed 54.0:seed =:seed
+EXPR: 1 | POS | INT | 12 | 6 | 6 | (x*9.0)=54.0 | x 9.0 * 54.0 = | x:seed 9.0:can *:seed 54.0:seed =:seed
+EXPR: 0 | POS | INT | 22 | 6 | 45 | (x+9.0)=54.0 | x 9.0 + 54.0 = | x:seed 9.0:seed +:seed 54.0:seed =:seed
+EXPR: 1 | POS | INT | 22 | 6 | 6 | 9.0=(54.0/x) | 9.0 54.0 x / = | 9.0:can 54.0:can x:seed /:can =:can
+EXPR: 0 | POS | INT | 22 | 6 | 45 | (9.0+x)=54.0 | 9.0 x + 54.0 = | 9.0:seed x:seed +:seed 54.0:seed =:seed
+EXPR: 0 | POS | INT | 22 | 6 | 63 | 9.0=(x-54.0) | 9.0 x 54.0 - = | 9.0:seed x:seed 54.0:seed -:seed =:seed
+EXPR: 0 | POS | INT | 22 | 6 | 486 | 9.0=(x/54.0) | 9.0 x 54.0 / = | 9.0:can x:can 54.0:seed /:can =:can
+EXPR: 0 | POS | INT | 22 | 6 | 45 | 9.0=(54.0-x) | 9.0 54.0 x - = | 9.0:seed 54.0:seed x:seed -:seed =:seed
+EXPR: 0 | POS | INT | 22 | 6 | 63 | (x-9.0)=54.0 | x 9.0 - 54.0 = | x:seed 9.0:seed -:seed 54.0:seed =:seed
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

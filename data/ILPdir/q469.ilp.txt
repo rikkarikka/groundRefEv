@@ -1,0 +1,7 @@
+constants : 300.0 
+unknowns : x
+operators : + - * / =
+objtypes : minute hour 
+constantOrUnknownType : 0 1
+n : 3
+answer : 5.0

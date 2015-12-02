@@ -1,0 +1,46 @@
+parameters: n=9 l=4 k=1 p=5 q=2 m=10
+TOTAL 298 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 67 | 1914 | ((30.0-(46.0-49.0))*58.0)=x | 30.0 46.0 49.0 - - 58.0 * x = | 30.0:dollar 46.0:dollar 49.0:dollar -:dollar -:dollar 58.0:money *:money x:money =:money
+EXPR: 0 | POS | INT | 22 | 67 | 882 | ((30.0+46.0)-(x/49.0))=58.0 | 30.0 46.0 + x 49.0 / - 58.0 = | 30.0:dollar 46.0:dollar +:dollar x:dollar 49.0:money /:dollar -:dollar 58.0:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 67 | 5480 | 30.0=(((46.0+49.0)*58.0)-x) | 30.0 46.0 49.0 + 58.0 * x - = | 30.0:money 46.0:dollar 49.0:dollar +:dollar 58.0:money *:money x:money -:money =:money
+EXPR: 0 | POS | INT | 22 | 67 | 4892 | 30.0=((46.0*(49.0+58.0))-x) | 30.0 46.0 49.0 58.0 + * x - = | 30.0:dollar 46.0:money 49.0:dollar 58.0:dollar +:dollar *:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 67 | 65880 | 30.0=(x/((46.0*49.0)-58.0)) | 30.0 x 46.0 49.0 * 58.0 - / = | 30.0:money x:money 46.0:money 49.0:dollar *:dollar 58.0:dollar -:dollar /:money =:money
+EXPR: 0 | POS | INT | 22 | 67 | 69360.0000000001 | 30.0=(x/((46.0*49.0)+58.0)) | 30.0 x 46.0 49.0 * 58.0 + / = | 30.0:money x:money 46.0:money 49.0:dollar *:dollar 58.0:dollar +:dollar /:money =:money
+EXPR: 0 | POS | INT | 22 | 67 | 3666 | (((30.0+46.0)*49.0)-x)=58.0 | 30.0 46.0 + 49.0 * x - 58.0 = | 30.0:dollar 46.0:dollar +:dollar 49.0:money *:dollar x:dollar -:dollar 58.0:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 67 | 183 | ((x-(30.0+49.0))-46.0)=58.0 | x 30.0 49.0 + - 46.0 - 58.0 = | x:dollar 30.0:dollar 49.0:dollar +:dollar -:dollar 46.0:dollar -:dollar 58.0:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 67 | 4892.00000000002 | (((x+30.0)/46.0)-49.0)=58.0 | x 30.0 + 46.0 / 49.0 - 58.0 = | x:dollar 30.0:dollar +:dollar 46.0:money /:dollar 49.0:dollar -:dollar 58.0:dollar =:dollar
+EXPR: 0 | POS | INT | 30 | 67 | 1110 | x=(30.0*((46.0+49.0)-58.0)) | x 30.0 46.0 49.0 + 58.0 - * = | x:money 30.0:dollar 46.0:money 49.0:money +:money 58.0:money -:money *:money =:money
+EXPR: 0 | POS | INT | 30 | 67 | 2226 | x=((30.0+(46.0*49.0))-58.0) | x 30.0 46.0 49.0 * + 58.0 - = | x:money 30.0:money 46.0:dollar 49.0:money *:money +:money 58.0:money -:money =:money
+EXPR: 0 | POS | INT | 32 | 67 | 2058 | ((46.0-30.0)+(x/49.0))=58.0 | 46.0 30.0 - x 49.0 / + 58.0 = | 46.0:dollar 30.0:dollar -:dollar x:dollar 49.0:money /:dollar +:dollar 58.0:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 67 | 2826 | 30.0=(x+(46.0-(49.0*58.0))) | 30.0 x 46.0 49.0 58.0 * - + = | 30.0:money x:money 46.0:money 49.0:money 58.0:dollar *:money -:money +:money =:money
+EXPR: 0 | POS | INT | 32 | 67 | 1566 | ((30.0+46.0)-(x/58.0))=49.0 | 30.0 46.0 + x 58.0 / - 49.0 = | 30.0:dollar 46.0:dollar +:dollar x:dollar 58.0:money /:dollar -:dollar 49.0:dollar =:dollar
+EXPR: 0 | POS | INT | 35 | 67 | 91 | (49.0+(30.0-(46.0-58.0)))=x | 49.0 30.0 46.0 58.0 - - + x = | 49.0:dollar 30.0:dollar 46.0:dollar 58.0:dollar -:dollar -:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 37 | 67 | 85 | 30.0=((49.0-(58.0-x))-46.0) | 30.0 49.0 58.0 x - - 46.0 - = | 30.0:dollar 49.0:dollar 58.0:dollar x:dollar -:dollar -:dollar 46.0:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 37 | 67 | 183 | ((x-(46.0+49.0))-30.0)=58.0 | x 46.0 49.0 + - 30.0 - 58.0 = | x:dollar 46.0:dollar 49.0:dollar +:dollar -:dollar 30.0:dollar -:dollar 58.0:dollar =:dollar
+EXPR: 0 | POS | INT | 42 | 67 | 2687 | (30.0+(x-49.0))=(46.0*58.0) | 30.0 x 49.0 - + 46.0 58.0 * = | 30.0:dollar x:dollar 49.0:dollar -:dollar +:dollar 46.0:money 58.0:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 42 | 67 | 1914 | ((46.0-30.0)+(x/58.0))=49.0 | 46.0 30.0 - x 58.0 / + 49.0 = | 46.0:dollar 30.0:dollar -:dollar x:dollar 58.0:money /:dollar +:dollar 49.0:dollar =:dollar
+EXPR: 0 | POS | INT | 42 | 67 | 2766 | (46.0+(x+30.0))=(49.0*58.0) | 46.0 x 30.0 + + 49.0 58.0 * = | 46.0:dollar x:dollar 30.0:dollar +:dollar +:dollar 49.0:money 58.0:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 45 | 67 | 1914 | x=((49.0+(30.0-46.0))*58.0) | x 49.0 30.0 46.0 - + 58.0 * = | x:dollar 49.0:dollar 30.0:dollar 46.0:dollar -:dollar +:dollar 58.0:money *:dollar =:dollar
+EXPR: 0 | POS | INT | 47 | 67 | 1737 | 46.0=((x+49.0)-(30.0*58.0)) | 46.0 x 49.0 + 30.0 58.0 * - = | 46.0:dollar x:dollar 49.0:dollar +:dollar 30.0:dollar 58.0:money *:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 47 | 67 | 3626 | 49.0=(x/((46.0-30.0)+58.0)) | 49.0 x 46.0 30.0 - 58.0 + / = | 49.0:money x:money 46.0:dollar 30.0:dollar -:dollar 58.0:dollar +:dollar /:money =:money
+EXPR: 0 | POS | INT | 47 | 67 | 558 | 30.0=((49.0*(58.0-46.0))-x) | 30.0 49.0 58.0 46.0 - * x - = | 30.0:dollar 49.0:money 58.0:dollar 46.0:dollar -:dollar *:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 47 | 67 | 2792 | (((46.0+49.0)*30.0)-x)=58.0 | 46.0 49.0 + 30.0 * x - 58.0 = | 46.0:dollar 49.0:dollar +:dollar 30.0:money *:dollar x:dollar -:dollar 58.0:dollar =:dollar
+EXPR: 0 | POS | INT | 52 | 67 | 1273 | ((30.0*46.0)-58.0)=(49.0+x) | 30.0 46.0 * 58.0 - 49.0 x + = | 30.0:dollar 46.0:money *:money 58.0:money -:money 49.0:money x:money +:money =:money
+EXPR: 0 | POS | INT | 52 | 67 | 31 | 30.0=((49.0-(x+46.0))+58.0) | 30.0 49.0 x 46.0 + - 58.0 + = | 30.0:money 49.0:money x:money 46.0:money +:money -:money 58.0:money +:money =:money
+EXPR: 0 | POS | INT | 52 | 67 | 68 | (49.0+(30.0/(58.0-x)))=46.0 | 49.0 30.0 58.0 x - / + 46.0 = | 49.0:dollar 30.0:dollar 58.0:money x:money -:money /:dollar +:dollar 46.0:dollar =:dollar
+EXPR: 0 | POS | INT | 57 | 67 | 129352 | 30.0=((49.0*58.0)-(x/46.0)) | 30.0 49.0 58.0 * x 46.0 / - = | 30.0:dollar 49.0:money 58.0:dollar *:dollar x:dollar 46.0:money /:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 57 | 67 | 1645 | (46.0+(x+49.0))=(30.0*58.0) | 46.0 x 49.0 + + 30.0 58.0 * = | 46.0:dollar x:dollar 49.0:dollar +:dollar +:dollar 30.0:money 58.0:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 62 | 67 | 3071 | (((46.0+58.0)*30.0)-x)=49.0 | 46.0 58.0 + 30.0 * x - 49.0 = | 46.0:dollar 58.0:dollar +:dollar 30.0:money *:dollar x:dollar -:dollar 49.0:dollar =:dollar
+EXPR: 0 | POS | INT | 67 | 67 | 32 | 46.0=(49.0-((58.0+x)/30.0)) | 46.0 49.0 58.0 x + 30.0 / - = | 46.0:dollar 49.0:dollar 58.0:dollar x:dollar +:dollar 30.0:money /:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 67 | 67 | 67 | 30.0=(x-(49.0-(58.0-46.0))) | 30.0 x 49.0 58.0 46.0 - - - = | 30.0:money x:money 49.0:money 58.0:money 46.0:money -:money -:money -:money =:money
+EXPR: 0 | POS | INT | 72 | 67 | 123 | ((x-(49.0+58.0))+30.0)=46.0 | x 49.0 58.0 + - 30.0 + 46.0 = | x:dollar 49.0:dollar 58.0:dollar +:dollar -:dollar 30.0:dollar +:dollar 46.0:dollar =:dollar
+EXPR: 0 | POS | INT | 77 | 67 | 1566 | ((49.0-46.0)+(x/58.0))=30.0 | 49.0 46.0 - x 58.0 / + 30.0 = | 49.0:dollar 46.0:dollar -:dollar x:dollar 58.0:money /:dollar +:dollar 30.0:dollar =:dollar
+EXPR: 0 | POS | INT | 82 | 67 | 2858 | ((x-(49.0*58.0))+30.0)=46.0 | x 49.0 58.0 * - 30.0 + 46.0 = | x:dollar 49.0:money 58.0:dollar *:dollar -:dollar 30.0:dollar +:dollar 46.0:dollar =:dollar
+EXPR: 1 | POS | INT | 82 | 67 | 67 | 58.0=((46.0+(49.0-x))+30.0) | 58.0 46.0 49.0 x - + 30.0 + = | 58.0:dollar 46.0:dollar 49.0:dollar x:dollar -:dollar +:dollar 30.0:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 82 | 67 | 31 | 58.0=((46.0-(49.0-x))+30.0) | 58.0 46.0 49.0 x - - 30.0 + = | 58.0:dollar 46.0:dollar 49.0:dollar x:dollar -:dollar -:dollar 30.0:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 82 | 67 | 31 | 46.0=((58.0-30.0)+(49.0-x)) | 46.0 58.0 30.0 - 49.0 x - + = | 46.0:money 58.0:money 30.0:money -:money 49.0:money x:money -:money +:money =:money
+EXPR: 0 | POS | INT | 92 | 67 | 1110 | 49.0=((58.0-46.0)+(x/30.0)) | 49.0 58.0 46.0 - x 30.0 / + = | 49.0:dollar 58.0:dollar 46.0:dollar -:dollar x:dollar 30.0:money /:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 92 | 67 | 4892 | (((49.0+58.0)*46.0)-x)=30.0 | 49.0 58.0 + 46.0 * x - 30.0 = | 49.0:dollar 58.0:dollar +:dollar 46.0:money *:dollar x:dollar -:dollar 30.0:dollar =:dollar
+EXPR: 1 | POS | INT | 122 | 67 | 67 | 58.0=(((49.0-x)+46.0)+30.0) | 58.0 49.0 x - 46.0 + 30.0 + = | 58.0:money 49.0:money x:money -:money 46.0:money +:money 30.0:money +:money =:money
+NET 42 unique, non-negative, integer-valued solutions found out of 298 total solutions

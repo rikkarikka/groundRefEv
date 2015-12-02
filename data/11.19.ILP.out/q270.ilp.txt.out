@@ -1,0 +1,5 @@
+parameters: n=9 l=4 k=1 p=5 q=3 m=10
+TOTAL 4 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 224 | 224 | (((1.0+3.0)+10.0)*16.0)=x | 1.0 3.0 + 10.0 + 16.0 * x = | 1.0:book 3.0:book +:book 10.0:book +:book 16.0:UK *:UK x:UK =:UK
+NET 1 unique, non-negative, integer-valued solutions found out of 4 total solutions

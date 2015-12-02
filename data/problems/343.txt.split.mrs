@@ -1,0 +1,82 @@
+SENT: During a school play, Jonah staffed the snack bar.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ focus_d_rel<0:50> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
+ [ _during_p_rel<0:6> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg ] ]
+ [ _a_q_rel<7:8> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
+ [ compound_rel<9:21> LBL: h10 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x6 ARG2: x12 ]
+ [ udef_q_rel<9:15> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
+ [ "_school_n_1_rel"<9:15> LBL: h16 ARG0: x12 ]
+ [ "_play_n_1_rel"<16:21> LBL: h10 ARG0: x6 ]
+ [ proper_q_rel<22:27> LBL: h17 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h18 BODY: h19 ]
+ [ named_rel<22:27> LBL: h20 CARG: "Jonah" ARG0: x3 ]
+ [ "_staff_v_1_rel"<28:35> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x22 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<36:39> LBL: h23 ARG0: x22 RSTR: h24 BODY: h25 ]
+ [ compound_rel<40:50> LBL: h26 ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x22 ARG2: x28 [ x IND: + ] ]
+ [ udef_q_rel<40:45> LBL: h29 ARG0: x28 RSTR: h30 BODY: h31 ]
+ [ "_snack_n_1_rel"<40:45> LBL: h32 ARG0: x28 ]
+ [ "_bar_n_1_rel"<46:50> LBL: h26 ARG0: x22 ] >
+HCONS: < h0 qeq h1 h8 qeq h10 h14 qeq h16 h18 qeq h20 h24 qeq h26 h30 qeq h32 > ]
+
+
+SENT: He served 0.25 of a pitcher of lemonade during the first intermission, 0.4166666666666667 of a pitcher during the second, and 0.25 of a pitcher during the third.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:2> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m PT: std ] ]
+ [ pronoun_q_rel<0:2> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_serve_v_as_rel"<3:9> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<10:14> LBL: h9 ARG0: x8 ARG1: x10 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<10:14> LBL: h11 ARG0: x8 RSTR: h12 BODY: h13 ]
+ [ card_rel<10:14> LBL: h9 CARG: "0.25" ARG0: e15 [ e SF: prop ] ARG1: x8 ]
+ [ _a_q_rel<18:19> LBL: h16 ARG0: x10 RSTR: h17 BODY: h18 ]
+ [ "_pitcher_n_of_rel"<20:27> LBL: h19 ARG0: x10 ARG1: x20 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<31:39> LBL: h21 ARG0: x20 RSTR: h22 BODY: h23 ]
+ [ "_lemonade_n_1_rel"<31:39> LBL: h24 ARG0: x20 ]
+ [ _during_p_rel<40:46> LBL: h1 ARG0: e25 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x26 ]
+ [ _the_q_rel<47:50> LBL: h27 ARG0: x26 RSTR: h28 BODY: h29 ]
+ [ ord_rel<51:56> LBL: h30 CARG: "1" ARG0: e32 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x26 ]
+ [ udef_q_rel<57:70> LBL: h33 ARG0: x34 [ x PERS: 3 NUM: sg ] RSTR: h35 BODY: h36 ]
+ [ "_intermission_n_1_rel"<57:70> LBL: h37 ARG0: x34 ]
+ [ udef_q_rel<71:121> LBL: h38 ARG0: x39 [ x PERS: 3 NUM: pl ] RSTR: h40 BODY: h41 ]
+ [ implicit_conj_rel<71:130> LBL: h30 ARG0: x26 L-INDEX: x34 R-INDEX: x42 [ x PERS: 3 ] ]
+ [ udef_q_rel<122:130> LBL: h43 ARG0: x42 RSTR: h44 BODY: h45 ]
+ [ part_of_rel<71:89> LBL: h46 ARG0: x39 ARG1: x47 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ card_rel<71:89> LBL: h46 CARG: "0.4166666666666667" ARG0: e49 [ e SF: prop ] ARG1: x39 ]
+ [ _a_q_rel<93:94> LBL: h50 ARG0: x47 RSTR: h51 BODY: h52 ]
+ [ "_pitcher_n_of_rel"<95:102> LBL: h53 ARG0: x47 ARG1: i54 ]
+ [ _during_p_rel<103:109> LBL: h53 ARG0: e55 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x47 ARG2: x56 [ x PERS: 3 NUM: sg GEND: n IND: + ] ]
+ [ _the_q_rel<110:113> LBL: h57 ARG0: x56 RSTR: h58 BODY: h59 ]
+ [ dofm_rel<114:121> LBL: h60 CARG: "2" ARG0: x56 ]
+ [ udef_q_rel<122:130> LBL: h62 ARG0: x63 [ x PERS: 3 NUM: pl ] RSTR: h64 BODY: h65 ]
+ [ _and_c_rel<122:125> LBL: h66 ARG0: x42 L-INDEX: x39 R-INDEX: x63 ]
+ [ generic_entity_rel<126:130> LBL: h67 ARG0: x63 ]
+ [ card_rel<126:130> LBL: h67 CARG: "0.25" ARG0: e69 [ e SF: prop ] ARG1: x63 ]
+ [ _of_p_rel<131:133> LBL: h30 ARG0: e70 [ e SF: prop ] ARG1: x26 ARG2: x71 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<134:135> LBL: h72 ARG0: x71 RSTR: h73 BODY: h74 ]
+ [ "_pitcher_n_of_rel"<136:143> LBL: h75 ARG0: x71 ARG1: i76 ]
+ [ _during_p_rel<144:150> LBL: h1 ARG0: e77 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x78 [ x PERS: 3 NUM: sg GEND: n IND: + ] ]
+ [ _the_q_rel<151:154> LBL: h79 ARG0: x78 RSTR: h80 BODY: h81 ]
+ [ dofm_rel<155:161> LBL: h82 CARG: "3" ARG0: x78 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h12 qeq h9 h17 qeq h19 h22 qeq h24 h28 qeq h30 h35 qeq h37 h40 qeq h46 h44 qeq h66 h51 qeq h53 h58 qeq h60 h64 qeq h67 h73 qeq h75 h80 qeq h82 > ]
+
+
+SENT: How many pitchers of lemonade did Jonah pour in all?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:29> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_pitcher_n_of_rel"<9:17> LBL: h13 ARG0: x5 ARG1: x16 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<21:29> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_lemonade_n_1_rel"<21:29> LBL: h20 ARG0: x16 ]
+ [ proper_q_rel<34:39> LBL: h21 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h22 BODY: h23 ]
+ [ named_rel<34:39> LBL: h24 CARG: "Jonah" ARG0: x3 ]
+ [ "_pour_v_1_rel"<40:44> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ _in_p_rel<45:47> LBL: h1 ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x27 [ x PERS: 3 ] ]
+ [ _all_q_rel<48:52> LBL: h28 ARG0: x27 RSTR: h29 BODY: h30 ]
+ [ generic_entity_rel<48:52> LBL: h31 ARG0: x27 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h20 h22 qeq h24 h29 qeq h31 > ]
+
+

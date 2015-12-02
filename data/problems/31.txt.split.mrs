@@ -1,0 +1,59 @@
+SENT: A restaurant served 5 cakes during lunch and 6 during dinner today.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _a_q_rel<0:1> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_restaurant_n_1_rel"<2:12> LBL: h7 ARG0: x3 ]
+ [ "_serve_v_as_rel"<13:19> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<20:21> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ card_rel<20:21> LBL: h12 CARG: "5" ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x8 ]
+ [ "_cake_n_1_rel"<22:27> LBL: h12 ARG0: x8 ]
+ [ _during_p_rel<28:34> LBL: h1 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x16 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<35:46> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ udef_q_rel<35:40> LBL: h20 ARG0: x21 [ x PERS: 3 NUM: sg ] RSTR: h22 BODY: h23 ]
+ [ "_lunch_n_1_rel"<35:40> LBL: h24 ARG0: x21 ]
+ [ _and_c_rel<41:44> LBL: h25 ARG0: x16 L-INDEX: x21 R-INDEX: x26 [ x PERS: 3 NUM: sg ] ]
+ [ numbered_hour_rel<45:46> LBL: h27 CARG: "6" ARG0: x26 ARG1: u29 ARG2: u30 ]
+ [ def_implicit_q_rel<45:46> LBL: h31 ARG0: x26 RSTR: h32 BODY: h33 ]
+ [ _during_p_rel<47:53> LBL: h1 ARG0: e34 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x35 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<54:60> LBL: h36 ARG0: x35 RSTR: h37 BODY: h38 ]
+ [ "_dinner_n_1_rel"<54:60> LBL: h39 ARG0: x35 ]
+ [ loc_nonsp_rel<61:67> LBL: h1 ARG0: e40 [ e SF: prop ] ARG1: e2 ARG2: x41 [ x PERS: 3 NUM: sg ] ]
+ [ time_n_rel<61:67> LBL: h42 ARG0: x41 ]
+ [ def_implicit_q_rel<61:67> LBL: h43 ARG0: x41 RSTR: h44 BODY: h45 ]
+ [ _today_a_1_rel<61:67> LBL: h42 ARG0: e46 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x41 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h10 qeq h12 h18 qeq h25 h22 qeq h24 h32 qeq h27 h37 qeq h39 h44 qeq h42 > ]
+
+
+SENT: The restaurant served 3 cakes yesterday.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_restaurant_n_1_rel"<4:14> LBL: h7 ARG0: x3 ]
+ [ "_serve_v_as_rel"<15:21> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<22:23> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ card_rel<22:23> LBL: h12 CARG: "3" ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x8 ]
+ [ "_cake_n_1_rel"<24:29> LBL: h12 ARG0: x8 ]
+ [ loc_nonsp_rel<30:40> LBL: h1 ARG0: e15 [ e SF: prop ] ARG1: e2 ARG2: x16 [ x PERS: 3 NUM: sg ] ]
+ [ time_n_rel<30:40> LBL: h17 ARG0: x16 ]
+ [ def_implicit_q_rel<30:40> LBL: h18 ARG0: x16 RSTR: h19 BODY: h20 ]
+ [ _yesterday_a_1_rel<30:40> LBL: h17 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x16 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h10 qeq h12 h19 qeq h17 > ]
+
+
+SENT: How many cakes were served in total ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ abstr_deg_rel<0:3> LBL: h7 ARG0: i8 ]
+ [ which_q_rel<0:3> LBL: h9 ARG0: i8 RSTR: h10 BODY: h11 ]
+ [ measure_rel<0:3> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i8 ]
+ [ much-many_a_rel<4:8> LBL: h12 ARG0: e14 ARG1: x3 ]
+ [ "_cake_n_1_rel"<9:14> LBL: h12 ARG0: x3 ]
+ [ "_serve_v_as_rel"<20:26> LBL: h1 ARG0: e2 ARG1: i15 ARG2: x3 ]
+ [ parg_d_rel<20:26> LBL: h1 ARG0: e16 [ e SF: prop ] ARG1: e2 ARG2: x3 ]
+ [ _in_p_rel<27:29> LBL: h1 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x18 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ idiom_q_i_rel<30:37> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ "_total_n_of_rel"<30:37> LBL: h22 ARG0: x18 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 h20 qeq h22 > ]
+
+

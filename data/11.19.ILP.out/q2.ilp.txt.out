@@ -1,0 +1,6 @@
+parameters: n=3 l=1 k=1 p=5 q=2 m=7
+TOTAL 8 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 135 | 45 | x=45.0 | x 45.0 = | x:dollar 45.0:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 135 | 45 | 45.0=x | 45.0 x = | 45.0:dollar x:dollar =:dollar
+NET 2 unique, non-negative, integer-valued solutions found out of 8 total solutions

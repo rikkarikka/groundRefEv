@@ -1,0 +1,7 @@
+constants : 1134.0 1475.0 1.0 3.0 
+unknowns : x
+operators : + - * / =
+objtypes : mile week UK 
+constantOrUnknownType : 0 0 1 2 0
+n : 9
+answer : 7827.0

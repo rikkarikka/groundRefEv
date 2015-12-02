@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 12.3 | 1.15411558669002 | 5.71=(6.59/x) | 5.71 6.59 x / = | 5.71:dollar 6.59:dollar x:UK /:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 12.3 | 0.866464339908953 | 5.71=(x*6.59) | 5.71 x 6.59 * = | 5.71:dollar x:UK 6.59:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 12.3 | 0.866464339908953 | 5.71=(6.59*x) | 5.71 6.59 x * = | 5.71:dollar 6.59:dollar x:UK *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 12.3 | 1.15411558669002 | (x*5.71)=6.59 | x 5.71 * 6.59 = | x:UK 5.71:dollar *:dollar 6.59:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 12.3 | 1.15411558669002 | (5.71*x)=6.59 | 5.71 x * 6.59 = | 5.71:dollar x:UK *:dollar 6.59:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 12.3 | 0.866464339908953 | (5.71/x)=6.59 | 5.71 x / 6.59 = | 5.71:dollar x:UK /:dollar 6.59:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 12.3 | 37.6289 | (5.71*6.59)=x | 5.71 6.59 * x = | 5.71:dollar 6.59:UK *:UK x:UK =:UK
+EXPR: 1 | POS | FRA | 10 | 12.3 | 12.3 | (5.71+6.59)=x | 5.71 6.59 + x = | 5.71:dollar 6.59:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 12.3 | 37.6289 | x=(5.71*6.59) | x 5.71 6.59 * = | x:UK 5.71:dollar 6.59:UK *:UK =:UK
+EXPR: 1 | POS | FRA | 10 | 12.3 | 12.3 | x=(5.71+6.59) | x 5.71 6.59 + = | x:dollar 5.71:dollar 6.59:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 12.3 | 0.866464339908953 | x=(5.71/6.59) | x 5.71 6.59 / = | x:UK 5.71:UK 6.59:dollar /:UK =:UK
+EXPR: 0 | POS | FRA | 10 | 12.3 | 0.866464339908953 | (5.71/6.59)=x | 5.71 6.59 / x = | 5.71:UK 6.59:dollar /:UK x:UK =:UK
+EXPR: 0 | POS | FRA | 12 | 12.3 | 0.866464339908953 | 6.59=(5.71/x) | 6.59 5.71 x / = | 6.59:dollar 5.71:dollar x:UK /:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 12.3 | 0.866464339908953 | (x*6.59)=5.71 | x 6.59 * 5.71 = | x:UK 6.59:dollar *:dollar 5.71:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 12.3 | 37.6289 | 5.71=(x/6.59) | 5.71 x 6.59 / = | 5.71:UK x:UK 6.59:dollar /:UK =:UK
+EXPR: 0 | POS | FRA | 12 | 12.3 | 1.15411558669002 | 6.59=(5.71*x) | 6.59 5.71 x * = | 6.59:dollar 5.71:dollar x:UK *:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 12.3 | 12.3 | 5.71=(x-6.59) | 5.71 x 6.59 - = | 5.71:dollar x:dollar 6.59:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 12.3 | 1.15411558669002 | 6.59=(x*5.71) | 6.59 x 5.71 * = | 6.59:dollar x:UK 5.71:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 12.3 | 0.88 | 5.71=(6.59-x) | 5.71 6.59 x - = | 5.71:dollar 6.59:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 12.3 | 0.866464339908953 | (6.59*x)=5.71 | 6.59 x * 5.71 = | 6.59:dollar x:UK *:dollar 5.71:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 12.3 | 1.15411558669002 | (6.59/x)=5.71 | 6.59 x / 5.71 = | 6.59:dollar x:UK /:dollar 5.71:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 12.3 | 0.88 | (x+5.71)=6.59 | x 5.71 + 6.59 = | x:dollar 5.71:dollar +:dollar 6.59:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 12.3 | 0.88 | (5.71+x)=6.59 | 5.71 x + 6.59 = | 5.71:dollar x:dollar +:dollar 6.59:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 12.3 | 12.3 | (x-5.71)=6.59 | x 5.71 - 6.59 = | x:dollar 5.71:dollar -:dollar 6.59:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 12.3 | 37.6289 | (x/5.71)=6.59 | x 5.71 / 6.59 = | x:UK 5.71:dollar /:UK 6.59:UK =:UK
+EXPR: 0 | POS | FRA | 20 | 12.3 | 1.15411558669002 | (6.59/5.71)=x | 6.59 5.71 / x = | 6.59:UK 5.71:dollar /:UK x:UK =:UK
+EXPR: 0 | POS | FRA | 20 | 12.3 | 0.88 | x=(6.59-5.71) | x 6.59 5.71 - = | x:dollar 6.59:dollar 5.71:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 12.3 | 0.88 | (6.59-5.71)=x | 6.59 5.71 - x = | 6.59:dollar 5.71:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 12.3 | 1.15411558669002 | x=(6.59/5.71) | x 6.59 5.71 / = | x:UK 6.59:UK 5.71:dollar /:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 12.3 | 0.88 | (6.59-x)=5.71 | 6.59 x - 5.71 = | 6.59:dollar x:dollar -:dollar 5.71:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 12.3 | 37.6289 | (x/6.59)=5.71 | x 6.59 / 5.71 = | x:UK 6.59:dollar /:UK 5.71:UK =:UK
+EXPR: 1 | POS | FRA | 22 | 12.3 | 12.3 | (x-6.59)=5.71 | x 6.59 - 5.71 = | x:dollar 6.59:dollar -:dollar 5.71:dollar =:dollar
+EXPR: 1 | POS | FRA | 22 | 12.3 | 12.3 | 6.59=(x-5.71) | 6.59 x 5.71 - = | 6.59:dollar x:dollar 5.71:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 12.3 | 0.88 | 6.59=(x+5.71) | 6.59 x 5.71 + = | 6.59:dollar x:dollar 5.71:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 12.3 | 0.88 | 6.59=(5.71+x) | 6.59 5.71 x + = | 6.59:dollar 5.71:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 12.3 | 37.6289 | 6.59=(x/5.71) | 6.59 x 5.71 / = | 6.59:UK x:UK 5.71:dollar /:UK =:UK
+NET 36 unique, non-negative solutions found out of 136 total solutions

@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 12 | 108 | x=(3.0*36.0) | x 3.0 36.0 * = | x:shape 3.0:shape 36.0:stone *:shape =:shape
+EXPR: 0 | POS | INT | 10 | 12 | 108 | (3.0*36.0)=x | 3.0 36.0 * x = | 3.0:bracelet 36.0:stone *:bracelet x:bracelet =:bracelet
+EXPR: 0 | POS | INT | 12 | 12 | 108 | 3.0=(x/36.0) | 3.0 x 36.0 / = | 3.0:shape x:shape 36.0:stone /:shape =:shape
+EXPR: 1 | POS | INT | 12 | 12 | 12 | (3.0*x)=36.0 | 3.0 x * 36.0 = | 3.0:bracelet x:shape *:bracelet 36.0:bracelet =:bracelet
+EXPR: 0 | POS | INT | 12 | 12 | 108 | (x/3.0)=36.0 | x 3.0 / 36.0 = | x:shape 3.0:bracelet /:shape 36.0:shape =:shape
+EXPR: 1 | POS | INT | 12 | 12 | 12 | (x*3.0)=36.0 | x 3.0 * 36.0 = | x:stone 3.0:bracelet *:stone 36.0:stone =:stone
+EXPR: 1 | POS | INT | 12 | 12 | 12 | 3.0=(36.0/x) | 3.0 36.0 x / = | 3.0:bracelet 36.0:bracelet x:shape /:bracelet =:bracelet
+EXPR: 0 | POS | INT | 20 | 12 | 39 | (3.0+36.0)=x | 3.0 36.0 + x = | 3.0:bracelet 36.0:bracelet +:bracelet x:bracelet =:bracelet
+EXPR: 0 | POS | INT | 20 | 12 | 39 | x=(3.0+36.0) | x 3.0 36.0 + = | x:stone 3.0:stone 36.0:stone +:stone =:stone
+EXPR: 1 | POS | INT | 20 | 12 | 12 | (36.0/3.0)=x | 36.0 3.0 / x = | 36.0:stone 3.0:bracelet /:stone x:stone =:stone
+EXPR: 1 | POS | INT | 20 | 12 | 12 | x=(36.0/3.0) | x 36.0 3.0 / = | x:stone 36.0:stone 3.0:bracelet /:stone =:stone
+EXPR: 0 | POS | INT | 22 | 12 | 39 | (x-3.0)=36.0 | x 3.0 - 36.0 = | x:stone 3.0:stone -:stone 36.0:stone =:stone
+EXPR: 0 | POS | INT | 22 | 12 | 108 | 36.0=(x/3.0) | 36.0 x 3.0 / = | 36.0:shape x:shape 3.0:bracelet /:shape =:shape
+EXPR: 1 | POS | INT | 22 | 12 | 12 | (36.0/x)=3.0 | 36.0 x / 3.0 = | 36.0:bracelet x:shape /:bracelet 3.0:bracelet =:bracelet
+EXPR: 0 | POS | INT | 22 | 12 | 33 | 3.0=(36.0-x) | 3.0 36.0 x - = | 3.0:stone 36.0:stone x:stone -:stone =:stone
+EXPR: 0 | POS | INT | 22 | 12 | 33 | (3.0+x)=36.0 | 3.0 x + 36.0 = | 3.0:shape x:shape +:shape 36.0:shape =:shape
+EXPR: 0 | POS | INT | 22 | 12 | 33 | (x+3.0)=36.0 | x 3.0 + 36.0 = | x:bracelet 3.0:bracelet +:bracelet 36.0:bracelet =:bracelet
+EXPR: 1 | POS | INT | 22 | 12 | 12 | 36.0=(x*3.0) | 36.0 x 3.0 * = | 36.0:stone x:stone 3.0:bracelet *:stone =:stone
+EXPR: 0 | POS | INT | 22 | 12 | 39 | 3.0=(x-36.0) | 3.0 x 36.0 - = | 3.0:shape x:shape 36.0:shape -:shape =:shape
+EXPR: 1 | POS | INT | 22 | 12 | 12 | 36.0=(3.0*x) | 36.0 3.0 x * = | 36.0:shape 3.0:bracelet x:shape *:shape =:shape
+EXPR: 0 | POS | INT | 22 | 12 | 108 | (x/36.0)=3.0 | x 36.0 / 3.0 = | x:shape 36.0:stone /:shape 3.0:shape =:shape
+EXPR: 0 | POS | INT | 30 | 12 | 33 | x=(36.0-3.0) | x 36.0 3.0 - = | x:stone 36.0:stone 3.0:stone -:stone =:stone
+EXPR: 0 | POS | INT | 30 | 12 | 33 | (36.0-3.0)=x | 36.0 3.0 - x = | 36.0:shape 3.0:shape -:shape x:shape =:shape
+EXPR: 0 | POS | INT | 32 | 12 | 39 | (x-36.0)=3.0 | x 36.0 - 3.0 = | x:stone 36.0:stone -:stone 3.0:stone =:stone
+EXPR: 0 | POS | INT | 32 | 12 | 33 | (36.0-x)=3.0 | 36.0 x - 3.0 = | 36.0:stone x:stone -:stone 3.0:stone =:stone
+EXPR: 0 | POS | INT | 32 | 12 | 33 | 36.0=(3.0+x) | 36.0 3.0 x + = | 36.0:stone 3.0:stone x:stone +:stone =:stone
+EXPR: 0 | POS | INT | 32 | 12 | 33 | 36.0=(x+3.0) | 36.0 x 3.0 + = | 36.0:stone x:stone 3.0:stone +:stone =:stone
+EXPR: 0 | POS | INT | 32 | 12 | 39 | 36.0=(x-3.0) | 36.0 x 3.0 - = | 36.0:stone x:stone 3.0:stone -:stone =:stone
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

@@ -21,11 +21,6 @@ object g {
         var m = new Word2Vec()
         m.load("data/smallvectors.bin")
         val ops = List("+","-","*","/","=")
-
-
-        
-
-
 }
 
 object parseQuestion {
@@ -521,6 +516,7 @@ object parseQuestion {
             return cEqs
         }
 
+	//def main(args:Array[String]) {
 	def main(args:Array[String]) {
             val probdir = "data/problems/"
             val REL_LIST= Source.fromFile("data/rel_list.txt").mkString.split("\n").distinct

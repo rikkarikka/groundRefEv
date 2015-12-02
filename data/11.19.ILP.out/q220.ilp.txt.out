@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 21.93 | 0.815397350993378 | 12.08=(9.85/x) | 12.08 9.85 x / = | 12.08:dollar 9.85:dollar x:money /:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 21.93 | 1.22639593908629 | 12.08=(x*9.85) | 12.08 x 9.85 * = | 12.08:dollar x:money 9.85:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 21.93 | 1.22639593908629 | 12.08=(9.85*x) | 12.08 9.85 x * = | 12.08:dollar 9.85:dollar x:money *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 21.93 | 0.815397350993378 | (x*12.08)=9.85 | x 12.08 * 9.85 = | x:money 12.08:dollar *:dollar 9.85:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 21.93 | 0.815397350993378 | (12.08*x)=9.85 | 12.08 x * 9.85 = | 12.08:dollar x:money *:dollar 9.85:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 21.93 | 1.22639593908629 | (12.08/x)=9.85 | 12.08 x / 9.85 = | 12.08:dollar x:money /:dollar 9.85:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 21.93 | 118.988 | (12.08*9.85)=x | 12.08 9.85 * x = | 12.08:dollar 9.85:money *:money x:money =:money
+EXPR: 1 | POS | FRA | 10 | 21.93 | 21.93 | (12.08+9.85)=x | 12.08 9.85 + x = | 12.08:dollar 9.85:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 21.93 | 2.23 | x=(12.08-9.85) | x 12.08 9.85 - = | x:dollar 12.08:dollar 9.85:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 21.93 | 118.988 | x=(12.08*9.85) | x 12.08 9.85 * = | x:money 12.08:dollar 9.85:money *:money =:money
+EXPR: 1 | POS | FRA | 10 | 21.93 | 21.93 | x=(12.08+9.85) | x 12.08 9.85 + = | x:dollar 12.08:dollar 9.85:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 21.93 | 2.23 | (12.08-9.85)=x | 12.08 9.85 - x = | 12.08:dollar 9.85:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 21.93 | 1.22639593908629 | x=(12.08/9.85) | x 12.08 9.85 / = | x:money 12.08:money 9.85:dollar /:money =:money
+EXPR: 0 | POS | FRA | 10 | 21.93 | 1.22639593908629 | (12.08/9.85)=x | 12.08 9.85 / x = | 12.08:money 9.85:dollar /:money x:money =:money
+EXPR: 0 | POS | FRA | 12 | 21.93 | 1.22639593908629 | 9.85=(12.08/x) | 9.85 12.08 x / = | 9.85:dollar 12.08:dollar x:money /:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.93 | 1.22639593908629 | (x*9.85)=12.08 | x 9.85 * 12.08 = | x:money 9.85:dollar *:dollar 12.08:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.93 | 118.988 | 12.08=(x/9.85) | 12.08 x 9.85 / = | 12.08:money x:money 9.85:dollar /:money =:money
+EXPR: 0 | POS | FRA | 12 | 21.93 | 0.815397350993378 | 9.85=(12.08*x) | 9.85 12.08 x * = | 9.85:dollar 12.08:dollar x:money *:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 21.93 | 21.93 | 12.08=(x-9.85) | 12.08 x 9.85 - = | 12.08:dollar x:dollar 9.85:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.93 | 0.815397350993378 | 9.85=(x*12.08) | 9.85 x 12.08 * = | 9.85:dollar x:money 12.08:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.93 | 2.23 | (12.08-x)=9.85 | 12.08 x - 9.85 = | 12.08:dollar x:dollar -:dollar 9.85:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.93 | 1.22639593908629 | (9.85*x)=12.08 | 9.85 x * 12.08 = | 9.85:dollar x:money *:dollar 12.08:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.93 | 0.815397350993378 | (9.85/x)=12.08 | 9.85 x / 12.08 = | 9.85:dollar x:money /:dollar 12.08:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.93 | 2.23 | 12.08=(x+9.85) | 12.08 x 9.85 + = | 12.08:dollar x:dollar 9.85:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.93 | 2.23 | 12.08=(9.85+x) | 12.08 9.85 x + = | 12.08:dollar 9.85:dollar x:dollar +:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 21.93 | 21.93 | (x-12.08)=9.85 | x 12.08 - 9.85 = | x:dollar 12.08:dollar -:dollar 9.85:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.93 | 118.988 | (x/12.08)=9.85 | x 12.08 / 9.85 = | x:money 12.08:dollar /:money 9.85:money =:money
+EXPR: 0 | POS | FRA | 20 | 21.93 | 0.815397350993377 | (9.85/12.08)=x | 9.85 12.08 / x = | 9.85:money 12.08:dollar /:money x:money =:money
+EXPR: 0 | POS | FRA | 20 | 21.93 | 0.815397350993377 | x=(9.85/12.08) | x 9.85 12.08 / = | x:money 9.85:money 12.08:dollar /:money =:money
+EXPR: 0 | POS | FRA | 22 | 21.93 | 118.988 | (x/9.85)=12.08 | x 9.85 / 12.08 = | x:money 9.85:dollar /:money 12.08:money =:money
+EXPR: 1 | POS | FRA | 22 | 21.93 | 21.93 | (x-9.85)=12.08 | x 9.85 - 12.08 = | x:dollar 9.85:dollar -:dollar 12.08:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 21.93 | 2.23 | (9.85+x)=12.08 | 9.85 x + 12.08 = | 9.85:dollar x:dollar +:dollar 12.08:dollar =:dollar
+EXPR: 1 | POS | FRA | 22 | 21.93 | 21.93 | 9.85=(x-12.08) | 9.85 x 12.08 - = | 9.85:dollar x:dollar 12.08:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 21.93 | 2.23 | (x+9.85)=12.08 | x 9.85 + 12.08 = | x:dollar 9.85:dollar +:dollar 12.08:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 21.93 | 118.988 | 9.85=(x/12.08) | 9.85 x 12.08 / = | 9.85:money x:money 12.08:dollar /:money =:money
+EXPR: 0 | POS | FRA | 22 | 21.93 | 2.23 | 9.85=(12.08-x) | 9.85 12.08 x - = | 9.85:dollar 12.08:dollar x:dollar -:dollar =:dollar
+NET 36 unique, non-negative solutions found out of 136 total solutions

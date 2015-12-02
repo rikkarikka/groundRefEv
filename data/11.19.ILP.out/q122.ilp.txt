@@ -1,0 +1,7 @@
+constants : 9.0 12.0 
+unknowns : x
+operators : + - * / =
+objtypes : dollar UK quarter 
+constantOrUnknownType : 0 2 1
+n : 5
+answer : 3.0

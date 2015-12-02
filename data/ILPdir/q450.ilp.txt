@@ -1,0 +1,7 @@
+constants : 183.0 593.0 
+unknowns : x
+operators : + - * / =
+objtypes : UK marble 
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 776.0

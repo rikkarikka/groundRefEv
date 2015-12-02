@@ -1,0 +1,7 @@
+constants : 7341.0 2.0 4221.0 
+unknowns : x
+operators : + - * / =
+objtypes : cell sample 
+constantOrUnknownType : 0 1 0 0
+n : 7
+answer : 3120.0

@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 180 | 180 | x=(15.0*12.0) | x 15.0 12.0 * = | x:UK 15.0:UK 12.0:chair *:UK =:UK
+EXPR: 1 | POS | INT | 10 | 180 | 180 | (15.0*12.0)=x | 15.0 12.0 * x = | 15.0:dollar 12.0:chair *:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 180 | 180 | 15.0=(x/12.0) | 15.0 x 12.0 / = | 15.0:UK x:UK 12.0:chair /:UK =:UK
+EXPR: 1 | POS | INT | 12 | 180 | 180 | (x/15.0)=12.0 | x 15.0 / 12.0 = | x:UK 15.0:dollar /:UK 12.0:UK =:UK
+EXPR: 0 | POS | INT | 20 | 180 | 27 | (15.0+12.0)=x | 15.0 12.0 + x = | 15.0:dollar 12.0:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 180 | 27 | x=(15.0+12.0) | x 15.0 12.0 + = | x:chair 15.0:chair 12.0:chair +:chair =:chair
+EXPR: 0 | POS | INT | 20 | 180 | 3 | (15.0-12.0)=x | 15.0 12.0 - x = | 15.0:dollar 12.0:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 180 | 3 | x=(15.0-12.0) | x 15.0 12.0 - = | x:UK 15.0:UK 12.0:UK -:UK =:UK
+EXPR: 0 | POS | INT | 22 | 180 | 27 | (x-15.0)=12.0 | x 15.0 - 12.0 = | x:chair 15.0:chair -:chair 12.0:chair =:chair
+EXPR: 1 | POS | INT | 22 | 180 | 180 | 12.0=(x/15.0) | 12.0 x 15.0 / = | 12.0:UK x:UK 15.0:dollar /:UK =:UK
+EXPR: 0 | POS | INT | 22 | 180 | 3 | 15.0=(12.0+x) | 15.0 12.0 x + = | 15.0:chair 12.0:chair x:chair +:chair =:chair
+EXPR: 0 | POS | INT | 22 | 180 | 3 | (15.0-x)=12.0 | 15.0 x - 12.0 = | 15.0:UK x:UK -:UK 12.0:UK =:UK
+EXPR: 0 | POS | INT | 22 | 180 | 3 | 15.0=(x+12.0) | 15.0 x 12.0 + = | 15.0:UK x:UK 12.0:UK +:UK =:UK
+EXPR: 0 | POS | INT | 22 | 180 | 27 | 15.0=(x-12.0) | 15.0 x 12.0 - = | 15.0:UK x:UK 12.0:UK -:UK =:UK
+EXPR: 1 | POS | INT | 22 | 180 | 180 | (x/12.0)=15.0 | x 12.0 / 15.0 = | x:UK 12.0:chair /:UK 15.0:UK =:UK
+EXPR: 0 | POS | INT | 32 | 180 | 27 | (x-12.0)=15.0 | x 12.0 - 15.0 = | x:chair 12.0:chair -:chair 15.0:chair =:chair
+EXPR: 0 | POS | INT | 32 | 180 | 3 | (12.0+x)=15.0 | 12.0 x + 15.0 = | 12.0:chair x:chair +:chair 15.0:chair =:chair
+EXPR: 0 | POS | INT | 32 | 180 | 3 | (x+12.0)=15.0 | x 12.0 + 15.0 = | x:dollar 12.0:dollar +:dollar 15.0:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 180 | 3 | 12.0=(15.0-x) | 12.0 15.0 x - = | 12.0:chair 15.0:chair x:chair -:chair =:chair
+EXPR: 0 | POS | INT | 32 | 180 | 27 | 12.0=(x-15.0) | 12.0 x 15.0 - = | 12.0:chair x:chair 15.0:chair -:chair =:chair
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

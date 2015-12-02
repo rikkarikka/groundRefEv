@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 1.22 | 24 | x=(2.0*12.0) | x 2.0 12.0 * = | x:money 2.0:money 12.0:dime *:money =:money
+EXPR: 0 | POS | INT | 10 | 1.22 | 24 | (2.0*12.0)=x | 2.0 12.0 * x = | 2.0:penny 12.0:dime *:penny x:penny =:penny
+EXPR: 0 | POS | INT | 12 | 1.22 | 24 | 2.0=(x/12.0) | 2.0 x 12.0 / = | 2.0:money x:money 12.0:dime /:money =:money
+EXPR: 0 | POS | INT | 12 | 1.22 | 6 | (2.0*x)=12.0 | 2.0 x * 12.0 = | 2.0:penny x:money *:penny 12.0:penny =:penny
+EXPR: 0 | POS | INT | 12 | 1.22 | 24 | (x/2.0)=12.0 | x 2.0 / 12.0 = | x:money 2.0:penny /:money 12.0:money =:money
+EXPR: 0 | POS | INT | 12 | 1.22 | 6 | (x*2.0)=12.0 | x 2.0 * 12.0 = | x:dime 2.0:penny *:dime 12.0:dime =:dime
+EXPR: 0 | POS | INT | 12 | 1.22 | 6 | 2.0=(12.0/x) | 2.0 12.0 x / = | 2.0:penny 12.0:penny x:money /:penny =:penny
+EXPR: 0 | POS | INT | 20 | 1.22 | 14 | (2.0+12.0)=x | 2.0 12.0 + x = | 2.0:penny 12.0:penny +:penny x:penny =:penny
+EXPR: 0 | POS | INT | 20 | 1.22 | 14 | x=(2.0+12.0) | x 2.0 12.0 + = | x:dime 2.0:dime 12.0:dime +:dime =:dime
+EXPR: 0 | POS | INT | 20 | 1.22 | 6 | (12.0/2.0)=x | 12.0 2.0 / x = | 12.0:dime 2.0:penny /:dime x:dime =:dime
+EXPR: 0 | POS | INT | 20 | 1.22 | 6 | x=(12.0/2.0) | x 12.0 2.0 / = | x:dime 12.0:dime 2.0:penny /:dime =:dime
+EXPR: 0 | POS | INT | 22 | 1.22 | 14 | (x-2.0)=12.0 | x 2.0 - 12.0 = | x:dime 2.0:dime -:dime 12.0:dime =:dime
+EXPR: 0 | POS | INT | 22 | 1.22 | 24 | 12.0=(x/2.0) | 12.0 x 2.0 / = | 12.0:money x:money 2.0:penny /:money =:money
+EXPR: 0 | POS | INT | 22 | 1.22 | 6 | (12.0/x)=2.0 | 12.0 x / 2.0 = | 12.0:penny x:money /:penny 2.0:penny =:penny
+EXPR: 0 | POS | INT | 22 | 1.22 | 10 | 2.0=(12.0-x) | 2.0 12.0 x - = | 2.0:dime 12.0:dime x:dime -:dime =:dime
+EXPR: 0 | POS | INT | 22 | 1.22 | 10 | (2.0+x)=12.0 | 2.0 x + 12.0 = | 2.0:money x:money +:money 12.0:money =:money
+EXPR: 0 | POS | INT | 22 | 1.22 | 10 | (x+2.0)=12.0 | x 2.0 + 12.0 = | x:penny 2.0:penny +:penny 12.0:penny =:penny
+EXPR: 0 | POS | INT | 22 | 1.22 | 6 | 12.0=(x*2.0) | 12.0 x 2.0 * = | 12.0:dime x:dime 2.0:penny *:dime =:dime
+EXPR: 0 | POS | INT | 22 | 1.22 | 14 | 2.0=(x-12.0) | 2.0 x 12.0 - = | 2.0:money x:money 12.0:money -:money =:money
+EXPR: 0 | POS | INT | 22 | 1.22 | 6 | 12.0=(2.0*x) | 12.0 2.0 x * = | 12.0:money 2.0:penny x:money *:money =:money
+EXPR: 0 | POS | INT | 22 | 1.22 | 24 | (x/12.0)=2.0 | x 12.0 / 2.0 = | x:money 12.0:dime /:money 2.0:money =:money
+EXPR: 0 | POS | INT | 30 | 1.22 | 10 | x=(12.0-2.0) | x 12.0 2.0 - = | x:dime 12.0:dime 2.0:dime -:dime =:dime
+EXPR: 0 | POS | INT | 30 | 1.22 | 10 | (12.0-2.0)=x | 12.0 2.0 - x = | 12.0:money 2.0:money -:money x:money =:money
+EXPR: 0 | POS | INT | 32 | 1.22 | 14 | (x-12.0)=2.0 | x 12.0 - 2.0 = | x:dime 12.0:dime -:dime 2.0:dime =:dime
+EXPR: 0 | POS | INT | 32 | 1.22 | 10 | (12.0-x)=2.0 | 12.0 x - 2.0 = | 12.0:dime x:dime -:dime 2.0:dime =:dime
+EXPR: 0 | POS | INT | 32 | 1.22 | 10 | 12.0=(2.0+x) | 12.0 2.0 x + = | 12.0:dime 2.0:dime x:dime +:dime =:dime
+EXPR: 0 | POS | INT | 32 | 1.22 | 10 | 12.0=(x+2.0) | 12.0 x 2.0 + = | 12.0:dime x:dime 2.0:dime +:dime =:dime
+EXPR: 0 | POS | INT | 32 | 1.22 | 14 | 12.0=(x-2.0) | 12.0 x 2.0 - = | 12.0:dime x:dime 2.0:dime -:dime =:dime
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

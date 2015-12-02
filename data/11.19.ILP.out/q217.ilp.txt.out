@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 21.95 | 1.14774951076321 | 10.22=(11.73/x) | 10.22 11.73 x / = | 10.22:dollar 11.73:dollar x:UK /:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 21.95 | 0.871270247229327 | 10.22=(x*11.73) | 10.22 x 11.73 * = | 10.22:dollar x:UK 11.73:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 21.95 | 0.871270247229327 | 10.22=(11.73*x) | 10.22 11.73 x * = | 10.22:dollar 11.73:dollar x:UK *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 21.95 | 1.14774951076321 | (x*10.22)=11.73 | x 10.22 * 11.73 = | x:UK 10.22:dollar *:dollar 11.73:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 21.95 | 1.14774951076321 | (10.22*x)=11.73 | 10.22 x * 11.73 = | 10.22:dollar x:UK *:dollar 11.73:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 21.95 | 0.871270247229327 | (10.22/x)=11.73 | 10.22 x / 11.73 = | 10.22:dollar x:UK /:dollar 11.73:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 21.95 | 119.8806 | (10.22*11.73)=x | 10.22 11.73 * x = | 10.22:dollar 11.73:UK *:UK x:UK =:UK
+EXPR: 1 | POS | FRA | 10 | 21.95 | 21.95 | (10.22+11.73)=x | 10.22 11.73 + x = | 10.22:dollar 11.73:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 21.95 | 119.8806 | x=(10.22*11.73) | x 10.22 11.73 * = | x:UK 10.22:dollar 11.73:UK *:UK =:UK
+EXPR: 1 | POS | FRA | 10 | 21.95 | 21.95 | x=(10.22+11.73) | x 10.22 11.73 + = | x:dollar 10.22:dollar 11.73:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 21.95 | 0.871270247229327 | x=(10.22/11.73) | x 10.22 11.73 / = | x:UK 10.22:UK 11.73:dollar /:UK =:UK
+EXPR: 0 | POS | FRA | 10 | 21.95 | 0.871270247229327 | (10.22/11.73)=x | 10.22 11.73 / x = | 10.22:UK 11.73:dollar /:UK x:UK =:UK
+EXPR: 0 | POS | FRA | 12 | 21.95 | 0.871270247229327 | 11.73=(10.22/x) | 11.73 10.22 x / = | 11.73:dollar 10.22:dollar x:UK /:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.95 | 0.871270247229327 | (x*11.73)=10.22 | x 11.73 * 10.22 = | x:UK 11.73:dollar *:dollar 10.22:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.95 | 119.8806 | 10.22=(x/11.73) | 10.22 x 11.73 / = | 10.22:UK x:UK 11.73:dollar /:UK =:UK
+EXPR: 0 | POS | FRA | 12 | 21.95 | 1.14774951076321 | 11.73=(10.22*x) | 11.73 10.22 x * = | 11.73:dollar 10.22:dollar x:UK *:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 21.95 | 21.95 | 10.22=(x-11.73) | 10.22 x 11.73 - = | 10.22:dollar x:dollar 11.73:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.95 | 1.14774951076321 | 11.73=(x*10.22) | 11.73 x 10.22 * = | 11.73:dollar x:UK 10.22:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.95 | 1.51 | 10.22=(11.73-x) | 10.22 11.73 x - = | 10.22:dollar 11.73:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.95 | 0.871270247229327 | (11.73*x)=10.22 | 11.73 x * 10.22 = | 11.73:dollar x:UK *:dollar 10.22:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.95 | 1.14774951076321 | (11.73/x)=10.22 | 11.73 x / 10.22 = | 11.73:dollar x:UK /:dollar 10.22:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.95 | 1.51 | (x+10.22)=11.73 | x 10.22 + 11.73 = | x:dollar 10.22:dollar +:dollar 11.73:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.95 | 1.51 | (10.22+x)=11.73 | 10.22 x + 11.73 = | 10.22:dollar x:dollar +:dollar 11.73:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 21.95 | 21.95 | (x-10.22)=11.73 | x 10.22 - 11.73 = | x:dollar 10.22:dollar -:dollar 11.73:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 21.95 | 119.8806 | (x/10.22)=11.73 | x 10.22 / 11.73 = | x:UK 10.22:dollar /:UK 11.73:UK =:UK
+EXPR: 0 | POS | FRA | 20 | 21.95 | 1.14774951076321 | (11.73/10.22)=x | 11.73 10.22 / x = | 11.73:UK 10.22:dollar /:UK x:UK =:UK
+EXPR: 0 | POS | FRA | 20 | 21.95 | 1.51 | x=(11.73-10.22) | x 11.73 10.22 - = | x:dollar 11.73:dollar 10.22:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 21.95 | 1.51 | (11.73-10.22)=x | 11.73 10.22 - x = | 11.73:dollar 10.22:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 21.95 | 1.14774951076321 | x=(11.73/10.22) | x 11.73 10.22 / = | x:UK 11.73:UK 10.22:dollar /:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 21.95 | 1.51 | (11.73-x)=10.22 | 11.73 x - 10.22 = | 11.73:dollar x:dollar -:dollar 10.22:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 21.95 | 119.8806 | (x/11.73)=10.22 | x 11.73 / 10.22 = | x:UK 11.73:dollar /:UK 10.22:UK =:UK
+EXPR: 1 | POS | FRA | 22 | 21.95 | 21.95 | (x-11.73)=10.22 | x 11.73 - 10.22 = | x:dollar 11.73:dollar -:dollar 10.22:dollar =:dollar
+EXPR: 1 | POS | FRA | 22 | 21.95 | 21.95 | 11.73=(x-10.22) | 11.73 x 10.22 - = | 11.73:dollar x:dollar 10.22:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 21.95 | 1.51 | 11.73=(x+10.22) | 11.73 x 10.22 + = | 11.73:dollar x:dollar 10.22:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 21.95 | 1.51 | 11.73=(10.22+x) | 11.73 10.22 x + = | 11.73:dollar 10.22:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 21.95 | 119.8806 | 11.73=(x/10.22) | 11.73 x 10.22 / = | 11.73:UK x:UK 10.22:dollar /:UK =:UK
+NET 36 unique, non-negative solutions found out of 136 total solutions

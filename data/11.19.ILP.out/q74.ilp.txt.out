@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 6 | 4 | x=(8.0/2.0) | x 8.0 2.0 / = | x:kitten 8.0:kitten 2.0:UK /:kitten =:kitten
+EXPR: 0 | POS | INT | 0 | 6 | 4 | (8.0/2.0)=x | 8.0 2.0 / x = | 8.0:kitten 2.0:UK /:kitten x:kitten =:kitten
+EXPR: 0 | POS | INT | 0 | 6 | 16 | x=(8.0*2.0) | x 8.0 2.0 * = | x:kitten 8.0:kitten 2.0:UK *:kitten =:kitten
+EXPR: 0 | POS | INT | 0 | 6 | 16 | (8.0*2.0)=x | 8.0 2.0 * x = | 8.0:kitten 2.0:UK *:kitten x:kitten =:kitten
+EXPR: 0 | POS | INT | 2 | 6 | 4 | 8.0=(2.0*x) | 8.0 2.0 x * = | 8.0:kitten 2.0:UK x:kitten *:kitten =:kitten
+EXPR: 0 | POS | INT | 2 | 6 | 16 | 8.0=(x/2.0) | 8.0 x 2.0 / = | 8.0:kitten x:kitten 2.0:UK /:kitten =:kitten
+EXPR: 0 | POS | INT | 2 | 6 | 4 | 8.0=(x*2.0) | 8.0 x 2.0 * = | 8.0:kitten x:kitten 2.0:UK *:kitten =:kitten
+EXPR: 1 | POS | INT | 10 | 6 | 6 | (8.0-2.0)=x | 8.0 2.0 - x = | 8.0:kitten 2.0:kitten -:kitten x:kitten =:kitten
+EXPR: 0 | POS | INT | 10 | 6 | 10 | x=(8.0+2.0) | x 8.0 2.0 + = | x:kitten 8.0:kitten 2.0:kitten +:kitten =:kitten
+EXPR: 1 | POS | INT | 10 | 6 | 6 | x=(8.0-2.0) | x 8.0 2.0 - = | x:kitten 8.0:kitten 2.0:kitten -:kitten =:kitten
+EXPR: 0 | POS | INT | 10 | 6 | 10 | (8.0+2.0)=x | 8.0 2.0 + x = | 8.0:kitten 2.0:kitten +:kitten x:kitten =:kitten
+EXPR: 1 | POS | INT | 12 | 6 | 6 | 8.0=(x+2.0) | 8.0 x 2.0 + = | 8.0:kitten x:kitten 2.0:kitten +:kitten =:kitten
+EXPR: 0 | POS | INT | 12 | 6 | 4 | (8.0/x)=2.0 | 8.0 x / 2.0 = | 8.0:UK x:kitten /:UK 2.0:UK =:UK
+EXPR: 0 | POS | INT | 12 | 6 | 4 | (2.0*x)=8.0 | 2.0 x * 8.0 = | 2.0:UK x:kitten *:kitten 8.0:kitten =:kitten
+EXPR: 0 | POS | INT | 12 | 6 | 10 | 8.0=(x-2.0) | 8.0 x 2.0 - = | 8.0:kitten x:kitten 2.0:kitten -:kitten =:kitten
+EXPR: 1 | POS | INT | 12 | 6 | 6 | 8.0=(2.0+x) | 8.0 2.0 x + = | 8.0:kitten 2.0:kitten x:kitten +:kitten =:kitten
+EXPR: 0 | POS | INT | 12 | 6 | 10 | (x-8.0)=2.0 | x 8.0 - 2.0 = | x:kitten 8.0:kitten -:kitten 2.0:kitten =:kitten
+EXPR: 1 | POS | INT | 12 | 6 | 6 | (8.0-x)=2.0 | 8.0 x - 2.0 = | 8.0:kitten x:kitten -:kitten 2.0:kitten =:kitten
+EXPR: 0 | POS | INT | 12 | 6 | 16 | (x/8.0)=2.0 | x 8.0 / 2.0 = | x:UK 8.0:kitten /:UK 2.0:UK =:UK
+EXPR: 0 | POS | INT | 12 | 6 | 16 | (x/2.0)=8.0 | x 2.0 / 8.0 = | x:kitten 2.0:UK /:kitten 8.0:kitten =:kitten
+EXPR: 0 | POS | INT | 12 | 6 | 4 | (x*2.0)=8.0 | x 2.0 * 8.0 = | x:kitten 2.0:UK *:kitten 8.0:kitten =:kitten
+EXPR: 1 | POS | INT | 22 | 6 | 6 | (x+2.0)=8.0 | x 2.0 + 8.0 = | x:kitten 2.0:kitten +:kitten 8.0:kitten =:kitten
+EXPR: 0 | POS | INT | 22 | 6 | 4 | 2.0=(8.0/x) | 2.0 8.0 x / = | 2.0:UK 8.0:UK x:kitten /:UK =:UK
+EXPR: 1 | POS | INT | 22 | 6 | 6 | (2.0+x)=8.0 | 2.0 x + 8.0 = | 2.0:kitten x:kitten +:kitten 8.0:kitten =:kitten
+EXPR: 0 | POS | INT | 22 | 6 | 10 | 2.0=(x-8.0) | 2.0 x 8.0 - = | 2.0:kitten x:kitten 8.0:kitten -:kitten =:kitten
+EXPR: 0 | POS | INT | 22 | 6 | 16 | 2.0=(x/8.0) | 2.0 x 8.0 / = | 2.0:UK x:UK 8.0:kitten /:UK =:UK
+EXPR: 1 | POS | INT | 22 | 6 | 6 | 2.0=(8.0-x) | 2.0 8.0 x - = | 2.0:kitten 8.0:kitten x:kitten -:kitten =:kitten
+EXPR: 0 | POS | INT | 22 | 6 | 10 | (x-2.0)=8.0 | x 2.0 - 8.0 = | x:kitten 2.0:kitten -:kitten 8.0:kitten =:kitten
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

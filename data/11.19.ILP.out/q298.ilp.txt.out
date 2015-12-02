@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 10 | 0.8 | 0.12 | x=(0.6*0.2) | x 0.6 0.2 * = | x:UK 0.6:UK 0.2:UK *:UK =:UK
+EXPR: 0 | POS | FRA | 10 | 0.8 | 0.12 | (0.6*0.2)=x | 0.6 0.2 * x = | 0.6:budget 0.2:UK *:budget x:budget =:budget
+EXPR: 0 | POS | INT | 10 | 0.8 | 3 | (0.6/0.2)=x | 0.6 0.2 / x = | 0.6:UK 0.2:UK /:UK x:UK =:UK
+EXPR: 0 | POS | INT | 10 | 0.8 | 3 | x=(0.6/0.2) | x 0.6 0.2 / = | x:budget 0.6:budget 0.2:UK /:budget =:budget
+EXPR: 0 | POS | INT | 12 | 0.8 | 3 | 0.6=(x*0.2) | 0.6 x 0.2 * = | 0.6:UK x:UK 0.2:UK *:UK =:UK
+EXPR: 0 | POS | FRA | 12 | 0.8 | 0.12 | 0.6=(x/0.2) | 0.6 x 0.2 / = | 0.6:UK x:UK 0.2:UK /:UK =:UK
+EXPR: 0 | POS | INT | 12 | 0.8 | 3 | 0.6=(0.2*x) | 0.6 0.2 x * = | 0.6:UK 0.2:UK x:UK *:UK =:UK
+EXPR: 0 | POS | FRA | 12 | 0.8 | 0.333333333333333 | (0.6*x)=0.2 | 0.6 x * 0.2 = | 0.6:budget x:UK *:budget 0.2:budget =:budget
+EXPR: 0 | POS | INT | 12 | 0.8 | 3 | (0.6/x)=0.2 | 0.6 x / 0.2 = | 0.6:budget x:UK /:budget 0.2:budget =:budget
+EXPR: 0 | POS | FRA | 12 | 0.8 | 0.12 | (x/0.6)=0.2 | x 0.6 / 0.2 = | x:UK 0.6:budget /:UK 0.2:UK =:UK
+EXPR: 0 | POS | FRA | 12 | 0.8 | 0.333333333333333 | (x*0.6)=0.2 | x 0.6 * 0.2 = | x:UK 0.6:budget *:UK 0.2:UK =:UK
+EXPR: 0 | POS | FRA | 12 | 0.8 | 0.333333333333333 | 0.6=(0.2/x) | 0.6 0.2 x / = | 0.6:budget 0.2:budget x:UK /:budget =:budget
+EXPR: 1 | POS | FRA | 20 | 0.8 | 0.8 | (0.6+0.2)=x | 0.6 0.2 + x = | 0.6:budget 0.2:budget +:budget x:budget =:budget
+EXPR: 1 | POS | FRA | 20 | 0.8 | 0.8 | x=(0.6+0.2) | x 0.6 0.2 + = | x:UK 0.6:UK 0.2:UK +:UK =:UK
+EXPR: 0 | POS | FRA | 20 | 0.8 | 0.4 | (0.6-0.2)=x | 0.6 0.2 - x = | 0.6:budget 0.2:budget -:budget x:budget =:budget
+EXPR: 0 | POS | FRA | 20 | 0.8 | 0.4 | x=(0.6-0.2) | x 0.6 0.2 - = | x:UK 0.6:UK 0.2:UK -:UK =:UK
+EXPR: 0 | POS | FRA | 20 | 0.8 | 0.333333333333333 | (0.2/0.6)=x | 0.2 0.6 / x = | 0.2:UK 0.6:budget /:UK x:UK =:UK
+EXPR: 0 | POS | FRA | 20 | 0.8 | 0.333333333333333 | x=(0.2/0.6) | x 0.2 0.6 / = | x:UK 0.2:UK 0.6:budget /:UK =:UK
+EXPR: 1 | POS | FRA | 22 | 0.8 | 0.8 | (x-0.6)=0.2 | x 0.6 - 0.2 = | x:UK 0.6:UK -:UK 0.2:UK =:UK
+EXPR: 0 | POS | INT | 22 | 0.8 | 3 | (x*0.2)=0.6 | x 0.2 * 0.6 = | x:UK 0.2:UK *:UK 0.6:UK =:UK
+EXPR: 0 | POS | INT | 22 | 0.8 | 3 | (0.2*x)=0.6 | 0.2 x * 0.6 = | 0.2:budget x:UK *:budget 0.6:budget =:budget
+EXPR: 0 | POS | FRA | 22 | 0.8 | 0.12 | 0.2=(x/0.6) | 0.2 x 0.6 / = | 0.2:UK x:UK 0.6:budget /:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 0.8 | 0.333333333333333 | (0.2/x)=0.6 | 0.2 x / 0.6 = | 0.2:budget x:UK /:budget 0.6:budget =:budget
+EXPR: 0 | POS | FRA | 22 | 0.8 | 0.4 | 0.6=(0.2+x) | 0.6 0.2 x + = | 0.6:UK 0.2:UK x:UK +:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 0.8 | 0.4 | (0.6-x)=0.2 | 0.6 x - 0.2 = | 0.6:UK x:UK -:UK 0.2:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 0.8 | 0.333333333333333 | 0.2=(x*0.6) | 0.2 x 0.6 * = | 0.2:UK x:UK 0.6:budget *:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 0.8 | 0.4 | 0.6=(x+0.2) | 0.6 x 0.2 + = | 0.6:UK x:UK 0.2:UK +:UK =:UK
+EXPR: 1 | POS | FRA | 22 | 0.8 | 0.8 | 0.6=(x-0.2) | 0.6 x 0.2 - = | 0.6:UK x:UK 0.2:UK -:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 0.8 | 0.333333333333333 | 0.2=(0.6*x) | 0.2 0.6 x * = | 0.2:UK 0.6:budget x:UK *:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 0.8 | 0.12 | (x/0.2)=0.6 | x 0.2 / 0.6 = | x:UK 0.2:UK /:UK 0.6:UK =:UK
+EXPR: 0 | POS | INT | 22 | 0.8 | 3 | 0.2=(0.6/x) | 0.2 0.6 x / = | 0.2:UK 0.6:UK x:UK /:UK =:UK
+EXPR: 1 | POS | FRA | 32 | 0.8 | 0.8 | (x-0.2)=0.6 | x 0.2 - 0.6 = | x:UK 0.2:UK -:UK 0.6:UK =:UK
+EXPR: 0 | POS | FRA | 32 | 0.8 | 0.4 | (0.2+x)=0.6 | 0.2 x + 0.6 = | 0.2:UK x:UK +:UK 0.6:UK =:UK
+EXPR: 0 | POS | FRA | 32 | 0.8 | 0.4 | (x+0.2)=0.6 | x 0.2 + 0.6 = | x:budget 0.2:budget +:budget 0.6:budget =:budget
+EXPR: 0 | POS | FRA | 32 | 0.8 | 0.4 | 0.2=(0.6-x) | 0.2 0.6 x - = | 0.2:UK 0.6:UK x:UK -:UK =:UK
+EXPR: 1 | POS | FRA | 32 | 0.8 | 0.8 | 0.2=(x-0.6) | 0.2 x 0.6 - = | 0.2:UK x:UK 0.6:UK -:UK =:UK
+NET 36 unique, non-negative solutions found out of 324 total solutions

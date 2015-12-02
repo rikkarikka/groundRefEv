@@ -1,0 +1,7 @@
+constants : 9.0 79.0 16.0 
+unknowns : x
+operators : + - * / =
+objtypes : book dollar UK 
+constantOrUnknownType : 0 1 1 2
+n : 7
+answer : 7.0

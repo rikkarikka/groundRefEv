@@ -1,0 +1,7 @@
+constants : 36.0 7.0 
+unknowns : x
+operators : + - * / =
+objtypes : book UK 
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 252.0

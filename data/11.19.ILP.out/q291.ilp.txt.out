@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 10 | 0.625 | 0.09375 | x=(0.375*0.25) | x 0.375 0.25 * = | x:UK 0.375:UK 0.25:UK *:UK =:UK
+EXPR: 0 | POS | FRA | 10 | 0.625 | 0.09375 | (0.375*0.25)=x | 0.375 0.25 * x = | 0.375:garment 0.25:UK *:garment x:garment =:garment
+EXPR: 0 | POS | FRA | 10 | 0.625 | 1.5 | (0.375/0.25)=x | 0.375 0.25 / x = | 0.375:UK 0.25:UK /:UK x:UK =:UK
+EXPR: 0 | POS | FRA | 10 | 0.625 | 1.5 | x=(0.375/0.25) | x 0.375 0.25 / = | x:garment 0.375:garment 0.25:UK /:garment =:garment
+EXPR: 0 | POS | FRA | 12 | 0.625 | 1.5 | 0.375=(x*0.25) | 0.375 x 0.25 * = | 0.375:UK x:UK 0.25:UK *:UK =:UK
+EXPR: 0 | POS | FRA | 12 | 0.625 | 0.09375 | 0.375=(x/0.25) | 0.375 x 0.25 / = | 0.375:UK x:UK 0.25:UK /:UK =:UK
+EXPR: 0 | POS | FRA | 12 | 0.625 | 1.5 | 0.375=(0.25*x) | 0.375 0.25 x * = | 0.375:UK 0.25:UK x:UK *:UK =:UK
+EXPR: 0 | POS | FRA | 12 | 0.625 | 0.666666666666667 | (0.375*x)=0.25 | 0.375 x * 0.25 = | 0.375:garment x:UK *:garment 0.25:garment =:garment
+EXPR: 0 | POS | FRA | 12 | 0.625 | 1.5 | (0.375/x)=0.25 | 0.375 x / 0.25 = | 0.375:garment x:UK /:garment 0.25:garment =:garment
+EXPR: 0 | POS | FRA | 12 | 0.625 | 0.09375 | (x/0.375)=0.25 | x 0.375 / 0.25 = | x:UK 0.375:garment /:UK 0.25:UK =:UK
+EXPR: 0 | POS | FRA | 12 | 0.625 | 0.666666666666667 | (x*0.375)=0.25 | x 0.375 * 0.25 = | x:UK 0.375:garment *:UK 0.25:UK =:UK
+EXPR: 0 | POS | FRA | 12 | 0.625 | 0.666666666666667 | 0.375=(0.25/x) | 0.375 0.25 x / = | 0.375:garment 0.25:garment x:UK /:garment =:garment
+EXPR: 1 | POS | FRA | 20 | 0.625 | 0.625 | (0.375+0.25)=x | 0.375 0.25 + x = | 0.375:garment 0.25:garment +:garment x:garment =:garment
+EXPR: 1 | POS | FRA | 20 | 0.625 | 0.625 | x=(0.375+0.25) | x 0.375 0.25 + = | x:UK 0.375:UK 0.25:UK +:UK =:UK
+EXPR: 0 | POS | FRA | 20 | 0.625 | 0.125 | (0.375-0.25)=x | 0.375 0.25 - x = | 0.375:garment 0.25:garment -:garment x:garment =:garment
+EXPR: 0 | POS | FRA | 20 | 0.625 | 0.125 | x=(0.375-0.25) | x 0.375 0.25 - = | x:UK 0.375:UK 0.25:UK -:UK =:UK
+EXPR: 0 | POS | FRA | 20 | 0.625 | 0.666666666666667 | (0.25/0.375)=x | 0.25 0.375 / x = | 0.25:UK 0.375:garment /:UK x:UK =:UK
+EXPR: 0 | POS | FRA | 20 | 0.625 | 0.666666666666667 | x=(0.25/0.375) | x 0.25 0.375 / = | x:UK 0.25:UK 0.375:garment /:UK =:UK
+EXPR: 1 | POS | FRA | 22 | 0.625 | 0.625 | (x-0.375)=0.25 | x 0.375 - 0.25 = | x:UK 0.375:UK -:UK 0.25:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 0.625 | 1.5 | (x*0.25)=0.375 | x 0.25 * 0.375 = | x:UK 0.25:UK *:UK 0.375:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 0.625 | 1.5 | (0.25*x)=0.375 | 0.25 x * 0.375 = | 0.25:garment x:UK *:garment 0.375:garment =:garment
+EXPR: 0 | POS | FRA | 22 | 0.625 | 0.09375 | 0.25=(x/0.375) | 0.25 x 0.375 / = | 0.25:UK x:UK 0.375:garment /:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 0.625 | 0.666666666666667 | (0.25/x)=0.375 | 0.25 x / 0.375 = | 0.25:garment x:UK /:garment 0.375:garment =:garment
+EXPR: 0 | POS | FRA | 22 | 0.625 | 0.125 | 0.375=(0.25+x) | 0.375 0.25 x + = | 0.375:UK 0.25:UK x:UK +:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 0.625 | 0.125 | (0.375-x)=0.25 | 0.375 x - 0.25 = | 0.375:UK x:UK -:UK 0.25:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 0.625 | 0.666666666666667 | 0.25=(x*0.375) | 0.25 x 0.375 * = | 0.25:UK x:UK 0.375:garment *:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 0.625 | 0.125 | 0.375=(x+0.25) | 0.375 x 0.25 + = | 0.375:UK x:UK 0.25:UK +:UK =:UK
+EXPR: 1 | POS | FRA | 22 | 0.625 | 0.625 | 0.375=(x-0.25) | 0.375 x 0.25 - = | 0.375:UK x:UK 0.25:UK -:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 0.625 | 0.666666666666667 | 0.25=(0.375*x) | 0.25 0.375 x * = | 0.25:UK 0.375:garment x:UK *:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 0.625 | 0.09375 | (x/0.25)=0.375 | x 0.25 / 0.375 = | x:UK 0.25:UK /:UK 0.375:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 0.625 | 1.5 | 0.25=(0.375/x) | 0.25 0.375 x / = | 0.25:UK 0.375:UK x:UK /:UK =:UK
+EXPR: 1 | POS | FRA | 32 | 0.625 | 0.625 | (x-0.25)=0.375 | x 0.25 - 0.375 = | x:UK 0.25:UK -:UK 0.375:UK =:UK
+EXPR: 0 | POS | FRA | 32 | 0.625 | 0.125 | (0.25+x)=0.375 | 0.25 x + 0.375 = | 0.25:UK x:UK +:UK 0.375:UK =:UK
+EXPR: 0 | POS | FRA | 32 | 0.625 | 0.125 | (x+0.25)=0.375 | x 0.25 + 0.375 = | x:garment 0.25:garment +:garment 0.375:garment =:garment
+EXPR: 0 | POS | FRA | 32 | 0.625 | 0.125 | 0.25=(0.375-x) | 0.25 0.375 x - = | 0.25:UK 0.375:UK x:UK -:UK =:UK
+EXPR: 1 | POS | FRA | 32 | 0.625 | 0.625 | 0.25=(x-0.375) | 0.25 x 0.375 - = | 0.25:UK x:UK 0.375:UK -:UK =:UK
+NET 36 unique, non-negative solutions found out of 324 total solutions

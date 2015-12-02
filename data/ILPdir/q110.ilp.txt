@@ -1,0 +1,7 @@
+constants : 615.0 15.0 
+unknowns : x
+operators : + - * / =
+objtypes : UK pack 
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 41.0

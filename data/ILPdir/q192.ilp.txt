@@ -1,0 +1,7 @@
+constants : 7.0 3.0 
+unknowns : x
+operators : + - * / =
+objtypes : crayon 
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 4.0

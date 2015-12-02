@@ -1,0 +1,7 @@
+constants : 0.6 0.2 
+unknowns : x
+operators : + - * / =
+objtypes : budget UK UK
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 0.8

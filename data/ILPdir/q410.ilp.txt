@@ -1,0 +1,7 @@
+constants : 81.0 9.0 
+unknowns : x
+operators : + - * / =
+objtypes : clip box 
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 9.0

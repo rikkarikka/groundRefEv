@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 52 | 486 | x=(162.0*3.0) | x 162.0 3.0 * = | x:UK 162.0:UK 3.0:number *:UK =:UK
+EXPR: 0 | POS | INT | 10 | 52 | 486 | (162.0*3.0)=x | 162.0 3.0 * x = | 162.0:UK 3.0:number *:UK x:UK =:UK
+EXPR: 0 | POS | INT | 10 | 52 | 54 | (162.0/3.0)=x | 162.0 3.0 / x = | 162.0:UK 3.0:number /:UK x:UK =:UK
+EXPR: 0 | POS | INT | 10 | 52 | 54 | x=(162.0/3.0) | x 162.0 3.0 / = | x:UK 162.0:UK 3.0:number /:UK =:UK
+EXPR: 0 | POS | INT | 12 | 52 | 54 | 162.0=(x*3.0) | 162.0 x 3.0 * = | 162.0:number x:UK 3.0:number *:number =:number
+EXPR: 0 | POS | INT | 12 | 52 | 486 | 162.0=(x/3.0) | 162.0 x 3.0 / = | 162.0:UK x:UK 3.0:number /:UK =:UK
+EXPR: 0 | POS | INT | 12 | 52 | 54 | 162.0=(3.0*x) | 162.0 3.0 x * = | 162.0:UK 3.0:number x:UK *:UK =:UK
+EXPR: 0 | POS | INT | 12 | 52 | 54 | (162.0/x)=3.0 | 162.0 x / 3.0 = | 162.0:UK x:UK /:UK 3.0:UK =:UK
+EXPR: 0 | POS | INT | 12 | 52 | 486 | (x/162.0)=3.0 | x 162.0 / 3.0 = | x:UK 162.0:UK /:UK 3.0:UK =:UK
+EXPR: 0 | POS | INT | 20 | 52 | 165 | (162.0+3.0)=x | 162.0 3.0 + x = | 162.0:UK 3.0:UK +:UK x:UK =:UK
+EXPR: 0 | POS | INT | 20 | 52 | 165 | x=(162.0+3.0) | x 162.0 3.0 + = | x:number 162.0:number 3.0:number +:number =:number
+EXPR: 0 | POS | INT | 20 | 52 | 159 | (162.0-3.0)=x | 162.0 3.0 - x = | 162.0:UK 3.0:UK -:UK x:UK =:UK
+EXPR: 0 | POS | INT | 20 | 52 | 159 | x=(162.0-3.0) | x 162.0 3.0 - = | x:UK 162.0:UK 3.0:UK -:UK =:UK
+EXPR: 0 | POS | INT | 22 | 52 | 165 | (x-162.0)=3.0 | x 162.0 - 3.0 = | x:number 162.0:number -:number 3.0:number =:number
+EXPR: 0 | POS | INT | 22 | 52 | 54 | (x*3.0)=162.0 | x 3.0 * 162.0 = | x:UK 3.0:number *:number 162.0:number =:number
+EXPR: 0 | POS | INT | 22 | 52 | 54 | (3.0*x)=162.0 | 3.0 x * 162.0 = | 3.0:UK x:UK *:UK 162.0:UK =:UK
+EXPR: 0 | POS | INT | 22 | 52 | 486 | 3.0=(x/162.0) | 3.0 x 162.0 / = | 3.0:UK x:UK 162.0:UK /:UK =:UK
+EXPR: 0 | POS | INT | 22 | 52 | 159 | 162.0=(3.0+x) | 162.0 3.0 x + = | 162.0:number 3.0:number x:number +:number =:number
+EXPR: 0 | POS | INT | 22 | 52 | 159 | (162.0-x)=3.0 | 162.0 x - 3.0 = | 162.0:UK x:UK -:UK 3.0:UK =:UK
+EXPR: 0 | POS | INT | 22 | 52 | 159 | 162.0=(x+3.0) | 162.0 x 3.0 + = | 162.0:UK x:UK 3.0:UK +:UK =:UK
+EXPR: 0 | POS | INT | 22 | 52 | 165 | 162.0=(x-3.0) | 162.0 x 3.0 - = | 162.0:UK x:UK 3.0:UK -:UK =:UK
+EXPR: 0 | POS | INT | 22 | 52 | 486 | (x/3.0)=162.0 | x 3.0 / 162.0 = | x:UK 3.0:number /:UK 162.0:UK =:UK
+EXPR: 0 | POS | INT | 22 | 52 | 54 | 3.0=(162.0/x) | 3.0 162.0 x / = | 3.0:number 162.0:number x:UK /:number =:number
+EXPR: 0 | POS | INT | 32 | 52 | 165 | (x-3.0)=162.0 | x 3.0 - 162.0 = | x:number 3.0:number -:number 162.0:number =:number
+EXPR: 0 | POS | INT | 32 | 52 | 159 | (3.0+x)=162.0 | 3.0 x + 162.0 = | 3.0:number x:number +:number 162.0:number =:number
+EXPR: 0 | POS | INT | 32 | 52 | 159 | (x+3.0)=162.0 | x 3.0 + 162.0 = | x:UK 3.0:UK +:UK 162.0:UK =:UK
+EXPR: 0 | POS | INT | 32 | 52 | 159 | 3.0=(162.0-x) | 3.0 162.0 x - = | 3.0:number 162.0:number x:number -:number =:number
+EXPR: 0 | POS | INT | 32 | 52 | 165 | 3.0=(x-162.0) | 3.0 x 162.0 - = | 3.0:number x:number 162.0:number -:number =:number
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

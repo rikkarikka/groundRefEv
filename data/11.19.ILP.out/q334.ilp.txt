@@ -1,0 +1,7 @@
+constants : 0.33333334 0.33333334 0.083333336 
+unknowns : x
+operators : + - * / =
+objtypes : UK ton 
+constantOrUnknownType : 0 1 1 1
+n : 7
+answer : 0.75

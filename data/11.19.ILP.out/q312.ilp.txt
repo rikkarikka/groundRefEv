@@ -1,0 +1,7 @@
+constants : 0.16666667 1.0 0.33333334 2.0 2.0 
+unknowns : x
+operators : + - * / =
+objtypes : apartment bedroom UK UK
+constantOrUnknownType : 0 1 2 1 1 3
+n : 11
+answer : 0.5

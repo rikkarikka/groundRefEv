@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 15 | 15 | x=(5.0*3.0) | x 5.0 3.0 * = | x:hour 5.0:day 3.0:hour *:hour =:hour
+EXPR: 1 | POS | INT | 0 | 15 | 15 | (5.0*3.0)=x | 5.0 3.0 * x = | 5.0:day 3.0:hour *:hour x:hour =:hour
+EXPR: 1 | POS | INT | 2 | 15 | 15 | (x/5.0)=3.0 | x 5.0 / 3.0 = | x:hour 5.0:day /:hour 3.0:hour =:hour
+EXPR: 0 | POS | INT | 10 | 15 | 8 | x=(5.0+3.0) | x 5.0 3.0 + = | x:hour 5.0:hour 3.0:hour +:hour =:hour
+EXPR: 0 | POS | INT | 10 | 15 | 8 | (5.0+3.0)=x | 5.0 3.0 + x = | 5.0:hour 3.0:hour +:hour x:hour =:hour
+EXPR: 0 | POS | INT | 10 | 15 | 2 | (5.0-3.0)=x | 5.0 3.0 - x = | 5.0:hour 3.0:hour -:hour x:hour =:hour
+EXPR: 0 | POS | INT | 10 | 15 | 2 | x=(5.0-3.0) | x 5.0 3.0 - = | x:hour 5.0:hour 3.0:hour -:hour =:hour
+EXPR: 0 | POS | INT | 12 | 15 | 2 | (5.0-x)=3.0 | 5.0 x - 3.0 = | 5.0:hour x:hour -:hour 3.0:hour =:hour
+EXPR: 0 | POS | INT | 12 | 15 | 2 | 5.0=(3.0+x) | 5.0 3.0 x + = | 5.0:hour 3.0:hour x:hour +:hour =:hour
+EXPR: 1 | POS | INT | 12 | 15 | 15 | 3.0=(x/5.0) | 3.0 x 5.0 / = | 3.0:hour x:hour 5.0:day /:hour =:hour
+EXPR: 0 | POS | INT | 12 | 15 | 8 | (x-5.0)=3.0 | x 5.0 - 3.0 = | x:hour 5.0:hour -:hour 3.0:hour =:hour
+EXPR: 0 | POS | INT | 12 | 15 | 2 | 5.0=(x+3.0) | 5.0 x 3.0 + = | 5.0:hour x:hour 3.0:hour +:hour =:hour
+EXPR: 0 | POS | INT | 12 | 15 | 8 | 5.0=(x-3.0) | 5.0 x 3.0 - = | 5.0:hour x:hour 3.0:hour -:hour =:hour
+EXPR: 1 | POS | INT | 12 | 15 | 15 | 5.0=(x/3.0) | 5.0 x 3.0 / = | 5.0:day x:day 3.0:hour /:day =:day
+EXPR: 1 | POS | INT | 22 | 15 | 15 | (x/3.0)=5.0 | x 3.0 / 5.0 = | x:day 3.0:hour /:day 5.0:day =:day
+EXPR: 0 | POS | INT | 22 | 15 | 2 | 3.0=(5.0-x) | 3.0 5.0 x - = | 3.0:hour 5.0:hour x:hour -:hour =:hour
+EXPR: 0 | POS | INT | 22 | 15 | 2 | (x+3.0)=5.0 | x 3.0 + 5.0 = | x:hour 3.0:hour +:hour 5.0:hour =:hour
+EXPR: 0 | POS | INT | 22 | 15 | 8 | (x-3.0)=5.0 | x 3.0 - 5.0 = | x:hour 3.0:hour -:hour 5.0:hour =:hour
+EXPR: 0 | POS | INT | 22 | 15 | 2 | (3.0+x)=5.0 | 3.0 x + 5.0 = | 3.0:hour x:hour +:hour 5.0:hour =:hour
+EXPR: 0 | POS | INT | 22 | 15 | 8 | 3.0=(x-5.0) | 3.0 x 5.0 - = | 3.0:hour x:hour 5.0:hour -:hour =:hour
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

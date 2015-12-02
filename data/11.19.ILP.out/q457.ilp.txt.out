@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 0.72 | 0.856 | 5.0=(4.28/x) | 5.0 4.28 x / = | 5.0:dollar 4.28:dollar x:change /:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 0.72 | 1.16822429906542 | 5.0=(x*4.28) | 5.0 x 4.28 * = | 5.0:dollar x:change 4.28:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 0.72 | 1.16822429906542 | 5.0=(4.28*x) | 5.0 4.28 x * = | 5.0:dollar 4.28:dollar x:change *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 0.72 | 0.856 | (x*5.0)=4.28 | x 5.0 * 4.28 = | x:change 5.0:dollar *:dollar 4.28:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 0.72 | 0.856 | (5.0*x)=4.28 | 5.0 x * 4.28 = | 5.0:dollar x:change *:dollar 4.28:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 0.72 | 1.16822429906542 | (5.0/x)=4.28 | 5.0 x / 4.28 = | 5.0:dollar x:change /:dollar 4.28:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 0.72 | 21.4 | (5.0*4.28)=x | 5.0 4.28 * x = | 5.0:dollar 4.28:change *:change x:change =:change
+EXPR: 0 | POS | FRA | 10 | 0.72 | 9.28 | (5.0+4.28)=x | 5.0 4.28 + x = | 5.0:dollar 4.28:dollar +:dollar x:dollar =:dollar
+EXPR: 1 | POS | FRA | 10 | 0.72 | 0.72 | x=(5.0-4.28) | x 5.0 4.28 - = | x:dollar 5.0:dollar 4.28:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 0.72 | 21.4 | x=(5.0*4.28) | x 5.0 4.28 * = | x:change 5.0:dollar 4.28:change *:change =:change
+EXPR: 0 | POS | FRA | 10 | 0.72 | 9.28 | x=(5.0+4.28) | x 5.0 4.28 + = | x:dollar 5.0:dollar 4.28:dollar +:dollar =:dollar
+EXPR: 1 | POS | FRA | 10 | 0.72 | 0.72 | (5.0-4.28)=x | 5.0 4.28 - x = | 5.0:dollar 4.28:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 0.72 | 1.16822429906542 | x=(5.0/4.28) | x 5.0 4.28 / = | x:change 5.0:change 4.28:dollar /:change =:change
+EXPR: 0 | POS | FRA | 10 | 0.72 | 1.16822429906542 | (5.0/4.28)=x | 5.0 4.28 / x = | 5.0:change 4.28:dollar /:change x:change =:change
+EXPR: 0 | POS | FRA | 12 | 0.72 | 1.16822429906542 | 4.28=(5.0/x) | 4.28 5.0 x / = | 4.28:dollar 5.0:dollar x:change /:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 0.72 | 1.16822429906542 | (x*4.28)=5.0 | x 4.28 * 5.0 = | x:change 4.28:dollar *:dollar 5.0:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 0.72 | 21.4 | 5.0=(x/4.28) | 5.0 x 4.28 / = | 5.0:change x:change 4.28:dollar /:change =:change
+EXPR: 0 | POS | FRA | 12 | 0.72 | 0.856 | 4.28=(5.0*x) | 4.28 5.0 x * = | 4.28:dollar 5.0:dollar x:change *:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 0.72 | 9.28 | 5.0=(x-4.28) | 5.0 x 4.28 - = | 5.0:dollar x:dollar 4.28:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 0.72 | 0.856 | 4.28=(x*5.0) | 4.28 x 5.0 * = | 4.28:dollar x:change 5.0:dollar *:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 0.72 | 0.72 | (5.0-x)=4.28 | 5.0 x - 4.28 = | 5.0:dollar x:dollar -:dollar 4.28:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 0.72 | 1.16822429906542 | (4.28*x)=5.0 | 4.28 x * 5.0 = | 4.28:dollar x:change *:dollar 5.0:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 0.72 | 0.856 | (4.28/x)=5.0 | 4.28 x / 5.0 = | 4.28:dollar x:change /:dollar 5.0:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 0.72 | 0.72 | 5.0=(x+4.28) | 5.0 x 4.28 + = | 5.0:dollar x:dollar 4.28:dollar +:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 0.72 | 0.72 | 5.0=(4.28+x) | 5.0 4.28 x + = | 5.0:dollar 4.28:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 0.72 | 9.28 | (x-5.0)=4.28 | x 5.0 - 4.28 = | x:dollar 5.0:dollar -:dollar 4.28:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 0.72 | 21.4 | (x/5.0)=4.28 | x 5.0 / 4.28 = | x:change 5.0:dollar /:change 4.28:change =:change
+EXPR: 0 | POS | FRA | 20 | 0.72 | 0.856 | (4.28/5.0)=x | 4.28 5.0 / x = | 4.28:change 5.0:dollar /:change x:change =:change
+EXPR: 0 | POS | FRA | 20 | 0.72 | 0.856 | x=(4.28/5.0) | x 4.28 5.0 / = | x:change 4.28:change 5.0:dollar /:change =:change
+EXPR: 0 | POS | FRA | 22 | 0.72 | 21.4 | (x/4.28)=5.0 | x 4.28 / 5.0 = | x:change 4.28:dollar /:change 5.0:change =:change
+EXPR: 0 | POS | FRA | 22 | 0.72 | 9.28 | (x-4.28)=5.0 | x 4.28 - 5.0 = | x:dollar 4.28:dollar -:dollar 5.0:dollar =:dollar
+EXPR: 1 | POS | FRA | 22 | 0.72 | 0.72 | (4.28+x)=5.0 | 4.28 x + 5.0 = | 4.28:dollar x:dollar +:dollar 5.0:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 0.72 | 9.28 | 4.28=(x-5.0) | 4.28 x 5.0 - = | 4.28:dollar x:dollar 5.0:dollar -:dollar =:dollar
+EXPR: 1 | POS | FRA | 22 | 0.72 | 0.72 | (x+4.28)=5.0 | x 4.28 + 5.0 = | x:dollar 4.28:dollar +:dollar 5.0:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 0.72 | 21.4 | 4.28=(x/5.0) | 4.28 x 5.0 / = | 4.28:change x:change 5.0:dollar /:change =:change
+EXPR: 1 | POS | FRA | 22 | 0.72 | 0.72 | 4.28=(5.0-x) | 4.28 5.0 x - = | 4.28:dollar 5.0:dollar x:dollar -:dollar =:dollar
+NET 36 unique, non-negative solutions found out of 136 total solutions

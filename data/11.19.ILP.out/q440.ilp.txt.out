@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 133 | 4080 | x=(85.0*48.0) | x 85.0 48.0 * = | x:UK 85.0:peanut 48.0:UK *:UK =:UK
+EXPR: 0 | POS | INT | 0 | 133 | 4080 | (85.0*48.0)=x | 85.0 48.0 * x = | 85.0:peanut 48.0:UK *:UK x:UK =:UK
+EXPR: 0 | POS | INT | 2 | 133 | 4080 | (x/85.0)=48.0 | x 85.0 / 48.0 = | x:UK 85.0:peanut /:UK 48.0:UK =:UK
+EXPR: 1 | POS | INT | 10 | 133 | 133 | x=(85.0+48.0) | x 85.0 48.0 + = | x:UK 85.0:UK 48.0:UK +:UK =:UK
+EXPR: 1 | POS | INT | 10 | 133 | 133 | (85.0+48.0)=x | 85.0 48.0 + x = | 85.0:UK 48.0:UK +:UK x:UK =:UK
+EXPR: 0 | POS | INT | 10 | 133 | 37 | (85.0-48.0)=x | 85.0 48.0 - x = | 85.0:UK 48.0:UK -:UK x:UK =:UK
+EXPR: 0 | POS | INT | 10 | 133 | 37 | x=(85.0-48.0) | x 85.0 48.0 - = | x:UK 85.0:UK 48.0:UK -:UK =:UK
+EXPR: 0 | POS | INT | 12 | 133 | 37 | (85.0-x)=48.0 | 85.0 x - 48.0 = | 85.0:UK x:UK -:UK 48.0:UK =:UK
+EXPR: 0 | POS | INT | 12 | 133 | 37 | 85.0=(48.0+x) | 85.0 48.0 x + = | 85.0:UK 48.0:UK x:UK +:UK =:UK
+EXPR: 0 | POS | INT | 12 | 133 | 4080 | 48.0=(x/85.0) | 48.0 x 85.0 / = | 48.0:UK x:UK 85.0:peanut /:UK =:UK
+EXPR: 1 | POS | INT | 12 | 133 | 133 | (x-85.0)=48.0 | x 85.0 - 48.0 = | x:UK 85.0:UK -:UK 48.0:UK =:UK
+EXPR: 0 | POS | INT | 12 | 133 | 37 | 85.0=(x+48.0) | 85.0 x 48.0 + = | 85.0:UK x:UK 48.0:UK +:UK =:UK
+EXPR: 1 | POS | INT | 12 | 133 | 133 | 85.0=(x-48.0) | 85.0 x 48.0 - = | 85.0:UK x:UK 48.0:UK -:UK =:UK
+EXPR: 0 | POS | INT | 12 | 133 | 4080 | 85.0=(x/48.0) | 85.0 x 48.0 / = | 85.0:peanut x:peanut 48.0:UK /:peanut =:peanut
+EXPR: 0 | POS | INT | 22 | 133 | 4080 | (x/48.0)=85.0 | x 48.0 / 85.0 = | x:peanut 48.0:UK /:peanut 85.0:peanut =:peanut
+EXPR: 0 | POS | INT | 22 | 133 | 37 | 48.0=(85.0-x) | 48.0 85.0 x - = | 48.0:UK 85.0:UK x:UK -:UK =:UK
+EXPR: 0 | POS | INT | 22 | 133 | 37 | (x+48.0)=85.0 | x 48.0 + 85.0 = | x:UK 48.0:UK +:UK 85.0:UK =:UK
+EXPR: 1 | POS | INT | 22 | 133 | 133 | (x-48.0)=85.0 | x 48.0 - 85.0 = | x:UK 48.0:UK -:UK 85.0:UK =:UK
+EXPR: 0 | POS | INT | 22 | 133 | 37 | (48.0+x)=85.0 | 48.0 x + 85.0 = | 48.0:UK x:UK +:UK 85.0:UK =:UK
+EXPR: 1 | POS | INT | 22 | 133 | 133 | 48.0=(x-85.0) | 48.0 x 85.0 - = | 48.0:UK x:UK 85.0:UK -:UK =:UK
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

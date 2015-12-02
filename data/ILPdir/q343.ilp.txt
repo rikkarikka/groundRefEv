@@ -1,0 +1,7 @@
+constants : 0.25 0.41666666 2.0 0.25 3.0 
+unknowns : x
+operators : + - * / =
+objtypes : pitcher UK 
+constantOrUnknownType : 0 0 1 1 1 0
+n : 11
+answer : 0.9166666666666666

@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 108 | 10800 | x=(540.0*20.0) | x 540.0 20.0 * = | x:pack 540.0:pack 20.0:UK *:pack =:pack
+EXPR: 0 | POS | INT | 10 | 108 | 10800 | (540.0*20.0)=x | 540.0 20.0 * x = | 540.0:card 20.0:UK *:card x:card =:card
+EXPR: 0 | POS | INT | 10 | 108 | 27 | (540.0/20.0)=x | 540.0 20.0 / x = | 540.0:pack 20.0:UK /:pack x:pack =:pack
+EXPR: 0 | POS | INT | 10 | 108 | 27 | x=(540.0/20.0) | x 540.0 20.0 / = | x:card 540.0:card 20.0:UK /:card =:card
+EXPR: 0 | POS | INT | 12 | 108 | 27 | 540.0=(x*20.0) | 540.0 x 20.0 * = | 540.0:UK x:pack 20.0:UK *:UK =:UK
+EXPR: 0 | POS | INT | 12 | 108 | 10800 | 540.0=(x/20.0) | 540.0 x 20.0 / = | 540.0:pack x:pack 20.0:UK /:pack =:pack
+EXPR: 0 | POS | INT | 12 | 108 | 27 | 540.0=(20.0*x) | 540.0 20.0 x * = | 540.0:pack 20.0:UK x:pack *:pack =:pack
+EXPR: 0 | POS | INT | 12 | 108 | 27 | (540.0/x)=20.0 | 540.0 x / 20.0 = | 540.0:card x:pack /:card 20.0:card =:card
+EXPR: 0 | POS | INT | 12 | 108 | 10800 | (x/540.0)=20.0 | x 540.0 / 20.0 = | x:pack 540.0:card /:pack 20.0:pack =:pack
+EXPR: 0 | POS | INT | 20 | 108 | 560 | (540.0+20.0)=x | 540.0 20.0 + x = | 540.0:card 20.0:card +:card x:card =:card
+EXPR: 0 | POS | INT | 20 | 108 | 560 | x=(540.0+20.0) | x 540.0 20.0 + = | x:UK 540.0:UK 20.0:UK +:UK =:UK
+EXPR: 0 | POS | INT | 20 | 108 | 520 | (540.0-20.0)=x | 540.0 20.0 - x = | 540.0:card 20.0:card -:card x:card =:card
+EXPR: 0 | POS | INT | 20 | 108 | 520 | x=(540.0-20.0) | x 540.0 20.0 - = | x:pack 540.0:pack 20.0:pack -:pack =:pack
+EXPR: 0 | POS | INT | 22 | 108 | 560 | (x-540.0)=20.0 | x 540.0 - 20.0 = | x:UK 540.0:UK -:UK 20.0:UK =:UK
+EXPR: 0 | POS | INT | 22 | 108 | 27 | (x*20.0)=540.0 | x 20.0 * 540.0 = | x:pack 20.0:UK *:UK 540.0:UK =:UK
+EXPR: 0 | POS | INT | 22 | 108 | 27 | (20.0*x)=540.0 | 20.0 x * 540.0 = | 20.0:card x:pack *:card 540.0:card =:card
+EXPR: 0 | POS | INT | 22 | 108 | 10800 | 20.0=(x/540.0) | 20.0 x 540.0 / = | 20.0:pack x:pack 540.0:card /:pack =:pack
+EXPR: 0 | POS | INT | 22 | 108 | 520 | 540.0=(20.0+x) | 540.0 20.0 x + = | 540.0:UK 20.0:UK x:UK +:UK =:UK
+EXPR: 0 | POS | INT | 22 | 108 | 520 | (540.0-x)=20.0 | 540.0 x - 20.0 = | 540.0:pack x:pack -:pack 20.0:pack =:pack
+EXPR: 0 | POS | INT | 22 | 108 | 520 | 540.0=(x+20.0) | 540.0 x 20.0 + = | 540.0:pack x:pack 20.0:pack +:pack =:pack
+EXPR: 0 | POS | INT | 22 | 108 | 560 | 540.0=(x-20.0) | 540.0 x 20.0 - = | 540.0:pack x:pack 20.0:pack -:pack =:pack
+EXPR: 0 | POS | INT | 22 | 108 | 10800 | (x/20.0)=540.0 | x 20.0 / 540.0 = | x:pack 20.0:UK /:pack 540.0:pack =:pack
+EXPR: 0 | POS | INT | 22 | 108 | 27 | 20.0=(540.0/x) | 20.0 540.0 x / = | 20.0:UK 540.0:UK x:pack /:UK =:UK
+EXPR: 0 | POS | INT | 32 | 108 | 560 | (x-20.0)=540.0 | x 20.0 - 540.0 = | x:UK 20.0:UK -:UK 540.0:UK =:UK
+EXPR: 0 | POS | INT | 32 | 108 | 520 | (20.0+x)=540.0 | 20.0 x + 540.0 = | 20.0:UK x:UK +:UK 540.0:UK =:UK
+EXPR: 0 | POS | INT | 32 | 108 | 520 | (x+20.0)=540.0 | x 20.0 + 540.0 = | x:card 20.0:card +:card 540.0:card =:card
+EXPR: 0 | POS | INT | 32 | 108 | 520 | 20.0=(540.0-x) | 20.0 540.0 x - = | 20.0:UK 540.0:UK x:UK -:UK =:UK
+EXPR: 0 | POS | INT | 32 | 108 | 560 | 20.0=(x-540.0) | 20.0 x 540.0 - = | 20.0:UK x:UK 540.0:UK -:UK =:UK
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

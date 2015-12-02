@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 2208 | 552 | x=(12.0*46.0) | x 12.0 46.0 * = | x:pencil 12.0:pencil 46.0:child *:pencil =:pencil
+EXPR: 0 | POS | INT | 0 | 2208 | 552 | (12.0*46.0)=x | 12.0 46.0 * x = | 12.0:pencil 46.0:child *:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 2208 | 552 | 12.0=(x/46.0) | 12.0 x 46.0 / = | 12.0:pencil x:pencil 46.0:child /:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 2208 | 58 | x=(12.0+46.0) | x 12.0 46.0 + = | x:pencil 12.0:pencil 46.0:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 2208 | 58 | (12.0+46.0)=x | 12.0 46.0 + x = | 12.0:pencil 46.0:pencil +:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 2208 | 58 | 12.0=(x-46.0) | 12.0 x 46.0 - = | 12.0:pencil x:pencil 46.0:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 2208 | 34 | (x+12.0)=46.0 | x 12.0 + 46.0 = | x:pencil 12.0:pencil +:pencil 46.0:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 2208 | 58 | (x-12.0)=46.0 | x 12.0 - 46.0 = | x:pencil 12.0:pencil -:pencil 46.0:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 2208 | 34 | 12.0=(46.0-x) | 12.0 46.0 x - = | 12.0:pencil 46.0:pencil x:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 2208 | 34 | (12.0+x)=46.0 | 12.0 x + 46.0 = | 12.0:pencil x:pencil +:pencil 46.0:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 2208 | 552 | (x/12.0)=46.0 | x 12.0 / 46.0 = | x:child 12.0:pencil /:child 46.0:child =:child
+EXPR: 0 | POS | INT | 12 | 2208 | 552 | (x/46.0)=12.0 | x 46.0 / 12.0 = | x:pencil 46.0:child /:pencil 12.0:pencil =:pencil
+EXPR: 0 | POS | INT | 20 | 2208 | 34 | (46.0-12.0)=x | 46.0 12.0 - x = | 46.0:pencil 12.0:pencil -:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 20 | 2208 | 34 | x=(46.0-12.0) | x 46.0 12.0 - = | x:pencil 46.0:pencil 12.0:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 22 | 2208 | 34 | 46.0=(x+12.0) | 46.0 x 12.0 + = | 46.0:pencil x:pencil 12.0:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 22 | 2208 | 34 | (46.0-x)=12.0 | 46.0 x - 12.0 = | 46.0:pencil x:pencil -:pencil 12.0:pencil =:pencil
+EXPR: 0 | POS | INT | 22 | 2208 | 58 | 46.0=(x-12.0) | 46.0 x 12.0 - = | 46.0:pencil x:pencil 12.0:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 22 | 2208 | 552 | 46.0=(x/12.0) | 46.0 x 12.0 / = | 46.0:child x:child 12.0:pencil /:child =:child
+EXPR: 0 | POS | INT | 22 | 2208 | 34 | 46.0=(12.0+x) | 46.0 12.0 x + = | 46.0:pencil 12.0:pencil x:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 22 | 2208 | 58 | (x-46.0)=12.0 | x 46.0 - 12.0 = | x:pencil 46.0:pencil -:pencil 12.0:pencil =:pencil
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

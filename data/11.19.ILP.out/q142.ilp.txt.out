@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 150 | 150 | x=(12.5*12.0) | x 12.5 12.0 * = | x:money 12.5:money 12.0:hour *:money =:money
+EXPR: 1 | POS | INT | 10 | 150 | 150 | (12.5*12.0)=x | 12.5 12.0 * x = | 12.5:dollar 12.0:hour *:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 150 | 1.04166666666667 | (12.5/12.0)=x | 12.5 12.0 / x = | 12.5:money 12.0:hour /:money x:money =:money
+EXPR: 0 | POS | FRA | 10 | 150 | 1.04166666666667 | x=(12.5/12.0) | x 12.5 12.0 / = | x:dollar 12.5:dollar 12.0:hour /:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 150 | 1.04166666666667 | 12.5=(x*12.0) | 12.5 x 12.0 * = | 12.5:hour x:money 12.0:hour *:hour =:hour
+EXPR: 1 | POS | INT | 12 | 150 | 150 | 12.5=(x/12.0) | 12.5 x 12.0 / = | 12.5:money x:money 12.0:hour /:money =:money
+EXPR: 0 | POS | FRA | 12 | 150 | 1.04166666666667 | 12.5=(12.0*x) | 12.5 12.0 x * = | 12.5:money 12.0:hour x:money *:money =:money
+EXPR: 0 | POS | FRA | 12 | 150 | 0.96 | (12.5*x)=12.0 | 12.5 x * 12.0 = | 12.5:dollar x:money *:dollar 12.0:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 150 | 1.04166666666667 | (12.5/x)=12.0 | 12.5 x / 12.0 = | 12.5:dollar x:money /:dollar 12.0:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 150 | 150 | (x/12.5)=12.0 | x 12.5 / 12.0 = | x:money 12.5:dollar /:money 12.0:money =:money
+EXPR: 0 | POS | FRA | 12 | 150 | 0.96 | (x*12.5)=12.0 | x 12.5 * 12.0 = | x:hour 12.5:dollar *:hour 12.0:hour =:hour
+EXPR: 0 | POS | FRA | 12 | 150 | 0.96 | 12.5=(12.0/x) | 12.5 12.0 x / = | 12.5:dollar 12.0:dollar x:money /:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 150 | 24.5 | (12.5+12.0)=x | 12.5 12.0 + x = | 12.5:dollar 12.0:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 150 | 24.5 | x=(12.5+12.0) | x 12.5 12.0 + = | x:hour 12.5:hour 12.0:hour +:hour =:hour
+EXPR: 0 | POS | FRA | 20 | 150 | 0.5 | (12.5-12.0)=x | 12.5 12.0 - x = | 12.5:dollar 12.0:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 150 | 0.5 | x=(12.5-12.0) | x 12.5 12.0 - = | x:money 12.5:money 12.0:money -:money =:money
+EXPR: 0 | POS | FRA | 20 | 150 | 0.96 | (12.0/12.5)=x | 12.0 12.5 / x = | 12.0:hour 12.5:dollar /:hour x:hour =:hour
+EXPR: 0 | POS | FRA | 20 | 150 | 0.96 | x=(12.0/12.5) | x 12.0 12.5 / = | x:hour 12.0:hour 12.5:dollar /:hour =:hour
+EXPR: 0 | POS | FRA | 22 | 150 | 24.5 | (x-12.5)=12.0 | x 12.5 - 12.0 = | x:hour 12.5:hour -:hour 12.0:hour =:hour
+EXPR: 0 | POS | FRA | 22 | 150 | 1.04166666666667 | (x*12.0)=12.5 | x 12.0 * 12.5 = | x:money 12.0:hour *:hour 12.5:hour =:hour
+EXPR: 0 | POS | FRA | 22 | 150 | 1.04166666666667 | (12.0*x)=12.5 | 12.0 x * 12.5 = | 12.0:dollar x:money *:dollar 12.5:dollar =:dollar
+EXPR: 1 | POS | INT | 22 | 150 | 150 | 12.0=(x/12.5) | 12.0 x 12.5 / = | 12.0:money x:money 12.5:dollar /:money =:money
+EXPR: 0 | POS | FRA | 22 | 150 | 0.96 | (12.0/x)=12.5 | 12.0 x / 12.5 = | 12.0:dollar x:money /:dollar 12.5:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 150 | 0.5 | 12.5=(12.0+x) | 12.5 12.0 x + = | 12.5:hour 12.0:hour x:hour +:hour =:hour
+EXPR: 0 | POS | FRA | 22 | 150 | 0.5 | (12.5-x)=12.0 | 12.5 x - 12.0 = | 12.5:money x:money -:money 12.0:money =:money
+EXPR: 0 | POS | FRA | 22 | 150 | 0.96 | 12.0=(x*12.5) | 12.0 x 12.5 * = | 12.0:hour x:hour 12.5:dollar *:hour =:hour
+EXPR: 0 | POS | FRA | 22 | 150 | 0.5 | 12.5=(x+12.0) | 12.5 x 12.0 + = | 12.5:money x:money 12.0:money +:money =:money
+EXPR: 0 | POS | FRA | 22 | 150 | 24.5 | 12.5=(x-12.0) | 12.5 x 12.0 - = | 12.5:money x:money 12.0:money -:money =:money
+EXPR: 0 | POS | FRA | 22 | 150 | 0.96 | 12.0=(12.5*x) | 12.0 12.5 x * = | 12.0:money 12.5:dollar x:money *:money =:money
+EXPR: 1 | POS | INT | 22 | 150 | 150 | (x/12.0)=12.5 | x 12.0 / 12.5 = | x:money 12.0:hour /:money 12.5:money =:money
+EXPR: 0 | POS | FRA | 22 | 150 | 1.04166666666667 | 12.0=(12.5/x) | 12.0 12.5 x / = | 12.0:hour 12.5:hour x:money /:hour =:hour
+EXPR: 0 | POS | FRA | 32 | 150 | 24.5 | (x-12.0)=12.5 | x 12.0 - 12.5 = | x:hour 12.0:hour -:hour 12.5:hour =:hour
+EXPR: 0 | POS | FRA | 32 | 150 | 0.5 | (12.0+x)=12.5 | 12.0 x + 12.5 = | 12.0:hour x:hour +:hour 12.5:hour =:hour
+EXPR: 0 | POS | FRA | 32 | 150 | 0.5 | (x+12.0)=12.5 | x 12.0 + 12.5 = | x:dollar 12.0:dollar +:dollar 12.5:dollar =:dollar
+EXPR: 0 | POS | FRA | 32 | 150 | 0.5 | 12.0=(12.5-x) | 12.0 12.5 x - = | 12.0:hour 12.5:hour x:hour -:hour =:hour
+EXPR: 0 | POS | FRA | 32 | 150 | 24.5 | 12.0=(x-12.5) | 12.0 x 12.5 - = | 12.0:hour x:hour 12.5:hour -:hour =:hour
+NET 36 unique, non-negative solutions found out of 324 total solutions

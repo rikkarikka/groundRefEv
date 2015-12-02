@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 10 | 1.25 | 11.25 | x=(3.75*3.0) | x 3.75 3.0 * = | x:money 3.75:money 3.0:people *:money =:money
+EXPR: 0 | POS | FRA | 10 | 1.25 | 11.25 | (3.75*3.0)=x | 3.75 3.0 * x = | 3.75:dollar 3.0:people *:dollar x:dollar =:dollar
+EXPR: 1 | POS | FRA | 10 | 1.25 | 1.25 | (3.75/3.0)=x | 3.75 3.0 / x = | 3.75:money 3.0:people /:money x:money =:money
+EXPR: 1 | POS | FRA | 10 | 1.25 | 1.25 | x=(3.75/3.0) | x 3.75 3.0 / = | x:dollar 3.75:dollar 3.0:people /:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 1.25 | 1.25 | 3.75=(x*3.0) | 3.75 x 3.0 * = | 3.75:people x:money 3.0:people *:people =:people
+EXPR: 0 | POS | FRA | 12 | 1.25 | 11.25 | 3.75=(x/3.0) | 3.75 x 3.0 / = | 3.75:money x:money 3.0:people /:money =:money
+EXPR: 1 | POS | FRA | 12 | 1.25 | 1.25 | 3.75=(3.0*x) | 3.75 3.0 x * = | 3.75:money 3.0:people x:money *:money =:money
+EXPR: 0 | POS | FRA | 12 | 1.25 | 0.8 | (3.75*x)=3.0 | 3.75 x * 3.0 = | 3.75:dollar x:money *:dollar 3.0:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 1.25 | 1.25 | (3.75/x)=3.0 | 3.75 x / 3.0 = | 3.75:dollar x:money /:dollar 3.0:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 1.25 | 11.25 | (x/3.75)=3.0 | x 3.75 / 3.0 = | x:money 3.75:dollar /:money 3.0:money =:money
+EXPR: 0 | POS | FRA | 12 | 1.25 | 0.8 | (x*3.75)=3.0 | x 3.75 * 3.0 = | x:people 3.75:dollar *:people 3.0:people =:people
+EXPR: 0 | POS | FRA | 12 | 1.25 | 0.8 | 3.75=(3.0/x) | 3.75 3.0 x / = | 3.75:dollar 3.0:dollar x:money /:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 1.25 | 6.75 | (3.75+3.0)=x | 3.75 3.0 + x = | 3.75:dollar 3.0:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 1.25 | 6.75 | x=(3.75+3.0) | x 3.75 3.0 + = | x:people 3.75:people 3.0:people +:people =:people
+EXPR: 0 | POS | FRA | 20 | 1.25 | 0.75 | (3.75-3.0)=x | 3.75 3.0 - x = | 3.75:dollar 3.0:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 1.25 | 0.75 | x=(3.75-3.0) | x 3.75 3.0 - = | x:money 3.75:money 3.0:money -:money =:money
+EXPR: 0 | POS | FRA | 20 | 1.25 | 0.8 | (3.0/3.75)=x | 3.0 3.75 / x = | 3.0:people 3.75:dollar /:people x:people =:people
+EXPR: 0 | POS | FRA | 20 | 1.25 | 0.8 | x=(3.0/3.75) | x 3.0 3.75 / = | x:people 3.0:people 3.75:dollar /:people =:people
+EXPR: 0 | POS | FRA | 22 | 1.25 | 6.75 | (x-3.75)=3.0 | x 3.75 - 3.0 = | x:people 3.75:people -:people 3.0:people =:people
+EXPR: 1 | POS | FRA | 22 | 1.25 | 1.25 | (x*3.0)=3.75 | x 3.0 * 3.75 = | x:money 3.0:people *:people 3.75:people =:people
+EXPR: 1 | POS | FRA | 22 | 1.25 | 1.25 | (3.0*x)=3.75 | 3.0 x * 3.75 = | 3.0:dollar x:money *:dollar 3.75:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 1.25 | 11.25 | 3.0=(x/3.75) | 3.0 x 3.75 / = | 3.0:money x:money 3.75:dollar /:money =:money
+EXPR: 0 | POS | FRA | 22 | 1.25 | 0.8 | (3.0/x)=3.75 | 3.0 x / 3.75 = | 3.0:dollar x:money /:dollar 3.75:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 1.25 | 0.75 | 3.75=(3.0+x) | 3.75 3.0 x + = | 3.75:people 3.0:people x:people +:people =:people
+EXPR: 0 | POS | FRA | 22 | 1.25 | 0.75 | (3.75-x)=3.0 | 3.75 x - 3.0 = | 3.75:money x:money -:money 3.0:money =:money
+EXPR: 0 | POS | FRA | 22 | 1.25 | 0.8 | 3.0=(x*3.75) | 3.0 x 3.75 * = | 3.0:people x:people 3.75:dollar *:people =:people
+EXPR: 0 | POS | FRA | 22 | 1.25 | 0.75 | 3.75=(x+3.0) | 3.75 x 3.0 + = | 3.75:money x:money 3.0:money +:money =:money
+EXPR: 0 | POS | FRA | 22 | 1.25 | 6.75 | 3.75=(x-3.0) | 3.75 x 3.0 - = | 3.75:money x:money 3.0:money -:money =:money
+EXPR: 0 | POS | FRA | 22 | 1.25 | 0.8 | 3.0=(3.75*x) | 3.0 3.75 x * = | 3.0:money 3.75:dollar x:money *:money =:money
+EXPR: 0 | POS | FRA | 22 | 1.25 | 11.25 | (x/3.0)=3.75 | x 3.0 / 3.75 = | x:money 3.0:people /:money 3.75:money =:money
+EXPR: 1 | POS | FRA | 22 | 1.25 | 1.25 | 3.0=(3.75/x) | 3.0 3.75 x / = | 3.0:people 3.75:people x:money /:people =:people
+EXPR: 0 | POS | FRA | 32 | 1.25 | 6.75 | (x-3.0)=3.75 | x 3.0 - 3.75 = | x:people 3.0:people -:people 3.75:people =:people
+EXPR: 0 | POS | FRA | 32 | 1.25 | 0.75 | (3.0+x)=3.75 | 3.0 x + 3.75 = | 3.0:people x:people +:people 3.75:people =:people
+EXPR: 0 | POS | FRA | 32 | 1.25 | 0.75 | (x+3.0)=3.75 | x 3.0 + 3.75 = | x:dollar 3.0:dollar +:dollar 3.75:dollar =:dollar
+EXPR: 0 | POS | FRA | 32 | 1.25 | 0.75 | 3.0=(3.75-x) | 3.0 3.75 x - = | 3.0:people 3.75:people x:people -:people =:people
+EXPR: 0 | POS | FRA | 32 | 1.25 | 6.75 | 3.0=(x-3.75) | 3.0 x 3.75 - = | 3.0:people x:people 3.75:people -:people =:people
+NET 36 unique, non-negative solutions found out of 324 total solutions

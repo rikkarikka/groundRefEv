@@ -1,0 +1,7 @@
+constants : 48097.0 684.0 
+unknowns : x
+operators : + - * / =
+objtypes : bushel UK 
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 48781.0

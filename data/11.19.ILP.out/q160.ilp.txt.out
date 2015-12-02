@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 45 | 45 | x=(5.0*9.0) | x 5.0 9.0 * = | x:money 5.0:money 9.0:UK *:money =:money
+EXPR: 1 | POS | INT | 10 | 45 | 45 | (5.0*9.0)=x | 5.0 9.0 * x = | 5.0:dollar 9.0:UK *:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 45 | 45 | 5.0=(x/9.0) | 5.0 x 9.0 / = | 5.0:money x:money 9.0:UK /:money =:money
+EXPR: 1 | POS | INT | 12 | 45 | 45 | (x/5.0)=9.0 | x 5.0 / 9.0 = | x:money 5.0:dollar /:money 9.0:money =:money
+EXPR: 0 | POS | INT | 20 | 45 | 14 | (5.0+9.0)=x | 5.0 9.0 + x = | 5.0:dollar 9.0:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 45 | 14 | x=(5.0+9.0) | x 5.0 9.0 + = | x:UK 5.0:UK 9.0:UK +:UK =:UK
+EXPR: 0 | POS | INT | 22 | 45 | 14 | (x-5.0)=9.0 | x 5.0 - 9.0 = | x:UK 5.0:UK -:UK 9.0:UK =:UK
+EXPR: 1 | POS | INT | 22 | 45 | 45 | 9.0=(x/5.0) | 9.0 x 5.0 / = | 9.0:money x:money 5.0:dollar /:money =:money
+EXPR: 0 | POS | INT | 22 | 45 | 4 | 5.0=(9.0-x) | 5.0 9.0 x - = | 5.0:UK 9.0:UK x:UK -:UK =:UK
+EXPR: 0 | POS | INT | 22 | 45 | 4 | (5.0+x)=9.0 | 5.0 x + 9.0 = | 5.0:money x:money +:money 9.0:money =:money
+EXPR: 0 | POS | INT | 22 | 45 | 4 | (x+5.0)=9.0 | x 5.0 + 9.0 = | x:dollar 5.0:dollar +:dollar 9.0:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 45 | 14 | 5.0=(x-9.0) | 5.0 x 9.0 - = | 5.0:money x:money 9.0:money -:money =:money
+EXPR: 1 | POS | INT | 22 | 45 | 45 | (x/9.0)=5.0 | x 9.0 / 5.0 = | x:money 9.0:UK /:money 5.0:money =:money
+EXPR: 0 | POS | INT | 30 | 45 | 4 | x=(9.0-5.0) | x 9.0 5.0 - = | x:UK 9.0:UK 5.0:UK -:UK =:UK
+EXPR: 0 | POS | INT | 30 | 45 | 4 | (9.0-5.0)=x | 9.0 5.0 - x = | 9.0:money 5.0:money -:money x:money =:money
+EXPR: 0 | POS | INT | 32 | 45 | 14 | (x-9.0)=5.0 | x 9.0 - 5.0 = | x:UK 9.0:UK -:UK 5.0:UK =:UK
+EXPR: 0 | POS | INT | 32 | 45 | 4 | (9.0-x)=5.0 | 9.0 x - 5.0 = | 9.0:UK x:UK -:UK 5.0:UK =:UK
+EXPR: 0 | POS | INT | 32 | 45 | 4 | 9.0=(5.0+x) | 9.0 5.0 x + = | 9.0:UK 5.0:UK x:UK +:UK =:UK
+EXPR: 0 | POS | INT | 32 | 45 | 4 | 9.0=(x+5.0) | 9.0 x 5.0 + = | 9.0:UK x:UK 5.0:UK +:UK =:UK
+EXPR: 0 | POS | INT | 32 | 45 | 14 | 9.0=(x-5.0) | 9.0 x 5.0 - = | 9.0:UK x:UK 5.0:UK -:UK =:UK
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

@@ -1,0 +1,6 @@
+parameters: n=3 l=1 k=1 p=5 q=2 m=7
+TOTAL 8 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 9 | 90 | x=90.0 | x 90.0 = | x:cent 90.0:cent =:cent
+EXPR: 0 | POS | INT | 10 | 9 | 90 | 90.0=x | 90.0 x = | 90.0:cent x:cent =:cent
+NET 2 unique, non-negative, integer-valued solutions found out of 8 total solutions

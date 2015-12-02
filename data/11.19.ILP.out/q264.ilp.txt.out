@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 35 | 17 | 85.0=(x*5.0) | 85.0 x 5.0 * = | 85.0:dollar x:money 5.0:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 35 | 17 | 85.0=(5.0*x) | 85.0 5.0 x * = | 85.0:dollar 5.0:dollar x:money *:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 35 | 17 | (85.0/x)=5.0 | 85.0 x / 5.0 = | 85.0:dollar x:money /:dollar 5.0:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 35 | 425 | (85.0*5.0)=x | 85.0 5.0 * x = | 85.0:dollar 5.0:money *:money x:money =:money
+EXPR: 0 | POS | INT | 10 | 35 | 90 | (85.0+5.0)=x | 85.0 5.0 + x = | 85.0:dollar 5.0:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 35 | 80 | x=(85.0-5.0) | x 85.0 5.0 - = | x:dollar 85.0:dollar 5.0:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 35 | 425 | x=(85.0*5.0) | x 85.0 5.0 * = | x:money 85.0:dollar 5.0:money *:money =:money
+EXPR: 0 | POS | INT | 10 | 35 | 90 | x=(85.0+5.0) | x 85.0 5.0 + = | x:dollar 85.0:dollar 5.0:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 35 | 80 | (85.0-5.0)=x | 85.0 5.0 - x = | 85.0:dollar 5.0:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 35 | 17 | x=(85.0/5.0) | x 85.0 5.0 / = | x:money 85.0:money 5.0:dollar /:money =:money
+EXPR: 0 | POS | INT | 10 | 35 | 17 | (85.0/5.0)=x | 85.0 5.0 / x = | 85.0:money 5.0:dollar /:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 35 | 17 | 5.0=(85.0/x) | 5.0 85.0 x / = | 5.0:dollar 85.0:dollar x:money /:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 35 | 17 | (x*5.0)=85.0 | x 5.0 * 85.0 = | x:money 5.0:dollar *:dollar 85.0:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 35 | 425 | 85.0=(x/5.0) | 85.0 x 5.0 / = | 85.0:money x:money 5.0:dollar /:money =:money
+EXPR: 0 | POS | INT | 12 | 35 | 90 | 85.0=(x-5.0) | 85.0 x 5.0 - = | 85.0:dollar x:dollar 5.0:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 35 | 80 | (85.0-x)=5.0 | 85.0 x - 5.0 = | 85.0:dollar x:dollar -:dollar 5.0:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 35 | 17 | (5.0*x)=85.0 | 5.0 x * 85.0 = | 5.0:dollar x:money *:dollar 85.0:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 35 | 80 | 85.0=(x+5.0) | 85.0 x 5.0 + = | 85.0:dollar x:dollar 5.0:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 35 | 80 | 85.0=(5.0+x) | 85.0 5.0 x + = | 85.0:dollar 5.0:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 35 | 90 | (x-85.0)=5.0 | x 85.0 - 5.0 = | x:dollar 85.0:dollar -:dollar 5.0:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 35 | 425 | (x/85.0)=5.0 | x 85.0 / 5.0 = | x:money 85.0:dollar /:money 5.0:money =:money
+EXPR: 0 | POS | INT | 22 | 35 | 425 | (x/5.0)=85.0 | x 5.0 / 85.0 = | x:money 5.0:dollar /:money 85.0:money =:money
+EXPR: 0 | POS | INT | 22 | 35 | 90 | (x-5.0)=85.0 | x 5.0 - 85.0 = | x:dollar 5.0:dollar -:dollar 85.0:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 35 | 80 | (5.0+x)=85.0 | 5.0 x + 85.0 = | 5.0:dollar x:dollar +:dollar 85.0:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 35 | 90 | 5.0=(x-85.0) | 5.0 x 85.0 - = | 5.0:dollar x:dollar 85.0:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 35 | 80 | (x+5.0)=85.0 | x 5.0 + 85.0 = | x:dollar 5.0:dollar +:dollar 85.0:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 35 | 425 | 5.0=(x/85.0) | 5.0 x 85.0 / = | 5.0:money x:money 85.0:dollar /:money =:money
+EXPR: 0 | POS | INT | 22 | 35 | 80 | 5.0=(85.0-x) | 5.0 85.0 x - = | 5.0:dollar 85.0:dollar x:dollar -:dollar =:dollar
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

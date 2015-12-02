@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 43 | 1890 | x=(70.0*27.0) | x 70.0 27.0 * = | x:seashell 70.0:seashell 27.0:UK *:seashell =:seashell
+EXPR: 0 | POS | INT | 0 | 43 | 1890 | (70.0*27.0)=x | 70.0 27.0 * x = | 70.0:seashell 27.0:UK *:seashell x:seashell =:seashell
+EXPR: 0 | POS | INT | 2 | 43 | 1890 | 70.0=(x/27.0) | 70.0 x 27.0 / = | 70.0:seashell x:seashell 27.0:UK /:seashell =:seashell
+EXPR: 1 | POS | INT | 10 | 43 | 43 | (70.0-27.0)=x | 70.0 27.0 - x = | 70.0:seashell 27.0:seashell -:seashell x:seashell =:seashell
+EXPR: 0 | POS | INT | 10 | 43 | 97 | x=(70.0+27.0) | x 70.0 27.0 + = | x:seashell 70.0:seashell 27.0:seashell +:seashell =:seashell
+EXPR: 1 | POS | INT | 10 | 43 | 43 | x=(70.0-27.0) | x 70.0 27.0 - = | x:seashell 70.0:seashell 27.0:seashell -:seashell =:seashell
+EXPR: 0 | POS | INT | 10 | 43 | 97 | (70.0+27.0)=x | 70.0 27.0 + x = | 70.0:seashell 27.0:seashell +:seashell x:seashell =:seashell
+EXPR: 1 | POS | INT | 12 | 43 | 43 | 70.0=(x+27.0) | 70.0 x 27.0 + = | 70.0:seashell x:seashell 27.0:seashell +:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 43 | 97 | 70.0=(x-27.0) | 70.0 x 27.0 - = | 70.0:seashell x:seashell 27.0:seashell -:seashell =:seashell
+EXPR: 1 | POS | INT | 12 | 43 | 43 | 70.0=(27.0+x) | 70.0 27.0 x + = | 70.0:seashell 27.0:seashell x:seashell +:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 43 | 97 | (x-70.0)=27.0 | x 70.0 - 27.0 = | x:seashell 70.0:seashell -:seashell 27.0:seashell =:seashell
+EXPR: 1 | POS | INT | 12 | 43 | 43 | (70.0-x)=27.0 | 70.0 x - 27.0 = | 70.0:seashell x:seashell -:seashell 27.0:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 43 | 1890 | (x/70.0)=27.0 | x 70.0 / 27.0 = | x:UK 70.0:seashell /:UK 27.0:UK =:UK
+EXPR: 0 | POS | INT | 12 | 43 | 1890 | (x/27.0)=70.0 | x 27.0 / 70.0 = | x:seashell 27.0:UK /:seashell 70.0:seashell =:seashell
+EXPR: 1 | POS | INT | 22 | 43 | 43 | (x+27.0)=70.0 | x 27.0 + 70.0 = | x:seashell 27.0:seashell +:seashell 70.0:seashell =:seashell
+EXPR: 1 | POS | INT | 22 | 43 | 43 | (27.0+x)=70.0 | 27.0 x + 70.0 = | 27.0:seashell x:seashell +:seashell 70.0:seashell =:seashell
+EXPR: 0 | POS | INT | 22 | 43 | 97 | 27.0=(x-70.0) | 27.0 x 70.0 - = | 27.0:seashell x:seashell 70.0:seashell -:seashell =:seashell
+EXPR: 0 | POS | INT | 22 | 43 | 1890 | 27.0=(x/70.0) | 27.0 x 70.0 / = | 27.0:UK x:UK 70.0:seashell /:UK =:UK
+EXPR: 1 | POS | INT | 22 | 43 | 43 | 27.0=(70.0-x) | 27.0 70.0 x - = | 27.0:seashell 70.0:seashell x:seashell -:seashell =:seashell
+EXPR: 0 | POS | INT | 22 | 43 | 97 | (x-27.0)=70.0 | x 27.0 - 70.0 = | x:seashell 27.0:seashell -:seashell 70.0:seashell =:seashell
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 1035 | 1035 | x=(23.0*45.0) | x 23.0 45.0 * = | x:pound 23.0:pound 45.0:UK *:pound =:pound
+EXPR: 1 | POS | INT | 0 | 1035 | 1035 | (23.0*45.0)=x | 23.0 45.0 * x = | 23.0:pound 45.0:UK *:pound x:pound =:pound
+EXPR: 1 | POS | INT | 2 | 1035 | 1035 | 23.0=(x/45.0) | 23.0 x 45.0 / = | 23.0:pound x:pound 45.0:UK /:pound =:pound
+EXPR: 0 | POS | INT | 10 | 1035 | 68 | x=(23.0+45.0) | x 23.0 45.0 + = | x:pound 23.0:pound 45.0:pound +:pound =:pound
+EXPR: 0 | POS | INT | 10 | 1035 | 68 | (23.0+45.0)=x | 23.0 45.0 + x = | 23.0:pound 45.0:pound +:pound x:pound =:pound
+EXPR: 0 | POS | INT | 12 | 1035 | 68 | 23.0=(x-45.0) | 23.0 x 45.0 - = | 23.0:pound x:pound 45.0:pound -:pound =:pound
+EXPR: 0 | POS | INT | 12 | 1035 | 22 | (x+23.0)=45.0 | x 23.0 + 45.0 = | x:pound 23.0:pound +:pound 45.0:pound =:pound
+EXPR: 0 | POS | INT | 12 | 1035 | 68 | (x-23.0)=45.0 | x 23.0 - 45.0 = | x:pound 23.0:pound -:pound 45.0:pound =:pound
+EXPR: 0 | POS | INT | 12 | 1035 | 22 | 23.0=(45.0-x) | 23.0 45.0 x - = | 23.0:pound 45.0:pound x:pound -:pound =:pound
+EXPR: 0 | POS | INT | 12 | 1035 | 22 | (23.0+x)=45.0 | 23.0 x + 45.0 = | 23.0:pound x:pound +:pound 45.0:pound =:pound
+EXPR: 1 | POS | INT | 12 | 1035 | 1035 | (x/23.0)=45.0 | x 23.0 / 45.0 = | x:UK 23.0:pound /:UK 45.0:UK =:UK
+EXPR: 1 | POS | INT | 12 | 1035 | 1035 | (x/45.0)=23.0 | x 45.0 / 23.0 = | x:pound 45.0:UK /:pound 23.0:pound =:pound
+EXPR: 0 | POS | INT | 20 | 1035 | 22 | (45.0-23.0)=x | 45.0 23.0 - x = | 45.0:pound 23.0:pound -:pound x:pound =:pound
+EXPR: 0 | POS | INT | 20 | 1035 | 22 | x=(45.0-23.0) | x 45.0 23.0 - = | x:pound 45.0:pound 23.0:pound -:pound =:pound
+EXPR: 0 | POS | INT | 22 | 1035 | 22 | 45.0=(x+23.0) | 45.0 x 23.0 + = | 45.0:pound x:pound 23.0:pound +:pound =:pound
+EXPR: 0 | POS | INT | 22 | 1035 | 22 | (45.0-x)=23.0 | 45.0 x - 23.0 = | 45.0:pound x:pound -:pound 23.0:pound =:pound
+EXPR: 0 | POS | INT | 22 | 1035 | 68 | 45.0=(x-23.0) | 45.0 x 23.0 - = | 45.0:pound x:pound 23.0:pound -:pound =:pound
+EXPR: 1 | POS | INT | 22 | 1035 | 1035 | 45.0=(x/23.0) | 45.0 x 23.0 / = | 45.0:UK x:UK 23.0:pound /:UK =:UK
+EXPR: 0 | POS | INT | 22 | 1035 | 22 | 45.0=(23.0+x) | 45.0 23.0 x + = | 45.0:pound 23.0:pound x:pound +:pound =:pound
+EXPR: 0 | POS | INT | 22 | 1035 | 68 | (x-45.0)=23.0 | x 45.0 - 23.0 = | x:pound 45.0:pound -:pound 23.0:pound =:pound
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,7 @@
+constants : 0.083333336 0.75 0.083333336 
+unknowns : x
+operators : + - * / =
+objtypes : tart 
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 0.9166666666666666

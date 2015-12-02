@@ -1,0 +1,7 @@
+constants : 12.0 
+unknowns : x
+operators : + - * / =
+objtypes : quarter money 
+constantOrUnknownType : 0 1
+n : 3
+answer : 3.0

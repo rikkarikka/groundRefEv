@@ -1,0 +1,58 @@
+SENT: Freeport McMoran projects the world grain supply will be 1800000 metric tons and the supply will be only 0.75 of the world grain demand.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:16> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ compound_rel<0:16> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<0:8> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ named_rel<0:8> LBL: h13 CARG: "Freeport" ARG0: x9 ]
+ [ named_rel<9:16> LBL: h7 CARG: "McMoran" ARG0: x3 ]
+ [ "_project_v_1_rel"<17:25> LBL: h1 ARG0: e2 ARG1: x3 ARG2: h16 ]
+ [ _the_q_rel<26:29> LBL: h17 ARG0: x18 [ x PERS: 3 NUM: sg ] RSTR: h19 BODY: h20 ]
+ [ compound_rel<30:48> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x18 ARG2: x23 [ x IND: + ] ]
+ [ udef_q_rel<30:35> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ "_world_n_of_rel"<30:35> LBL: h27 ARG0: x23 ARG1: i28 ]
+ [ compound_rel<36:48> LBL: h21 ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x18 ARG2: x30 ]
+ [ udef_q_rel<36:41> LBL: h31 ARG0: x30 RSTR: h32 BODY: h33 ]
+ [ "_grain_n_1_rel"<36:41> LBL: h34 ARG0: x30 ]
+ [ "_supply_n_1_rel"<42:48> LBL: h21 ARG0: x18 ]
+ [ _be_v_id_rel<54:56> LBL: h35 ARG0: e36 [ e SF: prop TENSE: fut MOOD: indicative PROG: - PERF: - ] ARG1: x18 ARG2: x37 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<57:64> LBL: h38 ARG0: x37 RSTR: h39 BODY: h40 ]
+ [ card_rel<57:64> LBL: h41 CARG: "1800000" ARG0: e43 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x37 ]
+ [ "_metric_a_1_rel"<65:71> LBL: h41 ARG0: e44 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x37 ]
+ [ "_ton_n_1_rel"<72:76> LBL: h41 ARG0: x37 ]
+ [ _and_c_rel<77:80> LBL: h45 ARG0: e46 [ e SF: prop TENSE: fut MOOD: indicative PROG: - PERF: - ] L-INDEX: e36 R-INDEX: e47 [ e SF: prop TENSE: fut MOOD: indicative PROG: - PERF: - ] L-HNDL: h48 R-HNDL: h49 ]
+ [ _the_q_rel<81:84> LBL: h50 ARG0: x51 [ x PERS: 3 NUM: sg ] RSTR: h52 BODY: h53 ]
+ [ "_supply_n_1_rel"<85:91> LBL: h54 ARG0: x51 ]
+ [ _be_v_id_rel<97:99> LBL: h55 ARG0: e47 ARG1: x51 ARG2: x56 [ x PERS: 3 NUM: pl ] ]
+ [ "_only_x_deg_rel"<100:104> LBL: h57 ARG0: e58 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: u59 ]
+ [ part_of_rel<105:109> LBL: h60 ARG0: x56 ARG1: x61 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<105:109> LBL: h57 ARG0: x56 RSTR: h62 BODY: h63 ]
+ [ card_rel<105:109> LBL: h60 CARG: "0.75" ARG0: e65 [ e SF: prop ] ARG1: x56 ]
+ [ _the_q_rel<113:116> LBL: h66 ARG0: x61 RSTR: h67 BODY: h68 ]
+ [ compound_rel<117:136> LBL: h69 ARG0: e70 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x61 ARG2: x71 ]
+ [ udef_q_rel<117:128> LBL: h72 ARG0: x71 RSTR: h73 BODY: h74 ]
+ [ compound_rel<117:128> LBL: h75 ARG0: e76 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x71 ARG2: x77 [ x IND: + ] ]
+ [ udef_q_rel<117:122> LBL: h78 ARG0: x77 RSTR: h79 BODY: h80 ]
+ [ "_world_n_of_rel"<117:122> LBL: h81 ARG0: x77 ARG1: i82 ]
+ [ "_grain_n_1_rel"<123:128> LBL: h75 ARG0: x71 ]
+ [ "_demand_n_1_rel"<129:136> LBL: h69 ARG0: x61 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h16 qeq h45 h48 qeq h35 h19 qeq h21 h25 qeq h27 h32 qeq h34 h39 qeq h41 h49 qeq h55 h52 qeq h54 h62 qeq h60 h67 qeq h69 h73 qeq h75 h79 qeq h81 > ]
+
+
+SENT: What will the world grain demand be?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: fut MOOD: indicative PROG: - PERF: - ]
+RELS: < [ thing_rel<0:4> LBL: h4 ARG0: x5 ]
+ [ which_q_rel<0:4> LBL: h6 ARG0: x5 RSTR: h7 BODY: h8 ]
+ [ _the_q_rel<10:13> LBL: h9 ARG0: x3 [ x PERS: 3 NUM: sg ] RSTR: h10 BODY: h11 ]
+ [ compound_rel<14:32> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x14 ]
+ [ udef_q_rel<14:25> LBL: h15 ARG0: x14 RSTR: h16 BODY: h17 ]
+ [ compound_rel<14:25> LBL: h18 ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x14 ARG2: x20 [ x IND: + ] ]
+ [ udef_q_rel<14:19> LBL: h21 ARG0: x20 RSTR: h22 BODY: h23 ]
+ [ "_world_n_of_rel"<14:19> LBL: h24 ARG0: x20 ARG1: i25 ]
+ [ "_grain_n_1_rel"<20:25> LBL: h18 ARG0: x14 ]
+ [ "_demand_n_1_rel"<26:32> LBL: h12 ARG0: x3 ]
+ [ _be_v_id_rel<33:36> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ] >
+HCONS: < h0 qeq h1 h7 qeq h4 h10 qeq h12 h16 qeq h18 h22 qeq h24 > ]
+
+

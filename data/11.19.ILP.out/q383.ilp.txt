@@ -1,0 +1,7 @@
+constants : 2.0 4.0 8.7 2.0 
+unknowns : x
+operators : + - * / =
+objtypes : pumpkin pound UK 
+constantOrUnknownType : 0 1 1 0 2
+n : 9
+answer : 12.7

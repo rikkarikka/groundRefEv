@@ -1,0 +1,7 @@
+constants : 4.45 6.06 4.0 
+unknowns : x
+operators : + - * / =
+objtypes : dollar pack UK 
+constantOrUnknownType : 0 0 1 2
+n : 7
+answer : 23.86

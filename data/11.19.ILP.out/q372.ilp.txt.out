@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 0.46 | 0.432098765432099 | 0.81=(0.35/x) | 0.81 0.35 x / = | 0.81:inch 0.35:inch x:UK /:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 0.46 | 2.31428571428571 | 0.81=(x*0.35) | 0.81 x 0.35 * = | 0.81:inch x:UK 0.35:inch *:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 0.46 | 2.31428571428571 | 0.81=(0.35*x) | 0.81 0.35 x * = | 0.81:inch 0.35:inch x:UK *:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 0.46 | 0.432098765432099 | (x*0.81)=0.35 | x 0.81 * 0.35 = | x:UK 0.81:inch *:inch 0.35:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 0.46 | 0.432098765432099 | (0.81*x)=0.35 | 0.81 x * 0.35 = | 0.81:inch x:UK *:inch 0.35:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 0.46 | 2.31428571428571 | (0.81/x)=0.35 | 0.81 x / 0.35 = | 0.81:inch x:UK /:inch 0.35:inch =:inch
+EXPR: 0 | POS | FRA | 10 | 0.46 | 0.2835 | (0.81*0.35)=x | 0.81 0.35 * x = | 0.81:inch 0.35:UK *:UK x:UK =:UK
+EXPR: 0 | POS | FRA | 10 | 0.46 | 1.16 | (0.81+0.35)=x | 0.81 0.35 + x = | 0.81:inch 0.35:inch +:inch x:inch =:inch
+EXPR: 1 | POS | FRA | 10 | 0.46 | 0.46 | x=(0.81-0.35) | x 0.81 0.35 - = | x:inch 0.81:inch 0.35:inch -:inch =:inch
+EXPR: 0 | POS | FRA | 10 | 0.46 | 0.2835 | x=(0.81*0.35) | x 0.81 0.35 * = | x:UK 0.81:inch 0.35:UK *:UK =:UK
+EXPR: 0 | POS | FRA | 10 | 0.46 | 1.16 | x=(0.81+0.35) | x 0.81 0.35 + = | x:inch 0.81:inch 0.35:inch +:inch =:inch
+EXPR: 1 | POS | FRA | 10 | 0.46 | 0.46 | (0.81-0.35)=x | 0.81 0.35 - x = | 0.81:inch 0.35:inch -:inch x:inch =:inch
+EXPR: 0 | POS | FRA | 10 | 0.46 | 2.31428571428571 | x=(0.81/0.35) | x 0.81 0.35 / = | x:UK 0.81:UK 0.35:inch /:UK =:UK
+EXPR: 0 | POS | FRA | 10 | 0.46 | 2.31428571428571 | (0.81/0.35)=x | 0.81 0.35 / x = | 0.81:UK 0.35:inch /:UK x:UK =:UK
+EXPR: 0 | POS | FRA | 12 | 0.46 | 2.31428571428571 | 0.35=(0.81/x) | 0.35 0.81 x / = | 0.35:inch 0.81:inch x:UK /:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.46 | 2.31428571428571 | (x*0.35)=0.81 | x 0.35 * 0.81 = | x:UK 0.35:inch *:inch 0.81:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.46 | 0.2835 | 0.81=(x/0.35) | 0.81 x 0.35 / = | 0.81:UK x:UK 0.35:inch /:UK =:UK
+EXPR: 0 | POS | FRA | 12 | 0.46 | 0.432098765432099 | 0.35=(0.81*x) | 0.35 0.81 x * = | 0.35:inch 0.81:inch x:UK *:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.46 | 1.16 | 0.81=(x-0.35) | 0.81 x 0.35 - = | 0.81:inch x:inch 0.35:inch -:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.46 | 0.432098765432099 | 0.35=(x*0.81) | 0.35 x 0.81 * = | 0.35:inch x:UK 0.81:inch *:inch =:inch
+EXPR: 1 | POS | FRA | 12 | 0.46 | 0.46 | (0.81-x)=0.35 | 0.81 x - 0.35 = | 0.81:inch x:inch -:inch 0.35:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.46 | 2.31428571428571 | (0.35*x)=0.81 | 0.35 x * 0.81 = | 0.35:inch x:UK *:inch 0.81:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.46 | 0.432098765432099 | (0.35/x)=0.81 | 0.35 x / 0.81 = | 0.35:inch x:UK /:inch 0.81:inch =:inch
+EXPR: 1 | POS | FRA | 12 | 0.46 | 0.46 | 0.81=(x+0.35) | 0.81 x 0.35 + = | 0.81:inch x:inch 0.35:inch +:inch =:inch
+EXPR: 1 | POS | FRA | 12 | 0.46 | 0.46 | 0.81=(0.35+x) | 0.81 0.35 x + = | 0.81:inch 0.35:inch x:inch +:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.46 | 1.16 | (x-0.81)=0.35 | x 0.81 - 0.35 = | x:inch 0.81:inch -:inch 0.35:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.46 | 0.2835 | (x/0.81)=0.35 | x 0.81 / 0.35 = | x:UK 0.81:inch /:UK 0.35:UK =:UK
+EXPR: 0 | POS | FRA | 20 | 0.46 | 0.432098765432099 | (0.35/0.81)=x | 0.35 0.81 / x = | 0.35:UK 0.81:inch /:UK x:UK =:UK
+EXPR: 0 | POS | FRA | 20 | 0.46 | 0.432098765432099 | x=(0.35/0.81) | x 0.35 0.81 / = | x:UK 0.35:UK 0.81:inch /:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 0.46 | 0.2835 | (x/0.35)=0.81 | x 0.35 / 0.81 = | x:UK 0.35:inch /:UK 0.81:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 0.46 | 1.16 | (x-0.35)=0.81 | x 0.35 - 0.81 = | x:inch 0.35:inch -:inch 0.81:inch =:inch
+EXPR: 1 | POS | FRA | 22 | 0.46 | 0.46 | (0.35+x)=0.81 | 0.35 x + 0.81 = | 0.35:inch x:inch +:inch 0.81:inch =:inch
+EXPR: 0 | POS | FRA | 22 | 0.46 | 1.16 | 0.35=(x-0.81) | 0.35 x 0.81 - = | 0.35:inch x:inch 0.81:inch -:inch =:inch
+EXPR: 1 | POS | FRA | 22 | 0.46 | 0.46 | (x+0.35)=0.81 | x 0.35 + 0.81 = | x:inch 0.35:inch +:inch 0.81:inch =:inch
+EXPR: 0 | POS | FRA | 22 | 0.46 | 0.2835 | 0.35=(x/0.81) | 0.35 x 0.81 / = | 0.35:UK x:UK 0.81:inch /:UK =:UK
+EXPR: 1 | POS | FRA | 22 | 0.46 | 0.46 | 0.35=(0.81-x) | 0.35 0.81 x - = | 0.35:inch 0.81:inch x:inch -:inch =:inch
+NET 36 unique, non-negative solutions found out of 136 total solutions

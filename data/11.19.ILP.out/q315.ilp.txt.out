@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 0.1 | 0.75 | 0.4=(0.3/x) | 0.4 0.3 x / = | 0.4:box 0.3:box x:powder /:box =:box
+EXPR: 0 | POS | FRA | 2 | 0.1 | 1.33333333333333 | 0.4=(x*0.3) | 0.4 x 0.3 * = | 0.4:box x:powder 0.3:box *:box =:box
+EXPR: 0 | POS | FRA | 2 | 0.1 | 1.33333333333333 | 0.4=(0.3*x) | 0.4 0.3 x * = | 0.4:box 0.3:box x:powder *:box =:box
+EXPR: 0 | POS | FRA | 2 | 0.1 | 0.75 | (x*0.4)=0.3 | x 0.4 * 0.3 = | x:powder 0.4:box *:box 0.3:box =:box
+EXPR: 0 | POS | FRA | 2 | 0.1 | 0.75 | (0.4*x)=0.3 | 0.4 x * 0.3 = | 0.4:box x:powder *:box 0.3:box =:box
+EXPR: 0 | POS | FRA | 2 | 0.1 | 1.33333333333333 | (0.4/x)=0.3 | 0.4 x / 0.3 = | 0.4:box x:powder /:box 0.3:box =:box
+EXPR: 0 | POS | FRA | 10 | 0.1 | 0.12 | (0.4*0.3)=x | 0.4 0.3 * x = | 0.4:box 0.3:powder *:powder x:powder =:powder
+EXPR: 0 | POS | FRA | 10 | 0.1 | 0.7 | (0.4+0.3)=x | 0.4 0.3 + x = | 0.4:box 0.3:box +:box x:box =:box
+EXPR: 1 | POS | FRA | 10 | 0.1 | 0.1 | x=(0.4-0.3) | x 0.4 0.3 - = | x:box 0.4:box 0.3:box -:box =:box
+EXPR: 0 | POS | FRA | 10 | 0.1 | 0.12 | x=(0.4*0.3) | x 0.4 0.3 * = | x:powder 0.4:box 0.3:powder *:powder =:powder
+EXPR: 0 | POS | FRA | 10 | 0.1 | 0.7 | x=(0.4+0.3) | x 0.4 0.3 + = | x:box 0.4:box 0.3:box +:box =:box
+EXPR: 1 | POS | FRA | 10 | 0.1 | 0.1 | (0.4-0.3)=x | 0.4 0.3 - x = | 0.4:box 0.3:box -:box x:box =:box
+EXPR: 0 | POS | FRA | 10 | 0.1 | 1.33333333333333 | x=(0.4/0.3) | x 0.4 0.3 / = | x:powder 0.4:powder 0.3:box /:powder =:powder
+EXPR: 0 | POS | FRA | 10 | 0.1 | 1.33333333333333 | (0.4/0.3)=x | 0.4 0.3 / x = | 0.4:powder 0.3:box /:powder x:powder =:powder
+EXPR: 0 | POS | FRA | 12 | 0.1 | 1.33333333333333 | 0.3=(0.4/x) | 0.3 0.4 x / = | 0.3:box 0.4:box x:powder /:box =:box
+EXPR: 0 | POS | FRA | 12 | 0.1 | 1.33333333333333 | (x*0.3)=0.4 | x 0.3 * 0.4 = | x:powder 0.3:box *:box 0.4:box =:box
+EXPR: 0 | POS | FRA | 12 | 0.1 | 0.12 | 0.4=(x/0.3) | 0.4 x 0.3 / = | 0.4:powder x:powder 0.3:box /:powder =:powder
+EXPR: 0 | POS | FRA | 12 | 0.1 | 0.75 | 0.3=(0.4*x) | 0.3 0.4 x * = | 0.3:box 0.4:box x:powder *:box =:box
+EXPR: 0 | POS | FRA | 12 | 0.1 | 0.7 | 0.4=(x-0.3) | 0.4 x 0.3 - = | 0.4:box x:box 0.3:box -:box =:box
+EXPR: 0 | POS | FRA | 12 | 0.1 | 0.75 | 0.3=(x*0.4) | 0.3 x 0.4 * = | 0.3:box x:powder 0.4:box *:box =:box
+EXPR: 1 | POS | FRA | 12 | 0.1 | 0.1 | (0.4-x)=0.3 | 0.4 x - 0.3 = | 0.4:box x:box -:box 0.3:box =:box
+EXPR: 0 | POS | FRA | 12 | 0.1 | 1.33333333333333 | (0.3*x)=0.4 | 0.3 x * 0.4 = | 0.3:box x:powder *:box 0.4:box =:box
+EXPR: 0 | POS | FRA | 12 | 0.1 | 0.75 | (0.3/x)=0.4 | 0.3 x / 0.4 = | 0.3:box x:powder /:box 0.4:box =:box
+EXPR: 1 | POS | FRA | 12 | 0.1 | 0.1 | 0.4=(x+0.3) | 0.4 x 0.3 + = | 0.4:box x:box 0.3:box +:box =:box
+EXPR: 1 | POS | FRA | 12 | 0.1 | 0.1 | 0.4=(0.3+x) | 0.4 0.3 x + = | 0.4:box 0.3:box x:box +:box =:box
+EXPR: 0 | POS | FRA | 12 | 0.1 | 0.7 | (x-0.4)=0.3 | x 0.4 - 0.3 = | x:box 0.4:box -:box 0.3:box =:box
+EXPR: 0 | POS | FRA | 12 | 0.1 | 0.12 | (x/0.4)=0.3 | x 0.4 / 0.3 = | x:powder 0.4:box /:powder 0.3:powder =:powder
+EXPR: 0 | POS | FRA | 20 | 0.1 | 0.75 | (0.3/0.4)=x | 0.3 0.4 / x = | 0.3:powder 0.4:box /:powder x:powder =:powder
+EXPR: 0 | POS | FRA | 20 | 0.1 | 0.75 | x=(0.3/0.4) | x 0.3 0.4 / = | x:powder 0.3:powder 0.4:box /:powder =:powder
+EXPR: 0 | POS | FRA | 22 | 0.1 | 0.12 | (x/0.3)=0.4 | x 0.3 / 0.4 = | x:powder 0.3:box /:powder 0.4:powder =:powder
+EXPR: 0 | POS | FRA | 22 | 0.1 | 0.7 | (x-0.3)=0.4 | x 0.3 - 0.4 = | x:box 0.3:box -:box 0.4:box =:box
+EXPR: 1 | POS | FRA | 22 | 0.1 | 0.1 | (0.3+x)=0.4 | 0.3 x + 0.4 = | 0.3:box x:box +:box 0.4:box =:box
+EXPR: 0 | POS | FRA | 22 | 0.1 | 0.7 | 0.3=(x-0.4) | 0.3 x 0.4 - = | 0.3:box x:box 0.4:box -:box =:box
+EXPR: 1 | POS | FRA | 22 | 0.1 | 0.1 | (x+0.3)=0.4 | x 0.3 + 0.4 = | x:box 0.3:box +:box 0.4:box =:box
+EXPR: 0 | POS | FRA | 22 | 0.1 | 0.12 | 0.3=(x/0.4) | 0.3 x 0.4 / = | 0.3:powder x:powder 0.4:box /:powder =:powder
+EXPR: 1 | POS | FRA | 22 | 0.1 | 0.1 | 0.3=(0.4-x) | 0.3 0.4 x - = | 0.3:box 0.4:box x:box -:box =:box
+NET 36 unique, non-negative solutions found out of 136 total solutions

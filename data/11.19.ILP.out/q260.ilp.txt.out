@@ -1,0 +1,36 @@
+parameters: n=9 l=4 k=1 p=5 q=3 m=10
+TOTAL 92 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 180 | 1152 | x=((6.0*8.0)*(18.0+6.0)) | x 6.0 8.0 * 18.0 6.0 + * = | x:people 6.0:van 8.0:bus *:bus 18.0:people 6.0:people +:people *:people =:people
+EXPR: 0 | POS | INT | 0 | 180 | 18 | x=((6.0/8.0)*(18.0+6.0)) | x 6.0 8.0 / 18.0 6.0 + * = | x:people 6.0:van 8.0:bus /:van 18.0:people 6.0:people +:people *:people =:people
+EXPR: 0 | POS | INT | 0 | 180 | 9 | x=((6.0/8.0)*(18.0-6.0)) | x 6.0 8.0 / 18.0 6.0 - * = | x:people 6.0:van 8.0:bus /:van 18.0:people 6.0:people -:people *:people =:people
+EXPR: 0 | POS | INT | 0 | 180 | 576 | x=((6.0*8.0)*(18.0-6.0)) | x 6.0 8.0 * 18.0 6.0 - * = | x:people 6.0:van 8.0:bus *:bus 18.0:people 6.0:people -:people *:people =:people
+EXPR: 0 | POS | INT | 10 | 180 | 36 | x=(((6.0*8.0)-18.0)+6.0) | x 6.0 8.0 * 18.0 - 6.0 + = | x:people 6.0:van 8.0:people *:people 18.0:people -:people 6.0:people +:people =:people
+EXPR: 0 | POS | INT | 10 | 180 | 24 | x=((6.0*8.0)-(18.0+6.0)) | x 6.0 8.0 * 18.0 6.0 + - = | x:people 6.0:van 8.0:people *:people 18.0:people 6.0:people +:people -:people =:people
+EXPR: 0 | POS | INT | 10 | 180 | 36 | x=((6.0*8.0)-(18.0-6.0)) | x 6.0 8.0 * 18.0 6.0 - - = | x:people 6.0:van 8.0:people *:people 18.0:people 6.0:people -:people -:people =:people
+EXPR: 0 | POS | INT | 10 | 180 | 120 | x=(6.0*(8.0+(18.0-6.0))) | x 6.0 8.0 18.0 6.0 - + * = | x:people 6.0:van 8.0:people 18.0:people 6.0:people -:people +:people *:people =:people
+EXPR: 0 | POS | INT | 20 | 180 | 192 | x=(6.0*(18.0+(8.0+6.0))) | x 6.0 18.0 8.0 6.0 + + * = | x:people 6.0:van 18.0:people 8.0:people 6.0:people +:people +:people *:people =:people
+EXPR: 0 | POS | INT | 20 | 180 | 60 | x=((6.0*8.0)-(6.0-18.0)) | x 6.0 8.0 * 6.0 18.0 - - = | x:people 6.0:van 8.0:people *:people 6.0:people 18.0:people -:people -:people =:people
+EXPR: 0 | POS | INT | 30 | 180 | 240 | x=(8.0*(6.0+(18.0+6.0))) | x 8.0 6.0 18.0 6.0 + + * = | x:people 8.0:van 6.0:people 18.0:people 6.0:people +:people +:people *:people =:people
+EXPR: 0 | POS | INT | 30 | 180 | 1512 | x=((6.0*18.0)*(8.0+6.0)) | x 6.0 18.0 * 8.0 6.0 + * = | x:bus 6.0:van 18.0:people *:people 8.0:bus 6.0:bus +:bus *:bus =:bus
+EXPR: 0 | POS | INT | 30 | 180 | 144 | x=(((6.0+8.0)-6.0)*18.0) | x 6.0 8.0 + 6.0 - 18.0 * = | x:people 6.0:bus 8.0:bus +:bus 6.0:bus -:bus 18.0:people *:people =:people
+EXPR: 0 | POS | INT | 45 | 180 | 240 | x=(8.0*(18.0+(6.0+6.0))) | x 8.0 18.0 6.0 6.0 + + * = | x:people 8.0:van 18.0:people 6.0:people 6.0:people +:people +:people *:people =:people
+EXPR: 0 | POS | INT | 45 | 180 | 48 | x=(8.0*(18.0-(6.0+6.0))) | x 8.0 18.0 6.0 6.0 + - * = | x:people 8.0:van 18.0:people 6.0:people 6.0:people +:people -:people *:people =:people
+EXPR: 0 | POS | INT | 55 | 180 |  | x=((8.0/18.0)*(6.0-6.0)) | x 8.0 18.0 / 6.0 6.0 - * = | x:people 8.0:bus 18.0:people /:bus 6.0:people 6.0:people -:people *:people =:people
+EXPR: 0 | POS | INT | 55 | 180 | 144 | x=((8.0*18.0)+(6.0-6.0)) | x 8.0 18.0 * 6.0 6.0 - + = | x:people 8.0:bus 18.0:people *:people 6.0:people 6.0:people -:people +:people =:people
+EXPR: 0 | POS | INT | 55 | 180 | 10 | x=((6.0/6.0)*(18.0-8.0)) | x 6.0 6.0 / 18.0 8.0 - * = | x:people 6.0:van 6.0:bus /:van 18.0:people 8.0:people -:people *:people =:people
+EXPR: 0 | POS | INT | 55 | 180 | 360 | x=((6.0*6.0)*(18.0-8.0)) | x 6.0 6.0 * 18.0 8.0 - * = | x:people 6.0:van 6.0:bus *:bus 18.0:people 8.0:people -:people *:people =:people
+EXPR: 0 | POS | INT | 57 | 180 | 246 | 6.0=(((6.0+8.0)*18.0)-x) | 6.0 6.0 8.0 + 18.0 * x - = | 6.0:people 6.0:bus 8.0:bus +:bus 18.0:people *:people x:people -:people =:people
+EXPR: 0 | POS | INT | 57 | 180 | 11 | (6.0*(6.0+(8.0-x)))=18.0 | 6.0 6.0 8.0 x - + * 18.0 = | 6.0:van 6.0:bus 8.0:bus x:bus -:bus +:bus *:bus 18.0:bus =:bus
+EXPR: 0 | POS | INT | 57 | 180 | 22 | 18.0=(x+(8.0-(6.0+6.0))) | 18.0 x 8.0 6.0 6.0 + - + = | 18.0:people x:people 8.0:people 6.0:people 6.0:people +:people -:people +:people =:people
+EXPR: 0 | POS | INT | 67 | 180 | 38 | ((x-8.0)-(18.0+6.0))=6.0 | x 8.0 - 18.0 6.0 + - 6.0 = | x:people 8.0:people -:people 18.0:people 6.0:people +:people -:people 6.0:people =:people
+EXPR: 0 | POS | INT | 77 | 180 | 110 | 6.0=(((x+6.0)-8.0)/18.0) | 6.0 x 6.0 + 8.0 - 18.0 / = | 6.0:people x:people 6.0:people +:people 8.0:people -:people 18.0:van /:people =:people
+EXPR: 0 | POS | INT | 77 | 180 | 144 | 8.0=(x/((18.0+6.0)-6.0)) | 8.0 x 18.0 6.0 + 6.0 - / = | 8.0:bus x:bus 18.0:van 6.0:van +:van 6.0:van -:van /:bus =:bus
+EXPR: 0 | POS | INT | 85 | 180 | 576 | x=((8.0*6.0)*(18.0-6.0)) | x 8.0 6.0 * 18.0 6.0 - * = | x:people 8.0:van 6.0:bus *:bus 18.0:people 6.0:people -:people *:people =:people
+EXPR: 0 | POS | INT | 87 | 180 | 186 | 6.0=(((6.0+18.0)*8.0)-x) | 6.0 6.0 18.0 + 8.0 * x - = | 6.0:people 6.0:bus 18.0:bus +:bus 8.0:people *:people x:people -:people =:people
+EXPR: 0 | POS | INT | 87 | 180 | 106 | 6.0=(((x+8.0)-6.0)/18.0) | 6.0 x 8.0 + 6.0 - 18.0 / = | 6.0:people x:people 8.0:people +:people 6.0:people -:people 18.0:van /:people =:people
+EXPR: 0 | POS | INT | 92 | 180 | 11 | (6.0/(8.0+(x-18.0)))=6.0 | 6.0 8.0 x 18.0 - + / 6.0 = | 6.0:van 8.0:people x:people 18.0:people -:people +:people /:van 6.0:van =:van
+EXPR: 0 | POS | INT | 102 | 180 | 66 | (x/6.0)=(8.0+(18.0/6.0)) | x 6.0 / 8.0 18.0 6.0 / + = | x:people 6.0:van /:people 8.0:people 18.0:people 6.0:van /:people +:people =:people
+EXPR: 0 | POS | INT | 102 | 180 | 11 | 18.0=(6.0*(8.0+(6.0-x))) | 18.0 6.0 8.0 6.0 x - + * = | 18.0:people 6.0:bus 8.0:people 6.0:people x:people -:people +:people *:people =:people
+EXPR: 0 | POS | INT | 132 | 180 | 6 | (x*6.0)=(18.0*(8.0-6.0)) | x 6.0 * 18.0 8.0 6.0 - * = | x:people 6.0:van *:people 18.0:bus 8.0:people 6.0:people -:people *:people =:people
+NET 32 unique, non-negative, integer-valued solutions found out of 92 total solutions

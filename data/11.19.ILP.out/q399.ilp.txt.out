@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=4 m=8
+TOTAL 592 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 308 | 308 | x=(44.0*7.0) | x 44.0 7.0 * = | x:money 44.0:dollar 7.0:money *:money =:money
+EXPR: 1 | POS | INT | 10 | 308 | 308 | (44.0*7.0)=x | 44.0 7.0 * x = | 44.0:dollar 7.0:money *:money x:money =:money
+EXPR: 1 | POS | INT | 12 | 308 | 308 | (x/44.0)=7.0 | x 44.0 / 7.0 = | x:money 44.0:dollar /:money 7.0:money =:money
+EXPR: 1 | POS | INT | 12 | 308 | 308 | 44.0=(x/7.0) | 44.0 x 7.0 / = | 44.0:dollar x:dollar 7.0:ticket /:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 308 | 37 | x=(44.0-7.0) | x 44.0 7.0 - = | x:ticket 44.0:ticket 7.0:ticket -:ticket =:ticket
+EXPR: 0 | POS | INT | 20 | 308 | 51 | x=(44.0+7.0) | x 44.0 7.0 + = | x:money 44.0:money 7.0:money +:money =:money
+EXPR: 0 | POS | INT | 20 | 308 | 51 | (44.0+7.0)=x | 44.0 7.0 + x = | 44.0:dollar 7.0:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 308 | 37 | (44.0-7.0)=x | 44.0 7.0 - x = | 44.0:ticket 7.0:ticket -:ticket x:ticket =:ticket
+EXPR: 0 | POS | INT | 22 | 308 | 37 | (44.0-x)=7.0 | 44.0 x - 7.0 = | 44.0:money x:money -:money 7.0:money =:money
+EXPR: 1 | POS | INT | 22 | 308 | 308 | (x/7.0)=44.0 | x 7.0 / 44.0 = | x:money 7.0:ticket /:money 44.0:money =:money
+EXPR: 0 | POS | INT | 22 | 308 | 37 | 44.0=(7.0+x) | 44.0 7.0 x + = | 44.0:dollar 7.0:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 308 | 51 | (x-44.0)=7.0 | x 44.0 - 7.0 = | x:ticket 44.0:ticket -:ticket 7.0:ticket =:ticket
+EXPR: 0 | POS | INT | 22 | 308 | 37 | 44.0=(x+7.0) | 44.0 x 7.0 + = | 44.0:dollar x:dollar 7.0:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 308 | 51 | 44.0=(x-7.0) | 44.0 x 7.0 - = | 44.0:dollar x:dollar 7.0:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 22 | 308 | 308 | 7.0=(x/44.0) | 7.0 x 44.0 / = | 7.0:ticket x:ticket 44.0:dollar /:ticket =:ticket
+EXPR: 0 | POS | INT | 32 | 308 | 37 | (7.0+x)=44.0 | 7.0 x + 44.0 = | 7.0:ticket x:ticket +:ticket 44.0:ticket =:ticket
+EXPR: 0 | POS | INT | 32 | 308 | 37 | 7.0=(44.0-x) | 7.0 44.0 x - = | 7.0:money 44.0:money x:money -:money =:money
+EXPR: 0 | POS | INT | 32 | 308 | 37 | (x+7.0)=44.0 | x 7.0 + 44.0 = | x:dollar 7.0:dollar +:dollar 44.0:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 308 | 51 | 7.0=(x-44.0) | 7.0 x 44.0 - = | 7.0:dollar x:dollar 44.0:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 308 | 51 | (x-7.0)=44.0 | x 7.0 - 44.0 = | x:dollar 7.0:dollar -:dollar 44.0:dollar =:dollar
+NET 20 unique, non-negative, integer-valued solutions found out of 592 total solutions

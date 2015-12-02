@@ -1,0 +1,7 @@
+constants : 5.0 7.0 15.0 
+unknowns : x
+operators : + - * / =
+objtypes : minute student 
+constantOrUnknownType : 0 1 0 1
+n : 7
+answer : 21.0

@@ -1,0 +1,7 @@
+constants : 420.0 7.0 
+unknowns : x
+operators : + - * / =
+objtypes : UK seed packet 
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 60.0

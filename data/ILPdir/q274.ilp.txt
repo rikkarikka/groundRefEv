@@ -1,0 +1,7 @@
+constants : 109.0 2.0 11.0 13.0 
+unknowns : x
+operators : + - * / =
+objtypes : dollar shirt clothes money 
+constantOrUnknownType : 0 1 0 0 3
+n : 9
+answer : 74.0

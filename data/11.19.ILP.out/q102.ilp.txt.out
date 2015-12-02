@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 9 | 225 | x=(5.0*45.0) | x 5.0 45.0 * = | x:UK 5.0:UK 45.0:hour *:UK =:UK
+EXPR: 0 | POS | INT | 10 | 9 | 225 | (5.0*45.0)=x | 5.0 45.0 * x = | 5.0:day 45.0:hour *:day x:day =:day
+EXPR: 0 | POS | INT | 12 | 9 | 225 | 5.0=(x/45.0) | 5.0 x 45.0 / = | 5.0:UK x:UK 45.0:hour /:UK =:UK
+EXPR: 1 | POS | INT | 12 | 9 | 9 | (5.0*x)=45.0 | 5.0 x * 45.0 = | 5.0:day x:UK *:day 45.0:day =:day
+EXPR: 0 | POS | INT | 12 | 9 | 225 | (x/5.0)=45.0 | x 5.0 / 45.0 = | x:UK 5.0:day /:UK 45.0:UK =:UK
+EXPR: 1 | POS | INT | 12 | 9 | 9 | (x*5.0)=45.0 | x 5.0 * 45.0 = | x:hour 5.0:day *:hour 45.0:hour =:hour
+EXPR: 1 | POS | INT | 12 | 9 | 9 | 5.0=(45.0/x) | 5.0 45.0 x / = | 5.0:day 45.0:day x:UK /:day =:day
+EXPR: 0 | POS | INT | 20 | 9 | 50 | (5.0+45.0)=x | 5.0 45.0 + x = | 5.0:day 45.0:day +:day x:day =:day
+EXPR: 0 | POS | INT | 20 | 9 | 50 | x=(5.0+45.0) | x 5.0 45.0 + = | x:hour 5.0:hour 45.0:hour +:hour =:hour
+EXPR: 1 | POS | INT | 20 | 9 | 9 | (45.0/5.0)=x | 45.0 5.0 / x = | 45.0:hour 5.0:day /:hour x:hour =:hour
+EXPR: 1 | POS | INT | 20 | 9 | 9 | x=(45.0/5.0) | x 45.0 5.0 / = | x:hour 45.0:hour 5.0:day /:hour =:hour
+EXPR: 0 | POS | INT | 22 | 9 | 50 | (x-5.0)=45.0 | x 5.0 - 45.0 = | x:hour 5.0:hour -:hour 45.0:hour =:hour
+EXPR: 0 | POS | INT | 22 | 9 | 225 | 45.0=(x/5.0) | 45.0 x 5.0 / = | 45.0:UK x:UK 5.0:day /:UK =:UK
+EXPR: 1 | POS | INT | 22 | 9 | 9 | (45.0/x)=5.0 | 45.0 x / 5.0 = | 45.0:day x:UK /:day 5.0:day =:day
+EXPR: 0 | POS | INT | 22 | 9 | 40 | 5.0=(45.0-x) | 5.0 45.0 x - = | 5.0:hour 45.0:hour x:hour -:hour =:hour
+EXPR: 0 | POS | INT | 22 | 9 | 40 | (5.0+x)=45.0 | 5.0 x + 45.0 = | 5.0:UK x:UK +:UK 45.0:UK =:UK
+EXPR: 0 | POS | INT | 22 | 9 | 40 | (x+5.0)=45.0 | x 5.0 + 45.0 = | x:day 5.0:day +:day 45.0:day =:day
+EXPR: 1 | POS | INT | 22 | 9 | 9 | 45.0=(x*5.0) | 45.0 x 5.0 * = | 45.0:hour x:hour 5.0:day *:hour =:hour
+EXPR: 0 | POS | INT | 22 | 9 | 50 | 5.0=(x-45.0) | 5.0 x 45.0 - = | 5.0:UK x:UK 45.0:UK -:UK =:UK
+EXPR: 1 | POS | INT | 22 | 9 | 9 | 45.0=(5.0*x) | 45.0 5.0 x * = | 45.0:UK 5.0:day x:UK *:UK =:UK
+EXPR: 0 | POS | INT | 22 | 9 | 225 | (x/45.0)=5.0 | x 45.0 / 5.0 = | x:UK 45.0:hour /:UK 5.0:UK =:UK
+EXPR: 0 | POS | INT | 30 | 9 | 40 | x=(45.0-5.0) | x 45.0 5.0 - = | x:hour 45.0:hour 5.0:hour -:hour =:hour
+EXPR: 0 | POS | INT | 30 | 9 | 40 | (45.0-5.0)=x | 45.0 5.0 - x = | 45.0:UK 5.0:UK -:UK x:UK =:UK
+EXPR: 0 | POS | INT | 32 | 9 | 50 | (x-45.0)=5.0 | x 45.0 - 5.0 = | x:hour 45.0:hour -:hour 5.0:hour =:hour
+EXPR: 0 | POS | INT | 32 | 9 | 40 | (45.0-x)=5.0 | 45.0 x - 5.0 = | 45.0:hour x:hour -:hour 5.0:hour =:hour
+EXPR: 0 | POS | INT | 32 | 9 | 40 | 45.0=(5.0+x) | 45.0 5.0 x + = | 45.0:hour 5.0:hour x:hour +:hour =:hour
+EXPR: 0 | POS | INT | 32 | 9 | 40 | 45.0=(x+5.0) | 45.0 x 5.0 + = | 45.0:hour x:hour 5.0:hour +:hour =:hour
+EXPR: 0 | POS | INT | 32 | 9 | 50 | 45.0=(x-5.0) | 45.0 x 5.0 - = | 45.0:hour x:hour 5.0:hour -:hour =:hour
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

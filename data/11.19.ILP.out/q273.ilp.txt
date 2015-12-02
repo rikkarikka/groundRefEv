@@ -1,0 +1,7 @@
+constants : 14.0 24.0 2.0 3.0 
+unknowns : x
+operators : + - * / =
+objtypes : UK bicycle wheel 
+constantOrUnknownType : 0 1 2 2 2
+n : 9
+answer : 90.0

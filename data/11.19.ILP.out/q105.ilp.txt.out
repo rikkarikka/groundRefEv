@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 5 | 5 | x=(110.0/22.0) | x 110.0 22.0 / = | x:marble 110.0:marble 22.0:time /:marble =:marble
+EXPR: 1 | POS | INT | 0 | 5 | 5 | (110.0/22.0)=x | 110.0 22.0 / x = | 110.0:marble 22.0:time /:marble x:marble =:marble
+EXPR: 0 | POS | INT | 0 | 5 | 2420 | x=(110.0*22.0) | x 110.0 22.0 * = | x:marble 110.0:marble 22.0:time *:marble =:marble
+EXPR: 0 | POS | INT | 0 | 5 | 2420 | (110.0*22.0)=x | 110.0 22.0 * x = | 110.0:marble 22.0:time *:marble x:marble =:marble
+EXPR: 1 | POS | INT | 2 | 5 | 5 | 110.0=(22.0*x) | 110.0 22.0 x * = | 110.0:marble 22.0:time x:marble *:marble =:marble
+EXPR: 0 | POS | INT | 2 | 5 | 2420 | 110.0=(x/22.0) | 110.0 x 22.0 / = | 110.0:marble x:marble 22.0:time /:marble =:marble
+EXPR: 1 | POS | INT | 2 | 5 | 5 | 110.0=(x*22.0) | 110.0 x 22.0 * = | 110.0:marble x:marble 22.0:time *:marble =:marble
+EXPR: 0 | POS | INT | 10 | 5 | 88 | (110.0-22.0)=x | 110.0 22.0 - x = | 110.0:marble 22.0:marble -:marble x:marble =:marble
+EXPR: 0 | POS | INT | 10 | 5 | 132 | x=(110.0+22.0) | x 110.0 22.0 + = | x:marble 110.0:marble 22.0:marble +:marble =:marble
+EXPR: 0 | POS | INT | 10 | 5 | 88 | x=(110.0-22.0) | x 110.0 22.0 - = | x:marble 110.0:marble 22.0:marble -:marble =:marble
+EXPR: 0 | POS | INT | 10 | 5 | 132 | (110.0+22.0)=x | 110.0 22.0 + x = | 110.0:marble 22.0:marble +:marble x:marble =:marble
+EXPR: 0 | POS | INT | 12 | 5 | 88 | 110.0=(x+22.0) | 110.0 x 22.0 + = | 110.0:marble x:marble 22.0:marble +:marble =:marble
+EXPR: 1 | POS | INT | 12 | 5 | 5 | (110.0/x)=22.0 | 110.0 x / 22.0 = | 110.0:time x:marble /:time 22.0:time =:time
+EXPR: 1 | POS | INT | 12 | 5 | 5 | (22.0*x)=110.0 | 22.0 x * 110.0 = | 22.0:time x:marble *:marble 110.0:marble =:marble
+EXPR: 0 | POS | INT | 12 | 5 | 132 | 110.0=(x-22.0) | 110.0 x 22.0 - = | 110.0:marble x:marble 22.0:marble -:marble =:marble
+EXPR: 0 | POS | INT | 12 | 5 | 88 | 110.0=(22.0+x) | 110.0 22.0 x + = | 110.0:marble 22.0:marble x:marble +:marble =:marble
+EXPR: 0 | POS | INT | 12 | 5 | 132 | (x-110.0)=22.0 | x 110.0 - 22.0 = | x:marble 110.0:marble -:marble 22.0:marble =:marble
+EXPR: 0 | POS | INT | 12 | 5 | 88 | (110.0-x)=22.0 | 110.0 x - 22.0 = | 110.0:marble x:marble -:marble 22.0:marble =:marble
+EXPR: 0 | POS | INT | 12 | 5 | 2420 | (x/110.0)=22.0 | x 110.0 / 22.0 = | x:time 110.0:marble /:time 22.0:time =:time
+EXPR: 0 | POS | INT | 12 | 5 | 2420 | (x/22.0)=110.0 | x 22.0 / 110.0 = | x:marble 22.0:time /:marble 110.0:marble =:marble
+EXPR: 1 | POS | INT | 12 | 5 | 5 | (x*22.0)=110.0 | x 22.0 * 110.0 = | x:marble 22.0:time *:marble 110.0:marble =:marble
+EXPR: 0 | POS | INT | 22 | 5 | 88 | (x+22.0)=110.0 | x 22.0 + 110.0 = | x:marble 22.0:marble +:marble 110.0:marble =:marble
+EXPR: 1 | POS | INT | 22 | 5 | 5 | 22.0=(110.0/x) | 22.0 110.0 x / = | 22.0:time 110.0:time x:marble /:time =:time
+EXPR: 0 | POS | INT | 22 | 5 | 88 | (22.0+x)=110.0 | 22.0 x + 110.0 = | 22.0:marble x:marble +:marble 110.0:marble =:marble
+EXPR: 0 | POS | INT | 22 | 5 | 132 | 22.0=(x-110.0) | 22.0 x 110.0 - = | 22.0:marble x:marble 110.0:marble -:marble =:marble
+EXPR: 0 | POS | INT | 22 | 5 | 2420 | 22.0=(x/110.0) | 22.0 x 110.0 / = | 22.0:time x:time 110.0:marble /:time =:time
+EXPR: 0 | POS | INT | 22 | 5 | 88 | 22.0=(110.0-x) | 22.0 110.0 x - = | 22.0:marble 110.0:marble x:marble -:marble =:marble
+EXPR: 0 | POS | INT | 22 | 5 | 132 | (x-22.0)=110.0 | x 22.0 - 110.0 = | x:marble 22.0:marble -:marble 110.0:marble =:marble
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

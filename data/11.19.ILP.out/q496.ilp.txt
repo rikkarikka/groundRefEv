@@ -1,0 +1,7 @@
+constants : 23.0 45.0 
+unknowns : x
+operators : + - * / =
+objtypes : pound UK 
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 1035.0

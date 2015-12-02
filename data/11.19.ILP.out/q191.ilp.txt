@@ -1,0 +1,7 @@
+constants : 9.0 3.0 
+unknowns : x
+operators : + - * / =
+objtypes : hamburger UK 
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 6.0

@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 56 | 8 | x=(1.0*8.0) | x 1.0 8.0 * = | x:pie 1.0:week 8.0:pie *:pie =:pie
+EXPR: 0 | POS | INT | 0 | 56 | 8 | (1.0*8.0)=x | 1.0 8.0 * x = | 1.0:week 8.0:pie *:pie x:pie =:pie
+EXPR: 0 | POS | INT | 2 | 56 | 8 | (x/1.0)=8.0 | x 1.0 / 8.0 = | x:pie 1.0:week /:pie 8.0:pie =:pie
+EXPR: 0 | POS | INT | 2 | 56 | 8 | (x*1.0)=8.0 | x 1.0 * 8.0 = | x:pie 1.0:week *:pie 8.0:pie =:pie
+EXPR: 0 | POS | INT | 2 | 56 | 8 | (1.0*x)=8.0 | 1.0 x * 8.0 = | 1.0:week x:pie *:pie 8.0:pie =:pie
+EXPR: 0 | POS | INT | 10 | 56 | 8 | (8.0/1.0)=x | 8.0 1.0 / x = | 8.0:pie 1.0:week /:pie x:pie =:pie
+EXPR: 0 | POS | INT | 10 | 56 | 8 | x=(8.0/1.0) | x 8.0 1.0 / = | x:pie 8.0:pie 1.0:week /:pie =:pie
+EXPR: 0 | POS | INT | 10 | 56 | 9 | x=(1.0+8.0) | x 1.0 8.0 + = | x:pie 1.0:pie 8.0:pie +:pie =:pie
+EXPR: 0 | POS | INT | 10 | 56 | 9 | (1.0+8.0)=x | 1.0 8.0 + x = | 1.0:pie 8.0:pie +:pie x:pie =:pie
+EXPR: 0 | POS | INT | 12 | 56 | 7 | 1.0=(8.0-x) | 1.0 8.0 x - = | 1.0:pie 8.0:pie x:pie -:pie =:pie
+EXPR: 0 | POS | INT | 12 | 56 | 8 | 8.0=(x/1.0) | 8.0 x 1.0 / = | 8.0:pie x:pie 1.0:week /:pie =:pie
+EXPR: 0 | POS | INT | 12 | 56 | 7 | (x+1.0)=8.0 | x 1.0 + 8.0 = | x:pie 1.0:pie +:pie 8.0:pie =:pie
+EXPR: 0 | POS | INT | 12 | 56 | 9 | (x-1.0)=8.0 | x 1.0 - 8.0 = | x:pie 1.0:pie -:pie 8.0:pie =:pie
+EXPR: 0 | POS | INT | 12 | 56 | 7 | (1.0+x)=8.0 | 1.0 x + 8.0 = | 1.0:pie x:pie +:pie 8.0:pie =:pie
+EXPR: 0 | POS | INT | 12 | 56 | 8 | 8.0=(1.0*x) | 8.0 1.0 x * = | 8.0:pie 1.0:week x:pie *:pie =:pie
+EXPR: 0 | POS | INT | 12 | 56 | 8 | 1.0=(8.0/x) | 1.0 8.0 x / = | 1.0:week 8.0:week x:pie /:week =:week
+EXPR: 0 | POS | INT | 12 | 56 | 8 | 8.0=(x*1.0) | 8.0 x 1.0 * = | 8.0:pie x:pie 1.0:week *:pie =:pie
+EXPR: 0 | POS | INT | 12 | 56 | 9 | 1.0=(x-8.0) | 1.0 x 8.0 - = | 1.0:pie x:pie 8.0:pie -:pie =:pie
+EXPR: 0 | POS | INT | 12 | 56 | 8 | 1.0=(x/8.0) | 1.0 x 8.0 / = | 1.0:week x:week 8.0:pie /:week =:week
+EXPR: 0 | POS | INT | 20 | 56 | 7 | x=(8.0-1.0) | x 8.0 1.0 - = | x:pie 8.0:pie 1.0:pie -:pie =:pie
+EXPR: 0 | POS | INT | 20 | 56 | 7 | (8.0-1.0)=x | 8.0 1.0 - x = | 8.0:pie 1.0:pie -:pie x:pie =:pie
+EXPR: 0 | POS | INT | 22 | 56 | 7 | (8.0-x)=1.0 | 8.0 x - 1.0 = | 8.0:pie x:pie -:pie 1.0:pie =:pie
+EXPR: 0 | POS | INT | 22 | 56 | 8 | (x/8.0)=1.0 | x 8.0 / 1.0 = | x:week 8.0:pie /:week 1.0:week =:week
+EXPR: 0 | POS | INT | 22 | 56 | 7 | 8.0=(1.0+x) | 8.0 1.0 x + = | 8.0:pie 1.0:pie x:pie +:pie =:pie
+EXPR: 0 | POS | INT | 22 | 56 | 8 | (8.0/x)=1.0 | 8.0 x / 1.0 = | 8.0:week x:pie /:week 1.0:week =:week
+EXPR: 0 | POS | INT | 22 | 56 | 9 | (x-8.0)=1.0 | x 8.0 - 1.0 = | x:pie 8.0:pie -:pie 1.0:pie =:pie
+EXPR: 0 | POS | INT | 22 | 56 | 7 | 8.0=(x+1.0) | 8.0 x 1.0 + = | 8.0:pie x:pie 1.0:pie +:pie =:pie
+EXPR: 0 | POS | INT | 22 | 56 | 9 | 8.0=(x-1.0) | 8.0 x 1.0 - = | 8.0:pie x:pie 1.0:pie -:pie =:pie
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

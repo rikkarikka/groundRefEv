@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 4 | 4 | (8.0-4.0)=x | 8.0 4.0 - x = | 8.0:marble 4.0:marble -:marble x:marble =:marble
+EXPR: 0 | POS | INT | 0 | 4 | 12 | x=(8.0+4.0) | x 8.0 4.0 + = | x:marble 8.0:marble 4.0:marble +:marble =:marble
+EXPR: 1 | POS | INT | 0 | 4 | 4 | x=(8.0-4.0) | x 8.0 4.0 - = | x:marble 8.0:marble 4.0:marble -:marble =:marble
+EXPR: 0 | POS | INT | 0 | 4 | 12 | (8.0+4.0)=x | 8.0 4.0 + x = | 8.0:marble 4.0:marble +:marble x:marble =:marble
+EXPR: 1 | POS | INT | 2 | 4 | 4 | 8.0=(4.0+x) | 8.0 4.0 x + = | 8.0:marble 4.0:marble x:marble +:marble =:marble
+EXPR: 0 | POS | INT | 2 | 4 | 12 | (x-8.0)=4.0 | x 8.0 - 4.0 = | x:marble 8.0:marble -:marble 4.0:marble =:marble
+EXPR: 1 | POS | INT | 2 | 4 | 4 | 8.0=(x+4.0) | 8.0 x 4.0 + = | 8.0:marble x:marble 4.0:marble +:marble =:marble
+EXPR: 1 | POS | INT | 2 | 4 | 4 | (8.0-x)=4.0 | 8.0 x - 4.0 = | 8.0:marble x:marble -:marble 4.0:marble =:marble
+EXPR: 0 | POS | INT | 2 | 4 | 12 | 8.0=(x-4.0) | 8.0 x 4.0 - = | 8.0:marble x:marble 4.0:marble -:marble =:marble
+EXPR: 1 | POS | INT | 12 | 4 | 4 | (x+4.0)=8.0 | x 4.0 + 8.0 = | x:marble 4.0:marble +:marble 8.0:marble =:marble
+EXPR: 0 | POS | INT | 12 | 4 | 12 | (x-4.0)=8.0 | x 4.0 - 8.0 = | x:marble 4.0:marble -:marble 8.0:marble =:marble
+EXPR: 1 | POS | INT | 12 | 4 | 4 | (4.0+x)=8.0 | 4.0 x + 8.0 = | 4.0:marble x:marble +:marble 8.0:marble =:marble
+EXPR: 0 | POS | INT | 12 | 4 | 12 | 4.0=(x-8.0) | 4.0 x 8.0 - = | 4.0:marble x:marble 8.0:marble -:marble =:marble
+EXPR: 1 | POS | INT | 12 | 4 | 4 | 4.0=(8.0-x) | 4.0 8.0 x - = | 4.0:marble 8.0:marble x:marble -:marble =:marble
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

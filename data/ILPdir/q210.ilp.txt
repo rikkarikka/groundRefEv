@@ -1,0 +1,7 @@
+constants : 3.0 13.0 7.0 9.0 
+unknowns : x
+operators : + - * / =
+objtypes : nickel dime dollar money 
+constantOrUnknownType : 0 1 1 2 3
+n : 9
+answer : 6.65

@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 18 | 18 | x=(6.0*3.0) | x 6.0 3.0 * = | x:hour 6.0:day 3.0:hour *:hour =:hour
+EXPR: 1 | POS | INT | 0 | 18 | 18 | (6.0*3.0)=x | 6.0 3.0 * x = | 6.0:day 3.0:hour *:hour x:hour =:hour
+EXPR: 1 | POS | INT | 2 | 18 | 18 | (x/6.0)=3.0 | x 6.0 / 3.0 = | x:hour 6.0:day /:hour 3.0:hour =:hour
+EXPR: 0 | POS | INT | 10 | 18 | 2 | (6.0/3.0)=x | 6.0 3.0 / x = | 6.0:day 3.0:hour /:day x:day =:day
+EXPR: 0 | POS | INT | 10 | 18 | 9 | x=(6.0+3.0) | x 6.0 3.0 + = | x:hour 6.0:hour 3.0:hour +:hour =:hour
+EXPR: 0 | POS | INT | 10 | 18 | 9 | (6.0+3.0)=x | 6.0 3.0 + x = | 6.0:hour 3.0:hour +:hour x:hour =:hour
+EXPR: 0 | POS | INT | 10 | 18 | 2 | x=(6.0/3.0) | x 6.0 3.0 / = | x:day 6.0:day 3.0:hour /:day =:day
+EXPR: 0 | POS | INT | 10 | 18 | 3 | (6.0-3.0)=x | 6.0 3.0 - x = | 6.0:hour 3.0:hour -:hour x:hour =:hour
+EXPR: 0 | POS | INT | 10 | 18 | 3 | x=(6.0-3.0) | x 6.0 3.0 - = | x:hour 6.0:hour 3.0:hour -:hour =:hour
+EXPR: 0 | POS | INT | 12 | 18 | 2 | 6.0=(x*3.0) | 6.0 x 3.0 * = | 6.0:day x:hour 3.0:day *:day =:day
+EXPR: 0 | POS | INT | 12 | 18 | 2 | 6.0=(3.0*x) | 6.0 3.0 x * = | 6.0:day 3.0:day x:hour *:day =:day
+EXPR: 0 | POS | INT | 12 | 18 | 2 | (6.0/x)=3.0 | 6.0 x / 3.0 = | 6.0:day x:hour /:day 3.0:day =:day
+EXPR: 0 | POS | INT | 12 | 18 | 3 | (6.0-x)=3.0 | 6.0 x - 3.0 = | 6.0:hour x:hour -:hour 3.0:hour =:hour
+EXPR: 0 | POS | INT | 12 | 18 | 3 | 6.0=(3.0+x) | 6.0 3.0 x + = | 6.0:hour 3.0:hour x:hour +:hour =:hour
+EXPR: 1 | POS | INT | 12 | 18 | 18 | 3.0=(x/6.0) | 3.0 x 6.0 / = | 3.0:hour x:hour 6.0:day /:hour =:hour
+EXPR: 0 | POS | INT | 12 | 18 | 9 | (x-6.0)=3.0 | x 6.0 - 3.0 = | x:hour 6.0:hour -:hour 3.0:hour =:hour
+EXPR: 0 | POS | INT | 12 | 18 | 3 | 6.0=(x+3.0) | 6.0 x 3.0 + = | 6.0:hour x:hour 3.0:hour +:hour =:hour
+EXPR: 0 | POS | INT | 12 | 18 | 9 | 6.0=(x-3.0) | 6.0 x 3.0 - = | 6.0:hour x:hour 3.0:hour -:hour =:hour
+EXPR: 1 | POS | INT | 12 | 18 | 18 | 6.0=(x/3.0) | 6.0 x 3.0 / = | 6.0:day x:day 3.0:hour /:day =:day
+EXPR: 1 | POS | INT | 22 | 18 | 18 | (x/3.0)=6.0 | x 3.0 / 6.0 = | x:day 3.0:hour /:day 6.0:day =:day
+EXPR: 0 | POS | INT | 22 | 18 | 3 | 3.0=(6.0-x) | 3.0 6.0 x - = | 3.0:hour 6.0:hour x:hour -:hour =:hour
+EXPR: 0 | POS | INT | 22 | 18 | 2 | (x*3.0)=6.0 | x 3.0 * 6.0 = | x:hour 3.0:day *:day 6.0:day =:day
+EXPR: 0 | POS | INT | 22 | 18 | 3 | (x+3.0)=6.0 | x 3.0 + 6.0 = | x:hour 3.0:hour +:hour 6.0:hour =:hour
+EXPR: 0 | POS | INT | 22 | 18 | 2 | 3.0=(6.0/x) | 3.0 6.0 x / = | 3.0:day 6.0:day x:hour /:day =:day
+EXPR: 0 | POS | INT | 22 | 18 | 2 | (3.0*x)=6.0 | 3.0 x * 6.0 = | 3.0:hour x:day *:day 6.0:day =:day
+EXPR: 0 | POS | INT | 22 | 18 | 9 | (x-3.0)=6.0 | x 3.0 - 6.0 = | x:hour 3.0:hour -:hour 6.0:hour =:hour
+EXPR: 0 | POS | INT | 22 | 18 | 3 | (3.0+x)=6.0 | 3.0 x + 6.0 = | 3.0:hour x:hour +:hour 6.0:hour =:hour
+EXPR: 0 | POS | INT | 22 | 18 | 9 | 3.0=(x-6.0) | 3.0 x 6.0 - = | 3.0:hour x:hour 6.0:hour -:hour =:hour
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

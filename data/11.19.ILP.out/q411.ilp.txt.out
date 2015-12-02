@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 60 | 2940 | x=(420.0*7.0) | x 420.0 7.0 * = | x:packet 420.0:packet 7.0:seed *:packet =:packet
+EXPR: 0 | POS | INT | 10 | 60 | 2940 | (420.0*7.0)=x | 420.0 7.0 * x = | 420.0:UK 7.0:seed *:UK x:UK =:UK
+EXPR: 1 | POS | INT | 10 | 60 | 60 | (420.0/7.0)=x | 420.0 7.0 / x = | 420.0:packet 7.0:seed /:packet x:packet =:packet
+EXPR: 1 | POS | INT | 10 | 60 | 60 | x=(420.0/7.0) | x 420.0 7.0 / = | x:UK 420.0:UK 7.0:seed /:UK =:UK
+EXPR: 1 | POS | INT | 12 | 60 | 60 | 420.0=(x*7.0) | 420.0 x 7.0 * = | 420.0:seed x:packet 7.0:seed *:seed =:seed
+EXPR: 0 | POS | INT | 12 | 60 | 2940 | 420.0=(x/7.0) | 420.0 x 7.0 / = | 420.0:packet x:packet 7.0:seed /:packet =:packet
+EXPR: 1 | POS | INT | 12 | 60 | 60 | 420.0=(7.0*x) | 420.0 7.0 x * = | 420.0:packet 7.0:seed x:packet *:packet =:packet
+EXPR: 1 | POS | INT | 12 | 60 | 60 | (420.0/x)=7.0 | 420.0 x / 7.0 = | 420.0:UK x:packet /:UK 7.0:UK =:UK
+EXPR: 0 | POS | INT | 12 | 60 | 2940 | (x/420.0)=7.0 | x 420.0 / 7.0 = | x:packet 420.0:UK /:packet 7.0:packet =:packet
+EXPR: 0 | POS | INT | 20 | 60 | 427 | (420.0+7.0)=x | 420.0 7.0 + x = | 420.0:UK 7.0:UK +:UK x:UK =:UK
+EXPR: 0 | POS | INT | 20 | 60 | 427 | x=(420.0+7.0) | x 420.0 7.0 + = | x:seed 420.0:seed 7.0:seed +:seed =:seed
+EXPR: 0 | POS | INT | 20 | 60 | 413 | (420.0-7.0)=x | 420.0 7.0 - x = | 420.0:UK 7.0:UK -:UK x:UK =:UK
+EXPR: 0 | POS | INT | 20 | 60 | 413 | x=(420.0-7.0) | x 420.0 7.0 - = | x:packet 420.0:packet 7.0:packet -:packet =:packet
+EXPR: 0 | POS | INT | 22 | 60 | 427 | (x-420.0)=7.0 | x 420.0 - 7.0 = | x:seed 420.0:seed -:seed 7.0:seed =:seed
+EXPR: 1 | POS | INT | 22 | 60 | 60 | (x*7.0)=420.0 | x 7.0 * 420.0 = | x:packet 7.0:seed *:seed 420.0:seed =:seed
+EXPR: 1 | POS | INT | 22 | 60 | 60 | (7.0*x)=420.0 | 7.0 x * 420.0 = | 7.0:UK x:packet *:UK 420.0:UK =:UK
+EXPR: 0 | POS | INT | 22 | 60 | 2940 | 7.0=(x/420.0) | 7.0 x 420.0 / = | 7.0:packet x:packet 420.0:UK /:packet =:packet
+EXPR: 0 | POS | INT | 22 | 60 | 413 | 420.0=(7.0+x) | 420.0 7.0 x + = | 420.0:seed 7.0:seed x:seed +:seed =:seed
+EXPR: 0 | POS | INT | 22 | 60 | 413 | (420.0-x)=7.0 | 420.0 x - 7.0 = | 420.0:packet x:packet -:packet 7.0:packet =:packet
+EXPR: 0 | POS | INT | 22 | 60 | 413 | 420.0=(x+7.0) | 420.0 x 7.0 + = | 420.0:packet x:packet 7.0:packet +:packet =:packet
+EXPR: 0 | POS | INT | 22 | 60 | 427 | 420.0=(x-7.0) | 420.0 x 7.0 - = | 420.0:packet x:packet 7.0:packet -:packet =:packet
+EXPR: 0 | POS | INT | 22 | 60 | 2940 | (x/7.0)=420.0 | x 7.0 / 420.0 = | x:packet 7.0:seed /:packet 420.0:packet =:packet
+EXPR: 1 | POS | INT | 22 | 60 | 60 | 7.0=(420.0/x) | 7.0 420.0 x / = | 7.0:seed 420.0:seed x:packet /:seed =:seed
+EXPR: 0 | POS | INT | 32 | 60 | 427 | (x-7.0)=420.0 | x 7.0 - 420.0 = | x:seed 7.0:seed -:seed 420.0:seed =:seed
+EXPR: 0 | POS | INT | 32 | 60 | 413 | (7.0+x)=420.0 | 7.0 x + 420.0 = | 7.0:seed x:seed +:seed 420.0:seed =:seed
+EXPR: 0 | POS | INT | 32 | 60 | 413 | (x+7.0)=420.0 | x 7.0 + 420.0 = | x:UK 7.0:UK +:UK 420.0:UK =:UK
+EXPR: 0 | POS | INT | 32 | 60 | 413 | 7.0=(420.0-x) | 7.0 420.0 x - = | 7.0:seed 420.0:seed x:seed -:seed =:seed
+EXPR: 0 | POS | INT | 32 | 60 | 427 | 7.0=(x-420.0) | 7.0 x 420.0 - = | 7.0:seed x:seed 420.0:seed -:seed =:seed
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

@@ -1,0 +1,15 @@
+parameters: n=11 l=5 k=1 p=5 q=2 m=11
+TOTAL 63 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 30 | 2 | 334 | (26.0-((20.0+20.0)-(6.0*58.0)))=x | 26.0 20.0 20.0 + 6.0 58.0 * - - x = | 26.0:sticker 20.0:sticker 20.0:sticker +:sticker 6.0:UK 58.0:sticker *:sticker -:sticker -:sticker x:sticker =:sticker
+EXPR: 0 | POS | INT | 37 | 2 | 1554 | (x-20.0)=((20.0+6.0)+(26.0*58.0)) | x 20.0 - 20.0 6.0 + 26.0 58.0 * + = | x:sticker 20.0:sticker -:sticker 20.0:sticker 6.0:sticker +:sticker 26.0:sticker 58.0:UK *:sticker +:sticker =:sticker
+EXPR: 0 | POS | INT | 40 | 2 | 2106 | (26.0-((20.0+20.0)*(6.0-58.0)))=x | 26.0 20.0 20.0 + 6.0 58.0 - * - x = | 26.0:sticker 20.0:UK 20.0:UK +:UK 6.0:sticker 58.0:sticker -:sticker *:sticker -:sticker x:sticker =:sticker
+EXPR: 0 | POS | INT | 42 | 2 | 1160 | ((20.0-(20.0-x))/(26.0-6.0))=58.0 | 20.0 20.0 x - - 26.0 6.0 - / 58.0 = | 20.0:sticker 20.0:sticker x:sticker -:sticker -:sticker 26.0:UK 6.0:UK -:UK /:sticker 58.0:sticker =:sticker
+EXPR: 0 | POS | INT | 55 | 2 | 93 | (((20.0*26.0)+(58.0-20.0))/6.0)=x | 20.0 26.0 * 58.0 20.0 - + 6.0 / x = | 20.0:UK 26.0:sticker *:sticker 58.0:sticker 20.0:sticker -:sticker +:sticker 6.0:UK /:sticker x:sticker =:sticker
+EXPR: 0 | POS | INT | 60 | 2 | 66 | (((20.0-26.0)+(20.0+58.0))-6.0)=x | 20.0 26.0 - 20.0 58.0 + + 6.0 - x = | 20.0:UK 26.0:UK -:UK 20.0:UK 58.0:UK +:UK +:UK 6.0:UK -:UK x:UK =:UK
+EXPR: 0 | POS | INT | 67 | 2 | 36720 | (((20.0+(x/20.0))/58.0)-6.0)=26.0 | 20.0 x 20.0 / + 58.0 / 6.0 - 26.0 = | 20.0:sticker x:sticker 20.0:UK /:sticker +:sticker 58.0:UK /:sticker 6.0:sticker -:sticker 26.0:sticker =:sticker
+EXPR: 0 | POS | INT | 70 | 2 | 720 | (((20.0*6.0)-(26.0+58.0))*20.0)=x | 20.0 6.0 * 26.0 58.0 + - 20.0 * x = | 20.0:UK 6.0:sticker *:sticker 26.0:sticker 58.0:sticker +:sticker -:sticker 20.0:UK *:sticker x:sticker =:sticker
+EXPR: 0 | POS | INT | 72 | 2 | 254 | (x-20.0)=((20.0+58.0)+(26.0*6.0)) | x 20.0 - 20.0 58.0 + 26.0 6.0 * + = | x:sticker 20.0:sticker -:sticker 20.0:sticker 58.0:sticker +:sticker 26.0:sticker 6.0:UK *:sticker +:sticker =:sticker
+EXPR: 0 | POS | INT | 72 | 2 | 91 | 20.0=((x-(6.0+(26.0+58.0)))*20.0) | 20.0 x 6.0 26.0 58.0 + + - 20.0 * = | 20.0:sticker x:UK 6.0:UK 26.0:UK 58.0:UK +:UK +:UK -:UK 20.0:sticker *:sticker =:sticker
+EXPR: 0 | POS | INT | 157 | 2 | 25 | ((58.0-x)-6.0)=(26.0+(20.0/20.0)) | 58.0 x - 6.0 - 26.0 20.0 20.0 / + = | 58.0:sticker x:sticker -:sticker 6.0:sticker -:sticker 26.0:sticker 20.0:sticker 20.0:UK /:sticker +:sticker =:sticker
+NET 11 unique, non-negative, integer-valued solutions found out of 63 total solutions

@@ -1,0 +1,7 @@
+constants : 5.0 45.0 
+unknowns : x
+operators : + - * / =
+objtypes : day hour UK
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 9.0

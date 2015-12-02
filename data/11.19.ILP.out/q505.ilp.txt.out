@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 7 | 1008 | x=(84.0*12.0) | x 84.0 12.0 * = | x:UK 84.0:UK 12.0:ounce *:UK =:UK
+EXPR: 0 | POS | INT | 10 | 7 | 1008 | (84.0*12.0)=x | 84.0 12.0 * x = | 84.0:cent 12.0:ounce *:cent x:cent =:cent
+EXPR: 1 | POS | INT | 10 | 7 | 7 | (84.0/12.0)=x | 84.0 12.0 / x = | 84.0:UK 12.0:ounce /:UK x:UK =:UK
+EXPR: 1 | POS | INT | 10 | 7 | 7 | x=(84.0/12.0) | x 84.0 12.0 / = | x:cent 84.0:cent 12.0:ounce /:cent =:cent
+EXPR: 1 | POS | INT | 12 | 7 | 7 | 84.0=(x*12.0) | 84.0 x 12.0 * = | 84.0:ounce x:UK 12.0:ounce *:ounce =:ounce
+EXPR: 0 | POS | INT | 12 | 7 | 1008 | 84.0=(x/12.0) | 84.0 x 12.0 / = | 84.0:UK x:UK 12.0:ounce /:UK =:UK
+EXPR: 1 | POS | INT | 12 | 7 | 7 | 84.0=(12.0*x) | 84.0 12.0 x * = | 84.0:UK 12.0:ounce x:UK *:UK =:UK
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (84.0/x)=12.0 | 84.0 x / 12.0 = | 84.0:cent x:UK /:cent 12.0:cent =:cent
+EXPR: 0 | POS | INT | 12 | 7 | 1008 | (x/84.0)=12.0 | x 84.0 / 12.0 = | x:UK 84.0:cent /:UK 12.0:UK =:UK
+EXPR: 0 | POS | INT | 20 | 7 | 96 | (84.0+12.0)=x | 84.0 12.0 + x = | 84.0:cent 12.0:cent +:cent x:cent =:cent
+EXPR: 0 | POS | INT | 20 | 7 | 96 | x=(84.0+12.0) | x 84.0 12.0 + = | x:ounce 84.0:ounce 12.0:ounce +:ounce =:ounce
+EXPR: 0 | POS | INT | 20 | 7 | 72 | (84.0-12.0)=x | 84.0 12.0 - x = | 84.0:cent 12.0:cent -:cent x:cent =:cent
+EXPR: 0 | POS | INT | 20 | 7 | 72 | x=(84.0-12.0) | x 84.0 12.0 - = | x:UK 84.0:UK 12.0:UK -:UK =:UK
+EXPR: 0 | POS | INT | 22 | 7 | 96 | (x-84.0)=12.0 | x 84.0 - 12.0 = | x:ounce 84.0:ounce -:ounce 12.0:ounce =:ounce
+EXPR: 1 | POS | INT | 22 | 7 | 7 | (x*12.0)=84.0 | x 12.0 * 84.0 = | x:UK 12.0:ounce *:ounce 84.0:ounce =:ounce
+EXPR: 1 | POS | INT | 22 | 7 | 7 | (12.0*x)=84.0 | 12.0 x * 84.0 = | 12.0:cent x:UK *:cent 84.0:cent =:cent
+EXPR: 0 | POS | INT | 22 | 7 | 1008 | 12.0=(x/84.0) | 12.0 x 84.0 / = | 12.0:UK x:UK 84.0:cent /:UK =:UK
+EXPR: 0 | POS | INT | 22 | 7 | 72 | 84.0=(12.0+x) | 84.0 12.0 x + = | 84.0:ounce 12.0:ounce x:ounce +:ounce =:ounce
+EXPR: 0 | POS | INT | 22 | 7 | 72 | (84.0-x)=12.0 | 84.0 x - 12.0 = | 84.0:UK x:UK -:UK 12.0:UK =:UK
+EXPR: 0 | POS | INT | 22 | 7 | 72 | 84.0=(x+12.0) | 84.0 x 12.0 + = | 84.0:UK x:UK 12.0:UK +:UK =:UK
+EXPR: 0 | POS | INT | 22 | 7 | 96 | 84.0=(x-12.0) | 84.0 x 12.0 - = | 84.0:UK x:UK 12.0:UK -:UK =:UK
+EXPR: 0 | POS | INT | 22 | 7 | 1008 | (x/12.0)=84.0 | x 12.0 / 84.0 = | x:UK 12.0:ounce /:UK 84.0:UK =:UK
+EXPR: 1 | POS | INT | 22 | 7 | 7 | 12.0=(84.0/x) | 12.0 84.0 x / = | 12.0:ounce 84.0:ounce x:UK /:ounce =:ounce
+EXPR: 0 | POS | INT | 32 | 7 | 96 | (x-12.0)=84.0 | x 12.0 - 84.0 = | x:ounce 12.0:ounce -:ounce 84.0:ounce =:ounce
+EXPR: 0 | POS | INT | 32 | 7 | 72 | (12.0+x)=84.0 | 12.0 x + 84.0 = | 12.0:ounce x:ounce +:ounce 84.0:ounce =:ounce
+EXPR: 0 | POS | INT | 32 | 7 | 72 | (x+12.0)=84.0 | x 12.0 + 84.0 = | x:cent 12.0:cent +:cent 84.0:cent =:cent
+EXPR: 0 | POS | INT | 32 | 7 | 72 | 12.0=(84.0-x) | 12.0 84.0 x - = | 12.0:ounce 84.0:ounce x:ounce -:ounce =:ounce
+EXPR: 0 | POS | INT | 32 | 7 | 96 | 12.0=(x-84.0) | 12.0 x 84.0 - = | 12.0:ounce x:ounce 84.0:ounce -:ounce =:ounce
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

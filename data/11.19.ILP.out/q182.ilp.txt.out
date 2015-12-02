@@ -1,0 +1,6 @@
+parameters: n=3 l=1 k=1 p=5 q=1 m=7
+TOTAL 4 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 7 | 49 | x=49.0 | x 49.0 = | x:hamburger 49.0:hamburger =:hamburger
+EXPR: 0 | POS | INT | 0 | 7 | 49 | 49.0=x | 49.0 x = | 49.0:hamburger x:hamburger =:hamburger
+NET 2 unique, non-negative, integer-valued solutions found out of 4 total solutions

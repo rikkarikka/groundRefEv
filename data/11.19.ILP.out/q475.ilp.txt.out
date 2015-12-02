@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 296 | 296 | x=(37.0*8.0) | x 37.0 8.0 * = | x:piece 37.0:people 8.0:piece *:piece =:piece
+EXPR: 1 | POS | INT | 0 | 296 | 296 | (37.0*8.0)=x | 37.0 8.0 * x = | 37.0:people 8.0:piece *:piece x:piece =:piece
+EXPR: 1 | POS | INT | 2 | 296 | 296 | (x/37.0)=8.0 | x 37.0 / 8.0 = | x:piece 37.0:people /:piece 8.0:piece =:piece
+EXPR: 0 | POS | INT | 10 | 296 | 45 | x=(37.0+8.0) | x 37.0 8.0 + = | x:piece 37.0:piece 8.0:piece +:piece =:piece
+EXPR: 0 | POS | INT | 10 | 296 | 45 | (37.0+8.0)=x | 37.0 8.0 + x = | 37.0:piece 8.0:piece +:piece x:piece =:piece
+EXPR: 0 | POS | INT | 10 | 296 | 29 | (37.0-8.0)=x | 37.0 8.0 - x = | 37.0:piece 8.0:piece -:piece x:piece =:piece
+EXPR: 0 | POS | INT | 10 | 296 | 29 | x=(37.0-8.0) | x 37.0 8.0 - = | x:piece 37.0:piece 8.0:piece -:piece =:piece
+EXPR: 0 | POS | INT | 12 | 296 | 29 | (37.0-x)=8.0 | 37.0 x - 8.0 = | 37.0:piece x:piece -:piece 8.0:piece =:piece
+EXPR: 0 | POS | INT | 12 | 296 | 29 | 37.0=(8.0+x) | 37.0 8.0 x + = | 37.0:piece 8.0:piece x:piece +:piece =:piece
+EXPR: 1 | POS | INT | 12 | 296 | 296 | 8.0=(x/37.0) | 8.0 x 37.0 / = | 8.0:piece x:piece 37.0:people /:piece =:piece
+EXPR: 0 | POS | INT | 12 | 296 | 45 | (x-37.0)=8.0 | x 37.0 - 8.0 = | x:piece 37.0:piece -:piece 8.0:piece =:piece
+EXPR: 0 | POS | INT | 12 | 296 | 29 | 37.0=(x+8.0) | 37.0 x 8.0 + = | 37.0:piece x:piece 8.0:piece +:piece =:piece
+EXPR: 0 | POS | INT | 12 | 296 | 45 | 37.0=(x-8.0) | 37.0 x 8.0 - = | 37.0:piece x:piece 8.0:piece -:piece =:piece
+EXPR: 1 | POS | INT | 12 | 296 | 296 | 37.0=(x/8.0) | 37.0 x 8.0 / = | 37.0:people x:people 8.0:piece /:people =:people
+EXPR: 1 | POS | INT | 22 | 296 | 296 | (x/8.0)=37.0 | x 8.0 / 37.0 = | x:people 8.0:piece /:people 37.0:people =:people
+EXPR: 0 | POS | INT | 22 | 296 | 29 | 8.0=(37.0-x) | 8.0 37.0 x - = | 8.0:piece 37.0:piece x:piece -:piece =:piece
+EXPR: 0 | POS | INT | 22 | 296 | 29 | (x+8.0)=37.0 | x 8.0 + 37.0 = | x:piece 8.0:piece +:piece 37.0:piece =:piece
+EXPR: 0 | POS | INT | 22 | 296 | 45 | (x-8.0)=37.0 | x 8.0 - 37.0 = | x:piece 8.0:piece -:piece 37.0:piece =:piece
+EXPR: 0 | POS | INT | 22 | 296 | 29 | (8.0+x)=37.0 | 8.0 x + 37.0 = | 8.0:piece x:piece +:piece 37.0:piece =:piece
+EXPR: 0 | POS | INT | 22 | 296 | 45 | 8.0=(x-37.0) | 8.0 x 37.0 - = | 8.0:piece x:piece 37.0:piece -:piece =:piece
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

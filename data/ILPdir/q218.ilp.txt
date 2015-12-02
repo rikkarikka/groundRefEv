@@ -1,0 +1,7 @@
+constants : 5.1 5.36 
+unknowns : x
+operators : + - * / =
+objtypes : dollar UK
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 10.46

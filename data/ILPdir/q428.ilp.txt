@@ -1,0 +1,7 @@
+constants : 5.0 35.0 
+unknowns : x
+operators : + - * / =
+objtypes : UK cookie 
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 7.0

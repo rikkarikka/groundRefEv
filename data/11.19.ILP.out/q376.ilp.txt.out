@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 0.53 | 1.52380952380952 | 0.21=(0.32/x) | 0.21 0.32 x / = | 0.21:inch 0.32:inch x:UK /:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 0.53 | 0.65625 | 0.21=(x*0.32) | 0.21 x 0.32 * = | 0.21:inch x:UK 0.32:inch *:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 0.53 | 0.65625 | 0.21=(0.32*x) | 0.21 0.32 x * = | 0.21:inch 0.32:inch x:UK *:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 0.53 | 1.52380952380952 | (x*0.21)=0.32 | x 0.21 * 0.32 = | x:UK 0.21:inch *:inch 0.32:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 0.53 | 1.52380952380952 | (0.21*x)=0.32 | 0.21 x * 0.32 = | 0.21:inch x:UK *:inch 0.32:inch =:inch
+EXPR: 0 | POS | FRA | 2 | 0.53 | 0.65625 | (0.21/x)=0.32 | 0.21 x / 0.32 = | 0.21:inch x:UK /:inch 0.32:inch =:inch
+EXPR: 0 | POS | FRA | 10 | 0.53 | 0.0672 | (0.21*0.32)=x | 0.21 0.32 * x = | 0.21:inch 0.32:UK *:UK x:UK =:UK
+EXPR: 1 | POS | FRA | 10 | 0.53 | 0.53 | (0.21+0.32)=x | 0.21 0.32 + x = | 0.21:inch 0.32:inch +:inch x:inch =:inch
+EXPR: 0 | POS | FRA | 10 | 0.53 | 0.0672 | x=(0.21*0.32) | x 0.21 0.32 * = | x:UK 0.21:inch 0.32:UK *:UK =:UK
+EXPR: 1 | POS | FRA | 10 | 0.53 | 0.53 | x=(0.21+0.32) | x 0.21 0.32 + = | x:inch 0.21:inch 0.32:inch +:inch =:inch
+EXPR: 0 | POS | FRA | 10 | 0.53 | 0.65625 | x=(0.21/0.32) | x 0.21 0.32 / = | x:UK 0.21:UK 0.32:inch /:UK =:UK
+EXPR: 0 | POS | FRA | 10 | 0.53 | 0.65625 | (0.21/0.32)=x | 0.21 0.32 / x = | 0.21:UK 0.32:inch /:UK x:UK =:UK
+EXPR: 0 | POS | FRA | 12 | 0.53 | 0.65625 | 0.32=(0.21/x) | 0.32 0.21 x / = | 0.32:inch 0.21:inch x:UK /:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.53 | 0.65625 | (x*0.32)=0.21 | x 0.32 * 0.21 = | x:UK 0.32:inch *:inch 0.21:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.53 | 0.0672 | 0.21=(x/0.32) | 0.21 x 0.32 / = | 0.21:UK x:UK 0.32:inch /:UK =:UK
+EXPR: 0 | POS | FRA | 12 | 0.53 | 1.52380952380952 | 0.32=(0.21*x) | 0.32 0.21 x * = | 0.32:inch 0.21:inch x:UK *:inch =:inch
+EXPR: 1 | POS | FRA | 12 | 0.53 | 0.53 | 0.21=(x-0.32) | 0.21 x 0.32 - = | 0.21:inch x:inch 0.32:inch -:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.53 | 1.52380952380952 | 0.32=(x*0.21) | 0.32 x 0.21 * = | 0.32:inch x:UK 0.21:inch *:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.53 | 0.11 | 0.21=(0.32-x) | 0.21 0.32 x - = | 0.21:inch 0.32:inch x:inch -:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.53 | 0.65625 | (0.32*x)=0.21 | 0.32 x * 0.21 = | 0.32:inch x:UK *:inch 0.21:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.53 | 1.52380952380952 | (0.32/x)=0.21 | 0.32 x / 0.21 = | 0.32:inch x:UK /:inch 0.21:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.53 | 0.11 | (x+0.21)=0.32 | x 0.21 + 0.32 = | x:inch 0.21:inch +:inch 0.32:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.53 | 0.11 | (0.21+x)=0.32 | 0.21 x + 0.32 = | 0.21:inch x:inch +:inch 0.32:inch =:inch
+EXPR: 1 | POS | FRA | 12 | 0.53 | 0.53 | (x-0.21)=0.32 | x 0.21 - 0.32 = | x:inch 0.21:inch -:inch 0.32:inch =:inch
+EXPR: 0 | POS | FRA | 12 | 0.53 | 0.0672 | (x/0.21)=0.32 | x 0.21 / 0.32 = | x:UK 0.21:inch /:UK 0.32:UK =:UK
+EXPR: 0 | POS | FRA | 20 | 0.53 | 1.52380952380952 | (0.32/0.21)=x | 0.32 0.21 / x = | 0.32:UK 0.21:inch /:UK x:UK =:UK
+EXPR: 0 | POS | FRA | 20 | 0.53 | 0.11 | x=(0.32-0.21) | x 0.32 0.21 - = | x:inch 0.32:inch 0.21:inch -:inch =:inch
+EXPR: 0 | POS | FRA | 20 | 0.53 | 0.11 | (0.32-0.21)=x | 0.32 0.21 - x = | 0.32:inch 0.21:inch -:inch x:inch =:inch
+EXPR: 0 | POS | FRA | 20 | 0.53 | 1.52380952380952 | x=(0.32/0.21) | x 0.32 0.21 / = | x:UK 0.32:UK 0.21:inch /:UK =:UK
+EXPR: 0 | POS | FRA | 22 | 0.53 | 0.11 | (0.32-x)=0.21 | 0.32 x - 0.21 = | 0.32:inch x:inch -:inch 0.21:inch =:inch
+EXPR: 0 | POS | FRA | 22 | 0.53 | 0.0672 | (x/0.32)=0.21 | x 0.32 / 0.21 = | x:UK 0.32:inch /:UK 0.21:UK =:UK
+EXPR: 1 | POS | FRA | 22 | 0.53 | 0.53 | (x-0.32)=0.21 | x 0.32 - 0.21 = | x:inch 0.32:inch -:inch 0.21:inch =:inch
+EXPR: 1 | POS | FRA | 22 | 0.53 | 0.53 | 0.32=(x-0.21) | 0.32 x 0.21 - = | 0.32:inch x:inch 0.21:inch -:inch =:inch
+EXPR: 0 | POS | FRA | 22 | 0.53 | 0.11 | 0.32=(x+0.21) | 0.32 x 0.21 + = | 0.32:inch x:inch 0.21:inch +:inch =:inch
+EXPR: 0 | POS | FRA | 22 | 0.53 | 0.11 | 0.32=(0.21+x) | 0.32 0.21 x + = | 0.32:inch 0.21:inch x:inch +:inch =:inch
+EXPR: 0 | POS | FRA | 22 | 0.53 | 0.0672 | 0.32=(x/0.21) | 0.32 x 0.21 / = | 0.32:UK x:UK 0.21:inch /:UK =:UK
+NET 36 unique, non-negative solutions found out of 136 total solutions

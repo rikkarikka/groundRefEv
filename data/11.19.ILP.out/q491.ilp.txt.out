@@ -1,0 +1,49 @@
+parameters: n=9 l=4 k=1 p=5 q=2 m=10
+TOTAL 319 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 159 | 22320 | ((25.0-(20.0-75.0))*279.0)=x | 25.0 20.0 75.0 - - 279.0 * x = | 25.0:dollar 20.0:dollar 75.0:dollar -:dollar -:dollar 279.0:money *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 159 | 199 | ((25.0+x)-(20.0-75.0))=279.0 | 25.0 x + 20.0 75.0 - - 279.0 = | 25.0:dollar x:dollar +:dollar 20.0:dollar 75.0:dollar -:dollar -:dollar 279.0:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 159 | 359 | 25.0=(20.0-((75.0+279.0)-x)) | 25.0 20.0 75.0 279.0 + x - - = | 25.0:dollar 20.0:dollar 75.0:dollar 279.0:dollar +:dollar x:dollar -:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 159 | 359 | (x-((25.0-20.0)+75.0))=279.0 | x 25.0 20.0 - 75.0 + - 279.0 = | x:dollar 25.0:dollar 20.0:dollar -:dollar 75.0:dollar +:dollar -:dollar 279.0:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 159 | 26480 | 25.0=(((20.0+75.0)*279.0)-x) | 25.0 20.0 75.0 + 279.0 * x - = | 25.0:money 20.0:dollar 75.0:dollar +:dollar 279.0:money *:money x:money -:money =:money
+EXPR: 0 | POS | INT | 22 | 159 | 359 | ((x-(25.0+75.0))+20.0)=279.0 | x 25.0 75.0 + - 20.0 + 279.0 = | x:dollar 25.0:dollar 75.0:dollar +:dollar -:dollar 20.0:dollar +:dollar 279.0:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 159 | 359 | (20.0-(25.0+(75.0-x)))=279.0 | 20.0 25.0 75.0 x - + - 279.0 = | 20.0:dollar 25.0:dollar 75.0:dollar x:dollar -:dollar +:dollar -:dollar 279.0:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 159 | 309 | ((25.0+(x-75.0))+20.0)=279.0 | 25.0 x 75.0 - + 20.0 + 279.0 = | 25.0:dollar x:dollar 75.0:dollar -:dollar +:dollar 20.0:dollar +:dollar 279.0:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 159 | 20920 | 25.0=(20.0+((75.0*279.0)-x)) | 25.0 20.0 75.0 279.0 * x - + = | 25.0:dollar 20.0:dollar 75.0:money 279.0:dollar *:dollar x:dollar -:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 30 | 159 | 5680 | ((25.0+75.0)+(20.0*279.0))=x | 25.0 75.0 + 20.0 279.0 * + x = | 25.0:dollar 75.0:dollar +:dollar 20.0:money 279.0:dollar *:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 30 | 159 | 1246 | x=((25.0+(20.0*75.0))-279.0) | x 25.0 20.0 75.0 * + 279.0 - = | x:money 25.0:money 20.0:dollar 75.0:money *:money +:money 279.0:money -:money =:money
+EXPR: 0 | POS | INT | 32 | 159 | 16575 | ((25.0*20.0)-(x/75.0))=279.0 | 25.0 20.0 * x 75.0 / - 279.0 = | 25.0:dollar 20.0:money *:dollar x:dollar 75.0:money /:dollar -:dollar 279.0:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 159 | 7055 | 25.0=((20.0*(75.0+279.0))-x) | 25.0 20.0 75.0 279.0 + * x - = | 25.0:dollar 20.0:dollar 75.0:money 279.0:money +:money *:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 159 | 7580 | ((x/20.0)-(25.0+75.0))=279.0 | x 20.0 / 25.0 75.0 + - 279.0 = | x:dollar 20.0:money /:dollar 25.0:dollar 75.0:dollar +:dollar -:dollar 279.0:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 159 | 5475 | 25.0=((x+(20.0*75.0))/279.0) | 25.0 x 20.0 75.0 * + 279.0 / = | 25.0:dollar x:dollar 20.0:money 75.0:dollar *:dollar +:dollar 279.0:money /:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 159 | 8870 | 20.0=(x-(25.0*(75.0+279.0))) | 20.0 x 25.0 75.0 279.0 + * - = | 20.0:money x:money 25.0:money 75.0:dollar 279.0:dollar +:dollar *:money -:money =:money
+EXPR: 0 | POS | INT | 37 | 159 | 249 | 25.0=((75.0-(279.0-x))-20.0) | 25.0 75.0 279.0 x - - 20.0 - = | 25.0:dollar 75.0:dollar 279.0:dollar x:dollar -:dollar -:dollar 20.0:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 37 | 159 | 349 | ((x-(20.0+75.0))+25.0)=279.0 | x 20.0 75.0 + - 25.0 + 279.0 = | x:dollar 20.0:dollar 75.0:dollar +:dollar -:dollar 25.0:dollar +:dollar 279.0:dollar =:dollar
+EXPR: 0 | POS | INT | 37 | 159 | 309 | ((20.0+(x-75.0))+25.0)=279.0 | 20.0 x 75.0 - + 25.0 + 279.0 = | 20.0:dollar x:dollar 75.0:dollar -:dollar +:dollar 25.0:dollar +:dollar 279.0:dollar =:dollar
+EXPR: 0 | POS | INT | 42 | 159 | 5630 | (25.0+(x-75.0))=(20.0*279.0) | 25.0 x 75.0 - + 20.0 279.0 * = | 25.0:dollar x:dollar 75.0:dollar -:dollar +:dollar 20.0:money 279.0:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 42 | 159 | 7580 | ((x/20.0)-(25.0+279.0))=75.0 | x 20.0 / 25.0 279.0 + - 75.0 = | x:dollar 20.0:money /:dollar 25.0:dollar 279.0:dollar +:dollar -:dollar 75.0:dollar =:dollar
+EXPR: 0 | POS | INT | 42 | 159 | 399 | 25.0=((x-(20.0+75.0))-279.0) | 25.0 x 20.0 75.0 + - 279.0 - = | 25.0:money x:money 20.0:money 75.0:money +:money -:money 279.0:money -:money =:money
+EXPR: 0 | POS | INT | 47 | 159 | 1320 | (25.0-((x+75.0)/279.0))=20.0 | 25.0 x 75.0 + 279.0 / - 20.0 = | 25.0:dollar x:dollar 75.0:dollar +:dollar 279.0:money /:dollar -:dollar 20.0:dollar =:dollar
+EXPR: 0 | POS | INT | 47 | 159 | 8370 | (x/((75.0-20.0)-25.0))=279.0 | x 75.0 20.0 - 25.0 - / 279.0 = | x:money 75.0:dollar 20.0:dollar -:dollar 25.0:dollar -:dollar /:money 279.0:money =:money
+EXPR: 0 | POS | INT | 47 | 159 | 6920 | 20.0=((x+75.0)-(25.0*279.0)) | 20.0 x 75.0 + 25.0 279.0 * - = | 20.0:dollar x:dollar 75.0:dollar +:dollar 25.0:dollar 279.0:money *:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 47 | 159 | 19400 | 25.0=((75.0*(279.0-20.0))-x) | 25.0 75.0 279.0 20.0 - * x - = | 25.0:dollar 75.0:money 279.0:dollar 20.0:dollar -:dollar *:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 47 | 159 | 2096 | (((20.0+75.0)*25.0)-x)=279.0 | 20.0 75.0 + 25.0 * x - 279.0 = | 20.0:dollar 75.0:dollar +:dollar 25.0:money *:dollar x:dollar -:dollar 279.0:dollar =:dollar
+EXPR: 0 | POS | INT | 52 | 159 | 146 | ((25.0*20.0)-279.0)=(75.0+x) | 25.0 20.0 * 279.0 - 75.0 x + = | 25.0:dollar 20.0:money *:money 279.0:money -:money 75.0:money x:money +:money =:money
+EXPR: 0 | POS | INT | 57 | 159 | 96 | (25.0-((x+279.0)/75.0))=20.0 | 25.0 x 279.0 + 75.0 / - 20.0 = | 25.0:dollar x:dollar 279.0:dollar +:dollar 75.0:money /:dollar -:dollar 20.0:dollar =:dollar
+EXPR: 0 | POS | INT | 57 | 159 | 418000 | 25.0=((75.0*279.0)-(x/20.0)) | 25.0 75.0 279.0 * x 20.0 / - = | 25.0:dollar 75.0:money 279.0:dollar *:dollar x:dollar 20.0:money /:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 67 | 159 | 1096 | 20.0=(75.0-((279.0+x)/25.0)) | 20.0 75.0 279.0 x + 25.0 / - = | 20.0:dollar 75.0:dollar 279.0:dollar x:dollar +:dollar 25.0:money /:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 67 | 159 | 19530 | ((20.0+75.0)-(x/279.0))=25.0 | 20.0 75.0 + x 279.0 / - 25.0 = | 20.0:dollar 75.0:dollar +:dollar x:dollar 279.0:money /:dollar -:dollar 25.0:dollar =:dollar
+EXPR: 0 | POS | INT | 72 | 159 | 349 | ((x-(75.0+279.0))+25.0)=20.0 | x 75.0 279.0 + - 25.0 + 20.0 = | x:dollar 75.0:dollar 279.0:dollar +:dollar -:dollar 25.0:dollar +:dollar 20.0:dollar =:dollar
+EXPR: 0 | POS | INT | 77 | 159 | 5120 | 20.0=(x-((279.0-75.0)*25.0)) | 20.0 x 279.0 75.0 - 25.0 * - = | 20.0:money x:money 279.0:dollar 75.0:dollar -:dollar 25.0:money *:money -:money =:money
+EXPR: 0 | POS | INT | 77 | 159 | 296 | 75.0=((20.0+(279.0-x))*25.0) | 75.0 20.0 279.0 x - + 25.0 * = | 75.0:dollar 20.0:dollar 279.0:dollar x:dollar -:dollar +:dollar 25.0:money *:dollar =:dollar
+EXPR: 0 | POS | INT | 77 | 159 | 411525 | ((20.0*75.0)-(x/279.0))=25.0 | 20.0 75.0 * x 279.0 / - 25.0 = | 20.0:dollar 75.0:money *:dollar x:dollar 279.0:money /:dollar -:dollar 25.0:dollar =:dollar
+EXPR: 0 | POS | INT | 77 | 159 | 262 | 75.0=(((x+20.0)-279.0)*25.0) | 75.0 x 20.0 + 279.0 - 25.0 * = | 75.0:dollar x:dollar 20.0:dollar +:dollar 279.0:dollar -:dollar 25.0:money *:dollar =:dollar
+EXPR: 0 | POS | INT | 77 | 159 | 2134 | 75.0=(((x+20.0)-279.0)/25.0) | 75.0 x 20.0 + 279.0 - 25.0 / = | 75.0:dollar x:dollar 20.0:dollar +:dollar 279.0:dollar -:dollar 25.0:money /:dollar =:dollar
+EXPR: 0 | POS | INT | 82 | 159 | 20920 | ((x-(75.0*279.0))+25.0)=20.0 | x 75.0 279.0 * - 25.0 + 20.0 = | x:dollar 75.0:money 279.0:dollar *:dollar -:dollar 25.0:dollar +:dollar 20.0:dollar =:dollar
+EXPR: 0 | POS | INT | 82 | 159 | 309 | 279.0=((20.0-(75.0-x))+25.0) | 279.0 20.0 75.0 x - - 25.0 + = | 279.0:dollar 20.0:dollar 75.0:dollar x:dollar -:dollar -:dollar 25.0:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 82 | 159 | 209 | 279.0=(((20.0+75.0)-25.0)+x) | 279.0 20.0 75.0 + 25.0 - x + = | 279.0:dollar 20.0:dollar 75.0:dollar +:dollar 25.0:dollar -:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 82 | 159 | 296 | 75.0=((279.0+x)-(25.0*20.0)) | 75.0 279.0 x + 25.0 20.0 * - = | 75.0:dollar 279.0:dollar x:dollar +:dollar 25.0:dollar 20.0:money *:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 85 | 159 | 5577 | x=((20.0*279.0)-(75.0/25.0)) | x 20.0 279.0 * 75.0 25.0 / - = | x:dollar 20.0:money 279.0:dollar *:dollar 75.0:dollar 25.0:money /:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 87 | 159 | 416625 | ((20.0*279.0)-(x/75.0))=25.0 | 20.0 279.0 * x 75.0 / - 25.0 = | 20.0:money 279.0:dollar *:dollar x:dollar 75.0:money /:dollar -:dollar 25.0:dollar =:dollar
+EXPR: 0 | POS | INT | 92 | 159 | 7055 | (((75.0+279.0)*20.0)-x)=25.0 | 75.0 279.0 + 20.0 * x - 25.0 = | 75.0:dollar 279.0:dollar +:dollar 20.0:money *:dollar x:dollar -:dollar 25.0:dollar =:dollar
+NET 45 unique, non-negative, integer-valued solutions found out of 319 total solutions

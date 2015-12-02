@@ -1,0 +1,7 @@
+constants : 54912.0 12170.0 
+unknowns : x
+operators : + - * / =
+objtypes : ladybug 
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 67082.0
