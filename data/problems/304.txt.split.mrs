@@ -1,0 +1,58 @@
+SENT: Each day, the polar bear at Richmond's zoo eats 0.2 of a bucket of trout and 0.4 of a bucket of salmon.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ focus_d_rel<0:103> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
+ [ loc_nonsp_rel<0:9> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _each_q_rel<0:4> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
+ [ "_day_n_of_rel"<5:9> LBL: h10 ARG0: x6 ARG1: i11 ]
+ [ _the_q_rel<10:13> LBL: h12 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h13 BODY: h14 ]
+ [ "_polar_a_1_rel"<14:19> LBL: h15 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ]
+ [ "_bear_n_1_rel"<20:24> LBL: h15 ARG0: x3 ]
+ [ _at_p_rel<25:27> LBL: h15 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ARG2: x18 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<28:36> LBL: h19 ARG0: x20 [ x PERS: 3 NUM: sg IND: + ] RSTR: h21 BODY: h22 ]
+ [ named_rel<28:36> LBL: h23 CARG: "Richmond" ARG0: x20 ]
+ [ def_explicit_q_rel<36:38> LBL: h25 ARG0: x18 RSTR: h26 BODY: h27 ]
+ [ poss_rel<36:38> LBL: h28 ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x18 ARG2: x20 ]
+ [ "_zoo_n_1_rel"<39:42> LBL: h28 ARG0: x18 ]
+ [ "_eat_v_1_rel"<43:47> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x30 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<48:51> LBL: h31 ARG0: x30 ARG1: x32 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<48:51> LBL: h33 ARG0: x30 RSTR: h34 BODY: h35 ]
+ [ card_rel<48:51> LBL: h31 CARG: "0.2" ARG0: e37 [ e SF: prop ] ARG1: x30 ]
+ [ _a_q_rel<55:56> LBL: h38 ARG0: x32 RSTR: h39 BODY: h40 ]
+ [ "_bucket_n_1_rel"<57:63> LBL: h41 ARG0: x32 ]
+ [ _of_p_rel<64:66> LBL: h41 ARG0: e42 [ e SF: prop ] ARG1: x32 ARG2: x43 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<67:103> LBL: h44 ARG0: x43 RSTR: h45 BODY: h46 ]
+ [ udef_q_rel<67:72> LBL: h47 ARG0: x48 [ x PERS: 3 NUM: pl IND: + ] RSTR: h49 BODY: h50 ]
+ [ "_trout_n_1_rel"<67:72> LBL: h51 ARG0: x48 ]
+ [ _and_c_rel<73:76> LBL: h52 ARG0: x43 L-INDEX: x48 R-INDEX: x53 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<77:80> LBL: h54 ARG0: x53 ARG1: x55 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<77:80> LBL: h56 ARG0: x53 RSTR: h57 BODY: h58 ]
+ [ card_rel<77:80> LBL: h54 CARG: "0.4" ARG0: e60 [ e SF: prop ] ARG1: x53 ]
+ [ _a_q_rel<84:85> LBL: h61 ARG0: x55 RSTR: h62 BODY: h63 ]
+ [ "_bucket_n_1_rel"<86:92> LBL: h64 ARG0: x55 ]
+ [ _of_p_rel<93:95> LBL: h64 ARG0: e65 [ e SF: prop ] ARG1: x55 ARG2: x66 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<96:103> LBL: h67 ARG0: x66 RSTR: h68 BODY: h69 ]
+ [ "_salmon_n_1_rel"<96:103> LBL: h70 ARG0: x66 ] >
+HCONS: < h0 qeq h1 h8 qeq h10 h13 qeq h15 h21 qeq h23 h26 qeq h28 h34 qeq h31 h39 qeq h41 h45 qeq h52 h49 qeq h51 h57 qeq h54 h62 qeq h64 h68 qeq h70 > ]
+
+
+SENT: How many buckets of fish does the polar bear eat daily?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:24> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_bucket_n_1_rel"<9:16> LBL: h13 ARG0: x5 ]
+ [ _of_p_rel<17:19> LBL: h13 ARG0: e16 [ e SF: prop ] ARG1: x5 ARG2: x17 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<20:24> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ "_fish_n_1_rel"<20:24> LBL: h21 ARG0: x17 ]
+ [ _the_q_rel<30:33> LBL: h22 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h23 BODY: h24 ]
+ [ "_polar_a_1_rel"<34:39> LBL: h25 ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ]
+ [ "_bear_n_1_rel"<40:44> LBL: h25 ARG0: x3 ]
+ [ "_eat_v_1_rel"<45:48> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ "_daily_a_1_rel"<49:55> LBL: h1 ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h19 qeq h21 h23 qeq h25 > ]
+
+

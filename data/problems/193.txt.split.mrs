@@ -1,0 +1,40 @@
+SENT: Dan picked 9 limes and gave Sara 4 of the limes.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:3> LBL: h7 CARG: "Dan" ARG0: x3 ]
+ [ "_pick_v_1_rel"<4:10> LBL: h9 ARG0: e10 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x11 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<11:12> LBL: h12 ARG0: x11 RSTR: h13 BODY: h14 ]
+ [ card_rel<11:12> LBL: h15 CARG: "9" ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x11 ]
+ [ "_lime_n_1_rel"<13:18> LBL: h15 ARG0: x11 ]
+ [ _and_c_rel<19:22> LBL: h1 ARG0: e2 L-INDEX: e10 R-INDEX: e18 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h9 R-HNDL: h19 ]
+ [ "_give_v_1_rel"<23:27> LBL: h19 ARG0: e18 ARG1: x3 ARG2: x20 [ x PERS: 3 NUM: pl ] ARG3: x21 [ x PERS: 3 NUM: sg GEND: f IND: + ] ]
+ [ proper_q_rel<28:32> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ named_rel<28:32> LBL: h25 CARG: "Sara" ARG0: x21 ]
+ [ part_of_rel<33:34> LBL: h27 ARG0: x20 ARG1: x28 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<33:34> LBL: h29 ARG0: x20 RSTR: h30 BODY: h31 ]
+ [ card_rel<33:34> LBL: h27 CARG: "4" ARG0: e33 [ e SF: prop ] ARG1: x20 ]
+ [ _the_q_rel<38:41> LBL: h34 ARG0: x28 RSTR: h35 BODY: h36 ]
+ [ "_lime_n_1_rel"<42:48> LBL: h37 ARG0: x28 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h13 qeq h15 h23 qeq h25 h30 qeq h27 h35 qeq h37 > ]
+
+
+SENT: How many limes does Dan have now ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_lime_n_1_rel"<9:14> LBL: h13 ARG0: x5 ]
+ [ proper_q_rel<20:23> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h17 BODY: h18 ]
+ [ named_rel<20:23> LBL: h19 CARG: "Dan" ARG0: x3 ]
+ [ "_have_v_1_rel"<24:28> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ loc_nonsp_rel<29:34> LBL: h1 ARG0: e21 [ e SF: prop ] ARG1: e2 ARG2: x22 [ x PERS: 3 NUM: sg ] ]
+ [ time_n_rel<29:34> LBL: h23 ARG0: x22 ]
+ [ def_implicit_q_rel<29:34> LBL: h24 ARG0: x22 RSTR: h25 BODY: h26 ]
+ [ _now_a_1_rel<29:34> LBL: h23 ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x22 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h17 qeq h19 h25 qeq h23 > ]
+
+

@@ -1,0 +1,48 @@
+SENT: Fred has 110 blue marbles.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Fred" ARG0: x3 ]
+ [ "_have_v_1_rel"<5:8> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<9:12> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<9:12> LBL: h13 CARG: "110" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_blue_a_1_rel"<13:17> LBL: h13 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_marble_n_1_rel"<18:26> LBL: h13 ARG0: x9 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
+
+
+SENT: Fred has 22 times more blue marbles than Tim.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Fred" ARG0: x3 ]
+ [ "_have_v_1_rel"<5:8> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<9:45> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<9:17> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG2: x16 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<9:17> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ card_rel<9:11> LBL: h20 CARG: "22" ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x16 ]
+ [ "_time_n_of_rel"<12:17> LBL: h20 ARG0: x16 ]
+ [ comp_rel<18:22> LBL: h13 ARG0: e15 ARG1: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: x24 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ "_blue_a_1_rel"<23:27> LBL: h13 ARG0: e23 ARG1: x9 ]
+ [ "_marble_n_1_rel"<28:35> LBL: h13 ARG0: x9 ]
+ [ proper_q_rel<41:45> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ named_rel<41:45> LBL: h28 CARG: "Tim" ARG0: x24 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h18 qeq h20 h26 qeq h28 > ]
+
+
+SENT: How many blue marbles does Tim have?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:21> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_blue_a_1_rel"<9:13> LBL: h13 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x5 ]
+ [ "_marble_n_1_rel"<14:21> LBL: h13 ARG0: x5 ]
+ [ proper_q_rel<27:30> LBL: h17 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h18 BODY: h19 ]
+ [ named_rel<27:30> LBL: h20 CARG: "Tim" ARG0: x3 ]
+ [ "_have_v_1_rel"<31:36> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h20 > ]
+
+

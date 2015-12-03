@@ -1,0 +1,43 @@
+SENT: 532 people are watching a movie in a theater.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: + PERF: - ]
+RELS: < [ udef_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ card_rel<0:3> LBL: h7 CARG: "532" ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ]
+ [ "_people_n_of_rel"<4:10> LBL: h7 ARG0: x3 ARG1: i10 ]
+ [ "_watch_v_1_rel"<15:23> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x11 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<24:25> LBL: h12 ARG0: x11 RSTR: h13 BODY: h14 ]
+ [ "_movie_n_of_rel"<26:31> LBL: h15 ARG0: x11 ARG1: i16 ]
+ [ _in_p_rel<32:34> LBL: h1 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x18 [ x PERS: 3 NUM: sg ] ]
+ [ _a_q_rel<35:36> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ "_theater_n_1_rel"<37:45> LBL: h22 ARG0: x18 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h13 qeq h15 h20 qeq h22 > ]
+
+
+SENT: The theater has 750 seats.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg ] RSTR: h5 BODY: h6 ]
+ [ "_theater_n_1_rel"<4:11> LBL: h7 ARG0: x3 ]
+ [ "_have_v_1_rel"<12:15> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<16:19> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ card_rel<16:19> LBL: h12 CARG: "750" ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x8 ]
+ [ "_seat_n_1_rel"<20:26> LBL: h12 ARG0: x8 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h10 qeq h12 > ]
+
+
+SENT: How many seats are empty in the theater?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ abstr_deg_rel<0:3> LBL: h7 ARG0: i8 ]
+ [ which_q_rel<0:3> LBL: h9 ARG0: i8 RSTR: h10 BODY: h11 ]
+ [ measure_rel<0:3> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i8 ]
+ [ much-many_a_rel<4:8> LBL: h12 ARG0: e14 ARG1: x3 ]
+ [ "_seat_n_1_rel"<9:14> LBL: h12 ARG0: x3 ]
+ [ "_empty_a_1_rel"<19:24> LBL: h1 ARG0: e2 ARG1: x3 ]
+ [ _in_p_rel<25:27> LBL: h1 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x16 [ x PERS: 3 NUM: sg ] ]
+ [ _the_q_rel<28:31> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_theater_n_1_rel"<32:40> LBL: h20 ARG0: x16 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 h18 qeq h20 > ]
+
+

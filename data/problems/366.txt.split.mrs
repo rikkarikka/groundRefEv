@@ -1,0 +1,20 @@
+SENT: Wendy ran 19.833333333333332 miles and walked 9.166666666666666 miles.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:5> LBL: h7 CARG: "Wendy" ARG0: x3 ]
+ [ "_run_v_1_rel"<6:9> LBL: h9 ARG0: e10 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x11 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<10:34> LBL: h12 ARG0: x11 RSTR: h13 BODY: h14 ]
+ [ card_rel<10:28> LBL: h15 CARG: "19.833333333333332" ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x11 ]
+ [ "_mile_n_1_rel"<29:34> LBL: h15 ARG0: x11 ]
+ [ _and_c_rel<35:38> LBL: h1 ARG0: e2 L-INDEX: e10 R-INDEX: e18 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h9 R-HNDL: h19 ]
+ [ "_walk_v_1_rel"<39:45> LBL: h19 ARG0: e18 ARG1: x3 ARG2: x20 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<46:70> LBL: h21 ARG0: x20 RSTR: h22 BODY: h23 ]
+ [ card_rel<46:63> LBL: h24 CARG: "9.166666666666666" ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x20 ]
+ [ "_mile_n_1_rel"<64:70> LBL: h24 ARG0: x20 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h13 qeq h15 h22 qeq h24 > ]
+
+
+SKIP: How much farther did Wendy run than walk?
+
+

@@ -1,0 +1,57 @@
+SENT: For dessert, Jane’s mom prepared 12 pieces of bite-size cinnamon swirls.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ focus_d_rel<0:72> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
+ [ _for_p_rel<0:3> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<4:12> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
+ [ "_dessert_n_1_rel"<4:12> LBL: h10 ARG0: x6 ]
+ [ proper_q_rel<13:17> LBL: h11 ARG0: x12 [ x PERS: 3 NUM: sg IND: + ] RSTR: h13 BODY: h14 ]
+ [ named_rel<13:17> LBL: h15 CARG: "Jane" ARG0: x12 ]
+ [ def_explicit_q_rel<17:19> LBL: h17 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h18 BODY: h19 ]
+ [ poss_rel<17:19> LBL: h20 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x12 ]
+ [ "_mom_n_1_rel"<20:23> LBL: h20 ARG0: x3 ]
+ [ "_prepare_v_1_rel"<24:32> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x22 [ x PERS: 3 NUM: pl IND: + ] ARG3: x23 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<33:35> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ card_rel<33:35> LBL: h27 CARG: "12" ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x23 ]
+ [ "_piece_n_of_rel"<36:42> LBL: h27 ARG0: x23 ARG1: x30 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<46:55> LBL: h31 ARG0: x30 RSTR: h32 BODY: h33 ]
+ [ compound_rel<46:55> LBL: h34 ARG0: e35 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x30 ARG2: x36 ]
+ [ udef_q_rel<46:55> LBL: h37 ARG0: x36 RSTR: h38 BODY: h39 ]
+ [ "_bite_n_of_rel"<46:55> LBL: h40 ARG0: x36 ARG1: i41 ]
+ [ "_size_n_1_rel"<46:55> LBL: h34 ARG0: x30 ]
+ [ udef_q_rel<56:72> LBL: h42 ARG0: x22 RSTR: h43 BODY: h44 ]
+ [ "_cinnamon/JJ_u_unknown_rel"<56:64> LBL: h45 ARG0: e46 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x22 ]
+ [ "_swirl_n_of_rel"<65:72> LBL: h45 ARG0: x22 ARG1: i47 ] >
+HCONS: < h0 qeq h1 h8 qeq h10 h13 qeq h15 h18 qeq h20 h25 qeq h27 h32 qeq h34 h38 qeq h40 h43 qeq h45 > ]
+
+
+SENT: If the 3 of them ate an equal number of pieces of cinnamon swirls, how many pieces did Jane eat?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ARG2: h6 ]
+ [ _the_q_rel<3:6> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: pl ] RSTR: h9 BODY: h10 ]
+ [ part_of_rel<7:8> LBL: h11 ARG0: x8 ARG1: x12 [ x PERS: 3 NUM: pl PT: std ] ]
+ [ card_rel<7:8> LBL: h11 CARG: "3" ARG0: e14 [ e SF: prop ] ARG1: x8 ]
+ [ pron_rel<12:16> LBL: h15 ARG0: x12 ]
+ [ pronoun_q_rel<12:16> LBL: h16 ARG0: x12 RSTR: h17 BODY: h18 ]
+ [ "_eat_v_1_rel"<17:20> LBL: h19 ARG0: e20 [ e SF: prop TENSE: past MOOD: indicative ] ARG1: x8 ARG2: x21 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<21:23> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ "_equal_a_to_rel"<24:29> LBL: h25 ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x21 ARG2: i27 ]
+ [ "_number_n_of_rel"<30:36> LBL: h25 ARG0: x21 ARG1: x28 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<40:66> LBL: h29 ARG0: x28 RSTR: h30 BODY: h31 ]
+ [ "_piece_n_of_rel"<40:46> LBL: h32 ARG0: x28 ARG1: x33 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<50:66> LBL: h34 ARG0: x33 RSTR: h35 BODY: h36 ]
+ [ "_cinnamon/JJ_u_unknown_rel"<50:58> LBL: h37 ARG0: e38 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x33 ]
+ [ "_swirl_n_of_rel"<59:66> LBL: h37 ARG0: x33 ARG1: i39 ]
+ [ udef_q_rel<67:82> LBL: h40 ARG0: x41 [ x PERS: 3 NUM: pl IND: + ] RSTR: h42 BODY: h43 ]
+ [ abstr_deg_rel<67:70> LBL: h44 ARG0: i45 ]
+ [ which_q_rel<67:70> LBL: h46 ARG0: i45 RSTR: h47 BODY: h48 ]
+ [ measure_rel<67:70> LBL: h49 ARG0: e50 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e51 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i45 ]
+ [ much-many_a_rel<71:75> LBL: h49 ARG0: e51 ARG1: x41 ]
+ [ "_piece_n_of_rel"<76:82> LBL: h49 ARG0: x41 ARG1: i52 ]
+ [ proper_q_rel<87:91> LBL: h53 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h54 BODY: h55 ]
+ [ named_rel<87:91> LBL: h56 CARG: "Jane" ARG0: x3 ]
+ [ "_eat_v_1_rel"<92:96> LBL: h58 ARG0: e2 ARG1: x3 ARG2: x41 ] >
+HCONS: < h0 qeq h1 h5 qeq h58 h6 qeq h19 h9 qeq h11 h17 qeq h15 h23 qeq h25 h30 qeq h32 h35 qeq h37 h42 qeq h49 h47 qeq h44 h54 qeq h56 > ]
+
+

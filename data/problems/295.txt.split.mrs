@@ -1,0 +1,70 @@
+SENT: Ella owns two dogs.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Ella" ARG0: x3 ]
+ [ "_own_v_1_rel"<5:9> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<10:13> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<10:13> LBL: h13 CARG: "2" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_dog_n_1_rel"<14:19> LBL: h13 ARG0: x9 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
+
+
+SENT: Each day, one dog eats 0.125 of a scoop of dog food and the other dog eats 0.125 of a scoop.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ focus_d_rel<0:51> LBL: h4 ARG0: e5 [ e SF: prop ] ARG1: e6 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG2: e7 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
+ [ loc_nonsp_rel<0:9> LBL: h4 ARG0: e7 ARG1: e6 ARG2: x8 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _each_q_rel<0:4> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ "_day_n_of_rel"<5:9> LBL: h12 ARG0: x8 ARG1: i13 ]
+ [ udef_q_rel<10:13> LBL: h14 ARG0: x15 [ x PERS: 3 NUM: sg IND: + ] RSTR: h16 BODY: h17 ]
+ [ card_rel<10:13> LBL: h18 CARG: "1" ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x15 ]
+ [ "_dog_n_1_rel"<14:17> LBL: h18 ARG0: x15 ]
+ [ "_eat_v_1_rel"<18:22> LBL: h4 ARG0: e6 ARG1: x15 ARG2: x21 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<23:28> LBL: h22 ARG0: x21 ARG1: x23 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<23:28> LBL: h24 ARG0: x21 RSTR: h25 BODY: h26 ]
+ [ card_rel<23:28> LBL: h22 CARG: "0.125" ARG0: e28 [ e SF: prop ] ARG1: x21 ]
+ [ _a_q_rel<32:33> LBL: h29 ARG0: x23 RSTR: h30 BODY: h31 ]
+ [ "_scoop_n_1_rel"<34:39> LBL: h32 ARG0: x23 ]
+ [ _of_p_rel<40:42> LBL: h32 ARG0: e33 [ e SF: prop ] ARG1: x23 ARG2: x34 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<43:51> LBL: h35 ARG0: x34 RSTR: h36 BODY: h37 ]
+ [ compound_rel<43:51> LBL: h38 ARG0: e39 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x34 ARG2: x40 [ x IND: + ] ]
+ [ udef_q_rel<43:46> LBL: h41 ARG0: x40 RSTR: h42 BODY: h43 ]
+ [ "_dog_n_1_rel"<43:46> LBL: h44 ARG0: x40 ]
+ [ "_food_n_1_rel"<47:51> LBL: h38 ARG0: x34 ]
+ [ _and_c_rel<52:55> LBL: h1 ARG0: e2 L-INDEX: e6 R-INDEX: e45 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] L-HNDL: h46 R-HNDL: h47 ]
+ [ _the_q_rel<56:59> LBL: h48 ARG0: x49 [ x PERS: 3 NUM: sg IND: + ] RSTR: h50 BODY: h51 ]
+ [ "_other_a_1_rel"<60:65> LBL: h52 ARG0: e53 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x49 ]
+ [ "_dog_n_1_rel"<66:69> LBL: h52 ARG0: x49 ]
+ [ "_eat_v_1_rel"<70:74> LBL: h54 ARG0: e45 ARG1: x49 ARG2: x55 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<75:80> LBL: h56 ARG0: x55 ARG1: x57 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<75:80> LBL: h58 ARG0: x55 RSTR: h59 BODY: h60 ]
+ [ card_rel<75:80> LBL: h56 CARG: "0.125" ARG0: e62 [ e SF: prop ] ARG1: x55 ]
+ [ _a_q_rel<84:85> LBL: h63 ARG0: x57 RSTR: h64 BODY: h65 ]
+ [ "_scoop_n_1_rel"<86:92> LBL: h66 ARG0: x57 ] >
+HCONS: < h0 qeq h1 h46 qeq h4 h10 qeq h12 h16 qeq h18 h25 qeq h22 h30 qeq h32 h36 qeq h38 h42 qeq h44 h47 qeq h54 h50 qeq h52 h59 qeq h56 h64 qeq h66 > ]
+
+
+SENT: Together, how much dog food do the two dogs eat each day?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _together_p_rel<0:9> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ]
+ [ udef_q_rel<10:27> LBL: h5 ARG0: x6 [ x PERS: 3 NUM: sg ] RSTR: h7 BODY: h8 ]
+ [ abstr_deg_rel<10:13> LBL: h9 ARG0: i10 ]
+ [ which_q_rel<10:13> LBL: h11 ARG0: i10 RSTR: h12 BODY: h13 ]
+ [ measure_rel<10:13> LBL: h14 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i10 ]
+ [ much-many_a_rel<14:18> LBL: h14 ARG0: e16 ARG1: x6 ]
+ [ compound_rel<19:27> LBL: h14 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x6 ARG2: x18 [ x IND: + ] ]
+ [ udef_q_rel<19:22> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ "_dog_n_1_rel"<19:22> LBL: h22 ARG0: x18 ]
+ [ "_food_n_1_rel"<23:27> LBL: h14 ARG0: x6 ]
+ [ _the_q_rel<31:34> LBL: h23 ARG0: x24 [ x PERS: 3 NUM: pl IND: + ] RSTR: h25 BODY: h26 ]
+ [ card_rel<35:38> LBL: h27 CARG: "2" ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x24 ]
+ [ "_dog_n_1_rel"<39:43> LBL: h27 ARG0: x24 ]
+ [ "_eat_v_1_rel"<44:47> LBL: h1 ARG0: e2 ARG1: x24 ARG2: x6 ]
+ [ loc_nonsp_rel<48:57> LBL: h1 ARG0: e30 [ e SF: prop ] ARG1: e2 ARG2: x31 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _each_q_rel<48:52> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ "_day_n_of_rel"<53:57> LBL: h35 ARG0: x31 ARG1: i36 ] >
+HCONS: < h0 qeq h1 h7 qeq h14 h12 qeq h9 h20 qeq h22 h25 qeq h27 h33 qeq h35 > ]
+
+

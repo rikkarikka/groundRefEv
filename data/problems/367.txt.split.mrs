@@ -1,0 +1,53 @@
+SENT: Kenji and his classmates placed colored blocks on a scale during a science lab.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:24> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl ] RSTR: h5 BODY: h6 ]
+ [ proper_q_rel<0:5> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: sg IND: + ] RSTR: h9 BODY: h10 ]
+ [ named_rel<0:5> LBL: h11 CARG: "Kenji" ARG0: x8 ]
+ [ _and_c_rel<6:9> LBL: h13 ARG0: x3 L-INDEX: x8 R-INDEX: x14 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ def_explicit_q_rel<10:13> LBL: h15 ARG0: x14 RSTR: h16 BODY: h17 ]
+ [ poss_rel<10:13> LBL: h18 ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x14 ARG2: x20 [ x PERS: 3 NUM: sg GEND: m PT: std ] ]
+ [ pronoun_q_rel<10:13> LBL: h21 ARG0: x20 RSTR: h22 BODY: h23 ]
+ [ pron_rel<10:13> LBL: h24 ARG0: x20 ]
+ [ "_classmate_n_1_rel"<14:24> LBL: h18 ARG0: x14 ]
+ [ "_place_v_1_rel"<25:31> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x25 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<32:46> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
+ [ "_color_v_1_rel"<32:39> LBL: h29 ARG0: e30 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: i31 ARG2: x25 ]
+ [ parg_d_rel<32:39> LBL: h29 ARG0: e32 [ e SF: prop ] ARG1: e30 ARG2: x25 ]
+ [ "_block_n_of_rel"<40:46> LBL: h29 ARG0: x25 ARG1: i33 ]
+ [ _on_p_rel<47:49> LBL: h1 ARG0: e34 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x35 [ x PERS: 3 NUM: sg ] ]
+ [ _a_q_rel<50:51> LBL: h36 ARG0: x35 RSTR: h37 BODY: h38 ]
+ [ "_scale_n_1_rel"<52:57> LBL: h39 ARG0: x35 ]
+ [ _during_p_rel<58:64> LBL: h1 ARG0: e40 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x41 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<65:66> LBL: h42 ARG0: x41 RSTR: h43 BODY: h44 ]
+ [ compound_rel<67:79> LBL: h45 ARG0: e46 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x41 ARG2: x47 ]
+ [ udef_q_rel<67:74> LBL: h48 ARG0: x47 RSTR: h49 BODY: h50 ]
+ [ "_science_n_1_rel"<67:74> LBL: h51 ARG0: x47 ]
+ [ "_lab_n_1_rel"<75:79> LBL: h45 ARG0: x41 ] >
+HCONS: < h0 qeq h1 h5 qeq h13 h9 qeq h11 h16 qeq h18 h22 qeq h24 h27 qeq h29 h37 qeq h39 h43 qeq h45 h49 qeq h51 > ]
+
+
+SENT: The yellow block weighed 0.6 pounds and the green block weighed 0.4 pounds.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg IND: + ] RSTR: h6 BODY: h7 ]
+ [ "_yellow_a_1_rel"<4:10> LBL: h8 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x5 ]
+ [ "_block_n_of_rel"<11:16> LBL: h8 ARG0: x5 ARG1: i10 ]
+ [ "_weigh_v_1_rel"<17:24> LBL: h11 ARG0: e12 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x5 ARG2: x13 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<25:35> LBL: h14 ARG0: x13 RSTR: h15 BODY: h16 ]
+ [ card_rel<25:28> LBL: h17 CARG: "0.6" ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x13 ]
+ [ "_pound_n_1_rel"<29:35> LBL: h17 ARG0: x13 ]
+ [ _and_c_rel<36:39> LBL: h1 ARG0: e2 L-INDEX: e12 R-INDEX: e20 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h21 R-HNDL: h22 ]
+ [ _the_q_rel<40:43> LBL: h23 ARG0: x24 [ x PERS: 3 NUM: sg IND: + ] RSTR: h25 BODY: h26 ]
+ [ "_green_a_2_rel"<44:49> LBL: h27 ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x24 ]
+ [ "_block_n_of_rel"<50:55> LBL: h27 ARG0: x24 ARG1: i29 ]
+ [ "_weigh_v_1_rel"<56:63> LBL: h30 ARG0: e20 ARG1: x24 ARG2: x31 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<64:75> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ card_rel<64:67> LBL: h35 CARG: "0.4" ARG0: e37 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x31 ]
+ [ "_pound_n_1_rel"<68:75> LBL: h35 ARG0: x31 ] >
+HCONS: < h0 qeq h1 h21 qeq h11 h6 qeq h8 h15 qeq h17 h22 qeq h30 h25 qeq h27 h33 qeq h35 > ]
+
+
+SKIP: How much more did the yellow block weigh than the green block?
+
+

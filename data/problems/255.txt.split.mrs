@@ -1,0 +1,48 @@
+SKIP: On Saturday, Sara spent $10.62 each on 2 tickets to a movie theater.
+
+
+SENT: Sara also rented a movie for $1.59, and bought a movie for $13.95.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Sara" ARG0: x3 ]
+ [ "_also_a_1_rel"<5:9> LBL: h9 ARG0: e10 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h11 ]
+ [ "_rent_v_1_rel"<10:16> LBL: h12 ARG0: e13 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x14 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<17:18> LBL: h15 ARG0: x14 RSTR: h16 BODY: h17 ]
+ [ "_movie_n_of_rel"<19:24> LBL: h18 ARG0: x14 ARG1: i19 ]
+ [ _for_p_rel<25:28> LBL: h18 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x14 ARG2: x21 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<29:35> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ "_dollar_n_1_rel"<29:30> LBL: h25 ARG0: x21 ]
+ [ card_rel<30:35> LBL: h25 CARG: "1.59" ARG0: e27 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x21 ]
+ [ _and_c_rel<36:39> LBL: h1 ARG0: e2 L-INDEX: e13 R-INDEX: e28 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h9 R-HNDL: h29 ]
+ [ "_buy_v_1_rel"<40:46> LBL: h29 ARG0: e28 ARG1: x3 ARG2: x30 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<47:48> LBL: h31 ARG0: x30 RSTR: h32 BODY: h33 ]
+ [ "_movie_n_of_rel"<49:54> LBL: h34 ARG0: x30 ARG1: i35 ]
+ [ _for_p_rel<55:58> LBL: h29 ARG0: e36 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e28 ARG2: x37 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<59:66> LBL: h38 ARG0: x37 RSTR: h39 BODY: h40 ]
+ [ "_dollar_n_1_rel"<59:60> LBL: h41 ARG0: x37 ]
+ [ card_rel<60:66> LBL: h41 CARG: "13.95" ARG0: e43 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x37 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h12 h16 qeq h18 h23 qeq h25 h32 qeq h34 h39 qeq h41 > ]
+
+
+SENT: How much money in total did Sara spend on movies?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:23> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_money_n_1_rel"<9:14> LBL: h13 ARG0: x5 ]
+ [ _in_p_rel<15:17> LBL: h13 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x5 ARG2: x17 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ idiom_q_i_rel<18:23> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ "_total_n_of_rel"<18:23> LBL: h21 ARG0: x17 ]
+ [ proper_q_rel<28:32> LBL: h22 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f IND: + ] RSTR: h23 BODY: h24 ]
+ [ named_rel<28:32> LBL: h25 CARG: "Sara" ARG0: x3 ]
+ [ "_spend_v_1_rel"<33:38> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ARG3: h27 ]
+ [ _on_p_rel<39:41> LBL: h28 ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x5 ARG2: x30 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<42:49> LBL: h31 ARG0: x30 RSTR: h32 BODY: h33 ]
+ [ "_movie_n_of_rel"<42:49> LBL: h34 ARG0: x30 ARG1: i35 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h19 qeq h21 h23 qeq h25 h27 qeq h28 h32 qeq h34 > ]
+
+

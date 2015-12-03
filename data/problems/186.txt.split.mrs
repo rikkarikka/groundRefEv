@@ -1,0 +1,39 @@
+SENT: Melanie is selling 4 gumballs for eight cents each.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: + PERF: - ]
+RELS: < [ proper_q_rel<0:7> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:7> LBL: h7 CARG: "Melanie" ARG0: x3 ]
+ [ "_sell_v_1_rel"<11:18> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<19:20> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<19:20> LBL: h13 CARG: "4" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_gumballs/NNS_u_unknown_rel"<21:29> LBL: h13 ARG0: x9 ]
+ [ _for_p_rel<30:33> LBL: h1 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x17 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<34:51> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ card_rel<34:39> LBL: h21 CARG: "8" ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ]
+ [ "_cent_n_1_rel"<40:45> LBL: h21 ARG0: x17 ]
+ [ _each_p_rel<46:51> LBL: h21 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x17 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h19 qeq h21 > ]
+
+
+SENT: How much money can Melanie get from selling the gumballs?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_money_n_1_rel"<9:14> LBL: h13 ARG0: x5 ]
+ [ _can_v_modal_rel<15:18> LBL: h1 ARG0: e2 ARG1: h16 ]
+ [ proper_q_rel<19:26> LBL: h17 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h18 BODY: h19 ]
+ [ named_rel<19:26> LBL: h20 CARG: "Melanie" ARG0: x3 ]
+ [ "_get_v_1_rel"<27:30> LBL: h22 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x5 ]
+ [ _from_p_rel<31:35> LBL: h22 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e23 ARG2: x25 [ x PERS: 3 NUM: sg GEND: n ] ]
+ [ udef_q_rel<36:57> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
+ [ nominalization_rel<36:57> LBL: h29 ARG0: x25 ARG1: h30 ]
+ [ "_sell_v_1_rel"<36:43> LBL: h30 ARG0: e31 [ e SF: prop TENSE: untensed MOOD: indicative PROG: + PERF: - ] ARG1: i32 ARG2: x33 [ x PERS: 3 NUM: pl ] ]
+ [ _the_q_rel<44:47> LBL: h34 ARG0: x33 RSTR: h35 BODY: h36 ]
+ [ "_gumballs/NNS_u_unknown_rel"<48:57> LBL: h37 ARG0: x33 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h16 qeq h22 h18 qeq h20 h27 qeq h29 h35 qeq h37 > ]
+
+

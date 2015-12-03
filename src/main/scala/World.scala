@@ -148,6 +148,8 @@ class World() extends Serializable{
 
 
     def numbers = EntityID.toList sortWith (_._1 < _._1) map (_._2) filter (x=>((x.card != 0.0)))//||x.has_rel("much-many_a_rel")))
+    def AllEntities = EntityID.toList sortWith (_._1 < _._1) map (_._2) 
+
     def numberEntities = EntityID.toList sortWith (_._1 < _._1) map (_._2) filter (x=>((x.card != 0.0)||(x.card==0.0&&x.has_rel("much-many_a_rel"))))
 
     def update(objs:List[MRS]) {

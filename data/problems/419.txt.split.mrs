@@ -1,0 +1,55 @@
+SENT: 9 of Hayley’s closest friends like stickers.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop ]
+RELS: < [ unknown_rel<0:44> LBL: h1 ARG0: e2 ARG: x4 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<0:1> LBL: h5 ARG0: x4 ARG1: x6 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<0:1> LBL: h7 ARG0: x4 RSTR: h8 BODY: h9 ]
+ [ card_rel<0:1> LBL: h5 CARG: "9" ARG0: e11 [ e SF: prop ] ARG1: x4 ]
+ [ proper_q_rel<5:11> LBL: h12 ARG0: x13 [ x PERS: 3 NUM: sg IND: + ] RSTR: h14 BODY: h15 ]
+ [ named_rel<5:11> LBL: h16 CARG: "Hayley" ARG0: x13 ]
+ [ def_explicit_q_rel<11:13> LBL: h18 ARG0: x6 RSTR: h19 BODY: h20 ]
+ [ poss_rel<11:13> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x6 ARG2: x13 ]
+ [ "_close_a_to_rel"<14:21> LBL: h21 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x6 ]
+ [ superl_rel<14:21> LBL: h21 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e23 ]
+ [ "_friend_n_1_rel"<22:29> LBL: h21 ARG0: x6 ]
+ [ _like_p_rel<30:34> LBL: h21 ARG0: e25 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x6 ARG2: x26 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<35:44> LBL: h27 ARG0: x26 RSTR: h28 BODY: h29 ]
+ [ "_sticker_n_1_rel"<35:44> LBL: h30 ARG0: x26 ] >
+HCONS: < h0 qeq h1 h8 qeq h5 h14 qeq h16 h19 qeq h21 h28 qeq h30 > ]
+
+
+SENT: If she plans to give all of them an equal number of stickers, how many will each receive if she has 72 stickers?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: fut MOOD: indicative PROG: - PERF: - ]
+RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ARG2: h6 ]
+ [ pron_rel<3:6> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
+ [ pronoun_q_rel<3:6> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ "_plan_v_1_rel"<7:12> LBL: h12 ARG0: e13 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: h14 ]
+ [ "_give_v_1_rel"<16:20> LBL: h15 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: x17 [ x PERS: 3 NUM: sg IND: + ] ARG3: x18 [ x PERS: 3 NUM: pl ] ]
+ [ _all_q_rel<21:24> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ part_of_rel<21:24> LBL: h22 ARG0: x18 ARG1: x23 [ x PERS: 3 NUM: pl PT: std ] ]
+ [ pron_rel<28:32> LBL: h24 ARG0: x23 ]
+ [ pronoun_q_rel<28:32> LBL: h25 ARG0: x23 RSTR: h26 BODY: h27 ]
+ [ _a_q_rel<33:35> LBL: h28 ARG0: x17 RSTR: h29 BODY: h30 ]
+ [ "_equal_a_to_rel"<36:41> LBL: h31 ARG0: e32 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x17 ARG2: i33 ]
+ [ "_number_n_of_rel"<42:48> LBL: h31 ARG0: x17 ARG1: x34 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<52:61> LBL: h35 ARG0: x34 RSTR: h36 BODY: h37 ]
+ [ "_sticker_n_1_rel"<52:61> LBL: h38 ARG0: x34 ]
+ [ generic_entity_rel<62:70> LBL: h39 ARG0: x3 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<62:70> LBL: h40 ARG0: x3 RSTR: h41 BODY: h42 ]
+ [ abstr_deg_rel<62:65> LBL: h43 ARG0: i44 ]
+ [ which_q_rel<62:65> LBL: h45 ARG0: i44 RSTR: h46 BODY: h47 ]
+ [ measure_rel<62:65> LBL: h39 ARG0: e48 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e49 [ e SF: prop ] ARG2: i44 ]
+ [ much-many_a_rel<66:70> LBL: h39 ARG0: e49 ARG1: x3 ]
+ [ "_each_p_rel"<76:80> LBL: h50 ARG0: e51 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ]
+ [ "_receive_v_1_rel"<81:88> LBL: h52 ARG0: e2 ARG1: x3 ARG2: p53 ]
+ [ "_if_x_then_rel"<89:91> LBL: h50 ARG0: e54 [ e SF: ques TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h55 ARG2: h56 ]
+ [ pron_rel<92:95> LBL: h57 ARG0: x58 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
+ [ pronoun_q_rel<92:95> LBL: h59 ARG0: x58 RSTR: h60 BODY: h61 ]
+ [ "_have_v_1_rel"<96:99> LBL: h62 ARG0: e63 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x58 ARG2: x64 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<100:102> LBL: h65 ARG0: x64 RSTR: h66 BODY: h67 ]
+ [ card_rel<100:102> LBL: h68 CARG: "72" ARG0: e70 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x64 ]
+ [ "_sticker_n_1_rel"<103:112> LBL: h68 ARG0: x64 ] >
+HCONS: < h0 qeq h1 h5 qeq h50 h6 qeq h12 h10 qeq h7 h14 qeq h15 h20 qeq h22 h26 qeq h24 h29 qeq h31 h36 qeq h38 h41 qeq h39 h46 qeq h43 h55 qeq h52 h56 qeq h62 h60 qeq h57 h66 qeq h68 > ]
+
+

@@ -1,0 +1,59 @@
+SENT: A dust storm sweeps across the prairie.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _a_q_rel<0:1> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ compound_rel<2:12> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 ]
+ [ udef_q_rel<2:6> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ "_dust_n_1_rel"<2:6> LBL: h13 ARG0: x9 ]
+ [ "_storm_n_1_rel"<7:12> LBL: h7 ARG0: x3 ]
+ [ "_sweep_v_1_rel"<13:19> LBL: h1 ARG0: e2 ARG1: x3 ]
+ [ _across_p_dir_rel<20:26> LBL: h1 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x15 [ x PERS: 3 NUM: sg ] ]
+ [ _the_q_rel<27:30> LBL: h16 ARG0: x15 RSTR: h17 BODY: h18 ]
+ [ "_prairie_n_1_rel"<31:39> LBL: h19 ARG0: x15 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h17 qeq h19 > ]
+
+
+SENT: It covers 64,535 acres of the prairie in dust, but leaves 522 acres untouched.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:2> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: n PT: std ] ]
+ [ pronoun_q_rel<0:2> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_cover_v_1_rel"<3:9> LBL: h8 ARG0: e9 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x10 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<10:16> LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]
+ [ card_rel<10:16> LBL: h14 CARG: "64,535" ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x10 ]
+ [ "_acre_n_1_rel"<17:22> LBL: h14 ARG0: x10 ]
+ [ _of_p_rel<23:25> LBL: h14 ARG0: e17 [ e SF: prop ] ARG1: x10 ARG2: x18 [ x PERS: 3 NUM: sg ] ]
+ [ _the_q_rel<26:29> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ "_prairie_n_1_rel"<30:37> LBL: h22 ARG0: x18 ]
+ [ _in_p_rel<38:40> LBL: h22 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x18 ARG2: x24 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<41:46> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ "_dust_n_1_rel"<41:46> LBL: h28 ARG0: x24 ]
+ [ _but_c_rel<47:50> LBL: h1 ARG0: e2 L-INDEX: e9 R-INDEX: e29 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] L-HNDL: h8 R-HNDL: h30 ]
+ [ "_leave_v_1_rel"<51:57> LBL: h31 ARG0: e29 ARG1: x3 ARG2: p32 ]
+ [ subord_rel<58:78> LBL: h30 ARG0: e33 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h34 ARG2: h35 ]
+ [ measure_rel<58:67> LBL: h36 ARG0: e37 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e38 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: x39 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<58:67> LBL: h40 ARG0: x39 RSTR: h41 BODY: h42 ]
+ [ card_rel<58:61> LBL: h43 CARG: "522" ARG0: e45 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x39 ]
+ [ "_acre_n_1_rel"<62:67> LBL: h43 ARG0: x39 ]
+ [ "_untouched_a_1_rel"<68:78> LBL: h36 ARG0: e38 ARG1: i46 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h12 qeq h14 h20 qeq h22 h26 qeq h28 h34 qeq h31 h35 qeq h36 h41 qeq h43 > ]
+
+
+SENT: How many acres does the prairie cover?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ abstr_deg_rel<0:3> LBL: h7 ARG0: i8 ]
+ [ which_q_rel<0:3> LBL: h9 ARG0: i8 RSTR: h10 BODY: h11 ]
+ [ measure_rel<0:3> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG2: i8 ]
+ [ much-many_a_rel<4:8> LBL: h12 ARG0: e14 ARG1: x3 ]
+ [ "_acre_n_1_rel"<9:14> LBL: h12 ARG0: x3 ]
+ [ "_do_v_1_rel"<15:19> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x15 [ x PERS: 3 NUM: sg ] ]
+ [ _the_q_rel<20:23> LBL: h16 ARG0: x15 RSTR: h17 BODY: h18 ]
+ [ compound_rel<24:38> LBL: h19 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x15 ARG2: x21 ]
+ [ udef_q_rel<24:31> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ "_prairie_n_1_rel"<24:31> LBL: h25 ARG0: x21 ]
+ [ "_cover_n_1_rel"<32:38> LBL: h19 ARG0: x15 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 h17 qeq h19 h23 qeq h25 > ]
+
+

@@ -1,0 +1,19 @@
+SENT: The mini library also has a section for the classics.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_mini_a_1_rel"<4:8> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ]
+ [ "_library_n_of_rel"<9:16> LBL: h7 ARG0: x3 ARG1: i9 ]
+ [ "_also_a_1_rel"<17:21> LBL: h1 ARG0: e10 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h11 ]
+ [ "_have_v_1_rel"<22:25> LBL: h12 ARG0: e2 ARG1: x3 ARG2: x13 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<26:27> LBL: h14 ARG0: x13 RSTR: h15 BODY: h16 ]
+ [ "_section_n_of_rel"<28:35> LBL: h17 ARG0: x13 ARG1: i18 ]
+ [ _for_p_rel<36:39> LBL: h17 ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x13 ARG2: x20 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ _the_q_rel<40:43> LBL: h21 ARG0: x20 RSTR: h22 BODY: h23 ]
+ [ "_classic_n_1_rel"<44:53> LBL: h24 ARG0: x20 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h12 h15 qeq h17 h22 qeq h24 > ]
+
+
+SKIP: If Jack has a collection of 6 classic authors, with each author having 33 books, how many books does he have in the classics section?
+
+

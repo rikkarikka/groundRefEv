@@ -1,0 +1,38 @@
+SENT: Ezra drew a white line that was 7.666666666666667 inches long.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Ezra" ARG0: x3 ]
+ [ "_draw_v_1_rel"<5:9> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<10:11> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ "_white_a_1_rel"<12:17> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_line_n_of_rel"<18:22> LBL: h13 ARG0: x9 ]
+ [ measure_rel<32:56> LBL: h13 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e16 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG2: x17 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<32:56> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ card_rel<32:49> LBL: h21 CARG: "7.666666666666667" ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ]
+ [ "_inch_n_1_rel"<50:56> LBL: h21 ARG0: x17 ]
+ [ "_long_a_1_rel"<57:62> LBL: h13 ARG0: e16 ARG1: x9 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h19 qeq h21 > ]
+
+
+SENT: Then he drew a blue line that was 3.3333333333333335 inches long.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ "_then_a_1_rel"<0:4> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ]
+ [ pron_rel<5:7> LBL: h6 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m PT: std ] ]
+ [ pronoun_q_rel<5:7> LBL: h7 ARG0: x3 RSTR: h8 BODY: h9 ]
+ [ "_draw_v_1_rel"<8:12> LBL: h10 ARG0: e2 ARG1: x3 ARG2: x11 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<13:14> LBL: h12 ARG0: x11 RSTR: h13 BODY: h14 ]
+ [ "_blue_a_1_rel"<15:19> LBL: h15 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x11 ]
+ [ "_line_n_of_rel"<20:24> LBL: h15 ARG0: x11 ]
+ [ measure_rel<34:59> LBL: h15 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e18 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG2: x19 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<34:59> LBL: h20 ARG0: x19 RSTR: h21 BODY: h22 ]
+ [ card_rel<34:52> LBL: h23 CARG: "3.3333333333333335" ARG0: e25 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x19 ]
+ [ "_inch_n_1_rel"<53:59> LBL: h23 ARG0: x19 ]
+ [ "_long_a_1_rel"<60:65> LBL: h15 ARG0: e18 ARG1: x11 ] >
+HCONS: < h0 qeq h1 h5 qeq h10 h8 qeq h6 h13 qeq h15 h21 qeq h23 > ]
+
+
+SKIP: How much longer was the white line than the blue line?
+
+

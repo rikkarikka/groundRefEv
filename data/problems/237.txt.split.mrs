@@ -1,0 +1,47 @@
+SENT: A car company produced 3,884 cars in North America and 2,871 cars in Europe.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _a_q_rel<0:1> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg ] RSTR: h5 BODY: h6 ]
+ [ compound_rel<2:13> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 [ x IND: + ] ]
+ [ udef_q_rel<2:5> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ "_car_n_1_rel"<2:5> LBL: h13 ARG0: x9 ]
+ [ "_company_n_of_rel"<6:13> LBL: h7 ARG0: x3 ARG1: i14 ]
+ [ "_produce_v_1_rel"<14:22> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x15 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<23:28> LBL: h16 ARG0: x15 RSTR: h17 BODY: h18 ]
+ [ card_rel<23:28> LBL: h19 CARG: "3,884" ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x15 ]
+ [ "_car_n_1_rel"<29:33> LBL: h19 ARG0: x15 ]
+ [ _in_p_rel<34:36> LBL: h1 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x23 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<37:76> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ proper_q_rel<37:50> LBL: h27 ARG0: x28 [ x PERS: 3 NUM: sg IND: + ] RSTR: h29 BODY: h30 ]
+ [ compound_rel<37:50> LBL: h31 ARG0: e32 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x28 ARG2: x33 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<37:42> LBL: h34 ARG0: x33 RSTR: h35 BODY: h36 ]
+ [ named_rel<37:42> LBL: h37 CARG: "North" ARG0: x33 ]
+ [ named_rel<43:50> LBL: h31 CARG: "America" ARG0: x28 ]
+ [ _and_c_rel<51:54> LBL: h40 ARG0: x23 L-INDEX: x28 R-INDEX: x41 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<55:60> LBL: h42 ARG0: x41 RSTR: h43 BODY: h44 ]
+ [ card_rel<55:60> LBL: h45 CARG: "2,871" ARG0: e47 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x41 ]
+ [ "_car_n_1_rel"<61:65> LBL: h45 ARG0: x41 ]
+ [ _in_p_rel<66:68> LBL: h45 ARG0: e48 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x41 ARG2: x49 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<69:76> LBL: h50 ARG0: x49 RSTR: h51 BODY: h52 ]
+ [ named_rel<69:76> LBL: h53 CARG: "Europe" ARG0: x49 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h17 qeq h19 h25 qeq h40 h29 qeq h31 h35 qeq h37 h43 qeq h45 h51 qeq h53 > ]
+
+
+SENT: How many cars is that in all?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:13> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_car_n_1_rel"<9:13> LBL: h13 ARG0: x5 ]
+ [ _be_v_id_rel<14:16> LBL: h1 ARG0: e2 ARG1: x3 [ x PERS: 3 NUM: sg GEND: n ] ARG2: x5 ]
+ [ generic_entity_rel<17:21> LBL: h16 ARG0: x3 ]
+ [ _that_q_dem_rel<17:21> LBL: h17 ARG0: x3 RSTR: h18 BODY: h19 ]
+ [ _in_p_rel<22:24> LBL: h1 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x21 [ x PERS: 3 ] ]
+ [ _all_q_rel<25:29> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ generic_entity_rel<25:29> LBL: h25 ARG0: x21 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h16 h23 qeq h25 > ]
+
+

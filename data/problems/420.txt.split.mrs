@@ -1,0 +1,47 @@
+SENT: In Haley’s class, 5 are boys who love to play marbles.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ focus_d_rel<0:54> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
+ [ _in_p_state_rel<0:2> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg ] ]
+ [ proper_q_rel<3:8> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: sg IND: + ] RSTR: h9 BODY: h10 ]
+ [ named_rel<3:8> LBL: h11 CARG: "Haley" ARG0: x8 ]
+ [ def_explicit_q_rel<8:10> LBL: h13 ARG0: x6 RSTR: h14 BODY: h15 ]
+ [ poss_rel<8:10> LBL: h16 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x6 ARG2: x8 ]
+ [ "_class_n_of_rel"<11:17> LBL: h16 ARG0: x6 ARG1: i18 ]
+ [ generic_entity_rel<18:19> LBL: h19 ARG0: x3 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<18:19> LBL: h20 ARG0: x3 RSTR: h21 BODY: h22 ]
+ [ card_rel<18:19> LBL: h19 CARG: "5" ARG0: e24 [ e SF: prop ] ARG1: x3 ]
+ [ _be_v_id_rel<20:23> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x25 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<24:54> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
+ [ "_boy_n_1_rel"<24:28> LBL: h29 ARG0: x25 ]
+ [ "_love_v_1_rel"<33:37> LBL: h29 ARG0: e30 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x25 ARG2: h31 ]
+ [ "_play_v_1_rel"<41:45> LBL: h32 ARG0: e33 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x25 ARG2: x34 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<46:54> LBL: h35 ARG0: x34 RSTR: h36 BODY: h37 ]
+ [ "_marble_n_1_rel"<46:54> LBL: h38 ARG0: x34 ] >
+HCONS: < h0 qeq h1 h9 qeq h11 h14 qeq h16 h21 qeq h19 h27 qeq h29 h31 qeq h32 h36 qeq h38 > ]
+
+
+SENT: If Haley has 35 marbles, how many will each of the boys receive?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: fut MOOD: indicative PROG: - PERF: - ]
+RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ARG2: h6 ]
+ [ proper_q_rel<3:8> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: sg IND: + ] RSTR: h9 BODY: h10 ]
+ [ named_rel<3:8> LBL: h11 CARG: "Haley" ARG0: x8 ]
+ [ "_have_v_1_rel"<9:12> LBL: h13 ARG0: e14 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: x15 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<13:15> LBL: h16 ARG0: x15 RSTR: h17 BODY: h18 ]
+ [ card_rel<13:15> LBL: h19 CARG: "35" ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x15 ]
+ [ "_marble_n_1_rel"<16:24> LBL: h19 ARG0: x15 ]
+ [ generic_entity_rel<25:33> LBL: h22 ARG0: x23 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<25:33> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ abstr_deg_rel<25:28> LBL: h27 ARG0: i28 ]
+ [ which_q_rel<25:28> LBL: h29 ARG0: i28 RSTR: h30 BODY: h31 ]
+ [ measure_rel<25:28> LBL: h22 ARG0: e32 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e33 [ e SF: prop ] ARG2: i28 ]
+ [ much-many_a_rel<29:33> LBL: h22 ARG0: e33 ARG1: x23 ]
+ [ _each_q_rel<39:43> LBL: h34 ARG0: x3 [ x PERS: 3 ] RSTR: h35 BODY: h36 ]
+ [ part_of_rel<39:43> LBL: h37 ARG0: x3 ARG1: x38 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ _the_q_rel<47:50> LBL: h39 ARG0: x38 RSTR: h40 BODY: h41 ]
+ [ "_boy_n_1_rel"<51:55> LBL: h42 ARG0: x38 ]
+ [ "_receive_v_1_rel"<56:64> LBL: h43 ARG0: e2 ARG1: x3 ARG2: x23 ] >
+HCONS: < h0 qeq h1 h5 qeq h43 h6 qeq h13 h9 qeq h11 h17 qeq h19 h25 qeq h22 h30 qeq h27 h35 qeq h37 h40 qeq h42 > ]
+
+

@@ -1,0 +1,34 @@
+SENT: Benny worked 3 hours for 6 days.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:5> LBL: h7 CARG: "Benny" ARG0: x3 ]
+ [ "_work_v_1_rel"<6:12> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<13:14> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<13:14> LBL: h13 CARG: "3" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_hour_n_1_rel"<15:20> LBL: h13 ARG0: x9 ]
+ [ _for_p_rel<21:24> LBL: h1 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x17 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<25:32> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ card_rel<25:26> LBL: h21 CARG: "6" ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ]
+ [ "_day_n_of_rel"<27:32> LBL: h21 ARG0: x17 ARG1: i24 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h19 qeq h21 > ]
+
+
+SENT: How many hours did he work in total ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_hour_n_1_rel"<9:14> LBL: h13 ARG0: x5 ]
+ [ pron_rel<19:21> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m PT: std ] ]
+ [ pronoun_q_rel<19:21> LBL: h17 ARG0: x3 RSTR: h18 BODY: h19 ]
+ [ "_work_v_1_rel"<22:26> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ _in_p_rel<27:29> LBL: h1 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x21 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ idiom_q_i_rel<30:37> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ "_total_n_of_rel"<30:37> LBL: h25 ARG0: x21 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h16 h23 qeq h25 > ]
+
+

@@ -1,0 +1,52 @@
+SENT: Emily collected eggs from the hen and put them into 303 baskets.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:5> LBL: h7 CARG: "Emily" ARG0: x3 ]
+ [ "_collect_v_1_rel"<6:15> LBL: h9 ARG0: e10 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x11 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<16:20> LBL: h12 ARG0: x11 RSTR: h13 BODY: h14 ]
+ [ "_egg_n_1_rel"<16:20> LBL: h15 ARG0: x11 ]
+ [ _from_p_rel<21:25> LBL: h9 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e10 ARG2: x17 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<26:29> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ "_hen_n_1_rel"<30:33> LBL: h21 ARG0: x17 ]
+ [ _and_c_rel<34:37> LBL: h1 ARG0: e2 L-INDEX: e10 R-INDEX: e22 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h9 R-HNDL: h23 ]
+ [ "_put_v_1_rel"<38:41> LBL: h23 ARG0: e22 ARG1: x3 ARG2: x24 [ x PERS: 3 NUM: pl PT: std ] ARG3: h25 ]
+ [ pron_rel<42:46> LBL: h26 ARG0: x24 ]
+ [ pronoun_q_rel<42:46> LBL: h27 ARG0: x24 RSTR: h28 BODY: h29 ]
+ [ _into_p_rel<47:51> LBL: h30 ARG0: e31 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x24 ARG2: x32 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<52:55> LBL: h33 ARG0: x32 RSTR: h34 BODY: h35 ]
+ [ card_rel<52:55> LBL: h36 CARG: "303" ARG0: e38 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x32 ]
+ [ "_basket_n_1_rel"<56:64> LBL: h36 ARG0: x32 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h13 qeq h15 h19 qeq h21 h25 qeq h30 h28 qeq h26 h34 qeq h36 > ]
+
+
+SENT: She put 28 eggs into each basket.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
+ [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_put_v_1_rel"<4:7> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl IND: + ] ARG3: h9 ]
+ [ udef_q_rel<8:10> LBL: h10 ARG0: x8 RSTR: h11 BODY: h12 ]
+ [ card_rel<8:10> LBL: h13 CARG: "28" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x8 ]
+ [ "_egg_n_1_rel"<11:15> LBL: h13 ARG0: x8 ]
+ [ _into_p_rel<16:20> LBL: h16 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: x18 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _each_q_rel<21:25> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ "_basket_n_1_rel"<26:33> LBL: h22 ARG0: x18 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h9 qeq h16 h11 qeq h13 h20 qeq h22 > ]
+
+
+SENT: How many eggs did Emily collect?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:13> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_egg_n_1_rel"<9:13> LBL: h13 ARG0: x5 ]
+ [ proper_q_rel<18:23> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h17 BODY: h18 ]
+ [ named_rel<18:23> LBL: h19 CARG: "Emily" ARG0: x3 ]
+ [ "_collect_v_1_rel"<24:32> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h17 qeq h19 > ]
+
+

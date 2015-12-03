@@ -1,0 +1,38 @@
+SENT: Sara has saved 9 dollars from washing cars.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: + ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Sara" ARG0: x3 ]
+ [ "_save_v_1_rel"<9:14> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<15:24> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<15:16> LBL: h13 CARG: "9" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x9 ]
+ [ "_dollar_n_1_rel"<17:24> LBL: h13 ARG0: x9 ]
+ [ _from_p_rel<25:29> LBL: h1 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x17 [ x PERS: 3 NUM: sg GEND: n ] ]
+ [ udef_q_rel<30:43> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ nominalization_rel<30:43> LBL: h21 ARG0: x17 ARG1: h22 ]
+ [ "_wash_v_1_rel"<30:37> LBL: h22 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: + PERF: - ] ARG1: i24 ARG2: x25 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<38:43> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
+ [ "_car_n_1_rel"<38:43> LBL: h29 ARG0: x25 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h19 qeq h21 h27 qeq h29 > ]
+
+
+SENT: How many dozen quarters does Sara have?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques ]
+RELS: < [ unknown_rel<0:39> LBL: h1 ARG0: e2 ARG: x4 [ x PERS: 3 NUM: sg ] ]
+ [ free_relative_q_rel<0:3> LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]
+ [ manner_rel<0:3> LBL: h8 ARG0: x4 ]
+ [ unspec_manner_rel<0:3> LBL: h8 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e10 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: + ] ARG2: x4 ]
+ [ generic_entity_rel<4:8> LBL: h11 ARG0: x12 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<4:8> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
+ [ much-many_a_rel<4:8> LBL: h11 ARG0: e16 [ e SF: prop ] ARG1: x12 ]
+ [ udef_q_rel<9:23> LBL: h17 ARG0: x18 [ x PERS: 3 NUM: pl IND: + ] RSTR: h19 BODY: h20 ]
+ [ card_rel<9:14> LBL: h21 CARG: "12" ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x18 ]
+ [ "_quarter_n_temp_rel"<15:23> LBL: h21 ARG0: x18 ]
+ [ "_do_v_1_rel"<24:28> LBL: h11 ARG0: e24 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x18 ARG2: x12 ARG3: x25 [ x PERS: 3 NUM: sg GEND: f IND: + ] ]
+ [ proper_q_rel<29:33> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
+ [ named_rel<29:33> LBL: h29 CARG: "Sara" ARG0: x25 ]
+ [ ellipsis_ref_rel<34:39> LBL: h8 ARG0: e10 ARG1: x12 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 h14 qeq h11 h19 qeq h21 h27 qeq h29 > ]
+
+

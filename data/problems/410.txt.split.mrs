@@ -1,0 +1,76 @@
+SENT: Lexie’s younger brother helped pick up all the paper clips in Lexie’s room.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg IND: + ] RSTR: h6 BODY: h7 ]
+ [ named_rel<0:5> LBL: h8 CARG: "Lexie" ARG0: x5 ]
+ [ def_explicit_q_rel<5:7> LBL: h10 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h11 BODY: h12 ]
+ [ poss_rel<5:7> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x5 ]
+ [ "_young_a_1_rel"<8:15> LBL: h13 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ]
+ [ comp_rel<8:15> LBL: h13 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 ARG2: u17 ]
+ [ "_brother_n_of_rel"<16:23> LBL: h13 ARG0: x3 ARG1: i18 ]
+ [ "_help_v_to_rel"<24:30> LBL: h1 ARG0: e2 ARG1: x3 ARG2: h19 ]
+ [ "_pick_v_up_rel"<31:35> LBL: h20 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x22 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<39:42> LBL: h23 ARG0: x22 ARG1: x24 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ _all_q_rel<39:42> LBL: h25 ARG0: x22 RSTR: h26 BODY: h27 ]
+ [ _the_q_rel<43:46> LBL: h28 ARG0: x24 RSTR: h29 BODY: h30 ]
+ [ compound_rel<47:58> LBL: h31 ARG0: e32 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x24 ARG2: x33 [ x PERS: 3 NUM: sg IND: - ] ]
+ [ udef_q_rel<47:52> LBL: h34 ARG0: x33 RSTR: h35 BODY: h36 ]
+ [ "_paper_n_1_rel"<47:52> LBL: h37 ARG0: x33 ]
+ [ "_clip_n_1_rel"<53:58> LBL: h31 ARG0: x24 ]
+ [ _in_p_rel<59:61> LBL: h31 ARG0: e38 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x24 ARG2: x39 [ x PERS: 3 NUM: sg ] ]
+ [ proper_q_rel<62:67> LBL: h40 ARG0: x41 [ x PERS: 3 NUM: sg IND: + ] RSTR: h42 BODY: h43 ]
+ [ named_rel<62:67> LBL: h44 CARG: "Lexie" ARG0: x41 ]
+ [ def_explicit_q_rel<67:69> LBL: h46 ARG0: x39 RSTR: h47 BODY: h48 ]
+ [ poss_rel<67:69> LBL: h49 ARG0: e50 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x39 ARG2: x41 ]
+ [ "_room_n_1_rel"<70:75> LBL: h49 ARG0: x39 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 h11 qeq h13 h19 qeq h20 h26 qeq h23 h29 qeq h31 h35 qeq h37 h42 qeq h44 h47 qeq h49 > ]
+
+
+SENT: He was able to collect 81 paper clips.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:2> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: m PT: std ] ]
+ [ pronoun_q_rel<0:2> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ _able_a_1_rel<7:11> LBL: h1 ARG0: e2 ARG1: x3 ARG2: h8 ]
+ [ "_collect_v_1_rel"<15:22> LBL: h9 ARG0: e10 [ e SF: prop-or-ques TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x11 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<23:25> LBL: h12 ARG0: x11 RSTR: h13 BODY: h14 ]
+ [ card_rel<23:25> LBL: h15 CARG: "81" ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x11 ]
+ [ compound_rel<26:38> LBL: h15 ARG0: e18 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x11 ARG2: x19 [ x PERS: 3 NUM: sg IND: - ] ]
+ [ udef_q_rel<26:31> LBL: h20 ARG0: x19 RSTR: h21 BODY: h22 ]
+ [ "_paper_n_1_rel"<26:31> LBL: h23 ARG0: x19 ]
+ [ "_clip_n_1_rel"<32:38> LBL: h15 ARG0: x11 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h8 qeq h9 h13 qeq h15 h21 qeq h23 > ]
+
+
+SENT: If he wants to distribute the paper clips in 9 boxes, how many paper clips will each box contain?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: fut MOOD: indicative PROG: - PERF: - ]
+RELS: < [ "_if_x_then_rel"<0:2> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ARG2: h6 ]
+ [ pron_rel<3:5> LBL: h7 ARG0: x8 [ x PERS: 3 NUM: sg GEND: m PT: std ] ]
+ [ pronoun_q_rel<3:5> LBL: h9 ARG0: x8 RSTR: h10 BODY: h11 ]
+ [ "_want_v_1_rel"<6:11> LBL: h12 ARG0: e13 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: h14 ]
+ [ "_distribute_v_to_rel"<15:25> LBL: h15 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: x17 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ _the_q_rel<26:29> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ compound_rel<30:41> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ARG2: x23 [ x PERS: 3 NUM: sg IND: - ] ]
+ [ udef_q_rel<30:35> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ "_paper_n_1_rel"<30:35> LBL: h27 ARG0: x23 ]
+ [ "_clip_n_1_rel"<36:41> LBL: h21 ARG0: x17 ]
+ [ _in_p_rel<42:44> LBL: h21 ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x17 ARG2: x29 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<45:46> LBL: h30 ARG0: x29 RSTR: h31 BODY: h32 ]
+ [ card_rel<45:46> LBL: h33 CARG: "9" ARG0: e35 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x29 ]
+ [ "_box_n_of_rel"<47:53> LBL: h33 ARG0: x29 ARG1: i36 ]
+ [ udef_q_rel<54:74> LBL: h37 ARG0: x38 [ x PERS: 3 NUM: pl IND: + ] RSTR: h39 BODY: h40 ]
+ [ abstr_deg_rel<54:57> LBL: h41 ARG0: i42 ]
+ [ which_q_rel<54:57> LBL: h43 ARG0: i42 RSTR: h44 BODY: h45 ]
+ [ measure_rel<54:57> LBL: h46 ARG0: e47 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e48 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i42 ]
+ [ much-many_a_rel<58:62> LBL: h46 ARG0: e48 ARG1: x38 ]
+ [ compound_rel<63:74> LBL: h46 ARG0: e49 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x38 ARG2: x50 [ x PERS: 3 NUM: sg IND: - ] ]
+ [ udef_q_rel<63:68> LBL: h51 ARG0: x50 RSTR: h52 BODY: h53 ]
+ [ "_paper_n_1_rel"<63:68> LBL: h54 ARG0: x50 ]
+ [ "_clip_n_1_rel"<69:74> LBL: h46 ARG0: x38 ]
+ [ _each_q_rel<80:84> LBL: h55 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h56 BODY: h57 ]
+ [ "_box_n_of_rel"<85:88> LBL: h58 ARG0: x3 ARG1: i59 ]
+ [ "_contain_v_1_rel"<89:97> LBL: h60 ARG0: e2 ARG1: x3 ARG2: x38 ] >
+HCONS: < h0 qeq h1 h5 qeq h60 h6 qeq h12 h10 qeq h7 h14 qeq h15 h19 qeq h21 h25 qeq h27 h31 qeq h33 h39 qeq h46 h44 qeq h41 h52 qeq h54 h56 qeq h58 > ]
+
+

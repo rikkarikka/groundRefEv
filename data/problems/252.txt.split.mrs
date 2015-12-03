@@ -1,0 +1,56 @@
+SENT: Before the recent housing boom, there were 1,426 houses in Lawrence County.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ focus_d_rel<0:75> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
+ [ _before_p_rel<0:6> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<7:10> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
+ [ compound_rel<11:31> LBL: h10 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x6 ARG2: x12 ]
+ [ udef_q_rel<11:25> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
+ [ "_recent_a_1_rel"<11:17> LBL: h16 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x12 ]
+ [ "_housing_n_1_rel"<18:25> LBL: h16 ARG0: x12 ]
+ [ "_boom_n_1_rel"<26:31> LBL: h10 ARG0: x6 ]
+ [ _be_v_there_rel<38:42> LBL: h1 ARG0: e2 ARG1: x18 [ x PERS: 3 NUM: pl GEND: n IND: + ] ]
+ [ udef_q_rel<43:48> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ card_rel<43:48> LBL: h22 CARG: "1,426" ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x18 ]
+ [ "_house_n_of_rel"<49:55> LBL: h22 ARG0: x18 ARG1: i25 ]
+ [ _in_p_rel<56:58> LBL: h22 ARG0: e26 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x18 ARG2: x27 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<59:75> LBL: h28 ARG0: x27 RSTR: h29 BODY: h30 ]
+ [ named_rel<59:67> LBL: h31 CARG: "Lawrence" ARG0: x27 ]
+ [ "_county_n_of_rel"<68:75> LBL: h33 ARG0: x34 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<68:75> LBL: h35 ARG0: x34 RSTR: h36 BODY: h37 ]
+ [ compound_rel<68:75> LBL: h31 ARG0: i38 ARG1: x27 ARG2: x34 ] >
+HCONS: < h0 qeq h1 h8 qeq h10 h14 qeq h16 h20 qeq h22 h29 qeq h31 h36 qeq h33 > ]
+
+
+SENT: Now, there are 2,000 houses.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ "_now_a_1_rel"<0:4> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h5 ]
+ [ _be_v_there_rel<11:14> LBL: h6 ARG0: e2 ARG1: x7 [ x PERS: 3 NUM: pl GEND: n IND: + ] ]
+ [ udef_q_rel<15:20> LBL: h8 ARG0: x7 RSTR: h9 BODY: h10 ]
+ [ card_rel<15:20> LBL: h11 CARG: "2,000" ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x7 ]
+ [ "_house_n_of_rel"<21:28> LBL: h11 ARG0: x7 ARG1: i14 ] >
+HCONS: < h0 qeq h1 h5 qeq h6 h9 qeq h11 > ]
+
+
+SENT: How many houses did developers build during the housing boom?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:15> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_house_n_of_rel"<9:15> LBL: h13 ARG0: x5 ARG1: i16 ]
+ [ udef_q_rel<20:30> LBL: h17 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h18 BODY: h19 ]
+ [ "_developer_n_of_rel"<20:30> LBL: h20 ARG0: x3 ARG1: i21 ]
+ [ "_build_v_1_rel"<31:36> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ _during_p_rel<37:43> LBL: h1 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x23 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<44:47> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ compound_rel<48:61> LBL: h27 ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x23 ARG2: x29 ]
+ [ udef_q_rel<48:55> LBL: h30 ARG0: x29 RSTR: h31 BODY: h32 ]
+ [ "_housing_n_1_rel"<48:55> LBL: h33 ARG0: x29 ]
+ [ "_boom_n_1_rel"<56:61> LBL: h27 ARG0: x23 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h20 h25 qeq h27 h31 qeq h33 > ]
+
+

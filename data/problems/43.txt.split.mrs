@@ -1,0 +1,42 @@
+SENT: Joan has 40 blue balloons Melanie has 41 blue balloons.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Joan" ARG0: x3 ]
+ [ "_have_v_1_rel"<5:8> LBL: h9 ARG0: e2 ARG1: x3 ARG2: x10 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ appos_rel<9:33> LBL: h9 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x10 ARG2: x12 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<9:11> LBL: h13 ARG0: x10 RSTR: h14 BODY: h15 ]
+ [ card_rel<9:11> LBL: h16 CARG: "40" ARG0: e18 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x10 ]
+ [ "_blue_a_1_rel"<12:16> LBL: h16 ARG0: e19 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x10 ]
+ [ "_balloon_n_1_rel"<17:25> LBL: h16 ARG0: x10 ]
+ [ proper_q_rel<26:33> LBL: h20 ARG0: x12 RSTR: h21 BODY: h22 ]
+ [ named_rel<26:33> LBL: h23 CARG: "Melanie" ARG0: x12 ]
+ [ "_have_v_1_rel"<34:37> LBL: h25 ARG0: e26 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x27 [ x PERS: 3 NUM: sg ] ARG2: x28 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ "_if_x_then_rel"<34:37> LBL: h1 ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h30 ARG2: h31 ]
+ [ number_q_rel<38:40> LBL: h32 ARG0: x27 RSTR: h33 BODY: h34 ]
+ [ card_rel<38:40> LBL: h35 CARG: "41" ARG0: x27 ARG1: i37 ]
+ [ udef_q_rel<41:55> LBL: h38 ARG0: x28 RSTR: h39 BODY: h40 ]
+ [ "_blue_a_1_rel"<41:45> LBL: h41 ARG0: e42 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x28 ]
+ [ "_balloon_n_1_rel"<46:55> LBL: h41 ARG0: x28 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h14 qeq h16 h21 qeq h23 h30 qeq h9 h31 qeq h25 h33 qeq h35 h39 qeq h41 > ]
+
+
+SENT: How many blue balloons do they have in total ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:22> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_blue_a_1_rel"<9:13> LBL: h13 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x5 ]
+ [ "_balloon_n_1_rel"<14:22> LBL: h13 ARG0: x5 ]
+ [ pron_rel<26:30> LBL: h17 ARG0: x3 [ x PERS: 3 NUM: pl PT: std ] ]
+ [ pronoun_q_rel<26:30> LBL: h18 ARG0: x3 RSTR: h19 BODY: h20 ]
+ [ "_have_v_prd_rel"<31:35> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ARG3: h21 ]
+ [ _in_p_rel<36:38> LBL: h22 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x5 ARG2: x24 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ idiom_q_i_rel<39:46> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ "_total_n_of_rel"<39:46> LBL: h28 ARG0: x24 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h19 qeq h17 h21 qeq h22 h26 qeq h28 > ]
+
+

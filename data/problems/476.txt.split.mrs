@@ -1,0 +1,48 @@
+SENT: The Spurs basketball team has 22 players.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ compound_rel<4:25> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 [ x IND: + ] ]
+ [ proper_q_rel<4:9> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ named_rel<4:9> LBL: h13 CARG: "Spurs" ARG0: x9 ]
+ [ compound_rel<10:25> LBL: h7 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x16 ]
+ [ udef_q_rel<10:20> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_basketball_n_1_rel"<10:20> LBL: h20 ARG0: x16 ]
+ [ "_team_n_of_rel"<21:25> LBL: h7 ARG0: x3 ARG1: i21 ]
+ [ "_have_v_1_rel"<26:29> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x22 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<30:32> LBL: h23 ARG0: x22 RSTR: h24 BODY: h25 ]
+ [ card_rel<30:32> LBL: h26 CARG: "22" ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x22 ]
+ [ "_player_n_of_rel"<33:41> LBL: h26 ARG0: x22 ARG1: i29 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h18 qeq h20 h24 qeq h26 > ]
+
+
+SENT: Each player has 11 basketballs.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _each_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_player_n_of_rel"<5:11> LBL: h7 ARG0: x3 ARG1: i8 ]
+ [ "_have_v_1_rel"<12:15> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<16:18> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<16:18> LBL: h13 CARG: "11" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_basketball_n_1_rel"<19:31> LBL: h13 ARG0: x9 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
+
+
+SENT: How many basketballs do they have in all?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:20> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_basketball_n_1_rel"<9:20> LBL: h13 ARG0: x5 ]
+ [ pron_rel<24:28> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: pl PT: std ] ]
+ [ pronoun_q_rel<24:28> LBL: h17 ARG0: x3 RSTR: h18 BODY: h19 ]
+ [ "_have_v_1_rel"<29:33> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ _in_p_rel<34:36> LBL: h1 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x21 [ x PERS: 3 ] ]
+ [ _all_q_rel<37:41> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ generic_entity_rel<37:41> LBL: h25 ARG0: x21 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h16 h23 qeq h25 > ]
+
+

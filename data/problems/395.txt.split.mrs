@@ -1,0 +1,36 @@
+SENT: Bryan had 8 precious stones in his collection which he sold to his friend from the jewelry store.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:5> LBL: h7 CARG: "Bryan" ARG0: x3 ]
+ [ "_have_v_1_rel"<6:9> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<10:11> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<10:11> LBL: h13 CARG: "8" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_precious_a_1_rel"<12:20> LBL: h13 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_stone_n_1_rel"<21:27> LBL: h13 ARG0: x9 ]
+ [ _in_p_rel<28:30> LBL: h13 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ARG2: x18 [ x PERS: 3 NUM: sg ] ]
+ [ def_explicit_q_rel<31:34> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ poss_rel<31:34> LBL: h22 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x18 ARG2: x24 [ x PERS: 3 NUM: sg GEND: m PT: std ] ]
+ [ pronoun_q_rel<31:34> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ pron_rel<31:34> LBL: h28 ARG0: x24 ]
+ [ "_collection_n_of_rel"<35:45> LBL: h22 ARG0: x18 ARG1: i29 ]
+ [ pron_rel<52:54> LBL: h30 ARG0: x31 [ x PERS: 3 NUM: sg GEND: m PT: std ] ]
+ [ pronoun_q_rel<52:54> LBL: h32 ARG0: x31 RSTR: h33 BODY: h34 ]
+ [ "_sell_v_1_rel"<55:59> LBL: h13 ARG0: e35 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x31 ARG2: x9 ARG3: x36 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ def_explicit_q_rel<63:66> LBL: h37 ARG0: x36 RSTR: h38 BODY: h39 ]
+ [ poss_rel<63:66> LBL: h40 ARG0: e41 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x36 ARG2: x42 [ x PERS: 3 NUM: sg GEND: m PT: std ] ]
+ [ pronoun_q_rel<63:66> LBL: h43 ARG0: x42 RSTR: h44 BODY: h45 ]
+ [ pron_rel<63:66> LBL: h46 ARG0: x42 ]
+ [ "_friend_n_1_rel"<67:73> LBL: h40 ARG0: x36 ]
+ [ _from_p_rel<74:78> LBL: h13 ARG0: e47 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e35 ARG2: x48 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<79:82> LBL: h49 ARG0: x48 RSTR: h50 BODY: h51 ]
+ [ compound_rel<83:97> LBL: h52 ARG0: e53 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x48 ARG2: x54 [ x PERS: 3 NUM: sg IND: - ] ]
+ [ udef_q_rel<83:90> LBL: h55 ARG0: x54 RSTR: h56 BODY: h57 ]
+ [ "_jewelry_n_1_rel"<83:90> LBL: h58 ARG0: x54 ]
+ [ "_store_n_1_rel"<91:97> LBL: h52 ARG0: x48 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h20 qeq h22 h26 qeq h28 h33 qeq h30 h38 qeq h40 h44 qeq h46 h50 qeq h52 h56 qeq h58 > ]
+
+
+SKIP: If the stones were sold at 1785 dollar each, how much money did Bryan get in total?
+
+

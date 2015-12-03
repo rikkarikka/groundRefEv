@@ -1,0 +1,52 @@
+SENT: Jill invited 37 people to her birthday party.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Jill" ARG0: x3 ]
+ [ "_invite_v_to_rel"<5:12> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ARG3: x10 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<13:15> LBL: h11 ARG0: x9 RSTR: h12 BODY: h13 ]
+ [ card_rel<13:15> LBL: h14 CARG: "37" ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_people_n_of_rel"<16:22> LBL: h14 ARG0: x9 ARG1: i17 ]
+ [ def_explicit_q_rel<26:29> LBL: h18 ARG0: x10 RSTR: h19 BODY: h20 ]
+ [ poss_rel<26:29> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x10 ARG2: x23 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
+ [ pronoun_q_rel<26:29> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ pron_rel<26:29> LBL: h27 ARG0: x23 ]
+ [ compound_rel<30:45> LBL: h21 ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x10 ARG2: x29 [ x IND: + ] ]
+ [ udef_q_rel<30:38> LBL: h30 ARG0: x29 RSTR: h31 BODY: h32 ]
+ [ "_birthday_n_1_rel"<30:38> LBL: h33 ARG0: x29 ]
+ [ "_party_n_of-to_rel"<39:45> LBL: h21 ARG0: x10 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h12 qeq h14 h19 qeq h21 h25 qeq h27 h31 qeq h33 > ]
+
+
+SENT: They each ate 8 pieces of pizza.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl PT: std ] ]
+ [ pronoun_q_rel<0:4> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_each_p_rel"<5:9> LBL: h1 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ]
+ [ "_eat_v_1_rel"<10:13> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<14:15> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<14:15> LBL: h13 CARG: "8" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_piece_n_of_rel"<16:22> LBL: h13 ARG0: x9 ARG1: x16 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<26:32> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_pizza_n_1_rel"<26:32> LBL: h20 ARG0: x16 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h11 qeq h13 h18 qeq h20 > ]
+
+
+SENT: How many pieces of pizza did they eat?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:24> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_piece_n_of_rel"<9:15> LBL: h13 ARG0: x5 ARG1: x16 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<19:24> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_pizza_n_1_rel"<19:24> LBL: h20 ARG0: x16 ]
+ [ pron_rel<29:33> LBL: h21 ARG0: x3 [ x PERS: 3 NUM: pl PT: std ] ]
+ [ pronoun_q_rel<29:33> LBL: h22 ARG0: x3 RSTR: h23 BODY: h24 ]
+ [ "_eat_v_1_rel"<34:38> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h20 h23 qeq h21 > ]
+
+

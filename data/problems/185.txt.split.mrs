@@ -1,0 +1,50 @@
+SENT: There were a total of 7 baseball games a month.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _be_v_there_rel<6:10> LBL: h1 ARG0: e2 ARG1: x4 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<11:12> LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]
+ [ "_total_n_of_rel"<13:18> LBL: h8 ARG0: x4 ARG1: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<22:23> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<22:23> LBL: h13 CARG: "7" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ compound_rel<24:38> LBL: h13 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x9 ARG2: x17 ]
+ [ udef_q_rel<24:32> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ "_baseball_n_1_rel"<24:32> LBL: h21 ARG0: x17 ]
+ [ "_game_n_1_rel"<33:38> LBL: h13 ARG0: x9 ]
+ [ _a_p_per_rel<39:40> LBL: h13 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x9 ARG2: x23 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<39:40> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ "_month_n_1_rel"<41:47> LBL: h27 ARG0: x23 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 h11 qeq h13 h19 qeq h21 h25 qeq h27 > ]
+
+
+SENT: The season is played for 2 months.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ season_rel<4:10> LBL: h7 CARG: "season" ARG0: x3 ]
+ [ "_play_v_1_rel"<14:20> LBL: h1 ARG0: e2 ARG1: i9 ARG2: x3 ]
+ [ parg_d_rel<14:20> LBL: h1 ARG0: e10 [ e SF: prop ] ARG1: e2 ARG2: x3 ]
+ [ _for_p_rel<21:24> LBL: h1 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x12 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<25:34> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
+ [ card_rel<25:26> LBL: h16 CARG: "2" ARG0: e18 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x12 ]
+ [ "_month_n_1_rel"<27:34> LBL: h16 ARG0: x12 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h14 qeq h16 > ]
+
+
+SENT: How many baseball games are in a season ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:23> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ abstr_deg_rel<0:3> LBL: h7 ARG0: i8 ]
+ [ which_q_rel<0:3> LBL: h9 ARG0: i8 RSTR: h10 BODY: h11 ]
+ [ measure_rel<0:3> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i8 ]
+ [ much-many_a_rel<4:8> LBL: h12 ARG0: e14 ARG1: x3 ]
+ [ compound_rel<9:23> LBL: h12 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x16 ]
+ [ udef_q_rel<9:17> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_baseball_n_1_rel"<9:17> LBL: h20 ARG0: x16 ]
+ [ "_game_n_1_rel"<18:23> LBL: h12 ARG0: x3 ]
+ [ _in_p_temp_rel<28:30> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x21 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<31:32> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ season_rel<33:41> LBL: h25 CARG: "season" ARG0: x21 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 h18 qeq h20 h23 qeq h25 > ]
+
+

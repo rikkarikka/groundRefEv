@@ -1,0 +1,56 @@
+SENT: The Sumata family took a 5 day vacation by car.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _the_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ compound_rel<4:17> LBL: h7 ARG0: e8 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x9 [ x IND: + ] ]
+ [ proper_q_rel<4:10> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ named_rel<4:10> LBL: h13 CARG: "Sumata" ARG0: x9 ]
+ [ "_family_n_of_rel"<11:17> LBL: h7 ARG0: x3 ARG1: i15 ]
+ [ "_take_v_1_rel"<18:22> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x16 [ x PERS: 3 NUM: sg ] ARG3: u17 ]
+ [ _a_q_rel<23:24> LBL: h18 ARG0: x16 RSTR: h19 BODY: h20 ]
+ [ compound_rel<25:39> LBL: h21 ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x16 ARG2: x23 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<25:30> LBL: h24 ARG0: x23 RSTR: h25 BODY: h26 ]
+ [ card_rel<25:26> LBL: h27 CARG: "5" ARG0: e29 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x23 ]
+ [ "_day_n_of_rel"<27:30> LBL: h27 ARG0: x23 ARG1: i30 ]
+ [ "_vacation_n_1_rel"<31:39> LBL: h21 ARG0: x16 ]
+ [ _by_p_means_rel<40:42> LBL: h1 ARG0: e31 [ e SF: prop ] ARG1: e2 ARG2: x32 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<40:42> LBL: h33 ARG0: x32 RSTR: h34 BODY: h35 ]
+ [ "_car_n_1_rel"<43:47> LBL: h36 ARG0: x32 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 h19 qeq h21 h25 qeq h27 h34 qeq h36 > ]
+
+
+SENT: Each day they drove 250 miles.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ focus_d_rel<0:30> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
+ [ loc_nonsp_rel<0:8> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _each_q_rel<0:4> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
+ [ "_day_n_of_rel"<5:8> LBL: h10 ARG0: x6 ARG1: i11 ]
+ [ pron_rel<9:13> LBL: h12 ARG0: x3 [ x PERS: 3 NUM: pl PT: std ] ]
+ [ pronoun_q_rel<9:13> LBL: h13 ARG0: x3 RSTR: h14 BODY: h15 ]
+ [ "_drive_v_1_rel"<14:19> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x16 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<20:30> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ card_rel<20:23> LBL: h20 CARG: "250" ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x16 ]
+ [ "_mile_n_1_rel"<24:30> LBL: h20 ARG0: x16 ] >
+HCONS: < h0 qeq h1 h8 qeq h10 h14 qeq h12 h18 qeq h20 > ]
+
+
+SENT: How many total miles did they drive?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ loc_nonsp_rel<0:20> LBL: h1 ARG0: e4 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x5 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<0:20> LBL: h6 ARG0: x5 RSTR: h7 BODY: h8 ]
+ [ abstr_deg_rel<0:3> LBL: h9 ARG0: i10 ]
+ [ which_q_rel<0:3> LBL: h11 ARG0: i10 RSTR: h12 BODY: h13 ]
+ [ measure_rel<0:3> LBL: h14 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i10 ]
+ [ much-many_a_rel<4:8> LBL: h14 ARG0: e16 ARG1: x5 ]
+ [ compound_rel<9:20> LBL: h14 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x5 ARG2: x18 [ x IND: + ] ]
+ [ udef_q_rel<9:14> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ "_total_n_of_rel"<9:14> LBL: h22 ARG0: x18 ]
+ [ "_mile_n_1_rel"<15:20> LBL: h14 ARG0: x5 ]
+ [ pron_rel<25:29> LBL: h23 ARG0: x3 [ x PERS: 3 NUM: pl PT: std ] ]
+ [ pronoun_q_rel<25:29> LBL: h24 ARG0: x3 RSTR: h25 BODY: h26 ]
+ [ "_drive_v_1_rel"<30:36> LBL: h1 ARG0: e2 ARG1: x3 ] >
+HCONS: < h0 qeq h1 h7 qeq h14 h12 qeq h9 h20 qeq h22 h25 qeq h23 > ]
+
+

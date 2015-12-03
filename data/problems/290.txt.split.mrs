@@ -1,0 +1,32 @@
+SENT: A tailor cut 0.75 of an inch off a skirt and 0.5 of an inch off a pair of pants.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _a_q_rel<0:1> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_tailor_n_1_rel"<2:8> LBL: h7 ARG0: x3 ]
+ [ "_cut_v_1_rel"<9:12> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<13:17> LBL: h9 ARG0: x8 ARG1: x10 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<13:17> LBL: h11 ARG0: x8 RSTR: h12 BODY: h13 ]
+ [ card_rel<13:17> LBL: h9 CARG: "0.75" ARG0: e15 [ e SF: prop ] ARG1: x8 ]
+ [ _a_q_rel<21:23> LBL: h16 ARG0: x10 RSTR: h17 BODY: h18 ]
+ [ "_inch_n_1_rel"<24:28> LBL: h19 ARG0: x10 ]
+ [ _off_p_rel<29:32> LBL: h19 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x10 ARG2: x21 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<33:59> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ _a_q_rel<33:34> LBL: h25 ARG0: x26 [ x PERS: 3 NUM: sg IND: + ] RSTR: h27 BODY: h28 ]
+ [ "_skirt_n_1_rel"<35:40> LBL: h29 ARG0: x26 ]
+ [ _and_c_rel<41:44> LBL: h30 ARG0: x21 L-INDEX: x26 R-INDEX: x31 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<45:48> LBL: h32 ARG0: x31 ARG1: x33 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<45:48> LBL: h34 ARG0: x31 RSTR: h35 BODY: h36 ]
+ [ card_rel<45:48> LBL: h32 CARG: "0.5" ARG0: e38 [ e SF: prop ] ARG1: x31 ]
+ [ _a_q_rel<52:54> LBL: h39 ARG0: x33 RSTR: h40 BODY: h41 ]
+ [ "_inch_n_1_rel"<55:59> LBL: h42 ARG0: x33 ]
+ [ _off_p_rel<60:63> LBL: h1 ARG0: e43 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x44 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<64:65> LBL: h45 ARG0: x44 RSTR: h46 BODY: h47 ]
+ [ "_pair_n_of_rel"<66:70> LBL: h48 ARG0: x44 ARG1: x49 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<74:80> LBL: h50 ARG0: x49 RSTR: h51 BODY: h52 ]
+ [ "_pants_n_1_rel"<74:80> LBL: h53 ARG0: x49 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h12 qeq h9 h17 qeq h19 h23 qeq h30 h27 qeq h29 h35 qeq h32 h40 qeq h42 h46 qeq h48 h51 qeq h53 > ]
+
+
+SKIP: How much more did the tailor cut off the skirt than the pants?
+
+

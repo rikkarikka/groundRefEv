@@ -1,0 +1,1 @@
+The sum of three consecutive even numbers is 162. What is the smallest of the three numbers ?

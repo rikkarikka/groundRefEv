@@ -1,0 +1,36 @@
+SENT: There are 4 children in the classroom, each student will get 2 pencils.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop ]
+RELS: < [ implicit_conj_rel<0:71> LBL: h1 ARG0: e2 L-INDEX: e4 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] R-INDEX: e5 [ e SF: prop TENSE: fut MOOD: indicative PROG: - PERF: - ] L-HNDL: h6 R-HNDL: h7 ]
+ [ _be_v_there_rel<6:9> LBL: h8 ARG0: e4 ARG1: x9 [ x PERS: 3 NUM: pl GEND: n IND: + ] ]
+ [ udef_q_rel<10:11> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<10:11> LBL: h13 CARG: "4" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_child_n_1_rel"<12:20> LBL: h13 ARG0: x9 ]
+ [ _in_p_rel<21:23> LBL: h13 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ARG2: x17 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<24:27> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ "_classroom_n_1_rel"<28:38> LBL: h21 ARG0: x17 ]
+ [ _each_q_rel<39:43> LBL: h22 ARG0: x23 [ x PERS: 3 NUM: sg IND: + ] RSTR: h24 BODY: h25 ]
+ [ "_student_n_of_rel"<44:51> LBL: h26 ARG0: x23 ARG1: i27 ]
+ [ "_get_v_1_rel"<57:60> LBL: h28 ARG0: e5 ARG1: x23 ARG2: x29 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<61:62> LBL: h30 ARG0: x29 RSTR: h31 BODY: h32 ]
+ [ card_rel<61:62> LBL: h33 CARG: "2" ARG0: e35 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x29 ]
+ [ "_pencil_n_1_rel"<63:71> LBL: h33 ARG0: x29 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 h7 qeq h28 h11 qeq h13 h19 qeq h21 h24 qeq h26 h31 qeq h33 > ]
+
+
+SENT: How many pencils will the teacher have to give out ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: fut MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:16> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_pencil_n_1_rel"<9:16> LBL: h13 ARG0: x5 ]
+ [ _the_q_rel<22:25> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h17 BODY: h18 ]
+ [ "_teacher_n_of_rel"<26:33> LBL: h19 ARG0: x3 ARG1: i20 ]
+ [ "_have_v_qmodal_rel"<34:38> LBL: h1 ARG0: e2 ARG1: h21 ]
+ [ "_give_v_out-2_rel"<42:46> LBL: h22 ARG0: e23 [ e SF: prop-or-ques TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x5 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h17 qeq h19 h21 qeq h22 > ]
+
+

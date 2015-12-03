@@ -1,0 +1,61 @@
+SENT: Mrs.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop ]
+RELS: < [ unknown_rel<0:4> LBL: h1 ARG0: e2 ARG: x4 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<0:4> LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]
+ [ "_mister_n_1_rel"<0:4> LBL: h8 ARG0: x4 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 > ]
+
+
+SENT: Hilt saw a rollercoaster.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop ]
+RELS: < [ unknown_rel<0:25> LBL: h1 ARG0: e2 ARG: x4 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<0:25> LBL: h5 ARG0: x4 RSTR: h6 BODY: h7 ]
+ [ compound_rel<0:8> LBL: h8 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x4 ARG2: x10 [ x IND: + ] ]
+ [ udef_q_rel<0:4> LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]
+ [ "_hilt_n_1_rel"<0:4> LBL: h14 ARG0: x10 ]
+ [ "_saw_n_1_rel"<5:8> LBL: h8 ARG0: x4 ]
+ [ _a_p_per_rel<9:10> LBL: h8 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x4 ARG2: x16 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ udef_q_rel<9:10> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_roller+coaster_n_1_rel"<11:25> LBL: h20 ARG0: x16 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 h12 qeq h14 h18 qeq h20 > ]
+
+
+SENT: 7 students rode the rollercoaster every 5 minutes.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:1> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ card_rel<0:1> LBL: h7 CARG: "7" ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ]
+ [ "_student_n_of_rel"<2:10> LBL: h7 ARG0: x3 ARG1: i10 ]
+ [ "_ride_v_1_rel"<11:15> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x11 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<16:19> LBL: h12 ARG0: x11 RSTR: h13 BODY: h14 ]
+ [ "_roller+coaster_n_1_rel"<20:33> LBL: h15 ARG0: x11 ]
+ [ loc_nonsp_rel<34:39> LBL: h1 ARG0: e16 [ e SF: prop ] ARG1: e2 ARG2: i17 ]
+ [ interval_rel<34:39> LBL: h18 ARG0: i17 ARG1: x19 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<34:39> LBL: h20 ARG0: i17 RSTR: h21 BODY: h22 ]
+ [ udef_q_rel<40:50> LBL: h23 ARG0: x19 RSTR: h24 BODY: h25 ]
+ [ card_rel<40:41> LBL: h26 CARG: "5" ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x19 ]
+ [ "_minute_n_1_rel"<42:50> LBL: h26 ARG0: x19 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h13 qeq h15 h21 qeq h18 h24 qeq h26 > ]
+
+
+SENT: How many students rode the rollercoaster in 15 minutes?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:17> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ abstr_deg_rel<0:3> LBL: h7 ARG0: i8 ]
+ [ which_q_rel<0:3> LBL: h9 ARG0: i8 RSTR: h10 BODY: h11 ]
+ [ measure_rel<0:3> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i8 ]
+ [ much-many_a_rel<4:8> LBL: h12 ARG0: e14 ARG1: x3 ]
+ [ "_student_n_of_rel"<9:17> LBL: h12 ARG0: x3 ARG1: i15 ]
+ [ "_ride_v_1_rel"<18:22> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x16 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<23:26> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ "_roller+coaster_n_1_rel"<27:40> LBL: h20 ARG0: x16 ]
+ [ _in_p_rel<41:43> LBL: h1 ARG0: e21 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x22 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<44:55> LBL: h23 ARG0: x22 RSTR: h24 BODY: h25 ]
+ [ card_rel<44:46> LBL: h26 CARG: "15" ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x22 ]
+ [ "_minute_n_1_rel"<47:55> LBL: h26 ARG0: x22 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 h18 qeq h20 h24 qeq h26 > ]
+
+

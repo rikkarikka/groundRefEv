@@ -1,0 +1,44 @@
+SENT: Students went to a concert in 8 buses.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:8> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_student_n_of_rel"<0:8> LBL: h7 ARG0: x3 ARG1: i8 ]
+ [ "_go_v_1_rel"<9:13> LBL: h1 ARG0: e2 ARG1: x3 ]
+ [ _to_p_rel<14:16> LBL: h1 ARG0: e9 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x10 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<17:18> LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]
+ [ "_concert_n_1_rel"<19:26> LBL: h14 ARG0: x10 ]
+ [ _in_p_rel<27:29> LBL: h1 ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e2 ARG2: x16 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<30:31> LBL: h17 ARG0: x16 RSTR: h18 BODY: h19 ]
+ [ card_rel<30:31> LBL: h20 CARG: "8" ARG0: e22 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x16 ]
+ [ "_bus_n_1_rel"<32:38> LBL: h20 ARG0: x16 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h12 qeq h14 h18 qeq h20 > ]
+
+
+SENT: Each bus took 45 students.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ _each_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ "_bus_n_1_rel"<5:8> LBL: h7 ARG0: x3 ]
+ [ "_take_v_1_rel"<9:13> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl IND: + ] ARG3: u9 ]
+ [ udef_q_rel<14:16> LBL: h10 ARG0: x8 RSTR: h11 BODY: h12 ]
+ [ card_rel<14:16> LBL: h13 CARG: "45" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x8 ]
+ [ "_student_n_of_rel"<17:26> LBL: h13 ARG0: x8 ARG1: i16 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
+
+
+SENT: How many students went to the concert?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:17> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: pl IND: + ] RSTR: h5 BODY: h6 ]
+ [ abstr_deg_rel<0:3> LBL: h7 ARG0: i8 ]
+ [ which_q_rel<0:3> LBL: h9 ARG0: i8 RSTR: h10 BODY: h11 ]
+ [ measure_rel<0:3> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i8 ]
+ [ much-many_a_rel<4:8> LBL: h12 ARG0: e14 ARG1: x3 ]
+ [ "_student_n_of_rel"<9:17> LBL: h12 ARG0: x3 ARG1: i15 ]
+ [ "_go_v_1_rel"<18:22> LBL: h1 ARG0: e2 ARG1: x3 ]
+ [ _to_p_rel<23:25> LBL: h1 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x17 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<26:29> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ "_concert_n_1_rel"<30:38> LBL: h21 ARG0: x17 ] >
+HCONS: < h0 qeq h1 h5 qeq h12 h10 qeq h7 h19 qeq h21 > ]
+
+

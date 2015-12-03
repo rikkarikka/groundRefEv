@@ -1,0 +1,40 @@
+SENT: Joan has 9 blue balloons but lost 2 of them.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Joan" ARG0: x3 ]
+ [ "_have_v_1_rel"<5:8> LBL: h9 ARG0: e10 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x11 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<9:10> LBL: h12 ARG0: x11 RSTR: h13 BODY: h14 ]
+ [ card_rel<9:10> LBL: h15 CARG: "9" ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x11 ]
+ [ "_blue_a_1_rel"<11:15> LBL: h15 ARG0: e18 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x11 ]
+ [ "_balloon_n_1_rel"<16:24> LBL: h15 ARG0: x11 ]
+ [ _but_c_rel<25:28> LBL: h1 ARG0: e2 L-INDEX: e10 R-INDEX: e19 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h9 R-HNDL: h20 ]
+ [ "_lose_v_1_rel"<29:33> LBL: h20 ARG0: e19 ARG1: x3 ARG2: x21 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<34:35> LBL: h22 ARG0: x21 ARG1: x23 [ x PERS: 3 NUM: pl PT: std ] ]
+ [ udef_q_rel<34:35> LBL: h24 ARG0: x21 RSTR: h25 BODY: h26 ]
+ [ card_rel<34:35> LBL: h22 CARG: "2" ARG0: e28 [ e SF: prop ] ARG1: x21 ]
+ [ pron_rel<39:44> LBL: h29 ARG0: x23 ]
+ [ pronoun_q_rel<39:44> LBL: h30 ARG0: x23 RSTR: h31 BODY: h32 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h13 qeq h15 h25 qeq h22 h31 qeq h29 > ]
+
+
+SENT: How many blue balloons does Joan have now ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:22> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_blue_a_1_rel"<9:13> LBL: h13 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x5 ]
+ [ "_balloon_n_1_rel"<14:22> LBL: h13 ARG0: x5 ]
+ [ proper_q_rel<28:32> LBL: h17 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h18 BODY: h19 ]
+ [ named_rel<28:32> LBL: h20 CARG: "Joan" ARG0: x3 ]
+ [ "_have_v_1_rel"<33:37> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ loc_nonsp_rel<38:43> LBL: h1 ARG0: e22 [ e SF: prop ] ARG1: e2 ARG2: x23 [ x PERS: 3 NUM: sg ] ]
+ [ time_n_rel<38:43> LBL: h24 ARG0: x23 ]
+ [ def_implicit_q_rel<38:43> LBL: h25 ARG0: x23 RSTR: h26 BODY: h27 ]
+ [ _now_a_1_rel<38:43> LBL: h24 ARG0: e28 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x23 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h18 qeq h20 h26 qeq h24 > ]
+
+

@@ -1,0 +1,65 @@
+SENT: Sandy went to the mall to buy clothes.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:5> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:5> LBL: h7 CARG: "Sandy" ARG0: x3 ]
+ [ "_go_v_1_rel"<6:10> LBL: h9 ARG0: e2 ARG1: x3 ]
+ [ _to_p_rel<11:13> LBL: h9 ARG0: e10 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: e2 ARG2: x11 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<14:17> LBL: h12 ARG0: x11 RSTR: h13 BODY: h14 ]
+ [ "_mall_n_1_rel"<18:22> LBL: h15 ARG0: x11 ]
+ [ "_in+order+to_x_rel"<23:25> LBL: h1 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h17 ARG2: h18 ]
+ [ "_buy_v_1_rel"<26:29> LBL: h19 ARG0: e20 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x3 ARG2: x21 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<30:38> LBL: h22 ARG0: x21 RSTR: h23 BODY: h24 ]
+ [ "_clothes_n_1_rel"<30:38> LBL: h25 ARG0: x21 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h13 qeq h15 h17 qeq h9 h18 qeq h19 h23 qeq h25 > ]
+
+
+SENT: She spent $13.99 on shorts, $12.14 on a shirt, and $7.43 on a jacket.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ pron_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
+ [ pronoun_q_rel<0:3> LBL: h5 ARG0: x3 RSTR: h6 BODY: h7 ]
+ [ "_spend_v_1_rel"<4:9> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x8 [ x PERS: 3 NUM: pl IND: + ] ARG3: h9 ]
+ [ udef_q_rel<10:56> LBL: h10 ARG0: x8 RSTR: h11 BODY: h12 ]
+ [ "_dollar_n_1_rel"<10:11> LBL: h13 ARG0: x8 ]
+ [ card_rel<11:16> LBL: h13 CARG: "13.99" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x8 ]
+ [ _on_p_rel<17:19> LBL: h13 ARG0: e16 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x8 ARG2: x17 [ x PERS: 3 NUM: pl ] ]
+ [ udef_q_rel<20:56> LBL: h18 ARG0: x17 RSTR: h19 BODY: h20 ]
+ [ udef_q_rel<20:27> LBL: h21 ARG0: x22 [ x PERS: 3 NUM: pl IND: + ] RSTR: h23 BODY: h24 ]
+ [ "_short_n_1_rel"<20:27> LBL: h25 ARG0: x22 ]
+ [ udef_q_rel<28:56> LBL: h26 ARG0: x27 [ x PERS: 3 NUM: pl ] RSTR: h28 BODY: h29 ]
+ [ implicit_conj_rel<28:56> LBL: h30 ARG0: x17 L-INDEX: x22 R-INDEX: x27 ]
+ [ udef_q_rel<28:46> LBL: h31 ARG0: x32 [ x PERS: 3 NUM: pl IND: + ] RSTR: h33 BODY: h34 ]
+ [ "_dollar_n_1_rel"<28:29> LBL: h35 ARG0: x32 ]
+ [ card_rel<29:34> LBL: h35 CARG: "12.14" ARG0: e37 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x32 ]
+ [ _on_p_rel<35:37> LBL: h35 ARG0: e38 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x32 ARG2: x39 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<38:39> LBL: h40 ARG0: x39 RSTR: h41 BODY: h42 ]
+ [ "_shirt_n_1_rel"<40:46> LBL: h43 ARG0: x39 ]
+ [ _and_c_rel<47:50> LBL: h44 ARG0: x27 L-INDEX: x32 R-INDEX: x45 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<51:56> LBL: h46 ARG0: x45 RSTR: h47 BODY: h48 ]
+ [ "_dollar_n_1_rel"<51:52> LBL: h49 ARG0: x45 ]
+ [ card_rel<52:56> LBL: h49 CARG: "7.43" ARG0: e51 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x45 ]
+ [ _on_p_rel<57:59> LBL: h52 ARG0: e53 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x8 ARG2: x54 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<60:61> LBL: h55 ARG0: x54 RSTR: h56 BODY: h57 ]
+ [ "_jacket_n_1_rel"<62:69> LBL: h58 ARG0: x54 ] >
+HCONS: < h0 qeq h1 h6 qeq h4 h9 qeq h52 h11 qeq h13 h19 qeq h30 h23 qeq h25 h28 qeq h44 h33 qeq h35 h41 qeq h43 h47 qeq h49 h56 qeq h58 > ]
+
+
+SENT: How much money did Sandy spend on clothes?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: sg ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_money_n_1_rel"<9:14> LBL: h13 ARG0: x5 ]
+ [ proper_q_rel<19:24> LBL: h16 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h17 BODY: h18 ]
+ [ named_rel<19:24> LBL: h19 CARG: "Sandy" ARG0: x3 ]
+ [ "_spend_v_1_rel"<25:30> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ARG3: h21 ]
+ [ _on_p_rel<31:33> LBL: h22 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x5 ARG2: x24 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<34:42> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ "_clothes_n_1_rel"<34:42> LBL: h28 ARG0: x24 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h17 qeq h19 h21 qeq h22 h26 qeq h28 > ]
+
+

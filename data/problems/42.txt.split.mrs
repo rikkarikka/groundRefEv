@@ -1,0 +1,40 @@
+SENT: Joan has 10 books.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:4> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:4> LBL: h7 CARG: "Joan" ARG0: x3 ]
+ [ "_have_v_1_rel"<5:8> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<9:11> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<9:11> LBL: h13 CARG: "10" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_book_n_of_rel"<12:18> LBL: h13 ARG0: x9 ARG1: i16 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
+
+
+SENT: Tom has 38 books.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ proper_q_rel<0:3> LBL: h4 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h5 BODY: h6 ]
+ [ named_rel<0:3> LBL: h7 CARG: "Tom" ARG0: x3 ]
+ [ "_have_v_1_rel"<4:7> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x9 [ x PERS: 3 NUM: pl IND: + ] ]
+ [ udef_q_rel<8:10> LBL: h10 ARG0: x9 RSTR: h11 BODY: h12 ]
+ [ card_rel<8:10> LBL: h13 CARG: "38" ARG0: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x9 ]
+ [ "_book_n_of_rel"<11:17> LBL: h13 ARG0: x9 ARG1: i16 ] >
+HCONS: < h0 qeq h1 h5 qeq h7 h11 qeq h13 > ]
+
+
+SENT: How many books do they have together ?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: pres MOOD: indicative PROG: - PERF: - ]
+RELS: < [ udef_q_rel<0:14> LBL: h4 ARG0: x5 [ x PERS: 3 NUM: pl IND: + ] RSTR: h6 BODY: h7 ]
+ [ abstr_deg_rel<0:3> LBL: h8 ARG0: i9 ]
+ [ which_q_rel<0:3> LBL: h10 ARG0: i9 RSTR: h11 BODY: h12 ]
+ [ measure_rel<0:3> LBL: h13 ARG0: e14 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: e15 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG2: i9 ]
+ [ much-many_a_rel<4:8> LBL: h13 ARG0: e15 ARG1: x5 ]
+ [ "_book_n_of_rel"<9:14> LBL: h13 ARG0: x5 ARG1: i16 ]
+ [ pron_rel<18:22> LBL: h17 ARG0: x3 [ x PERS: 3 NUM: pl PT: std ] ]
+ [ pronoun_q_rel<18:22> LBL: h18 ARG0: x3 RSTR: h19 BODY: h20 ]
+ [ "_have_v_1_rel"<23:27> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x5 ]
+ [ _together_p_rel<28:38> LBL: h1 ARG0: e21 [ e SF: prop ] ARG1: e2 ] >
+HCONS: < h0 qeq h1 h6 qeq h13 h11 qeq h8 h19 qeq h17 > ]
+
+

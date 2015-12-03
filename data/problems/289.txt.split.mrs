@@ -1,0 +1,44 @@
+SENT: At a pie-eating contest, Erik got through 0.6666666666666666 of a pie before time was called; Frank finished just 0.3333333333333333 of a pie.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ implicit_conj_rel<0:142> LBL: h1 ARG0: e2 L-INDEX: e4 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] R-INDEX: e5 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] L-HNDL: h6 R-HNDL: h7 ]
+ [ focus_d_rel<0:93> LBL: h8 ARG0: e9 [ e SF: prop ] ARG1: e4 ARG2: e10 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
+ [ _at_p_rel<0:2> LBL: h11 ARG0: e10 ARG1: e4 ARG2: x12 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _a_q_rel<3:4> LBL: h13 ARG0: x12 RSTR: h14 BODY: h15 ]
+ [ compound_rel<5:24> LBL: h16 ARG0: e17 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x12 ARG2: x18 [ x PERS: 3 NUM: sg GEND: n ] ]
+ [ udef_q_rel<5:15> LBL: h19 ARG0: x18 RSTR: h20 BODY: h21 ]
+ [ compound_rel<5:15> LBL: h22 ARG0: e23 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x18 ARG2: x24 ]
+ [ udef_q_rel<5:15> LBL: h25 ARG0: x24 RSTR: h26 BODY: h27 ]
+ [ "_pie_n_1_rel"<5:15> LBL: h28 ARG0: x24 ]
+ [ "_eat_v_1_rel"<5:15> LBL: h29 ARG0: e30 [ e SF: prop TENSE: untensed MOOD: indicative PROG: + PERF: - ] ARG1: i31 ARG2: p32 ]
+ [ nominalization_rel<5:15> LBL: h22 ARG0: x18 ARG1: h29 ]
+ [ "_contest_n_1_rel"<16:24> LBL: h16 ARG0: x12 ]
+ [ proper_q_rel<25:29> LBL: h33 ARG0: x34 [ x PERS: 3 NUM: sg IND: + ] RSTR: h35 BODY: h36 ]
+ [ named_rel<25:29> LBL: h37 CARG: "Erik" ARG0: x34 ]
+ [ "_get_v_state_rel"<30:33> LBL: h11 ARG0: e4 ARG1: x34 ARG2: h39 ]
+ [ _through_p_rel<34:41> LBL: h40 ARG0: e41 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x34 ARG2: x42 [ x PERS: 3 NUM: pl ] ]
+ [ part_of_rel<42:60> LBL: h43 ARG0: x42 ARG1: x44 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<42:60> LBL: h45 ARG0: x42 RSTR: h46 BODY: h47 ]
+ [ card_rel<42:60> LBL: h43 CARG: "0.6666666666666666" ARG0: e49 [ e SF: prop ] ARG1: x42 ]
+ [ _a_q_rel<64:65> LBL: h50 ARG0: x44 RSTR: h51 BODY: h52 ]
+ [ "_pie_n_1_rel"<66:69> LBL: h53 ARG0: x44 ]
+ [ "_before_x_h_rel"<70:76> LBL: h8 ARG0: e54 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: h55 ARG2: h56 ]
+ [ udef_q_rel<77:81> LBL: h57 ARG0: x58 [ x PERS: 3 NUM: sg GEND: n IND: - ] RSTR: h59 BODY: h60 ]
+ [ "_time_n_of_rel"<77:81> LBL: h61 ARG0: x58 ]
+ [ "_call_v_1_rel"<86:93> LBL: h62 ARG0: e63 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: i64 ARG2: x58 ]
+ [ parg_d_rel<86:93> LBL: h62 ARG0: e65 [ e SF: prop ] ARG1: e63 ARG2: x58 ]
+ [ proper_q_rel<94:99> LBL: h66 ARG0: x67 [ x PERS: 3 NUM: sg IND: + ] RSTR: h68 BODY: h69 ]
+ [ named_rel<94:99> LBL: h70 CARG: "Frank" ARG0: x67 ]
+ [ "_finish_v_1_rel"<100:108> LBL: h72 ARG0: e5 ARG1: x67 ARG2: x73 [ x PERS: 3 NUM: pl ] ]
+ [ "_just_x_deg_rel"<109:113> LBL: h74 ARG0: e75 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: u76 ]
+ [ part_of_rel<114:132> LBL: h77 ARG0: x73 ARG1: x78 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<114:132> LBL: h74 ARG0: x73 RSTR: h79 BODY: h80 ]
+ [ card_rel<114:132> LBL: h77 CARG: "0.3333333333333333" ARG0: e82 [ e SF: prop ] ARG1: x73 ]
+ [ _a_q_rel<136:137> LBL: h83 ARG0: x78 RSTR: h84 BODY: h85 ]
+ [ "_pie_n_1_rel"<138:142> LBL: h86 ARG0: x78 ] >
+HCONS: < h0 qeq h1 h6 qeq h8 h7 qeq h72 h14 qeq h16 h20 qeq h22 h26 qeq h28 h35 qeq h37 h39 qeq h40 h46 qeq h43 h51 qeq h53 h55 qeq h11 h56 qeq h62 h59 qeq h61 h68 qeq h70 h79 qeq h77 h84 qeq h86 > ]
+
+
+SKIP: How much more pie did Erik eat than Frank?
+
+

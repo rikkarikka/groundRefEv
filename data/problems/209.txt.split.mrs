@@ -1,0 +1,63 @@
+SENT: On Wednesday, Joan spent 4 half-dollars playing pinball.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ focus_d_rel<0:56> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
+ [ _on_p_temp_rel<0:2> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ proper_q_rel<3:13> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
+ [ dofw_rel<3:13> LBL: h10 CARG: "Wed" ARG0: x6 ]
+ [ proper_q_rel<14:18> LBL: h12 ARG0: x3 [ x PERS: 3 NUM: sg IND: + ] RSTR: h13 BODY: h14 ]
+ [ named_rel<14:18> LBL: h15 CARG: "Joan" ARG0: x3 ]
+ [ "_spend_v_1_rel"<19:24> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x17 [ x PERS: 3 NUM: pl IND: + ] ARG3: h18 ]
+ [ udef_q_rel<25:39> LBL: h19 ARG0: x17 RSTR: h20 BODY: h21 ]
+ [ card_rel<25:26> LBL: h22 CARG: "4" ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ]
+ [ compound_rel<27:39> LBL: h22 ARG0: e25 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ARG2: x26 [ x IND: + ] ]
+ [ udef_q_rel<27:39> LBL: h27 ARG0: x26 RSTR: h28 BODY: h29 ]
+ [ "_half_n_of_rel"<27:39> LBL: h30 ARG0: x26 ARG1: i31 ]
+ [ "_dollar_n_1_rel"<27:39> LBL: h22 ARG0: x17 ]
+ [ "_play_v_1_rel"<40:47> LBL: h32 ARG0: e33 [ e SF: prop TENSE: untensed MOOD: indicative PROG: + PERF: - ] ARG1: x3 ARG2: x34 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<48:56> LBL: h35 ARG0: x34 RSTR: h36 BODY: h37 ]
+ [ "_pinball/NN_u_unknown_rel"<48:56> LBL: h38 ARG0: x34 ] >
+HCONS: < h0 qeq h1 h8 qeq h10 h13 qeq h15 h18 qeq h32 h20 qeq h22 h28 qeq h30 h36 qeq h38 > ]
+
+
+SENT: The next day, she spent 14 half-dollars on pinball.
+[ LTOP: h0
+INDEX: e2 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ focus_d_rel<0:51> LBL: h1 ARG0: e4 [ e SF: prop ] ARG1: e2 ARG2: e5 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ]
+ [ loc_nonsp_rel<0:13> LBL: h1 ARG0: e5 ARG1: e2 ARG2: x6 [ x PERS: 3 NUM: sg IND: + ] ]
+ [ _the_q_rel<0:3> LBL: h7 ARG0: x6 RSTR: h8 BODY: h9 ]
+ [ "_next_a_1_rel"<4:8> LBL: h10 ARG0: e11 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x6 ]
+ [ "_day_n_of_rel"<9:13> LBL: h10 ARG0: x6 ARG1: i12 ]
+ [ pron_rel<14:17> LBL: h13 ARG0: x3 [ x PERS: 3 NUM: sg GEND: f PT: std ] ]
+ [ pronoun_q_rel<14:17> LBL: h14 ARG0: x3 RSTR: h15 BODY: h16 ]
+ [ "_spend_v_1_rel"<18:23> LBL: h1 ARG0: e2 ARG1: x3 ARG2: x17 [ x PERS: 3 NUM: pl IND: + ] ARG3: h18 ]
+ [ udef_q_rel<24:26> LBL: h19 ARG0: x17 RSTR: h20 BODY: h21 ]
+ [ card_rel<24:26> LBL: h22 CARG: "14" ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x17 ]
+ [ compound_rel<27:39> LBL: h22 ARG0: e25 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ARG2: x26 [ x IND: + ] ]
+ [ udef_q_rel<27:39> LBL: h27 ARG0: x26 RSTR: h28 BODY: h29 ]
+ [ "_half_n_of_rel"<27:39> LBL: h30 ARG0: x26 ARG1: i31 ]
+ [ "_dollar_n_1_rel"<27:39> LBL: h22 ARG0: x17 ]
+ [ _on_p_rel<40:42> LBL: h32 ARG0: e33 [ e SF: prop TENSE: untensed MOOD: indicative PROG: - PERF: - ] ARG1: x17 ARG2: x34 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<43:51> LBL: h35 ARG0: x34 RSTR: h36 BODY: h37 ]
+ [ "_pinball/NN_u_unknown_rel"<43:51> LBL: h38 ARG0: x34 ] >
+HCONS: < h0 qeq h1 h8 qeq h10 h15 qeq h13 h18 qeq h32 h20 qeq h22 h28 qeq h30 h36 qeq h38 > ]
+
+
+SENT: What was the total amount Joan spent playing pinball?
+[ LTOP: h0
+INDEX: e2 [ e SF: ques TENSE: past MOOD: indicative PROG: - PERF: - ]
+RELS: < [ thing_rel<0:4> LBL: h4 ARG0: x5 ]
+ [ which_q_rel<0:4> LBL: h6 ARG0: x5 RSTR: h7 BODY: h8 ]
+ [ _be_v_id_rel<5:8> LBL: h1 ARG0: e2 ARG1: x3 [ x PERS: 3 NUM: sg IND: + ] ARG2: x5 ]
+ [ _the_q_rel<9:12> LBL: h9 ARG0: x3 RSTR: h10 BODY: h11 ]
+ [ "_total_a_1_rel"<13:18> LBL: h12 ARG0: e13 [ e SF: prop TENSE: untensed MOOD: indicative ] ARG1: x3 ]
+ [ "_amount_n_of_rel"<19:25> LBL: h12 ARG0: x3 ARG1: i14 ]
+ [ proper_q_rel<26:30> LBL: h15 ARG0: x16 [ x PERS: 3 NUM: sg IND: + ] RSTR: h17 BODY: h18 ]
+ [ named_rel<26:30> LBL: h19 CARG: "Joan" ARG0: x16 ]
+ [ "_spend_v_1_rel"<31:36> LBL: h12 ARG0: e21 [ e SF: prop TENSE: past MOOD: indicative PROG: - PERF: - ] ARG1: x16 ARG2: x3 ARG3: h22 ]
+ [ "_play_v_1_rel"<37:44> LBL: h23 ARG0: e24 [ e SF: prop TENSE: untensed MOOD: indicative PROG: + PERF: - ] ARG1: x16 ARG2: x25 [ x PERS: 3 NUM: sg ] ]
+ [ udef_q_rel<45:53> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
+ [ "_pinball/NN_u_unknown_rel"<45:53> LBL: h29 ARG0: x25 ] >
+HCONS: < h0 qeq h1 h7 qeq h4 h10 qeq h12 h17 qeq h19 h22 qeq h23 h27 qeq h29 > ]
+
+
